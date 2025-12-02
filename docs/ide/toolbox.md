@@ -143,13 +143,13 @@ The following tools are available by default on the HTML tab.
 
 **Pointer**
 
-![ASP.NET Mobile Designer HTMLpage Pointer](../../ide/reference/media/vxpointer.gif)
+![ASP.NET Mobile Designer HTMLpage Pointer](../ide/media/vxpointer.gif)
 
 This tool is selected by default when any Toolbox tab opens. It cannot be deleted. The pointer enables you to drag objects onto the Design view surface, resize them, and reposition them on the page or form.
 
 **Input (Button)**
 
-![HTML web page button](../../ide/reference/media/vxbutton.gif)
+![HTML web page button](../ide/media/vxbutton.gif)
 
 Inserts an `input` element of `type="button"`. To change the text that is displayed, edit the `name` property. By default, `id="Button1"` is inserted for the first button, `id="Button2"` for the second, and so on.
 
@@ -161,7 +161,7 @@ When you drag **Input (Button)** onto the Design view surface, HTML markup like 
 
 **Input (Reset)**
 
-![HTMLpageResetButton screenshot](../../ide/reference/media/vxreset.gif)
+![HTMLpageResetButton screenshot](../ide/media/vxreset.gif)
 
 Inserts an `input` element of `type="reset"`. To change the text that is displayed, edit the `name` property. By default, `id="Reset1"` is inserted for the first reset button, `id="Reset2"` for the second, and so on.
 
@@ -173,7 +173,7 @@ When you drag **Input (Reset)** onto the Design view surface, HTML markup like t
 
 **Input (Submit)**
 
-![HTMLpageToolbarSubmitButton screenshot](../../ide/reference/media/vxsubmit.gif)
+![HTMLpageToolbarSubmitButton screenshot](../ide/media/vxsubmit.gif)
 
 Inserts an `input` element of `type="submit"`. To change the text that is displayed, edit the `name` property. By default, `id="Submit1"` is inserted for the first submit button, `id="Submit2"` for the second, and so on.
 
@@ -185,7 +185,7 @@ When you drag **Input (Submit)** onto the Design view surface, HTML markup like 
 
 **Input (Text)**
 
-![HTMLpageToolbarTextField screenshot](../../ide/reference/media/vxtextfield.gif)
+![HTMLpageToolbarTextField screenshot](../ide/media/vxtextfield.gif)
 
 Inserts an `input` element of `type="text"` in your document. To change the default text that is displayed, edit the `value` attribute. By default, `id="Text1"` is inserted for the first text field, `id="Text2"` for the second, and so on.
 
@@ -200,7 +200,7 @@ When you drag **Input (Text)** onto the Design view surface, HTML markup like th
 
 **Input (File)**
 
-![HTML page File Field](../../ide/reference/media/vxfilefield.gif)
+![HTML page File Field](../ide/media/vxfilefield.gif)
 
 Inserts an `input` element of `type="file"` in your document. By default, `id="File1"` is inserted for the first file field, `id="File2"` for the second, and so on.
 
@@ -215,7 +215,7 @@ When you drag **Input (File)** onto the Design view surface, HTML markup like th
 
 **Input (Password)**
 
-![Visual Studio Password Field](../../ide/reference/media/vxpassword.gif)
+![Visual Studio Password Field](../ide/media/vxpassword.gif)
 
 Inserts an `input` element of `type="password"`. By default, `id="Password1"` is inserted for the first password field, `id="Password2"` for the second, and so on.
 
@@ -230,7 +230,7 @@ When you drag **Input (Password)** onto the Design view surface, HTML markup lik
 
 **Input (Check box)**
 
-![HTML webpage Toolbox Checkbox Option](../../ide/reference/media/vxcheckbox.gif)
+![HTML webpage Toolbox Checkbox Option](../ide/media/vxcheckbox.gif)
 
 Inserts an `input` element of `type="checkbox"`. To change the text that is displayed, edit the `name` property. By default, `id="Checkbox1"` is inserted for the first check box, `id="Checkbox2"` for the second, and so on.
 
@@ -242,7 +242,7 @@ When you drag **Input (Check box)** onto the Design view surface, HTML markup li
 
 **Input (Radio)**
 
-![VisualStudioHTMLpageRadioButton screenshot](../../ide/reference/media/vxradio.gif)
+![VisualStudioHTMLpageRadioButton screenshot](../ide/media/vxradio.gif)
 
 Inserts an `input` element of `type="radio"`. To change the text that is displayed, edit the `name` property. By default, `id="Radio1"` is inserted for the first radio button, `id="Radio2"` for the second, and so on.
 
@@ -254,7 +254,7 @@ When you drag **Input (Radio)** onto the Design view surface, HTML markup like t
 
 **Input (Hidden)**
 
-![HTML page Hidden Item](../../ide/reference/media/vxhidden.gif)
+![HTML page Hidden Item](../ide/media/vxhidden.gif)
 
 Inserts an `input` element of `type="hidden"`. By default, `id="Hidden1"` is inserted for the first hidden field, `id="Hidden2"` for the second, and so on.
 
@@ -266,7 +266,7 @@ When you drag **Input (Hidden)** onto the Design view surface, HTML markup like 
 
 **Textarea**
 
-![HTMLpage Toolbar Text Area](../../ide/reference/media/vxtextarea.gif)
+![HTMLpage Toolbar Text Area](../ide/media/vxtextarea.gif)
 
 Inserts a `textarea` element. You can resize the text area, or use its scroll bars to view text that extends beyond its display area. To change the default text that is displayed, edit the `value` attribute. By default, `id="textarea1"` is inserted the first text area, `id=" textarea 2"` for the second, and so on.
 
@@ -281,7 +281,7 @@ When you drag **Textarea** onto the Design view surface, HTML markup like the fo
 
 **Table**
 
-![HTMLpageToolbarTable screenshot](../../ide/reference/media/vxtable.gif)
+![HTMLpageToolbarTable screenshot](../ide/media/vxtable.gif)
 
 Inserts a `table` element.
 
@@ -293,7 +293,7 @@ When you drag **Table** onto the Design view surface, HTML markup like the follo
 
 **Image**
 
-![HTML page Image Item](../../ide/reference/media/vximage.gif)
+![HTML page Image Item](../ide/media/vximage.gif)
 
 Inserts an `img` element. Edit this element to specify its `src` and its `alt` text.
 
@@ -305,7 +305,7 @@ When you drag **Image** onto the Design view surface, HTML markup like the follo
 
 **Select**
 
-![HTML page Toolbox Dropdown](../../ide/reference/media/vxdropdown.gif)
+![HTML page Toolbox Dropdown](../ide/media/vxdropdown.gif)
 
 Inserts a dropdown `select` element (without a `size` attribute). By default, `id="select1"` is inserted for the first list box, `id="select2"` for the second, and so on.
 
@@ -319,7 +319,7 @@ You can create a multi-line `select` element by increasing the value of the size
 
 **Horizontal Rule**
 
-![HTML page Horizontal Rule Item](../../ide/reference/media/vxhorizontal.gif)
+![HTML page Horizontal Rule Item](../ide/media/vxhorizontal.gif)
 
 Inserts an `hr` element. To increase the thickness of the line, edit the `size` attribute.
 
@@ -331,7 +331,7 @@ When you drag **Horizontal Rule** onto the Design view surface, HTML markup like
 
 **Div**
 
-![HTML page Label](../../ide/reference/media/vxlabel.gif)
+![HTML page Label](../ide/media/vxlabel.gif)
 
 Inserts a `div` element that includes an `ms_positioning="FlowLayout"` attribute. Except for the width and height, this item is identical to a Flow Layout Panel. To format the text that is contained within the `div` element, add a `class="stylename"` attribute to the opening tag.
 
