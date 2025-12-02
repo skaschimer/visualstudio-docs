@@ -605,7 +605,7 @@
     - name: Edit and Continue dialog box
       href: edit-and-continue-dialog-box.md
     - name: Problem Details window
-      href: ide/reference/problem-details-window.md
+      href: ../ide/reference/problem-details-window.md
     - name: Select Code Type dialog box
       href: select-code-type-dialog-box.md
     - name: Stop Debugging In Progress dialog box

@@ -360,4 +360,4 @@ To go directly to the .NET reference page for a component, press **F1** on the i
 ## See also
 
 - [Controls to use on Windows Forms](/dotnet/framework/winforms/controls/controls-to-use-on-windows-forms)
-- [Choose Toolbox items, WPF components](/previous-versions/visualstudio/visual-studio-2017/ide/reference/choose-toolbox-items-wpf-components.md)
+- [Choose Toolbox items, WPF components](/previous-versions/visualstudio/visual-studio-2017/ide/reference/choose-toolbox-items-wpf-components)
