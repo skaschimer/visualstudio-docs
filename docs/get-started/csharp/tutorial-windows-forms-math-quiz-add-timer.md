@@ -77,14 +77,6 @@ Now that you have a way to check the answers, you can write the code for the Tic
 
 1. On the form, double-click the **Timer** control, or select it and then select **Enter**. These actions add a Tick event handler. The code editor appears and displays the Tick handler's method.
 
-   For C#, it adds a line of code in the *Form1.Designer.cs* code file that hooks up the event handler:
-
-   ```csharp
-   timer1.Tick += new EventHandler(timer1_Tick);
-   ```
-
-   For Visual Basic, there's no need for that line, but the event handler contains a `handles Timer1.Tick` that does the same thing.
-
 1. Add the following statements to the new event handler method.
 
    ### [C#](#tab/csharp)
