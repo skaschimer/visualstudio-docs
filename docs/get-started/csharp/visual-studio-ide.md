@@ -11,7 +11,7 @@ manager: mijacobs
 dev_langs:
 - CSharp
 
-#customer intent: As a C# developer, I want to understand how to use the Visual Studio IDE to create. debug, and run a simple program.
+#customer intent: As a C# developer, I want to understand how to use the Visual Studio IDE to create, debug, and run a simple program.
 ---
 # Welcome to the Visual Studio IDE | C\#
 
