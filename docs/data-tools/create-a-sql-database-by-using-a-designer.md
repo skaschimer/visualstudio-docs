@@ -35,7 +35,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
 3. In the list of item templates, scroll down and select **Service-based Database**.
 
    :::moniker range="visualstudio"
-   ![Add New item > Service-based database](media/visualstudio/visual-studio-add-service-database.png)
+   :::image type="content" source="media/visualstudio/visual-studio-add-service-database.png" alt-text="Add New item > Service-based database" lightbox="media/visualstudio/visual-studio-add-service-database.png":::
    :::moniker-end
 
    :::moniker range="vs-2022"
@@ -136,7 +136,7 @@ In this section, you create two tables, a primary key in each table, and a few r
    You should see something like this:
 
    :::moniker range="visualstudio"
-   ![Table Designer with Customers table](media/visualstudio/table-designer.png)
+   :::image type="content" source="media/visualstudio/table-designer.png" alt-text="Table Designer with Customers table" lighbox="media/visualstudio/table-designer.png":::
    :::moniker-end
 
    :::moniker range="vs-2022"
