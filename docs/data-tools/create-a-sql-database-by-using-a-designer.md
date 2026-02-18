@@ -136,7 +136,7 @@ In this section, you create two tables, a primary key in each table, and a few r
    You should see something like this:
 
    :::moniker range="visualstudio"
-   :::image type="content" source="media/visualstudio/table-designer.png" alt-text="Table Designer with Customers table" lighbox="media/visualstudio/table-designer.png":::
+   :::image type="content" source="media/visualstudio/table-designer.png" alt-text="Table Designer with Customers table" lightbox="media/visualstudio/table-designer.png":::
    :::moniker-end
 
    :::moniker range="vs-2022"
