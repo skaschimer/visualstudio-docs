@@ -379,3 +379,6 @@ requirements.txt
 
 # Allow Visual Studio-specific Agent file
 !.github/agents/visualstudio-standards-check.agent.md
+
+# Allow Visual Studio product instructions file
+!.github/instructions/visual-studio-product.instructions.md
