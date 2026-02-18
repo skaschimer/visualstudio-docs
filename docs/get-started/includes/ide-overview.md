@@ -172,7 +172,7 @@ Dive in and create a simple program.
 
 1. In the **Additional information** window, verify that **.NET 10.0** appears in the **Framework** menu, and then select **Create**.
 
-   :::image type="content" source="../media/visualstudio/create-project-additional-info.png" alt-text="Screenshot of the Additional information dialog showing .NET 10.0 selected as the target framework for the new project in Visual Studio." lightbox="../media/visualstudio/create-project-additional-info.png" border="false":::
+   :::image type="content" source="../media/visualstudio/create-project-additional-info.png" alt-text="Screenshot of the Additional information dialog showing .NET 10.0 selected as the target framework for the new project in Visual Studio.":::
 
    Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
@@ -354,7 +354,7 @@ First, rename the `name` variable:
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
    ::: moniker range=">=vs-2022"
-   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'." lightbox="../media/vs-2022/overview-console-final.png" border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'.":::
    ::: moniker-end
 
 ## Debug code
@@ -389,7 +389,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 While the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
 
-:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022." lightbox="../media/vs-2022/overview-hot-reload.png":::
 
 ::: moniker-end
 
