@@ -149,7 +149,84 @@ When you open Visual Studio for the first time, you can [sign in](../../ide/sign
 
 Dive in and create a simple program.
 
-::: moniker range=">=vs-2022"
+
+::: moniker range=">=visualstudio"
+
+1. Start Visual Studio. The start window appears with options for cloning a repo, opening a recent project, or creating a new project.
+
+1. Choose **Create a new project**.
+
+   :::image type="content" source="../media/visualstudio/create-new-project.png" alt-text="Screenshot of the Visual Studio start menu with Create a new project selected.":::
+
+   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings required for a given project type.
+
+1. To find a template, you can type or enter keywords in the search box. The list of available templates filters based on the keywords you enter. You can further filter the template results by choosing **C#** from the **All languages** dropdown list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list.
+
+    Select the **Console App** template, and then select **Next**.
+
+   :::image type="content" source="../media/visualstudio/start-window-create-new-project.png" alt-text="Screenshot of the Create a new project window with Console Application selected.":::
+
+1. In the **Configure your new project** window, enter *HelloWorld* in the **Project name** box. Optionally, change the project directory location from the default location of *C:\\Users\\\<name>\\source\\repos*, and then select **Next**.
+
+   :::image type="content" source="../media/visualstudio/configure-new-project.png" alt-text="Screenshot of the Configure your new project window with the project name HelloWorld entered.":::
+
+1. In the **Additional information** window, verify that **.NET 10.0** appears in the **Framework** menu, and then select **Create**.
+
+   :::image type="content" source="../media/visualstudio/create-project-additional-info.png" alt-text="Screenshot of the Additional information dialog showing .NET 10.0 selected as the target framework for the new project in Visual Studio." lightbox="../media/visualstudio/create-project-additional-info.png" border="false":::
+
+   Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
+
+   The project files appear on the right side of the Visual Studio IDE, in a window called the **Solution Explorer**. In the **Solution Explorer** window, select the **Program.cs** file. The C# code for your app opens in the central editor window, which takes up most of the space.
+
+   :::image type="content" source="../media/vs-2022/overview-ide-console-app.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.cs code in the editor.":::
+
+   The code is automatically colorized to indicate different parts, such as keywords and types. Line numbers help you locate code.
+
+   Small, vertical dashed lines in the code indicate which braces match one another. You can also choose small, boxed minus or plus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
+
+   :::image type="content" source="../media/vs-2022/overview-ide-console-app-red-boxes.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes.":::
+
+   Many other menus and tool windows are available.
+
+1. Start the app by choosing **Debug** > **Start Without Debugging** from the Visual Studio top menu. You can also press **Ctrl**+**F5**.
+
+   :::image type="content" source="../media/vs-2022/overview-start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item.":::
+
+   Visual Studio builds the app, and a console window opens with the message **Hello, World!**. You now have a running app!
+
+   :::image type="content" source="../media/vs-2022/overview-console-window.png" alt-text="Screenshot of the Debug Console window showing the output Hello, World! and Press any key to close this window.":::
+
+1. To close the console window, press any key.
+
+1. Add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
+
+   ```csharp
+   Console.WriteLine("\nWhat is your name?");
+   var name = Console.ReadLine();
+   ```
+
+   This code displays **What is your name?** in the console window, and then waits until the user enters some text.
+
+1. Change the line that says `Console.WriteLine("Hello World!");` to the following line:
+
+   ```csharp
+   Console.WriteLine($"\nHello {name}!");
+   ```
+
+1. Run the app again by selecting **Debug** > **Start Without Debugging** or pressing **Ctrl**+**F5**.
+
+   Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
+
+1. Type your name in the console window and press **Enter**.
+
+   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!" lightbox="../media/vs-2022/overview-console-input.png" border="false":::
+
+1. Press any key to close the console window and stop the running program.
+
+::: moniker-end
+
+
+::: moniker range="vs-2022"
 
 1. Start Visual Studio. The start window appears with options for cloning a repo, opening a recent project, or creating a new project.
 
@@ -169,7 +246,7 @@ Dive in and create a simple program.
 
    :::image type="content" source="../media/vs-2022/configure-new-project.png" alt-text="Screenshot of the Configure your new project window with the project name HelloWorld entered.":::
 
-1. In the **Additional information** window, verify that **.NET 10.0** appears in the **Framework** menu, and then select **Create**.
+1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Framework** menu, and then select **Create**.
 
    :::image type="content" source="../media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the Additional information dialog showing .NET 8.0 selected as the target framework for the new project in Visual Studio." lightbox="../media/vs-2022/create-project-additional-info.png" border="false":::
 
