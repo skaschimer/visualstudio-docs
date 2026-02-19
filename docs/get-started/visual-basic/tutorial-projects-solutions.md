@@ -42,7 +42,7 @@ To start your exploration, create an empty solution. After you get to know Visua
 
 1. On the start window, choose **Create a new project**.
 
-1. On the **Create a new project** page, enter *blank solution* into the search box. Select the **Blank Solution** template. Then choose **Next**.
+1. On the **Create a new project** window, enter *blank solution* into the search box. Select the **Blank Solution** template. Then choose **Next**.
 
    :::image type="content" source="media/vs-2022/tutorial-projects-blank-solution-template.png" alt-text="Screenshot showing the Create a new project window with 'blank solution' in the search box and the Blank Solution project template selected.":::
 
@@ -131,7 +131,7 @@ Add a unit test project to your solution. Start from a project template so you d
 
 ## Add a project reference
 
-Use the new unit test project to test your method in the **QuickDate** project, so we need to add a reference to that project. The reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** is built before **QuickTest**.
+Use the new unit test project to test your method in the **QuickDate** project, so you need to add a reference to that project. The reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** is built before **QuickTest**.
 
 ::: moniker range=">=vs-2022"
 
