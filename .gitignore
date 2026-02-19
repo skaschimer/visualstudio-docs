@@ -373,6 +373,7 @@ settings.json
 .vscode/settings.json
 .vscode/mcp.json
 .dockit/
+.github/
 .env
 .env.example
 requirements.txt
