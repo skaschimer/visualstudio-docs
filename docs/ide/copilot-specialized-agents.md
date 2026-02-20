@@ -31,13 +31,13 @@ You can access specialized agents in two ways:
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-specialized-agents/agent-picker.png" alt-text="Screenshot showing the agent picker with specialized agents in Visual Studio.":::
+:::image type="content" source="media/visualstudio/agent-picker.png" alt-text="Screenshot showing the agent picker with specialized agents in Visual Studio.":::
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 
-:::image type="content" source="media/vs-2022/copilot-specialized-agents/agent-picker.png" alt-text="Screenshot showing the agent picker with specialized agents.":::
+:::image type="content" source="media/vs-2022/agent-picker.png" alt-text="Screenshot showing the agent picker with specialized agents.":::
 
 :::moniker-end
 
