@@ -241,7 +241,7 @@ To see how this process works, the first step deliberately introduces an error i
 
 1. In **Solution Explorer**, open the *Application.xaml* file.
 
-1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`
+1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`.
 
 1. Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
