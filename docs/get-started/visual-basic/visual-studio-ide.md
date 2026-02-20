@@ -226,7 +226,7 @@ Dive in and create a simple program.
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings that a given project type requires.
 
-1. To find a template, you can type or enter keywords in the search box. The list of available templates filters based on the keywords you enter. You can filter the template results by choosing **Visual Basic** from the **All languages** dropdown list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list.
+1. To find a template, you can type or enter keywords in the search box. The list of available templates filters based on the keywords you enter. You can filter the template results by choosing **Visual Basic** from the **All languages** list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list.
 
    Select the Visual Basic **Console App** template, and then select **Next**.
 
