@@ -32,7 +32,7 @@ You can access specialized agents in two ways:
 ::: moniker-end
 
 :::moniker range="vs-2022"
-You can access specialized agents by using **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@debug`).
+You can access specialized agents by using **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@profiler`).
 ::: moniker-end
 
 :::moniker range="visualstudio"
@@ -51,6 +51,7 @@ You can access specialized agents by using **@ syntax**: Type `@` followed by th
 
 Each built-in agent is designed around a specific developer workflow and integrates with Visual Studio's native tooling in ways that a generic assistant can't.
 
+:::moniker range="visualstudio"
 | Agent | Description |
 |-------|-------------|
 | **@debug** | Goes beyond reading error messages. Uses your call stacks, variable state, and diagnostic tools to walk through error diagnosis systematically across your solution. |
@@ -58,6 +59,16 @@ Each built-in agent is designed around a specific developer workflow and integra
 | **@test** | Generates unit tests tuned to your project's framework and patterns, not boilerplate that your CI will reject. |
 | **@vs** | Answers questions about Visual Studio itself, including features, settings, shortcuts, and workflows you might not know existed. |
 | **@modernize** | (.NET and C++ only) Handles framework and dependency upgrades with awareness of your actual project graph. Flags breaking changes, generates migration code, and follows your existing patterns. |
+::: moniker-end
+
+:::moniker range="vs-2022"
+| Agent | Description |
+|-------|-------------|
+| **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
+| **@vs** | Answers questions about Visual Studio itself, including features, settings, shortcuts, and workflows you might not know existed. |
+::: moniker-end
+
+:::moniker range="visualstudio"
 
 ### Use the @debug agent
 
@@ -69,6 +80,8 @@ The @debug agent helps you diagnose errors systematically by analyzing your debu
 + `@debug Analyze the current call stack and explain what went wrong`
 + `@debug What's causing the null reference in this method?`
 
+::: moniker-end
+
 ### Use the @profiler agent
 
 The @profiler agent connects to Visual Studio's profiling tools to help identify and fix performance issues.
@@ -78,6 +91,8 @@ The @profiler agent connects to Visual Studio's profiling tools to help identify
 + `@profiler Find the performance bottlenecks in my application`
 + `@profiler Why is this method taking so long to execute?`
 + `@profiler Suggest optimizations for the hot path`
+
+:::moniker range="visualstudio"
 
 ### Use the @test agent
 
@@ -91,6 +106,8 @@ The @test agent generates unit tests that match your project's testing framework
 
 For more comprehensive .NET testing support, see [GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md).
 
+::: moniker-end
+
 ### Use the @vs agent
 
 The @vs agent answers questions about Visual Studio features, settings, and workflows.
@@ -101,6 +118,8 @@ The @vs agent answers questions about Visual Studio features, settings, and work
 + `@vs What's the keyboard shortcut for Go to Definition?`
 + `@vs How do I configure code cleanup settings?`
 
+:::moniker range="visualstudio"
+
 ### Use the @modernize agent
 
 The @modernize agent helps with framework migrations and dependency upgrades for .NET and C++ projects.
@@ -110,6 +129,8 @@ The @modernize agent helps with framework migrations and dependency upgrades for
 + `@modernize Upgrade this project to .NET 8`
 + `@modernize What breaking changes should I expect when migrating?`
 + `@modernize Update deprecated API calls in this file`
+
+::: moniker-end
 
 ## Custom agents (Preview)
 
