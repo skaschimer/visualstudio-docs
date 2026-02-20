@@ -8,6 +8,8 @@ ms.author: mikejo
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: awp
+ai-usage: ai-assisted
 monikerRange: '>= vs-2022'
 ---
 
