@@ -24,10 +24,16 @@ GitHub Copilot in Visual Studio goes beyond a single general-purpose assistant. 
 
 ## Access specialized agents
 
+:::moniker range="visualstudio"
 You can access specialized agents in two ways:
 
 + **Agent picker**: In the Copilot Chat window, select the agent picker dropdown to see available agents.
 + **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@debug`).
+::: moniker-end
+
+:::moniker range="vs-2022"
+You can access specialized agents by using **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@debug`).
+::: moniker-end
 
 :::moniker range="visualstudio"
 
