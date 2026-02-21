@@ -21,7 +21,7 @@ An *integrated development environment* (IDE) is a feature-rich program that sup
 
 ::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/ide-overview.png" alt-text="Screenshot of the Visual Studio IDE with Visual Basic code and key functionality." lightbox="media/vs-2022/ide-overview.png" border="false":::
+:::image type="content" source="media/vs-2022/ide-overview.png" alt-text="Screenshot of the Visual Studio IDE with Visual Basic code and key functionality." lightbox="media/vs-2022/ide-overview.png":::
 
 ::: moniker-end
 
@@ -52,7 +52,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/squiggles-error.png" alt-text="Screenshot of a squiggle underline in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/squiggles-error.png" alt-text="Screenshot of a squiggle underline in Visual Studio.":::
 
    ::: moniker-end
 
@@ -62,7 +62,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/refactoring-menu.png" alt-text="Screenshot of the Refactoring menu in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/refactoring-menu.png" alt-text="Screenshot of the Refactoring menu in Visual Studio.":::
 
    ::: moniker-end
 
@@ -74,7 +74,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/intellisense.png" alt-text="Screenshot of an IntelliSense member list." border="false":::
+   :::image type="content" source="media/vs-2022/intellisense.png" alt-text="Screenshot of an IntelliSense member list.":::
 
    ::: moniker-end
 
@@ -88,7 +88,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/quick-launch-nuget.png" alt-text="Screenshot that shows the Quick Launch search box in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/quick-launch-nuget.png" alt-text="Screenshot that shows the Quick Launch search box in Visual Studio." lightbox="media/vs-2022/quick-launch-nuget.png":::
 
    ::: moniker-end
 
@@ -102,7 +102,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/call-hierarchy.png" alt-text="Screenshot that shows the Call Hierarchy window in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/call-hierarchy.png" alt-text="Screenshot that shows the Call Hierarchy window in Visual Studio.":::
 
    ::: moniker-end
 
@@ -112,7 +112,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/codelens.png" alt-text="Screenshot that shows CodeLens in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/codelens.png" alt-text="Screenshot that shows CodeLens in Visual Studio.":::
 
    ::: moniker-end
 
@@ -122,7 +122,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/go-to-definition-menu.png" alt-text="Screenshot that shows Go to Definition in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/go-to-definition-menu.png" alt-text="Screenshot that shows Go to Definition in Visual Studio.":::
 
    ::: moniker-end
 
@@ -132,7 +132,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/peek-definition.png" alt-text="Screenshot that shows Peek Definition in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/peek-definition.png" alt-text="Screenshot that shows Peek Definition in Visual Studio.":::
 
    ::: moniker-end
 
@@ -154,7 +154,7 @@ In this section, you create a simple project to try out some of the things you c
 
 To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
 
-:::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the dot NET desktop development workload selected in the Visual Studio Installer." border="false":::
+:::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the dot NET desktop development workload selected in the Visual Studio Installer.":::
 
 ::: moniker-end
 
@@ -171,7 +171,7 @@ To change the color theme:
 ::: moniker range="vs-2022"
 1. Open Visual Studio. On the start window, select **Continue without code**.
 
-   :::image type="content" source="media/vs-2022/continue-without-code.png" alt-text="Screenshot of the Visual Studio Start screen, with the Continue without code link highlighted." border="false":::
+   :::image type="content" source="media/vs-2022/continue-without-code.png" alt-text="Screenshot of the Visual Studio Start screen, with the Continue without code link highlighted.":::
 
 1. On the Visual Studio menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
@@ -194,7 +194,7 @@ To change the color theme:
 
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Cool Breeze theme:
 
-   :::image type="content" source="media/visualstudio/cool-breeze-theme.png" border="false" alt-text="Screenshot that shows Visual Studio in Cool Breeze theme.":::
+   :::image type="content" source="media/visualstudio/cool-breeze-theme.png" alt-text="Screenshot that shows Visual Studio in Cool Breeze theme.":::
 
 ::: moniker-end
 
@@ -222,7 +222,7 @@ Dive in and create a simple program.
 
 1. On the Visual Studio menu bar, choose **File** > **New** > **Project**. You can also press **Ctrl**+**Shift**+**N**.
 
-   :::image type="content" source="media/vs-2022/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio menu bar." border="false":::
+   :::image type="content" source="media/vs-2022/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio menu bar.":::
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings that a given project type requires.
 
@@ -230,37 +230,37 @@ Dive in and create a simple program.
 
    Select the Visual Basic **Console App** template, and then select **Next**.
 
-   :::image type="content" source="media/visualstudio/create-project.png" alt-text="Screenshot of the Create a new project window with the Visual Basic Console Application selected." border="false":::
+   :::image type="content" source="media/visualstudio/create-project.png" alt-text="Screenshot of the Create a new project window with the Visual Basic Console Application selected.":::
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Optionally, change the project directory location from the default location of *C:\\Users\\\<name>\\source\\repos*, and then select **Next**.
 
-   :::image type="content" source="media/visualstudio/configure.png" alt-text="Screenshot of the Configure your new project window with the project name HelloWorld entered." lightbox="media/vs-2022/configure.png" border="false":::
+   :::image type="content" source="media/visualstudio/configure.png" alt-text="Screenshot of the Configure your new project window with the project name HelloWorld entered.":::
 
 1. In the **Additional information** window, verify that **.NET 10.0** appears in the **Framework** menu. Then select **Create**.
 
-   :::image type="content" source="media/visualstudio/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 10.0 selected." lightbox="media/vs-2022/additional-information.png" border="false":::
+   :::image type="content" source="media/visualstudio/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 10.0 selected.":::
 
    Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
    The project files appear on the right side of the Visual Studio IDE, in a window called the **Solution Explorer**. In the **Solution Explorer** window, select the **Program.vb** file. The Visual Basic code for the app opens in the central editor window, which takes up most of the space.
 
-   :::image type="content" source="media/vs-2022/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor." border="false":::
+   :::image type="content" source="media/vs-2022/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor." lightbox="media/vs-2022/open-program.png":::
 
    The code is automatically colorized to indicate different parts, such as keywords and types. Line numbers help you locate code.
 
    Small, vertical dashed lines in the code indicate code structure or code blocks that go together. You can also select the small, boxed minus or plus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
 
-   :::image type="content" source="media/vs-2022/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes." border="false":::
+   :::image type="content" source="media/vs-2022/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes." lightbox="media/vs-2022/editor-features.png":::
 
    Many other menus and tool windows are available.
 
 1. Start the app by choosing **Debug** > **Start Without Debugging** from the Visual Studio top menu. You can also press **Ctrl**+**F5**.
 
-   :::image type="content" source="media/vs-2022/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item." border="false":::
+   :::image type="content" source="media/vs-2022/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item.":::
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   :::image type="content" source="../media/vs-2019/overview-console-window.png" alt-text="Screenshot of the Debug Console window showing the output Hello World! and Press any key to close this window." border="false":::
+   :::image type="content" source="../media/vs-2019/overview-console-window.png" alt-text="Screenshot of the Debug Console window showing the output Hello World! and Press any key to close this window.":::
 
 1. To close the console window, press any key.
 
@@ -285,7 +285,7 @@ Dive in and create a simple program.
 
 1. Type your name in the console window and press **Enter**.
 
-   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette." border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette.":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -295,7 +295,7 @@ Dive in and create a simple program.
 
 1. On the Visual Studio menu bar, choose **File** > **New** > **Project**. You can also press **Ctrl**+**Shift**+**N**.
 
-   :::image type="content" source="media/vs-2022/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio menu bar." border="false":::
+   :::image type="content" source="media/vs-2022/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio menu bar.":::
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings that a given project type requires.
 
@@ -303,37 +303,37 @@ Dive in and create a simple program.
 
    Select the Visual Basic **Console Application** template, and then select **Next**.
 
-   :::image type="content" source="media/vs-2022/create-project.png" alt-text="Screenshot of the Create a new project window in Visual Studio 2022 with the Visual Basic Console Application selected." border="false":::
+   :::image type="content" source="media/vs-2022/create-project.png" alt-text="Screenshot of the Create a new project window in Visual Studio 2022 with the Visual Basic Console Application selected.":::
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Optionally, change the project directory location from the default location of *C:\\Users\\\<name>\\source\\repos*, and then select **Next**.
 
-   :::image type="content" source="media/vs-2022/configure.png" alt-text="Screenshot of the Configure your new project window in Visual Studio 2022 with the project name HelloWorld entered." lightbox="media/vs-2022/configure.png" border="false":::
+   :::image type="content" source="media/vs-2022/configure.png" alt-text="Screenshot of the Configure your new project window in Visual Studio 2022 with the project name HelloWorld entered." lightbox="media/vs-2022/configure.png":::
 
 1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Framework** menu, and then select **Create**.
 
-   :::image type="content" source="media/vs-2022/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 8.0 selected." lightbox="media/vs-2022/additional-information.png" border="false":::
+   :::image type="content" source="media/vs-2022/additional-information.png" alt-text="Screenshot of the Additional information window with dot NET 8.0 selected." lightbox="media/vs-2022/additional-information.png":::
 
    Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
    The project files appear on the right side of the Visual Studio IDE, in a window called the **Solution Explorer**. In the **Solution Explorer** window, select the **Program.vb** file. The Visual Basic code for the app opens in the central editor window, which takes up most of the space.
 
-   :::image type="content" source="media/vs-2022/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor." border="false":::
+   :::image type="content" source="media/vs-2022/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor." lightbox="media/vs-2022/open-program.png":::
 
    The code is automatically colorized to indicate different parts, such as keywords and types. Line numbers help you locate code.
 
    Small, vertical dashed lines in the code indicate code structure or code blocks that go together. You can also select the small, boxed minus or plus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
 
-   :::image type="content" source="media/vs-2022/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes." border="false":::
+   :::image type="content" source="media/vs-2022/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes." lightbox="media/vs-2022/editor-features.png":::
 
    Many other menus and tool windows are available.
 
 1. Start the app by choosing **Debug** > **Start Without Debugging** from the Visual Studio top menu. You can also press **Ctrl**+**F5**.
 
-   :::image type="content" source="media/vs-2022/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item." border="false":::
+   :::image type="content" source="media/vs-2022/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item.":::
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
-   :::image type="content" source="../media/vs-2019/overview-console-window.png" alt-text="Screenshot of the Debug Console window showing the output Hello World! and Press any key to close this window." border="false":::
+   :::image type="content" source="../media/vs-2019/overview-console-window.png" alt-text="Screenshot of the Debug Console window showing the output Hello World! and Press any key to close this window.":::
 
 1. To close the console window, press any key.
 
@@ -358,7 +358,7 @@ Dive in and create a simple program.
 
 1. Type your name in the console window and press **Enter**.
 
-   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette." border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette.":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -377,7 +377,7 @@ First, rename the `name` variable:
 1. Select the light bulb icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
    ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/rename.png" alt-text="Screenshot that shows the Rename action in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/rename.png" alt-text="Screenshot that shows the Rename action in Visual Studio.":::
    ::: moniker-end
 
    The variable renames across the project, which in this case is only two places.
@@ -393,7 +393,7 @@ Now take a look at IntelliSense.
    A box displays the members of the <xref:System.DateTime> class. The description of the currently selected member also displays in a separate box.
 
    ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/intellisense-list-members.png" alt-text="Screenshot that shows IntelliSense list members in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/intellisense-list-members.png" alt-text="Screenshot that shows IntelliSense list members in Visual Studio.":::
    ::: moniker-end
 
 1. Choose the member named **Now**, which is a property of the class. Either double-click on **Now**, or select it and press **Tab**.
@@ -416,13 +416,13 @@ Next, use refactoring again to make the code a little more concise.
 
 1. Select the light bulb icon to see available suggestions from Visual Studio. This case shows the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall code behavior.
 
-   :::image type="content" source="media/vs-2022/inline-temporary-variable.png" alt-text="Screenshot showing the Inline temporary variable suggestion in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/inline-temporary-variable.png" alt-text="Screenshot showing the Inline temporary variable suggestion in Visual Studio.":::
 
 1. Select **Inline temporary variable** to refactor the code.
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/vs-2022/overview-console-final.png" border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/vs-2022/overview-console-final.png":::
 ::: moniker-end
 
 ## Debug code
@@ -436,7 +436,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
    A red circle appears in the gutter, and the line is highlighted.
 
    ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/breakpoint.png" alt-text="Screenshot that shows a breakpoint on a line of code in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/breakpoint.png" alt-text="Screenshot that shows a breakpoint on a line of code in Visual Studio.":::
    ::: moniker-end
 
 1. Start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
@@ -448,7 +448,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
 1. Hover your mouse over the `username` variable to see its value. You can also right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
    ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/inspect-variable.png" alt-text="Screenshot that shows a variable value during debugging in Visual Studio." border="false":::
+   :::image type="content" source="media/vs-2022/inspect-variable.png" alt-text="Screenshot that shows a variable value during debugging in Visual Studio.":::
    ::: moniker-end
 
 1. Press **F5** again to finish running the app.
