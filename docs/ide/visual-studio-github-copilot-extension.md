@@ -11,7 +11,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ai-usage: ai-assisted
-ms.custom: awp
+ms.custom: awp-ai
 ---
 # Get started with GitHub Copilot completions
 
@@ -59,7 +59,7 @@ GitHub Copilot provides suggestions for numerous languages, including (but not l
 
 :::moniker range="visualstudio"
 
-4. Press enter to see the GitHub Copilot command palette.
+4. Press <kbd>Enter</kbd> to open the GitHub Copilot command palette.
 
    To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, select the <kbd>Esc</kbd> key or continue typing.
 
@@ -95,6 +95,21 @@ To use automatic generation of documentation comments on your C++ or C# project 
 
 ## Tips and tricks
 
+:::moniker range="visualstudio"
+
+### Click to accept code completions
+
+You can accept part of an inline completion by clicking inside the suggestion.
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/click-to-accept.gif" alt-text="Animated screenshot showing an inline Copilot completion where hovering highlights a segment and clicking accepts the completion up to the cursor position.":::
+
+1. When an inline suggestion appears, hover over it. As you move the pointer, Visual Studio highlights the segment that will be accepted.
+1. Click at the point in the suggestion where you want to stop accepting text.
+
+If you prefer using the keyboard, you can still accept a completion word by word (<kbd>Ctrl</kbd>+<kbd>Right arrow</kbd>) or line by line (<kbd>Ctrl</kbd>+<kbd>Down arrow</kbd>).
+
+:::moniker-end
+
 ### Keyboard shortcuts
 
 - Manually trigger a completion: <kbd>Alt</kbd>+<kbd>.</kbd> or <kbd>Alt</kbd>+<kbd>,</kbd>
@@ -111,16 +126,16 @@ All inline suggestions settings can be found via **Tools** > **Options** > **Tex
 Customize your inline suggestions experience with these settings:
 
 - **Disable automatic completions** - By default, each keystroke triggers inline suggestions. To disable this, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **General**, and set **Inline Suggestions Invocation** to **Manual**. You can then manually trigger suggestions with **Alt**+**,** or **Alt**+**.**.
-- **Adjust completion timing** - If completions appear too quickly and interrupt your typing, go to **Tools** > **Options** > **All Settings** > **Text Editor** > ***Inline Suggestions** > **Preferences**, and select the **Show inline suggestions only after a pause in typing**. This adds a debounce delay, so completions don't flash and disappear while you type.
+- **Adjust completion timing** - If completions appear too quickly and interrupt your typing, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **Preferences**, and select the **Show inline suggestions only after a pause in typing**. This adds a debounce delay, so completions don't flash and disappear while you type.
 - **Change the accept suggestion keyboard shortcut** - By default, <kbd>Tab</kbd> key accepts suggestions. You can change it to the <kbd>Right Arrow</kbd> key instead.
 
 For additional settings and options, see the **Inline Suggestions** settings page.
 
 ### Customize appearance
 
-To customize the appearance of completions, go to **Tools** > **Options** > **Environment** > **Font and Colors**, and  then select **Code Completions** from the **Display items** list, and adjust the font type, size, foreground/background color, and style.
+To customize the appearance of completions, go to **Tools** > **Options** > **Environment** > **Font and Colors**, and  then select **Code Completions** from the **Show settings for** list, and adjust the font type, size, foreground/background color, and style.
 
-In the latest Visual Studio 2026 Insiders build, code completions display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
+Code completions can display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
 
 :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/colorized-completions.png" alt-text="Screenshot showing colorized code completions with syntax highlighting, displaying different colors for keywords, types, variables, and strings.":::
 

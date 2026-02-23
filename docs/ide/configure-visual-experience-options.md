@@ -1,8 +1,9 @@
 ---
 title: Configure Visual Experience Options
 description: Configure Visual Experience settings in the Environment section of the Tools Options pane. Change color themes, configure menu appearance, and acceleration options for the Visual Studio IDE.
-ms.date: 12/16/2025
+ms.date: 02/04/2026
 ms.topic: how-to
+ai-usage: ai-assisted
 f1_keywords:
 - VS.Environment.VisualExperience
 # - VS.Message.0x800a002e
@@ -16,7 +17,7 @@ helpviewer_keywords:
 - Options pane, Visual Experience, Environment
 - Visual Experience Environment Options pane
 - Visual Experience Options pane
-ms.custom: "ide-ref"
+ms.custom: "awp, ide-ref"
 author: GitHubber17
 ms.author: ghogen
 manager: mijacobs
@@ -71,7 +72,7 @@ By default, Visual Studio combines the top menu bar and search bar into a single
 
 **Use compact spacing in Solution Explorer**
 
-When you select this option, Visual Studio reduces the item spacing in Solution Explorer. The reduced spacing allows more elements to be visible.
+By default, Visual Studio uses wider spacing between items in Solution Explorer to enhance accessibility and reduce the chance of misclicks when using a mouse. If you prefer a more compact view to see more items at once, select this option to reduce the item spacing. Changes take effect immediately without restarting Visual Studio.
 
 **Optimize rendering for screens with different pixel densities**
 

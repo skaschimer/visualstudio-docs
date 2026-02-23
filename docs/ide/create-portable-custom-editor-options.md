@@ -1,7 +1,7 @@
 ---
 title: Define Consistent Coding Styles with EditorConfig
 description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
-ms.date: 01/05/2026
+ms.date: 02/19/2026
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -69,7 +69,7 @@ Visual Studio automatically uses EditorConfig files present in a codebase, based
 
 If there is no EditorConfig file, you can add one to the project using one of the following methods:
 
-- [Automatically generate an EditorConfig file based on your code-style settings](../ide/code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files).
+- [Automatically generate an EditorConfig file based on your code-style settings](#generate-an-editorconfig-from-code-style-settings).
 
 - [Manually add the EditorConfig file](#add-an-editorconfig-file-to-a-project).
 

@@ -1,8 +1,9 @@
 ---
 title: Learn about Solution Explorer
 description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
-ms.date: 10/18/2024
+ms.date: 02/04/2026
 ms.topic: concept-article
+ms.custom: awp
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: anandmeg
@@ -156,6 +157,18 @@ Also included with the Visual Studio 2022 version [17.7](/visualstudio/releases/
 :::image type="content" source="media/vs-2022/solution-explorer-collapse-descendants.png" alt-text="Screenshot of the Collapse All Descendants command from the right-click context menu in Solution Explorer.":::
 
 You can find the **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. You can also press **Ctrl**+**Left Arrow** to use the command.
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+## Customize Solution Explorer appearance
+
+You can adjust the spacing between items in Solution Explorer. By default, Visual Studio uses wider spacing to enhance accessibility and reduce misclicks when using a mouse. If you prefer a compact view to see more items at once, you can enable compact spacing.
+
+To enable compact spacing, go to **Tools** > **Options** > **Environment** > **Visual Experience** and select **Use compact spacing in Solution Explorer**. Changes take effect immediately.
+
+For more information about Visual Experience options, see [Configure Environment > Visual Experience options](configure-visual-experience-options.md).
 
 ::: moniker-end
 
