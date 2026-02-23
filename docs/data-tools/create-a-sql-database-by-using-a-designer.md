@@ -35,7 +35,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
 3. In the list of item templates, scroll down and select **Service-based Database**.
 
    :::moniker range="visualstudio"
-   :::image type="content" source="media/visualstudio/visual-studio-add-service-database.png" alt-text="Add New item > Service-based database" lightbox="media/visualstudio/visual-studio-add-service-database.png":::
+   :::image type="content" source="media/visualstudio/visual-studio-add-service-database.png" alt-text="Screenshot that shows the Add New Item dialog." lightbox="media/visualstudio/visual-studio-add-service-database.png":::
    :::moniker-end
 
    :::moniker range="vs-2022"
@@ -52,7 +52,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
 1. In the **Data Sources** window, select **Add New Data Source**.
 
    :::moniker range="visualstudio"
-   ![Add new data source in Visual Studio](media/visualstudio/add-new-data-source.png)
+   ![Screenshot that shows the Add New Data source button.](media/visualstudio/add-new-data-source.png)
    :::moniker-end
 
    :::moniker range="vs-2022"
@@ -136,7 +136,7 @@ In this section, you create two tables, a primary key in each table, and a few r
    You should see something like this:
 
    :::moniker range="visualstudio"
-   :::image type="content" source="media/visualstudio/table-designer.png" alt-text="Table Designer with Customers table" lightbox="media/visualstudio/table-designer.png":::
+   :::image type="content" source="media/visualstudio/table-designer.png" alt-text="Screenshot that shows the Table Designer." lightbox="media/visualstudio/table-designer.png":::
    :::moniker-end
 
    :::moniker range="vs-2022"
@@ -182,7 +182,7 @@ In this section, you create two tables, a primary key in each table, and a few r
    The Orders table is created in the local database file. If you expand the **Tables** node in **Server Explorer**, you see the two tables:
 
    :::moniker range="visualstudio"
-   ![Tables node expanded in Server Explorer](media/visualstudio/server-explorer-tables-node.png)
+   ![Screenshot that shows the expanded Tables node.](media/visualstudio/server-explorer-tables-node.png)
    :::moniker-end
 
    :::moniker range="vs-2022"
@@ -197,7 +197,7 @@ In this section, you create two tables, a primary key in each table, and a few r
 1. In the context pane on the right side of the Table Designer grid for the Orders table, right-click on **Foreign Keys** and select **Add New Foreign Key**.
 
    :::moniker range="visualstudio"
-   ![Add a foreign key in Table Designer in Visual Studio](media/visualstudio/add-foreign-key.png)
+   ![Screenshot that shows how to add a foreign key.](media/visualstudio/add-foreign-key.png)
    :::moniker-end
 
    :::moniker range="vs-2022"
