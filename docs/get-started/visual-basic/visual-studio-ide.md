@@ -19,9 +19,15 @@ dev_langs:
 
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Visual Studio also includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
 
-::: moniker range=">=vs-2022"
+::: moniker range=">=visualstudio"
 
-:::image type="content" source="media/vs-2022/ide-overview.png" alt-text="Screenshot of the Visual Studio IDE with Visual Basic code and key functionality." lightbox="media/vs-2022/ide-overview.png" border="false":::
+:::image type="content" source="media/visualstudio/ide-overview.png" alt-text="Screenshot of the Visual Studio IDE with Visual Basic code and key functionality." lightbox="media/visualstudio/ide-overview.png" border="false":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/ide-overview.png" alt-text="Screenshot of the Visual Studio 2022 IDE with Visual Basic code and key functionality." lightbox="media/vs-2022/ide-overview.png" border="false":::
 
 ::: moniker-end
 
@@ -50,101 +56,119 @@ Some popular features in Visual Studio that improve your productivity when you d
 
   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A light bulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/vs-2022/squiggles-error.png" alt-text="Screenshot of a squiggle underline in Visual Studio." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/squiggles-error.png" alt-text="Screenshot of a squiggle underline in Visual Studio." border="false":::
-
-   ::: moniker-end
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/squiggles-error.png" alt-text="Screenshot of a squiggle underline in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 
-   Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, and changing the order of method parameters.
+  Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, and changing the order of method parameters.
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/vs-2022/refactoring-menu.png" alt-text="Screenshot of the Refactoring menu in Visual Studio." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/refactoring-menu.png" alt-text="Screenshot of the Refactoring menu in Visual Studio." border="false":::
-
-   ::: moniker-end
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/refactoring-menu.png" alt-text="Screenshot of the Refactoring menu in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
 - [IntelliSense](../../ide/using-intellisense.md)
 
-   IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, so you don't have to look up type information elsewhere.
+  IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, so you don't have to look up type information elsewhere.
 
-   The following illustration shows how IntelliSense displays a member list for a type:
+  The following illustration shows how IntelliSense displays a member list for a type:
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/vs-2022/intellisense.png" alt-text="Screenshot of an IntelliSense member list." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/intellisense.png" alt-text="Screenshot of an IntelliSense member list." border="false":::
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/intellisense.png" alt-text="Screenshot of an IntelliSense member list in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
-   ::: moniker-end
-
-   IntelliSense features vary by language. For more information, see [C# IntelliSense](../../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../../ide/visual-basic-specific-intellisense.md).
+  IntelliSense features vary by language. For more information, see [C# IntelliSense](../../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../../ide/visual-basic-specific-intellisense.md).
 
 - [Visual Studio search](../../ide/visual-studio-search.md)
 
-   Visual Studio menus, options, and properties can seem overwhelming at times. Visual Studio search, or **Ctrl**+**Q**, is a great way to rapidly find IDE features and code in one place.
+  Visual Studio menus, options, and properties can seem overwhelming at times. Visual Studio search, or **Ctrl**+**Q**, is a great way to rapidly find IDE features and code in one place.
 
-   When you start typing the name of something you're looking for, Visual Studio lists results that take you where you need to go. If you need to add functionality, for example another programming language, you can open the Visual Studio Installer from the search box results to install the workload or component.
+  When you start typing the name of something you're looking for, Visual Studio lists results that take you where you need to go. If you need to add functionality, for example another programming language, you can open the Visual Studio Installer from the search box results to install the workload or component.
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/visualstudio/quick-launch-nuget.png" alt-text="Screenshot that shows the Quick Launch search box in Visual Studio." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/quick-launch-nuget.png" alt-text="Screenshot that shows the Quick Launch search box in Visual Studio." border="false":::
-
-   ::: moniker-end
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/quick-launch-nuget.png" alt-text="Screenshot that shows the Quick Launch search box in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
 - [Live Share](/visualstudio/liveshare/)
 
-   Collaboratively edit and debug with others in real time, regardless of your app type or programming language. You can instantly and securely share your project. You can also share debugging sessions, terminal instances, `localhost` web apps, voice calls, and more.
+  Collaboratively edit and debug with others in real time, regardless of your app type or programming language. You can instantly and securely share your project. You can also share debugging sessions, terminal instances, `localhost` web apps, voice calls, and more.
 
 - [Call Hierarchy](../../ide/reference/call-hierarchy.md)
 
-   The **Call Hierarchy** window shows the methods that call a selected method. This information can be useful when you're thinking about changing or removing the method, or when you're trying to track down a bug.
+  The **Call Hierarchy** window shows the methods that call a selected method. This information can be useful when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/visualstudio/call-hierarchy.png" alt-text="Screenshot that shows the Call Hierarchy window in Visual Studio." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/call-hierarchy.png" alt-text="Screenshot that shows the Call Hierarchy window in Visual Studio." border="false":::
-
-   ::: moniker-end
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/call-hierarchy.png" alt-text="Screenshot that shows the Call Hierarchy window in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
 - [CodeLens](../../ide/find-code-changes-and-other-history-with-codelens.md)
 
-   CodeLens helps you find code references, code changes, linked bugs, work items, code reviews, and unit tests, without leaving the editor.
+  CodeLens helps you find code references, code changes, linked bugs, work items, code reviews, and unit tests, without leaving the editor.
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/visualstudio/codelens.png" alt-text="Screenshot that shows CodeLens in Visual Studio." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/codelens.png" alt-text="Screenshot that shows CodeLens in Visual Studio." border="false":::
-
-   ::: moniker-end
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/codelens.png" alt-text="Screenshot that shows CodeLens in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
 - [Go To Definition](../../ide/go-to-and-peek-definition.md)
 
-   The **Go To Definition** feature takes you directly to the location of a function or type definition.
+  The **Go To Definition** feature takes you directly to the location of a function or type definition.
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/visualstudio/go-to-definition-menu.png" alt-text="Screenshot that shows Go to Definition in Visual Studio." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/go-to-definition-menu.png" alt-text="Screenshot that shows Go to Definition in Visual Studio." border="false":::
-
-   ::: moniker-end
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/go-to-definition-menu.png" alt-text="Screenshot that shows Go to Definition in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
 - [Peek Definition](../../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 
-   The **Peek Definition** window shows a method or type definition without opening a separate file.
+  The **Peek Definition** window shows a method or type definition without opening a separate file.
 
-   ::: moniker range=">=vs-2022"
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/visualstudio/peek-definition.png" alt-text="Screenshot that shows Peek Definition in Visual Studio." border="false":::
+  ::: moniker-end
 
-   :::image type="content" source="media/vs-2022/peek-definition.png" alt-text="Screenshot that shows Peek Definition in Visual Studio." border="false":::
-
-   ::: moniker-end
-
-::: moniker range=">=vs-2022"
+  ::: moniker range="vs-2022"
+  :::image type="content" source="media/vs-2022/peek-definition.png" alt-text="Screenshot that shows Peek Definition in Visual Studio 2022." border="false":::
+  ::: moniker-end
 
 - [Hot Reload](../../debugger/hot-reload.md)
 
-   Hot Reload enables you to edit your application's code files and apply the code changes immediately to the running application.
+  Hot Reload enables you to edit your application's code files and apply the code changes immediately to the running application.
 
-   :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+  ::: moniker range=">=visualstudio"
+  :::image type="content" source="media/visualstudio/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio.":::
+  ::: moniker-end
 
-::: moniker-end
+  ::: moniker range="vs-2022"
+  :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+  ::: moniker-end
 
 ## Install Visual Studio
 
@@ -222,7 +246,7 @@ Dive in and create a simple program.
 
 1. On the Visual Studio menu bar, choose **File** > **New** > **Project**. You can also press **Ctrl**+**Shift**+**N**.
 
-   :::image type="content" source="media/vs-2022/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio menu bar." border="false":::
+   :::image type="content" source="media/visualstudio/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio menu bar." border="false":::
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings that a given project type requires.
 
@@ -244,19 +268,19 @@ Dive in and create a simple program.
 
    The project files appear on the right side of the Visual Studio IDE, in a window called the **Solution Explorer**. In the **Solution Explorer** window, select the **Program.vb** file. The Visual Basic code for the app opens in the central editor window, which takes up most of the space.
 
-   :::image type="content" source="media/vs-2022/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor." border="false":::
+   :::image type="content" source="media/visualstudio/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor." border="false":::
 
    The code is automatically colorized to indicate different parts, such as keywords and types. Line numbers help you locate code.
 
-   Small, vertical dashed lines in the code indicate code structure or code blocks that go together. You can also select the small, boxed minus or plus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
+   Small, vertical dashed lines in the code indicate code structure or code blocks that go together. You can also select the small right arrow signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
 
-   :::image type="content" source="media/vs-2022/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes." border="false":::
+   :::image type="content" source="media/visualstudio/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes." border="false":::
 
    Many other menus and tool windows are available.
 
 1. Start the app by choosing **Debug** > **Start Without Debugging** from the Visual Studio top menu. You can also press **Ctrl**+**F5**.
 
-   :::image type="content" source="media/vs-2022/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item." border="false":::
+   :::image type="content" source="media/visualstudior/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item." border="false":::
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
@@ -295,7 +319,7 @@ Dive in and create a simple program.
 
 1. On the Visual Studio menu bar, choose **File** > **New** > **Project**. You can also press **Ctrl**+**Shift**+**N**.
 
-   :::image type="content" source="media/vs-2022/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio menu bar." border="false":::
+   :::image type="content" source="media/vs-2022/file-new-project.png" alt-text="Screenshot of the File > New > Project selection from the Visual Studio 2022 menu bar." border="false":::
 
    The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings that a given project type requires.
 
@@ -372,12 +396,16 @@ First, rename the `name` variable:
 
 1. Double-click the `name` variable, and type the new name for the variable, *username*.
 
-   A box appears around the variable, and a light bulb appears in the margin.
+   A box appears around the variable, and an icon appears in the margin.
 
-1. Select the light bulb icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
+1. Select the icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
-   ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/rename.png" alt-text="Screenshot that shows the Rename action in Visual Studio." border="false":::
+   ::: moniker range="visualstudio"
+   :::image type="content" source="media/visualstudior/rename.png" alt-text="Screenshot that shows the Rename action in Visual Studio." border="false":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/rename.png" alt-text="Screenshot that shows the Rename action in Visual Studio 2022." border="false":::
    ::: moniker-end
 
    The variable renames across the project, which in this case is only two places.
@@ -392,8 +420,12 @@ Now take a look at IntelliSense.
    
    A box displays the members of the <xref:System.DateTime> class. The description of the currently selected member also displays in a separate box.
 
-   ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/intellisense-list-members.png" alt-text="Screenshot that shows IntelliSense list members in Visual Studio." border="false":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/visualstudio/intellisense-list-members.png" alt-text="Screenshot that shows IntelliSense list members in Visual Studio." border="false":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/intellisense-list-members.png" alt-text="Screenshot that shows IntelliSense list members in Visual Studio 2022." border="false":::
    ::: moniker-end
 
 1. Choose the member named **Now**, which is a property of the class. Either double-click on **Now**, or select it and press **Tab**.
@@ -411,18 +443,32 @@ Now take a look at IntelliSense.
 
 Next, use refactoring again to make the code a little more concise.
 
-::: moniker range=">=vs-2022"
+::: moniker range=">=visualstudio"
 1. Select the variable `now` in the line `Dim now = Date.Now`. A light bulb icon appears in the margin on that line.
 
 1. Select the light bulb icon to see available suggestions from Visual Studio. This case shows the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall code behavior.
 
-   :::image type="content" source="media/vs-2022/inline-temporary-variable.png" alt-text="Screenshot showing the Inline temporary variable suggestion in Visual Studio." border="false":::
+   :::image type="content" source="media/visualstudio/inline-temporary-variable.png" alt-text="Screenshot showing the Inline temporary variable suggestion in Visual Studio." border="false":::
 
 1. Select **Inline temporary variable** to refactor the code.
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/vs-2022/overview-console-final.png" border="false":::
+   :::image type="content" source="../media/visualstudio/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/visualstudio/overview-console-final.png" border="false":::
+::: moniker-end
+
+::: moniker range="vs-2022"
+1. Select the variable `now` in the line `Dim now = Date.Now`. A light bulb icon appears in the margin on that line.
+
+1. Select the light bulb icon to see available suggestions from Visual Studio. This case shows the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall code behavior.
+
+   :::image type="content" source="media/vs-2022/inline-temporary-variable.png" alt-text="Screenshot showing the Inline temporary variable suggestion in Visual Studio 2022." border="false":::
+
+1. Select **Inline temporary variable** to refactor the code.
+
+1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
+
+   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window in Visual Studio 2022 showing the prompt for a name, the input, and the output." lightbox="../media/vs-2022/overview-console-final.png" border="false":::
 ::: moniker-end
 
 ## Debug code
@@ -435,8 +481,12 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
    A red circle appears in the gutter, and the line is highlighted.
 
-   ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/breakpoint.png" alt-text="Screenshot that shows a breakpoint on a line of code in Visual Studio." border="false":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/visualstudio/breakpoint.png" alt-text="Screenshot that shows a breakpoint on a line of code in Visual Studio." border="false":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/breakpoint.png" alt-text="Screenshot that shows a breakpoint on a line of code in Visual Studio 2022." border="false":::
    ::: moniker-end
 
 1. Start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
@@ -447,15 +497,25 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. Hover your mouse over the `username` variable to see its value. You can also right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
-   ::: moniker range=">=vs-2022"
-   :::image type="content" source="media/vs-2022/inspect-variable.png" alt-text="Screenshot that shows a variable value during debugging in Visual Studio." border="false":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/visualstudio/inspect-variable.png" alt-text="Screenshot that shows a variable value during debugging in Visual Studio." border="false":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/inspect-variable.png" alt-text="Screenshot that shows a variable value during debugging in Visual Studio 2022." border="false":::
    ::: moniker-end
 
 1. Press **F5** again to finish running the app.
 
-::: moniker range=">=vs-2022"
+While the app is running, you can apply code changes to the running app by selecting the Hot Reload button.
 
-While the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
+::: moniker range=">=visualstudio"
+
+:::image type="content" source="../media/visualstudio/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
 
