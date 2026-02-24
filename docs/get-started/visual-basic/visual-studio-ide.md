@@ -280,7 +280,7 @@ Dive in and create a simple program.
 
 1. Start the app by choosing **Debug** > **Start Without Debugging** from the Visual Studio top menu. You can also press **Ctrl**+**F5**.
 
-   :::image type="content" source="media/visualstudior/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item.":::
+   :::image type="content" source="media/visualstudio/start-without-debugging.png" alt-text="Screenshot that shows the Debug > Start without Debugging menu item.":::
 
    Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
 
@@ -454,7 +454,7 @@ Next, use refactoring again to make the code a little more concise.
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   :::image type="content" source="../media/visualstudio/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/visualstudio/overview-console-final.png":::
+   :::image type="content" source="media/visualstudio/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="media/visualstudio/overview-console-final.png":::
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -511,7 +511,7 @@ While the app is running, you can apply code changes to the running app by selec
 
 ::: moniker range=">=visualstudio"
 
-:::image type="content" source="../media/visualstudio/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio.":::
+:::image type="content" source="media/visualstudio/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2026.":::
 
 ::: moniker-end
 
