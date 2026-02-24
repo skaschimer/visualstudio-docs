@@ -1,7 +1,7 @@
 ---
 title: Use Agent Mode
 description: Use the GitHub Copilot agent to iterate on code in Visual Studio by making code edits, running commands, and reading error/build context.
-ms.date: 11/24/2025
+ms.date: 2/24/26
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -127,7 +127,7 @@ Agent mode can use the following tools for responding to a request:
 - [Model Context Protocol (MCP) tools](mcp-servers.md)
 
 > [!TIP]
-> Visual Studio also includes specialized agents like @debug, @profiler, @test, and @vs that integrate with specific IDE features. You can also create custom agents for your team workflows. For more information, see [Use specialized agents in GitHub Copilot](copilot-specialized-agents.md).
+> Visual Studio also includes built-in agents like @debug, @profiler, @test, and @vs that integrate with specific IDE features. You can also create custom agents for your team workflows. For more information, see [Use custom agents in GitHub Copilot](copilot-specialized-agents.md).
 
 To view and manage the tools that are available in agent mode, select the **Tools** icon in the chat window.
 
@@ -375,6 +375,6 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 
 ## Related content
 
-- [Use specialized agents in GitHub Copilot](copilot-specialized-agents.md)
+- [Use custom agents in GitHub Copilot](copilot-specialized-agents.md)
 - [GitHub Copilot Edits](copilot-edits.md)
 - [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)

@@ -1,7 +1,7 @@
 ---
-title: Use specialized agents in GitHub Copilot
-description: Learn about built-in agents for debugging, profiling, testing, and Visual Studio help, plus how to create custom agents for your team workflows.
-ms.date: 02/20/2026
+title: Use custom agents in GitHub Copilot
+description: Learn about built-in agents for debugging, profiling, testing, and Visual Studio help, and how to create custom agents for your team workflows.
+ms.date: 02/24/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -10,40 +10,42 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp
 ai-usage: ai-assisted
+ms.update-cycle: 180-days
 monikerRange: '>= vs-2022'
 ---
 
-# Use specialized agents in GitHub Copilot
+# Use built-in and custom agents with GitHub Copilot
 
 GitHub Copilot in Visual Studio goes beyond a single general-purpose assistant. Visual Studio includes a set of curated built-in agents that integrate deeply with IDE capabilities like debugging, profiling, and testing. You can also create custom agents tailored to how your team works.
 
 ## Prerequisites
 
-+ Visual Studio 2022 [version 17.14](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.14 (latest version)](/visualstudio/releases/2022/release-history) or later
 + A [GitHub Copilot subscription](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
 
-## Access specialized agents
+## Access custom agents
 
 :::moniker range="visualstudio"
-You can access specialized agents in two ways:
+You can access custom agents in two ways:
 
-+ **Agent picker**: In the Copilot Chat window, select the agent picker dropdown to see available agents.
++ **Agent picker**: In the Copilot Chat window, select the agent picker dropdown to see available agents. Currently, this option is available only in the Visual Studio 2026 Insiders build.
 + **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@debug`).
+
 ::: moniker-end
 
 :::moniker range="vs-2022"
-You can access specialized agents by using **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@profiler`).
+You can access custom agents by using **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@profiler`).
 ::: moniker-end
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/agent-picker.png" alt-text="Screenshot showing the agent picker with specialized agents in Visual Studio.":::
+:::image type="content" source="media/visualstudio/agent-picker.png" alt-text="Screenshot showing the agent picker with custom agents in Visual Studio.":::
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 
-:::image type="content" source="media/vs-2022/agent-picker.png" alt-text="Screenshot showing the agent picker with specialized agents.":::
+:::image type="content" source="media/vs-2022/agent-picker.png" alt-text="Screenshot showing the agent picker with custom agents.":::
 
 :::moniker-end
 
