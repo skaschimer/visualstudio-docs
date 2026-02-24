@@ -454,7 +454,7 @@ Next, use refactoring again to make the code a little more concise.
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   :::image type="content" source="media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="media/vs-2022/overview-console-final.png":::
+   :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output." lightbox="../media/vs-2022/overview-console-final.png":::
 ::: moniker-end
 
 ::: moniker range="vs-2022"
