@@ -16,7 +16,7 @@ monikerRange: '>= vs-2022'
 
 # Use built-in and custom agents with GitHub Copilot
 
-GitHub Copilot in Visual Studio goes beyond a single general-purpose assistant. Visual Studio includes a set of curated built-in agents that integrate deeply with IDE capabilities like debugging, profiling, and testing. You can also create custom agents tailored to how your team works.
+Visual Studio includes a set of curated built-in agents that integrate deeply with IDE capabilities like debugging, profiling, and testing. You can also create custom agents tailored to how your team works.
 
 ## Prerequisites
 
