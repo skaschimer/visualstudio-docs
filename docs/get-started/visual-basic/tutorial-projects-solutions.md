@@ -36,31 +36,31 @@ Despite its name, a solution isn't an *answer*. A solution is a container used b
 
 To start your exploration, create an empty solution. After you get to know Visual Studio, you probably won't find yourself creating empty solutions often. When you create a new project, Visual Studio automatically creates a solution to house the project if there's not a solution already open.
 
-::: moniker range=">=vs-2022"
-
 1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
 1. On the **Create a new project** window, enter *blank solution* into the search box. Select the **Blank Solution** template. Then choose **Next**.
 
+   ::: moniker range=">=visualstudio"
    :::image type="content" source="media/vs-2022/tutorial-projects-blank-solution-template.png" alt-text="Screenshot showing the Create a new project window with 'blank solution' in the search box and the Blank Solution project template selected.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/visualstudio/tutorial-projects-blank-solution-template.png" alt-text="Screenshot showing the Create a new project window in Visual Studio 2022 with 'blank solution' in the search box and the Blank Solution project template selected.":::
+   ::: moniker-end
 
 1. Name the solution **QuickSolution**, and then choose **Create**.
 
    A solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
 
-::: moniker-end
-
 ### Add a project
 
 Now add your first project to the solution. Add an empty project and add the items you need to the project.
 
-::: moniker range=">=vs-2022"
-
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
-   A dialog box opens that says **Add a new project**.
+   A dialog opens that says **Add a new project**.
 
 1. Enter the text **empty** into the search box at the top, and then select **Visual Basic** in the **All languages** dropdown list.
 
@@ -70,22 +70,31 @@ Now add your first project to the solution. Add an empty project and add the ite
 
    A project named **QuickDate** appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
+   ::: moniker range=">=visualstudio"
    > [!NOTE]
    > If you don't see the **Empty Project (.NET Framework)** template, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to install the components you need for the type of development you do.
    >
    > An easy way to install a new workload is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
    >
-   > :::image type="content" source="media/vs-2022/tutorial-projects-open-installer.png" alt-text="Screenshot showing the Create a new project window with the 'Install more tools and features' link highlighted.":::
+   > :::image type="content" source="media/visualstudio/tutorial-projects-open-installer.png" alt-text="Screenshot showing the Create a new project window with the 'Install more tools and features' link highlighted.":::
+   ::: moniker-end
 
-::: moniker-end
+   ::: moniker range="vs-2022"
+   > [!NOTE]
+   > If you don't see the **Empty Project (.NET Framework)** template, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to install the components you need for the type of development you do.
+   >
+   > An easy way to install a new workload is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   >
+   > :::image type="content" source="media/vs-2022/tutorial-projects-open-installer.png" alt-text="Screenshot showing the Create a new project window in Visual Studio 2022 with the 'Install more tools and features' link highlighted.":::
+   ::: moniker-end
 
 ## Add an item to the project
 
 You have an empty project. Now add a code file.
 
-1. From the right-click or context menu of the **QuickDate** project in **Solution Explorer**, choose **Add** > **New Item**.
+1. From the right-click or context menu of the **QuickDate** project in **Solution Explorer**, choose **Add** > **New Item**. The **Add New Item** dialog opens.
 
-   The **Add New Item** dialog opens.
+   When you add an item for the first time, Visual Studio opens a compact view of this dialog. To see the whole dialog, select **Show All Templates**.
 
 1. Expand **Common Items**, then choose **Code**. In the middle pane, choose the **Class** item template. Name the class **Calendar**. Then choose **Add**.
 
@@ -115,8 +124,6 @@ It's common for solutions to contain more than one project. Often these projects
 
 Add a unit test project to your solution. Start from a project template so you don't have to add another code file to the project.
 
-::: moniker range=">=vs-2022"
-
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
 1. In the **Add a new project** window, enter the text **unit test** into the search box at the top. Then select **Visual Basic** in the **All languages** list.
@@ -127,13 +134,9 @@ Add a unit test project to your solution. Start from a project template so you d
 
    A second project is added to **Solution Explorer**. A file named *UnitTest1.vb* opens in the editor.
 
-::: moniker-end
-
 ## Add a project reference
 
 Use the new unit test project to test your method in the **QuickDate** project, so you need to add a reference to that project. The reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** is built before **QuickTest**.
-
-::: moniker range=">=vs-2022"
 
 1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
 
@@ -145,11 +148,7 @@ Use the new unit test project to test your method in the **QuickDate** project, 
 
    A reference to the **QuickDate** project is added.
 
-::: moniker-end
-
 ## Add test code
-
-::: moniker range=">=vs-2022"
 
 1. Now add test code to the Visual Basic code file. Replace the contents of *UnitTest1.vb* with the following code.
 
@@ -177,11 +176,7 @@ Use the new unit test project to test your method in the **QuickDate** project, 
 
    :::image type="content" source="media/vs-2022/tutorial-projects-code-vb.png" alt-text="Screenshot showing the code for Calendar.vb in the Visual Basic code editor window after you added the Imports statement and Assembly attribute lines.":::
 
-::: moniker-end
-
 ## Project properties
-
-::: moniker range=">=vs-2022"
 
 The line in the *Calendar.vb* file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name (file name) of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
 
@@ -193,19 +188,14 @@ The line in the *Calendar.vb* file that contains the <xref:System.Runtime.Compil
 
 1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of projects.
 
-::: moniker-end
 ## (Optional) Run the test
-
-::: moniker range=">=vs-2022"
 
 If you want to check that your unit test is working, choose **Test** > **Run All Tests** from the menu bar. A window called **Test Explorer** opens. You should see that the **TestGetCurrentDate** test passes.
 
 :::image type="content" source="media/vs-2022/tutorial-projects-test-explorer.png" alt-text="Screenshot of the Test Explorer in Visual Studio showing that the TestGetCurrentDate test passed.":::
 
 > [!TIP]
-> If **Test Explorer** doesn't open automatically, from the menu, select **Test** > **Windows** > **Test Explorer**.
-
-::: moniker-end
+> If **Test Explorer** doesn't open automatically, from the menu, select **Test** > **Test Explorer**.
 
 ## Related content
 
