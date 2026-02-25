@@ -77,7 +77,7 @@ Now that you have a way to check the answers, you can write the code for the Tic
 
 1. On the form, double-click the **Timer** control, or select it and then select **Enter**. These actions add a Tick event handler. The code editor appears and displays the Tick handler's method.
 
-1. Add the following statements to the new event handler method.
+1. Add the following statements to the new event handler method in **Form1.cs** or **Form1.vb**.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet6":::
