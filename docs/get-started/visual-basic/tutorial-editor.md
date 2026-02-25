@@ -28,8 +28,6 @@ If you need to install Visual Studio, for a free version, see [Visual Studio dow
 
 Start by creating a file and adding some code to it.
 
-::: moniker range=">=vs-2022"
-
 1. Open Visual Studio. Press **Esc** or select **Continue without code** on the start window to open the development environment.
 
 1. On the **File** menu on the menu bar, select **New** > **File**.
@@ -40,13 +38,9 @@ Start by creating a file and adding some code to it.
 
    :::image type="content" source="media/vs-2022/tutorial-editor.png" alt-text="Screenshot of a new Visual Basic class file in the code editor of Visual Studio.":::
 
-::: moniker-end
-
 ## Use code snippets
 
 Visual Studio provides *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../../ide/code-snippets.md) are available for various programming languages, including Visual Basic, C#, and C++. Add the Visual Basic **Sub** snippet to the file.
-
-::: moniker range=">=vs-2022"
 
 1. Place your cursor above the line that says `End Class`, and type **sub**.
 
@@ -62,13 +56,9 @@ The available code snippets vary for different programming languages. You can vi
 
 :::image type="content" source="media/vs-2022/tutorial-code-snippet-list.png" alt-text="Screenshot showing the Insert Snippet window with a list of category folders that contain Visual Basic code snippets.":::
 
-::: moniker-end
-
 ## Comment out code
 
 In this section, you comment out some code.
-
-::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/tutorial-editor-toolbar.png" alt-text="Screenshot of the toolbar in Visual Studio, which includes buttons for adding and removing code comments.":::
 
@@ -102,11 +92,7 @@ In this section, you comment out some code.
 
    The Visual Basic comment character `'` is added to the beginning of each selected line to comment out the code.
 
-::: moniker-end
-
 ## Collapse code blocks
-
-::: moniker range=">=vs-2022"
 
 You can collapse sections of code to focus just on the parts that interest you. To practice, try collapsing the `_words` array to one line of code. Select the down arrow in the margin of the line that says `Dim _words = New String() {`. Or, if you're a keyboard user, place the cursor anywhere in the array definition and select **Ctrl**+**M**, **Ctrl**+**M**.
 
@@ -114,11 +100,7 @@ You can collapse sections of code to focus just on the parts that interest you. 
 
 The code block collapses to just the first line, followed by an ellipsis (`...`). The down arrow in the margin is now an arrow that points to the right. To expand the code block, select the **>** arrow, or press **Ctrl**+**M**, **Ctrl**+**M** again. This feature is called [outlining](../../ide/outlining.md). It's especially useful when you're collapsing long methods or entire classes.
 
-::: moniker-end
-
 ## View symbol definitions
-
-::: moniker range=">=vs-2022"
 
 The Visual Studio editor makes it easy to inspect the definition of a type or class member. You can do that by navigating to the file that contains the definition. For example, right-click and select **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../../ide/go-to-and-peek-definition.md#peek-at-a-definition):
 
@@ -130,11 +112,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
 
 1. Close the Peek Definition window by selecting the close button at the upper-right corner of the pop-up window.
 
-::: moniker-end
-
 ## Use IntelliSense to complete words
-
-::: moniker range=">=vs-2022"
 
 [IntelliSense](../../ide/using-intellisense.md) is a valuable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Now add a line of code to print the ordered strings to the console window, which is the standard place for output from the program to go.
 
@@ -158,11 +136,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type or cl
    Next
    ```
 
-::: moniker-end
-
 ## Refactor a name
-
-::: moniker range=">=vs-2022"
 
 Nobody gets code right the first time. One of the things you might have to change is the name of a variable or method. Try the Visual Studio [refactor](../../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
@@ -177,8 +151,6 @@ Nobody gets code right the first time. One of the things you might have to chang
 1. Select **Enter**.
 
    Both occurrences of `words` are renamed, in addition to the reference to `words` in the code comment.
-
-::: moniker-end
 
 ## Related content
 
