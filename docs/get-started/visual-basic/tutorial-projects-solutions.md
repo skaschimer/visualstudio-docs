@@ -43,11 +43,11 @@ To start your exploration, create an empty solution. After you get to know Visua
 1. On the **Create a new project** window, enter *blank solution* into the search box. Select the **Blank Solution** template. Then choose **Next**.
 
    ::: moniker range=">=visualstudio"
-   :::image type="content" source="media/vs-2022/tutorial-projects-blank-solution-template.png" alt-text="Screenshot showing the Create a new project window with 'blank solution' in the search box and the Blank Solution project template selected.":::
+   :::image type="content" source="media/visualstudio/tutorial-projects-blank-solution-template.png" alt-text="Screenshot showing the Create a new project window with 'blank solution' in the search box and the Blank Solution project template selected.":::
    ::: moniker-end
 
    ::: moniker range="vs-2022"
-   :::image type="content" source="media/visualstudio/tutorial-projects-blank-solution-template.png" alt-text="Screenshot showing the Create a new project window in Visual Studio 2022 with 'blank solution' in the search box and the Blank Solution project template selected.":::
+   :::image type="content" source="media/vs-2022/tutorial-projects-blank-solution-template.png" alt-text="Screenshot showing the Create a new project window in Visual Studio 2022 with 'blank solution' in the search box and the Blank Solution project template selected.":::
    ::: moniker-end
 
 1. Name the solution **QuickSolution**, and then choose **Create**.
