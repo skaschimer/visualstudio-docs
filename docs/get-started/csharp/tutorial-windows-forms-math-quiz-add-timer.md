@@ -12,7 +12,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 
-#customer intent: As a developer working Windows Forms applications, I need to know how to use timers in my apps.
+#customer intent: As a developer working with Windows Forms applications, I need to know how to use timers in my apps.
 ---
 # Tutorial: Add a timer to a math quiz WinForms app
 
@@ -50,7 +50,7 @@ To keep track of time during the quiz, you use a Timer component. You also need 
 
 ## Check the answers
 
-Because the timer raises a Tick event every second, it makes sense to check the elapsed time in a Tick event handler. It's also practical to check the answers in that event handler. If time runs out, or if the answers are correct, the quiz should end.
+Because the timer raises a Tick event every second, it makes sense to check the elapsed time in a Tick event handler. It's also practical to check the answers in that event handler. If time runs out or if the answers are correct, the quiz should end.
 
 Before you write that event handler, add a method called `CheckTheAnswer()` to determine whether the answers to the math problems are correct. This method should be in line with the other methods, such as `StartTheQuiz()`. Your code should look like the following sample.
 
