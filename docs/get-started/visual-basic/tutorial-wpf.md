@@ -60,7 +60,7 @@ In this tutorial, create a Windows Presentation Foundation project.
 
 1. On the start window, choose **Create a new project**.
 
-   :::image type="content" source="media/visualstudio/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio 2022 with the 'Create a new project' option highlighted.":::
+   :::image type="content" source="media/visualstudio/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio with the 'Create a new project' option highlighted.":::
 
 1. On the **Create a new project** window, search for *WPF* and select **Visual Basic** in the **All languages** list.
    Choose **WPF App (.NET Framework)**, and then choose **Next**.
@@ -100,7 +100,7 @@ The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in
 ::: moniker-end
 
 > [!NOTE]
-> For more information about eXtensible Application Markup Language (XAML), see [XAML overview for WPF](/dotnet/desktop/wpf/xaml).
+> For more information about Extensible Application Markup Language (XAML), see [XAML overview for WPF](/dotnet/desktop/wpf/xaml).
 
 ## Configure window and add text
 
@@ -253,7 +253,7 @@ To see how this process works, the first step deliberately introduces an error i
 
 1. In **Solution Explorer**, open the *Application.xaml* file.
 
-1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`
+1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`.
 
 1. Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
