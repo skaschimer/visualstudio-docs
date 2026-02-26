@@ -285,11 +285,11 @@ You can test the code during debugging by adding some breakpoints.
    The **Call Stack**, **Breakpoints**, **Exception Settings**, **Command**, **Immediate**, and **Output** windows are docked together on the right side.
 
    ::: moniker range=">=visualstudio"
-   :::image type="content" source="media/visualstudio/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb.":::
+   :::image type="content" source="media/visualstudio/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb." lightbox="media/visualstudio/explore-ide-debug-breakpoint.png":::
    ::: moniker-end
 
    ::: moniker range="vs-2022"
-   :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio 2022 with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb.":::
+   :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio 2022 with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb." lightbox="media/vs-2022/explore-ide-debug-breakpoint.png":::
    ::: moniker-end
 
 1. On the menu bar, choose **Debug** > **Step Out**.
