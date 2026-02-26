@@ -57,7 +57,7 @@ Some popular features in Visual Studio that improve your productivity when you d
   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A light bulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
 
   ::: moniker range=">=visualstudio"
-  :::image type="content" source="media/vs-2022/squiggles-error.png" alt-text="Screenshot of a squiggle underline in Visual Studio.":::
+  :::image type="content" source="media/visualstudio/squiggles-error.png" alt-text="Screenshot of a squiggle underline in Visual Studio.":::
   ::: moniker-end
 
   ::: moniker range="vs-2022"
@@ -69,7 +69,7 @@ Some popular features in Visual Studio that improve your productivity when you d
   Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, and changing the order of method parameters.
 
   ::: moniker range=">=visualstudio"
-  :::image type="content" source="media/vs-2022/refactoring-menu.png" alt-text="Screenshot of the Refactoring menu in Visual Studio.":::
+  :::image type="content" source="media/visualstudio/refactoring-menu.png" alt-text="Screenshot of the Refactoring menu in Visual Studio.":::
   ::: moniker-end
 
   ::: moniker range="vs-2022"
@@ -83,7 +83,7 @@ Some popular features in Visual Studio that improve your productivity when you d
   The following illustration shows how IntelliSense displays a member list for a type:
 
   ::: moniker range=">=visualstudio"
-  :::image type="content" source="media/vs-2022/intellisense.png" alt-text="Screenshot of an IntelliSense member list.":::
+  :::image type="content" source="media/visualstudio/intellisense.png" alt-text="Screenshot of an IntelliSense member list.":::
   ::: moniker-end
 
   ::: moniker range="vs-2022"
@@ -174,13 +174,9 @@ Some popular features in Visual Studio that improve your productivity when you d
 
 In this section, you create a simple project to try out some of the things you can do with Visual Studio. You learn how to change the color theme, use [IntelliSense](../../ide/using-intellisense.md) as a coding aid, and debug an app to see a variable value during app execution.
 
-::: moniker range=">=vs-2022"
-
 To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
 
 :::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the dot NET desktop development workload selected in the Visual Studio Installer.":::
-
-::: moniker-end
 
 When you open Visual Studio for the first time, you can [sign in](../../ide/signing-in-to-visual-studio.md) by using your Microsoft account or your work or school account.
 
