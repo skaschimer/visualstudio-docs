@@ -9,7 +9,7 @@ ms.topic: tutorial
 
 dev_langs:
   - "VB"
-ms.date: 02/20/2026
+ms.date: 02/26/2026
 ms.custom: vs-acquisition
 
 #customer intent: As a Visual Basic developer, I want to learn how to use Visual Studio to create a UI application using WPF.
@@ -47,10 +47,8 @@ WPF is part of .NET. If you previously created applications with .NET using ASP.
 
 ## Prerequisites
 
-::: moniker range=">=vs-2022"
 You need Visual Studio to complete this tutorial.
 For a free version, see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
-::: moniker-end
 
 ## Create the project
 
@@ -74,7 +72,7 @@ In this tutorial, create a Windows Presentation Foundation project.
    Visual Studio creates the HelloWPFApp project and solution.
    **Solution Explorer** shows the various files.
 
-   :::image type="content" source="media/vs-2022/explore-ide-hello-wpf-app-files.png" alt-text="Screenshot showing the files in the HelloWPFApp project and solution in the Solution Explorer.":::
+   :::image type="content" source="media/visualstudio/explore-ide-hello-wpf-app-files.png" alt-text="Screenshot showing the files in the HelloWPFApp project and solution in the Solution Explorer.":::
 
 The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view.
 ::: moniker-end
@@ -96,7 +94,7 @@ The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in
    Visual Studio creates the HelloWPFApp project and solution.
    **Solution Explorer** shows the various files.
 
-   :::image type="content" source="media/vs-2022/explore-ide-hello-wpf-app-files.png" alt-text="Screenshot showing the files in the HelloWPFApp project and solution in the Solution Explorer.":::
+   :::image type="content" source="media/vs-2022/explore-ide-hello-wpf-app-files.png" alt-text="Screenshot showing the files in the HelloWPFApp project and solution in the Solution Explorer in Visual Studio 2022.":::
 
 The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view.
 ::: moniker-end
@@ -117,7 +115,13 @@ Using the **Properties** window, you can display and change options for project 
 
 1. Either expand **Common WPF Controls** or enter *Text* in the search bar to find **TextBlock**.
 
-   :::image type="content" source="media/tutorial-wpf/toolbox-tab-text-block.png" alt-text="Screenshot showing the Toolbox window with the TextBlock control highlighted in the list of Common WPF Controls.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/tutorial-wpf/visualstudio/toolbox-tab-text-block.png" alt-text="Screenshot showing the Toolbox window with the TextBlock control highlighted in the list of Common WPF Controls.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/tutorial-wpf/toolbox-tab-text-block.png" alt-text="Screenshot showing the Toolbox window in Visual Studio 2022 with the TextBlock control highlighted in the list of Common WPF Controls.":::
+   ::: moniker-end
 
 1. Select the **TextBlock** item and drag it to the window on the design surface.
    You can move the TextBlock control by dragging it.
@@ -152,7 +156,13 @@ That code refers to the radio button selection.
 
 1. In the **Toolbox**, find **RadioButton**.
 
-   :::image type="content" source="media/tutorial-wpf/toolbox-radio-button.png" alt-text="Screenshot showing the Toolbox window with the RadioButton control selected in the list of Common WPF Controls.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/tutorial-wpf/visualstudio/toolbox-radio-button.png" alt-text="Screenshot showing the Toolbox window with the RadioButton control selected in the list of Common WPF Controls.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/tutorial-wpf/toolbox-radio-button.png" alt-text="Screenshot showing the Toolbox window in Visual Studio 2022 with the RadioButton control selected in the list of Common WPF Controls.":::
+   ::: moniker-end
 
 1. Add two RadioButton controls to the design surface by selecting the **RadioButton** item and dragging it to the  design surface.
    Move the buttons by selecting them and using the arrow keys.
@@ -162,7 +172,13 @@ That code refers to the radio button selection.
 
 1. In the **Properties** window for the left RadioButton control, change the **Name** property at the top of the **Properties** window to *HelloButton*.
 
-   :::image type="content" source="media/tutorial-wpf/properties-radio-button-name.png" alt-text="Screenshot showing the Solution Explorer Properties window for the 'HelloButton'  RadioButton.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/tutorial-wpf/visualstudio/properties-radio-button-name.png" alt-text="Screenshot showing the Solution Explorer Properties window for the 'HelloButton'  RadioButton.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/tutorial-wpf/properties-radio-button-name.png" alt-text="Screenshot showing the Solution Explorer Properties window in Visual Studio 2022 for the 'HelloButton'  RadioButton.":::
+   ::: moniker-end
 
 1. In the **Properties** window for the right RadioButton control, change the **Name** property to *GoodbyeButton*.
 
@@ -228,11 +244,7 @@ To see how this process works, the first step deliberately introduces an error i
 
    A **Break Mode** window appears, and the **Output** window indicates that an exception occurred.
 
-   ::: moniker range=">=vs-2022"
-
    :::image type="content" source="media/tutorial-wpf/exception-unhandled-vs-2022.png" alt-text="Screenshot showing the 'Exception Unhandled' window with a System.IO.Exception message that reads 'Cannot locate resource mainwindow.xaml'.":::
-
-   ::: moniker-end
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
@@ -245,11 +257,7 @@ To see how this process works, the first step deliberately introduces an error i
 
 1. Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
-   ::: moniker range=">=vs-2022"
-
    :::image type="content" source="media/vs-2022/explore-ide-wpf-running-app.png" alt-text="Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.":::
-
-   ::: moniker-end
 
 1. Select **Hello** and the **Display** button, and then **Goodbye** and the **Display** button.
    Use the close icon in the upper right corner to stop debugging.
@@ -276,7 +284,13 @@ You can test the code during debugging by adding some breakpoints.
    At the bottom of the IDE, the **Autos**, **Locals**, and **Watch** windows are docked together on the left side.
    The **Call Stack**, **Breakpoints**, **Exception Settings**, **Command**, **Immediate**, and **Output** windows are docked together on the right side.
 
-   :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/visualstudio/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio 2022 with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb.":::
+   ::: moniker-end
 
 1. On the menu bar, choose **Debug** > **Step Out**.
 
@@ -318,6 +332,5 @@ Advance to the next article to learn how to create a Windows Forms app in Visual
 
 For more information about Visual Studio, see:
 
-::: moniker range=">=vs-2022"
 - [Productivity tips](../../ide/productivity-features.md)
-::: moniker-end
+
