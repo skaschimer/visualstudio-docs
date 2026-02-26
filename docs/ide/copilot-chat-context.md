@@ -1,7 +1,7 @@
 ---
 title: 'Customize chat responses'
 description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
-ms.date: 12/02/2025
+ms.date: 02/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: anandmeg
@@ -12,7 +12,8 @@ ms.collection: ce-skilling-ai-copilot
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat
-ms.custom: sfi-image-nochange
+ms.custom: "awp-ai, sfi-image-nochange"
+ms.ai-usage: ai-assisted
 ---
 # Customize chat responses and set context
 
@@ -50,8 +51,6 @@ The guided chat experience in Visual Studio 17.12 and later helps refine your pr
 
 :::moniker-end
 
-
-
 ## Use custom instructions
 
 The custom instructions feature enables you to automatically add prespecified contextual details to your chat questions. Copilot Chat uses these instructions tailored to your specific context, such as, the way your team works, the tools you use, or the specifics of your project, when generating responses. 
@@ -86,6 +85,20 @@ To use a `.github/copilot-instructions.md` file:
 :::moniker-end
 
 Custom instructions aren't visible in the Chat view or inline chat. However, when used by Copilot, the`.github/copilot-instructions.md` file is listed in the References list of a response.
+
+[Copilot memories](copilot-context-overview.md#copilot-memories) can automatically detect your preferences during chat and add them to your instruction files, so you don't have to write them manually.
+
+:::moniker range="visualstudio"
+
+### Use user-level preferences
+
+In addition to repo-level custom instructions, you can define user-level preferences that apply to all your Copilot sessions across projects. User-level preferences are saved to `%USERPROFILE%/copilot-instructions.md`.
+
+Use user-level preferences for personal coding standards, preferred patterns, or workflow conventions that you want Copilot to follow regardless of the repository you're working in. Repo-level instructions in `.github/copilot-instructions.md` still apply alongside your user-level preferences, so your team's shared standards are also respected.
+
+You can add preferences to this file manually, or let [Copilot memories](copilot-context-overview.md#copilot-memories) detect and save them automatically as you chat.
+
+:::moniker-end
 
 ### Use .instructions.md files
 

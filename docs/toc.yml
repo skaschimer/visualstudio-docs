@@ -309,6 +309,8 @@
     items:
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
+    - name: Markdown preview
+      href: ide/markdown-preview.md
     - name: Use the Spell Checker
       href: ide/text-spell-checker.md
     - name: Use Sticky Scroll
