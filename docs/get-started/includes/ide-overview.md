@@ -55,7 +55,7 @@ Some popular features in Visual Studio that improve your productivity when you d
 
 - Code Cleanup
 
-   Using Code Cleanup, you can format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup**, currently available for C# code only, helps you resolve issues in your code before it goes to code review.
+   Using Code Cleanup, you can format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup** helps you resolve issues in your code before it goes to code review.
 
    ::: moniker range=">=visualstudio"
    :::image type="content" source="../media/visualstudio/code-cleanup.png" alt-text="Screenshot showing the Code Cleanup icon and menu in Visual Studio.":::
