@@ -247,7 +247,7 @@ Dive in and create a simple program.
 
 1. Type your name in the console window and press **Enter**.
 
-   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!" lightbox="../media/vs-2022/overview-console-input.png" border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!" lightbox="../media/vs-2022/overview-console-input.png"":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -276,7 +276,7 @@ Dive in and create a simple program.
 
 1. In the **Additional information** window, verify that **.NET 8.0** appears in the **Framework** menu, and then select **Create**.
 
-   :::image type="content" source="../media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the Additional information dialog showing .NET 8.0 selected as the target framework for the new project in Visual Studio 2022." lightbox="../media/vs-2022/create-project-additional-info.png" border="false":::
+   :::image type="content" source="../media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the Additional information dialog showing .NET 8.0 selected as the target framework for the new project in Visual Studio 2022." lightbox="../media/vs-2022/create-project-additional-info.png"":::
 
    Visual Studio creates the project. The program is a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the string **Hello, World!** in a console window.
 
@@ -323,7 +323,7 @@ Dive in and create a simple program.
 
 1. Type your name in the console window and press **Enter**.
 
-   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!" lightbox="../media/vs-2022/overview-console-input.png" border="false":::
+   :::image type="content" source="../media/vs-2022/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!" lightbox="../media/vs-2022/overview-console-input.png"":::
 
 1. Press any key to close the console window and stop the running program.
 
@@ -462,7 +462,7 @@ You can personalize the Visual Studio user interface, including changing the def
 
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Cool Breeze theme:
 
-   :::image type="content" source="../media/visualstudio/cool-breeze-theme.png" border="false" alt-text="Screenshot that shows Visual Studio in Cool Breeze theme." lightbox="../media/visualstudio/cool-breeze-theme.png":::
+   :::image type="content" source="../media/visualstudio/cool-breeze-theme.png"" alt-text="Screenshot that shows Visual Studio in Cool Breeze theme." lightbox="../media/visualstudio/cool-breeze-theme.png":::
 
 ::: moniker-end
 
