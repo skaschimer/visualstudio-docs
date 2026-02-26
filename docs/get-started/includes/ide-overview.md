@@ -222,7 +222,7 @@ Dive in and create a simple program.
 
    Visual Studio builds the app, and a console window opens with the message **Hello, World!**. You now have a running app!
 
-   :::image type="content" source="../media/visualstudio/overview-console-window.png" alt-text="Screenshot of the Debug Console window showing the output Hello, World! and Press any key to close this window.":::
+   :::image type="content" source="../media/vs-2022/overview-console-window.png" alt-text="Screenshot of the Debug Console window showing the output Hello, World! and Press any key to close this window.":::
 
 1. To close the console window, press any key.
 
@@ -390,9 +390,7 @@ First, rename the `name` variable:
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ::: moniker range=">=vs-2022"
    :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'.":::
-   ::: moniker-end
 
 ## Debug code
 
@@ -431,7 +429,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
 While the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
 
 ::: moniker range=">=visualstudio"
-:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio." lightbox="../media/vs-2022/overview-hot-reload.png":::
+:::image type="content" source="../media/visualstudio/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio." lightbox="../media/visualstudio/overview-hot-reload.png":::
 ::: moniker-end
 
 ::: moniker range="vs-2022"
