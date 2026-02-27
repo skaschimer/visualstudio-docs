@@ -103,7 +103,7 @@ Some popular features in Visual Studio that improve your productivity when you d
   ::: moniker-end
 
   ::: moniker range="vs-2022"
-  :::image type="content" source="media/vs-2022/quick-launch-nuget.png" alt-text="Screenshot that shows the Quick Launch search box in Visual Studio 2022.":::
+  :::image type="content" source="media/vs-2022/quick-launch-nuget.png" alt-text="Screenshot that shows the Quick Launch search box in Visual Studio 2022." lightbox="media/vs-2022/quick-launch-nuget.png":::
   ::: moniker-end
 
 - [Live Share](/visualstudio/liveshare/)
@@ -167,7 +167,7 @@ Some popular features in Visual Studio that improve your productivity when you d
   ::: moniker-end
 
   ::: moniker range="vs-2022"
-  :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+  :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022." lightbox="../media/vs-2022/overview-hot-reload.png":::
   ::: moniker-end
 
 ## Install Visual Studio
@@ -264,13 +264,13 @@ Dive in and create a simple program.
 
    The project files appear on the right side of the Visual Studio IDE, in a window called the **Solution Explorer**. In the **Solution Explorer** window, select the **Program.vb** file. The Visual Basic code for the app opens in the central editor window, which takes up most of the space.
 
-   :::image type="content" source="media/visualstudio/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor.":::
+   :::image type="content" source="media/visualstudio/open-program.png" alt-text="Screenshot that shows the Visual Studio IDE with the Program.vb code in the editor." lightbox="media/visualstudio/open-program.png":::
 
    The code is automatically colorized to indicate different parts, such as keywords and types. Line numbers help you locate code.
 
    Small, vertical dashed lines in the code indicate code structure or code blocks that go together. You can also select the small right arrow signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need to see, helping to minimize onscreen clutter.
 
-   :::image type="content" source="media/visualstudio/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes.":::
+   :::image type="content" source="media/visualstudio/editor-features.png" alt-text="Screenshot that shows the Visual Studio IDE with red boxes." lightbox="media/visualstudio/editor-features.png":::
 
    Many other menus and tool windows are available.
 
@@ -323,7 +323,7 @@ Dive in and create a simple program.
 
    Select the Visual Basic **Console Application** template, and then select **Next**.
 
-   :::image type="content" source="media/vs-2022/create-project.png" alt-text="Screenshot of the Create a new project window in Visual Studio 2022 with the Visual Basic Console Application selected.":::
+   :::image type="content" source="media/vs-2022/create-project.png" alt-text="Screenshot of the Create a new project window in Visual Studio 2022 with the Visual Basic Console Application selected." lightbox="media/vs-2022/create-project.png":::
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Optionally, change the project directory location from the default location of *C:\\Users\\\<name>\\source\\repos*, and then select **Next**.
 
@@ -417,7 +417,7 @@ Now take a look at IntelliSense.
    A box displays the members of the <xref:System.DateTime> class. The description of the currently selected member also displays in a separate box.
 
    ::: moniker range=">=visualstudio"
-   :::image type="content" source="media/visualstudio/intellisense-list-members.png" alt-text="Screenshot that shows IntelliSense list members in Visual Studio.":::
+   :::image type="content" source="media/visualstudio/intellisense-list-members.png" alt-text="Screenshot that shows IntelliSense list members in Visual Studio." lightbox="media/visualstudio/intellisense-list-members.png":::
    ::: moniker-end
 
    ::: moniker range="vs-2022"
