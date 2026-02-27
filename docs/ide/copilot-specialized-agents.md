@@ -1,7 +1,7 @@
 ---
 title: Use custom agents in GitHub Copilot
-description: Learn about built-in agents for debugging, profiling, testing, and Visual Studio help, and how to create custom agents for your team workflows.
-ms.date: 02/24/2026
+description: Learn about built-in agents for debugging, profiling, testing, and code modernization, and how to create custom agents for your team workflows.
+ms.date: 02/27/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -20,7 +20,7 @@ Visual Studio includes a set of curated built-in agents that integrate deeply wi
 
 ## Prerequisites
 
-+ Visual Studio 2022 [version 17.14 (latest version)](/visualstudio/releases/2022/release-history) or later
++ Visual Studio 2022 [version 17.14](/visualstudio/releases/2022/release-history) or later
 + A [GitHub Copilot subscription](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
 
 ## Access custom agents
@@ -29,7 +29,7 @@ Visual Studio includes a set of curated built-in agents that integrate deeply wi
 You can access custom agents in two ways:
 
 + **Agent picker**: In the Copilot Chat window, select the agent picker dropdown to see available agents. Currently, this option is available only in the Visual Studio 2026 Insiders build.
-+ **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@debug`).
++ **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@debugger`).
 
 ::: moniker-end
 
@@ -56,10 +56,9 @@ Each built-in agent is designed around a specific developer workflow and integra
 :::moniker range="visualstudio"
 | Agent | Description |
 |-------|-------------|
-| **@debug** | Goes beyond reading error messages. Uses your call stacks, variable state, and diagnostic tools to walk through error diagnosis systematically across your solution. |
+| **@debugger** | Goes beyond reading error messages. Uses your call stacks, variable state, and diagnostic tools to walk through error diagnosis systematically across your solution. |
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
 | **@test** | Generates unit tests tuned to your project's framework and patterns, not boilerplate that your CI will reject. |
-| **@vs** | Answers questions about Visual Studio itself, including features, settings, shortcuts, and workflows you might not know existed. |
 | **@modernize** | (.NET and C++ only) Handles framework and dependency upgrades with awareness of your actual project graph. Flags breaking changes, generates migration code, and follows your existing patterns. |
 ::: moniker-end
 
@@ -67,20 +66,19 @@ Each built-in agent is designed around a specific developer workflow and integra
 | Agent | Description |
 |-------|-------------|
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
-| **@vs** | Answers questions about Visual Studio itself, including features, settings, shortcuts, and workflows you might not know existed. |
 ::: moniker-end
 
 :::moniker range="visualstudio"
 
-### Use the @debug agent
+### Use the @debugger agent
 
-The @debug agent helps you diagnose errors systematically by analyzing your debugging context.
+The @debugger agent helps you diagnose errors systematically by analyzing your debugging context.
 
 **Example prompts**:
 
-+ `@debug Why is this exception being thrown?`
-+ `@debug Analyze the current call stack and explain what went wrong`
-+ `@debug What's causing the null reference in this method?`
++ `@debugger Why is this exception being thrown?`
++ `@debugger Analyze the current call stack and explain what went wrong`
++ `@debugger What's causing the null reference in this method?`
 
 ::: moniker-end
 
@@ -110,16 +108,6 @@ For more comprehensive .NET testing support, see [GitHub Copilot testing for .NE
 
 ::: moniker-end
 
-### Use the @vs agent
-
-The @vs agent answers questions about Visual Studio features, settings, and workflows.
-
-**Example prompts**:
-
-+ `@vs How do I enable line numbers in the editor?`
-+ `@vs What's the keyboard shortcut for Go to Definition?`
-+ `@vs How do I configure code cleanup settings?`
-
 :::moniker range="visualstudio"
 
 ### Use the @modernize agent
@@ -134,10 +122,10 @@ The @modernize agent helps with framework migrations and dependency upgrades for
 
 ::: moniker-end
 
-## Custom agents (Preview)
+## Custom agents
 
 > [!NOTE]
-> Custom agents are a preview feature. The format of agent files may change as the feature evolves to support different capabilities.
+> Custom agents require Visual Studio 2026 version 18.4 or later.
 
 The built-in agents cover common workflows, but your team knows your workflow best. Custom agents let you build your own using the same foundation: workspace awareness, code understanding, your preferred AI model, and your own tools.
 
@@ -154,6 +142,12 @@ your-repo/
         └── code-reviewer.agent.md
 ```
 
+:::moniker range="visualstudio"
+
+You can also define user-level agents that apply across all your projects. User-level agents are stored in `%USERPROFILE%\.github\agents` by default. You can change this location in **Tools** > **Options** > **GitHub** > **Copilot**.
+
+:::moniker-end
+
 ### Agent file format
 
 Each agent file uses a simple template with YAML frontmatter followed by Markdown instructions:
@@ -163,7 +157,7 @@ Each agent file uses a simple template with YAML frontmatter followed by Markdow
 name: Code Reviewer
 description: Reviews PRs against our team's coding standards
 model: claude-opus-4-6
-tools: ["codebase_search", "read_file", "find_references"]
+tools: ["code_search", "readfile", "find_references"]
 ---
 
 You are a code reviewer for our team. When reviewing changes, check for:
@@ -179,10 +173,10 @@ Flag violations clearly and suggest fixes inline.
 
 | Property | Required | Description |
 |----------|----------|-------------|
-| `name` | Yes | Display name for the agent in the agent picker |
+| `name` | No | Display name for the agent in the agent picker. If not specified, the agent name is derived from the filename (for example, `code-reviewer.agent.md` becomes `code-reviewer`). |
 | `description` | Yes | Brief description shown when hovering over the agent |
 | `model` | No | AI model to use. If not specified, uses the model selected in the model picker. |
-| `tools` | No | Array of tool names the agent can use |
+| `tools` | No | Array of tool names the agent can use. If not specified, all available tools are enabled. |
 
 ### Specify tools
 
@@ -210,7 +204,7 @@ For example, a code review agent can check PRs against your actual conventions b
 ---
 name: Code Reviewer
 description: Reviews code against our team's coding standards
-tools: ["codebase_search", "read_file"]
+tools: ["code_search", "readfile"]
 ---
 
 You are a code reviewer for our team. Review changes for:
@@ -229,7 +223,7 @@ Flag violations clearly and suggest fixes inline.
 ---
 name: Feature Planner
 description: Helps plan features before writing code
-tools: ["codebase_search", "read_file", "find_references"]
+tools: ["code_search", "readfile", "find_references"]
 ---
 
 You are a planning assistant. When asked about a feature:
@@ -249,7 +243,7 @@ Focus on understanding scope before suggesting solutions.
 ---
 name: Design System
 description: Enforces UI design patterns and component usage
-tools: ["codebase_search", "read_file"]
+tools: ["code_search", "readfile"]
 ---
 
 You are a design system expert. When reviewing UI code:
@@ -262,16 +256,38 @@ You are a design system expert. When reviewing UI code:
 Reference the component library documentation when suggesting fixes.
 ```
 
+#### Full-stack development agent with Visual Studio tools
+
+The following example uses Visual Studio-specific tool names:
+
+```markdown
+---
+name: Full Stack Dev
+description: Full-stack development assistant with search, file editing, and terminal access
+tools: ["code_search", "readfile", "editfiles", "find_references", "runcommandinterminal", "getwebpages"]
+---
+
+You are a full-stack development assistant. Help with:
+
+1. Searching the codebase to understand existing patterns
+2. Reading and editing files to implement changes
+3. Running build and test commands to verify your work
+4. Looking up documentation when needed
+
+Always check existing code conventions before making changes.
+```
+
+> [!TIP]
+> Select the **Tools** icon in the Copilot Chat window to see all available tool names in your version of Visual Studio.
+
 ### Community configurations
 
 The [awesome-copilot repository](https://github.com/github/awesome-copilot) has community-contributed agent configurations you can use as starting points. When using configurations from this repository, verify tool names work in Visual Studio before deploying to your team.
 
 ### Limitations and notes
 
-+ This is a preview feature; the format of agent files may change to support different capabilities.
 + If you don't specify a model, the agent uses whatever model is selected in the model picker.
-+ Tool names vary across GitHub Copilot platforms. Verify tool names work in Visual Studio.
-+ Configurations from the awesome-copilot repo are great starting points, but verify tool names before using them in Visual Studio.
++ Tool names vary across GitHub Copilot platforms. Verify tool names work in Visual Studio before deploying to your team.
 
 ## Share feedback
 
