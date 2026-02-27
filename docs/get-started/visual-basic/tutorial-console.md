@@ -60,13 +60,13 @@ First, you create a Visual Basic app project. The default project template inclu
    >
    > Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
-   > :::image type="content" source="media/visualstudio/dot-net-core-xplat-dev-workload.png" alt-text="Screenshot showing the .NET desktop development workload in the Visual Studio Installer.":::
+   > :::image type="content" source="media/visualstudio/dot-net-core-dev-workload.png" alt-text="Screenshot showing the .NET desktop development workload in the Visual Studio Installer.":::
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work. Next, choose **Continue** to install the workload. Then, return to step 2 in this [Create a project](#create-a-project) procedure.
 
 1. In the **Configure your new project** window, enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
-   :::image type="content" source="media/visualstudio/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/visualstudio/vb-name-your-project-whatname.png":::
+   :::image type="content" source="media/visualstudio/visual-basic-name-your-project.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/visualstudio/visual-basic-name-your-project.png":::
 
 1. In the **Additional information** window, **.NET 10.0** should already be selected for your target framework. If not, select **.NET 10.0**. Then, choose **Create**.
 
