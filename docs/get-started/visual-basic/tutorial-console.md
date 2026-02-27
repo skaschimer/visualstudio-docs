@@ -70,7 +70,7 @@ First, you create a Visual Basic app project. The default project template inclu
 
 1. In the **Additional information** window, **.NET 10.0** should already be selected for your target framework. If not, select **.NET 10.0**. Then, choose **Create**.
 
-   :::image type="content" source="media/visualstudio/vb-target-framework.png" alt-text="Screenshot showing the Additional information window in Visual Studio with .NET 8.0 selected as the target framework for the new project." lightbox="media/visualstudio/vb-target-framework.png":::
+   :::image type="content" source="media/visualstudio/vb-target-framework.png" alt-text="Screenshot showing the Additional information window in Visual Studio with .NET 10.0 selected as the target framework for the new project." lightbox="media/visualstudio/vb-target-framework.png":::
 
    Visual Studio opens your new project.
 
@@ -188,7 +188,7 @@ Next, you add Visual Basic code that prompts you for your name and then displays
    - <xref:System.DateTime> represents a datetime, and <xref:System.DateTime.Now> returns the current time. 
    - <xref:System.Console.ReadKey> pauses the app and waits for a keypress.
 
-   :::image type="content" source="media/visualstudio/vb-code-window-whatisyourname-dark.png" alt-text="Screenshot showing the code for the 'Program.vb' file in the 'WhatIsYourName' project loaded in the Visual Basic code editor.":::
+   :::image type="content" source="media/visualstudio/visual-basic-code-window-whatisyourname-dark.png" alt-text="Screenshot showing the code for the 'Program.vb' file in the 'WhatIsYourName' project loaded in the Visual Basic code editor.":::
 
 1. Select the **WhatIsYourName** button or press **F5** to build and run your app in Debug mode.
 
