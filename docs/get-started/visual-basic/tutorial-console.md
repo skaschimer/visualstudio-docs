@@ -39,8 +39,44 @@ In this tutorial, you learn how to:
 
 First, you create a Visual Basic app project. The default project template includes all the files you need for a runnable app.  
 
+:: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Open Visual Studio.
+
+1. On the start window, choose **Create a new project**.
+
+   :::image type="content" source="media/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio start window with 'Create a new project' selected.":::
+
+1. In the **Create a new project** window, choose **Visual Basic** from the language list. Next, choose **Windows** from the platform list and **Console** from the project types list.
+
+   After you apply the language, platform, and project type filters, choose the **Console App** template, and then choose **Next**.
+
+   :::image type="content" source="media/vs-2022/vb-create-new-project-console-net-core.png" alt-text="Screenshot that shows how to choose the Visual Basic, Windows, and Console filter options and select the Console Application project template." lightbox="media/vs-2022/vb-create-new-project-console-net-core.png":::
+
+   > [!NOTE]
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.
+   >
+   > :::image type="content" source="media/vs-2022/not-finding-what-looking-for.png" alt-text="Screenshot showing the 'Install more tools and features' link in the 'Create new project' window.":::
+   >
+   > Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
+   >
+   > :::image type="content" source="media/visualstudio/dot-net-core-xplat-dev-workload.png" alt-text="Screenshot showing the .NET desktop development workload in the Visual Studio Installer.":::
+   >
+   > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work. Next, choose **Continue** to install the workload. Then, return to step 2 in this [Create a project](#create-a-project) procedure.
+
+1. In the **Configure your new project** window, enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
+
+   :::image type="content" source="media/visualstudio/vb-name-your-project-whatname.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/visualstudio/vb-name-your-project-whatname.png":::
+
+1. In the **Additional information** window, **.NET 10.0** should already be selected for your target framework. If not, select **.NET 10.0**. Then, choose **Create**.
+
+   :::image type="content" source="media/vs-2022/vb-target-framework.png" alt-text="Screenshot showing the Additional information window in Visual Studio with .NET 8.0 selected as the target framework for the new project." lightbox="media/vs-2022/vb-target-framework.png":::
+
+   Visual Studio opens your new project.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Open Visual Studio.
 
