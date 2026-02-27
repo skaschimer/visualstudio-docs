@@ -26,7 +26,7 @@ There are multiple ways to create a new project in Visual Studio. When you first
 
 :::image type="content" source="media/visualstudio/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' option in the start window.":::
 
-If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar. You can also select the **New File** dropdown on the toolbar and then select **New Project/Solution**, or press **Ctrl**+**Shift**+**N**.
+If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar. You can also select the **New File** dropdown arrow on the toolbar and then select **New Project/Solution**, or press **Ctrl**+**Shift**+**N**.
 
 :::image type="content" source="media/visualstudio/new-project-button.png" alt-text="Screenshot of the New Project button in Visual Studio.":::
 
