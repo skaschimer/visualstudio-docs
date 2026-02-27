@@ -131,7 +131,7 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 1. When the app runs in the Microsoft Visual Studio Debug Console, "Hello World!" displays. Press any key to close the debug console window and end the app:
 
-    :::image type="content" source="media/visualstudio/visual-basic-console-window-hello-world.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages when the app runs in the Debug Console." lightbox="media/vs-2022/vb-console-window-hello-world.png":::
+    :::image type="content" source="media/vs-2022/vb-console-window-hello-world.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages when the app runs in the Debug Console." lightbox="media/vs-2022/vb-console-window-hello-world.png":::
 
 ::: moniker-end
 
