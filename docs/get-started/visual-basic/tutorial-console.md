@@ -45,7 +45,7 @@ First, you create a Visual Basic app project. The default project template inclu
 
 1. On the start window, choose **Create a new project**.
 
-   :::image type="content" source="media/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio start window with 'Create a new project' selected.":::
+   :::image type="content" source="media/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio start window with  the Create a new project option selected.":::
 
 1. In the **Create a new project** window, choose **Visual Basic** from the language list. Next, choose **Windows** from the platform list and **Console** from the project types list.
 
@@ -60,13 +60,13 @@ First, you create a Visual Basic app project. The default project template inclu
    >
    > Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
    >
-   > :::image type="content" source="media/visualstudio/dot-net-core-dev-workload.png" alt-text="Screenshot showing the .NET desktop development workload in the Visual Studio Installer.":::
+   > :::image type="content" source="media/visualstudio/dot-net-core-dev-workload.png" alt-text="Screenshot that shows the .NET desktop development workload in the Visual Studio Installer.":::
    >
    > After that, choose the **Modify** button in the Visual Studio Installer. You might be prompted to save your work. Next, choose **Continue** to install the workload. Then, return to step 2 in this [Create a project](#create-a-project) procedure.
 
 1. In the **Configure your new project** window, enter *WhatIsYourName* in the **Project name** box. Then, choose **Next**.
 
-   :::image type="content" source="media/visualstudio/visual-basic-name-your-project.png" alt-text="Screenshot showing the 'Configure your new project' window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/visualstudio/visual-basic-name-your-project.png":::
+   :::image type="content" source="media/visualstudio/visual-basic-name-your-project.png" alt-text="Screenshot showing the Configure your new project window in Visual Studio with the Project name field set to 'WhatIsYourName'." lightbox="media/visualstudio/visual-basic-name-your-project.png":::
 
 1. In the **Additional information** window, **.NET 10.0** should already be selected for your target framework. If not, select **.NET 10.0**. Then, choose **Create**.
 
