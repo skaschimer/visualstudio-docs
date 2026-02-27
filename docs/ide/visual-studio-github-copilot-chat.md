@@ -125,100 +125,96 @@ Ask your questions and see answers in the chat pane. We recommend this tool for 
 
 ### Ask questions in the inline chat view
 
-The inline chat view of Copilot Chat in Visual Studio enables you to ask your questions and see answers inline with the code in the editor window itself. With inline chat, you don't have to go back and forth to the chat window. It is usually the best way to work with Copilot on questions that add to or update a currently open code file.
+You can ask your questions and see answers inline with the code in the editor window itself. With inline chat, you don't have to go back and forth to the chat window. We recommend this method to work with Copilot on questions that add to or update a currently open code file.
 
 :::moniker range="visualstudio"
 
-1. In Visual Studio, right-click in your editor window and select **Chat** to bring up the inline chat view of Copilot Chat in the editor itself.
-    
-    :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-ask-copilot.png" alt-text="Screenshot of how to enable inline chat in the editor from right-click context menu.":::
+1. In Visual Studio, to bring up the inline chat view of Copilot Chat in the editor itself, right-click in your editor window and select **Chat**.
+
+    :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-ask-copilot.png" alt-text="Screenshot of how to enable inline chat in the editor from the context menu.":::
 
 1. Type your coding related question in the **Ask Copilot** text box, and then press **Enter** or select **Send** to ask your question.
 
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" alt-text="Screenshot of inline chat interface in the editor window." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" :::
 
-1. You'll see code suggestions from Copilot Chat in Visual Studio diff view. You can review and refine what is being proposed and apply to your code selecting **Tab** or discard by selecting **Esc**.
-    
+1. You'll see code suggestions from Copilot Chat in the diff view. You can review and refine what's being proposed. To apply the suggestions to your code, select **Tab**. To discard the suggestions, select **Esc**.
+
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" :::
 
-1. You can promote your inline chat thread to the chat window by selecting **Copilot Actions** > **Add to Chat**. This will preserve the record and context of your conversation, and you can continue in the chat window.
-    
+1. You can promote your inline chat thread to the chat window by selecting **Copilot Actions** > **Add to Chat**. This preserves the record and context of your conversation, and you can continue in the chat window.
+
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
 
-1. You can close the inline chat view by pressing **Esc**.
+1. Close the inline chat view by pressing **Esc**.
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 
-1. In Visual Studio, right click in your editor window and select **Ask Copilot** to bring up the inline chat view of Copilot Chat in the editor itself.
-    
-    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-ask-copilot.png" alt-text="Screenshot of how to enable inline chat in the editor from right-click context menu.":::
+1. In Visual Studio, to bring up the inline chat view of Copilot Chat in the editor itself, right-click in your editor window and select **Ask Copilot**.
+
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-ask-copilot.png" alt-text="Screenshot of how to enable inline chat in the editor from the context menu.":::
 
 1. Type your coding related question in the **Ask Copilot** text box, and then press **Enter** or select **Send** to ask your question.
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" alt-text="Screenshot of inline chat interface in the editor window." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" :::
 
-1. You'll see code suggestions from Copilot Chat in Visual Studio diff view. You can review and refine what is being proposed and apply to your code by selecting **Accept** or discard by selecting **Cancel**.
-    
+1. You'll see code suggestions from Copilot Chat in the diff view. You can review and refine what's being proposed. To apply the suggestions to your code, select **Accept**. To discard the suggestions, select **Cancel**.
+
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" :::
 
-1. You can promote your inline chat thread to the chat window by selecting **Continue in chat window**. This'll preserve the record and context of your conversation, and you can continue in the chat window.
-    
+1. You can promote your inline chat thread to the chat window by selecting **Continue in chat window**. This preserves the record and context of your conversation, and you can continue in the chat window.
+
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
 
-1. You can close the inline chat view by pressing **Esc**.
+1. Close the inline chat view by pressing **Esc**.
 
 :::moniker-end
 
 ### Attach images to chat prompts
 
 With Visual Studio 17.14 and later, you can attach images in chat to add contextual input and generate better responses.
-To attach an image to a prompt, paste an image from the clipboard or select the ➕ icon in the chat input and then select **Upload Image** to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
+To attach an image to a prompt, paste an image from the clipboard or select the ➕ icon in the chat input, and then select **Upload Image** to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" alt-text="Screenshot of how to attach images in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" :::
 
-Supported image formats: PNG, JPEG, and GIF (single-frame only). You can attach up to three images per prompt.
+This feature can be handy when Copilot is helping you with UI development (for example, you attach an image of your design). The feature is also useful for debugging (for example, you attach a screenshot of the error).
 
-Example scenarios where adding an image in the prompt provides Copilot additional context:
-- UI development, add an image of your design
-- Debugging, add a screenshot of the error
+Use any of the following image formats: PNG, JPEG, and GIF (single-frame only). You can attach up to three images per prompt.
 
 :::moniker range="visualstudio"
 
 ### Preview markdown content
 
-You can now preview any markdown content generated by Copilot Chat directly in the Visual Studio Markdown editor.
+You can preview any markdown content generated by Copilot Chat directly in the Visual Studio Markdown editor.
 
 :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/preview-markdown.png" alt-text="Screenshot of the Preview button in the Copilot Chat window for markdown content." lightbox="media/visualstudio/visual-studio-github-copilot-chat/preview-markdown.png" :::
 
-When Copilot Chat generates markdown content, select the **Preview** button at the top right corner of the chat window to see a rendered preview. From there, you can edit and save the markdown content as needed. This lets you quickly visualize and work on markdown files without manually copying and pasting.
+When Copilot Chat generates markdown content, select the **Preview** button at the top right corner of the chat window to see a rendered preview. From there, you can edit and save the markdown content as needed. This feature is helpful when you want to quickly visualize and work on markdown files without manually copying and pasting.
 
 :::moniker-end
 
 ### Generate Mermaid diagrams
 
-With the latest release of Visual Studio, Copilot Chat can generate a variety of [Mermaid diagrams](https://mermaid.js.org/intro/#diagram-types), including architectural, flowchart, sequence, class, Gantt, and pie charts, to help you visualize complex data structures and workflows directly in the editor.
+Copilot Chat can generate a variety of [Mermaid diagrams](https://mermaid.js.org/intro/#diagram-types), including architectural, flowchart, sequence, class, Gantt, and pie charts. You can then visualize complex data structures and workflows directly in the editor.
 
-Example prompts:
+Here are a few example prompts you might use:
 
-- Create a sequence diagram for the API call flow
-- Visualize relationships between entities in this schema
-- Create a Mermaid state diagram for the lifecycle of a task 
-- I'm new to this project, visualize major components and their relationships to help me onboard 
+- "Create a sequence diagram for the API call flow."
+- "Visualize relationships between entities in this schema."
+- "Create a Mermaid state diagram for the lifecycle of a task."
+- "I'm new to this project, visualize major components and their relationships to help me onboard."
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" alt-text="Screenshot of Mermaid diagram syntax in chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" :::
 
-Copilot uses attached references and related files in your codebase to gather context, then returns the Mermaid syntax in the chat window. Select **Preview** to open a new markdown file and view the diagram. You can save or share the markdown or rendered chart for future use.
+Copilot uses attached references and related files in your codebase to gather context, and then returns the Mermaid syntax in the chat window. Select **Preview** to open a new markdown file and view the diagram. You can save or share the markdown or rendered chart for future use.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" alt-text="Screenshot of Mermaid diagram rendering." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" :::
 
 > [!TIP]
 > You can use the [Markdown preview controls](markdown-preview.md) to switch between preview modes and zoom in on complex Mermaid diagrams.
 
-## Next steps
-
-To learn more, consider exploring the following resources:
+## Related content
 
 - [GitHub Copilot: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
