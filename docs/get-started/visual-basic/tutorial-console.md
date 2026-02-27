@@ -39,7 +39,7 @@ In this tutorial, you learn how to:
 
 First, you create a Visual Basic app project. The default project template includes all the files you need for a runnable app.  
 
-:: moniker range="visualstudio"
+::: moniker range="visualstudio"
 
 1. Open Visual Studio.
 
