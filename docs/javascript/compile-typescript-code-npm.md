@@ -42,9 +42,9 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
-   Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for tsc, the TypeScript transpiler.
+   Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for tsc, the TypeScript compiler, which transpiles TypeScript to JavaScript.
 
-1. Open *tsconfig.json* and update to set the transpiler options that you want.
+1. Open *tsconfig.json* and update to set the compiler options that you want.
 
    An example of a simple *tsconfig.json* file follows.
 
@@ -65,9 +65,9 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    ```
 
    In this example:
-   - *include* tells the transpiler where to find TypeScript (*.ts) files.
-   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by tsc, the TypeScript transpiler.
-   - *sourceMap* option indicates whether the transpiler generates *sourceMap* files.
+   - *include* tells the compiler where to find TypeScript (*.ts) files.
+   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by tsc, the TypeScript compiler.
+   - *sourceMap* option indicates whether the compiler generates *sourceMap* files.
 
    The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
