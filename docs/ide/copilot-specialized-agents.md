@@ -1,7 +1,7 @@
 ---
 title: Use custom agents in GitHub Copilot
 description: Learn about built-in agents for debugging, profiling, testing, and code modernization, and how to create custom agents for your team workflows.
-ms.date: 02/27/2026
+ms.date: 03/02/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -39,6 +39,7 @@ You can access custom agents by using **@ syntax**: Type `@` followed by the age
 
 :::moniker range="visualstudio"
 
+<!-- TODO: Update screenshot when 18.5 releases -->
 :::image type="content" source="media/visualstudio/agent-picker.png" alt-text="Screenshot showing the agent picker with custom agents in Visual Studio.":::
 
 :::moniker-end
@@ -142,11 +143,13 @@ your-repo/
         └── code-reviewer.agent.md
 ```
 
+<!-- TODO: Uncomment when 18.5 releases
 :::moniker range="visualstudio"
 
 You can also define user-level agents that apply across all your projects. User-level agents are stored in `%USERPROFILE%\.github\agents` by default. You can change this location in **Tools** > **Options** > **GitHub** > **Copilot**.
 
 :::moniker-end
+-->
 
 ### Agent file format
 
