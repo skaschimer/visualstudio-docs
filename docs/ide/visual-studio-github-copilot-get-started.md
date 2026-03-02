@@ -27,7 +27,7 @@ In this article, you learn how to use Copilot and make the most of its features 
 
 1. Create a new project, open an existing project, or continue without code to launch the IDE.
 
-1. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window**.
+1. Select the **GitHub Copilot** badge in the upper-right corner of Visual Studio, and select **Open Chat Window**.
 
    :::image type="content" source="media/visualstudio/copilot-badge-open-chat-window.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
