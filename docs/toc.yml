@@ -155,6 +155,8 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Agent mode
       href: ide/copilot-agent-mode.md
+    - name: Specialized agents
+      href: ide/copilot-specialized-agents.md
     - name: MCP servers
       href: ide/mcp-servers.md
     - name: Copilot Edits
@@ -910,6 +912,8 @@
     href: ide/synchronized-settings-in-visual-studio.md
   - name: Fonts and colors
     href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
+  - name: Color themes
+    href: ide/visual-studio-color-themes.md
   - name: Menus and toolbars
     href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
   - name: Window layouts & tabs

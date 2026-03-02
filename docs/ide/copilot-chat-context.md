@@ -20,9 +20,22 @@ ms.ai-usage: ai-assisted
 You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. Chat in Visual Studio can give you responses and generate code that matches your coding practices and project requirements, if you give it the right context. Instead of repeatedly adding this information in every chat prompt, you can store this context in files and automatically include it in every chat request.
 
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
+
+:::moniker range="visualstudio"
+
++ Use [slash commands](#slash-commands) to quickly specify common tasks like `/savePrompt`, or [invoke your custom prompts](#invoke-custom-prompts-with-slash-commands) directly
++ Use the [guided chat experience](#prompting-guidance) to refine context
++ Use [custom instructions](#use-custom-instructions) and [prompt files](#use-prompt-files) to customize responses
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations
 + Use the [guided chat experience](#prompting-guidance) to refine context
 + Use [custom instructions](#use-custom-instructions) and [prompt files](#use-prompt-files) to customize responses
+
+:::moniker-end
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
@@ -176,11 +189,76 @@ To use a prompt file:
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/prompt-files.png" alt-text="Screenshot of using prompt files in GitHub Copilot Chat.":::
 
+:::moniker range="visualstudio"
+
+Once you've created prompt files, you can quickly invoke them by typing `/` in the chat input.
+
+## Invoke custom prompts with slash commands
+
+You can quickly invoke your favorite custom prompts directly from the chat input box using slash commands.
+
+### Access custom prompts with /
+
+Type `/` in the chat input to see your custom prompts at the top of the IntelliSense list.
+
+- **Custom prompts** appear at the top of the list with a bookmark icon
+- **System commands** (like `/help`, `/savePrompt`) appear below without an icon
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/slash-commands.png" alt-text="Screenshot of IntelliSense list showing custom prompts with bookmark icons at the top after typing slash.":::
+
+### Create custom instructions with /generateInstructions
+
+Use the `/generateInstructions` command to automatically generate repository-level custom instructions for your project. This command analyzes your project structure and coding patterns to create a `copilot-instructions.md` file tailored to your repository.
+
+**To use `/generateInstructions`:**
+
+1. Open Copilot Chat in Visual Studio.
+1. Type `/generateInstructions` in the chat input and press **Enter**.
+1. Copilot analyzes your project structure and coding patterns.
+1. A `copilot-instructions.md` file is generated in your `.github` folder.
+
+This command leverages project smarts to detect coding styles and preferences, making it easy to set up custom instructions without manually authoring the file.
+
+### Save prompts with /savePrompt
+
+Use the `/savePrompt` command to extract a reusable prompt from your current conversation and save it for future use.
+
+**To use `/savePrompt`:**
+
+1. Type a prompt in Copilot Chat that you want to reuse.
+1. After Copilot responds, type `/savePrompt` in the chat input and press **Enter**.
+1. Choose a name for the prompt file.
+1. The prompt is saved to `.github/prompts/[name].prompt.md`.
+
+Once saved, you can quickly access this prompt by typing `/` and selecting it from the IntelliSense list.
+
+:::moniker-end
+
 ## <a name="slash-commands"></a>Use slash commands to set context for common tasks
 
 Slash commands in Copilot Chat help you set the intent quickly for common development tasks. By using specific slash commands to form your question, you can get better answers without having to write out long questions. 
 
 You can use slash commands in a [chat window](visual-studio-github-copilot-chat.md#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](visual-studio-github-copilot-chat.md#ask-questions-in-the-inline-chat-view). Commands that help modify or add to the code file you have open in the editor work both in the inline code assistant and the chat windows whereas commands for more general coding questions work only in the chat pane.
+
+:::moniker range="visualstudio"
+
+| **Command** | **Usage** | **Chat window** | **Inline chat** |
+|---------------------------|--------------------|:----------:|:----------:|
+| /doc| Add comments for specified or selected code. <br>  Examples: <br>- `/doc DeleteBasketAsync method in BasketService.cs`</br>- select desired code and enter `/doc`| Yes | Yes |
+| /explain | Get code explanations. <br><br>  Examples: <br> - `/explain the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/explain`| Yes | Yes |
+| /fix | Propose a fix for problems in the selected code. <br>  Examples: <br> - `/fix the SetQuantities method in BasketService.cs`</br>- select desired code and enter `/fix`| Yes | Yes |
+| /generate | Generate code to answer specified question. <br> Example: `/generate code to add two numbers in Calculator.cs`| Yes | Yes | 
+| /generateInstructions | Generate repository-level custom instructions (`copilot-instructions.md`) based on your project's coding patterns and structure. | Yes | No |
+| /help | Get help on using Copilot Chat. <br> Example: `/help`| Yes | Yes | 
+| /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes |
+| /savePrompt | Save a reusable prompt from the current conversation thread to a `.prompt.md` file in your `.github/prompts` folder. | Yes | No |
+| /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`<br>For .NET, we recommend [GitHub Copilot Testing for .NET](../test/github-copilot-test-dotnet-overview.md)| Yes | Yes |
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
 | **Command** | **Usage** | **Chat window** | **Inline chat** |
 |---------------------------|--------------------|:----------:|:----------:|
@@ -191,14 +269,6 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /help | Get help on using Copilot Chat. <br> Example: `/help`| Yes | Yes | 
 | /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes |
 | /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`<br>For .NET, we recommend [GitHub Copilot Testing for .NET](../test/github-copilot-test-dotnet-overview.md)| Yes | Yes |
-
-:::moniker range="visualstudio"
-
-:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
-
-:::moniker-end
-
-:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
 
