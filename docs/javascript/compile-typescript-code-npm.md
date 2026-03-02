@@ -1,5 +1,5 @@
 ---
-title: Compile and build TypeScript code using npm
+title: Transpile and build TypeScript code using npm
 description: Add TypeScript support to your Visual Studio projects by using the Node Package Manager (npm) package for portability across different platforms and environments.
 ms.date: 5/15/2025
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 ---
-# Compile TypeScript code using npm
+# Transpile TypeScript code using npm
 
 ::: moniker range=">=vs-2022"
 Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates), or *.esproj*. Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
@@ -42,7 +42,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
-   Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
+   Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for tsc, the TypeScript compiler, which transpiles TypeScript to JavaScript.
 
 1. Open *tsconfig.json* and update to set the compiler options that you want.
 
@@ -66,7 +66,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    In this example:
    - *include* tells the compiler where to find TypeScript (*.ts) files.
-   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by the TypeScript compiler.
+   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by tsc, the TypeScript compiler.
    - *sourceMap* option indicates whether the compiler generates *sourceMap* files.
 
    The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
@@ -117,7 +117,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 ### Run the application
 
 ::: moniker range=">=vs-2022"
-For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#start-your-app).
+For instructions to run the app after you transpile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#start-your-app).
 ::: moniker-end
 
 
