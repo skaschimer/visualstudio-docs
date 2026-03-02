@@ -155,6 +155,8 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Agent mode
       href: ide/copilot-agent-mode.md
+    - name: Specialized agents
+      href: ide/copilot-specialized-agents.md
     - name: MCP servers
       href: ide/mcp-servers.md
     - name: Copilot Edits
