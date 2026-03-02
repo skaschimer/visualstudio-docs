@@ -65,7 +65,7 @@ After you sign in, use Copilot in the chat window and throughout the IDE.
 
 Customize Copilot for your project and your development workflow.
 
-- **Manage [context with references](copilot-chat-context-references.md)**: Use the **+** button to attach additional context, such as files or images, or ask Copilot to reference your entire solution.
+- **Manage [context with references](copilot-chat-context-references.md)**: Use the **+** button to attach more context, such as files or images, or ask Copilot to reference your entire solution.
 
 - **Access different [models](copilot-usage-and-models.md#understand-model-selection)**: Use the model picker in the prompt window to select AI models, or [bring your own model](copilot-select-add-models.md#bring-your-own-model-byom) to Copilot. Explore different models for different scenarios, whether it's answering quick questions, writing documentation, or generating multifile code edits.
 

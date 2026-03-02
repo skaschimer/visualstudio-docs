@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 
 [**GitHub Copilot completions**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when you write code.
 
-In this article, you'll learn about using Copilot Chat in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) within the Visual Studio IDE. With the extension, you get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, and debugging, without leaving the IDE. [Use the chat interface](#use-copilot-chat-in-visual-studio) to submit your question as a prompt and [set intent](copilot-chat-context.md) for better scoped answers.
+In this article, you learn about using Copilot Chat in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) within the Visual Studio IDE. With the extension, you get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, and debugging, without leaving the IDE. [Use the chat interface](#use-copilot-chat-in-visual-studio) to submit your question as a prompt and [set intent](copilot-chat-context.md) for better scoped answers.
 
 For more information on the GitHub Copilot completions in Visual Studio, see [About GitHub Copilot completions for Visual Studio](visual-studio-github-copilot-extension.md).
 
@@ -50,9 +50,9 @@ GitHub Copilot isn't included in Visual Studio Subscriptions. Instead, it's a se
 
 ## Use Copilot Chat in Visual Studio
 
-You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in your development context.
+You can ask your coding related questions in natural language. GitHub Copilot Chat answers these questions in your development context.
 
-There are two places you can ask Copilot these questions: in a [chat window](#ask-questions-in-the-chat-window), or [directly inline](#ask-questions-in-the-inline-chat-view) in the code that you want to modify. If your goal is to modify or add to the code file you have open in the editor, the inline chat view will usually work best. For more general coding questions, the chat window is the better option.
+There are two places you can ask Copilot these questions: in a [chat window](#ask-questions-in-the-chat-window), or [directly inline](#ask-questions-in-the-inline-chat-view) in the code that you want to modify. If your goal is to modify or add to the code file you have open in the editor, the inline chat view usually works best. For more general coding questions, the chat window is the better option.
 
 To get better answers with scoped context in Copilot Chat, see [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and [threads](copilot-chat-context-references.md#threads).
 
@@ -76,11 +76,11 @@ Ask your questions and see answers in the chat pane. We recommend this tool for 
 
     If you ask a question for help with understanding your code, the **Copy code block** and **Insert in new file** options won't be available.
 
-   1. If you choose to add the changes to the current file, you'll see the code suggestions in the normal diff view pattern. You can review and refine what's being proposed, and apply to your code by selecting **Tab**, or discard by selecting **Esc**.
+   1. If you choose to add the changes to the current file, you see the code suggestions in the normal diff view pattern. You can review and refine what's being proposed, and apply to your code by selecting **Tab**, or discard by selecting **Esc**.
 
       :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png":::
 
-   1. If you select **Add to new file**, you'll see the code suggestions in a new file. The changes aren't saved by default.
+   1. If you select **Add to new file**, you see the code suggestions in a new file. The changes aren't saved by default.
 
       :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png" alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png":::
   
@@ -109,11 +109,11 @@ Ask your questions and see answers in the chat pane. We recommend this tool for 
 
     If you ask a question for help with understanding your code, the **Copy code block** and **Insert in new file** options won't be available.
 
-    1. If you select **Preview**, you'll see the code suggestions in normal diff view pattern in Visual Studio. You can review and refine what's being proposed, and apply to your code by selecting **Accept**, or discard by selecting **Cancel**.
+    1. If you select **Preview**, you see the code suggestions in normal diff view pattern in Visual Studio. You can review and refine what's being proposed, and apply to your code by selecting **Accept**, or discard by selecting **Cancel**.
 
         :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png":::
 
-    1. If you select **Insert in new file**, you'll see the code suggestions in a new file. The file isn't saved by default.
+    1. If you select **Insert in new file**, you see the code suggestions in a new file. The file isn't saved by default.
   
        :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png" alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png":::
 
@@ -137,7 +137,7 @@ You can ask your questions and see answers inline with the code in the editor wi
 
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" alt-text="Screenshot of inline chat interface in the editor window." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" :::
 
-1. You'll see code suggestions from Copilot Chat in the diff view. You can review and refine what's being proposed. To apply the suggestions to your code, select **Tab**. To discard the suggestions, select **Esc**.
+1. You see code suggestions from Copilot Chat in the diff view. You can review and refine what's being proposed. To apply the suggestions to your code, select **Tab**. To discard the suggestions, select **Esc**.
 
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" :::
 
@@ -159,11 +159,11 @@ You can ask your questions and see answers inline with the code in the editor wi
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" alt-text="Screenshot of inline chat interface in the editor window." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" :::
 
-1. You'll see code suggestions from Copilot Chat in the diff view. You can review and refine what's being proposed. To apply the suggestions to your code, select **Accept**. To discard the suggestions, select **Cancel**.
+1. You see code suggestions from Copilot Chat in the diff view. You can review and refine what's being proposed. To apply the suggestions to your code, select **Accept**. To discard the suggestions, select **Cancel**.
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" :::
 
-1. You can promote your inline chat thread to the chat window by selecting **Continue in chat window**. This preserves the record and context of your conversation, and you can continue in the chat window.
+1. You can promote your inline chat thread to the chat window by selecting **Continue in chat window**. This feature preserves the record and context of your conversation, and you can continue in the chat window.
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
 
@@ -174,7 +174,7 @@ You can ask your questions and see answers inline with the code in the editor wi
 ### Attach images to chat prompts
 
 With Visual Studio 17.14 and later, you can attach images in chat to add contextual input and generate better responses.
-To attach an image to a prompt, paste an image from the clipboard or select the ➕ icon in the chat input, and then select **Upload Image** to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
+To attach an image to a prompt, paste an image from the clipboard or select the ➕ icon in the chat input, and then select **Upload Image** to upload an image from File Explorer. Copilot analyzes the image and uses it as more context to generate a better response.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" alt-text="Screenshot of how to attach images in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" :::
 
@@ -196,9 +196,9 @@ When Copilot Chat generates markdown content, select the **Preview** button at t
 
 ### Generate Mermaid diagrams
 
-Copilot Chat can generate a variety of [Mermaid diagrams](https://mermaid.js.org/intro/#diagram-types), including architectural, flowchart, sequence, class, Gantt, and pie charts. You can then visualize complex data structures and workflows directly in the editor.
+Copilot Chat can generate various [Mermaid diagrams](https://mermaid.js.org/intro/#diagram-types), including architectural, flowchart, sequence, class, Gantt, and pie charts. You can then visualize complex data structures and workflows directly in the editor.
 
-Here are a few example prompts you might use:
+For example, you might use one or more of the following prompts:
 
 - "Create a sequence diagram for the API call flow."
 - "Visualize relationships between entities in this schema."
