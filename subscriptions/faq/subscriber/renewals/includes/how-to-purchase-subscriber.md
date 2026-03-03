@@ -25,7 +25,7 @@ Retail Visual Studio subscriptions available through the Microsoft Store include
 
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions. To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. 
 
-If you want to make a one-time purchase of Visual Studio without a subscription or any of the benefits that are included with a subscription, visit the Microsoft Store for [Visual Studio Professional 2022](https://www.microsoft.com/d/visual-studio-professional-2022/dg7gmgf0d3sj?activetab=pivot:overviewtab). 
+If you want to make a one-time purchase of Visual Studio without a subscription or any of the benefits that are included with a subscription, visit the Microsoft Store for [Visual Studio Professional 2026](https://www.microsoft.com/d/visual-studio-professional-2026/dg7gmgf0vj96).
 
 Microsoft Store support is available by phone through the [Customer service phone numbers – Microsoft Support](https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2) page or by chat using the [Store Assistant](https://www.microsoft.com/store/b/sale) on the Microsoft Store website.
 
