@@ -68,22 +68,26 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
-1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)** or **UWP Blank App** in Visual Studio 2022 17.10 or later, and then choose **Next**.
+1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **UWP Blank App (.NET Native)**, and then choose **Next**.
 
-   :::image type="content" source="media/vs-2022/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'Universal Windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
+   :::image type="content" source="media/visualstudio/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'Universal Windows' entered in the search box, and the 'UWP Blank App (.NET Native)' project template highlighted.":::
 
 1. Give the project a name, *HelloWorld*, and choose **Create**.
 
-   :::image type="content" source="media/vs-2022/uwp-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box with 'HelloWorld' entered in the Project name field.":::
+   :::image type="content" source="media/visualstudio/uwp-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box with 'HelloWorld' entered in the Project name field.":::
 
 1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
-   :::image type="content" source="media/vs-2022/new-uwp-project-target-minver-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
+   :::image type="content" source="media/visualstudio/new-uwp-project-target-minver-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
 
    > [!NOTE]
-   > If this is the first time you have used Visual Studio to create a UWP app, the **Enable Developer Mode for Windows** dialog box appears. Select **settings for developers** to open **Settings**. Turn on **Developer mode**, and then choose **Yes**.
+   > If this is the first time you have used Visual Studio to create a UWP app, you see the following message: 
    >
-   > :::image type="content" source="media/vs-2022/enable-developer-mode-settings.png" alt-text="Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.":::
+   > :::image type="content" source="media/visualstudio/enable-development-warning.png" alt-text="Screenshot that shows the Visual Studio requires your device to be enabled for developement message.":::
+   > 
+   > If you see this message, go to the **System > Advanced** page in Windows settings and enable **Developer Mode**. In the **Use developer features window**, select **Yes**: 
+   >
+   > :::image type="content" source="media/visualstudio/enable-developer-mode-settings.png" alt-text="Screenshot showing the System > Advanced settings dialog box the option for enabling Developer Mode.":::
    >
    > Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
 
