@@ -111,7 +111,7 @@ You create a *Hello World* application by adding controls to the form.
 
    :::moniker-end  
 
- :::moniker range="vs-2022"
+   :::moniker range="vs-2022"
        
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/toolbox-button-form.png" alt-text="Screenshot shows the Button control added to the form.":::
 
