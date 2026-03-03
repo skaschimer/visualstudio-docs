@@ -83,8 +83,8 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **New articles**
 
-- [Title not found in: #15014](../ide/visual-studio-color-themes.md)
-- [Title not found in: #15010](../ide/markdown-preview.md)
+- [Visual Studio color themes](../ide/visual-studio-color-themes.md)
+- [Markdown preview controls](../ide/markdown-preview.md)
 - [Configure build and run options in Visual Studio](../ide/configure-build-run-options.md)
 - [Configure extension and update options in Visual Studio](../ide/configure-extension-update-options.md)
 - [Configure Windows Forms Designer options in Visual Studio](../ide/configure-windows-forms-designer-options.md)
