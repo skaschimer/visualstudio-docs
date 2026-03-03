@@ -142,7 +142,7 @@ It's time to start developing. Add a button control, add an action to the button
 
 1. Select the **Pin** icon to dock the Toolbox window.
 
-   :::image type="content" source="media/visualstudio/uwp-toolbox-autohide.png" alt-text="Screenshot showing the Pin icon highlighted in the top bar of the Toolbox window.":::
+   :::image type="content" source="media/visualstudio/uwp-toolbox-auto-hide.png" alt-text="Screenshot showing the Pin icon highlighted in the top bar of the Toolbox window.":::
 
 1. Select the **Button** control and then drag it onto the design canvas.
 
