@@ -185,7 +185,17 @@ Your application is ready to build and run.
 
 1. Select **Start** to run the application.
 
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/visual-studio-start-debug.png" alt-text="Screenshot shows the Start button that runs your app.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/visual-studio-start-debug.png" alt-text="Screenshot shows the Start button that runs your app.":::
+
+   :::moniker-end
 
    Several things happen.
    In the Visual Studio IDE, the **Diagnostics Tools** window opens, and an **Output** window opens.
