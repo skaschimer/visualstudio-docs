@@ -24,6 +24,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
+ms.custom: peer-review-program
 ---
 # Project and solution configurations
 

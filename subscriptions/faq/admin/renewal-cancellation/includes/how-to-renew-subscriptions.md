@@ -30,7 +30,8 @@ If you currently have a retail subscription, there are two ways to renew:
 
 The subscription expiration date is one year from the purchase date, not the activation date. 
 
-There's a 30-day renewal grace period—that is, the period from when the Visual Studio Subscription expires to the point where the customer loses the option to renew at the renewal price. 
+> [!NOTE]
+> You must renew your subscription within 30 days after the expiry to qualify for renewal pricing. If you renew through the Microsoft Store, be sure to activate your renewal with the 5x5 key that you receive or your subscription will not have an updated end date or be renewed.
 
 Microsoft Store support is available by phone through the [Customer service phone numbers – Microsoft Support](https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2) page or by chat using the [Store Assistant](https://www.microsoft.com/store/b/sale) on the Microsoft Store website.
 
