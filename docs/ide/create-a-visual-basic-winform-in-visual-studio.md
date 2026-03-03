@@ -37,8 +37,29 @@ In this tutorial, you learn how to:
 Create a Visual Basic application project.
 The project type comes with all the template files that you need.
 
+::: moniker range="visualstudio"
+1. Open Visual Studio, then select **Create a new project** on the start window.
 
-::: moniker range=">=vs-2022"
+   :::image type="content" source="./media/visualstudio/create-new-project.png" alt-text="Screenshot that shows the Visual Studio start window with Create a new project selected.":::
+
+1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for Visual Basic.
+
+   You can refine your search to quickly get to the template you want.
+   For example, enter *Windows Forms App* in the search box.
+   Next, select **Visual Basic** from the language list, and then **Windows** from the platform list.  
+
+   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot that shows the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png":::
+
+1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
+
+   :::image type="content" source="../get-started/visual-basic/media/vs-2022/vb-name-your-winform-project-helloworld.png" alt-text="Screenshot shows the Configure your new project window with the name HelloWorld entered.":::
+
+   Visual Studio opens your new project.
+
+::: moniker-end
+
+
+::: moniker range="vs-2022"
 1. Open Visual Studio, then select **Create a new project** on the start window.
 
    :::image type="content" source="../get-started/media/vs-2022/create-new-project.png" alt-text="Screenshot that shows the Visual Studio 2022 start window with Create a new project selected.":::
