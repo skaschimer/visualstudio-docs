@@ -89,23 +89,65 @@ You create a *Hello World* application by adding controls to the form.
 1. On the left side of the Visual Studio IDE, select the **Toolbox** tab.
    If you don't see it, select **View** > **Toolbox** from the menu bar or **Ctrl**+**Alt**+**X**.
 
+   :::moniker range="visualstudio"
+       
+   :::image type="content" source="media/visualstudio/toolbox-tab.png" alt-text="Screenshot shows the Toolbox tab that opens Toolbox window.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+       
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/toolbox-tab.png" alt-text="Screenshot shows the Toolbox tab that opens Toolbox window.":::
+
+   :::moniker-end
 
    If you want, select the **Pin** icon to dock the **Toolbox** window.
 
 1. In the **Common Controls** section, select the **Button** control and then drag it onto the form.
 
+   :::moniker range="visualstudio"
+       
+   :::image type="content" source="media/visualstudio/toolbox-button-form.png" alt-text="Screenshot shows the Button control added to the form.":::
+
+   :::moniker-end  
+
+ :::moniker range="vs-2022"
+       
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/toolbox-button-form.png" alt-text="Screenshot shows the Button control added to the form.":::
+
+   :::moniker-end
 
 1. In the **Appearance** section of the **Properties** window, for **Text**, type *Click this*, and then select **Enter**.
 
+   :::moniker range="visualstudio"
+       
+   :::image type="content" source="media/visualstudio/button-text-property.png" alt-text="Screenshot shows the Text property with the value Click this.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+       
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/button-text-property.png" alt-text="Screenshot shows the Text property with the value Click this.":::
 
+   :::moniker-end
+
    If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or **F4**.
+   
+   
 
 1. In the **Design** section of the **Properties** window, change the name from **Button1** to *btnClickThis*, and then select **Enter**.
 
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/button-name-property.png" alt-text="Screenshot shows the Name property with a value of btnClickThis.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+
    :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/button-name-property.png" alt-text="Screenshot shows the Name property with a value of btnClickThis.":::
+
+   :::moniker-end
 
    > [!NOTE]
    > If you've alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
@@ -125,7 +167,17 @@ After you add a button control to create an action, add a label control to recei
 
 1. In the **Form1.vb** window, between the `Private Sub` and `End Sub` lines, enter *lblHelloWorld.Text = "Hello World!"* as shown in the following screenshot:
 
+     :::moniker range="visualstudio"
+
+     :::image type="content" source="media/visualstudio/click-handle-code-visual-basic.png" alt-text="Screenshot shows a class in the Form1.vs tab where you can add Visual Basic code.":::
+
+     :::moniker-end    
+
+     :::moniker range="vs-2022"
+
      :::image type="content" source="media/create-a-visual-basic-winform-in-visual-studio/click-handle-code-visual-basic.png" alt-text="Screenshot shows a class in the Form1.vs tab where you can add Visual Basic code.":::
+
+     :::moniker-end
 
 ## Run the application
 
