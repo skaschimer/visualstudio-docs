@@ -79,8 +79,17 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
   > ![Report a Problem * Summary of logs collected](media/report-a-problem-logs-collected.png)
 
 ## Leveraging AI
-Publicly submitted information on Developer Community, including ticket titles, descriptions, and public comments, may be processed by AI language models. This data is utilized to facilitate tasks such as ticket summarization, routing, and other operational improvements aimed at enhancing the user experience. Your data is not used for training AI nor retained outside the feedback system.
+Information submitted on Developer Community, including but not limited to ticket titles, descriptions, comments, attachments, diagnostic artifacts (such as logs, crash dumps, and performance traces), and related metadata, may be processed using automated systems and artificial intelligence technologies.
+Such processing may be performed for purposes including, but not limited to:
+Issue investigation, debugging, and resolution
 
+- Ticket summarization, classification, and routing
+- Crash and performance analysis
+- Pattern detection and root cause identification
+- Operational quality improvements and service reliability enhancements
+- Development and improvement of tooling used to support customer feedback workflows
+
+AI-assisted processing is performed in accordance with Microsoft privacy, security, and data handling policies. Customer data submitted through Developer Community is not used to train general-purpose AI models outside the scope of Microsoft product and service improvement workflows without appropriate safeguards and policy alignment.
 
 ## GDPR Data Subject Request processing
 
