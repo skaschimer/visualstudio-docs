@@ -76,16 +76,16 @@ First, create a Universal Windows Platform project. The project type comes with 
 
    :::image type="content" source="media/visualstudio/uwp-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box with 'HelloWorld' entered in the Project name field.":::
 
-1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
+1. Accept the default **Target version** and **Minimum version** settings in the **New Windows Project** dialog box.
 
-   :::image type="content" source="media/visualstudio/new-uwp-project-target-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
+   :::image type="content" source="media/visualstudio/new-uwp-project-target-dialog.png" alt-text="Screenshot of the New Windows Project dialog showing the default Target version and Minimum version settings.":::
 
    > [!NOTE]
    > If this is the first time you have used Visual Studio to create a UWP app, you see the following message: 
    >
    > :::image type="content" source="media/visualstudio/enable-development-warning.png" alt-text="Screenshot that shows the Visual Studio requires your device to be enabled for developement message.":::
    > 
-   > If you see this message, go to the **System > Advanced** page in Windows settings and enable **Developer Mode**. In the **Use developer features window**, select **Yes**: 
+   > If you see this message, go to the **System > Advanced** page in Windows settings and enable **Developer Mode**. In the **Use developer features** window, select **Yes**: 
    >
    > :::image type="content" source="media/visualstudio/enable-developer-mode-settings.png" alt-text="Screenshot showing the System > Advanced settings dialog box the option for enabling Developer Mode.":::
    >
