@@ -78,7 +78,7 @@ First, create a Universal Windows Platform project. The project type comes with 
 
 1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
-   :::image type="content" source="media/visualstudio/new-uwp-project-target-minver-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
+   :::image type="content" source="media/visualstudio/new-uwp-project-target-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
 
    > [!NOTE]
    > If this is the first time you have used Visual Studio to create a UWP app, you see the following message: 
