@@ -64,8 +64,32 @@ You need:
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you even add anything!
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Open Visual Studio, and on the start window, choose **Create a new project**.
+
+1. On the **Create a new project** screen, enter *Universal Windows* in the search box, choose the C# template for **Blank App (Universal Windows)** or **UWP Blank App** in Visual Studio 2022 17.10 or later, and then choose **Next**.
+
+   :::image type="content" source="media/vs-2022/uwp-create-new-project.png" alt-text="Screenshot of the 'Create a new project' dialog box with 'Universal Windows' entered in the search box, and the 'Blank App (Universal Windows)' project template highlighted.":::
+
+1. Give the project a name, *HelloWorld*, and choose **Create**.
+
+   :::image type="content" source="media/vs-2022/uwp-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box with 'HelloWorld' entered in the Project name field.":::
+
+1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
+
+   :::image type="content" source="media/vs-2022/new-uwp-project-target-minver-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
+
+   > [!NOTE]
+   > If this is the first time you have used Visual Studio to create a UWP app, the **Enable Developer Mode for Windows** dialog box appears. Select **settings for developers** to open **Settings**. Turn on **Developer mode**, and then choose **Yes**.
+   >
+   > :::image type="content" source="media/vs-2022/enable-developer-mode-settings.png" alt-text="Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.":::
+   >
+   > Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
