@@ -262,7 +262,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 Let's peek at the definition of the `string` type.
 
-1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu. Or, select the **Alt**+**F12** keys.
+1. Right-click on any occurrence of `string` and choose **Peek Definition** from the context menu. Or, select the **Alt**+**F12** keys.
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
