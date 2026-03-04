@@ -38,8 +38,21 @@ This article assumes you're already familiar with a programming language. If you
 
 Create a new file and add some code to it.
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Open Visual Studio. Select the **Esc** key, or select **Continue without code** on the start window, to open the development environment.
+
+1. From the **File** menu on the menu bar, select **New** > **File**, or select the **Ctrl**+**N** keys.
+
+1. In the **New File** dialog box, under the **General** category, select **C# Class**, and then select **Open**.
+
+   A new file opens in the editor with a basic C# class structure.
+
+   :::image type="content" source="media/visualstudio/tutorial-editor.png" alt-text="Screenshot of a C# code file in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Open Visual Studio. Select the **Esc** key, or select **Continue without code** on the start window, to open the development environment.
 
@@ -97,8 +110,25 @@ Visual Studio provides useful code snippets that you can use to quickly generate
 
 Now add the C# `void Main` snippet to your file.
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Place your cursor just above the final closing brace **`}`** in the file, and type the characters `svm`.
+
+   A pop-up dialog box appears with information about the `svm` code snippet.
+
+   :::image type="content" source="media/visualstudio/tutorial-intellisense-snippet.png" alt-text="Screenshot of an IntelliSense pop-up for a code snippet in Visual Studio.":::
+
+1. Select the **Tab** key twice to insert the code snippet.
+
+   You'll see the `static void Main()` method signature get added to the file. The [Main()](/dotnet/csharp/programming-guide/main-and-command-args/) method is the entry point for C# applications.
+
+Available code snippets vary by programming language. To view the available code snippets for your language, go to **Edit** > **IntelliSense** > **Insert Snippet** or select **Ctrl**+**K**, **Ctrl**+**X** keys, then select the folder for your programming language. For C#, the code snippet list looks like this:
+
+:::image type="content" source="media/visualstudio/tutorial-code-snippet-list.png" alt-text="Screenshot of an IntelliSense pop-up for a C# code snippet list.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Place your cursor just above the final closing brace **`}`** in the file, and type the characters `svm`.
 
@@ -120,8 +150,52 @@ The list includes snippets for creating a [class](/dotnet/csharp/fundamentals/ty
 
 ## Comment out code
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+The Text Editor toolbar, the row of buttons under the menu bar in Visual Studio, helps make you more productive as you code. For example, you can toggle [IntelliSense](../ide/using-intellisense.md) completion mode, increase or decrease a line indent, or comment out code you don't want to compile.
+
+:::image type="content" source="media/visualstudio/tutorial-editor-toolbar.png" alt-text="Screenshot of the Text Editor toolbar in Visual Studio.":::
+
+Let's comment out some code.
+
+1. Paste the following code into the `Main()` method body.
+
+    ```csharp
+    // someWords is a string array.
+    string[] someWords = {
+        "the",
+        "quick",
+        "brown",
+        "fox",
+        "jumps"
+    };
+
+    string[] moreWords = {
+        "over",
+        "the",
+        "lazy",
+        "dog"
+    };
+
+    // Alphabetically sort the words.
+    IEnumerable<string> query = from word in someWords
+                                orderby word
+                                select word;
+    ```
+
+1. The `moreWords` variable isn't currently being used, but you might use it later, so instead of deleting it, you can comment out those lines. Select the entire definition of `moreWords` down to the closing semicolon, and then select the **Comment out the selected lines** button on the Text Editor toolbar, or select **Ctrl**+**K**, **Ctrl**+**C**.
+
+   :::image type="content" source="media/visualstudio/tutorial-comment-out.png" alt-text="Screenshot of the Comment out button in the Text Editor toolbar in Visual Studio.":::
+
+   The C# comment characters `//` are added to the beginning of each selected line to comment out the code.
+
+   To uncomment lines, you can select them, and then select **Uncomment the selected lines** button on the Text Editor toolbar, or select **Ctrl**+**K**, **Ctrl**+**U**.
+
+   :::image type="content" source="media/visualstudio/tutorial-uncomment.png" alt-text="Screenshot of the Uncomment button in the Text Editor toolbar in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 The Text Editor toolbar, the row of buttons under the menu bar in Visual Studio, helps make you more productive as you code. For example, you can toggle [IntelliSense](../ide/using-intellisense.md) completion mode, increase or decrease a line indent, or comment out code you don't want to compile.
 
@@ -200,8 +274,38 @@ Let's peek at the definition of the `string` type.
 
 ## Use IntelliSense to complete words
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+[IntelliSense](../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it.
+
+Let's add a line of code to print out the ordered strings to the console window, which is the standard place for output from the program to go.
+
+1. Below the `query` variable, start typing the following code:
+
+   ```csharp
+   foreach (string str in qu
+   ```
+
+   You'll see an IntelliSense pop-up appear with information about the `query` symbol.
+
+   :::image type="content" source="media/visualstudio/tutorial-intellisense-completion-list.png" alt-text="Screenshot of an IntelliSense word completion pop-up in Visual Studio.":::
+
+   If you're signed in with a GitHub account that has a Copilot subscription, you'll also see code suggestions appear in gray text.
+
+1. To insert the rest of the word `query` by using IntelliSense word completion, select the **Tab** key.
+
+1. Finish off the code block to look like the following code. You can practice further with code snippets by entering `cw` and then selecting **Tab** twice to generate the `Console.WriteLine` statement.
+
+   ```csharp
+   foreach (string str in query)
+   {
+      Console.WriteLine(str);
+   }
+   ```
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 [IntelliSense](../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it.
 
@@ -234,8 +338,27 @@ Let's add a line of code to print out the ordered strings to the console window,
 
 ## Refactor a name
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../ide/refactoring-in-visual-studio.md) functionality to rename the `someWords` variable to `unsortedWords`.
+
+1. Place your cursor over the definition of the `someWords` variable, and choose **Rename** from the right-click or context menu, or select the **F2** key.
+
+   A **Rename** dialog box appears at the top right of the editor.
+
+   :::image type="content" source="media/visualstudio/tutorial-rename-start.png" alt-text="Screenshot of the Rename pop-up box within the editor of Visual Studio.":::
+
+1. Enter the desired name **unsortedWords**. You'll see that the reference to `unsortedWords` in the `query` assignment statement is also automatically renamed. Before you select the **Enter** key, select the **Include comments** checkbox in the **Rename** pop-up box.
+
+   :::image type="content" source="media/vs-2022/tutorial-rename.png" alt-text="Screenshot of the Rename pop-up box in Visual Studio 2022.":::
+
+1. Select the **Enter** key.
+
+   Both occurrences of `someWords` in your code have been renamed, as well as the text `someWords` in your code comment.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../ide/refactoring-in-visual-studio.md) functionality to rename the `someWords` variable to `unsortedWords`.
 
