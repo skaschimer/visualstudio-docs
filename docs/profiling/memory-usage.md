@@ -67,8 +67,21 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
+     ::: moniker range="visualstudio"
 
-     ::: moniker range=">=vs-2022"
+     ![Screenshot of the Diagnostic Tools Summary tab showing the Memory Usage timeline graph and process memory chart.](../profiling/media/visualstudio/tools-summary-tab-2.png)
+
+     > [!NOTE]
+     > Because collecting memory data can affect the debugging performance of your native or mixed-mode apps, memory snapshots are disabled by default. To enable snapshots in native or mixed-mode apps, start a debugging session (Shortcut key: **F5**). When the **Diagnostic Tools** window appears, choose the **Memory Usage** tab, and then choose **Heap Profiling**.
+     >
+     >  ![Screenshot of the Memory Usage toolbar with the Heap Profiling button highlighted to enable snapshots for native or mixed-mode apps.](../profiling/media/vs-2022/dbgdiag-mem-mixed-toolbar-enable-snapshot.png)
+     >
+     >  Stop (Shortcut key: **Shift**+**F5**) and restart debugging.
+
+     ::: moniker-end
+
+
+     ::: moniker range="vs-2022"
 
      ![Screenshot of the Diagnostic Tools Summary tab showing the Memory Usage timeline graph and process memory chart.](../profiling/media/vs-2022/diag-tools-summary-tab-2.png)
 
@@ -139,9 +152,9 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 [!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
 
-To display the instances of a selected type in the upper pane, click the **View Instances** icon next to the object type.
-
 ::: moniker range="visualstudio"
+
+To display the instances of a selected type in the upper pane, click the **View Details** icon next to the object type.
 
 [![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/visualstudio/managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/visualstudio/managed-types-report-instances.png#lightbox)
 
@@ -150,6 +163,8 @@ The **Instances** view displays the instances of the selected object in the snap
 ::: moniker-end
 
 ::: moniker range="vs-2022"
+
+To display the instances of a selected type in the upper pane, click the **View Instances** icon next to the object type.
 
 [![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
 
