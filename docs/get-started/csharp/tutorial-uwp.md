@@ -298,6 +298,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 - [UWP overview](/windows/uwp/get-started/universal-application-platform-guide)
 - [Get UWP app samples](/windows/uwp/get-started/get-uwp-app-samples)
+- [Compile apps with .NET Native](/windows/uwp/dotnet-native)
 
 ## Next step
 
