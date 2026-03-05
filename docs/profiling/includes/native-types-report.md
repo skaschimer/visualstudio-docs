@@ -12,7 +12,13 @@ title: Native Types report
 
 Choose the current link of an **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+[![Screenshot of Native Type View.](../media/visualstudio/native-types-view.png)](../media/visualstudio/native-types-view.png#lightbox)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 [![Screenshot of Native Type View.](../media/vs-2022/dbgdiag-mem-native-types-view.png)](../media/vs-2022/dbgdiag-mem-native-types-view.png#lightbox)
 
@@ -21,7 +27,17 @@ Choose the current link of an **Allocations (Diff)** or **Heap Size (Diff)** cel
 
 The **Types View** displays the number and size of the types in the snapshot.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+- Choose the **View Details** icon next to a selected type to display information about the objects of the selected type in the snapshot.
+
+     The **Instances** view displays each instance of the selected type. Selecting an instance displays the call stack that resulted in the creation of the instance in the **Allocation Call Stack** pane. (This information is only available while debugging.)
+
+     [![Screenshot of the Instances view and Allocation Call Stack pane.](../media/visualstudio/native-instances.png)](../media/visualstudio/native-instances.png#lightbox)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 - Choose the **View Instances** icon next to a selected type to display information about the objects of the selected type in the snapshot.
 
@@ -31,8 +47,15 @@ The **Types View** displays the number and size of the types in the snapshot.
 
 ::: moniker-end
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+- Choose **Stacks** to see the allocation stack for the selected type.
+
+     [![Screenshot of Stacks view.](../media/visualstudio/native-stacks-view.png)](../media/visualstudio/native-stacks-view.png#lightbox)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 - Choose **Stacks** to see the allocation stack for the selected type.
 
