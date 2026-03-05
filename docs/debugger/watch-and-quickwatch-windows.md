@@ -368,7 +368,7 @@ For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md
 
 ::: moniker range="visualstudio"
 
-## Get AI assistance (Visual Studio 2026)
+## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can use AI in the **Watch** windows in two ways:
 
