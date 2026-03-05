@@ -90,7 +90,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
 
     In this example, use:
     ::: moniker range=">=vs-2022"
-    **MJO-DL:4026** on Visual Studio 2022
+    **MJO-DL:4026** on Visual Studio 2022 or later
     ::: moniker-end
 
 
