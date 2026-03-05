@@ -1,7 +1,7 @@
 ---
 title: Developer Community data privacy
 description: Learn how to manage your private data when you create problem reports for the Developer Community to review.
-ms.date: 11/07/2022
+ms.date: 3/4/2026
 ms.topic: best-practice
 helpviewer_keywords:
 - developer community privacy
@@ -13,7 +13,7 @@ ms.subservice: general-ide
 ---
 # Developer Community data privacy
 
-By default, all information in problem reports on [Developer Community](https://aka.ms/feedback/suggest?space=8), including any comments and replies, is publicly visible. This is beneficial because it allows the entire community to see the issues, solutions, and workarounds that other users have found. However, if you're concerned about the privacy of your data or identity, you have options. You can also View, Export, or Delete your feedback data.
+By default, all information in problem reports on [Developer Community](https://aka.ms/feedback/suggest?space=8), including any comments and replies, is publicly visible. This public visibility is beneficial because it allows the entire community to see the issues, solutions, and workarounds that other users find. However, if you're concerned about the privacy of your data or identity, you have options. You can also View, Export, or Delete your feedback data.
 
 ## Identity privacy
 
@@ -21,7 +21,7 @@ If you're concerned about revealing your identity, [create a new Microsoft accou
 
 ## Data privacy
 
-If you're concerned about data privacy, don't put anything you want to keep private in the title or content of the initial report, which is always public. Instead, create the report, and then note that you'll send details privately in a separate comment. Once the problem report is created, you can specify who can see replies and attachments:
+If you're concerned about data privacy, don't put anything you want to keep private in the title or content of the initial report, which is always public. Instead, create the report, and then note that you send details privately in a separate comment. Once the problem report is created, you can specify who can see replies and attachments:
 
 1. In the report you created, choose **Add comment** to create a private description of the problem.
 
@@ -29,7 +29,7 @@ If you're concerned about data privacy, don't put anything you want to keep priv
 
    ![Privacy control on Developer Community](media/developer-community-privacy-control.png)
 
-   Only the people you specify can see the comment and any images, links, or code you include in it. Any replies under the comment have the same visibility as the original comment. This is true even if the privacy control on replies doesn't show the restricted visibility status correctly.
+   Only the people you specify can see the comment and any images, links, or code you include in it. Any replies under the comment have the same visibility as the original comment. This visibility restriction is true even if the privacy control on replies doesn't show the restricted visibility status correctly.
 
 3. Add the description and any other information, images, and file attachments needed for your repro. Choose the **Submit** button to send this information privately.
 
