@@ -92,9 +92,16 @@ This command resumes app execution (and advances the debugger) until the current
 
 Using the **Run to Click** button is similar to setting a temporary breakpoint. This command is also handy for getting around quickly within a visible region of app code. You can use **Run to Click** in any open file. For more details on this feature and similar navigation features, see [Run to a specific location in your code](../debugger/navigating-through-code-with-the-debugger.md#run-to-a-specific-location-or-function).
 
+
+
+::: moniker range="visualstudio"
+While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Screenshot of the Run to Click button from the Visual Studio Debugger. The button indicates that execution should run to the line where the button is placed.](../debugger/media/dbg-tour-run-to-click.png) appears on the right.
+![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the right of a call to a function.](../debugger/media/visualstudio/run-to-click-2.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Screenshot of the Run to Click button from the Visual Studio Debugger. The button indicates that execution should run to the line where the button is placed.](../debugger/media/dbg-tour-run-to-click.png) appears on the left.
 
-::: moniker range=">= vs-2022"
 ![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the left of a call to a function.](../debugger/media/vs-2022/dbg-tour-run-to-click-2.png)
 ::: moniker-end
 
@@ -108,7 +115,11 @@ Click the **Run to Click** (Run execution to here) button. The debugger advances
 
 When you're editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor** (or press **Ctrl** + **F10**). This command starts debugging and sets a temporary breakpoint on the current line of code. For more details on this feature and similar navigation features, see [Run to a specific location in your code](../debugger/navigating-through-code-with-the-debugger.md#run-to-a-specific-location-or-function).
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the Run To Cursor option.](../debugger/media/visualstudio/run-to-cursor.png "Run to Cursor")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Run to Cursor](../debugger/media/vs-2022/dbg-tour-run-to-cursor.png "Run to Cursor")
 ::: moniker-end
 
@@ -152,7 +163,11 @@ In the **Autos** window, you see variables along with their current value and th
 
 While debugging, look at the **Autos** window at the bottom of the code editor.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the Autos window.](../debugger/media/visualstudio/autos-window.png "Autos window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Autos Window](../debugger/media/vs-2022/dbg-tour-autos-window.png "Autos window")
 ::: moniker-end
 
@@ -162,7 +177,11 @@ While debugging, look at the **Autos** window at the bottom of the code editor.
 
 Next, look at the **Locals** window. The **Locals** window shows you the variables that are currently in scope.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the Locals window.](../debugger/media/visualstudio/locals-window.png "Locals window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Locals Window](../debugger/media/vs-2022/dbg-tour-locals-window.png "Locals window")
 ::: moniker-end
 
@@ -175,7 +194,11 @@ You can use a **Watch** window to specify a variable (or an expression) that you
 
 While debugging, right-click an object and choose **Add Watch**.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the Watch window.](../debugger/media/visualstudio/watch-window.png "Watch window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
 ::: moniker-end
 
@@ -191,7 +214,11 @@ The **Call Stack** window shows the order in which methods and functions are get
 
 Select the **Call Stack** window while you're debugging, which is by default open in the lower right pane.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot taht shows the Call Stack window.](../debugger/media/visualstudio/call-stack.png "Examine the call stack")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Examine the Call Stack](../debugger/media/vs-2022/dbg-tour-call-stack.png "Examine the call stack")
 ::: moniker-end
 
@@ -232,7 +259,13 @@ You can configure your project to build as a [Debug or Release configuration](..
 
 Debugging properties are specific to each project type. For example, you can specify an argument to pass to the application when you start it. You can access the project-specific properties by right-clicking the project in Solution Explorer and selecting **Properties**. Debugging properties typically appear in the **Build** or **Debug** tab, depending on the particular project type.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+Starting in Visual Studio 2022, the **Debug** tab for .NET projects provides a link to the debug launch profiles UI, where you can set debug-related properties.
+
+![Screenshot that shows the project properties.](../debugger/media/visualstudio/project-properties.png "Project properties")
+::: moniker-end
+
+::: moniker range="vs-2022"
 Starting in Visual Studio 2022, the **Debug** tab for .NET projects provides a link to the debug launch profiles UI, where you can set debug-related properties.
 
 ![Project properties](../debugger/media/vs-2022/dbg-tour-project-properties.png "Project properties")
