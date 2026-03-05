@@ -365,11 +365,7 @@ _themes.VS.Modern/
 settings.json
 
 # Doc-Kit workspace files
-.github/AGENTS.md
-.github/agents/
-.github/instructions/
-.github/prompts/
-.github/skills/
+.github/
 .vscode/settings.json
 .vscode/mcp.json
 .dockit/

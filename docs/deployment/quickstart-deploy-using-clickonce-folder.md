@@ -23,7 +23,17 @@ Starting in Visual Studio 2019 version 16.8, you can use the **Publish** tool to
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
+    :::moniker range="visualstudio"
+
+    ![Screenshot that shows the Publish command on the project context menu in Solution Explorer.](../deployment/media/visualstudio/quickstart-clickonce-solution-explorer.png "Choose Publish")
+
+    :::moniker-end
+
+    :::moniker range="vs-2022"
+
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-clickonce-solution-explorer.png "Choose Publish")
+
+    :::moniker-end
 
 1. If you have previously configured any publishing profiles, the **Publish** page appears. Select **New**.
 

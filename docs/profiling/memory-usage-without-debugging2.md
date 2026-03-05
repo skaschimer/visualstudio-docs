@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage in the Performance Profiler
 description: Learn how to use the Memory Usage tool in release builds in the Visual Studio Performance Profiler to monitor your app's memory use.
-ms.date: 02/28/2025
+ms.date: 02/25/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -12,6 +12,8 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ai-usage: ai-assisted
+ms.custom: awp-ai
 zone_pivot_groups: programming-languages-set-two
 ---
 # Analyze memory usage in release builds (C#, Visual Basic, C++, F#)
@@ -47,7 +49,7 @@ For the best experience with this documentation, choose your preferred developme
    ::: moniker-end
 
 
-   > ![NOTE]
+   > [!NOTE]
    > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project).
 ::: zone-end
 
@@ -171,5 +173,9 @@ Many types in apps aren't required for app developers to investigate memory issu
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Profile your app with GitHub Copilot Profiler Agent](../profiling/profile-with-copilot-agent.md)
 - [Analyze hot path to root](../profiling/hot-path-to-root.md)
+- [Choose a memory analysis tool](../profiling/analyze-memory-usage.md)
+- [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md)
+- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md)
 - [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/)

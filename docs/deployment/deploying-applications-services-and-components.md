@@ -99,7 +99,13 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
 - **UWP**: You can package your app and deploy it by using menu items. For more information, see [Package a UWP app by using Visual Studio](/windows/uwp/packaging/packaging-uwp-apps).
 
+    :::moniker range="visualstudio"
+    ![Screenshot that shows creating an app package.](../deployment/media/visualstudio/feature-tour-create-app-package.png)
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     ![Screenshot that shows creating an app package.](../deployment/media/feature-tour-create-app-package.png)
+    :::moniker-end
 
 - **Windows desktop**: You can deploy to Microsoft Store starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 

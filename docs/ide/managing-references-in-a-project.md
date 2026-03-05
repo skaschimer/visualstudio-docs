@@ -28,15 +28,29 @@ Before you write code against an external component or connected service, your p
 
 How you add a reference depends on the project type for the code you're working on:
 
+:::moniker range="visualstudio"
+
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**.
+
+  :::image type="content" source="media/visualstudio/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
+
+- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**.
+
+  :::image type="content" source="media/visualstudio/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 - If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**.
 
   :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
-
 
 - If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**.
 
   :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
 
+:::moniker-end
 
   For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 

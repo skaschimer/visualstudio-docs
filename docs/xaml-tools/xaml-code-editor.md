@@ -36,7 +36,7 @@ While the code editor window for XAML apps shares some UI (user interface) eleme
 
 Here's a look at the XAML code editor window itself.
 
-![The XAML code editor window in Visual Studio](media/xaml-code-editor-window.png "Screenshot of the XAML code editor window in Visual Studio 2019")
+![Screenshot of the XAML code editor window in Visual Studio.](media/xaml-code-editor-window.png "Screenshot of the XAML code editor window in Visual Studio")
 
 Next, let's take a look at the functions of each of the UI elements in the code editor.
 
@@ -104,7 +104,17 @@ Here's how:
 
 1. Hover over a using statement, choose the light bulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 
+    :::moniker range="visualstudio"
+
+    ![Screenshot of the IDE editor's "Remove Unnecessary Usings" option from the Quick Actions menu.](media/visualstudio/xaml-code-editor-remove-usings.png "Screenshot of the IDE editor's Remove Unnecessary Usings option from the Quick Actions menu")
+
+    :::moniker-end
+
+    :::moniker range="vs-2022"
+
     ![The IDE editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png "Screenshot of the IDE editor's Remove Unnecessary Usings option from the Quick Actions menu")
+
+    :::moniker-end
 
 1. Choose whether you want to fix all occurrences in the **Document**, the **Project**, or the **Solution**.
 1. View the **Preview** dialog, and then choose **Apply**.
@@ -119,7 +129,17 @@ The color of the left margin allows you to keep track of the changes you have ma
 
 - Changes you have made since the file was opened but not saved are denoted by a **yellow** bar on the left margin (known as the selection margin).
 
+    :::moniker range="visualstudio"
+    
+    ![Screenshot of the code editor edit with a yellow bar.](media/visualstudio/code-editor-edit-yellow.png "Screenshot of the code editor with a change marked with a yellow bar in the selection margin.")
+
+    :::moniker-end
+
+    :::moniker range="vs-2022"
+    
     ![Code editor edit with yellow bar](media/code-editor-edit-yellow.png "Screenshot of the code editor with a change marked with a yellow bar in the selection margin.")
+
+    :::moniker-end
 
 - After you have saved the changes (but before closing the file), the bar turns **green**.
 
@@ -142,7 +162,17 @@ For more information about change tracking&mdash;to include the wavy lines (also
 
 When you're editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window.
 
-![Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019.](media/xaml-code-editor-right-click-menu.png)
+:::moniker range="visualstudio"
+
+![Screenshot of the XAML code editor's right-click context menu in Visual Studio.](media/visualstudio/xaml-code-editor-right-click-menu.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+![Screenshot of the XAML code editor's right-click context menu in Visual Studio.](media/xaml-code-editor-right-click-menu.png)
+
+:::moniker-end
 
 Here's what each feature does and how it's useful:
 
@@ -169,7 +199,17 @@ The scroll bar can do more than scroll through your code. You can also use it to
 
 In the scroll bar of the code editor, there's a **Split** button at the top right. When you choose it, you can open another code editor pane. This is useful because they operate independently of each other, so you can use them to work on code in different locations.
 
-![Screenshot showing the middle pane of the XAML code editor in Visual Studio 2019 with the Split button highlighted at the top right of the pane.](media/code-editor-split-window-button.png)
+:::moniker range="visualstudio"
+
+![Screenshot showing the middle pane of the XAML code editor in Visual Studio with the Split button highlighted at the top right of the pane.](media/visualstudio/code-editor-split-window-button.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+![Screenshot showing the middle pane of the XAML code editor in Visual Studio with the Split button highlighted at the top right of the pane.](media/code-editor-split-window-button.png)
+
+:::moniker-end
 
 For more information about how to split an editor window, see the [Manage editor windows](../ide/how-to-manage-editor-windows.md) page.
 
@@ -189,7 +229,17 @@ Most of the following features are universally available in the Visual Studio ID
 
 Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of keyboard shortcuts (**Ctrl**+**K**, **Ctrl**+**X**). [IntelliSense](../ide/using-intellisense.md) now supports showing XAML snippets, which work for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
 
+:::moniker range="visualstudio"
+    
+![Screenshot of the XAML code editor with XAML code snippet options showing in IntelliSense.](media/visualstudio/xaml-code-snippets.png "Screenshot of the XAML code editor with XAML code snippet options showing in IntelliSense")
+ 
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 ![The XAML code editor with XAML code snippet options showing in IntelliSense](media/xaml-code-snippets.png "Screenshot of the XAML code editor with XAML code snippet options showing in IntelliSense")
+ 
+:::moniker-end
 
 For more information, see the [Code snippets](../ide/code-snippets.md) and [C# code snippets](../ide/visual-csharp-code-snippets.md) pages.
 
@@ -197,7 +247,17 @@ For more information, see the [Code snippets](../ide/code-snippets.md) and [C# c
 
 In Visual Studio, #region support is available for XAML developers in WPF, UWP, [Xamarin.Forms](/xamarin/xamarin-forms/), and [.NET MAUI](/dotnet/maui). In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
 
+:::moniker range="visualstudio"
+
+![Screenshot of the XAML code editor with #region options showing in IntelliSense.](media/visualstudio/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![The XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
+
+:::moniker-end
 
 You can use regions when you want to group sections of your code that you also want to expand or collapse.
 
@@ -216,11 +276,31 @@ Developers often prefer to document their code by using comments. You can add co
 - Enter `<!--` before a comment and then add `-->` after the comment.
 - Enter `<!` and then choose `!--` from the list of options.
 
+  :::moniker range="visualstudio"
+      
+  ![Screenshot of the XAML code editor right-click add comments dialog.](media/visualstudio/xaml-code-editor-comments.png "Screenshot of the right-click context menu to add comments in the XAML code editor")
+
+  :::moniker-end
+
+  :::moniker range="vs-2022"
+      
   ![The XAML code editor right-click add comments dialog](media/xaml-code-editor-comments.png "Screenshot of the right-click context menu to add comments in the XAML code editor")
+
+  :::moniker-end
 
 - Select code that you want to surround with a comment and then choose the **Comment** button from the toolbar in the IDE. To reverse the action, choose the **Uncomment** button.
 
+  :::moniker range="visualstudio"
+
+  ![Screenshot of the Comment button and the Uncomment button in the IDE toolbar.](media/visualstudio/comment-undo-comment-buttons.png "Screenshot of the Comment button and the Uncomment button in the IDE toolbar")
+
+  :::moniker-end
+
+  :::moniker range="vs-2022"
+
   ![The Comment button and the Uncomment button in the IDE toolbar](media/comment-undo-comment-buttons.png "Screenshot of the Comment button and the Uncomment button in the IDE toolbar")
+
+  :::moniker-end
 
 - Select code that you want to surround with a comment, and then press **Ctrl**+**K**, **Ctrl**+**C**. To uncomment selected code, press **Ctrl**+**K**, **Ctrl**+**U**.
 
@@ -232,6 +312,20 @@ Light bulb icons that appear in your XAML code are part of the [Quick Actions](.
 
 Here are a few examples of how they can benefit your XAML coding experience:
 
+:::moniker range="visualstudio"
+
+- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces are underlined with a wavy blue line. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
+
+  ![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb.](media/visualstudio/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option that appears by using the Quick Actions lightbulb")
+
+- **Rename namespace**. This feature, available from the right-click context menu after you highlight a namespace, makes it easy to change multiple instances of a setting at one time. You can also access this feature by using the menu bar, **Edit** > **Refactor** > **Rename**, or by pressing **Ctrl**+**R**, and then **Ctrl**+**R** again.
+
+  ![Screenshot of the XAML code editor's Rename Namespace option from the right-click context menu.](media/visualstudio/code-editor-rename-namespace.png "Screenshot of the XAML code editor's Rename Namespace option that appears by using the right-click context menu")
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 - **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
 
   ![The XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option that appears by using the Quick Actions lightbulb")
@@ -239,6 +333,8 @@ Here are a few examples of how they can benefit your XAML coding experience:
 - **Rename namespace**. This feature, available from the right-click context menu after you highlight a namespace, makes it easy to change multiple instances of a setting at one time. You can also access this feature by using the menu bar, **Edit** > **Refactor** > **Rename**, or by pressing **Ctrl**+**R**, and then **Ctrl**+**R** again.
 
   ![The XAML code editor's Rename Namespace option from the right-click context menu](media/code-editor-rename-namespace.png "Screenshot of the XAML code editor's Rename Namespace option that appears by using the right-click context menu")
+
+:::moniker-end
 
   For more information, see the [Rename a code symbol refactoring](../ide/reference/rename.md) page.
 
@@ -258,9 +354,19 @@ For more information, see the [Navigate code](../ide/navigating-code.md) page.
 
 When you add a XAML tag to your code, you typically start with a left angle bracket `<`. When you type that angle bracket, an IntelliCode menu appears that lists several of the more popular XAML tags. Choose the one that you want to quickly add it to your code.
 
+:::moniker range="visualstudio"
+
+![Screenshot of the IntelliCode list for the XAML text editor.](media/visualstudio/xaml-intellicode-selection.png "Screenshot of the IntelliCode list for the XAML text editor")
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 You can recognize the IntelliCode selections because they appear at the top of the list and are starred.
 
 ![The IntelliCode list for the XAML text editor](media/xaml-intellicode-selection.png "Screenshot of the IntelliCode list for the XAML text editor")
+
+:::moniker-end
 
 For more information, see the [Overview of IntelliCode](/visualstudio/intellicode/overview/) page.
 

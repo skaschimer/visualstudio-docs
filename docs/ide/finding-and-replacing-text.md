@@ -55,7 +55,13 @@ You can scope searches to the current document, the current solution, or a custo
 
 The **Find and Replace** control appears in the upper right corner of the code editor window. It immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 :::image type="content" source="media/vs-2022/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio.":::
 

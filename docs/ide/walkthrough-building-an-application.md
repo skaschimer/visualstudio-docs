@@ -24,8 +24,48 @@ You can change or create configurations and platform settings by using the **Con
 
 ### Create a build configuration
 
+:::moniker range="visualstudio"
 
-:::moniker range=">=vs-2022"
+1. Open the **Configuration Manager** dialog box.
+
+   ![Screenshot of the Build menu Configuration Manager command.](media/visualstudio/build-tutorial-configuration-manager-menu.png)
+
+1. In the **Active solution configuration** list, choose **\<New...\>**.
+
+   ![Screenshot showing creating a new solution configuration.](media/visualstudio/build-tutorial-active-solution-configuration-new.png)
+
+1. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing **Debug** configuration, and then choose the **OK** button.
+
+   ![Screenshot showing creating a Test configuration in the New Solution Configuration dialog box.](media/visualstudio/build-tutorial-create-test-configuration.png)
+ 
+1. In the **Platform** column, expand the dropdown list, and choose **\<New...\>** to create a new project platform.
+
+   ![Screenshot showing creating a new project platform in the Configuration Manager.](media/visualstudio/build-tutorial-configuration-manager-platform-new.png)
+
+1. In the **New Project Platform** dialog box, choose **x64**, and don't copy settings from the x86 platform.
+
+   ![Screenshot of New solution platform dialog box.](media/visualstudio/build-tutorial-project-configuration-manager-new-project-platform.png)
+ 
+   If the **x64** solution platform already exists, uncheck the **Create active solution platform** box.
+
+1. Choose the **OK** button.
+
+   The active solution configuration has been changed to **Test** with the active solution platform set to x64.
+
+   ![Screenshot of Configuration Manager with Test configuration.](media/visualstudio/build-tutorial-configuration-manager.png)
+ 
+1. Choose **Close**.
+
+You can quickly verify or change the active solution configuration by using the **Solution Configurations** list on the **Standard** toolbar.
+
+![Screenshot of Solution Configurations dropdown list on the Standard toolbar.](media/visualstudio/build-tutorial-configuration-dropdown.png)
+
+> [!NOTE]
+> If you don't see the active solution configuration or the active platform shown in the toolbar, choose the small arrow-like icon on the far right of the toolbar, and then choose **Add or remove buttons**. Be sure that **Solution Configurations** and **Solution Platforms** are enabled.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 1. Open the **Configuration Manager** dialog box.
 
@@ -108,7 +148,11 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 1. Choose the **Build** tab or section and then, in the **Suppress warnings** box, specify the warning number **0168**. If other warnings are already listed, use a semicolon as a separator.
 
-    :::moniker range=">=vs-2022"
+    :::moniker range="visualstudio"
+    ![Screenshot of Build section in Project Properties.](media/visualstudio/build-tutorial-disable-warning-0168.png)
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     ![Screenshot of Build section in Project Properties.](media/vs-2022/build-tutorial-disable-warning-0168.png)
     :::moniker-end
 
@@ -130,13 +174,23 @@ You can temporarily hide certain warning messages during a build rather than hav
 
      The **Project Designer** opens.
 
+:::moniker range="visualstudio"
+
+3. On the **Compile** page, under **Warnings**, select **Disable all warnings** in the **Warning severity** list.
+     
+     ![Screenshot of disabling warnings in the Compile tab of the Project Designer.](media/visualstudio/build-tutorial-disable-warnings-vb.png)
+     
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 3. On the **Compile** page, select the **Disable all warnings** check box.
-
-     :::moniker range=">=vs-2022"
+     
      ![Screenshot of disabling warnings in the Compile tab of the Project Designer.](media/vs-2022/build-tutorial-disable-warnings-vb.png)
-     :::moniker-end
+     
+:::moniker-end
 
-     For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
+For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
 4. Build the solution. If it doesn't rebuild, build the solution using **Build > Rebuild Solution**.
 
