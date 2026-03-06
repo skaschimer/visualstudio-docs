@@ -80,7 +80,11 @@ This section describes how to create a unit test project.
 
    The project is added to your solution.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows a unit test project in Solution Explorer.](media/visualstudio/solution-explorer.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Unit test project in Solution Explorer](media/vs-2022/solution-explorer.png)
    ::: moniker-end
 
@@ -236,14 +240,22 @@ This section describes how to create a unit test project.
 
 1. Run your unit tests by clicking **Run All** (or press **Ctrl** + **R**, **V**).
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows Test Explorer.](media/visualstudio/test-explorer-run-all.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Run unit tests in Test Explorer](media/vs-2022/test-explorer-run-all.png)
    ::: moniker-end
 
 
    After the tests have completed, a green check mark indicates that a test passed. A red "x" icon indicates that a test failed.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows unit test results in Test Explorer.](media/visualstudio/unit-test-passed.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Review unit test results in Test Explorer](media/vs-2022/unit-test-passed.png)
    ::: moniker-end
 
@@ -269,13 +281,21 @@ If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 
 
 1. View the results of the tests within the code editor window as you write and edit code.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows the results of the tests.](media/visualstudio/live-unit-testing-results.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![View the results of the tests](media/vs-2022/live-unit-testing-results.png)
    ::: moniker-end
 
 1. Click a test result indicator to see more information, such as the names of the tests that cover that method.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows the test result indicators.](media/visualstudio/live-unit-testing-details.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Choose the test result indicators](media/vs-2022/live-unit-testing-details.png)
    ::: moniker-end
 
@@ -308,7 +328,11 @@ To add a unit test project:
 
    The project template includes NuGet references to NUnit and NUnit3TestAdapter.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows NUnit NuGet dependencies in Solution Explorer.](media/visualstudio/nunit-nuget-dependencies.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![NUnit NuGet dependencies in Solution Explorer](media/vs-2022/nunit-nuget-dependencies.png)
    ::: moniker-end
 
@@ -319,7 +343,11 @@ To add a unit test project:
 
 5. Add code to your test method.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows code in the unit test file.](media/visualstudio/unit-test-method.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Add code to your unit test code file](media/vs-2022/unit-test-method.png)
    ::: moniker-end
 
