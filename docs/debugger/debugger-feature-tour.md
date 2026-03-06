@@ -96,6 +96,7 @@ Using the **Run to Click** button is similar to setting a temporary breakpoint. 
 
 ::: moniker range="visualstudio"
 While in the debugger, hover over a line of code until the **Run to Click** (Run execution to here) button ![Screenshot of the Run to Click button from the Visual Studio Debugger. The button indicates that execution should run to the line where the button is placed.](../debugger/media/dbg-tour-run-to-click.png) appears on the right.
+
 ![Screenshot of the Visual Studio Debugger showing the Run to Click button appearing just to the right of a call to a function.](../debugger/media/visualstudio/run-to-click-2.png)
 ::: moniker-end
 
