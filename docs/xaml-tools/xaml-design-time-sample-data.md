@@ -7,7 +7,7 @@ author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: xaml-tools
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 # Use design-time sample data with the XAML Designer in Visual Studio
 
@@ -17,12 +17,6 @@ Some data-reliant controls, such as `ListView`, `ListBox`, and `DataGrid`, are h
 
 The Sample Data feature requires Visual Studio 2019 version [16.10](/visualstudio/releases/2019/release-notes-v16.10) or later. The feature supports Windows desktop projects that target WPF for .NET Core or .NET Framework when you're using the new designer.
 
-:::moniker range="<=vs-2019"
-To enable the new designer for .NET Framework:
-
-1. Go to **Tools** > **Options** > **Environment** > **Preview Features**.
-2. Select **New WPF XAML Designer for .NET Framework**, and then restart Visual Studio.
-:::moniker-end
 
 ## Basics of the Sample Data feature
 

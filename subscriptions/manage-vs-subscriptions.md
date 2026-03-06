@@ -1,5 +1,5 @@
 ---
-title: Manage Visual Studio Subscriptions
+title: Manage Subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
@@ -8,131 +8,146 @@ ms.topic: how-to
 description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
 ms.custom: sfi-image-nochange
 ---
-# Managing subscriptions
+# Manage Visual Studio subscriptions
 
-The Visual Studio [subscription portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.
+The Visual Studio [subscription portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can use it to make changes to your profile, use the benefits included with your subscriptions, and switch between subscriptions.
 
 > [!NOTE]
-> Visual Studio Subscriptions [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> The Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers who try to sign in to the Visual Studio integrated development environment (IDE). To access Visual Studio subscriptions, your organization needs to have a public tenant. For assistance in creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/).
 
-## Managing multiple subscriptions
+## Manage multiple subscriptions
 
-The Visual Studio subscriptions portal brings together all your Visual Studio subscriptions and programs in a single improved portal experience. For example, you might have one subscription through work, and another subscription or Visual Studio Dev Essentials membership you use at home.
+The Visual Studio subscription portal brings together all your Visual Studio subscriptions and programs in a single portal experience. For example, you might have one subscription through work, and another subscription or Visual Studio Dev Essentials membership that you use at home.
 
-### Which subscription am I using? How can I switch subscriptions?
+On the **Benefits** page, the subscription in use appears in the dropdown list next to **Featured benefit**. You can use the list to switch between subscriptions if you have more than one. If you have only one subscription, the list is unavailable.
 
-On the Benefits page, the subscription in use is displayed in the drop-down list next to the *Featured benefit*. You can use the drop-down to switch between subscriptions if you have more than one. If you only have one, the drop-down is disabled. 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the subscriptions drop-down.](_img/manage-vs-subscriptions/drop-down.png "Use the subscriptions drop-down to choose between available subscriptions.")
+:::image type="content" source="_img/manage-vs-subscriptions/drop-down.png" alt-text="Screenshot of the dropdown list for subscriptions in the subscription portal.":::
 
-### To switch between subscriptions, you can:
+Another way to switch between subscriptions is to select the **Subscriptions** tab and then select the desired subscription.
 
-+ Select the drop-down in the top right and choose the subscription from the list
-+ Select the Subscriptions tab and then select the desired subscription
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the subscriptions portal. The subscriptions tab is highlighted.](_img/manage-vs-subscriptions/change-subscription-resized.png "Select the subscriptions tab to see your subscriptions and switch between them.")
+:::image type="content" source="_img/manage-vs-subscriptions/change-subscription-resized.png" alt-text="Screenshot of the Subscriptions tab in the subscription portal.":::
 
-### If your subscription isn't visible...
+If your subscription isn't visible:
 
-+ It could be expired. Only active subscriptions are displayed in the subscription portal.
-+ It could be associated with a different email address. If you have multiple subscriptions and they're assigned to different email addresses, you only see one at a time. To switch to a different subscription, sign out of the portal and sign in with the email associated with the desired subscription. 
-+ If your company buys subscriptions through a Volume License, it's possible that your admin didn't assign one to you, or might have reassigned your subscription to another user.
++ The subscription might be expired. Only active subscriptions appear in the subscription portal.
++ The subscription might be associated with a different email address. If you have multiple subscriptions and they're assigned to different email addresses, you see only one at a time. To switch to a different subscription, sign out of the portal and sign in with the email address that's associated with the desired subscription.
++ If your company buys subscriptions through a volume license, it's possible that your admin didn't assign one to you or reassigned your subscription to another user.
 
-## Renewing my subscriptions
+## Renew subscriptions
 
-**Standard subscriptions**
-+ Microsoft Store: If you purchased your subscription from the [Microsoft Store](https://www.microsoft.com/store), you can renew it there as well.
-+ Volume License: If your company buys subscriptions through a Volume License, your admin should contact a reseller to renew your subscriptions.
++ **Standard subscriptions**: If you purchased your subscription from the [Microsoft Store](https://www.microsoft.com/store), you can renew it there. If your company buys subscriptions through a volume license, your admin should contact a reseller to renew your subscription.
 
-**Cloud subscriptions:** Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it remains active.
++ **Cloud subscriptions**: Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it remains active.
 
-**Subscriptions acquired through programs:** If you get your subscription through a program, your subscription is tied to your participation in the program. Reach out to your program contacts for additional information.
++ **Subscriptions acquired through programs**: If you get a subscription through a program, the subscription is tied to your participation in the program. For information about renewals, reach out to your program contacts. Common programs include:
 
-+ [Azure Dev Tools for Teaching](https://azureforeducation.microsoft.com/Institutions)
-+ [Microsoft AI Cloud Partner Program](https://partner.microsoft.com)
-+ [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
+  + [Azure Dev Tools for Teaching](https://azureforeducation.microsoft.com/Institutions)
+  + [Microsoft AI Cloud Partner Program](https://partner.microsoft.com)
+  + [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
-## Transferring subscriptions
+## Transfer subscriptions
 
-If your subscription was purchased through Microsoft Volume Licensing and you need to reassign it to someone else within the organization, your admin can help you.
-Retail subscriptions can be transferred to another user by contacting Customer Service. Complimentary or "Not For Resale" subscriptions can't be transferred.
+If your subscription was purchased through Microsoft volume licensing and you need to reassign it to someone else within the organization, your admin can help you.
 
-## Managing my profile
+An admin can transfer retail subscriptions to another user by contacting customer service. Complimentary or Not For Resale subscriptions can't be transferred.
 
-The subscriptions portal lets you create and manage a profile, making subscriptions management easy. You can make changes to your identity information, and you can associate your subscriptions with other sign-in identities from existing Azure accounts or Azure DevOps organizations using alternate identities.
+## Manage your profile
 
-### Changing profile information
+For easier subscription management, you can create and manage a profile in the subscription portal. You can also:
 
-You can easily change the contact information and preferences in your profile.
++ Make changes to your identity information.
++ Associate your subscriptions with other sign-in identities from existing Azure accounts or Azure DevOps organizations by using alternate identities.
 
-1. Select your name in the upper right corner of the subscription portal.
+### Change profile information
+
+To change the contact information and preferences in your profile:
+
+1. In the upper-right corner of the subscription portal, select your name.
+
 2. Select the **Edit profile** button.
-3. On the **About** tab, you can change your name, email, country/region, profile picture, and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
-4. When your changes are done, select **Save**.
-5. Select your browser's **back** button to return to the Benefits page.
 
-### Setting communications preferences
+3. On the **About** tab, you can change your name, email, country/region, profile picture, and contact preferences.
 
-To receive periodic updates and newsletters about your subscription and benefits, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) and check the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
+   On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
 
-   > [!div class="mx-imgBorder"]
-   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Screenshot of profile editing dialog. The option to receive Visual Studio subscriptions emails is highlighted. ")
- 
-### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
+4. When you finish making changes, select **Save**.
 
-If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. Use an "alternate account" to keep using your MSA to sign in to your subscription and still have access to existing Azure, Azure DevOps Services, or IDE resources associated with your school or work accounts.
+5. Select your browser's **Back** button to return to the **Benefits** page.
 
-Even if both accounts use the same email address, you need to add your work/school account as an alternate to use your benefits across both accounts.
+### Set communication preferences
+
+To receive periodic updates and newsletters about your subscription and benefits, go to the [Edit Profile](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) page in the subscription portal and select the **Visual Studio Subscriptions** checkbox. You can change your preferences and unsubscribe at any time.
+
+:::image type="content" source="_img/manage-vs-subscriptions/change-prefs.png" alt-text="Screenshot of the Edit Profile page in the subscription portal.":::
+
+### Link a subscription to an existing Azure DevOps or Azure subscription
+
+If you sign in to your subscription by using a personal Microsoft account and you have an Azure DevOps Services or Microsoft Azure subscription that uses an Azure-managed work or school account, you can link the two subscriptions. Use an *alternate account* to keep using your Microsoft account to sign in to your subscription and still have access to existing Azure, Azure DevOps Services, or IDE resources associated with your work or school account.
+
+Even if both accounts use the same email address, you need to add your work or school account as an alternate to use your benefits across both accounts.
 
 To add an alternate account:
 
-1. Sign in to the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) with your Microsoft Account (MSA).
-2. Select the **Subscriptions** tab.
-3. Under **Alternate account**, choose **Add alternate account**.
-4. Enter your work/school account email address and select **Add**.
+1. Sign in to the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) by using your Microsoft account.
 
-After you add an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.
+2. Select the **Subscriptions** tab.
+
+3. Under **Alternate account**, select **Add alternate account**.
+
+4. Enter the email address for your work or school account, and then select **Add**.
+
+After you add an alternate account, you can update or remove it at any time:
+
+1. Select the **Subscriptions** tab.
+
+2. In the **Related Links** section, select the appropriate option.
 
 ## Frequently asked questions
 
-### Q: If I don't renew my subscription, how long does Microsoft keep my data?
+### If I don't renew my subscription, how long does Microsoft keep my data?
 
-A: Depending on the purchasing channel, Microsoft maintains customer data for different lengths of time.
+The length of time that Microsoft maintains customer data depends on the purchasing channel.
 
 | Channel | Duration (days) |
-|---------|-----------------|
+| ------- | --------------- |
 | Retail (for example, through Microsoft Store) | 360 |
-| Volume Licensing Service Center (VLSC) | 180 |
-| Microsoft Products and Services Agreement (MPSA) | 180 |
-| Visual Studio Cloud Subscriptions | 180 |
-| Program (for example, Microsoft Certified Trainer, Microsoft Cloud Partner Program, Imagine) | 180 |
-| Not For Resale (for example, MVP, MSP) | 180 |
-| DevEssentials | 30 |
+| Microsoft 365 admin center | 180 |
+| Microsoft Products and Services Agreement | 180 |
+| Visual Studio cloud subscriptions | 180 |
+| Program (for example, Microsoft Certified Trainer, Microsoft AI Cloud Partner Program, Imagine) | 180 |
+| Not For Resale (for example, Most Valuable Professionals or Managed Services Provider) | 180 |
+| Dev Essentials | 30 |
 
 > [!NOTE]
-> + If you choose to close your Microsoft Account or Microsoft Entra ID, your personal data is anonymized immediately.
-> + We won't fully remove all your personal data if you have active subscriptions.
+> If you choose to close your Microsoft account or Microsoft Entra account, your personal data is anonymized immediately. We don't fully remove all your personal data if you have active subscriptions.
 
-### Q: How do I leave the Visual Studios Dev Essentials program?
+### How do I leave the Visual Studio Dev Essentials program?
 
-A: To leave the program, select the [Subscriptions tab](https://my.visualstudio.com/Subscriptions), locate the entry for Visual Studio Dev Essentials, and select the "Leave program" link in the far right column. 
+To leave the program:
 
-## Support resources
+1. In the subscription portal, go to the [Subscriptions](https://my.visualstudio.com/Subscriptions) tab.
 
-For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
+1. Find the entry for Visual Studio Dev Essentials.
 
-## See also
+1. In the rightmost column, select the **Leave program** link.
 
-+ [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
-+ [Azure documentation](/azure/)
-+ [Microsoft 365 documentation](/microsoft-365/)
+### How can I learn more about managing Visual Studio subscriptions for my organization?
 
-## Next steps
+See these articles:
 
-Do you manage subscriptions for your organization? Learn more about managing Visual Studio subscriptions:
 + [Assign individual subscriptions](assign-license.md)
 + [Assign multiple subscriptions](assign-license-bulk.md)
 + [Edit subscriptions](edit-license.md)
 + [Delete subscriptions](delete-license.md)
 + [Determine maximum usage](maximum-usage.md)
+
+### Where can I get support for my Visual Studio subscriptions?
+
+For assistance with sales, accounts, and billing for your Visual Studio subscriptions, go to the [Get Help](https://aka.ms/vssubscriberhelp) page of the subscription portal.
+
+## Related content
+
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)

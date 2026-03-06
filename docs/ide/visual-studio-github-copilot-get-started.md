@@ -1,7 +1,7 @@
 ---
 title: Get Started with GitHub Copilot
 description: Learn how to get started with GitHub Copilot in Visual Studio.
-ms.date: 8/29/2025
+ms.date: 2/18/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -9,7 +9,6 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-monikerRange: '>= vs-2022'
 ms.custom: copilot-learning-hub
 ---
 
@@ -17,32 +16,48 @@ ms.custom: copilot-learning-hub
 
 Welcome to GitHub Copilot, your AI companion in Visual Studio!
 
-Copilot helps you code faster and with greater accuracy by suggesting entire lines or blocks of code, answering questions, and assisting with routine tasks such as writing unit tests, debugging and profiling — all directly in your Visual Studio environment.
+Copilot helps you code faster and with greater accuracy by suggesting entire lines or blocks of code, answering questions, and assisting with routine tasks such as writing unit tests, debugging, and profiling. You can use all these features directly in your Visual Studio environment.
 
-In this article you learn how to use Copilot and make the most of its features in Visual Studio.
+In this article, you learn how to use Copilot and make the most of its features in Visual Studio.
 
 ## Launch Copilot
 
 1. Launch Visual Studio (version 17.8 or later). </br>
-   *It's recommended to update to the latest version of Visual Studio to get the most out of Copilot.*
-1. Create a new project, open an existing project, or continue without code to launch the IDE.
-1. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
+   *Update to the latest version of Visual Studio to get the most out of Copilot.*
 
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
+1. Create a new project, open an existing project, or continue without code to launch the IDE.
+
+1. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window**.
+
+   :::image type="content" source="media/visualstudio/copilot-badge-open-chat-window.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
    If Copilot isn't installed, select **Install Copilot** from the dropdown and follow the installer prompts. For more information, see [Manage Copilot installation and state](visual-studio-github-copilot-install-and-states.md).
 
-1. In the Chat window, choose to sign in with your existing GitHub account or [**Sign up for Copilot Free**](copilot-free-plan.md). Follow the prompts in your browser to complete the sign-in or sign-up process. After you finish, return to Visual Studio to continue using Copilot.
+1. In the Chat window, enter a prompt to start using Copilot.
+
+   If you're not already signed in with a GitHub account, Visual Studio prompts you to sign in. You can also [get started with Copilot Free](copilot-free-plan.md) if you don't have a Copilot subscription. Complete the sign-in or sign-up process in your browser, and then return to Visual Studio.
+
+   :::moniker range="vs-2022"
+
+      :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot showing the Get Started with Copilot Free dialog in Visual Studio.":::
+
+   :::moniker-end
+
+   :::moniker range="visualstudio"
+
+      :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/get-started-with-copilot-free-dialog.png" alt-text="Screenshot showing the Get Started with Copilot Free dialog in Visual Studio.":::
+
+   :::moniker-end
 
 Copilot is now ready to use in Visual Studio!
 
 ## Start using Copilot
 
-Once you're signed in, you can use Copilot in the Chat window and throughout the IDE.
+After you sign in, use Copilot in the Chat window and throughout the IDE.
 
 - **Use [Agent mode](copilot-agent-mode.md) and [MCP](mcp-servers.md)**: In the Chat window, select **Ask** and switch to **Agent** to enable agent mode. Use the tools icon to access MCP, configure servers, and choose which tools Copilot can use. For example, send "Write unit tests for the methods in this file" to get Copilot assistance with generating targeted code.
 
-- **Use [Completions](visual-studio-github-copilot-extension.md) and [Next Edit Suggestions](copilot-next-edit-suggestions.md)**: As you code, Copilot provides suggestions directly in the editor. Copilot will suggest both new code(shown as gray text) and edits to existing code.
+- **Use [Completions](visual-studio-github-copilot-extension.md) and [Next Edit Suggestions](copilot-next-edit-suggestions.md)**: As you code, Copilot provides suggestions directly in the editor. Copilot suggests both new code (shown as gray text) and edits to existing code.
 
 - **Use Copilot actions across Visual Studio**: Find Copilot-powered actions and suggestions in the editor context menu, Error List, Feature Search, and other areas of the IDE.
 

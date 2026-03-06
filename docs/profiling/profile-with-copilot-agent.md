@@ -1,7 +1,7 @@
 ---
 title: Profile with GitHub Copilot Profiler Agent
 description: Use the Copilot Profiler Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
-ms.date: 11/12/2025
+ms.date: 02/05/2026
 ms.update-cycle: 90-days
 ms.topic: tutorial
 dev_langs:
@@ -18,6 +18,8 @@ manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
+ms.custom: awp-ai
+ai-usage: ai-assisted
 ---
 
 # Profile your app with GitHub Copilot Profiler Agent
@@ -31,8 +33,14 @@ The Profiler Agent can perform all of the following tasks.
 - Analyze CPU usage, memory allocations, and runtime behavior.
 - Surface performance bottlenecks.
 - Generate [BenchmarkDotNet Benchmarks](https://benchmarkdotnet.org/articles/features/vsprofiler.html) or optimize existing BenchmarkDotNet benchmarks.
+- (ASP.NET) Analyze [.NET Counters](../profiling/dotnet-counters-tool.md).
 - Apply suggested optimizations.
 - Validate improvements in a guided loop.
+
+::: moniker range="visualstudio"
+- Discover and use C++ unit tests that exercise performance-critical code paths, or generate new C++ tests when needed.
+- Create lightweight measurement artifacts to capture baseline metrics when no suitable tests or benchmarks exist.
+::: moniker-end
 
 The Profiler Agent is especially helpful when:
 
@@ -41,13 +49,18 @@ The Profiler Agent is especially helpful when:
 - You want to validate optimizations with real benchmarks.
 - You’re working on high-performance apps like games, services, or client tools.
 
+::: moniker range="visualstudio"
+- You're working with C++ projects where benchmarks aren't practical but unit tests already exist.
+- You want to leverage tests your team already runs for performance validation.
+::: moniker-end
+
 For information about other profiling features in Copilot, see [AI-enhanced scenarios](../profiling/profiling-feature-tour.md#ai-enhanced-scenarios). For general information about Copilot agents and agent mode, see [Use Copilot agent mode](../ide/copilot-agent-mode.md).
 
 ## Prerequisites
 
 To get started, you need:
 
-+ Visual Studio version 18.0.0 Preview 1 or later
++ Visual Studio 2022 version 17.14 or later
 + [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can use [GitHub Copilot for Free](../ide/copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
@@ -55,7 +68,7 @@ To get started, you need:
 
 1. In Visual Studio, create a new C# Console app.
 
-   On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_CopilotProfile** and select **Next**. Choose a target framework (for example, .NET 8) and choose **Create**.
+   On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_CopilotProfile** and select **Next**. Choose a target framework (for example, .NET 10) and choose **Create**.
 
 1. In Solution Explorer, right-click the **Dependencies** node in the project, choose **Manage NuGet packages**, search for **EntityFramework**, and then add the following packages to the project:
 
@@ -204,7 +217,7 @@ To get started, you need:
         .ToList();
    ```
 
-1. If you want to agent to make additional optimizations, either select the suggestions provided by the agent or ask additional questions.
+1. If you want the agent to make additional optimizations, either select the suggestions provided by the agent or ask additional questions.
 
 ## Continue chat after reaching token limit
 
@@ -215,4 +228,3 @@ If a chat with Copilot approaches its token cap, you are prompted with the optio
 ![Screenshot of thread summarization.](../profiling/media/visualstudio/profiling-agent-thread-summarization.png) 
 
 If you select this option, the agent automatically generates a concise, context-rich summary of the current chat thread and carries it forward into a fresh conversation. This allows you to avoid retracing any steps.
-

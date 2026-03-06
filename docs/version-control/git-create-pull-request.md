@@ -23,15 +23,45 @@ To create a pull request, follow these steps:
 
 1. Select the link in the notification banner to **Create in Visual Studio** or **Create in Browser**.
 
+   :::moniker range="visualstudio"
+   
+   :::image type="content" source="media/visualstudio/git-create-pull-request-infobar-two-links.png" alt-text="Screenshot of the Git Changes window with the infobar 'Successfully pushed QP to origin. Pull request: Create in Visual Studio or create in browser.' in Visual Studio.":::
+   
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   
    :::image type="content" source="media/vs-2022/git-create-pull-request-infobar-two-links.png" alt-text="Screenshot of the Git Changes window with the infobar 'Successfully pushed QP to origin. Pull request: Create in Visual Studio or create in browser.' in Visual Studio 2022.":::
    
-   Alternatively, you can create a pull request from a remote branch by navigating to the **New Pull Request** window via the top-level menu **Git** > **GitHub** or **Azure DevOps** > **New Pull Request**. Or right-click a branch in the Git Repository Window.
+   :::moniker-end
    
+   Alternatively, you can create a pull request from a remote branch by navigating to the **New Pull Request** window via the top-level menu **Git** > **GitHub** or **Azure DevOps** > **New Pull Request**. Or right-click a branch in the Git Repository Window.
+
+   :::moniker range="visualstudio"
+      
+   :::image type="content" source="media/visualstudio/git-create-pr-top-level-menu.png" alt-text="Screenshot of the Git top level menu with GitHub selected and 'New Pull Request' text highlighted in Visual Studio."::: 
+
+   :::moniker-end
+   
+   :::moniker range="vs-2022"
+      
    :::image type="content" source="media/vs-2022/git-create-pr-top-level-menu.png" alt-text="The Git top level menu with GitHub selected and 'New Pull Request' text highlighted in Visual Studio 2022."::: 
+
+   :::moniker-end
 
    Or right select a branch in the Git Repository Window to open the context menu and select **New Pull Request**.
 
+   :::moniker range="visualstudio"   
+
+   :::image type="content" source="media/visualstudio/git-create-pr-git-repository-branch-context-menu.png" alt-text="Screenshot that shows the Git Repository window. The New Pull Request command is highlighted."::: 
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"   
+
    :::image type="content" source="media/vs-2022/git-create-pr-git-repository-branch-context-menu.png" alt-text="The Git Repository window with the outgoing / incoming link text highlighted in Visual Studio 2022."::: 
+
+   :::moniker-end
 
    When you try to create a pull request but you have multiple accounts in your keychain, you see a prompt asking you which account to use. See [Add GitHub accounts to your keychain](../ide/work-with-github-accounts.md).
 
@@ -55,9 +85,19 @@ To create a pull request, follow these steps:
 
    :::image type="content" source="media/vs-2022/git-create-pr-issue-search.png" alt-text="The New Pull Request with # in the description box and a list of the related GitHub issues and pull requests shown in Visual Studio 2022."::: 
 
-1. Once you’ve clicked **Create** on your pull request, other developers can review your changes and provide feedback. Or, with Visual Studio 17.12 and later, click the dropdown and choose **Create as draft**.
+1. Once you’ve clicked **Create** on your pull request, other developers can review your changes and provide feedback. Or, with Visual Studio 17.12 and later, select the dropdown and choose **Create as Draft**.
+
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/git-new-pull-request-create-draft.png" alt-text="Screenshot showing the option to create a new pull request as a draft." :::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/vs-2022/git-new-pull-request-create-draft.png" alt-text="Screenshot showing the option to create a new pull request as a draft." :::
+
+   :::moniker-end
 
 Learn more about how to add a pull request template to your repository in the [GitHub documentation](https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) and [Azure DevOps documentation](/azure/devops/repos/git/pull-request-templates#default-pull-request-templates).
 
@@ -82,7 +122,17 @@ To enable this feature, open the **Tools** > **Options** dialog, and expand the 
 
 To view the comments for a pull request, check out any branch with an active pull request branch and select **Show comments in files** from the infobar. You can also select the PR number in the **Git Changes** window or from the Git top level menu with **Git** > **GitHub** or **Azure DevOps** > **Show comments in files**.
 
+:::moniker range="visualstudio"
+
+![Screenshot showing link to view comments in Git Changes window.](./media/visualstudio/git-pull-request-link-and-PR-number.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![Screenshot showing link to view comments in Git Changes window.](./media/vs-2022/git-pull-request-link-and-PR-number.png)
+
+:::moniker-end
 
 ### Add pull request comments
 
@@ -99,9 +149,19 @@ With Visual Studio 17.13 or later, you can review a pull request, or add comment
 
 After you activate comments, check out any branch with an active pull request and click on **Show comments in files** in the infobar. Navigate through the changes by using the toolbar buttons above the code file.
 
-To add a comment, click on the **Add comment** icon to the left side of the editor, as shown in the following screenshot.
+To add a comment, select the **Add Comment** icon to the left side of the editor, as shown in the following screenshot.
+
+:::moniker range="vs-2022"
 
 ![Screenshot showing the Add comment icon when reviewing a file change in a pull request.](./media/vs-2022/pull-request-add-comment.png)
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+![Screenshot showing the Add comment icon when reviewing a file change in a pull request.](./media/visualstudio/pull-request-add-comment.png)
+
+:::moniker-end
 
 You can also right-click on a line of code and, on the context menu, choose **Git** > **Add comment**.
 

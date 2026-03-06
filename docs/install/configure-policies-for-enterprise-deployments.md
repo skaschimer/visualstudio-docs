@@ -55,6 +55,7 @@ The registry settings in this section control how and where the Visual Studio pr
 | `DisableRollback`                | `REG_DWORD`                 | 0                                                   | **Disable the ability to rollback or undo a Visual Studio update**: if set to 1, then users will be prevented from accessing the rollback capability, which prevents Visual Studio from reverting the most recent update, which may contain a security fix. If set to 0 or missing entirely, then users are able to access the rollback feature in Visual Studio, and undo an update and roll back their Visual Studio instances to the previously installed version. For more information, see the [Rollback blog post](https://aka.ms/vs/rollback).|
 | `HideAvailableTab`               | `REG_DWORD`                 | 0                                                   | **Hide the installer's Available tab**:  if set to 1, then administrators are able to hide the installer's **Available** tab, which can prevent users within the organization from accidentally installing the wrong product. |
 | `DisableSound`                   | `REG_DWORD`                 | 0                                                   | **Disable sounds in the installer**: if set to 1, then users are able to disable sounds in the Visual Studio Installer, which will prevent any audio cue when an installer operation is done or when there is an error. Installer operations include install, update, modify, and many other operations done by the installer or any error dialogs while trying the requested operation. If set to 0 or missing entirely, then users are able to re-enable sounds in the installer. For more information, see the [DisableSound blog post](https://aka.ms/vs/disablesound). |
+| `DisableMigrationDialog`  | `REG_DWORD`   | 0           | **Disable the stale-build migration dialog**: if set to 1, it prevents users from seeing the dialog that prompts them to update to the latest version of the Visual Studio IDE. This policy applies to Visual Studio 2026 and later. Insiders and Community scenarios aren't supported. |
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have **Full Control** and that `Everyone` has **Read** access.
@@ -178,37 +179,6 @@ As described earlier, Visual Studio checks the location it is installed from, su
 
 You can disable the notifications if you don't want end users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
 
-::: moniker range="vs-2019"
-
-Because Visual Studio 2019 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
-```
-
-You can turn notifications back on with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
-```
-
-To get back to default behavior, you can also delete the value with the following command:
-
-```shell
-vsregedit.exe remove "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
-```
-
-After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio don't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
-
-You can confirm the setting with the following command:
-
-```shell
-vsregedit.exe read "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
-```
-
-If the value doesn’t exist (default condition), the previous command indicates it failed to read the value. If you set the value, then the previous command reflects the value in the Visual Studio configuration (it indicates either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
-
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 

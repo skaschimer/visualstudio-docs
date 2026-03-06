@@ -1,7 +1,7 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
 description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
-ms.date: 11/17/2025
+ms.date: 02/26/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 author: Mikejo5000
@@ -16,7 +16,7 @@ ms.collection: ce-skilling-ai-copilot
 #customer intent: As a developer, I want to use Quick Actions in Visual Studio, so I can modify my code files to apply updates and fixes or generate code.
 ---
 
-# Quick Actions
+# Quick Actions, light bulbs, and screwdrivers
 
 Quick Actions in Visual Studio let you easily refactor, generate, or otherwise modify your code with a single action. Quick Actions are available for C#, [C++](/cpp/ide/writing-and-refactoring-code-cpp), and Visual Basic code files. Some actions are specific to a language, and others apply to all languages.
 
@@ -37,6 +37,9 @@ Visual Studio uses several icons to indicate when Quick Actions are available. T
 
 - **Error light bulb** ![error light bulb icon](media/error-light-bulb-icon.png): Critical action to fix an error in your code, or apply necessary refactoring.
 
+> [!TIP]
+> Quick Action icons can be small. To increase visibility, try enabling a high contrast theme in Windows or using a high contrast Visual Studio theme under **Tools** > **Options** > **Environment** > **General**.
+
 For any language, third parties can provide custom diagnostics and suggestions, such as part of an SDK. Visual Studio shows light bulbs based on those rules.
 
 ## Find available actions
@@ -45,7 +48,7 @@ You can check your code for available Quick Actions in Visual Studio by scanning
 
 - Move your mouse over your code and notice any Quick Action icons:
 
-   :::image type="content" source="../ide/media/vs2022-lightbulb-hover.png" border="false" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
+   :::image type="content" source="../ide/media/vs2022-lightbulb-hover.png" border="false" lightbox="../ide/media/vs2022-lightbulb-hover.png" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
 
 - Move the insertion cursor (|) into a line of code, and check for Quick Action icons in the left margin of the code editor.
 
@@ -59,11 +62,14 @@ You can also manually check for any available Quick Actions:
 
 When Quick Actions are available, you can select the light bulb ![light bulb icon](media/light-bulb-icon.png) or screwdriver ![screwdriver icon](media/screwdriver-icon.png) icon next to the applicable code.
 
-- To see the available improvements, select the Down arrow next to the icon or use the **Show potential fixes** link. 
+- To see the available improvements, select the icon or use **Ctrl** + **.** (period) to open the Quick Actions menu.
 
-   :::image type="content" source="../ide/media/vs2022-lightbulb-hover-expanded.png" border="false" alt-text="Screenshot that shows the Quick Action recommendation details with the light bulb icon in Visual Studio.":::
+   :::image type="content" source="../ide/media/vs2022-lightbulb-hover-expanded.png" border="false" lightbox="../ide/media/vs2022-lightbulb-hover-expanded.png" alt-text="Screenshot that shows the Quick Action recommendation details with the light bulb icon in Visual Studio.":::
 
-- To apply the recommended change to your code, select the icon. You can also select Ctrl + period (.) when your cursor is on a line of code that shows an available action.
+- To apply the recommended change to your code, select the fix from the menu.
+
+> [!TIP]
+> If the suggested Quick Action doesn't fully address a complex issue, try **Fix with Copilot** from the light bulb menu for AI-powered assistance. For more information, see [Get AI assistance](#get-ai-assistance).
 
 ## Apply actions to fix errors
 
@@ -71,7 +77,7 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 
 - To see the available fixes, select the Down arrow next to the icon or use the **Show potential fixes** link. 
 
-   :::image type="content" source="../ide/media/vs2022-error-lightbulb-hover.png" border="false" alt-text="Screenshot that shows the Quick Action potential fix and error light bulb icon in Visual Studio.":::
+   :::image type="content" source="../ide/media/vs2022-error-lightbulb-hover.png" border="false" lightbox="../ide/media/vs2022-error-lightbulb-hover.png" alt-text="Screenshot that shows the Quick Action potential fix and error light bulb icon in Visual Studio.":::
 
 - To apply the recommended change to your code, select the icon. You can also select Ctrl + period (.) when your cursor is on a line of code that shows an available action.
 
@@ -99,9 +105,9 @@ Open the **Tools** > **Options** dialog and expand the **Text Editor** > **All L
 ::: moniker range=">=vs-2022"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while using the Quick Actions light bulb. From the light bulb menu, choose **Fix with Copilot**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix.
+If you have [GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md), you can get AI assistance while using the Quick Actions light bulb. From the light bulb menu, choose **Fix with Copilot**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix. The **Fix with Copilot** option is especially useful for more complex issues where the automatically suggested fixes don't fully apply.
 
-:::image type="content" source="../ide/media/vs-2022/quick-action-lightbulb-github-copilot.png" border="false" alt-text="Screenshot that shows the Quick Action GitHub Copilot option for the light bulb.":::
+:::image type="content" source="../ide/media/vs-2022/quick-action-lightbulb-github-copilot.png" border="false" lightbox="../ide/media/vs-2022/quick-action-lightbulb-github-copilot.png" alt-text="Screenshot that shows the Quick Action GitHub Copilot option for the light bulb.":::
 ::: moniker-end
 
 ## Related content

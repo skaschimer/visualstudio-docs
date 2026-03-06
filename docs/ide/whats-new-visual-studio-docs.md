@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 11/04/2025
+ms.date: 03/02/2026
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -15,561 +15,460 @@ ms.topic: whats-new
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
-## October 2025
-
-### Azure
-
-**Updated articles**
-
-- Update Azure trial link
-  - [Add Application Insights with Visual Studio Connected Services](../azure/azure-app-insights-add-connected-service.md)
-  - [Add Azure Cache for Redis by using Visual Studio Connected Services](../azure/azure-cache-for-redis-add-connected-service.md)
-  - [Add Azure Cosmos DB to your app by using Visual Studio Connected Services](../azure/azure-cosmosdb-add-connected-service.md)
-  - [Add Azure SignalR by using Visual Studio Connected Services](../azure/azure-signalr-add-connected-service.md)
-  - [Add a connection to an Azure SQL Database](../azure/azure-sql-database-add-connected-service.md)
-  - [Adding Azure App Configuration by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-app-configuration.md)
-  - [Adding Azure Storage by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-storage.md)
-
-### Containers
-
-**Updated articles**
-
-- Update **Tools** > **Options** procedures
-  - [Use the Containers window](../containers/view-and-diagnose-containers.md)
-  - [Configure Visual Studio Container Tools](../containers/container-tools-configure.md)
-  - [Customize containers in Visual Studio](../containers/container-build.md)
-- Update Azure trial link
-  - [Quickstart: Container Tools in Visual Studio](../containers/container-tools.md)
-  - [Deploy an app into a container in Azure or Docker Hub](../containers/deploy-containerized.md)
-  - [Tutorial: Deploy a multi-container app to Azure Container Apps](../containers/deploy-multicontainer-azure-container-apps.md)
+## February 2026
 
 ### Data tools
 
 **Updated articles**
 
-- [Turn pluralization on and off (O/R Designer)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md) - Update **Tools** > **Options** procedure.
+- [Connect to a database in Visual Studio](../data-tools/add-new-connections.md) - Review and update screenshots
 
 ### Debugger
 
+**New articles**
+
+- [IDiaStackWalkHelper3::get_registerValue](../debugger/debug-interface-access/idiastackwalkhelper3-get-registervalue.md)
+- [IDiaStackWalkHelper3::put_registerValue](../debugger/debug-interface-access/idiastackwalkhelper3-put-registervalue.md)
+- [IDiaStackWalkHelper3](../debugger/debug-interface-access/idiastackwalkhelper3.md)
+
 **Updated articles**
 
-- [Inspect variables and return values in the Visual Studio debugger](../debugger/autos-and-locals-windows.md) - Add view inline values to variable inspection article
-- [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md)
-  - Add view inline values to variable inspection article
-  - Update unit testing for debugger agent
-- [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) - Update MSVC branding
-- [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add info on debugging unit tests in WSL
-- [Project settings for C# debug configurations (.NET Core, .NET 5+, and ASP.NET Core)](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md) - Update information on accessing launch profile
-- [Configure Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update for Hot Reload auto-restart and Razor
-- Update port information for remote debugging
-  - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
-  - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)
-  - [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md)
-- Update **Tools** > **Options** procedures
-  - [Display WPF trace information for data binding](../debugger/how-to-display-wpf-trace-information.md)
-  - [Debug .NET Framework source](../debugger/how-to-debug-dotnet-framework-source.md)
-  - [General debugging options](../debugger/general-debugging-options-dialog-box.md)
-  - [Get started with breakpoints in the Visual Studio debugger](../debugger/get-started-with-breakpoints.md)
-  - [Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39;](../debugger/error-evaluating-the-function-process-exited.md)
-  - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
-  - [Error: Evaluating the function &#39;function&#39; timed out and needed to be aborted in an unsafe way](../debugger/error-evaluating-the-function-function-timed-out-and-needed-to-be-aborted-in-an-unsafe-way.md)
-  - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
-  - [Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)](../debugger/diagnose-problems-after-deployment.md)
-  - [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md)
-  - [Debug using the Just-In-Time Debugger in Visual Studio](../debugger/debug-using-the-just-in-time-debugger.md)
-  - [Debug multiple processes (C#, Visual Basic, C++)](../debugger/debug-multiple-processes.md)
-  - [Debugging Mixed-Mode Applications](../debugger/debugging-mixed-mode-applications.md)
-  - [Overview of the Visual Studio debugger](../debugger/debugger-feature-tour.md)
-  - [Create custom views of C++ objects in the debugger using the Natvis framework](../debugger/create-custom-views-of-native-objects.md)
-  - [C++ Dynamic Debugging (Preview)](../debugger/cpp-dynamic-debugging.md)
-  - [A DCOM error occurred trying to contact the remote computer. Access is denied.](../debugger/a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied.md)
+- [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md)
+  - Clarify when the user can access the Call Stack window
+  - Add content for analyzing call stack with Copilot
+- [`CV_HREG_e`](../debugger/debug-interface-access/cv-hreg-e.md) - Add new interface in DIA SDK
+- [Interfaces (Debug Interface Access SDK)](../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md) - Add new interface in DIA SDK
+- [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md) - Update tabular visualizers with datatip info
+- [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md) - Add content for analyzing call stack with Copilot
 
 ### Deployment
 
 **Updated articles**
 
-- [Get publish settings from IIS and import into Visual Studio](../deployment/tutorial-import-publish-settings-iis.md) - Clarify IIS settings
-
-### Extensibility
-
-**Updated articles**
-
-- [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md) - Clarify reset script instructions for Visual Studio versions
-- [Registering Single File Generators](../extensibility/internals/registering-single-file-generators.md) - Clarify registry location
-- [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md) - Clarify classification types description
-- [Create an extension with an editor item template](../extensibility/creating-an-extension-with-an-editor-item-template.md) - Revise extension creation instructions and update date
-- [Visual Studio C++ Project system extensibility and toolset integration](../extensibility/visual-cpp-project-extensibility.md) - Update MSVC branding
-- Update InstallationTarget values and associated docs
-  - [Update extensions for Visual Studio](../extensibility/migration/update-extension.md)
-  - [Debug a Visual Studio extension](../extensibility/visualstudio.extensibility/get-started/debug-extensions.md)
-  - [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)
-
-### IDE
-
-**Updated articles**
-
-- [Get started with GitHub Copilot agent mode](../ide/copilot-agent-mode.md) - Updates for Planning in agent mode
-- [Problem Details window](../ide/reference/problem-details-window.md) - Update MSVC branding
-- [Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) - Update article on signing deployment manifests
-- [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Update JS IntelliSense article with TS JSDoc info
-- [View type and member definitions](../ide/go-to-and-peek-definition.md) - Add image for updated **Tools** > **Options** setting
-- [Specify custom build events in Visual Studio](../ide/specifying-custom-build-events-in-visual-studio.md) - Clarify macros vs MSBuild properties
-
-### Install
-
-**Updated articles**
-
-- [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) - Add guidance for maintaining offline machines
-
-### JavaScript
-
-**Updated articles**
-
-- Add compatibility info for Angular 20 to Angular tutorial
-  - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
-  - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md)
-  - [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md)
-
-### MSBuild
-
-**Updated articles**
-
-- Update MSVC branding
-  - [MSB8006 diagnostic code](../msbuild/errors/msb8006.md)
-  - [MSB8020 diagnostic code](../msbuild/errors/msb8020.md)
-  - [Link task](../msbuild/link-task.md)
-  - [MSBuild tasks specific to C++](../msbuild/msbuild-tasks-specific-to-visual-cpp.md)
-- [MSBuild properties](../msbuild/msbuild-properties.md)
-  - Fix filename reference and correct output result
-- [Run a target exactly once](../msbuild/run-target-exactly-once.md) - Update with corrections
-- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Improve coverage of default values
-- [Select the files to build](../msbuild/how-to-select-the-files-to-build.md) - Review and update
-
-### Profiling
-
-**New articles**
-
-- [Inefficient immutable collection modifications](../profiling/performance-insights-immutable-collection.md)
-- [Inefficient LinkedList traversal](../profiling/performance-insights-linked-list-traversal.md)
-- [Inefficient List\<T>.Find usage](../profiling/performance-insights-list-find.md)
-- [Inefficient string.Format or interpolation usage](../profiling/performance-insights-string-format.md)
-
-**Updated articles**
-
-- [Profile your app with GitHub Copilot](../profiling/profile-with-copilot-agent.md) - Add content for Profiler Agent thread summarization
-- [Overview of the profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md) - Update port information for remote debugging
-
-### Python
-
-**Updated articles**
-
-- [Create a C++ extension for Python in Visual Studio](../python/working-with-c-cpp-python-in-visual-studio.md) - Update MSVC branding
-
-### Test
-
-**Updated articles**
-
-- [Debug and analyze unit tests by using Test Explorer](../test/debug-unit-tests-with-test-explorer.md) - Update unit testing for debugger agent
-- Add information about IntelliTest deprecation
-  - [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)
-  - [Overview of Microsoft IntelliTest](../test/intellitest-manual/index.md)
-
-## Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [PhilKang0704](https://github.com/PhilKang0704) - Phil ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
-- [crnzgm](https://github.com/crnzgm) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [devdny](https://github.com/devdny) - ekko ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-
-## September 2025
-
-### Containers
-
-**Updated articles**
-
-- Container tools updates for Visual Studio Insiders prerelease
-  - [Add support for containers](../containers/add-container-support.md)
-  - [Build a container project from the command line](../containers/container-build-from-command-line.md)
-  - [Customize containers in Visual Studio](../containers/container-build.md)
-  - [Use SSL for containerized ASP.NET Core apps](../containers/container-certificate-management.md)
-  - [Customize container images for debugging](../containers/container-debug-customization.md)
-  - [Set the container entry point](../containers/container-entry-point.md)
-  - [Container Tools launch settings](../containers/container-launch-settings.md)
-  - [Container Tools build properties](../containers/container-msbuild-properties.md)
-  - [Configure Visual Studio Container Tools](../containers/container-tools-configure.md)
-  - [Quickstart: Use Docker with a React Single-page application in Visual Studio](../containers/container-tools-react.md)
-  - [Quickstart: Container Tools in Visual Studio](../containers/container-tools.md)
-  - [Customize container volume mapping](../containers/container-volume-mapping.md)
-  - [Deploy an ASP.NET Core container to Azure App Service using Visual Studio](../containers/deploy-app-service.md)
-  - [Deploy an app into a container in Azure or Docker Hub](../containers/deploy-containerized.md)
-  - [Deploy to Docker Hub](../containers/deploy-docker-hub.md)
-  - [Tutorial: Deploy a multi-container app to Azure Container Apps](../containers/deploy-multicontainer-azure-container-apps.md)
-  - [Debug apps in a local container](../containers/edit-and-refresh.md)
-  - [Deploy an ASP.NET container to a container registry using Visual Studio](../containers/hosting-web-apps-in-docker.md)
-  - [Launch a subset of Compose services](../containers/launch-profiles.md)
-  - [Configure HTTPS when deploying containerized applications to Azure](../containers/manage-certificates.md)
-  - [Visual Studio Container Tools](../containers/overview.md)
-  - [Tutorial: Create a multi-container app with Docker Compose](../containers/tutorial-multicontainer.md)
-  - [Use the Containers window](../containers/view-and-diagnose-containers.md)
-    
-### Data tools
-
-**Updated articles**
-
-- [Entity Framework Tools in Visual Studio](../data-tools/entity-data-model-tools-in-visual-studio.md) - Update Entity Framework Power Tools link
-
-### Debugger
-
-**New articles**
-
-- [Protected mode for dump debugging](../debugger/protected-mode-dump-debugging.md)
-
-**Updated articles**
-
-- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
-  - Update path for debugger
-  - Update instructions for configuring firewall for remote debugging
-- [Using the IntelliTrace stand-alone collector (C#, Visual Basic)](../debugger/using-the-intellitrace-stand-alone-collector.md) - Update paths for debugger
-- Document Snappoint debugging deprecation
-  - [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
-  - [Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)
-  - [Use time travel debugging to record and replay ASP.NET apps on Azure VMs](../debugger/debug-live-azure-virtual-machines-time-travel-debugging.md)
-  - [Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
-- [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md)
-  - Add Copilot feature for breakpoints
-  - Debugger updates for Copilot
-- [Inspect variables and return values in the Visual Studio debugger](../debugger/autos-and-locals-windows.md)
-  - Add content for viewing post-return values inline
-  - Add new article on profiling with Copilot, debugger updates for Copilot
-- [Dump files in the Visual Studio debugger](../debugger/using-dump-files.md) - Add documentation for protected mode debugging
-- [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md) - Add info for substring search in text visualizer
-- [Tutorial: Debug C++ code with Visual Studio](../debugger/getting-started-with-the-debugger-cpp.md) - New topic about the command-line args dropdown
-- [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add instructions for debugging WSL console app
-- [Error: Remote machine doesn't appear in a Remote Connections dialog](../debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md) - Update instructions for configuring firewall for remote debugging
-- Debugger updates for Copilot
-  - [Use the right type of breakpoint](../debugger/using-breakpoints.md)
-  - [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md)
-  - [Log info to the Output window using tracepoints in Visual Studio](../debugger/using-tracepoints.md)
-  - [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)
-
-### Deployment
-
-**Updated articles**
-
-- [Overview of Publish](../deployment/publish-overview.md) - Review and update
-
-### Extensibility
-
-**New articles**
-
-- [Update extensions for Visual Studio](../extensibility/migration/update-extension.md)
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-wasdk.md) - Update to latest workload for Windows App SDK in current Visual Studio
-- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Publish Visual Studio Insiders prerelease docs
-
-### IDE
-
-**New articles**
-
-- [How Copilot Chat understands and uses context](../ide/copilot-context-overview.md)
-
-**Updated articles**
-
-- Add custom instructions example
-  - [Customize chat responses and set context](../ide/copilot-chat-context.md)
-  - [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md)
-  - [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md)
-- [Find references in your code](../ide/finding-references.md) - Update date and enhance clarity in finding references
-- [Remove Unused References](../ide/reference/remove-unused-references.md) - Clarify version compatibility for remote tools
-- [Navigate code](../ide/navigating-code.md) - Move or refactor some UI reference articles
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Update paths for PowerShell
-- [Admin controls for GitHub Copilot](../ide/visual-studio-github-copilot-admin.md) - Updates for disabling agent mode
-- [Quick Actions](../ide/quick-actions.md) - Add configuration info for Quick Actions
-- Find file exclusions (new Visual Studio feature)
-  - [Find in Files](../ide/find-in-files.md)
-  - [Find and replace text in Visual Studio](../ide/finding-and-replacing-text.md)
-  - [Use Visual Studio search](../ide/visual-studio-search.md)
-- [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md) - Update channel name and date
-- [Visual Studio IDE documentation](../ide/index.yml) - Link updates for profiling with Copilot
-- Edit pass for articles about the GitHub Copilot editor
-  - [Get started with GitHub Copilot agent mode](../ide/copilot-agent-mode.md)
-  - [What is GitHub Copilot Edits?](../ide/copilot-edits.md)
-  - [Get started with GitHub Copilot Next Edit Suggestions](../ide/copilot-next-edit-suggestions.md)
-  - [Get started with AI models in Copilot Chat](../ide/copilot-select-add-models.md)
-  - [What is GitHub Copilot Completions in Visual Studio?](../ide/visual-studio-github-copilot-extension.md)
-- [Use MCP servers](../ide/mcp-servers.md) - User feedback fix + add new model
-- [Customize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md) - Key install updates for Visual Studio
-- [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md) - Publish Visual Studio Insiders prerelease docs
-- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Add more common regular expression elements to table
-- [Create and edit configurations](../ide/how-to-create-and-edit-configurations.md) - Clarify configuration levels in docs
-- [Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md) - Update build events examples
-- [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md) - Mention that Build > Cancel only appears during build
-- [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) - Review and update
-- [Deploy GitHub Copilot to existing Visual Studio instances](../ide/deploy-copilot-to-enterprise.md) - Review and update
-- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Review and update
-- [Report a problem with the Visual Studio product or installer](../ide/how-to-report-a-problem-with-visual-studio.md) - Ad Blocker and Brave
-- [Developer Community guidelines](../ide/developer-community-guidelines.md) - Add a way to get unbanned
-- [How to view errors and warnings](../ide/error-list-window.md) - Convert to a How-to article with AI assistance
-
-### Install
-
-**Updated articles**
-
-- [Administrative Templates (ADMX)](../install/administrative-templates.md) - Updates for disabling agent mode
-- [Install Visual Studio](../install/install-visual-studio.md)
-  - Key install updates for Visual Studio
-- Publish Visual Studio Insiders prerelease docs
-  - [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md)
-  - [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md)
-  - [Update Visual Studio](../install/update-visual-studio.md)
-  - [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
-
-### JavaScript
-
-**Updated articles**
-
-- [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md) - Update paths
-- [Create a React app in Visual Studio](../javascript/create-react-app.md)
-  - Update code snippet in React app
-  - Update React tutorial
-
-### MSBuild
-
-**Updated articles**
-
-- [MSB3189 diagnostic code](../msbuild/errors/msb3189.md) - Add description
-- [Item element (MSBuild)](../msbuild/item-element-msbuild.md) - Clarify child elements on items
-- [Tutorial: Use MSBuild](../msbuild/walkthrough-using-msbuild.md)
-  - Publish Visual Studio Insiders prerelease docs
-  - Update installation instructions and date in MSBuild tutorial
-
-### Profiling
-
-**New articles**
-
-- [Profile your app with GitHub Copilot](../profiling/profile-with-copilot-agent.md)
-
-**Updated articles**
-
-- [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) - Update paths
-- [Analyze BenchmarkDotNet data in Visual Studio](../profiling/profiling-with-benchmark-dotnet.md) - Add content for Benchmark project template
-- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Describe support for CMake projects in profiling
-- [Zero-length array allocations](../profiling/performance-insights-zero-length-array-allocations.md) - Add Copilot content for Perf Profiler start screen
-- [Overview of the profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md) - Add Copilot content for Perf Profiler start screen
-- [Run profiling tools on release or debug builds (C#, Visual Basic, C++, F#)](../profiling/running-profiling-tools-with-or-without-the-debugger.md) - Add Copilot content for Perf Profiler start screen
-- Add new article on profiling with Copilot, debugger updates for Copilot
-  - [Analyze memory usage by using the .NET Object Allocation tool](../profiling/dotnet-alloc-tool.md)
-  - [Measure performance in Visual Studio](../profiling/index.yml)
-  - [Instrument your .NET application in Visual Studio (C#, C++, Visual Basic, F#)](../profiling/instrumentation.md)
-
-### Test
-
-**Updated articles**
-
-- Update paths
-  - [Upgrade from .testsettings to .runsettings](../test/migrate-testsettings-to-runsettings.md)
-  - [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-- Update code coverage information for VS Community, Professional
-  - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
-  - [Overview of testing tools in Visual Studio](../test/improve-code-quality.md)
-  - [Microsoft.CodeCoverage.Console tool](../test/microsoft-code-coverage-console-tool.md)
-  - [Run unit tests by using Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-  - [Unit test basics](../test/unit-test-basics.md)
-- [Overview of Microsoft IntelliTest](../test/intellitest-manual/index.md) - Publish Visual Studio Insiders prerelease docs
-- [Get started with test-driven development using Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
-  - Fix instructions for file encoding
-  - Add Copilot content for Perf Profiler start screen
-- [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
-  - Fix instructions for file encoding
-  - Add Copilot content for Perf Profiler start screen
-
-### XAML tools
-
-**Updated articles**
-
-- [Configure XAML Designer options in Visual Studio](../xaml-tools/xaml-designer.md) - Move XAML Designer settings page to XAML Designer docs
-- [Use Design Time Data with the XAML Designer in Visual Studio](../xaml-tools/xaml-designtime-data.md) - Publish Visual Studio Insiders prerelease docs
-
-### Version control
-
-**Updated articles**
-
-- [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md) - Pull request comments feature updates
-- [Stage lines of code in Visual Studio](../version-control/git-line-staging.md) - Update git line staging documentation
-
-### XML tools
-
-**New articles**
-
-- [Configure formatting in the XML editor](../xml-tools/options-text-editor-xml-formatting.md)
-
-## August 2025
-
-### Code quality
-
-**Updated articles**
-
-- Clarify recommendations for use of rule set files
-  - [FAQ for code analysis in Visual Studio](../code-quality/analyzers-faq.yml)
-  - [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md)
-  - [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md)
-
-### Debugger
-
-**Updated articles**
-
-- [Debug a deadlock using the Threads view](../debugger/how-to-use-the-threads-window.md)
-  - Clarify content in article on debugging a deadlock
-  - Add C++ code and information to article on debugging a deadlock
-  - Improve guidance for multithreaded debugging tools
-- [Get started debugging multithreaded applications (C#, Visual Basic, C++)](../debugger/get-started-debugging-multithreaded-apps.md)
-  - Add C++ code and information to article on debugging a deadlock
-  - Improve guidance for multithreaded debugging tools
-- [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md)
-  - Add C++ code and information to article on debugging a deadlock
-  - Improve guidance for multithreaded debugging tools
-- [Using the Tasks Window (C#, Visual Basic)](../debugger/using-the-tasks-window.md)
-  - Add C++ code and information to article on debugging a deadlock
-  - Improve guidance for multithreaded debugging tools
-- [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md) - Add C++ code and information to article on debugging a deadlock
-- [Debug multithreaded applications in Visual Studio](../debugger/debug-multithreaded-applications-in-visual-studio.md) - Improve guidance for multithreaded debugging tools
-- [View threads in the Visual Studio debugger (C#, Visual Basic, C++)](../debugger/walkthrough-debugging-a-multithreaded-application.md) - Improve guidance for multithreaded debugging tools
+- [Deploy a .NET Windows desktop application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md) - Review and update screenshots
+- [First look at deployment in Visual Studio](../deployment/deploying-applications-services-and-components.md) - Review and update screenshots
+- [Quickstart: Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app.md) - Review and update screenshots
 
 ### Designers
 
 **Updated articles**
 
-- [Tutorial: Get started with Windows Forms Designer](../designers/walkthrough-windows-forms-designer.md) - Add Prerequisites section
+- [Tutorial: Get started with Windows Forms Designer](../designers/walkthrough-windows-forms-designer.md) - Review and update screenshots
 
 ### Extensibility
 
 **Updated articles**
 
-- [Devenv command-line switches for VSPackage development](../extensibility/devenv-command-line-switches-for-vspackage-development.md) - Update and clarify /RootSuffix command-line switch description
-- [Create an Atom feed for a private gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md) - Use approved GUID and remove extra period
+- [Debug a Visual Studio extension](../extensibility/visualstudio.extensibility/get-started/debug-extensions.md) - Mention start/restart menu commands for Experimental Instance
+- [The Experimental Instance](../extensibility/the-experimental-instance.md) - Add new section for start / restart
 
 ### Get started
 
 **Updated articles**
 
-- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Review and update
+- [Run a C# program or app in Visual Studio](../get-started/csharp/run-program.md) - Review and update screenshots
+- [C# development with Visual Studio](../get-started/csharp/index.yml) - C# Get started landing page - DocKit freshness review
+- Review and update for .NET 10
+  - [Tutorial: Learn to debug Visual Basic code using Visual Studio](../get-started/visual-basic/tutorial-debugger.md)
+  - [Tutorial: Add code to the picture viewer Windows Forms App (.NET Framework)](../get-started/csharp/tutorial-windows-forms-picture-viewer-code.md)
+  - [Tutorial: Add controls to the picture viewer Windows Forms App (.NET Framework)](../get-started/csharp/tutorial-windows-forms-picture-viewer-controls.md)
+  - [Tutorial: Add math problems to a math quiz WinForms app](../get-started/csharp/tutorial-windows-forms-math-quiz-add-math-problems.md)
+  - [Tutorial: Create a math quiz WinForms app](../get-started/csharp/tutorial-windows-forms-math-quiz-create-project-add-controls.md)
+  - [Tutorial: Create a Windows Forms matching game app](../get-started/csharp/tutorial-windows-forms-create-match-game.md)
+  - [Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-wasdk.md)
+  - [Tutorial: Learn to debug C# code using Visual Studio](../get-started/csharp/tutorial-debugger.md)
+  - [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md)
 
 ### IDE
 
 **New articles**
 
-- [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md)
-- [Using AI models in Copilot Chat](../ide/copilot-select-add-models.md)
-- [Configure indent and tab settings in Visual Studio](../ide/options-text-editor-all-languages-tabs.md)
-- [Set AutoRecover options](../ide/autorecover-environment-options-dialog-box.md)
+- [Visual Studio color themes](../ide/visual-studio-color-themes.md)
+- [Markdown preview controls](../ide/markdown-preview.md)
+- [Configure build and run options in Visual Studio](../ide/configure-build-run-options.md)
+- [Configure extension and update options in Visual Studio](../ide/configure-extension-update-options.md)
+- [Configure Windows Forms Designer options in Visual Studio](../ide/configure-windows-forms-designer-options.md)
+- [Troubleshoot proxy and firewall issues in Visual Studio](../ide/reference/proxy-firewall-troubleshoot.md)
 
 **Updated articles**
 
-- [Use Copilot agent mode](../ide/copilot-agent-mode.md) - Document Agent mode file visibility and permissions
-- [Copilot Next Edit Suggestions](../ide/copilot-next-edit-suggestions.md) - Add hide next edit suggestions
-- [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md) - Create new doc for Getting Started with Copilot
-- [What is GitHub Copilot Completions for Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Add a tips and tricks section for Copilot Completions
-- [Remove Unused References](../ide/reference/remove-unused-references.md) - Update refactoring article on removing unused references and overview for XAML Tools
-- [Use MCP servers](../ide/mcp-servers.md)
-  - MCP GA updates
-  - Enhance MCP server setup instructions in documentation
-- [Find, install, and manage extensions for Visual Studio](../ide/finding-and-using-visual-studio-extensions.md)
-  - Add a section on security measures in place to protect extension users
-  - Review and update
-- [Options dialog box: Text Editor \> Advanced](../ide/options-text-editor-advanced.md) - Update UI reference articles
-- [Use the Immediate window](../ide/immediate-window.md) - Update UI reference articles
-- [Paste JSON or XML as classes](../ide/paste-json-xml.md) - Update UI reference articles
-- [Productivity guide for Visual Studio](../ide/productivity-features.md) - Update UI reference articles
-- [Understand build configurations](../ide/understanding-build-configurations.md) - Add details on predefined constants
-- [Work with miscellaneous files](../ide/miscellaneous-files.md) - Update UI reference articles
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Review and update
-- [Use the Immediate window](../ide/reference/immediate-window.md) - Review and update
-- [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - Review and update
-- [Problem Details window](../ide/reference/problem-details-window.md) - Fix bad metadata
-- [Manage references in a project](../ide/managing-references-in-a-project.md) - Add link to NuGet package info
-- [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md) - Review and update
-- [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md) - Review and update
-- [Outlining](../ide/outlining.md) - Review and update
-- [What are solutions and projects in Visual Studio?](../ide/solutions-and-projects-in-visual-studio.md) - Review and update
+- [Quick Actions](../ide/quick-actions.md) - Improve article on Quick Actions
+- [IntelliSense in Visual Studio](../ide/using-intellisense.md) - Review and update screenshots
+- [Set multiple startup projects](../ide/how-to-set-multiple-startup-projects.md) - Review and update screenshots
+- [What is Class Designer?](../ide/class-designer/designing-and-viewing-classes-and-types.md) - General improvements
+- [Compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md) - General improvements
+- [Tutorial: Build an application](../ide/walkthrough-building-an-application.md) - Review and update screenshots
+- [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md) - Review and update screenshots
+- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Fix content related to automatic generation of config file
+- [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Reference color theme gallery
+- [Customize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md) - Reference color theme gallery
+- [Find and replace text in Visual Studio](../ide/finding-and-replacing-text.md) - Review and update screenshots
+- [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md)
+  - New feature: Markdown Preview controls
+  - New feature: Markdown preview from GitHub Copilot Chat
+  - Updates for changes to the new sign-in experience from Copilot chat window
+- [Troubleshoot GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-troubleshoot.md) - Update refresh credentials
+- [Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md) - Review and update screenshots
+- [Get started with GitHub Copilot completions](../ide/visual-studio-github-copilot-extension.md)
+  - Add click-to-accept for Copilot completions
+  - Add colorized code completions documentation
+  - Updates for changes for inline suggestions
+- [Manage references in a project](../ide/managing-references-in-a-project.md) - Review and update screenshots
+- [Customize chat responses and set context](../ide/copilot-chat-context.md)
+  - Updates for Copilot Memories
+  - New slash commands
+- [How Copilot Chat understands and uses context](../ide/copilot-context-overview.md) - Updates for Copilot Memories
+- [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Updates for changes to the new sign in experience from Copilot chat window
+- [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md) - Updates for changes to the new sign in experience from Copilot chat window
+- [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Updates for changes to the new sign in experience from Copilot chat window
+- [Change the build output directory](../ide/how-to-change-the-build-output-directory.md) - Review and update screenshots
+- [Configure advanced Text Editor options](../ide/options-text-editor-advanced.md) - Update content for copying rich text in HTML format
+- [Visual Studio settings](../ide/visual-studio-settings.md) - General improvements
+- [Configure Environment \> Visual Experience options](../ide/configure-visual-experience-options.md) - Compact view option for Solution Explorer
+- [Learn about Solution Explorer](../ide/use-solution-explorer.md) - Compact view option for Solution Explorer
+- [Configure Languages > C/C++ > IntelliSense options](../ide/configure-languages-c-cpp-intellisense.md)
+  - Adding WCI setting info
+  - Add WCI to settings
+- [Project and solution configurations](../ide/understanding-build-configurations.md) - Update solution and project configuration conceptual article
+- [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) - Updates for changes for inline suggestions
+- [Get started with GitHub Copilot next edit suggestions](../ide/copilot-next-edit-suggestions.md) - Updates for changes for inline suggestions
 
 ### Install
 
 **Updated articles**
 
-- [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md) - Review and update
-- [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md) - Review and update
-- [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md) - Review and update
-- [Install Visual Studio](../install/install-visual-studio.md) - Review and update
-- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Review and update
-
-### JavaScript
-
-**Updated articles**
-
-- [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md)
-  - Add command line instructions for JavaScript/TypeScript unit testing with vstest.console
-  - Update TypeScript unit testing for ASP.NET Core
+- [Install Build Tools into a container](../install/build-tools-container.md) - Add Dockerfile instructions for Build Tools installation
+- [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md) - Update link and screenshots
 
 ### MSBuild
 
 **Updated articles**
 
-- [Property functions](../msbuild/property-functions.md)
-  - Document out param in property function
-- [How MSBuild builds projects](../msbuild/build-process-overview.md) - General improvements
-- [MSBuild project file schema reference](../msbuild/msbuild-project-file-schema-reference.md) - Update MSBuild schema links
-- Clean up old, unsupported .NET version references:
-  - [Configure tasks](../msbuild/configure-tasks.md)
-  - [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md)
-  - [Target multiple framework versions and platforms](../msbuild/msbuild-multitargeting-overview.md)
-  - [MSBuild](../msbuild/msbuild.md)
-  - [Register extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)
-  - [Target element (MSBuild)](../msbuild/target-element-msbuild.md)
-  - [Tutorial: Generate a REST API client](../msbuild/tutorial-rest-api-client-msbuild.md)
-- [Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md)
-  - Document that environment variables are considered trusted by MSBuild
-  - Review and update
-- [Customize a build to handle generated files](../msbuild/customize-builds-for-generated-files.md) - Improve based on user feedback
+- [Customize your build](../msbuild/customize-your-build.md) - General improvements
+- [Customize the build by folder](../msbuild/customize-by-directory.md) - General improvements
+- [MSB8004 diagnostic code](../msbuild/errors/msb8004.md) - Fix slash terminology
 
 ### Profiling
 
 **Updated articles**
 
-- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md) - Add C++ code and information to article on debugging a deadlock
+- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - Update Memory profiling tutorial
+- [Analyze memory usage in release builds (C#, Visual Basic, C++, F#)](../profiling/memory-usage-without-debugging2.md) - Update article on memory usage
+- [Profile your app with GitHub Copilot Profiler Agent](../profiling/profile-with-copilot-agent.md) - Profiler agent unit test support
 
 ### Test
 
 **Updated articles**
 
-- [Tutorial: Test-driven development using Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md) - Update article on unit testing C#
-- [Run unit tests by using Test Explorer](../test/run-unit-tests-with-test-explorer.md) - Update article on unit testing C#
-- [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) - Update article on unit testing C#
+- [Overview of GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md)
+  - Incorporated feedback for Overview of GitHub Copilot Testing
+  - Update GitHub Copilot testing for .NET
+- [Generate and run unit tests using GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md) - Update GitHub Copilot testing for .NET
 
 ### XAML tools
 
 **Updated articles**
 
-- [Overview of XAML](../xaml-tools/xaml-overview.md) - Update refactoring article on removing unused references and overview for XAML Tools
+- [XAML code editor](../xaml-tools/xaml-code-editor.md) - Review and update screenshots
 
 ### Version control
 
 **Updated articles**
 
-- [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md) - Review and update version control articles with AI references
+- [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md) - Review and update screenshots
+- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Review and update screenshots
+- [Create a Git repository from Visual Studio](../version-control/git-create-repository.md) - Review and update screenshots
+- [Use git fetch, pull, push and sync for version control in Visual Studio](../version-control/git-fetch-pull-sync.md) - Review and update screenshots
+- [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md) - Review and update screenshots
+- [Make a Git commit in Visual Studio](../version-control/git-make-commit.md) - Review and update screenshots
+
+## January 2026
+
+### Azure
+
+**Updated articles**
+
+- [Adding Azure Storage by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-storage.md) - Fix link formatting in Azure Storage documentation
+- [Azure development with Visual Studio](../azure/index.yml) - Review and update
+- [Connect to Azure services, gRPC, OpenAPI, and more](../azure/overview-connected-services.md) - Update MongoDB container links
+
+### Code quality
+
+**Updated articles**
+
+- [Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md)
+  - Update articles on calculating code metrics
+  - Updated instructions for using Metrics.exe
+- [Use the Code Metrics window](../code-quality/working-with-code-metrics-data.md) - Update articles on calculating code metrics
+- [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md) - Update screenshots
+
+### Containers
+
+**Updated articles**
+
+- [Customize container volume mapping](../containers/container-volume-mapping.md) - Updates .NET 8 to .NET 10
+
+### Debugger
+
+**Updated articles**
+
+- [Set debug and release configurations in Visual Studio](../debugger/how-to-set-debug-and-release-configurations.md) - Update article on setting debug and release configurations
+- [C/C++ Assertions](../debugger/c-cpp-assertions.md) - Fix code in article on navigating code in the debugger
+- Refactor debugger UI reference articles
+  - [Debug using the Just-In-Time Debugger in Visual Studio](../debugger/debug-using-the-just-in-time-debugger.md)
+  - [Specify debugger options](../debugger/how-to-specify-debugger-settings.md)
+  - [Specify debug source files](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)
+  - [Stop debugging in progress](../debugger/stop-debugging-in-progress-dialog-box.md)
+  - [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md)
+  - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
+  - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
+  - [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml)
+  - [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)
+- [IDiaSymbol12::get_atomicType](../debugger/debug-interface-access/idiasymbol12-get-atomictype.md) - Add Copilot profiling info for .NET Counters
+- [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Update Exception Helper article for Copilot
+- [Debugging techniques and tools to help you write better code](../debugger/write-better-code-with-visual-studio.md) - Update debugging techniques and tools
+
+### Designers
+
+**Updated articles**
+
+- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Clarify that ForceDesignerDpiUnaware is supported only in .NET 6+ Windows Forms projects
+
+### Extensibility
+
+**New articles**
+
+- [Extension compatibility model for Visual Studio](../extensibility/migration/extension-compatibility.md)
+
+### IDE
+
+**New articles**
+
+- [Configure C/C++ code analysis and error list options](../ide/configure-c-cpp-advanced-options.md)
+- [Configure Languages > C/C++ > IntelliSense options](../ide/configure-languages-c-cpp-intellisense.md)
+- [Configure Languages > C/C++ > Text editor options](../ide/configure-languages-c-cpp-text-editor.md)
+
+**Updated articles**
+
+- Refactor UI reference for text editor
+  - [Configure Visual Basic text editor options](../ide/options-text-editor-basic-visual-basic.md)
+  - [Configure C# text editor advanced options](../ide/options-text-editor-csharp-advanced.md)
+- [Configure C/C++ code analysis and error list options](../ide/configure-c-cpp-advanced-options.md)
+  - TOC updates for text editor options
+  - Review and update
+- Refactor IDE UI reference articles
+  - [Customize environment options for fonts and colors](../ide/fonts-and-colors-environment-options-dialog-box.md)
+  - [Customize general environment options](../ide/general-environment-options-dialog-box.md)
+  - [Configure environment options for an account](../ide/accounts-environment-options-dialog-box.md)
+  - [Find and replace text in Visual Studio](../ide/finding-and-replacing-text.md)
+  - [Customize general text editor options](../ide/options-text-editor-general.md)
+  - [Options dialog box: Environment \> Extensions](../ide/reference/extensions-and-updates-environment-options-dialog-box.md)
+- [View problem details for C/C++](../ide/reference/problem-details-window.md) - Refactor debugger UI ref articles
+- [Visual C++ IntelliSense features](../ide/visual-cpp-intellisense.md) - Review and update
+- [Code style preferences and code cleanup](../ide/code-styles-and-code-cleanup.md) - Review and update
+- [Make code work in Visual Studio](../ide/find-and-fix-code-errors.md) - Review and update
+- [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Review and update
+- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Review and update
+- [View type and member definitions](../ide/go-to-and-peek-definition.md) - Review and update
+- [What is Sticky Scroll for Visual Studio?](../ide/editor-sticky-scroll.md) - Review and update
+- [Options, Text Editor, C/C++, Advanced](../ide/reference/options-text-editor-c-cpp-advanced.md) - Review and update
+- [Options, Text Editor, C/C++, View](../ide/reference/options-text-editor-c-cpp-view.md) - Review and update
+- [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md) - Update screenshots
+- [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md) - Update screenshots
+- [Customize chat responses and set context](../ide/copilot-chat-context.md) - Update screenshots
+- [Get started with GitHub Copilot agent mode](../ide/copilot-agent-mode.md) - Update screenshots
+- [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Update screenshots
+- [Use MCP servers](../ide/mcp-servers.md) - Update screenshots
+- [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md) - Update screenshots
+- [Troubleshoot GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-troubleshoot.md) - Update screenshots
+- [Find, install, and manage extensions for Visual Studio](../ide/finding-and-using-visual-studio-extensions.md) - Update screenshots
+- [Intellicode whole-line autocompletions](../ide/visual-studio-whole-line-completions.md) - Add link to GitHub Copilot completions
+
+### JavaScript
+
+**Updated articles**
+
+- [Tutorial: Add TypeScript to an existing ASP.NET Core app in Visual Studio](../javascript/tutorial-aspnet-with-typescript.md) - Update screenshots
+
+### Modeling
+
+**Updated articles**
+
+VM SDK doc and labs updated to Visual Studio 2022
+- [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)
+- [Get Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)
+- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
+
+### MSBuild
+
+**Updated articles**
+
+- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Enhance Aliases description for Reference and ProjectReference
+- [Build specific targets in solutions by using MSBuild.exe](../msbuild/how-to-build-specific-targets-in-solutions-by-using-msbuild-exe.md) - Review and update
+- [Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Clarify UsingTask Runtime=NET support
+- [Troubleshoot assembly references](../msbuild/troubleshoot-assembly-references.md) - Clarify AssemblySearchPaths defaults for SDK-style projects
+
+### Profiling
+
+**Updated articles**
+
+- [Profile your app with GitHub Copilot Profiler Agent](../profiling/profile-with-copilot-agent.md) - Add Copilot profiling info for .NET Counters
+- [Overview of the profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md) - Update screenshots
+
+### Python
+
+**Updated articles**
+
+- [Automatically reformat Python code in Visual Studio](../python/formatting-python-code.md) - Review and update
+- [Options for Python in Visual Studio](../python/python-support-options-and-settings-in-visual-studio.md) - Review and update
+
+### Test
+
+**Updated articles**
+
+- [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md) - Clarify target framework requirement in documentation
+- [Get started with unit testing](../test/getting-started-with-unit-testing.md) - Update Copilot info in get started with unit testing
+- [Test Execution with Hot Reload](../test/test-execution-with-hot-reload.md) - Review and update
+- [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) - Updates .NET 8 to .NET 10
+
+### Version control
+
+**Updated articles**
+
+- [Git settings and preferences in Visual Studio](../version-control/git-settings.md) - Review and update
+- [Push from Visual Studio to a remote branch](../version-control/git-push-remote.md) - Explain options for push to remote
+- [Work with multiple repos](../version-control/git-multi-repository-support.md) - Review and update
+- [Stage lines of code in Visual Studio](../version-control/git-line-staging.md) - Review and update
 
 ### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
-- [changeworld](https://github.com/changeworld) - Takashi Takebayashi ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [colejohnson66](https://github.com/colejohnson66) - Cole Tobin ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [nathlaroche](https://github.com/nathlaroche) - Nathalie Laroche ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [fuguiKz](https://github.com/fuguiKz) - kz ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
+- [marxlumon](https://github.com/marxlumon) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [MFredX](https://github.com/MFredX) - Sachin Fernando ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [PhilKang0704](https://github.com/PhilKang0704) - Phil ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [Rageking8](https://github.com/Rageking8) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [ZzZombo](https://github.com/ZzZombo) - ZzZombo ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [ran-huang](https://github.com/ran-huang) - Ran ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+
+## December 2025
+
+### Debugger
+
+**New articles**
+
+- [IDiaSymbol12::get_atomicType](../debugger/debug-interface-access/idiasymbol12-get-atomictype.md)
+- [IDiaSymbol12::get_scalableRegisterType](../debugger/debug-interface-access/idiasymbol12-get-scalableregistertype.md)
+- [IDiaSymbol12](../debugger/debug-interface-access/idiasymbol12.md)
+- [ScalableVectorType](../debugger/debug-interface-access/scalablevectortype.md)
+
+**Updated articles**
+
+- [Context Operator in the Visual Studio Debugger (C++)](../debugger/context-operator-cpp.md) - Clarify usage for C++ context operator in the debugger
+- [Debug ASP.NET Exceptions](../debugger/how-to-debug-aspnet-exceptions.md) - Clarify usage of exception settings for ASP.NET
+- [BasicType](../debugger/debug-interface-access/basictype.md) - Add new types to DIA SDK
+- [IDiaSymbol::get_length](../debugger/debug-interface-access/idiasymbol-get-length.md) - Add new types to DIA SDK
+
+### Deployment
+
+**Updated articles**
+
+- [Visual Studio Installer Projects Extension and .NET](../deployment/installer-projects-net-core.md) - Update images for Visual Studio 2026
+
+### Designers
+
+**Updated articles**
+
+- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Update for Visual Studio 2026
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Create a WPF application with C\#](../get-started/csharp/tutorial-wpf.md) - Update images for Visual Studio 2026
+- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - Update images for Visual Studio 2026
+
+### IDE
+
+**New articles**
+
+- [Configure Environment \> Visual Experience options](../ide/configure-visual-experience-options.md)
+- [Configure advanced Text Editor options](../ide/options-text-editor-advanced.md)
+- [Configure IntelliSense options for C#](../ide/options-text-editor-csharp-intellisense.md)
+
+**Updated articles**
+
+- [Use MCP servers](../ide/mcp-servers.md) - MCP Updates with new way to add MCP server using registry
+- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Update images for Visual Studio 2026
+- [What is GitHub Copilot Completions in Visual Studio?](../ide/visual-studio-github-copilot-extension.md) - Update images for Visual Studio 2026
+- [Options dialog: Text Editor \> General](../ide/reference/options-text-editor-general.md) - Update for Visual Studio 2026
+- [Options dialog box: Environment \> General](../ide/reference/general-environment-options-dialog-box.md) - Update for Visual Studio 2026
+- [Customize Visual Studio for working with projects and solutions](../ide/projects-and-solutions-options-dialog-box.md)
+  - Update for Visual Studio 2026
+  - Update UI reference articles
+- [Options, Text Editor, C/C++, Formatting](../ide/reference/options-text-editor-c-cpp-formatting.md) - Update for Visual Studio 2026
+- [Configure advanced Text Editor options](../ide/options-text-editor-advanced.md)
+  - Update for Visual Studio 2026
+  - Update UI reference articles
+- [Options dialog box: Projects and Solutions \> Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md) - Update for Visual Studio 2026
+- [Find and Replace, Environment, Options Dialog Box](../ide/reference/find-and-replace-environment-options-dialog-box.md) - Update for Visual Studio 2026
+- [Find in Files Command](../ide/reference/find-in-files-command.md) - Correct versioning in some UI ref articles
+- [Toolbox](../ide/toolbox.md) - Update UI reference articles
+- [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Update images for Visual Studio 2026
+- [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md) - Update images for Visual Studio 2026
+- [Customize language options in the Text Editor](../ide/options-text-editor-all-languages.md) - Update UI reference articles
+- [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Update images for Visual Studio 2026
+- [Tutorial: Create a Windows Forms app in Visual Studio with C\#](../ide/create-csharp-winform-visual-studio.md) - Update images for Visual Studio 2026
+
+### Install
+
+**Updated articles**
+
+- [Visual Studio out-of-support components](../install/out-of-support-components.md) - Update out-of-support components list
+- [Repair Visual Studio](../install/repair-visual-studio.md) - Update images for Visual Studio 2026
+- [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md) - Update images for Visual Studio 2026
+- [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md) - Update images for Visual Studio 2026
+
+### JavaScript
+
+**Updated articles**
+
+- [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) - Update images for Visual Studio 2026
+- [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Update images for Visual Studio 2026
+
+### MSBuild
+
+**Updated articles**
+
+- [Visual Studio integration (MSBuild)](../msbuild/visual-studio-integration-msbuild.md) - Document support for `.msbuildproj` extension
+- [Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Add some docs to cover .NET TaskHost features and limitations
+- [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md) - Add some docs to cover .NET TaskHost features and limitations
+
+### Profiling
+
+**New articles**
+
+- [Boxed boolean allocations](../profiling/performance-insights-boxed-boolean.md)
+
+### Test
+
+**Updated articles**
+
+- [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update images for Visual Studio 2026
+- [Generate and run unit tests using GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md)
+  - Clarify unit testing framework details for GitHub Copilot testing
+  - Update GitHub Copilot testing for .NET
+- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Fix placement of IncludeTestAssembly in sample `.runsettings` file
+
+### XAML tools
+
+**Updated articles**
+
+- [XAML code editor](../xaml-tools/xaml-code-editor.md) - Update for Visual Studio 2026
+
+### Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [AdmiralSnyder](https://github.com/AdmiralSnyder) - Alexander Gayko ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [DiscoPYF](https://github.com/DiscoPYF) - Pierre FARE ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 

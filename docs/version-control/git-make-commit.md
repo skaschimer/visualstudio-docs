@@ -23,7 +23,17 @@ Git tracks file changes in your repo as you work, and separates the files in you
 
 As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-changes-window.png" alt-text="Screenshot that shows the Git Changes window in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/git-changes-window.png" alt-text="The Git Changes window in Visual Studio 2022.":::
+
+:::moniker-end
 
 ## Stage changes and make a commit
 
@@ -31,7 +41,17 @@ To stage changes when you're ready, select the **+** (plus) button on each file 
 
 When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-commit-message.png" alt-text="Screenshot that shows the Git commit dialog in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio 2022.":::
+
+:::moniker-end
 
 Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
 
@@ -39,7 +59,17 @@ You can also choose not to stage your modified files by skipping the staging are
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
 
-:::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022." lightbox="media/vs-2022/git-file-version-compare.png":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-file-version-compare.png" alt-text="Screenshot that shows line-by-line comparison of file versions in Visual Studio." lightbox="media/visualstudio/git-file-version-compare.png":::
+
+:::moniker-end
 
 :::moniker range=">=vs-2022"
 
@@ -64,7 +94,7 @@ To enable this feature, open the **Tools** > **Options** dialog, expand the **En
 
 :::moniker-end
 
-:::moniker range=">=vs-2022"
+:::moniker range="visualstudio"
 
 In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
 
@@ -72,7 +102,23 @@ After a few moments, a link showing the number of code review comments appears i
 
 ![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
 
-The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the downward arrow button on the top right of the comment box.
+The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the up arrow button on the top right of the comment box.
+
+![Screenshot showing GitHub code review comment.](./media/visualstudio/git-code-review-comment.png)
+
+To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
+
+After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+
+![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
+
+The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the up arrow button on the top right of the comment box.
 
 ![Screenshot showing GitHub code review comment.](./media/vs-2022/git-code-review-comment.png)
 
@@ -84,9 +130,34 @@ To remove all comments, use the **X** in the Git Changes window to close the Cop
 
 When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset (undo) the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
-:::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
+:::moniker range="visualstudio"
 
-:::moniker range=">=vs-2022"
+:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="Screenshot that shows the Commit Details dialog in Visual Studio." lightbox="media/visualstudio/git-branch-commit-details.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022." lightbox="media/vs-2022/git-branch-commit-details.png":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## Generate commit messages with GitHub Copilot Chat
+
+With Visual Studio version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
+
+> [!NOTE]
+> To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md).
+
+![Screenshot showing AI-generated commit message.](./media/visualstudio/git-commit-message-ai.png)
+
+When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI generated commit message**) at the lower right of the commit message text box to request an AI-generated commit message. The AI-generated text is generated and added to anything you already had. Read it carefully to see if it's accurate. You have the option of accepting the insertion or discarding it. If you accept the insertion, you can then edit the text before submitting it. When you're ready, choose the **Commit Staged** button, or one of the other commit options available in the dropdown below the commit message editbox.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 ## Generate commit messages with GitHub Copilot Chat
 
@@ -105,7 +176,7 @@ When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI 
 
 You can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. To add custom prompt instructions, open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section. In the **Commit message custom instructions** box, enter your additions to the prompt text. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
 
-:::image type="content" source="./media/visualstudio/git-customize-commit-message-with-ai.png" border="false" alt-text="Screenshot that shows how to to add a custom prompt for commit message with Tools Options.":::
+:::image type="content" source="./media/visualstudio/git-customize-commit-message-with-ai.png" border="false" alt-text="Screenshot that shows how to to add a custom prompt for commit message with Tools Options." lightbox="./media/visualstudio/git-customize-commit-message-with-ai.png":::
 
 :::moniker-end
 :::moniker range="<=vs-2022"

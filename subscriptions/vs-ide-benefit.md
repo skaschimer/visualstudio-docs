@@ -3,7 +3,7 @@ title: Visual Studio IDE in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/12/2025
+ms.date: 02/09/2026
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
@@ -34,7 +34,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 1. Select **Continue** to accept the license terms.
 
-1. If you have other versions of Visual Studio installed, the installer gives you flexible options to move forward without losing your previous environment. You can migrate a previous Visual Studio 2022 configuration to copy workloads, SDKs, toolsets, and components, start a new install with the workloads and components you select, or [import your configuration](https://learn.microsoft.com/visualstudio/install/import-export-installation-configurations?view=visualstudio) from an exported `.vsconfig` file. 
+1. If you have other versions of Visual Studio installed, the installer gives you flexible options to move forward without losing your previous environment. You can migrate a previous Visual Studio configuration to copy workloads, SDKs, toolsets, and components, start a new install with the workloads and components you select, or [import your configuration](https://learn.microsoft.com/visualstudio/install/import-export-installation-configurations?view=visualstudio) from an exported `.vsconfig` file. 
 
    ![Screenshot of the Visual Studio Enterprise 2026 intall configuration.](_img/vs-ide-experience/install-visual-studio-enterprise-2026.png "Screenshot of the Install Visual Studio Enterprise 2026 window.")
 
@@ -113,7 +113,6 @@ Not sure which subscription you're using? Go to the [Your Subscriptions](https:/
 > [!IMPORTANT]
 > Visual Studio for Mac was retired on August 31, 2024 in accordance with [Microsoft’s Modern Lifecycle Policy](https://learn.microsoft.com/lifecycle/policies/modern).
 >
-> [Learn more about support timelines and alternatives](/visualstudio/mac/what-happened-to-vs-for-mac).
 
 ## Support resources
 
@@ -160,4 +159,3 @@ After you install Visual Studio, be sure to activate these important benefits:
 
 + [Azure DevOps](vs-azure-devops.md)
 + [Azure DevTest offer/credits](/azure/devtest/offer/)
-+ [Windows Developer account](vs-windows-dev.md)
