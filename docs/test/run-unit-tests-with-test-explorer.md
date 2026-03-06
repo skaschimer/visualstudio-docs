@@ -312,8 +312,9 @@ Test Explorer can play one of these sounds when a test run finishes:
 You can set up these sounds in the default Windows 11 **Sound** dialog. This feature is available starting in Visual Studio 2019 Update 16.9 Preview 3.
 
 1. Open the default Windows 11 **Sound** dialog.
-2. Go to the **Sounds** tab.
-3. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** preset sound, or browse to your own audio file.  
+1. Go to the **Sounds** tab.
+1. Select **More sound settings**.
+1. Find the **Microsoft Visual Studio** category. Choose the **Test Run Succeeded** or **Test Run Failed** preset sound, or browse to your own audio file.  
 
 ![Screenshot of the Windows 11 Sound dialog.](../test/media/default-windows-11-sound-dialog.png)
 
