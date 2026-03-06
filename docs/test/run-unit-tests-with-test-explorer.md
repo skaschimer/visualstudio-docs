@@ -123,7 +123,7 @@ You can define your own levels of the hierarchy (group by **State** and then **C
 ![Screenshot of Test Explorer that shows a test hierarchy on one pane and the Group By menu on the other pane, with the Class and State options selected.](../test/media/visualstudio/test-explorer-groupby-state-17-0.png)
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, select the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and then select a new grouping criterion.
 
 ![Screenshot that shows selections for grouping tests by category in Test Explorer.](../test/media/vs-2022/test-explorer-groupby-17-0.png)
