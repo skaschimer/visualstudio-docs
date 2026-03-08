@@ -21,7 +21,7 @@ Admins manage Visual Studio monthly subscriptions. These individuals can assign 
 
 This short video explains how Visual Studio **Cloud Subscriptions** use **Azure billing**, how to **purchase** from the Visual Studio **Marketplace**, and how admins **assign and manage** users in the **Subscriptions Admin Portal**. It also covers **adjusting quantities**, **adding admins** and configuring **permissions** in Azure, and how **subscription changes and expirations** are handled.
 
-> :::video source="https://medius.microsoft.com/Embed/video-nc/d9193ff6-5066-4801-9756-1f6e9d440c8c?r=122761128154":::
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/d9193ff6-5066-4801-9756-1f6e9d440c8c?r=122761128154]
 
 ## The Azure subscription owner is the first admin
 
