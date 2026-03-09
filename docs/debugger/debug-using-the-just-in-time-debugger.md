@@ -99,7 +99,7 @@ By default, Windows Form apps have a top-level exception handler that lets the a
 
 To enable Just-In-Time debugging instead of standard Windows Form error handling, add these settings:
 
-- In the `system.windows.forms` section of the *machine.config* or *\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
+- In the `system.windows.forms` section of the *machine.config* or *bin\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
 
     ```xml
     <configuration>
