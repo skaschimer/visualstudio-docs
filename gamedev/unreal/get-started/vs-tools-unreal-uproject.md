@@ -32,7 +32,7 @@ The following must be installed to work with Unreal Engine projects in Visual St
 
 For versions of Unreal Engine before 5.4, follow these steps to enable Unreal Engine `.uproject` integration with Visual Studio. These steps work whether you installed Unreal Engine from the Epic Games Launcher or built it from source code.
 
-1. Download the patch specific to your version of Unreal Engine from [Unreal Engine GitHub repository](https://github.com/EpicGames/UnrealEngine/tree/ue5-main/Engine/Extras/VisualStudioWorkspace). For example, `UnrealBuildTool-5.2.patch` patches Unreal Engine version 5.2.
+1. Download the patch specific to your version of Unreal Engine from the Unreal Engine source repository (`Engine/Extras/VisualStudioWorkspace`). To access the repository, see [registered GitHub account](https://www.unrealengine.com/ue-on-github). For example, `UnrealBuildTool-5.2.patch` patches Unreal Engine version 5.2.
 1. Open either a PowerShell or command prompt window and navigate to the root directory where Unreal Engine is installed. You need admin elevation to apply the patch if Unreal Engine is installed in a protected directory like `C:\Program Files\Epic Games\UE_5.3`.
 1. Apply the patch with the command `git apply <path to the downloaded patch file>`. For example: `git apply C:\Users\someuser\Downloads\UnrealBuiltTool-5.3.patch`.
   If that fails, try `git apply -v --ignore-whitespace --ignore-space-change <path to the downloaded patch file>`.
