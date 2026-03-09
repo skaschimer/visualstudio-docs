@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio settings to customize Visual Studio
 description: Explore the Visual Studio settings experience, learn how to find and filter settings, or view and edit settings in a JSON configuration file.
-ms.date: 11/6/2025
+ms.date: 2/13/2026
 ms.topic: concept-article
 helpviewer_keywords:
 - environments [Visual Studio], settings
@@ -10,6 +10,8 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: peer-review-program, awp-ai
+ai-usage: ai-assisted
 ---
 # Visual Studio settings
 
@@ -24,15 +26,15 @@ Settings are organized into categories, shown in a hierarchy tree on the left si
 Settings associated with specific workloads, optional components, or extensions don't appear in the tree unless they're installed. See [Modify Visual Studio](../install/modify-visual-studio.md) to install workloads and components. For extensions, see [Manage extensions](finding-and-using-visual-studio-extensions.md).
 
 > [!NOTE]
-> Some settings that haven't been migrated to the Visual Studio 2026 experience don't show up in their usual places where you might be used to finding them. For example, **Fonts and Colors** and **Accounts** have not been migrated in Visual Studio 2026 in the first public release. To find these settings, use the **Search feature**, or look under **More settings** (the last item under each top-level node) to see a list of links to settings that haven't been migrated. When you click on the links, the **Options** dialog box appears with the relevant setting page.
->
-> :::image type="content" alt-text="Screenshot of the Visual Studio settings experience, with More Settings highlighted, and showing the Options dialog." source="./media/visualstudio/visual-studio-settings-more-settings.png" lightbox="./media/visualstudio/visual-studio-settings-more-settings.png":::
+> Some settings that haven't been migrated to the Visual Studio 2026 experience don't show up in their usual places where you might be used to finding them. For example, **Fonts and Colors** and **Accounts** have not been migrated in Visual Studio 2026 in the first public release. To find these settings, use the **Search feature**.
 
 ## Search settings by keywords
 
-Search finds any setting that contains the keywords you enter and lets you choose the one you're looking for. To clear the search results, click on the **X**.
+Search finds any setting that contains the keywords you enter and lets you choose the one you're looking for. To clear the search results, select the **X**.
 
 Your most recent searches are remembered and offered as suggestions as you type, so you can easily repeat them.
+
+:::image type="content" alt-text="Screenshot of the search bar in Visual Studio settings." source="media/visualstudio/visual-studio-settings-search.png":::
 
 ## Filter settings
 
@@ -51,6 +53,14 @@ Most setting changes take effect immediately without requiring a save or apply a
 ## Synchronize settings
 
 Settings are normally associated with your user profile, and synchronize with other sessions of Visual Studio, if you sign in with the same profile. You must be signed in to synchronize settings. When you first install Visual Studio 2026, you have the option to import settings from a previous installation. This action imports all settings. Settings that were previously synchronized are automatically applied to the new installation. Any subsequent setting changes will synchronize to other Visual Studio 2026 sessions where you sign in with the same profile, but those settings don't synchronize back to Visual Studio 2022. For more information, see [Synchronized settings in Visual Studio](synchronized-settings-in-visual-studio.md).
+
+### Sync button
+
+Use the **Sync** button to synchronize local settings and online synchronized settings.
+
+Visual Studio associates settings on the **Settings** page with your signed-in profile and synchronizes them across installations that use the same account. After you change a setting, Visual Studio automatically applies it to other signed-in sessions, helping keep your environment consistent.
+ 
+The **Sync** button lets you manually trigger synchronization to ensure your local settings are up-to-date with the stored settings. This can be useful if you want to immediately reconcile local changes with the remote copy, but regular synchronization also happens automatically without requiring manual action.
 
 ## View or edit the JSON configuration file
 
@@ -110,10 +120,6 @@ Here's an example of the settings file:
   "languages.vbScript.scrollbars.verticalScrollBarMode": "map"
 }
 ```
-
-## Sync
-
-Use the **Sync** button to synchronize local settings and online synchronized settings.
 
 ## Related content
 

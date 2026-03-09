@@ -1,8 +1,8 @@
 ---
 title: "Tutorial 2: Extend your C# console app"
-description: Extend a C# console application in Visual Studio, including debugging features, managing multiple projects, and referencing third-party packages.
+description: In this tutorial, extend a C# console application in Visual Studio, including debugging, managing multiple projects, and referencing non-Microsoft packages.
 ms.custom: vs-acquisition
-ms.date: 10/18/2024
+ms.date: 02/11/2026
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -12,18 +12,22 @@ manager: mijacobs
 monikerRange: ">=vs-2022"
 dev_langs:
   - CSharp
+
+#customer intent: As a C# developer, I want to learn about Visual Studio features such as debugging, managing multiple projects, and referencing non-Microsoft projects.
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 
-In part 2 of this tutorial series, you dive a little deeper into the Visual Studio build and debug features you need for daily development. These features include managing multiple projects, debugging, and referencing third-party packages. You run the C# console app you created in [Part 1 of this tutorial](tutorial-console.md), and explore some features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
+In part 2 of this tutorial series, you dive deeper into the Visual Studio build and debug features that you need for daily development. These features include managing multiple projects, debugging, and referencing non-Microsoft packages.
+
+For this tutorial, you use the C# console app you created in [Part 1 of this tutorial](tutorial-console.md) to explore features of the Visual Studio integrated development environment (IDE). This tutorial is part 2 of a two-part tutorial series.
 
 In this tutorial, you complete the following tasks:
 
 > [!div class="checklist"]
-> * Add a second project.
-> * Reference libraries and add packages.
-> * Debug your code.
-> * Inspect your completed code.
+> - Add a second project.
+> - Reference libraries and add packages.
+> - Debug your code.
+> - Inspect your completed code.
 
 ## Prerequisites
 
@@ -36,40 +40,40 @@ To work through this article, you can use either of these calculator apps:
 
 Real-world code involves projects working together in a solution. You can add a class library project to your calculator app that provides some calculator functions.
 
-In Visual Studio, you use the menu command **File** > **Add** > **New Project** to add a new project. You can also right-click on the solution in **Solution Explorer** to add a project from the context menu.
+In Visual Studio, use the menu command **File** > **Add** > **New Project** to add a new project. You can also right-click on the solution in **Solution Explorer** to add a project from the context menu.
 
 ::: moniker range=">=vs-2022"
 1. In **Solution Explorer**, right-click the solution node and choose **Add** > **New Project**.
 
-1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class library** project template, and then select **Next**.
+1. In the **Add a new project** window, type *class library* in the Search box. Choose the C# **Class Library** project template, and then select **Next**.
 
-   ![Screenshot of Class Library project template selection.](media/vs-2022/calculator-add-project.png)
+   :::image type="content" source="media/vs-2022/calculator-add-project.png" alt-text="Screenshot of Class Library project template selection.":::
 
-1. On the **Configure your new project** screen, type the project name *CalculatorLibrary*, and then select **Next**.
+1. On the **Configure your new project** screen, enter the project name *CalculatorLibrary*, and then select **Next**.
    
-1. On the **Additional information** screen, **.NET 8.0** is selected. Select **Create**.
+1. On the **Additional information** screen, select **.NET 10.0**, then select **Create**.
    
    Visual Studio creates the new project and adds it to the solution.
    
-   ![Screenshot of Solution Explorer with the CalculatorLibrary class library project added.](media/vs-2022/calculator-solution-explorer-with-class-library.png)
+   :::image type="content" source="media/vs-2022/calculator-solution-explorer-with-class-library.png" alt-text="Screenshot of Solution Explorer with the CalculatorLibrary class library project added.":::
 
-1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and select again to type.
+1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name, and press **F2**, or select the name and select again to type.
 
-   A message might ask whether you want to rename all references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
+   A message might ask whether you want to rename all references to `Class1` in the file. It doesn't matter how you answer, because you replace the code in a future step.
 
-1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
+1. Add a project reference, which allows the first project to use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
 
-   ![Screenshot of the Add Project Reference menu item.](media/vs-2022/calculator-add-project-reference.png)
+   :::image type="content" source="media/vs-2022/calculator-add-project-reference.png" alt-text="Screenshot of the Add Project Reference menu item.":::
 
    The **Reference Manager** dialog box appears. In this dialog box, you can add references to other projects, assemblies, and COM DLLs that your projects need.
 
-1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and then select **OK**.
+1. In the **Reference Manager** dialog box, select the checkbox for **CalculatorLibrary**, and then select **OK**.
 
-   ![Screenshot of the Reference Manager dialog box.](media/vs-2022/calculator-reference-manager.png)
+   :::image type="content" source="media/vs-2022/calculator-reference-manager.png" alt-text="Screenshot of the Reference Manager dialog box.":::
 
    The project reference appears under a **Projects** node in **Solution Explorer**.
 
-   ![Screenshot of Solution Explorer with project reference.](media/vs-2022/calculator-solution-explorer-with-project-reference.png)
+   :::image type="content" source="media/vs-2022/calculator-solution-explorer-with-project-reference.png" alt-text="Screenshot of Solution Explorer with project reference.":::
 
 1. In *Program.cs*, select the `Calculator` class and all its code, and press **Ctrl**+**X** to cut it. Then, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace.
    
@@ -138,9 +142,8 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 ## Reference .NET libraries: Write to a log
 
-
 ::: moniker range=">=vs-2022"
-You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
+You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`. It uses `System.IO` classes like `StreamWriter`.
 
 1. Start by adding the `using` directives at the top of *CalculatorLibrary.cs*:
 
@@ -149,7 +152,7 @@ You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log o
    using System.Diagnostics;
    ```
 
-1. This usage of the `Trace` class must hold onto a reference for the class, which it associates with a filestream. That requirement means the calculator works better as an object, so add a constructor at the beginning of the `Calculator` class in *CalculatorLibrary.cs*.
+1. This usage of the `Trace` class must hold onto a reference for the class, which it associates with a filestream. That requirement means the calculator works better as an object. Add a constructor at the beginning of the `Calculator` class in *CalculatorLibrary.cs*.
 
    Also remove the `static` keyword to change the static `DoOperation` method into a member method.
 
@@ -392,17 +395,15 @@ To output operations in JSON, a popular and portable format for storing object d
 1. In **Solution Explorer**, right-click the **Dependencies** node for the **CalculatorLibrary** project, and choose **Manage NuGet Packages**.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of Manage NuGet Packages on the shortcut menu.](media/vs-2022/calculator-manage-nuget-packages.png)
+   :::image type="content" source="media/vs-2022/calculator-manage-nuget-packages.png" alt-text="Screenshot of Manage NuGet Packages on the shortcut menu.":::
    ::: moniker-end
 
    The NuGet Package Manager opens.
 
-
 1. Search for and select the *Newtonsoft.Json* package, and select **Install**.
 
-
    ::: moniker range=">=vs-2022"
-   ![Screenshot of Newtonsoft J SON NuGet package information in the NuGet Package Manager.](media/vs-2022/calculator-nuget-newtonsoft-json.png)
+   :::image type="content" source="media/vs-2022/calculator-nuget-newtonsoft-json.png" alt-text="Screenshot of Newtonsoft JSON NuGet package information in the NuGet Package Manager.":::
 
    If you're prompted whether to accept changes, select **OK**.
    
@@ -482,7 +483,7 @@ To output operations in JSON, a popular and portable format for storing object d
         }
    ```
 
-1. Add a method to finish the JSON syntax once the user is done entering operation data.
+1. Add a method to finish the JSON syntax after the user is done entering operation data.
 
    ```csharp
     // CalculatorLibrary.cs
@@ -504,7 +505,7 @@ To output operations in JSON, a popular and portable format for storing object d
         }
    ```
 
-1. Build and run the app, and after you're done entering a few operations, close the app by entering the *n* command.
+1. Build and run the app. After you do a few operations, close the app by entering the *n* command.
    
 1. Open the *calculatorlog.json* file in File Explorer. You should see something like the following content:
 
@@ -529,18 +530,20 @@ To output operations in JSON, a popular and portable format for storing object d
 
 ## Debug: Set and hit a breakpoint
 
-The Visual Studio debugger is a powerful tool. The debugger can step through your code to find the exact point where there's a programming mistake. You can then understand what corrections you need to make, and make temporary changes so you can continue running your app.
+The Visual Studio debugger is a powerful tool. The debugger can step through your code to find the point where there's a programming mistake. You can then understand what corrections you need to make, and make temporary changes so you can continue running your app.
 
-1. In *Program.cs*, click in the gutter to the left of the following code line. You can also click in the line and select **F9**, or right-click the line and select **Breakpoint** > **Insert Breakpoint**.
+1. In *Program.cs*, in the gutter to the left, select the following code line.
 
    ```csharp
    // Program.cs
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
    ```
 
+   You can also select in the line and select **F9**, or right-click the line and select **Breakpoint** > **Insert Breakpoint**.
+
    The red dot that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code. You can set a breakpoint on any executable line of code.
 
-   ![Screenshot that shows setting a breakpoint.](media/vs-2019/calculator-2-debug-set-breakpoint.png)
+   :::image type="content" source="media/vs-2019/calculator-2-debug-set-breakpoint.png" alt-text="Screenshot that shows setting a breakpoint.":::
 
 1. Build and run the app. Enter the following values for the calculation:
 
@@ -548,9 +551,9 @@ The Visual Studio debugger is a powerful tool. The debugger can step through you
    - For the second number, enter *0*.
    - For the operator, let's have some fun. Enter *d*.
 
-   The app suspends where you created the breakpoint, which is indicated by the yellow pointer on the left and the highlighted code. The highlighted code hasn't yet executed.
+   The app suspends where you created the breakpoint. The yellow pointer on the left and the highlighted code indicate the suspended line. The highlighted code hasn't yet run.
 
-   ![Screenshot of hitting a breakpoint](media/vs-2019/calculator-2-debug-hit-breakpoint.png)
+   :::image type="content" source="media/vs-2019/calculator-2-debug-hit-breakpoint.png" alt-text="Screenshot that shows hitting a breakpoint.":::
 
    Now, with the app suspended, you can inspect your application state.
 
@@ -558,40 +561,40 @@ The Visual Studio debugger is a powerful tool. The debugger can step through you
 
 1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. The current values for these variables, `8` and `d` respectively, appear in DataTips.
 
-   ![Screenshot that shows viewing a DataTip.](media/vs-2019/calculator-2-debug-view-datatip.png)
+   :::image type="content" source="media/vs-2019/calculator-2-debug-view-datatip.png" alt-text="Screenshot that shows viewing a DataTip.":::
 
-   When debugging, checking to see whether variables hold the values you expect is often critical to fixing issues.
+   When you debug code, checking to see whether variables hold the values you expect is often critical to fixing issues.
 
-2. In the lower pane, look at the **Locals** window. If it's closed, select **Debug** > **Windows** > **Locals** to open it.
+1. In the lower pane, look at the **Locals** window. If it's closed, select **Debug** > **Windows** > **Locals** to open it.
 
    The **Locals** window shows each variable that's currently in scope, along with its value and type.
 
    ::: moniker range=">=vs-2022"
-   ![Screenshot of the Locals window.](media/vs-2022/calculator-debug-locals-window.png)
+   :::image type="content" source="media/vs-2022/calculator-debug-locals-window.png" alt-text="Screenshot of the Locals window.":::
    ::: moniker-end
 
-3. Look at the **Autos** window.
+1. Look at the **Autos** window.
 
    The Autos window is similar to the **Locals** window, but shows the variables immediately preceding and following the current line of code where your app is paused.
    
    > [!NOTE] 
    > If you don't see the Autos window, select **Debug** > **Windows** > **Autos** to open it.
 
-Next, execute code in the debugger one statement at a time, which is called *stepping*.
+Next, run code in the debugger one statement at a time, which is called *stepping*.
 
 ## Debug: Step through code
 
 1. Press **F11**, or select **Debug** > **Step Into**.
 
-   Using the Step Into command, the app executes the current statement and advances to the next executable statement, usually the next line of code. The yellow pointer on the left always indicates the current statement.
+   By using the Step Into command, the app executes the current statement and advances to the next executable statement, usually the next line of code. The yellow pointer on the left always indicates the current statement.
 
-   ![Screenshot of step into command](media/vs-2019/calculator-2-debug-step-into.png)
+   :::image type="content" source="media/vs-2019/calculator-2-debug-step-into.png" alt-text="Screenshot of the step into command.":::
 
    You just stepped into the `DoOperation` method in the `Calculator` class.
 
 1. To get a hierarchical look at your program flow, look at the **Call Stack** window. If it's closed, select **Debug** > **Windows** > **Call Stack** to open it.
 
-   ![Screenshot of the call stack](media/vs-2019/calculator-2-debug-call-stack.png)
+   :::image type="content" source="media/vs-2019/calculator-2-debug-call-stack.png" alt-text="Screenshot of the call stack window.":::
 
    This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer. The second row shows the function that called the method, from the `Main` method in *Program.cs*.
    
@@ -605,7 +608,7 @@ Next, execute code in the debugger one statement at a time, which is called *ste
    {
    ```
 
-   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the function, and doesn't suspend execution until the function returns. Step Over is faster than Step Into if you're not interested in a particular function.
+   The Step Over command is similar to the Step Into command. For the Step Over command, if the current statement calls a function, the debugger runs the code in the function. It doesn't suspend execution until the function returns. Step Over is faster than Step Into if you're not interested in a particular function.
 
 1. Press **F10** one more time, so that the app pauses on the following line of code.
 
@@ -817,15 +820,15 @@ namespace CalculatorProgram
 
 :::moniker-end
 
-## Next steps
+## Related content
 
 Congratulations on completing this tutorial! To learn more, continue with the following content:
 
 - [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
-- [Quickstart: Create an ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
+- [Get started with C# and ASP.NET Core in Visual Studio](../../ide/quickstart-aspnet-core.md)
 - [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
-- [Walk through how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
-- [Run a C# program](run-program.md)
+- [Create and run unit tests for .NET](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Run a C# program or app in Visual Studio](run-program.md)
 - [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md)
 - [Continue with the Visual Studio IDE overview](visual-studio-ide.md)
-- [Logging and tracing](/dotnet/core/diagnostics/logging-tracing)
+- [Learn about .NET logging and tracing](/dotnet/core/diagnostics/logging-tracing)

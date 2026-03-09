@@ -37,7 +37,7 @@ The **Visual Experience** section provides the following general configuration o
 
 **Color theme**
 
-Change the color theme between Dark, Light, and other colors, or select **Use system setting** to use the current Windows theme. Visual Studio 2026 introduces new color themes, including Cool Breeze, Spicy Red, Bubblegum, and more. 
+Change the color theme between Dark, Light, and other colors, or select **Use system setting** to use the current Windows theme. Visual Studio includes color themes such as Cool Breeze, Spicy Red, Bubblegum, and more. For a visual preview of all available themes, see [Visual Studio color themes](visual-studio-color-themes.md). 
 
 You can download and install predefined themes and custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs), such as:
 

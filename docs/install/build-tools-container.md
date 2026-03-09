@@ -47,8 +47,53 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
 1. Save the following content to C:\BuildTools\Dockerfile.
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ```dockerfile
+   # escape=`
+
+   # Use the latest .NET Framework runtime image.
+   FROM mcr.microsoft.com/dotnet/framework/runtime:4.8.1-windowsservercore-ltsc2025
+
+   # Restore the default Windows shell for correct batch processing.
+   SHELL ["cmd", "/S", "/C"]
+
+   RUN `
+       # Download the Build Tools bootstrapper.
+       curl -SL --output vs_buildtools.exe https://aka.ms/vs/stable/vs_buildtools.exe `
+       `
+       # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
+       && (start /w vs_buildtools.exe --quiet --wait --norestart --nocache `
+           --installPath "%ProgramFiles(x86)%\Microsoft Visual Studio\BuildTools" `
+           --add Microsoft.VisualStudio.Workload.AzureBuildTools `
+           --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
+           --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
+           --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
+           --remove Microsoft.VisualStudio.Component.Windows81SDK `
+           || IF "%ERRORLEVEL%"=="3010" EXIT 0) `
+       `
+       # Cleanup
+       && del /q vs_buildtools.exe
+
+   # Define the entry point for the docker container.
+   # This entry point starts the developer command prompt and launches the PowerShell shell.
+   ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
+   ```
+
+   > [!TIP]
+   > To target 64-bit, specify the `-arch=amd64` option in the `ENTRYPOINT` command to start the [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md#developer-command-prompt) (`VSDevCmd.bat`).
+   >
+   > For example:
+   > `ENTRYPOINT ["C:\\Program Files (x86)\\Microsoft Visual Studio\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "-arch=amd64", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`
+
+   > [!WARNING]
+   > If you base your image directly on *microsoft/windowsservercore*, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on *microsoft/dotnet-framework:4.8* or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which causes the `RUN` and `ENTRYPOINT` instructions to fail.
+   >
+   > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ```dockerfile
    # escape=`
@@ -93,6 +138,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > To learn which container OS versions are supported on which host OS versions, see [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility). Check [Troubleshooting Windows and Build Tools containers](#troubleshooting-windows-and-build-tools-containers) for known issues.
 
    ::: moniker-end
+   
    > [!NOTE]
    > Error code `3010` is used to indicate success with a reboot required. For more information, see [MsiExec.exe error messages](/windows/win32/msi/error-codes).
 
