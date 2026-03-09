@@ -1,7 +1,7 @@
 ---
 title: Debug Unit Tests with Test Explorer
 description: Debug and analyze unit tests via Test Explorer in Visual Studio by setting breakpoints to diagnose performance problems with a test method.
-ms.date: 10/17/2025
+ms.date: 03/09/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: mikejo5000
@@ -9,6 +9,8 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: awp-ai
+ai-usage: ai-assisted
 ---
 # Debug and analyze unit tests by using Test Explorer
 
@@ -41,6 +43,22 @@ To diagnose why a test method is taking more time than you'd like, or using more
 1. In the Performance Profiler, select a profiling tool to test your code.
 
 For more information, see [this blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data on release builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-on-release-builds).
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+### Profile a test with Copilot
+
+Starting in Visual Studio 2026 version 18.4, Test Explorer adds a **Profile with Copilot** command that helps you profile a specific test with one click.
+
+To profile a test with Copilot:
+
+1. In Test Explorer, right-click the test method.
+1. Select **Profile with Copilot**.
+
+When you select this command, the profiling agent runs the selected test and analyzes performance data to provide actionable suggestions. By default, the command uses **Instrumentation** profiling and currently supports .NET tests.
+
+If you need deeper analysis, launch the selected test from Copilot chat and choose a different profiling tool.
 ::: moniker-end
 
 
