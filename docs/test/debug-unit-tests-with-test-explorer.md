@@ -29,7 +29,6 @@ To start debugging:
    ![Screenshot that shows test execution details.](../test/media/vs-2022/test-explorer-debug.png)
    ::: moniker-end
 
-
 For more information about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 ## Diagnose performance problems with a test method
@@ -45,7 +44,7 @@ To diagnose why a test method is taking more time than you'd like, or using more
 For more information, see [this blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data on release builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-on-release-builds).
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
 ### Profile a test with Copilot
 
@@ -60,7 +59,6 @@ When you select this command, the profiling agent runs the selected test and ana
 
 If you need deeper analysis, launch the selected test from Copilot chat and choose a different profiling tool.
 ::: moniker-end
-
 
 ::: moniker range=">=vs-2022"
 
