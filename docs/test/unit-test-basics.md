@@ -35,7 +35,11 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this article. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of the MyBank solution.](../test/media/visualstudio/basics-mybank-solution.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![MyBank Solution 2022](../test/media/vs-2022/basics-mybank-solution.png)
 ::: moniker-end
 
@@ -217,7 +221,11 @@ public void My_Test ()
 
 When you build the test project, the tests appear in **Test Explorer**. If **Test Explorer** is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows Test Explorer.](../test/media/visualstudio/basics-test-explorer.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Unit Test Explorer](../test/media/vs-2022/basics-test-explorer.png)
 ::: moniker-end
 
@@ -229,7 +237,11 @@ You can also filter the tests in any view by matching text in the search box at 
 
 The **Test Explorer** toolbar helps you discover, organize, and run the tests that you are interested in.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Diagram that describes the items on the Test Explorer tooblbar.](../test/media/visualstudio/test-explorer-toolbar-diagram-17-0.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png)
 ::: moniker-end
 
@@ -245,7 +257,11 @@ To run your unit tests after each local build, open the settings icon in the Tes
 
 When you have a large number of tests, you can type in the **Test Explorer** search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the search filter categories.](../test/media/visualstudio/test-explorer-search-filter-17-0.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Search filter categories](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
 
@@ -302,7 +318,13 @@ To run code coverage for test methods in a solution, choose **Test** > **Analyze
 
 Coverage results appear in the **Code Coverage Results** window.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+[ ![Screenshot of the Code Coverage Results window.](../test/media/visualstudio/ute-code-coverage-results.png) ](../test/media/visualstudio/ute-code-coverage-results.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Code coverage results](../test/media/vs-2022/ute-code-coverage-results.png)
 ::: moniker-end
 
@@ -324,9 +346,23 @@ Learn more about [isolating unit test methods with Microsoft Fakes](../test/isol
 
 **Q: Can I use other unit test frameworks to create unit tests?**
 
-**A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md). After you restart Visual Studio, reopen your solution to create your unit tests, and then select your installed frameworks here:
 
+
+:::moniker range="visualstudio"
+
+**A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md). After you restart Visual Studio, when you add a new item to the test project, you'll see the installed frameworks: 
+    
+![Screenshot of the Add New Item window.](../test/media/visualstudio/create-unit-tests-dialog-extensions.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+**A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md). After you restart Visual Studio, reopen your solution to create your unit tests, and then select your installed frameworks here:  
+  
 ![Select other installed unit test framework](../test/media/createunittestsdialogextensions.png)
+
+:::moniker-end
 
 Your unit test stubs will be created using the selected framework.
 
