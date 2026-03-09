@@ -1,7 +1,7 @@
 ---
 title: Save and open files with encoding
 description: Learn how to save and open files with specific encoding in Visual Studio, and ensure files open correctly in subsequent use.
-ms.date: 11/14/2025
+ms.date: 3/06/2026
 ms.topic: how-to
 f1_keywords:
 - vs.advancedsaveoptions
