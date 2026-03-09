@@ -78,7 +78,11 @@ You can use a **Watch** window to specify a variable (or an expression) that you
 
 While debugging, right-click an object in the code editor and choose **Add Watch**. A Watch window opens.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the Watch window.](../debugger/media/visualstudio/debug-tour-watch-window.png "Watch window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
 ::: moniker-end
 
@@ -163,7 +167,11 @@ You can search for keywords in the Name, Value, and Type columns of the **Autos*
 
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows a search in the Locals window.](../debugger/media/visualstudio/search-locals.png "Search in Locals Window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of Search in Locals Window.](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
 ::: moniker-end
 
@@ -193,7 +201,11 @@ To enable the **Debug Location** toolbar, click in an empty part of the toolbar 
 
 Set a breakpoint and start debugging. When the breakpoint is hit, execution pauses and you can see the location in the **Debug Location** toolbar.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of the Debug Location toolbar.](../debugger/media/visualstudio/debug-location-toolbar.png "Debug Location toolbar")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of Debug Location toolbar.](../debugger/media/vs-2022/debug-location-toolbar.png "Debug Location toolbar")
 ::: moniker-end
 
@@ -217,7 +229,11 @@ Different code languages display different variables in the **Autos** window.
 
    Set a breakpoint on the line `c = 3;`, and start the debugger. When execution pauses, the **Autos** window will display:
 
-   ::: moniker range=">= vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/visualstudio/autos-csharp.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/vs-2022/autos-csharp.png)
    ::: moniker-end
 
@@ -240,7 +256,11 @@ Different code languages display different variables in the **Autos** window.
 
     Set a breakpoint on the line `e = 5;` and run the debugger. When execution stops, the **Autos** window will display:
 
-    ::: moniker range=">= vs-2022"
+    ::: moniker range="visualstudio"
+    ![Screenshot of the Autos window. The int c has a value of 3.](../debugger/media/visualstudio/autos-c-plus-plus.png)
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
     ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/vs-2022/autos-cplus.png)
     ::: moniker-end
 
@@ -298,7 +318,11 @@ The visualizers appear in the **Autos** windows, data tips, and other debugger w
 
 To open a visualizer, you must be paused during debugging. Hover over a variable that has a supported visualizer value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png).
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows how to open a text visualizer.](../debugger/media/visualstudio/debug-tips-string-visualizers.png "Open string visualizer")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Open a string visualizer](../debugger/media/vs-2022/debug-tips-string-visualizers.png "Open string visualizer")
 ::: moniker-end
 
