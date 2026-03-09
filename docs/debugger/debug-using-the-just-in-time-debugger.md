@@ -178,6 +178,9 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
 
    Under **Available Debuggers**, select **New instance of \<your preferred Visual Studio version/edition>**, if not already selected.
 
+   >[!NOTE]
+   > If you don't see the Just-in-Time Debugger dialog box, you might need to add registry keys. See [Just-In-Time debugging fails to start](#troubleshoot-just-in-time-debugging)
+
 1. Select **OK**.
 
    The ThrowsNullException project opens in a new instance of Visual Studio, with execution stopped at the line that threw the exception:
@@ -199,9 +202,9 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it's en
 
   The fix is to add a **DWORD Value** of **Auto**, with **Value data** of **1**, to the following registry keys:
 
-  - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (.NET) **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
-  - (For 32-bit apps on 64-bit machines) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (.NET Framework) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
 - Windows Error Reporting could be taking over the error handling on your computer.
 
