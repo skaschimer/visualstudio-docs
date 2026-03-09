@@ -41,7 +41,7 @@ If your subscription isn't visible:
 
 + **Subscriptions acquired through programs**: If you get a subscription through a program, the subscription is tied to your participation in the program. For information about renewals, reach out to your program contacts. Common programs include:
 
-  + [Azure Dev Tools for Teaching](/azure/education-hub/azure-dev-tools-teaching/program-faq#azure-dev-tools-for-teaching)
+  + [Azure Dev Tools for Teaching](/azure/education-hub/azure-dev-tools-teaching/about-program)
   + [Microsoft AI Cloud Partner Program](https://partner.microsoft.com)
   + [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
