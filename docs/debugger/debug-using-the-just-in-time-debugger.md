@@ -1,7 +1,7 @@
 ---
 title: Debug using the Just-In-Time Debugger
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app returns errors or crashes.
-ms.date: 1/16/2026
+ms.date: 3/9/2026
 ms.topic: how-to
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.JIT"
@@ -127,8 +127,15 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
 
 1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md).
 
-1. When the project opens in Visual Studio, open the *Program.cs* file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:
+1. When the project opens in Visual Studio, open the *Program.cs* file. Replace any default code, including the Main() method, if present, with the following code. The following code prints a line to the console and then throws a NullReferenceException:
 
+:::moniker range="visualstudio"
+   ```csharp
+   Console.WriteLine("we will now throw a NullReferenceException");
+   throw new NullReferenceException("this is the exception thrown by the console app");
+   ```
+::: moniker-end
+:::moniker range="<=vs-2022"
    ```csharp
    static void Main(string[] args)
    {
@@ -136,6 +143,7 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
        throw new NullReferenceException("this is the exception thrown by the console app");
    }
    ```
+::: moniker-end
 
 1. To build the solution, choose either the **Debug** (default) or **Release** configuration, and then select **Build** > **Rebuild Solution**.
 
@@ -158,7 +166,7 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
 
    For more information about build configurations, see [Understanding build configurations](../ide/understanding-build-configurations.md).
 
-1. Open the built app *ThrowsNullException.exe* in your C# project folder (*...\ThrowsNullException\ThrowsNullException\bin\Debug* or *...\ThrowsNullException\ThrowsNullException\bin\Release*).
+1. Open the built app *ThrowsNullException.exe* in your C# project folder (*...\ThrowsNullException\ThrowsNullException\bin\Debug* or *...\ThrowsNullException\ThrowsNullException\bin\Release*), or run the executable from a command line.
 
    You should see the following command window:
 
