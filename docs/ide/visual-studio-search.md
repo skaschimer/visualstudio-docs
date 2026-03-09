@@ -12,7 +12,6 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.QuickLaunch
 - IDE navigator
-monikerRange: ">=vs-2022"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -40,8 +39,6 @@ For example, suppose you searched for "prettify file" in Feature Search. That do
 
 :::image type="content" source="./media/vs-2022/feature-search-ask-copilot-prettify.png" lightbox="./media/vs-2022/feature-search-ask-copilot-prettify.png" alt-text="Screenshot showing the Ask Copilot button in All-In-One Search.":::
 
-:::moniker range="visualstudio"
-
 ### Did You Mean code search suggestions (preview)
 
 Ever forget the name of a file while coding? The **Did You Mean** feature in Visual Studio, powered by Copilot, helps you find files even when you can't remember their exact names. When you search using All-In-One Search and Copilot detects a better match than the top result—perhaps because of a typo or a fuzzy memory—it suggests what you might have meant.
@@ -56,18 +53,12 @@ When you type a search term, Copilot analyzes your input and suggests a more rel
 
 **Did You Mean** speeds up your search experience by reducing the time spent correcting typos or trying to remember the correct name—making your search experience easier and more intuitive.
 
-#### Availability and limitations
-
-**Did You Mean (preview)** is available in Visual Studio 2022 version 18.0 and later and is automatically enabled for all applicable users. Currently, this feature works with public GitHub repositories, and we're actively working to expand its reach in future updates.
-
 #### Enable or disable Did You Mean
 
 To control this feature:
 
 1. In Visual Studio, go to **Tools** > **Options** > **GitHub** > **Copilot** > **Search**.
 1. Select or clear **Enable 'Did You Mean' Code Search Support in All-In-One Search (preview)**.
-
-:::moniker-end
 
 ### Recently navigated files
 
