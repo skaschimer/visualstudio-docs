@@ -89,7 +89,13 @@ Just-In-Time debugging might still be enabled even if Visual Studio is no longer
 
 By default, Windows Form apps have a top-level exception handler that lets the app keep running if it can recover. If a Windows Forms app throws an unhandled exception, it shows the following dialog:
 
+:::moniker range="visualstudio"
+![Screenshot that shows a Windows Form unhandled exception.](../debugger/media/visualstudio/windows-forms-unhandled-exception.png "Windows Form unhandled exception")
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Windows Form unhandled exception](../debugger/media/windowsformsunhandledexception.png "Windows Form unhandled exception")
+:::moniker-end
 
 To enable Just-In-Time debugging instead of standard Windows Form error handling, add these settings:
 
