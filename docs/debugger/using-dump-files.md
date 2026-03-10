@@ -80,7 +80,6 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
   
    - To set symbol loading locations, select **Set symbol paths**.
    - To start debugging, select **Debug with Managed Only**, **Debug with Mixed**, **Debug with Native Only**.
-   - To analyze managed memory, select **Debug Managed Memory** and see [Managed type reports](../profiling/memory-usage-without-debugging2.md#managed-types-reports).
    - To run a memory analyzer on the dump, select **Run Diagnostic Analysis** and see [Debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md).
 
 ::: moniker-end
