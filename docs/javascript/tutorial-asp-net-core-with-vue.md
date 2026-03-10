@@ -64,7 +64,13 @@ Make sure to install the following:
 
 1. In Solution Explorer, right-click the **VueWithASP.Server** and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties.":::
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties. ":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties. ":::
+   :::moniker-end
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
@@ -89,7 +95,13 @@ Press **F5** or select the **Start** button at the top of the window to start th
 
 The Vue app appears and is populated via the API (the localhost port may vary from the screenshot). 
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+:::moniker-end
 
 If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
@@ -195,7 +207,13 @@ If you create the project with [Docker support](../containers/overview.md#prereq
 
 1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/view-and-diagnose-containers.md) in Visual Studio. Check the **Environment** or **Ports** tab.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+   :::moniker-end
 
 1. Open the `vite.config.js` file for the Vue project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
 
