@@ -137,10 +137,13 @@ The **Autos** and **Locals** windows show variable values while you're debugging
 
 Expandable arrays and objects show up in the **Autos** and **Locals** windows. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
 
-::: moniker range=">= vs-2022"
-![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/vs-2022/locals-filestream.png)
+::: moniker range="visualstudio"
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/visualstudio/locals-filestream.png)
 ::: moniker-end
 
+::: moniker range="vs-2022"
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/vs-2022/locals-filestream.png)
+::: moniker-end
 
 A red value in the **Locals** or **Autos** window means the value has changed since the last evaluation. The change could be from a previous debugging session, or because you have changed the value in the window.
 
@@ -189,7 +192,13 @@ You can quickly inspect objects by their properties in the Autos and Locals wind
 
 You can also toggle property names and filter out non-pinned properties when viewing the object's property list in the Autos or Locals windows. You can access each option by selecting the buttons in the toolbar above the Autos or Locals windows.
 
+:::moniker range="visualstudio"
+![Screenshot of Filter favorite properties.](../debugger/media/visualstudio/filter-pinned-properties-locals.png "Filter favorite properties")
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Screenshot of Filter favorite properties.](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
+:::moniker-end
 
 ![Screenshot of Toggle property names.](../debugger/media/toggle-property-names.gif "Toggle property names")
 
@@ -316,13 +325,17 @@ The visualizers appear in the **Autos** windows, data tips, and other debugger w
 > [!NOTE]
 > If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).
 
-To open a visualizer, you must be paused during debugging. Hover over a variable that has a supported visualizer value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png).
+
 
 ::: moniker range="visualstudio"
+To open a visualizer, you must be paused during debugging. In the Autos window, select the magnifying glass icon ![VisualizerIcon](../debugger/media/visualstudio/visualizer-icon.png).
+
 ![Screenshot that shows how to open a text visualizer.](../debugger/media/visualstudio/debug-tips-string-visualizers.png "Open string visualizer")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
+To open a visualizer, you must be paused during debugging. Hover over a variable that has a supported visualizer value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png).
+
 ![Open a string visualizer](../debugger/media/vs-2022/debug-tips-string-visualizers.png "Open string visualizer")
 ::: moniker-end
 
