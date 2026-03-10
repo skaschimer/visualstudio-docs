@@ -140,13 +140,13 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Find dialog boxes, menu commands, options, and more**. In the search box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter **new project**:
 
-      :::moniker range="visualstudio"
-      ![Screenshot that shows search results for 'new project'.](../ide/media/visualstudio/productivity-quick-launch-new-project.png)
-      :::moniker-end
+   :::moniker range="visualstudio"
+   ![Screenshot that shows search results for 'new project'.](../ide/media/visualstudio/productivity-quick-launch-new-project.png)
+   :::moniker-end
 
-      :::moniker range="vs-2022"
-      ![Screenshot that shows search results for 'new project'.](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
-      :::moniker-end
+   :::moniker range="vs-2022"
+   ![Screenshot that shows search results for 'new project'.](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
+   :::moniker-end
 
    Press **Ctrl**+**Q** to jump straight to the search box.
 
