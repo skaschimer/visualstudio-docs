@@ -65,7 +65,7 @@ Write code more quickly by using the following features.
 - **[Paste JSON or XML as classes](../ide/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
 
 ::: moniker range=">=visualstudio"
-- **Adaptive paste**. If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), Copilot analyzes where you paste code and suggests code changes that fits your file. For example, you can use it to fill in a missing interface or abstract members, apply consistent styling and formatting, fix small mistakes, translate between human or programming languages, or to continue a pattern or fill in blanks.
+- **Adaptive paste**. If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), Copilot analyzes where you paste code and suggests code changes that fit your file. For example, you can use it to fill in a missing interface or abstract members, apply consistent styling and formatting, fix small mistakes, translate between human or programming languages, or to continue a pattern or fill in blanks.
 ::: moniker-end
 
 - **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the light bulb ![Light bulb icon](media/light-bulb-icon.png) or screwdriver ![Screwdriver icon](media/screwdriver-icon.png) icons, or by pressing **Alt**+**Enter** or **Ctrl**+**.** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.
