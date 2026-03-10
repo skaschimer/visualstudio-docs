@@ -38,7 +38,13 @@ Make sure to install the following:
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot showing the Create a new project option.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+   :::moniker-end
 
 1. Search for Vue in the search bar at the top and then select **Vue and ASP.NET Core** with either JavaScript or TypeScript as the selected language.
 
