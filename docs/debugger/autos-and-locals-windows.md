@@ -119,7 +119,13 @@ While you're paused in the debugger, you can hover over individual clauses or se
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while hovering over the LINQ query. Select the **GitHub Copilot** icon at the end of the DataTip to analyze the query with Copilot. Copilot then explains the syntax of the LINQ query and clarifies why you're getting the specified result.
 ::: moniker-end
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the code editor or in the Autos or Locals windows. While you're debugging, right-click on a variable and use the **Analyze with Copilot** ![Screenshot of Analyze with Copilot button.](../debugger/media/visualstudio/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+
+::: moniker range="vs-2022"
 ## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the code editor or in the Autos or Locals windows. While you're debugging, right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
