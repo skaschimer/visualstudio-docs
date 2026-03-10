@@ -146,7 +146,7 @@ Search for a PowerShell script file named *Launch-VsDevShell.ps1*, or go to the 
 For Visual Studio 2022:
 
 ```powershell
-& 'C:\Program Files\Microsoft Visual Studio\18\Community\Common7\Tools\Launch-VsDevShell.ps1'
+& 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1'
 ```
 
 ::: moniker-end
