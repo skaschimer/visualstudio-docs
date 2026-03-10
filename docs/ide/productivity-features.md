@@ -145,7 +145,7 @@ You can search across the IDE for commands, files, and options, in addition to f
       :::moniker-end
 
       :::moniker range="vs-2022"
-      ![Search results for 'new project'](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
+      ![Screenshot that shows search results for 'new project'.](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
       :::moniker-end
 
    Press **Ctrl**+**Q** to jump straight to the search box.
