@@ -52,7 +52,13 @@ Make sure to install the following:
 
    Solution Explorer shows the following project information:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-with-vue-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
+   :::moniker-end
 
    Compared to the [standalone Vue template](../javascript/tutorial-create-vue-app.md), you see some new and modified files for integration with ASP.NET Core:
 
