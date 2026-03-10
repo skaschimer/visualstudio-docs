@@ -122,7 +122,7 @@ If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can
 ::: moniker range="visualstudio"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the code editor or in the Autos or Locals windows. While you're debugging, right-click on a variable and use the **Analyze with Copilot** ![Screenshot of Analyze with Copilot button.](../debugger/media/visualstudio/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the code editor or in the Autos or Locals windows. While you're debugging, right-click on a variable and use the **Analyze with Copilot** ![Screenshot of Analyze with Copilot button.](../debugger/media/visualstudio/ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ::: moniker range="vs-2022"
