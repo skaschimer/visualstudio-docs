@@ -1,8 +1,10 @@
 ---
 title: Set a watch on variables and expressions
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
-ms.date: 11/06/2025
+ms.date: 03/05/2026
 ms.topic: how-to
+ms.custom: awp-ai
+ai-usage: ai-assisted
 f1_keywords:
   - "vs.debug.quickwatch"
 helpviewer_keywords: 
@@ -404,10 +406,27 @@ If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can
 ::: moniker range="vs-2022"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Watch windows. Right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can ask AI about variables in the **Watch** windows.
+
+- **Ask Copilot about a variable**. Right-click a variable and select **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png). In this scenario, Copilot already has debugger context, so you don't need to provide it again in chat.
+
+For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can use AI in the **Watch** windows in two ways:
+
+- **Get watch expression suggestions**. Starting in Visual Studio 2026, version 18.4, place your cursor in an empty watch expression cell in the **Name** column. Copilot suggests relevant expressions based on your current debugging context.
+- **Ask Copilot about a variable**. Right-click a variable and select **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png). In this scenario, Copilot already has debugger context, so you don't need to provide it again in chat.
+
+For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## Related content
+
 - [What is debugging?](../debugger/what-is-debugging.md)
 - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [First look at debugging](../debugger/debugger-feature-tour.md)

@@ -4,6 +4,8 @@ description: Use a single Quick Action in Visual Studio to refactor, generate, o
 ms.date: 02/26/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
+ms.custom: awp-ai
+ai-usage: ai-assisted
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
