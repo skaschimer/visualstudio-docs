@@ -397,12 +397,6 @@ To observe the `a` variable,
 
 1. Continue debugging. You can observe the variable in the **Watch** window.
 
-::: moniker range="visualstudio"
-## Get AI assistance
-
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the Watch windows. Hover over a variable, move the pointer over the box that appears, and use the **Analyze with Copilot** ![Screenshot of the Analyze with Copilot button.](../debugger/media/visualstudio/copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
-::: moniker-end
-
 ::: moniker range="vs-2022"
 ## Get AI assistance
 
@@ -420,7 +414,7 @@ For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can use AI in the **Watch** windows in two ways:
 
 - **Get watch expression suggestions**. Starting in Visual Studio 2026, version 18.4, place your cursor in an empty watch expression cell in the **Name** column. Copilot suggests relevant expressions based on your current debugging context.
-- **Ask Copilot about a variable**. Right-click a variable and select **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png). In this scenario, Copilot already has debugger context, so you don't need to provide it again in chat.
+- **Ask Copilot about a variable**. Hover over a variable, move the pointer over the box that appears, and use the **Analyze with Copilot** ![Screenshot of the Analyze with Copilot button.](../debugger/media/visualstudio/copilot-button.png) button. In this scenario, Copilot already has debugger context, so you don't need to provide it again in chat.
 
 For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
