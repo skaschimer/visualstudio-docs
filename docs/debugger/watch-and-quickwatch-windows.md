@@ -90,8 +90,13 @@ You can observe any valid expression recognized by the debugger in a **Watch** w
 
 For example, for the code in the preceding section, you can get the average of the three values by entering `(a + b + c) / 3` in the **Watch** window:
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+![Screenshot of an expression in the Watch window.](../debugger/media/visualstudio/watch-expression.png "Watch expression")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot of Watch expression.](../debugger/media/vs-2022/watch-expression.png "Watch expression")
 
