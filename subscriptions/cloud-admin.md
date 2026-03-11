@@ -3,7 +3,7 @@ title: Set up admins for monthly subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 01/12/2026
+ms.date: 03/07/2026
 ms.topic: how-to
 description: Configure admins who can assign subscriptions, edit assignments, add or delete subscriptions, and perform other subscription management tasks.
 ms.custom: sfi-image-nochange
@@ -16,6 +16,12 @@ Admins manage Visual Studio monthly subscriptions. These individuals can assign 
 
 + [Purchase Visual Studio cloud subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-overview)
 + [Cloud subscriptions billing FAQ](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq)
+
+## Watch how Visual Studio cloud subscriptions work and how to administer them
+
+This short video explains how Visual Studio **Cloud Subscriptions** use **Azure billing**, how to **purchase** from the Visual Studio **Marketplace**, and how admins **assign and manage** users in the **Subscriptions Admin Portal**. It also covers **adjusting quantities**, **adding admins** and configuring **permissions** in Azure, and how **subscription changes and expirations** are handled.
+
+> [!VIDEO https://medius.microsoft.com/Embed/video-nc/d9193ff6-5066-4801-9756-1f6e9d440c8c?r=122761128154]
 
 ## The Azure subscription owner is the first admin
 

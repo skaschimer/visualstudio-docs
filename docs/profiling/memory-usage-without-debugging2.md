@@ -42,11 +42,18 @@ For the best experience with this documentation, choose your preferred developme
 
 1. On the menu bar, select  **Debug** > **Performance Profiler**.
 
-1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
+::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+4. On the **Flexible** tab, select **Memory Usage**, and then select **Start**.
+   
+   [ ![Screenshot that shows the Memory Usage option and the Start button.](../profiling/media/visualstudio/memory-usage-start-performance-profiler.png)](../profiling/media/visualstudio/memory-usage-start-performance-profiler.png#lightbox)
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+4. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
    [ ![Start a Memory Usage diagnostic session.](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png)](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png#lightbox)
-   ::: moniker-end
+::: moniker-end
 
 
    > [!NOTE]
@@ -57,7 +64,11 @@ For the best experience with this documentation, choose your preferred developme
 
 When you start a diagnostic session, your app starts, and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+[ ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/visualstudio/memory-usage-report-overview.png)](../profiling/media/visualstudio/memory-usage-report-overview.png#lightbox)
+::: moniker-end
+
+::: moniker range="vs-2022"
 [ ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png)](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png#lightbox)
 ::: moniker-end
 
@@ -78,7 +89,11 @@ To collect snapshots, select **Take snapshot** when you want to capture the memo
 
 To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you're done collecting or have taken snapshots, select **Stop Collection**.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of stopping the collection.](../profiling/media/visualstudio/memory-usage-stop-collection.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of stopping the collection.](../profiling/media/vs-2022/memory-usage-stop-collection.png)
 ::: moniker-end
 
@@ -89,7 +104,11 @@ If you have trouble collecting or displaying data, see [Troubleshoot profiling e
 
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and four snapshot panes.](../profiling/media/visualstudio/memory-usage-report-overview-1.png "Memory Usage overview page")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/vs-2022/memory-usage-report-overview-1-vs-2022.png "Memory Usage overview page")
 ::: moniker-end
 
@@ -158,9 +177,15 @@ Many types in apps aren't required for app developers to investigate memory issu
    ::: moniker-end
 
 
-- Choose a snapshot in the **Compare To** list of a managed or native report.
+- Choose a snapshot in the **Compare With** list of a managed or native report.
+   
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   [ ![Screenshot of the Compare With list.](../profiling/media/visualstudio/choose-compare-to.png)](../profiling/media/visualstudio/choose-compare-to.png#lightbox)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of Choose a snapshot from the Compare with list.](../profiling/media/vs-2022/dbgdiag-mem-choose-compare-to.png)
 
