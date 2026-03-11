@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 
 [**GitHub Copilot completions**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [**GitHub Copilot Chat**](https://aka.ms/VSXGHCopilot) in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when you write code.
 
-In this article, you learn about using Copilot Chat in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) within the Visual Studio IDE. With the extension, you get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, and debugging, without leaving the IDE. [Use the chat interface](#use-copilot-chat-in-visual-studio) to submit your question as a prompt and [set intent](copilot-chat-context.md) for better scoped answers.
+In this article, you learn about using Copilot Chat in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) within the Visual Studio IDE. With the extension, you get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. [Use the chat interface](#use-copilot-chat-in-visual-studio) to submit your question as a prompt and [set intent](copilot-chat-context.md) for better scoped answers.
 
 For more information on the GitHub Copilot completions in Visual Studio, see [About GitHub Copilot completions for Visual Studio](visual-studio-github-copilot-extension.md).
 
@@ -41,10 +41,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 
 ## Get GitHub Copilot Chat for Visual Studio
 
-If you use Visual Studio version 17.10 or later, GitHub Copilot Chat is included in the [unified GitHub Copilot experience](visual-studio-github-copilot-install-and-states.md). The extension is available as a recommended component in the Visual Studio installer. Copilot Chat is installed by default with all workloads, unless you choose to exclude it during installation.
-
-> [!NOTE]
-> If you have any problems with authentication after you install the extension, see [Troubleshooting authentication issues with GitHub Copilot Chat](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-authentication-issues-with-github-copilot-chat).
+If you use Visual Studio version 17.10 or later, GitHub Copilot Chat is included in the [unified GitHub Copilot experience](visual-studio-github-copilot-install-and-states.md). The extension is available as a recommended component in the Visual Studio Installer. Copilot Chat is installed by default with all workloads, unless you choose to exclude it during installation.
 
 GitHub Copilot isn't included in Visual Studio Subscriptions. Instead, it's a separate subscription managed by GitHub. For questions regarding GitHub Copilot subscriptions and support, see the GitHub pages for [business subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-business-subscription) and [individual subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-individual-subscription).
 
@@ -52,18 +49,18 @@ GitHub Copilot isn't included in Visual Studio Subscriptions. Instead, it's a se
 
 You can ask your coding related questions in natural language. GitHub Copilot Chat answers these questions in your development context.
 
-There are two places you can ask Copilot these questions: in a [chat window](#ask-questions-in-the-chat-window), or [directly inline](#ask-questions-in-the-inline-chat-view) in the code that you want to modify. If your goal is to modify or add to the code file you have open in the editor, the inline chat view usually works best. For more general coding questions, the chat window is the better option.
+There are two places you can ask Copilot these questions: in a [chat window](#ask-questions-in-the-chat-window), or with [inline chat](#ask-questions-in-the-inline-chat-view) in the code that you want to modify. If your goal is to modify or add to the code file you have open in the editor, the inline chat view usually works best. For more general coding questions, the chat window is the better option.
 
 To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and [threads](copilot-chat-context-references.md#threads).
 
 > [!NOTE]
-> With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions). Content excluded by your admin is ignored in responses from chat. For more information, see [Configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio).
+> [Content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions). Content excluded by your admin is ignored in responses from chat. For more information, see [Configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio).
 
 :::moniker range="visualstudio"
 
 ### Ask questions in the chat window
 
-Ask your questions and see answers on the chat window. We recommend this tool for programming help and general coding questions.
+Ask your questions and see answers in the chat window. We recommend this tool for programming help and general coding questions.
 
 1. In Visual Studio, select **View** > **GitHub Copilot Chat**.
 1. In the chat window, type a coding related question in the **Ask Copilot** text box. Select **Enter** or select **Send** to ask your question.
