@@ -57,7 +57,7 @@ When you work with the Just-In-Time debugger in Visual Studio, configuration opt
 
 :::moniker-end
 
-If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#jit_errors).
+If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#troubleshoot-just-in-time-debugging).
 
 ## Disable Just-In-Time debugging from the Windows registry
 
