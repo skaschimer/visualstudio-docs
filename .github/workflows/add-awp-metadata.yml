@@ -157,6 +157,7 @@ jobs:
           PY
 
       - name: Commit changes
+        id: commit
         run: |
           rm -f files.txt
           git config user.name "github-actions"
@@ -164,17 +165,84 @@ jobs:
 
           if git diff --quiet; then
             echo "No changes"
+            echo "status=none" >> "$GITHUB_OUTPUT"
           else
+            # Capture the list of files that were modified
+            git diff --name-only > updated_files.txt
+            cat updated_files.txt
+
             git add -u
             git commit -m "Add ms.custom awp-ai metadata"
 
             if [ "${{ github.event.pull_request.head.repo.full_name }}" = "${{ github.repository }}" ]; then
               if git push origin "HEAD:${{ github.event.pull_request.head.ref }}"; then
                 echo "Changes pushed to PR branch."
+                echo "status=pushed" >> "$GITHUB_OUTPUT"
               else
                 echo "::warning::Unable to push changes to the PR branch in this repository."
+                echo "status=push-failed" >> "$GITHUB_OUTPUT"
               fi
             else
-              echo "::warning::Fork PR detected. Metadata check ran, but auto-push is skipped because the default GITHUB_TOKEN cannot reliably write to contributor forks."
+              echo "::warning::Fork PR detected. Auto-push skipped."
+              echo "status=fork" >> "$GITHUB_OUTPUT"
             fi
           fi
+
+      - name: Comment on PR with required metadata updates
+        if: steps.commit.outputs.status == 'fork' || steps.commit.outputs.status == 'push-failed'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'updated_files.txt';
+            if (!fs.existsSync(path)) {
+              console.log('No updated_files.txt found; skipping comment.');
+              return;
+            }
+            const files = fs.readFileSync(path, 'utf8')
+              .split('\n')
+              .map(f => f.trim())
+              .filter(Boolean);
+            if (files.length === 0) {
+              console.log('No files to report.');
+              return;
+            }
+
+            const fileList = files.map(f => `- \`${f}\``).join('\n');
+            const body = [
+              '## AWP metadata update needed',
+              '',
+              'The following markdown files in this PR are missing the `ms.custom: awp-ai` metadata. Please add it before merging:',
+              '',
+              fileList,
+              '',
+              '> This comment was posted automatically by the **Add AWP metadata** workflow.',
+            ].join('\n');
+
+            // Check for an existing bot comment to update instead of duplicating
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(c =>
+              c.user.type === 'Bot' && c.body.includes('## AWP metadata update needed')
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+              console.log('Updated existing PR comment.');
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+              console.log('Posted new PR comment.');
+            }
