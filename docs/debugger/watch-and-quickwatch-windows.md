@@ -126,7 +126,7 @@ You can search for keywords in the Name, Value, and Type columns of the **Watch*
 
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
-[ ![Screenshot that shows a search in the Watch window.](../debugger/media/visualstudio/search-watch.png "Search in Watch Window")] (../debugger/media/visualstudio/search-watch.png)
+[ ![Screenshot that shows a search in the Watch window.](../debugger/media/visualstudio/search-watch.png "Search in Watch Window")](../debugger/media/visualstudio/search-watch.png)
 
 To make your search more or less thorough, use the **Search Depth** dropdown at the top of the **Watch** window to select how many levels deep you want to search into nested objects. 
 
