@@ -104,8 +104,13 @@ For example, for the code in the preceding section, you can get the average of t
 
 The rules for evaluating expressions in the **Watch** window are generally the same as the rules for evaluating expressions in the code language. If an expression has a syntax error, expect the same compiler error as in the code editor. For example, a typo in the preceding expression produces this error in the **Watch** window:
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+![Screenshot that shows an error in the Watch window.](../debugger/media/visualstudio/watch-expression-error.png "Watch expression error")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot of Watch expression error.](../debugger/media/vs-2022/watch-expression-error.png "Watch expression error")
 
