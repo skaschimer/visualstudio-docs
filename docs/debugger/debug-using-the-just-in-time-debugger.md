@@ -1,7 +1,7 @@
 ---
 title: Debug using the Just-In-Time Debugger
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app returns errors or crashes.
-ms.date: 1/16/2026
+ms.date: 3/9/2026
 ms.topic: how-to
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.JIT"
@@ -57,7 +57,7 @@ When you work with the Just-In-Time debugger in Visual Studio, configuration opt
 
 :::moniker-end
 
-If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#jit_errors).
+If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#troubleshoot-just-in-time-debugging).
 
 ## Disable Just-In-Time debugging from the Windows registry
 
@@ -99,7 +99,7 @@ By default, Windows Form apps have a top-level exception handler that lets the a
 
 To enable Just-In-Time debugging instead of standard Windows Form error handling, add these settings:
 
-- In the `system.windows.forms` section of the *machine.config* or *\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
+- In the `system.windows.forms` section of the *machine.config* or *bin\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
 
     ```xml
     <configuration>
@@ -127,8 +127,15 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
 
 1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md).
 
-1. When the project opens in Visual Studio, open the *Program.cs* file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:
+1. When the project opens in Visual Studio, open the *Program.cs* file. Replace any default code, including the Main() method, if present, with the following code. The following code prints a line to the console and then throws a NullReferenceException:
 
+:::moniker range="visualstudio"
+   ```csharp
+   Console.WriteLine("we will now throw a NullReferenceException");
+   throw new NullReferenceException("this is the exception thrown by the console app");
+   ```
+::: moniker-end
+:::moniker range="<=vs-2022"
    ```csharp
    static void Main(string[] args)
    {
@@ -136,6 +143,7 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
        throw new NullReferenceException("this is the exception thrown by the console app");
    }
    ```
+::: moniker-end
 
 1. To build the solution, choose either the **Debug** (default) or **Release** configuration, and then select **Build** > **Rebuild Solution**.
 
@@ -158,7 +166,7 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
 
    For more information about build configurations, see [Understanding build configurations](../ide/understanding-build-configurations.md).
 
-1. Open the built app *ThrowsNullException.exe* in your C# project folder (*...\ThrowsNullException\ThrowsNullException\bin\Debug* or *...\ThrowsNullException\ThrowsNullException\bin\Release*).
+1. Open the built app *ThrowsNullException.exe* in your C# project folder (*...\ThrowsNullException\ThrowsNullException\bin\Debug* or *...\ThrowsNullException\ThrowsNullException\bin\Release*), or run the executable from a command line.
 
    You should see the following command window:
 
@@ -169,6 +177,9 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
    ![Screenshot of the Choose Just-In-Time Debugger dialog box, which appears after the exception appears in the ThrowsNullException.exe console window.](../debugger/media/justintimedialog.png)
 
    Under **Available Debuggers**, select **New instance of \<your preferred Visual Studio version/edition>**, if not already selected.
+
+   >[!NOTE]
+   > If you don't see the Just-in-Time Debugger dialog box, you might need to add registry keys. See [Just-In-Time debugging fails to start](#troubleshoot-just-in-time-debugging)
 
 1. Select **OK**.
 
@@ -181,7 +192,7 @@ You can start debugging at this point. If you're debugging a real app, you need 
 > [!CAUTION]
 > If your app contains untrusted code, a security warning dialog box appears, enabling you to decide whether to proceed with debugging. Before you continue debugging, decide whether you trust the code. Did you write the code yourself? If the application is running on a remote machine, do you recognize the name of the process? If the app is running locally, consider the possibility of malicious code running on your computer. If you decide the code is trustworthy, select **OK**. Otherwise, select **Cancel**.
 
-## <a name="jit_errors"></a> Troubleshoot Just-In-Time debugging
+## Troubleshoot Just-In-Time debugging
 
 ### Just-In-Time debugging fails to start
 
@@ -191,9 +202,9 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it's en
 
   The fix is to add a **DWORD Value** of **Auto**, with **Value data** of **1**, to the following registry keys:
 
-  - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (.NET) **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
-  - (For 32-bit apps on 64-bit machines) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (.NET Framework) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
 - Windows Error Reporting could be taking over the error handling on your computer.
 
