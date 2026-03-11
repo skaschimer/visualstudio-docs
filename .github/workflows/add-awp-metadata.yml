@@ -17,14 +17,16 @@ jobs:
       - name: Checkout PR
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
       - name: Get changed markdown files
         id: files
         run: |
-          git fetch origin "${{ github.base_ref }}"
-          git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- '*.md' > files.txt
+          git remote add upstream "https://github.com/${{ github.repository }}.git"
+          git fetch upstream "${{ github.base_ref }}"
+          git diff --name-only "upstream/${{ github.base_ref }}...HEAD" -- '*.md' > files.txt
           cat files.txt
 
       - name: Add or update ms.custom metadata
@@ -165,5 +167,9 @@ jobs:
           else
             git add -u
             git commit -m "Add ms.custom awp-ai metadata"
-            git push
+            if git push origin "HEAD:${{ github.event.pull_request.head.ref }}"; then
+              echo "Changes pushed to PR branch."
+            else
+              echo "::warning::Unable to push to the PR branch. This can happen for fork PRs without write token permissions."
+            fi
           fi
