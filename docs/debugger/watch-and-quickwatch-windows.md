@@ -64,8 +64,13 @@ int main()
 
 1. In the **Watch** window, select an empty row, and type variable `a`. Do the same for `b` and `c`.
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ![Screenshot of a variable in the Watch window.](../debugger/media/visualstudio/watch-variable.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of Watch variables.](../debugger/media/vs-2022/watch-variable.png)
 
