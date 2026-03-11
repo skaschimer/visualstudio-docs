@@ -17,16 +17,16 @@ jobs:
       - name: Checkout PR
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.event.pull_request.head.ref }}
+          # Checkout PR head via pull refs on the base repository.
+          # This avoids direct access to contributor forks during checkout.
+          ref: refs/pull/${{ github.event.pull_request.number }}/head
           fetch-depth: 0
 
       - name: Get changed markdown files
         id: files
         run: |
-          git remote add upstream "https://github.com/${{ github.repository }}.git"
-          git fetch upstream "${{ github.base_ref }}"
-          git diff --name-only "upstream/${{ github.base_ref }}...HEAD" -- '*.md' > files.txt
+          git fetch origin "${{ github.base_ref }}"
+          git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- '*.md' > files.txt
           cat files.txt
 
       - name: Add or update ms.custom metadata
@@ -167,9 +167,14 @@ jobs:
           else
             git add -u
             git commit -m "Add ms.custom awp-ai metadata"
-            if git push origin "HEAD:${{ github.event.pull_request.head.ref }}"; then
-              echo "Changes pushed to PR branch."
+
+            if [ "${{ github.event.pull_request.head.repo.full_name }}" = "${{ github.repository }}" ]; then
+              if git push origin "HEAD:${{ github.event.pull_request.head.ref }}"; then
+                echo "Changes pushed to PR branch."
+              else
+                echo "::warning::Unable to push changes to the PR branch in this repository."
+              fi
             else
-              echo "::warning::Unable to push to the PR branch. This can happen for fork PRs without write token permissions."
+              echo "::warning::Fork PR detected. Metadata check ran, but auto-push is skipped because the default GITHUB_TOKEN cannot reliably write to contributor forks."
             fi
           fi
