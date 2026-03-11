@@ -59,11 +59,11 @@ For .NET development, .NET 6 or later is required to target the Arm64 platform. 
 
     1. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
 
-![Screenshot showing the new solution platform and project platform](./media/visualstudio/created-arm64-platform-configuration.png)
+![Screenshot showing the new solution platform and project platform.](./media/visualstudio/created-arm64-platform-configuration.png)
 
 > [!NOTE]
 > The **Win32** platform name is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects. To see both project-level platform and solution-level platform settings, open **Configuration Manager** and note the two platform settings. The solution-level platform is shown in the **Active solution platform** dropdown, and the table shows the project-level platform for each project.
-> ![Screenshot showing solution platform and project platform](media/visualstudio/project-platform-win32.png)
+> ![Screenshot showing solution platform and project platform.](media/visualstudio/project-platform-win32.png)
 
 :::moniker-end
 
@@ -87,11 +87,11 @@ For .NET development, .NET 6 or later is required to target the Arm64 platform. 
 
     1. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
 
-![Screenshot showing the new solution platform and project platform](./media/vs-2022/created-arm64-platform-configuration.png)
+![Screenshot showing the new solution platform and project platform.](./media/vs-2022/created-arm64-platform-configuration.png)
 
 > [!NOTE]
 > The **Win32** platform name is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects. To see both project-level platform and solution-level platform settings, open **Configuration Manager** and note the two platform settings. The solution-level platform is shown in the **Active solution platform** dropdown, and the table shows the project-level platform for each project.
-> ![Screenshot showing solution platform and project platform](media/project-platform-win32.png)
+> ![Screenshot showing solution platform and project platform.](media/project-platform-win32.png)
 
 :::moniker-end
 
