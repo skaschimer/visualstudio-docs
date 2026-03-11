@@ -192,7 +192,7 @@ You can start debugging at this point. If you're debugging a real app, you need 
 > [!CAUTION]
 > If your app contains untrusted code, a security warning dialog box appears, enabling you to decide whether to proceed with debugging. Before you continue debugging, decide whether you trust the code. Did you write the code yourself? If the application is running on a remote machine, do you recognize the name of the process? If the app is running locally, consider the possibility of malicious code running on your computer. If you decide the code is trustworthy, select **OK**. Otherwise, select **Cancel**.
 
-## <a name="jit_errors"></a> Troubleshoot Just-In-Time debugging
+## Troubleshoot Just-In-Time debugging
 
 ### Just-In-Time debugging fails to start
 
