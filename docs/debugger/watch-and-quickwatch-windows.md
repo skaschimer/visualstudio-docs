@@ -3,6 +3,8 @@ title: Set a watch on variables and expressions
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
 ms.date: 03/05/2026
 ms.topic: how-to
+ms.custom: awp-ai
+ai-usage: ai-assisted
 f1_keywords:
   - "vs.debug.quickwatch"
 helpviewer_keywords: 
