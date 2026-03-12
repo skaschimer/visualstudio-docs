@@ -49,8 +49,18 @@ Follow these steps to save your file under a new filename with encoding:
 1. In Visual Studio, select **File** > **Save <Filename\> As** for the file you want to save.
 
 1. In the **Save File As** dialog, expand the **Save** dropdown menu and select **Save with Encoding**:
+   
+   :::moniker range="visualstudio"
+       
+   :::image type="content" source="./media/visualstudio/save-with-encoding.png" border="false" alt-text="Screenshot that shows how to select the option to save a file with encoding in Visual Studio.":::
 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+       
    :::image type="content" source="./media/save-with-encoding.png" border="false" alt-text="Screenshot that shows how to select the option to save a file with encoding in Visual Studio.":::
+
+   :::moniker-end
 
 1. In the **Advanced Save Options** dialog, use the **Encoding** dropdown list to select the desired encoding for the file.
 
