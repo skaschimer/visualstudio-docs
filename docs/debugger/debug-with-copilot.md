@@ -115,7 +115,13 @@ The following simple example shows how to get AI assistance using the inline Cha
 
    ![Screenshot of Autos window.](../debugger/media/vs-2022/debug-with-copilot-autos-window.png)
 
+:::moniker range="visualstudio"
+1. Right-click in the code and choose **Chat** to open the inline Chat view.
+:::moniker-end
+
+:::moniker range="vs-2022"
 1. Right-click in the code and choose **Ask Copilot** to open the inline Chat view.
+:::moniker-end
 
    > [!TIP]
    > Alternatively, you can right-click a variable in the Autos or Locals window, or in a data tip, and choose **Ask Copilot**. This provides Copilot with the variable name and context, so you don't need to provide context yourself in the chat.
