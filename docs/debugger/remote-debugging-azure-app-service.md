@@ -38,7 +38,7 @@ Before you can debug this issue with Visual Studio, you must enable the remote d
 
 3. Towards the bottom of the page, select the **Remote debugging** option, and select **2022** as the **Remote Visual Studio version**.
 
-:::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png"  alt-text="Screenshot of the Azure remote debugging settings." lightbox="../debugger/media/visualsudio/visual-studio-remote-debug-azure-settings-small.png":::
+:::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png"  alt-text="Screenshot of the Azure remote debugging settings." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png":::
 
 :::moniker-end
 
