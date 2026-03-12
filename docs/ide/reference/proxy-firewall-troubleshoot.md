@@ -15,7 +15,19 @@ ai-usage: ai-assisted
 When you use Visual Studio behind a corporate proxy or firewall, you might encounter connectivity issues that affect features requiring network access, such as NuGet package restore, extension installation, and AI-powered features. Proxy issues generally fall into two categories:
 
 - **Configuration issues**: Problems with your proxy server setup, certificates, or network configuration. These issues are resolved by your IT administrator.
-- **Settings required**: Visual Studio requires additional information about your network configuration. You can find more information about how to supply required settings to Visual Studio in this article. In the latest Insiders version of Visual Studio, you can configure the proxy within Visual Studio settings. You may enable the preview feature in **Tools** > **Options** > **All Settings** > **Preview Features** > **Proxy Configuration**.
+
+::: moniker range="visualstudio"
+
+- **Settings required**: Visual Studio requires additional information about your network configuration. You can configure proxy settings directly in the IDE. See [Configure proxy settings in Visual Studio](proxy-settings.md) for setup instructions.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+- **Settings required**: Visual Studio requires additional information about your network configuration. You can find more information about how to supply required settings to Visual Studio in this article.
+
+::: moniker-end
+
 - **Product issues**: If you have determined that your issue is not a configuration issue or supplied settings do not address the issue you're seeing, then this could be a product issue. Follow the steps at [Collect diagnostic information](#product-issues-collect-diagnostic-information-for-support) before submitting a ticket.
 
 This article helps you identify which category your issue falls into and provides solutions for common problems.
@@ -93,22 +105,19 @@ The following sections describe common proxy-related issues and their solutions.
 
 **Solution**: Visual Studio supports signing into GitHub and Microsoft Entra accounts behind an authenticating proxy with basic authentication, but most versions of Visual Studio don't have support for Copilot behind an authenticating proxy with basic authentication.
 
+::: moniker range="vs-2022"
+
 On startup, a prompt appears to capture credentials, and this is used for Entra authentication. The credentials persist in the Windows **Credential Manager** under **Windows Credentials** as `VSCredentials_<proxyAddress>` as the internet or network address, then the username and password that the proxy requires.
 
-<!--
-::: moniker range="<=visualstudio"
-
-**Solution**: Basic authentication for proxies isn't supported in Visual Studio 2022. Upgrade to a later version of Visual Studio and configure proxy settings as described in [Configure proxy settings in Visual Studio](#configure-proxy-settings-in-visual-studio).
-
 ::: moniker-end
 
+::: moniker range="visualstudio"
 
-::: moniker range=">visualstudio"
+On startup, a prompt appears to capture credentials, and this is used for Entra authentication. The credentials persist in the Windows **Credential Manager** under **Windows Credentials** as `VSCredentials_<proxyAddress>` as the internet or network address, then the username and password that the proxy requires.
 
-**Solution**: Basic authentication for proxies isn't supported. Configure proxy settings as described in [Configure proxy settings in Visual Studio](#configure-proxy-settings-in-visual-studio).
+You can also configure proxy credentials directly in Visual Studio. See [Configure proxy settings in Visual Studio](proxy-settings.md).
 
 ::: moniker-end
--->
 ### Proxy authentication required (NTLM or Kerberos)
 
 **Symptom**: Network-dependent features don't work when using a proxy server with NTLM or Kerberos authentication.
@@ -117,16 +126,17 @@ On startup, a prompt appears to capture credentials, and this is used for Entra 
 
 **Solution**: Configure Visual Studio to use default proxy credentials:
 
-<!--
-::: moniker range=">visualstudio"
+::: moniker range="visualstudio"
 
-1. Go to **Tools** > **Options** > **Environment** > **Network & Proxy**.
-1. Enable **Use system default proxy credentials**.
+1. Go to **Tools** > **Options** > **Proxy Settings**.
+1. Select **Use the logged-in Windows account** to use your current Windows credentials.
+1. Restart Visual Studio for the changes to take effect.
+
+For more information, see [Configure proxy settings in Visual Studio](proxy-settings.md).
 
 ::: moniker-end
--->
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 Set the environment variable `VS_USE_DEFAULTPROXY` to `true`. For Copilot, also set `COPILOT_USE_DEFAULTPROXY` to `true`.
 
@@ -143,56 +153,28 @@ Set the environment variable `VS_USE_DEFAULTPROXY` to `true`. For Copilot, also 
 
 **Solution**: Configure the proxy server address explicitly:
 
-<!--
-::: moniker range=">visualstudio"
+::: moniker range="visualstudio"
 
-1. Go to **Tools** > **Options** > **Environment** > **Network & Proxy**.
-1. Enter your proxy server address.
+1. Go to **Tools** > **Options** > **Proxy Settings**.
+1. Select **Use custom proxy settings**.
+1. Enter the proxy server URL and port.
+1. Restart Visual Studio for the changes to take effect.
+
+For more information, see [Configure proxy settings in Visual Studio](proxy-settings.md).
 
 ::: moniker-end
--->
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 Set the `HTTPS_PROXY` and `HTTP_PROXY` environment variables to your proxy server address. Copilot needs these set up for Visual Studio.
 
 ::: moniker-end
 
-<!--
-## Configure proxy settings in Visual Studio
-
 ::: moniker range="visualstudio"
 
-Visual Studio provides built-in proxy configuration options that work with most enterprise proxy setups. You can configure these settings through the Options dialog.
-
-### Access proxy settings
-
-To configure proxy settings in Visual Studio:
-
-1. Go to **Tools** > **Options**.
-1. Under **All Settings**, select **Proxy Configuration**.
-1. Configure the appropriate settings for your environment.
-
-### Use system default proxy credentials
-
-For proxies that use Windows authentication (NTLM or Kerberos):
-
-1. In the **Proxy Configuration** settings, enable **Use Windows proxy configuration**.
-1. Restart Visual Studio for the changes to take effect.
-
-This setting allows Visual Studio to use your Windows login credentials for proxy authentication.
-
-### Specify a proxy server address
-
-For proxies that require an explicit address:
-
-1. In the **Proxy Configuration** settings, select **Use custom proxy settings**, and enter your proxy server address in the **Proxy server** field.
-1. If your proxy uses a specific port, specify it in the **Proxy port** field.
-1. If your proxy requires it, enable **Proxy authentication required**, and enter your credentials.
-1. Restart Visual Studio for the changes to take effect.
+For detailed proxy configuration steps, see [Configure proxy settings in Visual Studio](proxy-settings.md).
 
 ::: moniker-end
--->
 
 ## Troubleshoot SSL certificate issues
 
@@ -276,6 +258,12 @@ Collect the following information:
 1. **Comparison with other tools**: Does Visual Studio Code or other applications work through this proxy?
 
 ## Related content
+
+::: moniker range="visualstudio"
+
+- [Configure proxy settings in Visual Studio](proxy-settings.md)
+
+::: moniker-end
 
 - [Install and use Visual Studio behind a firewall or proxy server](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 - [Visual Studio connectivity troubleshooting](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)

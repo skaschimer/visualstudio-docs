@@ -154,6 +154,8 @@ Here are a few more support options:
 
 ## Related content
 
+* [Configure proxy settings in Visual Studio](../ide/reference/proxy-settings.md)
+* [Troubleshoot proxy and firewall issues in Visual Studio](../ide/reference/proxy-firewall-troubleshoot.md)
 * [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create and maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
