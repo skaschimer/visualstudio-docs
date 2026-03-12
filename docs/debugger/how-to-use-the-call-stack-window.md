@@ -48,7 +48,13 @@ While debugging, in the **Debug** menu, select **Windows > Call Stack** or press
 > [!NOTE]
 > The **Debug > Windows > Call Stack** menu option is only available during an active debugging session. Start debugging first (for example, by pressing **F5** or selecting **Debug > Start Debugging**), and then pause execution at a breakpoint before opening the Call Stack window.
 
-  ::: moniker range=">= vs-2022"
+  ::: moniker range="visualstudio"
+  :::image type="content" source="../debugger/media/visualstudio/call-stack-window.png" alt-text="Screenshot showing the Call Stack Window." lightbox="../debugger/media/visualstudio/call-stack-window.png":::
+An arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
+
+  ::: moniker-end
+
+  ::: moniker range="vs-2022"
   :::image type="content" source="../debugger/media/vs-2022/dbg-basics-callstack-window.png" alt-text="Screenshot showing the Call Stack Window.":::
   A arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
 
