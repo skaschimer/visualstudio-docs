@@ -44,7 +44,7 @@ Use the Benefit Eligibility table to see which Syncfusion benefits are available
 <sup>*<sup> ***Includes:** Visual Studio Enterprise NFR, FTE, Most Value Partner (MVP) and Regional Director (RD), Microsoft AI Cloud Partner Program (MAICPP), Microsoft Partner Program (MPN), ISV, Bug Bounty, Microsoft Certified Trainer (MCT), Student Ambassadors, Alumni, and Xbox (NFR Basic), Azure Dev Tools for Teaching (ADTfT), Microsoft Startups, We. Comms, Open-Source Heroes.*
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Enterprise annual and Visual Studio Professional annual subscriptions as cloud subscriptions. Current customers continue to have the same experience and ability to renew, increase, decrease, or cancel subscriptions. New customers are encouraged to go to Visual Studio pricing to explore different options to purchase Visual Studio.
+> Microsoft no longer offers Visual Studio Enterprise annual and Visual Studio Professional annual subscriptions as cloud subscriptions. Current customers continue to have the same experience and ability to renew, increase, decrease, or cancel subscriptions. New customers are encouraged to go to [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 Subscribers can go to [Visual Studio Subscriptions](https://my.visualstudio.com/Subscriptions?) to view the subscriptions associated with an email address. If some subscriptions aren’t visible, one or more subscriptions might be associated with a different email address. Sign in with that email address to see those subscriptions.
 
