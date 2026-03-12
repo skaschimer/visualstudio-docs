@@ -16,7 +16,7 @@ This article describes how to attach the Visual Studio debugger to an ASP.NET Co
 
 ## Prerequisites
 
-- Visual Studio 2022 with the **ASP.NET and web development** and the **Azure development** workload installed.
+- Visual Studio 2022 or later with the **ASP.NET and web development** and the **Azure development** workload installed.
 
 - You must first deploy an ASP.NET Core app to Azure App Service (Windows) from Visual Studio, and the app must be running.
 
@@ -30,13 +30,31 @@ Before you can debug this issue with Visual Studio, you must enable the remote d
 
    Locate your deployed application in the Azure portal. You can find your app by browsing to the **App Services** page and then selecting the App Service instance.  You can also search for the App Service instance directly by name in the search bar at the top. (In this example, the App Service instance is named **GitHubBrowser123**.)
 
+:::moniker range="visualstudio"
+
+    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png"  alt-text="Screenshot of Azure search." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png":::
+
+2. On the settings page for the App Service instance, under **Settings**, select **Configuration** in the left pane, and then choose the **General settings** tab.
+
+3. Towards the bottom of the page, select the **Remote debugging** option, and select **2022** as the **Remote Visual Studio version**.
+
+    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png"  alt-text="Screenshot of the Azure remote debugging settings." lightbox="../debugger/media/visualsudio/visual-studio-remote-debug-azure-settings-small.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png"  alt-text="A screenshot of Azure search." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png":::
+
+    
 
 2. On the settings page for the App Service instance, select **Configuration** on the left navigation, and then choose the **General Settings** tab.
 
 3. Towards the bottom of the page, make sure to set the **Remote Debugging** feature to **On** and select **Visual Studio 2022** as the **Remote Visual Studio version**.
 
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-azure-settings-small.png"  alt-text="A screenshot of the Azure remote debugging settings." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-azure-settings.png":::
+
+:::moniker-end
 
 4. Select **Save** at the top of the page to persist your changes.
 
@@ -49,17 +67,21 @@ Your app service instance now supports remote debugging through Visual Studio.
    > [!NOTE]
    > Make sure the state of your local code matches what was deployed to Azure. This ensures that the local symbol files and source code line up with the deployed app.
 
+::: moniker range="visualstudio"
+1. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown in the following illustration).
+
+    Changing this setting allows Visual Studio to debug the optimized code that was deployed to Azure using the necessary symbol files from your local bin folder. Symbol files are used by the debugger as a bridge between compiled, executing code and the source code in Visual Studio. Matching symbol files are required for remote debugging.
+
+    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-settings.png" alt-text="A screenshot of the Visual Studio debugging settings.":::
+::: moniker-end
+
+   ::: moniker range="vs-2022"
 1. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown in the following illustration), and then select **OK**.
 
     Changing this setting allows Visual Studio to debug the optimized code that was deployed to Azure using the necessary symbol files from your local bin folder. Symbol files are used by the debugger as a bridge between compiled, executing code and the source code in Visual Studio. Matching symbol files are required for remote debugging.
 
-    ::: moniker range="visualstudio"
-    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-settings.png" alt-text="A screenshot of the Visual Studio debugging settings.":::
-    ::: moniker-end
-
-   ::: moniker range="vs-2022"
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-settings.png" alt-text="A screenshot of the Visual Studio debugging settings.":::
-    ::: moniker-end
+::: moniker-end
 
 ## Attach the debugger to the App Service
 
@@ -83,7 +105,13 @@ Your app service instance now supports remote debugging through Visual Studio.
 
 1. Optional: To verify that Visual Studio has loaded the symbol files for your debugging session. Navigate to **Debug > Windows > Modules** to open the modules window. This window indicates that the symbol files were successfully loaded after the **Just my code** configuration changes you made earlier.
 
+    :::moniker range="visualstudio"   
+    :::image type="content" source="../debugger/media/visualstudio/visual-studio-symbol-files.png" alt-text="Screenshot of the symbol files window." lightbox="../debugger/media/visualstudio/visual-studio-symbol-files.png":::
+    :::moniker-end
+
+    :::moniker range="vs-2022"   
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-symbol-files.png" alt-text="A screenshot of the symbol files window.":::
+    :::moniker-end
 
 > [!NOTE]
 > For subsequent debugging of the app service, select the select **Debug** > **Reattach to w3wp.exe** or use the Shift+Alt+P hot keys.
