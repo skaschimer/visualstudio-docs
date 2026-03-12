@@ -282,11 +282,23 @@ In this example, we show AI suggestions for a conditional breakpoint. For tracep
 
    ![Screenshot of Copilot working on conditional breakpoint suggestions.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-ask-copilot.png)
 
-1. When the suggestions appear, choose one such as `item == "John"`. Edit the suggestion so the name is `Fred`.
+:::moniker range="visualstudio"
+
+5. When the suggestions appear, choose one such as `item == "Test"`. Edit the suggestion so the name is `Fred`.
+
+   ![Screenshot of a Copilot suggestion for a conditional breakpoint.](../debugger/media/visualstudio/debug-with-copilot-breakpoint-suggestion.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+5. When the suggestions appear, choose one such as `item == "John"`. Edit the suggestion so the name is `Fred`.
 
    ![Screenshot of Copilot suggestion for conditional breakpoint.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-suggestion.png)
 
-1. To test the conditional expression:
+:::moniker-end
+
+6. To test the conditional expression:
 
    1. Right-click the **ConsoleApp_Copilot** project in Solution Explorer and choose **Properties**.
    
