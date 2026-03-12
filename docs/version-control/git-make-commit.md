@@ -2,7 +2,7 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
-ms.date: 11/25/2025
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -107,6 +107,12 @@ The code review feedback shows up as comments, which show brief summary of the p
 ![Screenshot showing GitHub code review comment.](./media/visualstudio/git-code-review-comment.png)
 
 To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+
+### Navigate comments in the comment list
+
+The **Git Changes** window also shows a list of all Copilot review comments, organized by file. You can double-click any comment in the list to navigate directly to that line of code in the editor.
+
+![Screenshot showing code review comments for each file in the Git Changes window.](./media/visualstudio/local-code-review-comment-list-cropped.png)
 
 :::moniker-end
 
