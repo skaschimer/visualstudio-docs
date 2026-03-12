@@ -127,4 +127,4 @@ Your app service instance now supports remote debugging through Visual Studio.
     :::moniker-end
 
 > [!NOTE]
-> For subsequent debugging of the app service, select the select **Debug** > **Reattach to w3wp.exe** or use the Shift+Alt+P hot keys.
+> For subsequent debugging of the app service, select **Debug** > **Reattach to w3wp.exe** or use the Shift+Alt+P hot keys.
