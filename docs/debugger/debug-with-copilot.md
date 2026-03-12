@@ -284,7 +284,7 @@ In this example, we show AI suggestions for a conditional breakpoint. For tracep
 
 :::moniker range="visualstudio"
 
-5. When the suggestions appear, choose one such as `item == "Test"`. Edit the suggestion so the name is `Fred`.
+5. When the suggestions appear, choose one, such as `item == "Test"`. Edit the suggestion so the name is `Fred`.
 
    ![Screenshot of a Copilot suggestion for a conditional breakpoint.](../debugger/media/visualstudio/debug-with-copilot-breakpoint-suggestion.png)
 
