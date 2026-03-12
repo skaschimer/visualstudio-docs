@@ -32,20 +32,19 @@ Before you can debug this issue with Visual Studio, you must enable the remote d
 
 :::moniker range="visualstudio"
 
-    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png"  alt-text="Screenshot of Azure search." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png":::
+:::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png"  alt-text="Screenshot of Azure search." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png":::
 
 2. On the settings page for the App Service instance, under **Settings**, select **Configuration** in the left pane, and then choose the **General settings** tab.
 
 3. Towards the bottom of the page, select the **Remote debugging** option, and select **2022** as the **Remote Visual Studio version**.
 
-    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png"  alt-text="Screenshot of the Azure remote debugging settings." lightbox="../debugger/media/visualsudio/visual-studio-remote-debug-azure-settings-small.png":::
+:::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png"  alt-text="Screenshot of the Azure remote debugging settings." lightbox="../debugger/media/visualsudio/visual-studio-remote-debug-azure-settings-small.png":::
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 
-    :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png"  alt-text="A screenshot of Azure search." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png":::
-
+:::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png"  alt-text="A screenshot of Azure search." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png":::
     
 
 2. On the settings page for the App Service instance, select **Configuration** on the left navigation, and then choose the **General Settings** tab.
