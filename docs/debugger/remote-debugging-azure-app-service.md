@@ -71,7 +71,7 @@ Your app service instance now supports remote debugging through Visual Studio.
    > Make sure the state of your local code matches what was deployed to Azure. This ensures that the local symbol files and source code line up with the deployed app.
 
 ::: moniker range="visualstudio"
-1. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown in the following illustration).
+2. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown in the following illustration).
 
     Changing this setting allows Visual Studio to debug the optimized code that was deployed to Azure using the necessary symbol files from your local bin folder. Symbol files are used by the debugger as a bridge between compiled, executing code and the source code in Visual Studio. Matching symbol files are required for remote debugging.
 
@@ -79,7 +79,7 @@ Your app service instance now supports remote debugging through Visual Studio.
 ::: moniker-end
 
    ::: moniker range="vs-2022"
-1. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown in the following illustration), and then select **OK**.
+2. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown in the following illustration), and then select **OK**.
 
     Changing this setting allows Visual Studio to debug the optimized code that was deployed to Azure using the necessary symbol files from your local bin folder. Symbol files are used by the debugger as a bridge between compiled, executing code and the source code in Visual Studio. Matching symbol files are required for remote debugging.
 
