@@ -34,7 +34,7 @@ Before you can debug this issue with Visual Studio, you must enable the remote d
 
    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png"  alt-text="Screenshot of Azure search." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png":::
 
-2. On the settings page for the App Service instance, under **Settings**, select **Configuration** in the left pane, and then choose the **General settings** tab.
+2. On the overview page for the App Service instance, under **Settings** in the left pane, select **Configuration**, and then choose the **General settings** tab.
 
 3. Towards the bottom of the page, select the **Remote debugging** option, and select **2022** as the **Remote Visual Studio version**.
 
@@ -100,7 +100,17 @@ Your app service instance now supports remote debugging through Visual Studio.
 
 1. The `w3wp.exe` process should appear in the list of available processes to connect to. `w3wp.exe` is the main process of the Azure App Service that hosts the deployed application. Select the `w3wp.exe` process and then choose **Attach** in the bottom right.
 
+   :::moniker range="visualstudio"
+
+    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-attach-to-process.png" alt-text="A screenshot of the attach to process features." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-attach-to-process.png":::
+
+    :::moniker-end
+
+   :::moniker range="vs-2022"
+
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-attach-to-process.png" alt-text="A screenshot of the attach to process features." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-attach-to-process.png":::
+
+    :::moniker-end
 
 1. In a C# application file such as `Index.cshtml.cs`, set a breakpoint by clicking in the left margin. Alternatively, right-click and choose **Breakpoint** > **Insert breakpoint**.
 
