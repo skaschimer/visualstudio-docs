@@ -26,25 +26,29 @@ This article describes how to attach the Visual Studio debugger to an ASP.NET Co
 
 Before you can debug this issue with Visual Studio, you must enable the remote debugging feature on the App Service. This setting allows the Visual Studio debugger to connect to the main App Service web hosting process.
 
-1. Sign into your own [Azure portal](https://portal.azure.com/).
-
-   Locate your deployed application in the Azure portal. You can find your app by browsing to the **App Services** page and then selecting the App Service instance.  You can also search for the App Service instance directly by name in the search bar at the top. (In this example, the App Service instance is named **GitHubBrowser123**.)
-
 :::moniker range="visualstudio"
 
-:::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png"  alt-text="Screenshot of Azure search." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png":::
+1. Sign into your own [Azure portal](https://portal.azure.com/).
+
+   Locate your deployed application in the Azure portal. You can find your app by browsing to the **App Services** page and then selecting the App Service instance.  You can also search for the App Service instance directly by name in the search bar at the top. (In this example, the App Service instance is named **WebApplication2202**.)
+
+   :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png"  alt-text="Screenshot of Azure search." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-search.png":::
 
 2. On the settings page for the App Service instance, under **Settings**, select **Configuration** in the left pane, and then choose the **General settings** tab.
 
 3. Towards the bottom of the page, select the **Remote debugging** option, and select **2022** as the **Remote Visual Studio version**.
 
-:::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png"  alt-text="Screenshot of the Azure remote debugging settings." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png":::
+   :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png"  alt-text="Screenshot of the Azure remote debugging settings." lightbox="../debugger/media/visualstudio/visual-studio-remote-debug-azure-settings-small.png":::
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 
-:::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png"  alt-text="A screenshot of Azure search." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png":::
+1. Sign into your own [Azure portal](https://portal.azure.com/).
+
+   Locate your deployed application in the Azure portal. You can find your app by browsing to the **App Services** page and then selecting the App Service instance.  You can also search for the App Service instance directly by name in the search bar at the top. (In this example, the App Service instance is named **GitHubBrowser123**.)
+
+   :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png"  alt-text="A screenshot of Azure search." lightbox="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png":::
     
 
 2. On the settings page for the App Service instance, select **Configuration** on the left navigation, and then choose the **General Settings** tab.
