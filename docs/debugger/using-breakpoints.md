@@ -351,7 +351,7 @@ Choose **Close** or press **Ctrl+Enter** to close the Breakpoint Settings window
 
 You can also use the right-click context menu to set the dependent breakpoint.
 
-1. Right-click in the far left margin next to a line of code and select **Insert Dependent Breakpoint** from the context menu.
+Right-click in the far left margin next to a line of code and select **Insert Dependent Breakpoint** from the context menu.
 
    ![Screenshot that shows the Insert Dependent Breakpoint command.](../debugger/media/visualstudio/dependent-breakpoint-context.png "DependentBreakpointContext")
 
@@ -371,7 +371,7 @@ This breakpoint lets you break the code only once. When debugging, the Visual St
 
 You can also use the right-click context menu to set the temporary breakpoint.
 
-1. Right-click in the far left margin next to a line of code and select **Insert Temporary Breakpoint** from the context menu.
+Right-click in the far left margin next to a line of code and select **Insert Temporary Breakpoint** from the context menu.
 
    ![Screenshot that shows the Insert Temporary Breakpoint command.](../debugger/media/visualstudio/temporary-breakpoint-context.png "TemporaryBreakpointContext")
 
