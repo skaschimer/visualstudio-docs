@@ -85,7 +85,7 @@
     - name: Power BI Pro
       href: vs-pbi.md
     - name: Syncfusion
-      href: vs-syncfusion.md 
+      href: syncfusion.md 
     - name: Windows Virtual Desktop
       href: vs-windows-virtual-desktop.md  
   - name: Professional development
