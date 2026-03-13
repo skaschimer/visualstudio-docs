@@ -64,8 +64,13 @@ int main()
 
 1. In the **Watch** window, select an empty row, and type variable `a`. Do the same for `b` and `c`.
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ![Screenshot of a variable in the Watch window.](../debugger/media/visualstudio/watch-variable.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of Watch variables.](../debugger/media/vs-2022/watch-variable.png)
 
@@ -85,8 +90,13 @@ You can observe any valid expression recognized by the debugger in a **Watch** w
 
 For example, for the code in the preceding section, you can get the average of the three values by entering `(a + b + c) / 3` in the **Watch** window:
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+![Screenshot of an expression in the Watch window.](../debugger/media/visualstudio/watch-expression.png "Watch expression")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot of Watch expression.](../debugger/media/vs-2022/watch-expression.png "Watch expression")
 
@@ -94,8 +104,13 @@ For example, for the code in the preceding section, you can get the average of t
 
 The rules for evaluating expressions in the **Watch** window are generally the same as the rules for evaluating expressions in the code language. If an expression has a syntax error, expect the same compiler error as in the code editor. For example, a typo in the preceding expression produces this error in the **Watch** window:
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+![Screenshot that shows an error in the Watch window.](../debugger/media/visualstudio/watch-expression-error.png "Watch expression error")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot of Watch expression error.](../debugger/media/vs-2022/watch-expression-error.png "Watch expression error")
 
@@ -103,7 +118,32 @@ The rules for evaluating expressions in the **Watch** window are generally the s
 
 A circle with two wavy lines icon might appear in the **Watch** window. This icon means the debugger doesn't evaluate the expression because of a potential cross-thread dependency. Evaluating the code requires other threads in your app to run temporarily, but since you are in break mode, all threads in your app are usually stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your app, and the debugger might ignore events such as breakpoints and exceptions on those threads.
 
-::: moniker range=">= vs-2022" 
+::: moniker range="visualstudio" 
+
+## Search in the Watch window
+
+You can search for keywords in the Name, Value, and Type columns of the **Watch** window using the search bar above each window. Hit ENTER or select one of the arrows to execute a search. To cancel an ongoing search, select the "x" icon in the search bar.
+
+Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
+
+[ ![Screenshot that shows a search in the Watch window.](../debugger/media/visualstudio/search-watch.png "Search in Watch Window")](../debugger/media/visualstudio/search-watch.png)
+
+To make your search more or less thorough, use the **Search Depth** dropdown at the top of the **Watch** window to select how many levels deep you want to search into nested objects. 
+
+## Pin properties in the Watch window
+
+>[!NOTE]
+> This feature is supported in .NET Core 3.0 or higher.
+
+You can quickly inspect objects by their properties in the Watch window with the **Pinnable Properties** tool. To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu. This action bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column. To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
+
+![Screenshot of Pin properties in the Watch window.](../debugger/media/basic-pin-watch.gif "Pin properties in the Watch window")
+
+You can also toggle property names and filter out nonpinned properties when viewing the object’s property list in the Watch window. You can access both options by selecting the buttons in the toolbar above the watch window.
+
+::: moniker-end
+
+::: moniker range="vs-2022" 
 
 ## Search in the Watch window
 
@@ -170,8 +210,13 @@ To demonstrate how to use the refresh icon:
 
 3. Start debugging. The **Watch** window shows something like the following message:
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ![Screenshot that shows the refresh icon.](../debugger/media/visualstudio/refresh-watch.png "Refresh Watch")
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of Refresh Watch.](../debugger/media/vs-2022/refresh-watch.png "Refresh Watch")
 
@@ -335,8 +380,13 @@ To observe the `a` variable,
 
    The **QuickWatch** dialog appears. The `a` variable is in the **Expression** box with a **Value** of **1**.
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ![Screenshot of a variable in the QuickWatch window.](../debugger/media/visualstudio/quickwatch-variable.png "QuickWatch variable")
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of QuickWatch variable.](../debugger/media/vs-2022/quickwatch-variable.png "QuickWatch variable")
 
@@ -344,8 +394,13 @@ To observe the `a` variable,
 
 1. To evaluate an expression using the variable, type an expression such as `a + b` in the **Expression** box, and select **Reevaluate**.
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ![Screenshot of an expression in the QuickWatch window.](../debugger/media/visualstudio/quickwatch-expression.png "QuickWatch expression")
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of QuickWatch expression.](../debugger/media/vs-2022/quickwatch-expression.png "QuickWatch expression")
 
@@ -358,7 +413,6 @@ To observe the `a` variable,
 1. Continue debugging. You can observe the variable in the **Watch** window.
 
 ::: moniker range="vs-2022"
-
 ## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can ask AI about variables in the **Watch** windows.
@@ -375,7 +429,7 @@ For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can use AI in the **Watch** windows in two ways:
 
 - **Get watch expression suggestions**. Starting in Visual Studio 2026, version 18.4, place your cursor in an empty watch expression cell in the **Name** column. Copilot suggests relevant expressions based on your current debugging context.
-- **Ask Copilot about a variable**. Right-click a variable and select **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png). In this scenario, Copilot already has debugger context, so you don't need to provide it again in chat.
+- **Ask Copilot about a variable**. Hover over a variable, move the pointer over the box that appears, and use the **Analyze with Copilot** ![Screenshot of the Analyze with Copilot button.](../debugger/media/visualstudio/copilot-button.png) button. In this scenario, Copilot already has debugger context, so you don't need to provide it again in chat.
 
 For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
