@@ -141,7 +141,7 @@ The steps on the Syncfusion website might vary depending on the benefit being ac
 
 ## Benefit Status
 
-For time bound benefits, after activating them in the Subscriber Benefits portal, the Syncfusion benefit tiles show the status of the benefits. The Activate button is replaced with a white arrow in a blue circle. Select the arrow to go to the Syncfusion website where Syncfusion licenses can be managed.
+For time-bound benefits, after activating them in the Subscriber Benefits portal, the Syncfusion benefit tiles show the status of the benefits. The Activate button is replaced with a white arrow in a blue circle. Select the arrow to go to the Syncfusion website where Syncfusion licenses can be managed.
 
   > [!div class="mx-imgBorder"]
   > ![Essential Studio Enterprise Edition tile](_img/syncfusion/enterprise-blue-arrow.png "Screenshot of the Essential Studio Enterprise Edition tile with a white arrwo in a blue button highlighted.")
