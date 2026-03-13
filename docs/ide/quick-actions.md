@@ -1,7 +1,7 @@
 ---
 title: Quick Actions, light bulbs, and screwdrivers
 description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
-ms.date: 02/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.custom: awp-ai
@@ -13,7 +13,6 @@ ms.subservice: general-ide
 dev_langs:
 - CSharp
 - VB
-ms.collection: ce-skilling-ai-copilot
 
 #customer intent: As a developer, I want to use Quick Actions in Visual Studio, so I can modify my code files to apply updates and fixes or generate code.
 ---
@@ -52,7 +51,12 @@ You can check your code for available Quick Actions in Visual Studio by scanning
 
    :::image type="content" source="../ide/media/vs2022-lightbulb-hover.png" border="false" lightbox="../ide/media/vs2022-lightbulb-hover.png" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
 
+::: moniker range="visualstudio"
+- Move the insertion cursor (|) into a line of code, and check for Quick Action icons that appear inline with your code.
+::: moniker-end
+::: moniker range="vs-2022"
 - Move the insertion cursor (|) into a line of code, and check for Quick Action icons in the left margin of the code editor.
+::: moniker-end
 
 You can also manually check for any available Quick Actions:
 
@@ -96,6 +100,8 @@ You can configure whether to show Quick Actions when hovering over code by setti
 ::: moniker range="visualstudio"
 
 Open the **Tools** > **Options** pane and expand the **All Settings** > **Text Editor** > **General** section. Select or clear the **Show Quick Info on hover** checkbox.
+
+By default, Quick Action icons appear inline with your code instead of in the left margin. To change this behavior, go to **Tools** > **Options** > **Text Editor** > **Margin**, and clear the **Show Quick Action icon inside the editor** checkbox.
 
 ::: moniker-end
 ::: moniker range="vs-2022"
