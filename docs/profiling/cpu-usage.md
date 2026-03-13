@@ -60,7 +60,6 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![Screenshot that shows Select CPU Usage.](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
 ::: moniker-end
 
-
 If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
 
 > [!NOTE]
@@ -264,7 +263,7 @@ The timeline graph showing your app's CPU use displays performance data with dis
 
 ![Screenshot that shows multi-process data in the timeline.](../profiling/media/visualstudio/cpu-usage-view-multi-process-data.png)
 
-You can filter processes using a dropdown on the top left of the CPU timeline graph. When you select or deselect a process, the profiler summary page and detailed reports are updated based on the new selection(s), enabling more precise analysis.
+You can filter processes by using a dropdown on the top right side of the CPU timeline graph. When you select or deselect a process, the profiler summary page and detailed reports are updated based on the new selection(s), enabling more precise analysis.
 
 ![Screenshot that shows multi-process filter.](../profiling/media/visualstudio/cpu-usage-multi-process-filter.png)
 ::: moniker-end
