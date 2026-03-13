@@ -239,6 +239,7 @@ Copilot provides more precise help for some targeted scenarios, such as those de
 |Feature or scenario|Link|
 |-|-|
 |Agent-directed profiling for CPU usage|See [Profile using the Profiler Agent](../profiling/profile-with-copilot-agent.md).|
+|Debug-time PerfTips with Profiler Agent|See [PerfTips](../profiling/perftips.md#get-ai-powered-optimization-suggestions-from-perftips).|
 |Auto insights for profiling|See [Get AI assistance with Auto insights](../profiling/cpu-insights.md#get-ai-assistance).|
 |Auto insights for instrumentation|See [Get AI assistance](../profiling/instrumentation.md#get-ai-assistance).|
 |Auto insights for .NET Object Allocation|See [Get AI assistance](../profiling/dotnet-alloc-tool.md#get-ai-assistance).|
