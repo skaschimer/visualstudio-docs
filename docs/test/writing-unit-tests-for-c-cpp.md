@@ -49,7 +49,7 @@ The following sections show the basic steps to get you started with C++ unit tes
 
 ::: moniker range=">=vs-2022"
 
-### Create a test project in Visual Studio 2022
+### Create a test project in Visual Studio 
 
 Define and run unit tests inside one or more **test projects**. A test project creates a separate app that calls the code in your executable and reports on its behavior. Create test projects in the same solution as the code you want to test.
 
