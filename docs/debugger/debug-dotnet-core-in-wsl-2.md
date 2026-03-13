@@ -124,7 +124,13 @@ Going one step further, if you are working on an application that needs to run i
 
 With these launch profiles, you can easily switch back and forth between your target distributions, all without leaving the comfort of Visual Studio.
 
+:::moniker range="visualstudio"
+![Screenshot that shows multiple WSL launch profiles in the launch profile list.](media/visualstudio/linux-wsl-2-debugging-switch-target-distribution.png)
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Multiple WSL launch profiles in the launch profile list](media/linux-wsl2-debugging-switch-target-distribution.png)
+:::moniker-end
 
 ## Attach to a running WSL process
 
