@@ -18,6 +18,7 @@ author: John-Hart
 ms.author: johnhart
 manager: mijacobs
 ms.subservice: sharepoint-development
+ms.custom: awp-ai
 ---
 # Import items from an existing SharePoint site
 
