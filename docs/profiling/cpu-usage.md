@@ -116,7 +116,7 @@ For in-depth analysis of the CPU Usage report, first open one of the detailed re
 
 1. From the **Current View** list, you can select one of the detailed report views.
 
-   ![Screenshot that shows the list of detailed reports.](../profiling/media/vs-2022/cpu-use-select-detailed-view.png)
+   ![Screenshot that shows the list of detailed reports.](../profiling/media/visualstudio/cpu-use-select-detailed-view.png)
 
 The following table provides a description of the detailed views.
 
