@@ -81,7 +81,11 @@ If the test code doesn't export the functions that you want to test, add the out
 
 In your unit test `.cpp` file, add an `#include` directive for any header files that declare the types and functions you want to test. Type `#include "`, and then IntelliSense activates to help you choose. Repeat for any more headers.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/cpp-add-includes-test-project.png" alt-text="Screenshot shows Solution Explorer with an #include statement with IntelliSense highlighting a header file in Visual Studio.":::
+::: moniker-end
+
+::: moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/cpp-add-includes-test-project-2022.png" alt-text="Screenshot shows Solution Explorer with an #include statement with IntelliSense highlighting a header file in Visual Studio 2022.":::
 ::: moniker-end
 
@@ -98,7 +102,11 @@ In your unit test `.cpp` file, add an `#include` directive for any header files 
 
 The `.cpp` file in your test project has a stub class and method defined for you. They show an example of how to write test code. The signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the **Test Explorer** window.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/cpp-write-test-methods.png" alt-text="Screenshot shows a stub class and method using the TEST_CLASS and TEST_METHOD macros in Visual Studio.":::
+::: moniker-end
+
+::: moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/cpp-write-test-methods-2022.png" alt-text="Screenshot shows a stub class and method using the TEST_CLASS and TEST_METHOD macros in Visual Studio 2022.":::
 ::: moniker-end
 
@@ -124,7 +132,11 @@ You can add *traits* to test methods to specify test owners, priority, and other
 
 1. On the **Test** menu, choose **Test Explorer**. The following illustration shows a test project before you run tests.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/cpp-test-explorer.png" alt-text="Screenshot shows Test Explorer before running tests in Visual Studio.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/cpp-test-explorer-2022.png" alt-text="Screenshot shows Test Explorer before running tests in Visual Studio 2022.":::
    ::: moniker-end
 
@@ -136,7 +148,11 @@ You can add *traits* to test methods to specify test owners, priority, and other
 
 1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After all the tests run, the window shows the tests that passed and the ones that failed.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/cpp-test-explorer-passed.png" alt-text="Screenshot shows Test Explorer after tests are run in Visual Studio.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/cpp-test-explorer-passed-2022.png" alt-text="Screenshot shows Test Explorer after tests are run in Visual Studio 2022.":::
    ::: moniker-end
 
@@ -168,7 +184,11 @@ After you initialize CodeLens, you can see the test status icons above each unit
 
 Choose the icon for more information, or to run or debug the unit test:
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/cpp-test-codelens-run-debug.png" alt-text="Screenshot shows C++ CodeLens icon after you select it for details in Visual Studio.":::
+::: moniker-end
+
+::: moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/cpp-test-codelens-run-debug-2022.png" alt-text="Screenshot shows C++ CodeLens icon after you select it for details in Visual Studio 2022.":::
 ::: moniker-end
 
