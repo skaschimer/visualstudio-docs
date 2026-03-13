@@ -1,7 +1,7 @@
 ---
 title: Developer Community data privacy
 description: Learn how to manage your private data when you create problem reports for the Developer Community to review.
-ms.date: 3/4/2026
+ms.date: 03/12/2026
 ms.topic: best-practice
 helpviewer_keywords:
 - developer community privacy
@@ -65,7 +65,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 - Web debugger log files, if they exist
 - Service Hub logs and MEF error logs, if they exist
 - Python logs, if they exist
-- Razor LSP editor logs, if they exist
+- Razor editor logs, if they exist
 - Windows Forms logs, if they exist
 - A screenshot, if you choose to include it
 - Recording data, if you choose to include a recording, which includes:
