@@ -254,7 +254,7 @@ Expand the generated methods to show what's going on:
 
 ### Analyze multi-process performance
 
-Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This features allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
+Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This feature allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
 
 You need to collect multi-process data before you can analyze it. To collect the data, select **Collect data from multiple processes** for the CPU Usage tool in the Performance Profiler.
 
@@ -274,7 +274,7 @@ You can filter processes using a dropdown on the top left of the CPU timeline gr
 
 ### Analyze multi-process performance
 
-Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This features allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
+Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This feature allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
 
 You need to collect multi-process data before you can analyze it. To collect the data, select **Collect data from multiple processes** for the CPU Usage tool in the Performance Profiler.
 
