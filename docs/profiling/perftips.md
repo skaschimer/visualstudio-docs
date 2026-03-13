@@ -46,8 +46,7 @@ In Visual Studio 2026 version 18.4 and later, PerfTips integrate with the Copilo
 
 When the debugger pauses at a breakpoint or after a step operation, the PerfTip displays elapsed time along with additional performance signals. Click the PerfTip to ask Copilot for optimization suggestions. The Profiler Agent captures runtime data—including elapsed time, CPU usage, and memory allocations—and uses Copilot to pinpoint performance hot spots and suggest targeted code fixes.
 
-<!-- TODO: Add screenshot when media asset is available -->
-<!-- ![Screenshot of PerfTip with Copilot optimization suggestion.](../profiling/media/profiler-agent-perf-tip.png) -->
+![Screenshot of PerfTip with Copilot optimization suggestion.](../profiling/media/visualstudio/profiler-agent-perf-tips.png)
 
 ### Prerequisites
 
