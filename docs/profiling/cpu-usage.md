@@ -50,13 +50,13 @@ Usually, the local machine best replicates installed app execution. To collect d
 1. Select **Debug** > **Performance Profiler**.
 
 ::: moniker range="visualstudio"
-1. On the **Flexible** tab, select **CPU Usage**. Then select **Start**.
+3. On the **Flexible** tab, select **CPU Usage**. Then select **Start**.
 
     ![Screenshot that shows Select CPU Usage.](../profiling/media/visualstudio/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-1. Under **Available tools**, select **CPU Usage**, and then select **Start**.
+3. Under **Available tools**, select **CPU Usage**, and then select **Start**.
     ![Screenshot that shows Select CPU Usage.](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
 ::: moniker-end
 
@@ -66,7 +66,7 @@ If you enable the **Start with collection paused** option before starting the pr
 > [!NOTE]
 > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project). For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
-1. After the app starts, the diagnostic session begins and displays CPU utilization data. When you're finished collecting data, select **Stop Collection**.
+4. After the app starts, the diagnostic session begins and displays CPU utilization data. When you're finished collecting data, select **Stop Collection**.
 
     ::: moniker range="visualstudio"
     ![Screenshot that shows the Stop Collection button.](../profiling/media/visualstudio/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
