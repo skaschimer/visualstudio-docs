@@ -49,15 +49,16 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 1. Select **Debug** > **Performance Profiler**.
 
+::: moniker range="visualstudio"
+1. On the **Flexible** tab, select **CPU Usage**. Then select **Start**.
+
+    ![Screenshot that shows Select CPU Usage.](../profiling/media/visualstudio/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
+::: moniker-end
+
+::: moniker range="vs-2022"
 1. Under **Available tools**, select **CPU Usage**, and then select **Start**.
-
-    ::: moniker range="visualstudio"
     ![Screenshot that shows Select CPU Usage.](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
-    ::: moniker-end
-
-    ::: moniker range="vs-2022"
-    ![Screenshot that shows Select CPU Usage.](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
-    ::: moniker-end
+::: moniker-end
 
 
     If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
