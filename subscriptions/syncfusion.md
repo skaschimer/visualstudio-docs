@@ -51,7 +51,7 @@ Subscribers can go to [Visual Studio Subscriptions](https://my.visualstudio.com/
 ## How to activate Syncfusion benefits
 
 > [!IMPORTANT]
-> If you’re entitled to multiple Syncfusion benefits, you must activate each benefit separately. If you qualify for the same benefit under more than one Visual Studio Subscription, each activation requires a unique email address at the time of activation on the Syncfusion website.
+> If a subscriber is entitled to multiple Syncfusion benefits, each benefit must be activated separately. If a subscriber qualifies for the same benefit under more than one Visual Studio Subscription, each activation requires a unique email address at the time of activation on the Syncfusion website.
 
 ## General activation steps
 
