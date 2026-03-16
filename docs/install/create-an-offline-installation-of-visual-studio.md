@@ -59,7 +59,6 @@ Here are some common local layout creation examples. More examples can be found 
     vs_enterprise.exe --layout c:\localVSlayout
     ```
 
-
 ::: moniker range=">=vs-2022"
 
    > [!NOTE]
@@ -87,7 +86,6 @@ When you install Visual Studio from a local layout, the Visual Studio Installer 
 
 For example, if you created a local installation layout with the following command:
 
-
 ::: moniker range=">=vs-2022"
 
 ```shell
@@ -101,6 +99,11 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 ```
 
 ::: moniker-end
+
+> [!IMPORTANT]
+> When Visual Studio is installed from an offline layout, the installer records the layout path in the `C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances\<InstanceID>\state.json` file.
+> Future Updates or component additions expect the layout to remain at the same path.
+> If the layout is moved to a different location, the installer may no be able to find the required packages.
 
 > [!IMPORTANT]
 > If you're using Visual Studio Community, you might be prompted to sign in within 30 days of installation, but it won't impact your ability to use the product.
