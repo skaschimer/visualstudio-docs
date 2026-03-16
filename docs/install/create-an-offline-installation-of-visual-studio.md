@@ -103,7 +103,7 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 > [!IMPORTANT]
 > When Visual Studio is installed from a local layout, the installer records the layout path in the `C:\ProgramData\Microsoft\VisualStudio\Packages\_Instances\<InstanceID>\state.json` file.
 > Future Updates or component additions expect the layout to remain at the same path.
-> If the layout is moved to a different location, the installer may not be able to find the required packages.
+> If the local layout is moved to a different location, the installer may not be able to find the required packages.
 
 > [!IMPORTANT]
 > If you're using Visual Studio Community, you might be prompted to sign in within 30 days of installation, but it won't impact your ability to use the product.
