@@ -77,7 +77,7 @@ Use one of the following methods to open the **Python Environments** window:
 
    :::moniker-end
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio." lightbox="media/environments/environments-view-all-2022.png":::
 
