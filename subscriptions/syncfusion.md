@@ -63,8 +63,7 @@ Subscribers can go to [Visual Studio Subscriptions](https://my.visualstudio.com/
   > [!TIP]
   > To find the Syncfusion tiles, select the **Tools** tab to view a smaller number of tiles.
 
-3.Locate the eligible Syncfusion benefit tile and select **"Activate"**.
-
+3. Locate the eligible Syncfusion benefit tile and select **"Activate"**.
     :::image type="content" source="_img/syncfusion/enterprise-benefit-tile.png" alt-text="Essential Studio Enterprise Edition benefit tile displaying the product name, 12 months included offer, and a description of 1,600+ UI controls for web, mobile, and desktop development. A blue Activate button is highlighted with a red rectangle in the lower right corner of the tile.":::
 
 4. Complete the remaining steps on the Syncfusion website.
