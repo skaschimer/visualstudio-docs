@@ -114,7 +114,7 @@ When you install from a layout, the installer on the client always looks for the
 
 > [!IMPORTANT]
 > Remember that the layout location should remain the same for each Visual Studio instance.
-> For more details, see [Install Visual Studio from the local layout](create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-layout) .
+> For more details, see [Install Visual Studio from the local layout](create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-layout).
 
 If you want to explicitly prevent the Visual Studio Installer from attempting to download any missing content from Microsoft hosted servers on the web, you can use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will fail.  Also, if `--noWeb` is used and the layout is hosted on your intranet web servers as opposed to a file network share, then the setup will fail. 
 
