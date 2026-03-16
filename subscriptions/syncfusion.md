@@ -20,7 +20,7 @@ Visual Studio Subscribers receive access to select Syncfusion benefits at no ext
 
 **BoldSign – eSignature API** provides access to an eSignature service that includes 50 API document credits. This benefit is available for 12 months from activation.
 
-**Bold BI** provides access to an analytics platform, with interactive dashboards and reports. This benefit is available for six months from activation. 
+**Bold BI** provides access to an analytics platform, with interactive dashboards and reports. This benefit is available for six months from activation.
 
 ## Benefits for Dev Essentials members
 
@@ -28,7 +28,7 @@ Visual Studio Subscribers receive access to select Syncfusion benefits at no ext
 
 **Syncfusion Succinctly Series** provides access to a digital library of concise eBooks covering software development topics. Unlimited access is included as part of a Dev Essentials membership.
 
-Use the Benefit Eligibility table to see which Syncfusion benefits are available with select Visual Studio Subscriptions. 
+Use the Benefit Eligibility table to see which Syncfusion benefits are available with select Visual Studio Subscriptions.
 
 ## Benefit Eligibility
 
@@ -41,7 +41,7 @@ Use the Benefit Eligibility table to see which Syncfusion benefits are available
 | [Essential Studio UI Edition](https://www.syncfusion.com/vsde-esui-offer) | Dev Essentials | N/A | Six months | N/A |
 | [Syncfusion Succinctly Series](https://www.syncfusion.com/succinctly-free-ebooks) | Dev Essentials | N/A | Ongoing | N/A |
 
-<sup>*<sup> ***Includes:** Visual Studio Enterprise NFR, FTE, Most Value Partner (MVP) and Regional Director (RD), Microsoft AI Cloud Partner Program (MAICPP), Microsoft Partner Program (MPN), ISV, Bug Bounty, Microsoft Certified Trainer (MCT), Student Ambassadors, Alumni, and Xbox (NFR Basic), Azure Dev Tools for Teaching (ADTfT), Microsoft Startups, We. Comms, Open-Source Heroes.*
+***Includes:** Visual Studio Enterprise NFR, FTE, Most Value Partner (MVP) and Regional Director (RD), Microsoft AI Cloud Partner Program (MAICPP), Microsoft Partner Program (MPN), ISV, Bug Bounty, Microsoft Certified Trainer (MCT), Student Ambassadors, Alumni, and Xbox (NFR Basic), Azure Dev Tools for Teaching (ADTfT), Microsoft Startups, We. Comms, Open-Source Heroes.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Enterprise annual and Visual Studio Professional annual subscriptions as cloud subscriptions. Current customers continue to have the same experience and ability to renew, increase, decrease, or cancel subscriptions. New customers are encouraged to go to [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
@@ -55,15 +55,15 @@ Subscribers can go to [Visual Studio Subscriptions](https://my.visualstudio.com/
 
 ## General activation steps
 
-1. Sign in to https://my.visualstudio.com.
-1. Select the Visual Studio Subscription that includes the Syncfusion benefit.
+1. Sign in to <https://my.visualstudio.com>.
+2. Select the Visual Studio Subscription that includes the Syncfusion benefit.
 
     :::image type="content" source="_img/syncfusion/subscriptions-benefits-page.png" alt-text="Screenshot of the Subscription Benefits page.":::
 
   > [!TIP]
   > To find the Syncfusion tiles, select the **Tools** tab to view a smaller number of tiles.
 
-3. Locate the eligible Syncfusion benefit tile and select **"Activate"**.
+3.Locate the eligible Syncfusion benefit tile and select **"Activate"**.
 
     :::image type="content" source="_img/syncfusion/enterprise-benefit-tile.png" alt-text="Essential Studio Enterprise Edition benefit tile displaying the product name, 12 months included offer, and a description of 1,600+ UI controls for web, mobile, and desktop development. A blue Activate button is highlighted with a red rectangle in the lower right corner of the tile.":::
 
@@ -73,9 +73,9 @@ The steps on the Syncfusion website might vary depending on the benefit being ac
 
 ## How activation differs by Syncfusion benefit
 
-**Essential Studio Enterprise Edition**
+## Essential Studio Enterprise Edition
 
-*(Visual Studio Enterprise and Professional)*
+(Visual Studio Enterprise and Professional)
 
 1. After the user selects **"Activate"** in the Subscriber portal, they're redirected to Syncfusion’s website.
 
@@ -92,18 +92,18 @@ The steps on the Syncfusion website might vary depending on the benefit being ac
 
 5. Follow the onscreen steps to complete the activation process.
 
-**BoldSign**
+## BoldSign
 
-*(Visual Studio Enterprise only)*
+(Visual Studio Enterprise only)
 
 1. After selecting **"Activate"** in the Subscriber portal, subscribers are redirected to the **BoldSign** activation page.
-2. If an account doesn’t exist, create one by entering an email address and selecting region. 
+2. If an account doesn’t exist, create one by entering an email address and selecting region.
 3. Select the **"Start Using BoldSign"** button. This triggers a verification email with a six-digit code sent to the subscriber.
 
     :::image type="content" source="_img/syncfusion/bold-sign-activation-page.png" alt-text="BoldSign activation page with required fields highlighted.":::
 
 4. If BoldSign account already exists, sign in by entering the associated email address and password. A verification email with a six-digit code sent to the user’s inbox.
- 
+
     :::image type="content" source="_img/syncfusion/bold-sign-sign-in.png" alt-text="Screenshot of BoldSign sign in screen.":::
 
 5. Enter the verification code to continue.
@@ -113,20 +113,20 @@ The steps on the Syncfusion website might vary depending on the benefit being ac
 6. On the next screen, enter billing information in the event that more than the **50 API document credits** included in this benefit are needed.
 7. Activation is complete. The BoldSign benefit is now available for use.
 
-**Bold BI**
+## Bold BI
 
-*(Visual Studio Enterprise and Professional)*
+(Visual Studio Enterprise and Professional)
 
 1. After selecting **"Activate"** in the Subscriber portal, the subscriber is redirected to the **Bold BI** activation page.
-2. Sign in or create an account to continue. 
-3. To create an account, complete the registration form, including entering a domain name. If an account already exists, sign in and enter a domain name to continue. 
+2. Sign in or create an account to continue.
+3. To create an account, complete the registration form, including entering a domain name. If an account already exists, sign in and enter a domain name to continue.
 4. Accept Terms and Conditions and continue.
 
     :::image type="content" source="_img/syncfusion/bold-bi-activation-landing-page.png" alt-text="Screenshot of Bold BI activation landing page with the required fields highlighted":::
 
-**Essential Studio UI Edition**
+## Essential Studio UI Edition
 
-*(Dev Essentials)*
+(Dev Essentials)
 
 1. After selecting **"Activate"** in the Subscriber portal, the subscriber is redirected to Syncfusion’s website.
 2. **Terms and Conditions** must be accepted **before activating the benefit** on their website.
@@ -140,7 +140,7 @@ The steps on the Syncfusion website might vary depending on the benefit being ac
 
 5. Follow the onscreen steps to complete the activation process.
 
-**Syncfusion Succinctly Series** for Dev Essentials doesn't require activation. However, a code is needed to access the concise list of eBook titles. From the benefits portal, locate the Syncfusion Succinctly Series tile and select the **"Get Code"** button to open the eBook library and download titles. 
+**Syncfusion Succinctly Series** for Dev Essentials doesn't require activation. However, a code is needed to access the concise list of eBook titles. From the benefits portal, locate the Syncfusion Succinctly Series tile and select the **"Get Code"** button to open the eBook library and download titles.
 
 ## Benefit Status
 
@@ -154,7 +154,7 @@ In the Subscriber Benefits portal, the Syncfusion tiles show the activation date
   > [!div class="mx-imgBorder"]
   > ![Essential Studio Enterprise Edition tile and dates](_img/syncfusion/enterprise-activation-status.png "Screenshot of the Essential Studio Enterprise Edition tile with the Active status, start and end date highlighted.")
 
-### FAQs
+## FAQs
 
 **Do Syncfusion benefits renew automatically?**
 No. Syncfusion benefits are time bound where applicable and don't renew automatically unless explicitly stated.
@@ -179,23 +179,23 @@ The BoldSign benefit includes 50 API document credits. During activation, a cred
 For general information about Syncfusion benefits available through Visual Studio Subscriptions, see [Syncfusion benefits for Visual Studio subscribers](https://www.syncfusion.com/explore/visual-studio-subscription-benefits/). Included Syncfusion benefits can be viewed in the [Subscriber portal](https://www.myvisualstudio.com/Benefits).
 Use the following Syncfusion resources to access documentation, support, and product‑specific guidance for activated benefits:
 
-**Essential Studio Enterprise Edition and Essential Studio UI Edition**
+### Essential Studio Enterprise Edition and Essential Studio UI Edition
 
-+ Support: https://support.syncfusion.com/
-+ Documentation: https://help.syncfusion.com/
-+ Release notes: https://help.syncfusion.com/common/essential-studio/release-notes/v32.2.3
++ Support: <https://support.syncfusion.com/>
++ Documentation: <https://help.syncfusion.com/>
++ Release notes: <https://help.syncfusion.com/common/essential-studio/release-notes/v32.2.3>
 
-**BoldSign – eSignature API**
+### BoldSign – eSignature API
 
-+ Support: https://support.boldsign.com/
-+ Documentation: https://developers.boldsign.com/api-overview/getting-started/
-+ Release notes: https://developers.boldsign.com/release-notes/v4.11.0/
++ Support: <https://support.boldsign.com/>
++ Documentation: <https://developers.boldsign.com/api-overview/getting-started/>
++ Release notes: <https://developers.boldsign.com/release-notes/v4.11.0/>
 
-**Bold BI**
+### Bold-BI
 
-+ Support: https://www.boldbi.com/support/
-+ Documentation: https://www.boldbi.com/resources/documentation/
-+ Release notes: https://www.boldbi.com/resources/release-history/14-2/
++ Support: <https://www.boldbi.com/support/>
++ Documentation: <https://www.boldbi.com/resources/documentation/>
++ Release notes: <https://www.boldbi.com/resources/release-history/14-2/>
 
 ### Next Steps
 
