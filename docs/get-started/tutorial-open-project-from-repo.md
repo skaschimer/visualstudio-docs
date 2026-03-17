@@ -63,7 +63,7 @@ You can view a solution in **Solution View** by double-clicking its `.sln` file.
 
 You can select **Switch Views** to switch between folder view and solution view.
 
-:::image type="content" source="./media/visualstudio/git-solution-explorer-switch-views.png" alt-text="Screenshot of a C# project in Git that's open in Solution Explorer":::
+:::image type="content" source="./media/visualstudio/git-solution-explorer-switch-views.png" alt-text="Screenshot of a C# project in Git that's open in Solution Explorer.":::
 
 > [!TIP]
 > You can change from the default Folder View to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository**.
@@ -235,7 +235,7 @@ For more information, see:
 ::: moniker range=">=vs-2022"
 
 - [About Git in Visual Studio](../version-control/git-with-visual-studio.md)
-- [Brpwse a repo](../version-control/git-browse-repository.md)
+- [Browse a repo](../version-control/git-browse-repository.md)
 - [Manage a repo](../version-control/git-manage-repository.md)
 
 ::: moniker-end
