@@ -98,7 +98,7 @@ Many personalization options are exposed through the [Environment Options](../id
 
 :::moniker range="visualstudio"
 
-You can change the color theme between Dark, Light, and other colors. Visual Studio 2026 introduces new color themes, including Cool Breeze, Spicy Red, Bubblegum, and more. If you enter *theme* in the search box, you can quickly set the theme to your preferred color. To apply the Dark theme, double-click **Tools** > **Theme** > **Dark** in the results list. In the **Tools** > **Options** pane, the **Color theme** option is located in the **All Settings** > **Environment** > **Visual Experience** > **General** section.
+You can change the color theme between Dark, Light, and other colors. Visual Studio includes color themes such as Cool Breeze, Spicy Red, Bubblegum, and more. For a visual preview of all available themes, see [Visual Studio color themes](visual-studio-color-themes.md). If you enter *theme* in the search box, you can quickly set the theme to your preferred color. To apply the Dark theme, double-click **Tools** > **Theme** > **Dark** in the results list. In the **Tools** > **Options** pane, the **Color theme** option is located in the **All Settings** > **Environment** > **Visual Experience** > **General** section.
 
 To change colorization options in the editor, enter *fonts* in the search box. Double-click the **All Settings** > **Environment** > **Fonts and Colors** entry in the results list to open the **Options** pane. For more information, see [Change fonts, colors, and themes](how-to-change-fonts-and-colors-in-visual-studio.md).
 
@@ -144,5 +144,8 @@ You can customize the **Tools** menu to launch external tools. For more informat
 
 ## Related content
 
+:::moniker range="visualstudio"
+- [Visual Studio color themes](visual-studio-color-themes.md)
+:::moniker-end
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md)

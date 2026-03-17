@@ -1,7 +1,7 @@
 ---
 title: How Copilot Chat uses context
 description: Learn how GitHub Copilot Chat understands your codebase, builds context, and applies code suggestions in Visual Studio.
-ms.date: 10/31/2025
+ms.date: 02/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
@@ -9,6 +9,8 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
+ms.ai-usage: ai-assisted
+ms.custom: awp-ai
 monikerRange: '>= vs-2022'
 ---
 
@@ -54,6 +56,8 @@ Memories use intelligent detection to understand your team's preferences as you 
 
 When such instances are detected, you see a confirmation nudge to save the preference.
 
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-memories.png" alt-text="Screenshot of when Copilot detects a preference to add to memories.":::
 
 Copilot then categorizes the preference into one of three files:
@@ -61,6 +65,21 @@ Copilot then categorizes the preference into one of three files:
 - `.editorconfig` for coding standards
 - `CONTRIBUTING.md` for best practices, guidelines, and architectural standards.
 - `README.md` for high-level project information
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-memories.png" alt-text="Screenshot of the memory detected notification showing options to save the preference to user or repo level instructions.":::
+
+When a preference is detected, you can choose where to save it:
+
+- **User-level preferences**: Saved to `%USERPROFILE%/copilot-instructions.md`. These preferences apply to all your Copilot sessions across projects.
+- **Repo-level preferences**: Saved to `/.github/copilot-instructions.md`. These preferences are shared with your team via the repository.
+
+This approach lets you personalize Copilot for your own workflow while also establishing shared coding standards for your team.
+
+:::moniker-end
 
 As you continue to prompt Copilot, you teach it to respond more effectively to your needs and help your team by documenting development best practices that enhance their future Copilot interactions.
 

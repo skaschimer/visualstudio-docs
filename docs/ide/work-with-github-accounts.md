@@ -1,6 +1,6 @@
 ---
 title: Add GitHub accounts to your keychain
-ms.date: 01/15/2026
+ms.date: 02/18/2026
 ms.topic: how-to
 description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
 author: anandmeg
@@ -38,30 +38,27 @@ If you sign in with a GitHub account that doesn't have an active GitHub Copilot 
 
 If you choose to not sign in with GitHub at first launch, you can add your GitHub account later using the **Copilot Chat window**, **profile card**, or **Account Settings** dialog.
 
+>*If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.*
+
 ### Add a GitHub account from the Copilot Chat window
 
-Select the GitHub Copilot badge in the upper-right corner of the IDE and select **Open Chat Window** from the dropdown, or use **Ctrl+\\** to open the Copilot chat window.
-Then select one of the following:
-- **Sign up for Copilot Free** to setup Copilot Free for a new or existing GitHub account
-- **Sign up with Google** to sign in with a Google account linked to your GitHub account
+Select the GitHub Copilot badge in the upper-right corner of the IDE and select **Open Chat Window** from the dropdown, or use **Ctrl+\\** to open the Copilot chat window. 
 
-:::moniker range="visualstudio"
-
-- **Sign in** to sign in with an existing GitHub account
-
-:::image type="content" source="media/visualstudio/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
-
-:::moniker-end
+In the Chat window, enter a prompt to start using Copilot. The **Get started with Copilot Free** dialog appears.Then select one of the following:
+- **Continue with GitHub** to setup Copilot Free for a new or existing GitHub account
+- **Continue with Google** to sign in with a Google account linked to your GitHub account
 
 :::moniker range="vs-2022"
 
-- **Sign in** to sign in with an existing GitHub account
-- 
-:::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+:::image type="content" source="../ide/media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
 :::moniker-end
 
+:::moniker range="visualstudio"
 
+:::image type="content" source="../ide/media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+
+:::moniker-end
 
 ### Add a GitHub account from the **profile card**
 

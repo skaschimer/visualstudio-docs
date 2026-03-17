@@ -2,7 +2,7 @@
 title: Modify Visual Studio Workloads and Components
 titleSuffix: ''
 description: Modify your Visual Studio installation with the Visual Studio Installer. Add or remove workloads, components, and language packs.
-ms.date: 12/02/2025
+ms.date: 2/24/2026
 ms.topic: how-to
 ms.custom: vs-acquisition
 helpviewer_keywords:
@@ -88,7 +88,7 @@ To modify your Visual Studio installation, you need to open Visual Studio Instal
 Workloads contain the components you need for the programming language or platform that you use. Use workloads to modify Visual Studio so that it supports the work you want to do.
 
 > [!TIP]
-> For more information about which tools and component bundles you need for development, see [Visual Studio workloads](https://visualstudio.microsoft.com/vs/#workloads).
+> For more information about which tools and component bundles you need for development, see [Visual Studio workloads](workload-and-component-ids.md).
 
 1. In Visual Studio Installer, on the **Workloads** tab, select the workloads that you want.
 
@@ -115,7 +115,7 @@ You can also use a [configuration file to modify an existing installation to add
 Workloads contain the components you need for the programming language or platform that you use. Use workloads to modify Visual Studio so that it supports the work you want to do.
 
 > [!TIP]
-> For more information about which tools and component bundles you need for development, see [Visual Studio workloads](https://visualstudio.microsoft.com/vs/#workloads).
+> For more information about which tools and component bundles you need for development, see [Visual Studio workloads](workload-and-component-ids.md).
 
 1. In Visual Studio Installer, on the **Workloads** tab, select the workloads that you want.
 

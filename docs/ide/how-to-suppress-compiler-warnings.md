@@ -221,15 +221,23 @@ In some cases, you might want to suppress NuGet compiler warnings for a single N
 
 1. In **Solution Explorer**, select the NuGet package you want to suppress compiler warnings for.
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+   ![Screenshot of NuGet package in Solution Explorer.](media/visualstudio/nuget-package-with-warning.png)
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    ![Screenshot of NuGet package in Solution Explorer.](media/vs-2022/nuget-package-with-warning.png)
    :::moniker-end
 
 1. From the right-click or context menu, select **Properties**.
 
-1. In the **Suppress warnings** box of the package's properties, enter the warning number you want to suppress for this package. If you want to suppress more than one warning, use a comma to separate the warning numbers.
+1. In the **Suppress Warnings** box of the package's properties, enter the warning number you want to suppress for this package. If you want to suppress more than one warning, use a comma to separate the warning numbers.
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+   ![Screenshot of NuGet package properties.](media/visualstudio/nuget-properties-nowarn.png)
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    ![Screenshot of NuGet package properties](media/vs-2022/nuget-properties-nowarn.png)
    :::moniker-end
 

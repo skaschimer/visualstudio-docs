@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot Free in Visual Studio'
 description: Use GitHub Copilot Completions, Chat, and Edits for free in Visual Studio.
-ms.date: 11/26/2025
+ms.date: 2/18/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
@@ -24,33 +24,36 @@ To get started with Copilot Free in Visual Studio, you need:
 
 ## Get started with Copilot Free in Visual Studio
 
-With Visual Studio version 17.14, you can [activate Copilot Free at first launch](work-with-github-accounts.md#add-a-github-account-at-first-launch).
-You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) later as follows:
+With Visual Studio version 17.14 or later, you can [activate Copilot Free at first launch](work-with-github-accounts.md#add-a-github-account-at-first-launch).
+You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) at any time by following the steps below.
 
-1. Use **Ctrl+\\+C** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window to Sign In** from the dropdown to open chat.
+>*If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.*
 
-:::moniker range="<=vs-2022"
+1. Use **Ctrl+\\+C** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window** from the dropdown to open chat.
 
-2. Select **Sign up for Copilot Free** or **Sign up with Google**
+1. In the Chat window, enter a prompt to start using Copilot. The **Get started with Copilot Free** dialog appears.
 
-   :::image type="content" source="../ide/media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+1. Select **Continue with GitHub** or **Continue with Google**.
 
-:::moniker-end
+   :::moniker range="<=vs-2022"
 
-:::moniker range="visualstudio"
+      :::image type="content" source="media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
-2. Select **Sign up for Copilot Free** or **Sign up with Google**
+   :::moniker-end
 
-   :::image type="content" source="../ide/media/visualstudio/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+   :::moniker range="visualstudio"
 
-:::moniker-end
+      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
-3. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
-4. Once finished, you’re redirected back to Visual Studio. 
+   :::moniker-end
+
+1. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account.
+
+1. When finished, you're redirected back to Visual Studio.
 
 ## Copilot Free usage limits in Visual Studio
 
-Copilot Free provides a limited number of code completions and chat responses for free per month. When you reach your monthly usage limit for chat or code completions or both, you'll get a notification and notice a change in Copilot functionality.
+Copilot Free provides a limited number of code completions and chat responses for free each month. When you reach your monthly usage limit for chat or code completions, or both, you receive a notification and notice a change in Copilot functionality.
 
 :::moniker range="visualstudio"
 
@@ -74,7 +77,7 @@ You can also check the current status of your Copilot Free account on the [GitHu
 
 ### Usage limit reached
 
-When you hit the usage limits, your Copilot experience in Visual Studio may be impacted as follows:
+When you reach the usage limits, your Copilot experience in Visual Studio might be affected as follows:
 
 :::row::: 
     :::column span="1"::: 
@@ -95,13 +98,13 @@ When you hit the usage limits, your Copilot experience in Visual Studio may be i
 :::row::: 
 :::row-end:::
 
-When you reach usage limits for Copilot Free, you can wait for them to reset at the end of the monthly cycle or upgrade to Copilot Pro to continue using Copilot.
+When you reach usage limits for Copilot Free, wait for the limits to reset at the end of the monthly cycle or upgrade to Copilot Pro to continue using Copilot.
 
 ## Frequently asked questions
 
 #### Who can access Copilot Free?
 
-Copilot Free is not available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
+Copilot Free isn't available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
 For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
 #### Can I turn off completions to save them for later?

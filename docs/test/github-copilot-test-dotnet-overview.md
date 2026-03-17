@@ -1,10 +1,11 @@
 ---
 title: Overview of GitHub Copilot testing for .NET
 description: Learn about GitHub Copilot testing for .NET in Visual Studio.
-ms.date: 02/06/2026
+ms.date: 02/26/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 ms.custom: awp-ai
+ai-usage: ai-assisted
 dev_langs:
   - CSharp
 helpviewer_keywords:
@@ -20,7 +21,7 @@ monikerRange: '>= visualstudio'
 
 # Overview of GitHub Copilot testing for .NET
 
-GitHub Copilot testing for .NET is a new capability in GitHub Copilot Chat that is integrated into Visual Studio. This feature automates the creation, running, and testing of C# code for entire projects, solutions, files, classes, or members. It is designed for C# developers who want to quickly bootstrap comprehensive test coverage without manually writing every test case. GitHub Copilot testing can generate tests for xUnit, NUnit, and MSTest test frameworks.
+GitHub Copilot testing for .NET is a capability in GitHub Copilot Chat that is integrated into Visual Studio. This feature automates the creation, running, and testing of C# code for entire projects, solutions, files, classes, or members. It is designed for C# developers who want to quickly bootstrap comprehensive test coverage without manually writing every test case. GitHub Copilot testing can generate tests for xUnit, NUnit, and MSTest test frameworks.
 
 Unlike one-off prompts in Copilot agent mode, GitHub Copilot testing for .NET offers a guided, long-running experience designed specifically for test generation. It produces deterministic results grounded in the C# compiler and language semantics, with deep awareness of your codebase, file structure, and testing conventions to ensure predictable, context-appropriate tests.
 
@@ -46,7 +47,7 @@ GitHub Copilot testing for .NET offers a comprehensive experience compared to th
 
 - **Automated test generation at scale:** Create tests for single files, multiple files in a single project, or entire solutions.
 - **Command-based interaction:** Use supported commands and parameters (listed in the `/help` message within GitHub Copilot testing).
-- **Flexible prompts:** Use structured `@Test #<target>` syntax or freeform natural language prompts to describe what you want to test.
+- **Flexible prompts:** Target specific code using the structured `@Test #<target>` syntax, or use freeform natural language prompts to describe what you want to test.
 
 ## What GitHub Copilot testing can do
 
@@ -104,7 +105,7 @@ The agent can write to the following files:
 - Solution files (indirectly through Visual Studio APIs, such as when adding a project)
 - Test source files
 
-## Security warning
+## Security considerations
 
 When you first run GitHub Copilot testing for .NET, Copilot requests your consent to execute LLM-generated code on your machine. This may include actions such as installing or restoring NuGet packages and running tests. If you don't grant general consent, GitHub Copilot testing will prompt you for explicit approval before performing any such operation.
 

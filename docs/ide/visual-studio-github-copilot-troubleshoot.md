@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot GitHub Copilot state
 description: Learn how to use the GitHub Copilot badge in the Visual Studio IDE to troubleshoot Copilot's state and resolve common issues.
-ms.date: 11/20/2025
+ms.date: 2/19/2026
 ms.update-cycle: 180-days
 ms.topic: troubleshooting-problem-resolution
 author: anandmeg
@@ -56,21 +56,9 @@ The GitHub Copilot service may be temporarily down.
 
 Occasionally, you may need to refresh your credentials due to expected timeouts.
 
-:::moniker range="visualstudio"
+**Action:** Select **Refresh Your GitHub Credentials** from the Copilot badge in the upper-right corner of your Visual Studio environment to reauthenticate your GitHub account and sign in again.
 
-**Action:** Select **Refresh credentials** in the **Git Copilot Chat** pane to reauthenticate your GitHub account and sign in again.
-
-:::image type="content" source="media/visualstudio/copilot-refresh-credentials.png "alt-text="Screenshot that shows the Refresh credentials button.":::
-
-:::moniker-end
-
-:::moniker range="<=vs-2022"
-
-**Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment to reauthenticate your GitHub account and sign in again.
-
-:::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png":::
-
-:::moniker-end
+:::image type="content" source="media/visualstudio/copilot-badge-dropdown-refresh-credentials.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png":::
 
 > [!NOTE]
 > **Known issue:** If you don’t see the option to refresh your credentials for the GitHub account in the  **All Accounts** window, you can resolve this by removing and re-adding your GitHub account. For more information, refer to the  [Dev Community ticket](https://developercommunity.visualstudio.com/t/Copilot-badge-refresh-credentials-not-wo/10667230?q=refresh+credentials) related to this issue.

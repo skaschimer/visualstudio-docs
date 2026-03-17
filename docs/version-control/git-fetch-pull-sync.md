@@ -12,7 +12,7 @@ ms.subservice: general-ide
 
 Visual Studio helps you keep your local branch synchronized with your remote branch through download (fetch and pull) and upload (push) operations.
 
-You can fetch, pull, and sync in Visual Studio 2022 by using the **Git** menu.
+You can fetch, pull, and sync in Visual Studio 2022 and later by using the **Git** menu.
 
 :::image type="content" source="media/vs-2022/git-menu-fetch.png" alt-text="The Git menu with the Fetch option highlighted in Visual Studio 2022.":::
 
@@ -24,7 +24,19 @@ In the preceding screenshot, the **Fetch** option is highlighted. The Git menu a
 
 You can also use the button controls in the **Git Changes** window to perform these operations, too.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-changes-window-options.png" alt-text="Screenshot that shows the Git Changes window with the Fetch, Pull, Push, and Sync button controls highlighted in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-changes-window-options.png" alt-text="The Git Changes window with the Fetch, Pull, Push, and Sync button controls highlighted in Visual Studio 2022.":::
+
+:::moniker-end
+
+
 
 From left to right, the button controls include **Fetch**, **Pull**, **Push**, and **Sync**.
 

@@ -23,7 +23,13 @@ translation.priority.ht:
 
 1. The first time you start the remote debugger (or before you have configured it), the **Remote Debugging Configuration** wizard appears.  
   
-    ::: moniker range=">= vs-2022"
+    ::: moniker range="visualstudio"
+    In most scenarios, select **Configure remote debugging**.
+
+    ![Screenshot of remote debugger configuration.](../media/visualstudio/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
     In most scenarios, choose **Next** until you get to the **Configure the Windows Firewall** page of the wizard.
 
     ![Screenshot of remote debugger configuration.](../media/vs-2022/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  

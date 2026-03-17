@@ -1,7 +1,7 @@
 ---
 title: Configure advanced Text Editor options
 description: Learn how to configure the Advanced page to customize global settings for the Visual Studio text editor, including completion mode, scrolling, and text rendering.
-ms.date: 12/12/2025
+ms.date: 02/17/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -10,7 +10,8 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
-ms.custom: "ide-ref"
+ms.custom: "awp, ide-ref"
+ai-usage: ai-assisted
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -199,10 +200,29 @@ Use these options to control how Visual Studio handles copy and paste operations
 
 ### Copy rich text on copy/cut
 
+::: moniker range="visualstudio"
+
+When this setting is enabled (default), Visual Studio copies text with syntax highlighting, colors, and formatting. The copied text includes HTML clipboard format, so you can paste colorized code into:
+
+- Web versions of Office apps (Word, PowerPoint, Outlook)
+- Azure DevOps work items
+- Email clients that support HTML
+- Other HTML-based controls
+
+This feature makes it easy to share code snippets in presentations, documentation, and collaboration tools while preserving syntax highlighting.
+
+> [!TIP]
+> If you experience UI delays during copy/paste operations, clear this option to copy plain text instead. Rich copy with HTML formatting can cause temporary hangs on large selections.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
 When this setting is enabled (default), Visual Studio copies text that includes colors and ligatures. Clear this option to copy flat text instead.
 
 > [!TIP]
 > Unselecting this option improves the responsiveness and performance of Visual Studio during a copy/paste operation. Rich copy can cause UI delays and temporary hangs.
+
+::: moniker-end
 
 ### Max length
 
