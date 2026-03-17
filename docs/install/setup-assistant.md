@@ -31,14 +31,12 @@ If your project uses a pinned *global.json* file, Setup Assistant provides a lin
 
 ## Reopen the Setup Assistant dialog
 
-Setup Assistant appears automatically when Visual Studio detects that a project targets toolsets or SDKs that aren’t installed (or are older than what you have installed).
+You can reopen the Setup Assistant dialog anytime:
 
-You can also reopen the dialog anytime:
-
-- **Retarget a solution**: In **Solution Explorer**, right-click the solution and select **Retarget solution**.
+- In **Solution Explorer**, right-click the solution and select **Retarget solution**.
 
   :::image type="content" source="./media/visualstudio/retarget-solution.png" alt-text="Screenshot showing the Retarget solution command in the solution context menu.":::
 
-- **Retarget a project**: From the project toolbar dropdown, select **Retarget project**.
+- From the project toolbar dropdown, select **Retarget project**.
 
   :::image type="content" source="./media/visualstudio/retarget-project.png" alt-text="Screenshot showing the Retarget project command in the project toolbar dropdown.":::
