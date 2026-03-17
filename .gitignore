@@ -365,7 +365,13 @@ _themes.VS.Modern/
 settings.json
 
 # Doc-Kit workspace files
-.github/
+.github/agents/*
+.github/AGENTS.md
+.github/instructions/
+.github/policies/
+.github/skills/
+.github/prompts/
+.github/workflows/*
 .vscode/settings.json
 .vscode/mcp.json
 .dockit/
@@ -373,5 +379,6 @@ settings.json
 .env.example
 requirements.txt
 
-# Allow Visual Studio-specific Agent file
+# Allow Visual Studio-specific tracked files
 !.github/agents/visualstudio-standards-check.agent.md
+!.github/workflows/add-awp-metadata.yml
