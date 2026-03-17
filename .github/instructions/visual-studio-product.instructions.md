@@ -38,7 +38,7 @@ over Foundry-specific defaults shipped with doc-kit.
 ## 3. Versioning & Moniker Rules
 
 - Visual Studio docs use **moniker-based versioning**: `visualstudio`, `vs-2022`, `vs-2019`.
-- The current GA version is **Visual Studio 2026** (version 18.x).
+- The current GA version is referred to as **Visual Studio** (versionless), even though the underlying version increments monthly (18.0, 18.1, etc.)
 - When writing content, target `visualstudio` unless explicitly asked for an older version.
 - Use `:::moniker range="visualstudio"` / `:::moniker-end` fences for version-specific content.
 - Do NOT mix moniker-fenced blocks with un-fenced content in the same section.
@@ -220,7 +220,7 @@ Released December 9, 2025.
 
 ### Version 18.0.0 (November Update — GA Release)
 
-Released November 11, 2025. **First GA release of Visual Studio 2026.**
+Released November 11, 2025. **First GA release of versionless Visual Studio.** The underlying version of this first GA release was 18.0, but this not used in user-facing documentation.
 
 #### IDE
 - "Did you mean?" search
