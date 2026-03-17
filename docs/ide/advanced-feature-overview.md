@@ -46,7 +46,7 @@ Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enable
 
 You can use Azure services for your apps by adding **Connected Services**, such as:
 
-- [Microsoft Entra ID connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to connect web apps to [Microsoft Entra ID](/azure/active-directory/active-directory-whatis) accounts
+- [Microsoft Entra ID connected service](/azure/active-directory/develop/vs-active-directory-add-connected-service), to connect web apps to [Microsoft Entra ID](/entra/fundamentals/what-is-entra) accounts
 - [Azure Storage connected service](/azure/vs-azure-tools-connected-services-storage) for blob storage, queues, and tables
 - [Key Vault connected service](/azure/key-vault/vs-key-vault-add-connected-service) to manage secrets for web apps
 
@@ -102,7 +102,7 @@ To open **SQL Server Object Explorer**, select its icon at the top of the **Serv
 
 ## Debug, test, and improve your code
 
-When you write code, you should run it and test it for bugs and performance. With Visual Studio's debugging system, you can debug code running in your local project, on a remote device, or on a [device emulator](../cross-platform/visual-studio-emulator-for-android.md). Step through code one statement at a time, and inspect variables as you go. Or set breakpoints that are only hit when a specified condition is true. You can manage debug options in the code editor itself, so you don't have to leave your code.
+When you write code, you should run it and test it for bugs and performance. With Visual Studio's debugging system, you can debug code running in your local project, on a remote device, or on a [device emulator](/dotnet/maui/android/emulator/). Step through code one statement at a time, and inspect variables as you go. Or set breakpoints that are only hit when a specified condition is true. You can manage debug options in the code editor itself, so you don't have to leave your code.
 
 For more information about debugging in Visual Studio, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
