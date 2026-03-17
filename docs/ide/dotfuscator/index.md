@@ -1,6 +1,6 @@
 ---
 title: Use Dotfuscator Community to protect .NET apps
-ms.date: 3/11/2025
+ms.date: 3/17/2026
 ms.devlang: dotnet
 ms.topic: overview
 keywords: Dotfuscator, Dotfuscator CE, Dotfuscator Community, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio 2022, Visual Studio
