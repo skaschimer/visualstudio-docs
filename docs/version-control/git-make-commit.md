@@ -110,7 +110,7 @@ To remove all comments, use the **X** in the Git Changes window to close the Cop
 
 ### Navigate comments in the comment list
 
-The **Git Changes** window also shows a list of all Copilot review comments, organized by file. You can double-click any comment in the list to navigate directly to that line of code in the editor.
+The **Git Changes** window also shows a list of all Copilot review comments, organized by file. You can double-click any comment in the list to navigate directly to that comment located inline with the corresponding code in the editor.
 
 ![Screenshot showing code review comments for each file in the Git Changes window.](./media/visualstudio/local-code-review-comment-list-cropped.png)
 
