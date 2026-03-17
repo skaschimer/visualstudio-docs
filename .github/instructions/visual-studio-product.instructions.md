@@ -22,7 +22,7 @@ over Foundry-specific defaults shipped with doc-kit.
 | Product hub                        | `https://aka.ms/vshub`                             |
 | `ms.service`                       | `visual-studio-windows`                            |
 | `ms.subservice` values             | {FILL: e.g., `ide`, `debugger`, `install`, `test`, `extensibility`, `copilot`} |
-| Moniker / version selector         | `vs-2026` (current), `vs-2022` (previous)          |
+| Moniker / version selector         | `visualstudio` (current), `vs-2022` (previous)          |
 
 ## 2. Repository & Content Structure
 
@@ -37,10 +37,10 @@ over Foundry-specific defaults shipped with doc-kit.
 
 ## 3. Versioning & Moniker Rules
 
-- Visual Studio docs use **moniker-based versioning**: `vs-2026`, `vs-2022`, `vs-2019`.
+- Visual Studio docs use **moniker-based versioning**: `visualstudio`, `vs-2022`, `vs-2019`.
 - The current GA version is **Visual Studio 2026** (version 18.x).
-- When writing content, target `vs-2026` unless explicitly asked for an older version.
-- Use `:::moniker range="vs-2026"` / `:::moniker-end` fences for version-specific content.
+- When writing content, target `visualstudio` unless explicitly asked for an older version.
+- Use `:::moniker range="visualstudio"` / `:::moniker-end` fences for version-specific content.
 - Do NOT mix moniker-fenced blocks with un-fenced content in the same section.
 
 ## 4. Metadata Defaults
@@ -83,7 +83,7 @@ Visual Studio 2026 documentation covers these primary areas:
 | "agent" (AI agent)                     | "agent" (Copilot agent, or avoid ambiguity)    |
 | "playground"                           | Not applicable — omit                          |
 | "hub" / "project" (Foundry hierarchy)  | Not applicable — omit                          |
-| "SDK" (Azure AI SDK)                   | "Visual Studio SDK" or "VS Extensibility SDK"  |
+| "SDK" (Azure AI SDK)                   | "Visual Studio SDK"  |
 | "endpoint"                             | "endpoint" (debugging/web) — context-dependent |
 
 - Follow the [Microsoft Writing Style Guide](https://learn.microsoft.com/style-guide/welcome/).
@@ -296,7 +296,7 @@ Released November 11, 2025. **First GA release of Visual Studio 2026.**
 
 ## 9. Extensibility Model Reference
 
-Visual Studio 2026 supports **two extensibility models**. Always clarify which
+Visual Studio supports **two extensibility models**. Always clarify which
 model applies when writing extensibility content.
 
 ### VisualStudio.Extensibility (New, out-of-process)
@@ -322,7 +322,7 @@ user or article explicitly targets VSSDK.
 ```markdown
 ## Prerequisites
 
-- [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) with
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-install-visual-studio-page-cta) with
   the **{workload name}** workload installed.
 - {Any additional SDKs, tools, or accounts}
 ```
