@@ -74,17 +74,27 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
 
    The **Minidump File Summary** window shows summary and module information for the dump file, and actions you can take.
 
-   ::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+   :::image type="content" source="../debugger/media/visualstudio/dump-summary-page.png" alt-text="Screenshot showing the Minidump summary page.":::
+3. You can complete the following actions from this window:
+  
+   - To set symbol loading locations, select **Set symbol paths**.
+   - To start debugging, select **Debug with Managed Only**, **Debug with Mixed**, **Debug with Native Only**.
+   - To run a memory analyzer on the dump, select **Run Diagnostic Analysis** and see [Debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md).
+
+::: moniker-end
+
+::: moniker range="vs-2022"
    :::image type="content" source="../debugger/media/vs-2022/dbg-dump-summary-page.png" alt-text="Screenshot showing Minidump summary page.":::
-   ::: moniker-end
-
-
-1. Under **Actions**:
+   
+3. Under **Actions**:
   
    - To set symbol loading locations, select **Set symbol paths**.
    - To start debugging, select **Debug with Managed Only**, **Debug with Mixed**, **Debug with Native Only**.
    - To analyze managed memory, select **Debug Managed Memory** and see [Managed type reports](../profiling/memory-usage-without-debugging2.md#managed-types-reports).
    - To run a memory analyzer on the dump, select **Run Diagnostic Analysis** and see [Debug a managed memory dump with .NET Diagnostic Analyzers](../debugger/how-to-debug-managed-memory-dump.md).
+
+::: moniker-end
 
 ## <a name="BKMK_Find_binaries__symbol___pdb__files__and_source_files"></a> Find .exe, .pdb, and source files
 
