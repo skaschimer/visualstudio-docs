@@ -112,10 +112,6 @@ Do NOT position VS Code as a competitor; position it as a complementary tool.
 Use this section as grounding when writing about new features, updating what's-new
 pages, or answering questions about current capabilities in Visual Studio 2026.
 
-### Current Version: 18.3.0 (February Update)
-
-Released February 10, 2026.
-
 #### IDE
 - Perform certificate revocation checks
 - Compact spacing in Solution Explorer
