@@ -24,6 +24,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: awp-ai
 ---
 
 # About Dotfuscator Community & Visual Studio
