@@ -11,7 +11,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# Get started with GitHub Copilot next edit suggestions
+# Get started with Copilot next edit suggestions
 
 GitHub Copilot acts as an AI-powered pair programmer, automatically offering inline suggestions to complete your code, comments, tests, and more. Copilot provides two kinds of inline suggestions, both of which take your existing code into account: completions and next edit suggestions.
 
