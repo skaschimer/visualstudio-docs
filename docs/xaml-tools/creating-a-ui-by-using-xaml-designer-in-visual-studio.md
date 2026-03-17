@@ -21,7 +21,7 @@ The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual
 For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/main/documents/xaml-designer-extensibility-migration.md).
 
 > [!NOTE]
-> WinUI 3 / .NET MAUI XAML designer is not supported in Visual Studio 2022 and later. To view your WinUI 3 / .NET MAUI XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3 / .NET MAUI. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.
+> In Visual Studio 2022 17.14 and later, you can use XAML Live Preview to view and edit your WinUI 3 / .NET MAUI XAML UIs.  For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page and the announcement on the [Visual Studio blog](https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/).
 
 
 ## XAML Designer workspace
