@@ -346,8 +346,8 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 [checks-notification]: https://support.preemptive.com/hc/articles/31855503762833-Understanding-Checks#5-application-notification
 [checks-actions]: https://support.preemptive.com/hc/articles/31855503762833-Understanding-Checks#6-check-actions
 
-[attributes-checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_checks.html
-[attributes-obfuscation]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_obfuscation.html
+[attributes-checks]: https://support.preemptive.com/hc/en-us/articles/31855723991825-Check-Attributes
+[attributes-obfuscation]: https://support.preemptive.com/hc/en-us/articles/31855669815825-Obfuscation-Attributes
 
 [verbosity]: ../how-to-view-save-and-configure-build-log-files.md#specify-data-verbosity-for-build-logs
 [dotnet-attributes]: /dotnet/standard/attributes
