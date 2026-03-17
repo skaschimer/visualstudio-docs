@@ -333,26 +333,25 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 [vs-update]: ../../install/update-visual-studio.md
 
 [install]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_install.html
-[register]: https://support.preemptive.com/hc/en-us/articles/31854287395217-Registering-Dotfuscator-Community
-[pro]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_upgrades.html
-[pro-pya]: https://www.preemptive.com/dotfuscator/pro/userguide/en/getting_started_protect.html
+[register]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_register.html
+[pro]: https://support.preemptive.com/hc/en-us/articles/31854320395153-Upgrading-to-Dotfuscator-Professional
+[pro-pya]: https://support.preemptive.com/hc/en-us/articles/31675600747409-Why-Protect
 
-[gui]:  https://support.preemptive.com/hc/articles/31854494664977-Graphical-User-Interface
-[cli]: https://support.preemptive.com/hc/en-us/articles/31854816197393-Command-Line-Interface
+[gui]:  https://www.preemptive.com/dotfuscator/ce/docs/help/getting_started_gui.html
+[cli]: https://www.preemptive.com/dotfuscator/ce/docs/help/intro_cli.html
 
-[inputs]: https://www.preemptive.com/dotfuscator/ce/docs/help/gui_inputs.html
+[inputs]: https://support.preemptive.com/hc/en-us/articles/31855241105553-Inputs
 
-[checks-overview]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
-[checks-notification]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html#pctoc-application-notification
-[checks-actions]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html#pctoc-check-actions
-[tamper]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
+[checks-overview]: https://support.preemptive.com/hc/en-us/articles/31855503762833-Understanding-Checks
+[checks-notification]: https://support.preemptive.com/hc/en-us/articles/31855503762833-Understanding-Checks#5-application-notification
+[checks-actions]: https://support.preemptive.com/hc/en-us/articles/31855503762833-Understanding-Checks#6-check-actions
 
-[attributes-checks]: https://support.preemptive.com/hc/en-us/articles/31855723991825-Check-Attributes
-[attributes-obfuscation]: https://support.preemptive.com/hc/en-us/articles/31855669815825-Obfuscation-Attributes
+[attributes-checks]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_checks.html
+[attributes-obfuscation]: https://www.preemptive.com/dotfuscator/ce/docs/help/attributes_obfuscation.html
 
 [verbosity]: ../how-to-view-save-and-configure-build-log-files.md#specify-data-verbosity-for-build-logs
 [dotnet-attributes]: /dotnet/standard/attributes
-[application-insights]: /azure/azure-monitor/app/app-insights-overview
+[application-insights]: /azure/azure-monitor/visualize/insights-overview/
 [nuget-org]: https://www.nuget.org/
 
 [assemblies]:  /dotnet/standard/assembly-format
@@ -361,20 +360,19 @@ See [the full Dotfuscator Community User Guide at preemptive.com][full] for deta
 [app-protection]:  https://www.preemptive.com/application-protection
 [sdl-protection]:  https://www.preemptive.com/solutions/SDL-App-Protection
 [net-obfuscator]:  https://www.preemptive.com/products/dotfuscator/overview
-[download]:  https://www.preemptive.com/products/dotfuscator/downloads
 
 [install]:  install.md
 [capabilities]:  capabilities.md
 [upgrades]:  upgrades.md
 
-[get-started]:  https://support.preemptive.com/hc/articles/31854494664977-Graphical-User-Interface
+[get-started]:  https://www.preemptive.com/dotfuscator/ce/docs/help/gui_getstarted.html
 
-[renaming]:  https://support.preemptive.com/hc/en-us/articles/31855512408721-Renaming
+[renaming]:  https://www.preemptive.com/dotfuscator/ce/docs/help/obfuscation_renaming.html
 
-[checks]:  https://support.preemptive.com/hc/en-us/articles/31855503762833-Understanding-Checks
-[tamper]:  https://support.preemptive.com/hc/en-us/articles/31855550353169-Tamper-Check
-[debug]:  https://support.preemptive.com/hc/en-us/articles/31855575909521-Debugging-Check
-[root]: https://support.preemptive.com/hc/en-us/articles/31855617003537-Root-Check
-[shelflife]:  https://support.preemptive.com/hc/en-us/articles/31855577419537-Shelf-Life-Check
+[checks]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_overview.html
+[tamper]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_tamper.html
+[debug]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_debug.html
+[root]: https://www.preemptive.com/dotfuscator/ce/docs/help/checks_root.html
+[shelflife]:  https://www.preemptive.com/dotfuscator/ce/docs/help/checks_shelflife.html
 
-[full]:  https://support.preemptive.com/hc/
+[full]:  https://www.preemptive.com/dotfuscator/ce/docs/help/index.html
