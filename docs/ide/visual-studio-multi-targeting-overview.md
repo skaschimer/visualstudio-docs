@@ -88,7 +88,7 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 With .NET 5 and later, you can build a project for multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, and specify your list of Target Framework Monikers (TFMs), separated by semicolons, as in the following code:
 
 ```xml
-   <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+   <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 ```
 
 See the list of TFMs at [Target frameworks in SDK-style projects](/dotnet/standard/frameworks).
@@ -127,7 +127,7 @@ You must reload the project after making this change. After that, if you open th
 With .NET 5 and later, you can build a project for multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, and specify your list of Target Framework Monikers (TFMs), separated by semicolons, as in the following code:
 
 ```xml
-   <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+   <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 ```
 
 See the list of TFMs at [Target frameworks in SDK-style projects](/dotnet/standard/frameworks).
@@ -144,7 +144,7 @@ You must reload the project after making this change. After that, if you open th
 > [!TIP]
 > Depending on the target framework, it can be represented in the following ways in the project file:
 >
-> - For a .NET Core app: `<TargetFramework>netcoreapp2.1</TargetFramework>`
+> - For a .NET app: `<TargetFramework>net9.0</TargetFramework>`
 > - For a .NET Standard app: `<TargetFramework>netstandard2.0</TargetFramework>`
 > - For a .NET Framework app: `<TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>`
 

@@ -102,7 +102,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#get-your-first-code-completions) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
 | Whole-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#get-your-first-code-completions) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
 | Whole function & multi-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
-| Repeated edits detection | No | **Yes** <br/>[Learn more](intellicode-suggestions.md)|
+| Repeated edits detection | **Yes** <br/>[Learn more](copilot-next-edit-suggestions.md) | **Yes** <br/>[Learn more](intellicode-suggestions.md)|
 | Convert Natural language comments to code| **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
 | Solve code problems with Natural language driven dev assistance | **Yes**, with Copilot Chat. <br/>[Learn more](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)| No |
 | Code debugging | **Yes**, with Copilot Chat. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
