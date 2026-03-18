@@ -13,14 +13,14 @@ ms.subservice: general-ide
 
 # Configure proxy settings in Visual Studio
 
-By default, Visual Studio uses your Windows proxy configuration. The IDE doesn't override system settings unless you choose to set a custom proxy. If your enterprise network requires a different proxy configuration for Visual Studio, you can set one directly in the IDE through the **Proxy Settings** options page.
+By default, Visual Studio uses your Windows proxy configuration, but if your organization's network requires a different proxy configuration for Visual Studio, you can set one directly in the IDE through the **Proxy Settings** options page.
 
 > [!NOTE]
 > In this first release, the custom proxy settings apply to **GitHub Copilot experiences** and **sign-in flows for Entra ID and GitHub** within Visual Studio. A restart may be required for some features to pick up new proxy settings.
 
 ## Prerequisites
 
-- Visual Studio installed. If you don't have it, see [Install Visual Studio](../../install/install-visual-studio.md).
+The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, you can install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/) to try it. Or, view the [Visual Studio 2022 proxy troubleshooting page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022) for guidance.
 
 ## Open the Proxy Settings page
 
@@ -33,11 +33,11 @@ By default, Visual Studio uses your Windows proxy configuration. The IDE doesn't
 
 ## Default behavior
 
-Out of the box, Visual Studio uses your Windows proxy configuration. You don't need to change any settings unless you require a proxy configuration that differs from your system default.
+By default, Visual Studio uses your Windows proxy configuration. You don't need to change any settings unless you require a proxy configuration that differs from the default for your user account. If the Windows settings are set to No Proxy, Visual Studio respects this and sets no proxy.
 
-## Set a custom proxy
+## Configure proxy settings
 
-If you need a different proxy for Visual Studio:
+To supply Visual Studio with proxy settings:
 
 1. Open the **Proxy Settings** page (**Tools** > **Options** > **Proxy Settings**).
 1. Select **Use custom proxy settings**.

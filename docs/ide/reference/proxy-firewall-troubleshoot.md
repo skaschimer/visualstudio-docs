@@ -20,6 +20,9 @@ When you use Visual Studio behind a corporate proxy or firewall, you might encou
 
 - **Settings required**: Visual Studio requires additional information about your network configuration. You can configure proxy settings directly in the IDE. See [Configure proxy settings in Visual Studio](proxy-settings.md) for setup instructions.
 
+  > [!NOTE]
+  > The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, you can install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/) to try it. Or, view the [Visual Studio 2022 version of this page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022) for guidance.
+
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -107,13 +110,13 @@ The following sections describe common proxy-related issues and their solutions.
 
 ::: moniker range="vs-2022"
 
-On startup, a prompt appears to capture credentials, and this is used for Entra authentication. The credentials persist in the Windows **Credential Manager** under **Windows Credentials** as `VSCredentials_<proxyAddress>` as the internet or network address, then the username and password that the proxy requires.
+On startup, a prompt appears to capture credentials. The credentials persist in the Windows **Credential Manager** under **Windows Credentials** as `VSCredentials_<proxyAddress>` as the internet or network address, then the username and password that the proxy requires.
 
 ::: moniker-end
 
 ::: moniker range="visualstudio"
 
-On startup, a prompt appears to capture credentials, and this is used for Entra authentication. The credentials persist in the Windows **Credential Manager** under **Windows Credentials** as `VSCredentials_<proxyAddress>` as the internet or network address, then the username and password that the proxy requires.
+On startup, a prompt appears to capture credentials. The credentials persist in the Windows **Credential Manager** under **Windows Credentials** as `VSCredentials_<proxyAddress>` as the internet or network address, then the username and password that the proxy requires.
 
 You can also configure proxy credentials directly in Visual Studio. See [Configure proxy settings in Visual Studio](proxy-settings.md).
 
