@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: j-martens
-ms.custom: awp-ai
+ms.custom: "awp, awp-ai"
 ai-usage: ai-assisted
 
 #customer intent: As a developer, I want to learn about browsing code in Visual Studio so that I can write code more efficiently.
