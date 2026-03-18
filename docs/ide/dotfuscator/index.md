@@ -25,6 +25,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ms.custom: awp-ai
+monikerRange: "vs-2022"
 ---
 
 # About Dotfuscator Community & Visual Studio
