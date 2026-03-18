@@ -155,6 +155,12 @@ To disable structure guide lines, go to **Tools** > **Options** > **Text Editor*
 
 ::: moniker range="visualstudio"
 
+## Fast scrolling with Alt+mouse wheel
+
+You can move through large files faster by holding the **Alt** key while scrolling the mouse wheel in the code editor.
+
+To configure this behavior, go to **Tools** > **Options** > **Text Editor** > **Advanced** > **Touchpad and mouse wheel scrolling sensitivity**, and adjust **Fast scroll multiplier**. For more information, see [Configure advanced Text Editor options](options-text-editor-advanced.md#fast-scroll-multiplier).
+
 ## Middle-click scroll
 
 You can press and hold the middle mouse button (scroll wheel) in the code editor and then move the mouse to scroll quickly through the document in any direction. A cursor icon with directional arrows appears to indicate that middle-click scrolling is active.
