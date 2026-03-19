@@ -37,6 +37,6 @@ You can reopen the Setup Assistant dialog anytime:
 
   :::image type="content" source="./media/visualstudio/retarget-solution.png" alt-text="Screenshot showing the Retarget solution command in the solution context menu.":::
 
-- From the project toolbar dropdown, select **Retarget project**.
+- From the project toolbar dropdown, select **Retarget solution**.
 
   :::image type="content" source="./media/visualstudio/retarget-project.png" alt-text="Screenshot showing the Retarget project command in the project toolbar dropdown.":::

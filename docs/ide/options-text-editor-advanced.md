@@ -1,7 +1,7 @@
 ---
 title: Configure advanced Text Editor options
 description: Learn how to configure the Advanced page to customize global settings for the Visual Studio text editor, including completion mode, scrolling, and text rendering.
-ms.date: 02/17/2026
+ms.date: 03/16/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -329,7 +329,9 @@ This setting increases the scrolling speed when you use the **Alt** keyboard sho
 
 ### Middle click to scroll
 
-When this setting is enabled, you can use the middle button on the mouse to scroll in the editor window.
+When this setting is enabled, you can press and hold the middle mouse button (scroll wheel) and then move the mouse to scroll quickly through the document in any direction. This feature is useful for navigating large files without relying on traditional scroll bars or repeated wheel scrolling. The setting is disabled by default.
+
+For more information about navigating code, see [Navigate code](navigating-code.md).
 
 ::: moniker-end
 

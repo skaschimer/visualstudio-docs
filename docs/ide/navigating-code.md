@@ -17,6 +17,8 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: j-martens
+ms.custom: awp-ai
+ai-usage: ai-assisted
 
 #customer intent: As a developer, I want to learn about browsing code in Visual Studio so that I can write code more efficiently.
 ---
@@ -150,6 +152,16 @@ The Structure Visualizer in the code editor shows *structure guide lines*, which
 :::image type="content" source="../ide/media/vside_structure_visualizer.png" alt-text="Screenshot that shows the Structure Visualizer guide lines." lightbox="../ide/media/vside_structure_visualizer.png":::
 
 To disable structure guide lines, go to **Tools** > **Options** > **Text Editor** > **General** and clear the **Show structure guide lines** checkbox.
+
+::: moniker range="visualstudio"
+
+## Middle-click scroll
+
+You can press and hold the middle mouse button (scroll wheel) in the code editor and then move the mouse to scroll quickly through the document in any direction. A cursor icon with directional arrows appears to indicate that middle-click scrolling is active.
+
+This feature is disabled by default. To enable it, go to **Tools** > **Options** > **Text Editor** > **Advanced** and select the **Middle click to scroll** checkbox. For more information, see [Configure advanced Text Editor options](options-text-editor-advanced.md#middle-click-to-scroll).
+
+::: moniker-end
 
 ## Enhanced scroll bar
 
