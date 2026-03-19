@@ -95,9 +95,21 @@ You can fasten tool windows to one side of a frame in the IDE or within the edit
 
 :::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond.":::
 
+:::moniker range="visualstudio"
+    
+The following screenshot shows Solution Explorer being docked in a new location that's demarcated by a green shaded area:
+
+:::image type="content" source="media/visualstudio/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 The following screenshot shows Solution Explorer being docked in a new location that's demarcated by a purple shaded area:
 
 :::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
+
+:::moniker-end
 
 ### Close and autohide tool windows
 
@@ -105,7 +117,17 @@ You can close a tool window by selecting the **Close** button in the upper-right
 
 If you right-click the title bar of a tool window and then select **Auto Hide**, the window will slide out of the way when you use a different window. When a window is automatically hidden, its name appears on a tab at the edge of the IDE. To use the window again, select the tab so that the window slides back into view.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/auto-hide-lrg.png" alt-text="Set of two screenshots that show the Auto Hide menu item and the associated set of tabbed tool windows that appear when Auto Hide is selected." lightbox="media/visualstudio/auto-hide-lrg.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/auto-hide-sml.png" alt-text="Set of two screenshots that show the Auto Hide menu item and the associated set of tabbed tool windows that appear when Auto Hide is selected." lightbox="media/auto-hide-lrg.png":::
+
+:::moniker-end
 
 :::moniker range="visualstudio"
 
@@ -180,7 +202,17 @@ Next, add a new SQL Server database project to the solution:
 
 To switch between layouts, use the keyboard shortcuts from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts. Or, in the main menu, select **Window** > **Apply Window Layout**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu.":::
+
+:::moniker-end
 
 If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
@@ -191,7 +223,17 @@ If you have a multi-monitor setup at work and a single monitor laptop at home, y
 
 You can remove, rename, or reorder your custom layout by selecting **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The key bindings themselves can't be modified, but you can store as many as 10 layouts at a time.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog.":::
+
+:::moniker-end
 
 To remind yourself which keyboard shortcut is assigned to which layout, select **Window** > **Apply Window Layout**.
 
@@ -260,11 +302,25 @@ You can colorize tabs in both vertical and horizontal views in the editor.
 
 The following screenshot shows an example of colorized tabs in the vertical view:
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/color-tabs-vertical.png" alt-text="Screenshot of colorized tabs in the vertical view.":::
+
+The following screenshot shows an example of colorized tabs in the horizontal view:
+
+:::image type="content" source="media/visualstudio/color-tabs-horizontal.png" alt-text="Screenshot of colorized tabs in the horizontal view.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of colorized tabs in the vertical view.":::
 
 The following screenshot shows an example of colorized tabs in the horizontal view:
 
 :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of colorized tabs in the horizontal view.":::
+
+:::moniker-end
 
 #### Select your own colors
 
@@ -272,13 +328,33 @@ You can also select your own tab colors. To do so, right-click a tab, select **S
 
 The following screenshot shows how to personalize the color scheme of tabs:
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Color option that you can use to personalize the colors of tabs.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Color option that you can use to personalize the colors of tabs.":::
+
+:::moniker-end
 
 ### Multiple rows of tabs
 
 You can wrap tabs into multiple rows. This enables you to have more horizontal tabs open at once. Pinned tabs show up in a separate row from unpinned tabs.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/tabs-multiple-rows-sml.png" alt-text="Screenshot of tabs arranged in multiple rows.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of tabs arranged in multiple rows.":::
+
+:::moniker-end
 
 ::: moniker range="visualstudio"
 
@@ -314,7 +390,18 @@ To change these options, go to the **Tools** > **Options** dialog, and explore t
 
 You can change the indicator for documents that have unsaved changes to a larger, more visible dot.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/tabs-modify-asterisk.png" alt-text="Screenshot of large dot that indicates unsaved changes.":::
+
+:::moniker-end
+
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/tabs-modify-asterisk.png" alt-text="Screenshot of large dot that indicates unsaved changes.":::
+
+:::moniker-end
 
 ::: moniker range="visualstudio"
 
@@ -331,7 +418,17 @@ To change this setting, go to the **Tools** > **Options** dialog, and expand the
 
 You can show the names of documents that aren't visible in italics.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
+
+:::moniker-end
 
 ::: moniker range="visualstudio"
 
@@ -348,7 +445,17 @@ To change this setting, go to the **Tools** > **Options** dialog, and expand the
 
 You can reopen the last tab you closed by right-clicking a tab and selecting **Restore Closed Tab**, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by selecting **Window** > **Restore Closed Tab**.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab menu item.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab menu item.":::
+
+:::moniker-end
 
 ## Related content
 
