@@ -31,9 +31,9 @@ Many aspects of IntelliSense are language-specific. For more information about I
 
 ## List Members
 
-A list of valid members from a type (or namespace) appears after you type a trigger character (for example, a period (`.`) in managed code or `::` in C++). If you continue typing characters, the list is filtered to include only the members that begin with those characters or where the beginning of *any* word within the name starts with those characters. IntelliSense also performs *camel case* matching, so you can just type the first letter of each camel-cased word in the member name to see the matches.
+A list of valid members from a type or namespace appears after you type a trigger character, such as a period (`.`) in managed code or `::` in C++. If you continue typing characters, the list filters to include only the members that begin with those characters or where the beginning of *any* word within the name starts with those characters. IntelliSense also performs *camel case* matching, so you can type just the first letter of each camel-cased word in the member name to see the matches.
 
-After selecting an item, you can insert it into your code by pressing **Tab** or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get [Quick Info](#quick-info) for the item.
+After you select an item, you can insert it into your code by pressing **Tab** or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get [Quick Info](#quick-info) for the item.
 
 In the member list, the icon to the left represents the member type, such as namespace, class, function, or variable. The list might be long, so you can press **PgUp** and **PgDn** to move up or down in the list.
 
@@ -44,22 +44,22 @@ In the member list, the icon to the left represents the member type, such as nam
 
 ::: moniker-end
 
-You can invoke the List Members feature manually by typing **Ctrl**+**J**, choosing **Edit** > **IntelliSense** > **List Members**, or by choosing the **List Members** button on the editor toolbar. When it's invoked on a blank line or outside a recognizable scope, the list displays symbols in the global namespace.
+You can invoke the List Members feature manually by typing **Ctrl**+**J**, choosing **Edit** > **IntelliSense** > **List Members**, or by choosing the **List Members** button on the editor toolbar. When you invoke it on a blank line or outside a recognizable scope, the list displays symbols in the global namespace.
 
 To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Auto list members**. If you want to turn off List Members only for a specific language, go to the **General** settings for that language.
 
 
 ::: moniker range=">=vs-2022"
 
-You can also change to suggestion mode, in which only the text you type is inserted into the code. For example, if you enter an identifier that isn't in the list and press **Tab**, in completion mode the entry would replace the typed identifier. To toggle between completion mode and suggestion mode, press **Ctrl**+**Alt**+**Space**, or choose **Edit** > **IntelliSense** > **Switch between automatic and tab-only IntelliSense completion**.
+You can also change to suggestion mode, in which only the text you type is inserted into the code. For example, if you enter an identifier that isn't in the list and press **Tab**, in completion mode the entry replaces the typed identifier. To toggle between completion mode and suggestion mode, press **Ctrl**+**Alt**+**Space**, or choose **Edit** > **IntelliSense** > **Switch between automatic and tab-only IntelliSense completion**.
 
 ::: moniker-end
 
 ## Parameter Info
 
-*Parameter Info* gives you information about the number, names, and types of parameters required by a method, attribute generic type parameter (in C#), or template (in C++).
+*Parameter Info* shows you the number, names, and types of parameters that a method, attribute generic type parameter (in C#), or template (in C++) needs.
 
-The parameter in bold indicates the next parameter that is required as you type the function. For overloaded functions, you can use the **Up** and **Down** arrow keys to view alternative parameter information for the function overloads.
+The parameter in bold shows the next parameter you need as you type the function. For overloaded functions, use the **Up** and **Down** arrow keys to see other parameter information for the function overloads.
 
 
 ::: moniker range=">=vs-2022"
@@ -68,9 +68,9 @@ The parameter in bold indicates the next parameter that is required as you type 
 
 ::: moniker-end
 
-When you annotate functions and parameters with XML Documentation comments, the comments display as Parameter Info. For more information, see [Supply XML code comments](reference/generate-xml-documentation-comments.md).
+When you add XML Documentation comments to functions and parameters, Parameter Info shows those comments. For more information, see [Supply XML code comments](reference/generate-xml-documentation-comments.md).
 
-You can manually invoke Parameter Info by choosing **Edit** > **IntelliSense** > **Parameter Info**, by pressing **Ctrl**+**Shift**+**Space**, or by choosing the **Parameter Info** button on the editor toolbar.
+You can manually open Parameter Info by choosing **Edit** > **IntelliSense** > **Parameter Info**, by pressing **Ctrl**+**Shift**+**Space**, or by choosing the **Parameter Info** button on the editor toolbar.
 
 ## Quick Info
 
@@ -107,17 +107,17 @@ You can turn Quick Info off for C++ code by navigating to **Tools** > **Options*
 IntelliSense options are on by default. To turn them off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Parameter information** or **Auto list members** if you don't want the List Members feature.
 
 > [!TIP]
-> If you want to change the appearance of user interface elements in Visual Studio, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](fonts-and-colors-environment-options-dialog-box.md).
+> To change the appearance of user interface elements in Visual Studio, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](fonts-and-colors-environment-options-dialog-box.md).
 
 ## IntelliSense icons
 
-The icons in IntelliSense can convey additional meaning with icon modifiers. These are stars, hearts, and locks layered on top of the object's icon that convey protected, internal, or private, respectively.
+The icons in IntelliSense convey additional meaning through icon modifiers. These icons include stars, hearts, and locks layered on top of the object's icon that convey protected, internal, or private, respectively.
 
 :::moniker range="visualstudio"
 
 |    Icon    |    Accessibility    |    Description    |
 |------------|---------------------|-------------------|
-| ![Public Icon Modifier](../ide/media/visualstudio/intellisense-public-no-modifier.png)       |    Public class    |    Access is not restricted.   |
+| ![Public Icon Modifier](../ide/media/visualstudio/intellisense-public-no-modifier.png)       |    Public class    |    Access isn't restricted.   |
 | ![Protected Icon Modifier](../ide/media/visualstudio/intellisense-protected-modifier.png)       |    Protected class    |    Access is limited to the containing class or types derived from the containing class.    |
 | ![Protected Internal Icon Modifier](../ide/media/visualstudio/intellisense-protected-modifier.png)       |    Protected internal class    |    Access is limited to the current assembly or types derived from the containing class.    |
 | ![Internal Icon Modifier](../ide/media/visualstudio/intellisense-internal-modifier.png)       |    Internal class    |    Access is limited to the current assembly.    |
@@ -129,7 +129,7 @@ The icons in IntelliSense can convey additional meaning with icon modifiers. The
 
 |    Icon    |    Accessibility    |    Description    |
 |------------|---------------------|-------------------|
-| ![Public Icon Modifier](../ide/media/intellisensePublicNoModifier.png)       |    Public class    |    Access is not restricted.   |
+| ![Public Icon Modifier](../ide/media/intellisensePublicNoModifier.png)       |    Public class    |    Access isn't restricted.   |
 | ![Protected Icon Modifier](../ide/media/intellisenseProtectedModifier.png)       |    Protected class    |    Access is limited to the containing class or types derived from the containing class.    |
 | ![Protected Internal Icon Modifier](../ide/media/intellisenseProtectedInternalModifier.png)       |    Protected internal class    |    Access is limited to the current assembly or types derived from the containing class.    |
 | ![Internal Icon Modifier](../ide/media/intellisenseInternalModifier.png)       |    Internal class    |    Access is limited to the current assembly.    |
