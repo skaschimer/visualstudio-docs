@@ -1,7 +1,7 @@
 ---
 title: Use IntelliSense for quick information & completion
 description: Explore how to work with IntelliSense features in Visual Studio, including List Members, Parameter Info, Quick Info, and Complete Word.
-ms.date: 1/24/2025
+ms.date: 3/19/2026
 ms.topic: concept-article
 helpviewer_keywords:
 - Quick info
@@ -25,6 +25,9 @@ These features include:
 - [Complete Word](#complete-word)
 
 Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the articles listed in the [Related content](#related-content) section.
+
+> [!TIP]
+> In addition to IntelliSense, Visual Studio offers AI-powered code completions through GitHub Copilot. Copilot inline suggestions work alongside IntelliSense to provide whole-line and multi-line completions. To learn more, see [Get started with GitHub Copilot completions](visual-studio-github-copilot-extension.md).
 
 ## List Members
 
@@ -104,7 +107,7 @@ You can turn Quick Info off for C++ code by navigating to **Tools** > **Options*
 IntelliSense options are on by default. To turn them off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Parameter information** or **Auto list members** if you don't want the List Members feature.
 
 > [!TIP]
-> If you want to change the appearance of user interface elements in Visual Studio, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](reference/fonts-and-colors-environment-options-dialog-box.md).
+> If you want to change the appearance of user interface elements in Visual Studio, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](fonts-and-colors-environment-options-dialog-box.md).
 
 ## IntelliSense icons
 
@@ -152,6 +155,7 @@ The IntelliSense options might not work as you expect in certain cases.
 
 ## Related content
 
+- [Get started with GitHub Copilot](visual-studio-github-copilot-get-started.md)
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md)
 - [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md)
