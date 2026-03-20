@@ -16,6 +16,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: awp-ai
 ---
 # Use Visual Studio search
 
