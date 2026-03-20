@@ -22,10 +22,10 @@ By default, Visual Studio uses your Windows proxy configuration, but if your org
 
 The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, you can install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/) to try it. Or, view the [Visual Studio 2022 proxy troubleshooting page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022&preserve-view=true) for guidance.
 
-## Open the Proxy Settings page
+## Open the Proxy Configuration page
 
 1. Select **Tools** > **Options** from the menu bar.
-1. Select **Proxy Settings** to open the proxy configuration page.
+1. Select **Proxy Configuration** to open the proxy configuration page.
 
 <!-- TODO: Screenshot of the Proxy Settings page
 ![Screenshot of the Proxy Settings page under Tools > Options.](../../media/proxy-settings.png)
@@ -39,14 +39,14 @@ By default, Visual Studio uses your Windows proxy configuration. You don't need 
 
 To supply Visual Studio with proxy settings:
 
-1. Open the **Proxy Settings** page (**Tools** > **Options** > **Proxy Settings**).
+1. Open the **Proxy Configuration** page (**Tools** > **Options** > **Proxy Configuration**).
 1. Select **Use custom proxy settings**.
 1. Enter the **proxy server URL** and **port**.
 1. Choose an authentication method:
    - **Use the logged-in Windows account** — uses your current Windows credentials for integrated authentication (NTLM or Kerberos).
    - **Use alternate credentials** — provide a **username** and **password** for the proxy.
 1. Select **OK**.
-1. Restart Visual Studio if prompted.
+1. Restart Visual Studio.
 
 > [!TIP]
 > If your proxy requires Basic authentication, choose **Use alternate credentials** and enter the credentials your proxy expects.
