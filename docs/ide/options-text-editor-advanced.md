@@ -325,7 +325,7 @@ Use this setting to adjust how many characters you want to scroll in each user-i
 
 ### Fast scroll multiplier
 
-This setting increases the scrolling speed when you use the **Alt** keyboard shortcut with the mouse or keyboard arrow keys. The default multiplication factor is **5**, which scrolls five times faster than normal.
+This setting increases scrolling speed when you hold **Alt** while scrolling with the mouse wheel in the code editor. On a touchpad, hold the **Alt** key while moving two fingers up or down. The default multiplication factor is **5**, which scrolls five times faster than normal.
 
 ### Middle click to scroll
 
