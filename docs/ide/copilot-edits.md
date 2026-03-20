@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot Edits in Visual Studio
 description: Use GitHub Copilot Edits to iterate quickly on code changes across multiple files in Visual Studio version 17.13 and later.
-ms.date: 7/31/2025
+ms.date: 03/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
@@ -10,10 +10,14 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
+ms.custom: awp-ai
 ---
 # What is GitHub Copilot Edits?
 
-GitHub Copilot Edits, a feature of GitHub Copilot Chat, is designed to help you iterate across multiple files more efficiently. This feature is available with the release of Visual Studio 2022 version 17.13.
+GitHub Copilot Edits, a feature of GitHub Copilot Chat, is designed to help you iterate across multiple files more efficiently. This feature is available in Visual Studio 2022 version 17.13 and later, and in Visual Studio 2026.
+
+> [!TIP]
+> For autonomous multi-file edits where Copilot runs commands, fixes build errors, and iterates independently, see [GitHub Copilot agent mode](copilot-agent-mode.md).
 
 Copilot Edits combines the conversational flow of chat and an inline review experience. It offers the following benefits:
 
@@ -23,7 +27,7 @@ Copilot Edits combines the conversational flow of chat and an inline review expe
 
 ## Prerequisites
 
-- Install [Visual Studio 2022 version 17.13](/visualstudio/releases/2022/release-history) or later.
+- Install [Visual Studio 2022 version 17.13](/visualstudio/releases/2022/release-history) or later, or [Visual Studio 2026](/visualstudio/releases/2026/release-notes).
 - [Sign in to Visual Studio by using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
 
   You can use [GitHub Copilot for free](copilot-free-plan.md). Sign up and use AI to code faster and more efficiently.
@@ -100,6 +104,7 @@ A popup dialog confirms the action before reverting file states.
 
 ## Related content
 
+- [GitHub Copilot agent mode](copilot-agent-mode.md)
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
