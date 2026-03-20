@@ -20,11 +20,9 @@ manager: mijacobs
 ---
 # What is Visual Studio?
 
-Visual Studio is a powerful integrated development environment (IDE) for Windows that you can use to complete the entire development cycle in one place. You can develop, build, debug, test, and deploy your apps—all in one place. Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process. With built-in AI assistance from [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), you can also accelerate your workflow with intelligent code completions, chat-based guidance, and AI-powered debugging.
+Visual Studio is a powerful integrated development environment (IDE) for Windows where you can develop, build, debug, test, and deploy your apps, all in one place. Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process. With built-in AI assistance from [GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md), you can accelerate your workflow with intelligent code completions, chat-based guidance, and AI-powered debugging.
 
 :::image type="content" source="media/visualstudio/visual-studio-overview.png" alt-text="Diagram showing the Visual Studio development cycle: develop, build, debug, test, and deploy, with AI assistance integrated throughout.":::
-
-With the variety of features and language support in Visual Studio, you can grow from writing your first "Hello World" program to developing and deploying apps. For example, build, debug, and test apps in C#, C++, Python, JavaScript, TypeScript, and more. Develop cross-platform mobile and desktop apps with .NET MAUI, build web apps with ASP.NET, or create Node.js services.
 
 > Visual Studio is available for Windows. For a lightweight, cross-platform code editor, see [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -56,14 +54,13 @@ For more information, see [Install Visual Studio](../install/install-visual-stud
 
 ## Why use Visual Studio?
 
-Visual Studio provides developers with a feature-rich development environment to develop code efficiently and collaboratively.
+Whether you're writing your first "Hello World" program or deploying enterprise apps, Visual Studio gives you the tools to work efficiently and collaboratively.
 
-- Workload-based installer. Install only what you need.
-- Powerful coding tools and features. Everything you need to build your apps in one place.
-- Multiple-language support. Code in C++, C#, JavaScript, TypeScript, Python, and more.
-- Cross-platform development. Build apps for any platform.
-- Version control integration. Collaborate on code with teammates.
-- AI-assisted development. Write code efficiently with AI assistance.
+- Multiple-language support. Code in C#, C++, Python, JavaScript, TypeScript, and more.
+- Cross-platform development. Build mobile and desktop apps with .NET MAUI, web apps with ASP.NET, or Node.js services.
+- AI-assisted development. Write, debug, and test code faster with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md).
+- Workload-based installer. Install only the components you need.
+- Integrated version control. Clone, branch, commit, and review pull requests with built-in Git tooling.
 
 ## Discover Visual Studio
 
