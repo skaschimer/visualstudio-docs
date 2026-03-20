@@ -37,23 +37,23 @@ After you select an item, you can insert it into your code by pressing **Tab** o
 
 In the member list, the icon to the left represents the member type, such as namespace, class, function, or variable. The list might be long, so you can press **PgUp** and **PgDn** to move up or down in the list.
 
-
-::: moniker range=">=vs-2022"
-
-:::image type="content" source="media/vs-2022/using-intellisense/intellisense-list-members.png" alt-text="Screenshot of IntelliSense list members feature.":::
-
-::: moniker-end
+:::image type="content" source="media/visualstudio/using-intellisense/intellisense-list-members.png" alt-text="Screenshot of IntelliSense list members feature.":::
 
 You can invoke the List Members feature manually by typing **Ctrl**+**J**, choosing **Edit** > **IntelliSense** > **List Members**, or by choosing the **List Members** button on the editor toolbar. When you invoke it on a blank line or outside a recognizable scope, the list displays symbols in the global namespace.
 
-To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Auto list members**. If you want to turn off List Members only for a specific language, go to the **General** settings for that language.
+::: moniker range="visualstudio"
 
-
-::: moniker range=">=vs-2022"
-
-You can also change to suggestion mode, in which only the text you type is inserted into the code. For example, if you enter an identifier that isn't in the list and press **Tab**, in completion mode the entry replaces the typed identifier. To toggle between completion mode and suggestion mode, press **Ctrl**+**Alt**+**Space**, or choose **Edit** > **IntelliSense** > **Switch between automatic and tab-only IntelliSense completion**.
+To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Auto list members**. To turn off List Members only for a specific language, go to **General** settings for that language.
 
 ::: moniker-end
+
+::: moniker range="vs-2022"
+
+To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Languages** > **Defaults** > **General** > **Statement Completion** and deselect **Auto list members**. To turn off List Members only for a specific language, go to **General** settings for that language.
+
+::: moniker-end
+
+You can also change to suggestion mode, in which only the text you type is inserted into the code. For example, if you enter an identifier that isn't in the list and press **Tab**, in completion mode the entry replaces the typed identifier. To toggle between completion mode and suggestion mode, press **Ctrl**+**Alt**+**Space**, or choose **Edit** > **IntelliSense** > **Switch between automatic and tab-only IntelliSense completion**.
 
 ## Parameter Info
 
@@ -61,12 +61,7 @@ You can also change to suggestion mode, in which only the text you type is inser
 
 The parameter in bold shows the next parameter you need as you type the function. For overloaded functions, use the **Up** and **Down** arrow keys to see other parameter information for the function overloads.
 
-
-::: moniker range=">=vs-2022"
-
-:::image type="content" source="media/vs-2022/using-intellisense/intellisense-parameter-info.png" alt-text="Screenshot of the IntelliSense Parameter Info feature.":::
-
-::: moniker-end
+:::image type="content" source="media/visualstudio/using-intellisense/intellisense-parameter-info.png" alt-text="Screenshot of the IntelliSense Parameter Info feature.":::
 
 When you add XML Documentation comments to functions and parameters, Parameter Info shows those comments. For more information, see [Supply XML code comments](reference/generate-xml-documentation-comments.md).
 
@@ -76,27 +71,27 @@ You can manually open Parameter Info by choosing **Edit** > **IntelliSense** > *
 
 *Quick Info* displays the complete declaration for any identifier in your code.
 
-
-::: moniker range=">=vs-2022"
-
-:::image type="content" source="media/vs-2022/using-intellisense/intellisense-quick-info.png" alt-text="Screenshot of the IntelliSense Quick Info feature.":::
-
-::: moniker-end
+:::image type="content" source="media/visualstudio/using-intellisense/intellisense-quick-info.png" alt-text="Screenshot of the IntelliSense Quick Info feature.":::
 
 When you select a member from the List Members box, Quick Info also appears.
 
-
-::: moniker range=">=vs-2022"
-
-:::image type="content" source="media/vs-2022/using-intellisense/intellisense-quick-info-parameter-info.png" alt-text="Screenshot of the IntelliSense Quick Info and Parameter Info feature.":::
-
-::: moniker-end
+:::image type="content" source="media/vsisualstudio/using-intellisense/intellisense-quick-info-parameter-info.png" alt-text="Screenshot of the IntelliSense Quick Info and Parameter Info feature.":::
 
 You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**K**, **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
 
 If a function is overloaded, IntelliSense might not display information for all forms of the overload.
 
-You can turn Quick Info off for C++ code by navigating to **Tools** > **Options** > **Text Editor** > **C/C++** > **Advanced**, and setting **Auto Quick Info** to `false`.
+::: moniker range="visualstudio"
+
+To turn Quick Info off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Show Quick Info on hover** in the **Settings** section.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+To turn Quick Info off, go to **Tools** > **Options** > **Languages** and deselect **Show Quick Info on hover** in the **General** section.
+
+::: moniker-end
 
 ## Complete Word
 
@@ -104,7 +99,19 @@ You can turn Quick Info off for C++ code by navigating to **Tools** > **Options*
 
 ## IntelliSense options
 
-IntelliSense options are on by default. To turn them off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Parameter information** or **Auto list members** if you don't want the List Members feature.
+IntelliSense options are on by default. 
+
+::: moniker range="visualstudio"
+
+To turn them off, go to **Tools** > **Options** > **Languages** > **Defaults** > **General** > **Statement Completion** and deselect **Parameter information** or **Auto list members**.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+To turn them off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Parameter information** or **Auto list members**.
+
+::: moniker-end
 
 > [!TIP]
 > To change the appearance of user interface elements in Visual Studio, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](fonts-and-colors-environment-options-dialog-box.md).
