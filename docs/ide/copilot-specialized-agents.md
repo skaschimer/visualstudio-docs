@@ -1,7 +1,7 @@
 ---
 title: Use custom agents in GitHub Copilot
 description: Learn about built-in agents for debugging, profiling, testing, and code modernization, and how to create custom agents for your team workflows.
-ms.date: 03/02/2026
+ms.date: 03/20/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -115,11 +115,20 @@ For more comprehensive .NET testing support, see [GitHub Copilot testing for .NE
 
 The @modernize agent helps with framework migrations and dependency upgrades for .NET and C++ projects.
 
+For .NET modernization workflows, the agent can support a three-stage process:
+
++ **Assessment**: Review package versions, target framework options, project inventory, and API compatibility risks.
++ **Plan**: Generate a migration plan that aligns with the current assessment and update priorities.
++ **Task execution**: Work through modernization tasks with a dynamic task file you can edit as the work progresses.
+
 **Example prompts**:
 
 + `@modernize Upgrade this project to .NET 8`
 + `@modernize What breaking changes should I expect when migrating?`
 + `@modernize Update deprecated API calls in this file`
++ `@modernize Assess this solution, generate a migration plan, and create execution tasks`
+
+For end-to-end guidance on GitHub Copilot app modernization for .NET, see [GitHub Copilot app modernization overview](/dotnet/core/porting/github-copilot-app-modernization/overview).
 
 ::: moniker-end
 
@@ -302,3 +311,4 @@ Share your custom agent configurations in the [awesome-copilot repository](https
 + [Use MCP servers](mcp-servers.md)
 + [Customize chat responses and set context](copilot-chat-context.md)
 + [GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md)
++ [GitHub Copilot app modernization overview](/dotnet/core/porting/github-copilot-app-modernization/overview)
