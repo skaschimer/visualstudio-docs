@@ -1,7 +1,7 @@
 ---
 title: What Is Visual Studio?
 titleSuffix: ''
-description: Explore Visual Studio, an integrated development environment (IDE) that enables you to develop, edit, debug, version control, and deploy your app.
+description: Explore Visual Studio, an integrated development environment (IDE) that enables you to develop, build, debug, test, and deploy your apps with AI-powered assistance.
 ms.date: 3/20/2026
 ms.subservice: general-ide
 ms.topic: overview
@@ -26,6 +26,7 @@ Visual Studio is a powerful integrated development environment (IDE) for Windows
 
 Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
 
+> [!NOTE]
 > Visual Studio is available for Windows. For a lightweight, cross-platform code editor, see [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Install Visual Studio
@@ -63,6 +64,7 @@ Whether you're writing your first "Hello World" program or deploying enterprise 
 - AI-assisted development. Write, debug, and test code faster with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md).
 - Workload-based installer. Install only the components you need.
 - Integrated version control. Clone, branch, commit, and review pull requests with built-in Git tooling.
+- Extensible platform. Customize your IDE with extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), or [build your own](../extensibility/visualstudio.extensibility/get-started/create-your-first-extension.md).
 
 ## Discover Visual Studio
 
@@ -107,15 +109,11 @@ Learn more about the testing tools available in Visual Studio:
 - [Use testing tools in Visual Studio](../test/improve-code-quality.md)
 - [Get started with unit testing](../test/getting-started-with-unit-testing.md)
 
-### Manage version control
+### Collaborate and manage version control
 
-By using the integrated Git features in Visual Studio, you can clone, create, or open your own repositories. The Git tool window provides everything you need to commit and push changes, manage branches, and resolve merge conflicts. If you have a GitHub account, you can manage repos directly within Visual Studio.
+By using the integrated Git features in Visual Studio, you can clone, create, or open your own repositories. The Git tool window provides everything you need to commit and push changes, manage branches, and resolve merge conflicts. If you have a GitHub account, you can manage repos and review pull requests directly within Visual Studio.
 
 Learn more about [version control with Git in Visual Studio](../version-control/git-with-visual-studio.md).
-
-### Collaborate with your team
-
-Visual Studio includes collaboration features to help you work with your team. Use the integrated [Git tooling](../version-control/git-with-visual-studio.md) for code reviews and pull requests, or share your editing session in real time with [Live Share](/visualstudio/liveshare/quickstart/share).
 
 ### Deploy your app
 
