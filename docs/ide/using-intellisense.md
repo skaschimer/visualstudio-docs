@@ -75,7 +75,7 @@ You can manually open Parameter Info by choosing **Edit** > **IntelliSense** > *
 
 When you select a member from the List Members box, Quick Info also appears.
 
-:::image type="content" source="media/vsisualstudio/using-intellisense/intellisense-quick-info-parameter-info.png" alt-text="Screenshot of the IntelliSense Quick Info and Parameter Info feature.":::
+:::image type="content" source="media/visualstudio/using-intellisense/intellisense-quick-info-parameter-info.png" alt-text="Screenshot of the IntelliSense Quick Info and Parameter Info feature.":::
 
 You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**K**, **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
 
