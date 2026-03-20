@@ -9,6 +9,7 @@ monikerRange: 'visualstudio'
 author: ghogen
 ms.author: ghogen
 ms.subservice: general-ide
+ms.custom: awp-ai
 ---
 
 # Configure proxy settings in Visual Studio
