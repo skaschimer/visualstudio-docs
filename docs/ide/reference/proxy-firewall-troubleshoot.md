@@ -21,7 +21,7 @@ When you use Visual Studio behind a corporate proxy or firewall, you might encou
 - **Settings required**: Visual Studio requires additional information about your network configuration. You can configure proxy settings directly in the IDE. See [Configure proxy settings in Visual Studio](proxy-settings.md) for setup instructions.
 
   > [!NOTE]
-  > The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, you can install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/) to try it. Or, view the [Visual Studio 2022 version of this page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022) for guidance.
+  > The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, you can install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/) to try it. Or, view the [Visual Studio 2022 version of this page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022&preserve-view=true) for guidance.
 
 ::: moniker-end
 

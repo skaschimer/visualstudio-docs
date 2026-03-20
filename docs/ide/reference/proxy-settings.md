@@ -20,7 +20,7 @@ By default, Visual Studio uses your Windows proxy configuration, but if your org
 
 ## Prerequisites
 
-The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, you can install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/) to try it. Or, view the [Visual Studio 2022 proxy troubleshooting page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022) for guidance.
+The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, you can install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/) to try it. Or, view the [Visual Studio 2022 proxy troubleshooting page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022&preserve-view=true) for guidance.
 
 ## Open the Proxy Settings page
 
