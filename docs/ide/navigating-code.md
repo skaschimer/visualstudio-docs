@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: j-martens
-ms.custom: awp-ai
+ms.custom: "awp, awp-ai"
 ai-usage: ai-assisted
 
 #customer intent: As a developer, I want to learn about browsing code in Visual Studio so that I can write code more efficiently.
@@ -154,6 +154,12 @@ The Structure Visualizer in the code editor shows *structure guide lines*, which
 To disable structure guide lines, go to **Tools** > **Options** > **Text Editor** > **General** and clear the **Show structure guide lines** checkbox.
 
 ::: moniker range="visualstudio"
+
+## Fast scrolling with Alt+mouse wheel
+
+You can move through large files faster by holding the **Alt** key while scrolling the mouse wheel in the code editor. On a touchpad, hold the **Alt** key while moving two fingers up or down.
+
+To configure this behavior, go to **Tools** > **Options** > **Text Editor** > **Advanced** > **Touchpad and mouse wheel scrolling sensitivity**, and adjust **Fast scroll multiplier**. For more information, see [Configure advanced Text Editor options](options-text-editor-advanced.md#fast-scroll-multiplier).
 
 ## Middle-click scroll
 
