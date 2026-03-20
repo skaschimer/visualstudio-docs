@@ -72,7 +72,7 @@ Visual Studio supports different parts of the software development cycle.
 
 ### Develop your code
 
-The Visual Studio [code editor](../ide/writing-code-in-the-code-and-text-editor.md) helps you write and manage code with confidence. Use light bulb suggestions for quick fixes, outlining to collapse code blocks, and **Solution Explorer** or **Class View** to navigate your projects.
+[Visual Studio Code](../ide/writing-code-in-the-code-and-text-editor.md) helps you write and manage code with confidence. Use light bulb suggestions for quick fixes, outlining to collapse code blocks, and **Solution Explorer** or **Class View** to navigate your projects.
 
 Learn more about features in the IDE that help you organize and edit content:
 
