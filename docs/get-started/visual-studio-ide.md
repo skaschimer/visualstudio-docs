@@ -33,9 +33,9 @@ Visual Studio includes compilers, code completion tools, source control, extensi
 
 Visual Studio is available in three editions:
 
-- [Community](https://visualstudio.microsoft.com/vs/community/). Free and fully featured for students, open-source developers, and individual developers.
-- [Professional](https://visualstudio.microsoft.com/vs/professional/). For individual developers or small teams.
-- [Enterprise](https://visualstudio.microsoft.com/vs/enterprise/). For small-to-large business and enterprise organizations.
+- [Community](https://visualstudio.microsoft.com/vs/community/): Free and fully featured for students, open-source developers, and individual developers.
+- [Professional](https://visualstudio.microsoft.com/vs/professional/): For individual developers or small teams.
+- [Enterprise](https://visualstudio.microsoft.com/vs/enterprise/): For small-to-large business and enterprise organizations.
 
 [Compare features across editions](https://visualstudio.microsoft.com/vs/compare/) to find the edition that best fits your needs.
 
@@ -57,13 +57,13 @@ For more information, see [Install Visual Studio](../install/install-visual-stud
 
 ## Why use Visual Studio?
 
-Whether you're writing your first "Hello World" program or deploying enterprise apps, Visual Studio gives you the tools to work efficiently and collaboratively.
+Whether you're writing your first "Hello World" program or deploying enterprise apps, Visual Studio provides the tools you need to work efficiently and collaboratively.
 
 - Multiple-language support. Code in C#, C++, Python, JavaScript, TypeScript, and more.
 - Cross-platform development. Build mobile and desktop apps with .NET MAUI, web apps with ASP.NET, or Node.js services.
 - AI-assisted development. Write, debug, and test code faster with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md).
 - Workload-based installer. Install only the components you need.
-- Integrated version control. Clone, branch, commit, and review pull requests with built-in Git tooling.
+- Integrated version control. Clone, branch, commit, and review pull requests by using built-in Git tooling.
 - Extensible platform. Customize your IDE with extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), or [build your own](../extensibility/visualstudio.extensibility/get-started/create-your-first-extension.md).
 
 ## Discover Visual Studio
@@ -87,13 +87,13 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 
 ### Build your app
 
-You can compile and build your applications to create builds immediately and test them in a debugger. You can run multi-processor builds for C++ and C# projects. Visual Studio also provides several options that you can configure when you build applications. You can create a custom build configuration, use the built-in configurations, hide certain warning messages, or increase build output information.
+You can compile and build your applications to create builds right away and test them in a debugger. You can run multiprocessor builds for C++ and C# projects. Visual Studio also provides several options that you can configure when you build applications. You can create a custom build configuration, use the built-in configurations, hide certain warning messages, or increase build output information.
 
 Learn more about how to [compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md).
 
 ### Debug your code
 
-Integrated debugging in Visual Studio enables you to easily debug, profile, and diagnose code. You can step through your code and look at the values stored in variables, set watches on variables to see when values change, and examine the execution path of your code. Visual Studio also provides other ways to debug your code while it runs.
+By using integrated debugging in Visual Studio, you can easily debug, profile, and diagnose code. You can step through your code and look at the values stored in variables, set watches on variables to see when values change, and examine the execution path of your code. Visual Studio also provides other ways to debug your code while it runs.
 
 Learn more about debugging in Visual Studio:
 
@@ -119,7 +119,7 @@ Learn more about [version control with Git in Visual Studio](../version-control/
 
 When you deploy an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You can choose the appropriate method in Visual Studio for the type of deployment that you need. Share your apps and code by publishing to the web or Azure, or by deploying to a network share or a local folder.
 
-Learn more about how to [deploy your app from Visual Studio](../deployment/deploying-applications-services-and-components.md).
+To learn more, see [deploy your app from Visual Studio](../deployment/deploying-applications-services-and-components.md).
 
 ## Get started
 
