@@ -22,13 +22,11 @@ manager: mijacobs
 
 Visual Studio is a powerful integrated development environment (IDE) for Windows that you can use to complete the entire development cycle in one place. You can develop, build, debug, test, and deploy your apps—all in one place. Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process. With built-in AI assistance from [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), you can also accelerate your workflow with intelligent code completions, chat-based guidance, and AI-powered debugging.
 
-> [!NOTE]
-> Visual Studio is available for Windows. For a lightweight, cross-platform code editor, see [Visual Studio Code](https://code.visualstudio.com/).
-
 :::image type="content" source="media/visualstudio/visual-studio-overview.png" alt-text="Diagram showing the Visual Studio development cycle: develop, build, debug, test, and deploy, with AI assistance integrated throughout.":::
 
 With the variety of features and language support in Visual Studio, you can grow from writing your first "Hello World" program to developing and deploying apps. For example, build, debug, and test apps in C#, C++, Python, JavaScript, TypeScript, and more. Develop cross-platform mobile and desktop apps with .NET MAUI, build web apps with ASP.NET, or create Node.js services.
 
+> Visual Studio is available for Windows. For a lightweight, cross-platform code editor, see [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Install Visual Studio
 
