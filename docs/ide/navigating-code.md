@@ -157,7 +157,7 @@ To disable structure guide lines, go to **Tools** > **Options** > **Text Editor*
 
 ## Fast scrolling with Alt+mouse wheel
 
-You can move through large files faster by holding the **Alt** key while scrolling the mouse wheel in the code editor.
+You can move through large files faster by holding the **Alt** key while scrolling the mouse wheel in the code editor. On a touchpad, hold the **Alt** key while moving two fingers up or down.
 
 To configure this behavior, go to **Tools** > **Options** > **Text Editor** > **Advanced** > **Touchpad and mouse wheel scrolling sensitivity**, and adjust **Fast scroll multiplier**. For more information, see [Configure advanced Text Editor options](options-text-editor-advanced.md#fast-scroll-multiplier).
 
