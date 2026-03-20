@@ -9,7 +9,7 @@ ms.update-cycle: 90-days
 ms.custom: 
 - vs-acquisition
 - awp-ai
-ai-usage: ai-assisted
+- doc-kit-assisted
 f1_keywords:
 - vs.startpage
 - VS.StartPage.HowDoI
