@@ -26,8 +26,7 @@ These features include:
 
 Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the articles listed in the [Related content](#related-content) section.
 
-> [!TIP]
-> In addition to IntelliSense, Visual Studio offers AI-powered code completions through GitHub Copilot. Copilot inline suggestions work alongside IntelliSense to provide whole-line and multi-line completions. To learn more, see [Get started with GitHub Copilot completions](visual-studio-github-copilot-extension.md).
+In addition to IntelliSense, Visual Studio offers AI-powered code completions through GitHub Copilot. Copilot inline suggestions work alongside IntelliSense to provide whole-line and multi-line completions. To learn more, see [Get started with GitHub Copilot completions](visual-studio-github-copilot-extension.md).
 
 ## List Members
 
