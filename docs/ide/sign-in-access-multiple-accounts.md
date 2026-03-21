@@ -48,3 +48,10 @@ Proxy credentials are stored in the Windows Credential Manager and are used as n
 > If the proxy server starts or changes after opening Visual Studio, the **Account Settings** dialog will show a warning, but you'll need to restart Visual Studio to get the proxy credentials prompt.
 
 ::: moniker-end
+
+::: moniker range="visualstudio"
+
+> [!TIP]
+> You can also configure proxy settings directly in Visual Studio through **Tools** > **Options** > **Proxy Settings**. For more information, see [Configure proxy settings in Visual Studio](reference/proxy-settings.md).
+
+::: moniker-end

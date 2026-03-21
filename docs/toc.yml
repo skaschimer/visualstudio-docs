@@ -971,6 +971,8 @@
       href: ide/visual-studio-performance-tips-and-tricks.md
 - name: Reference
   items:
+  - name: Configure proxy settings
+    href: ide/reference/proxy-settings.md
   - name: Troubleshoot proxy and firewall issues
     href: ide/reference/proxy-firewall-troubleshoot.md
   - name: Keyboard shortcuts & commands
