@@ -1,7 +1,7 @@
 ---
 title: Configure advanced Text Editor options
 description: Learn how to configure the Advanced page to customize global settings for the Visual Studio text editor, including completion mode, scrolling, and text rendering.
-ms.date: 03/16/2026
+ms.date: 03/20/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -173,11 +173,11 @@ When this setting is enabled (default), Visual Studio recognizes whether you pre
 
 ### Compress blank lines
 
-Use this setting to force compression of blank lines in the current view. This action can help to reduce empty space in the view. The setting is disabled by default.
+Use this setting to enable syntactic line compression for blank lines in the editor. Blank lines are rendered shorter so you can see more code vertically without changing the font size. This setting is disabled by default.
 
 ### Compress lines that don't have any alphanumeric characters
 
-Use this setting to force compression of any lines in the current view that don't contain alphanumeric characters. This action can help to remove unnecessary content in the view. The setting is disabled by default.
+Use this setting to compress lines that don't contain letters or numbers, such as lines with only symbols. This option helps reduce visual space used by low-information lines while keeping regular code lines at normal height. This setting is disabled by default.
 
 ### Indexing with Find in Files
 
