@@ -14,6 +14,7 @@ monikerRange: '>= vs-2022'
 zone_pivot_groups: programming-languages-set-two
 
 ms.custom: awp-ai
+ms.custom: awp-ai
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)
 
