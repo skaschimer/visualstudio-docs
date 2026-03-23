@@ -25,6 +25,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: awp-ai
 ---
 
 # Configure Hot Reload (C#, VB, C++)

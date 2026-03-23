@@ -16,6 +16,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: awp-ai
 ---
 # Hot Reload (Visual C#)
 
