@@ -27,6 +27,7 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai
 ms.custom: awp-ai
+ms.custom: awp-ai
 ---
 
 # Configure Hot Reload (C#, VB, C++)
