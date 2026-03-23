@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: Explore the Hot Reload feature, also known as Edit and Continue, and make changes to your code while running applications.
-ms.date: 10/02/2025
+ms.date: 03/23/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Hot reload"
@@ -15,6 +15,8 @@ zone_pivot_groups: programming-languages-set-two
 
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)
+
+Hot Reload was previously known as Edit and Continue in Visual Studio documentation and some legacy UI text.
 
 Starting in Visual Studio 2022, the Hot Reload experience in Visual Studio works for both managed .NET and native C++ apps. Regardless of the type of app you’re working on, the intention of Hot Reload is to save you as many app restarts between edits as possible, making you more productive by reducing the time you spend waiting for apps to rebuild, restart, and re-navigate to the previous location where you were in the app itself.
 
@@ -179,6 +181,6 @@ If you're using response compression on .NET Core, see the information on [respo
 
 ## Related content
 
-* [Edit and Continue (C#)](../debugger/edit-and-continue-visual-csharp.md)
-* [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
-* [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
+* [Hot Reload (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
+* [Hot Reload (C++)](../debugger/edit-and-continue-visual-cpp.md)
+* [Configure Hot Reload](../debugger/how-to-enable-and-disable-edit-and-continue.md)
