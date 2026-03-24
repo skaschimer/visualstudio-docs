@@ -1,7 +1,7 @@
 ---
-title: Configure Edit and Continue
-description: Learn how to enable, disable, and configure Edit and Continue, in Visual Studio Options at design time. Edit and Continue works only in debug builds.
-ms.date: 10/31/2025
+title: Configure Hot Reload
+description: Learn how to enable, disable, and configure Hot Reload (previously called Edit and Continue) in Visual Studio options at design time.
+ms.date: 03/23/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -25,13 +25,14 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: awp-ai
 ---
 
-# Configure Edit and Continue (C#, VB, C++)
+# Configure Hot Reload (C#, VB, C++)
 
 ::: moniker range=">=vs-2022"
 
-You can disable or enable Hot Reload, previously called Edit and Continue, from the Visual Studio **Tools** > **Options** menu at design time. **Hot Reload** works only in debug builds. For more information, see [Hot Reload](../debugger/hot-reload.md).
+You can disable or enable Hot Reload (previously called Edit and Continue) from the Visual Studio **Tools** > **Options** menu at design time. **Hot Reload** works only in debug builds. For more information, see [Hot Reload](../debugger/hot-reload.md).
 
 For native C++, Hot Reload requires using the `/INCREMENTAL` option. For more information about feature requirements in C++, see this [blog post](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/) and [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md).
 
