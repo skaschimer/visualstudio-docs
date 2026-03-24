@@ -42,7 +42,7 @@ Visual Studio 2022 supports live code editing while debugging. For detailed info
 
 - [Write and debug running code](hot-reload.md)
 - [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md)
-- [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
+- [Configure Hot Reload (previously called Edit and Continue)](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
 
 ::: moniker-end
 

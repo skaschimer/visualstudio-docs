@@ -193,7 +193,7 @@ sections:
 
           - **Can I edit code during a debugging session?**
           
-            Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
+            Use [Hot Reload](hot-reload.md), previously called Edit and Continue. For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
           - **How can I debug on remote machines?**
           
