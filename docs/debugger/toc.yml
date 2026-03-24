@@ -212,23 +212,21 @@
         href: hot-reload.md
       - name: Extend Hot Reload (.NET)
         href: hot-reload-metadataupdatehandler.md
-    - name: Hot Reload (legacy Edit and Continue pages)
-      items:
       - name: Configure Hot Reload
         href: how-to-enable-and-disable-edit-and-continue.md
-      - name: Hot Reload (C++)
+      - name: Hot Reload for C++
         items:
         - name: Hot Reload for C++
           href: edit-and-continue-visual-cpp.md
         - name: Supported Code Changes (C++)
           href: supported-code-changes-cpp.md
-      - name: Hot Reload (Visual C#)
+      - name: Hot Reload for C#
         items:
         - name: Hot Reload for C#
           href: edit-and-continue-visual-csharp.md
         - name: Supported Code Changes
           href: supported-code-changes-csharp.md
-      - name: Hot Reload (Visual Basic)
+      - name: Hot Reload for Visual Basic
         href: edit-and-continue-visual-basic.md
     - name: XAML Hot Reload
       items:
