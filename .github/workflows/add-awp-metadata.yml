@@ -214,7 +214,7 @@ jobs:
 
       - name: Post review suggestions for metadata updates
         if: steps.commit.outputs.status == 'fork' || steps.commit.outputs.status == 'push-failed'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const fs = require('fs');
