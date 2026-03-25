@@ -9,6 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
+ms.custom: awp-ai
 ---
 # Tutorial: Get started with Windows Forms Designer
 
