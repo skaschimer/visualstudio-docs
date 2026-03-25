@@ -1,7 +1,7 @@
 ---
 title: Use custom agents in GitHub Copilot
 description: Learn about built-in agents for debugging, profiling, testing, and code modernization, and how to create custom agents for your team workflows.
-ms.date: 03/20/2026
+ms.date: 03/25/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -291,6 +291,46 @@ Always check existing code conventions before making changes.
 
 > [!TIP]
 > Select the **Tools** icon in the Copilot Chat window to see all available tool names in your version of Visual Studio.
+
+### .NET development agents
+
+The .NET team maintains curated custom agents for C# and Windows Forms development. You can download these agents from the [awesome-copilot](https://github.com/github/awesome-copilot) repository and add them to your project's `.github/agents/` folder.
+
+To get started:
+
+1. Download [CSharpExpert.agent.md](https://github.com/github/awesome-copilot/blob/main/agents/CSharpExpert.agent.md) and [WinFormsExpert.agent.md](https://github.com/github/awesome-copilot/blob/main/agents/WinFormsExpert.agent.md) from the awesome-copilot repository.
+1. Add the files to your repository's `.github/agents/` folder.
+1. Open Copilot Chat in agent mode and select the agent from the agent picker.
+
+:::moniker range="visualstudio"
+
+> [!TIP]
+> Visual Studio can automatically apply .NET-specific agent instructions for your codebase. Select **Tools** > **Options**, and then enable **Enable project specific .NET instructions such as Windows Forms development when applicable**.
+
+:::moniker-end
+
+#### C# Expert
+
+The C# Expert agent provides guidance on modern C# best practices, including:
+
++ **Core C# development**: Adheres to modern best practices for syntax, structure, and performance while honoring the conventions of your existing repository.
++ **Code integrity**: Implements minimal code changes and writes efficient code that uses async/await patterns with proper cancellation and exception handling.
++ **Testing best practices**: Supports behavior-driven unit testing, integration testing, and TDD workflows.
+
+The agent avoids generating unused interfaces, methods, or parameters, which reduces technical debt and keeps your code readable.
+
+#### WinForms Expert
+
+The WinForms Expert agent specializes in Windows Forms development on .NET 8 through .NET 10. It covers several critical areas:
+
++ **Designer code protection**: Keeps `.Designer.cs` files safe from corruption so you can continue using the [Windows Forms Designer](../designers/windows-forms-designer-overview.md) after Copilot edits your code.
++ **UI design patterns**: Implements MVVM and MVP patterns for maintainable and scalable WinForms code, including MVVM data binding with the Community Toolkit.
++ **Modern .NET patterns**: Async/await with the correct `InvokeAsync` overloads, dark mode support, high-DPI awareness, and nullable reference types in the right places.
++ **Layout best practices**: Guidance on `TableLayoutPanel` and `FlowLayoutPanel` for responsive, DPI-aware layouts that work across different screen sizes and scaling factors.
++ **CodeDOM serialization**: Rules for property serialization in the WinForms designer, including `[DefaultValue]` attributes and `ShouldSerialize*()` methods.
++ **Exception handling**: Patterns for async event handlers and application-level exception handling to prevent process crashes.
+
+For more information about the Windows Forms Designer, see [What is Windows Forms Designer?](../designers/windows-forms-designer-overview.md).
 
 ### Community configurations
 
