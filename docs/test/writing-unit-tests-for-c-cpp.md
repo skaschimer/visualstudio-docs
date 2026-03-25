@@ -177,7 +177,11 @@ Initialize CodeLens for a C++ unit test project in any of the following ways:
 
 After you initialize CodeLens, you can see the test status icons above each unit test.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/cpp-test-codelens-icons.png" alt-text="Screenshot shows the C++ CodeLens icons in Visual Studio." lightbox="media/vs-2022/cpp-test-codelens-icons.png":::
+::: moniker-end
+
+::: moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/cpp-test-codelens-icons-2022.png" alt-text="Screenshot shows the C++ CodeLens icons in Visual Studio 2022." lightbox="media/vs-2022/cpp-test-codelens-icons-2022.png":::
 ::: moniker-end
 
