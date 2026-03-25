@@ -170,6 +170,10 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 ## Troubleshooting
 
+### Outdated versions of Node.js or the template
+
+If you experience issues not described elsewhere in this section, try updating Node.js to the current version and update Visual Studio to get the latest version of the template.
+
 ### Proxy error
 
 You may see the following error:

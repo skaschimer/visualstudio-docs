@@ -60,8 +60,7 @@ Make sure to install the following:
 1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core**.
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template.":::
-
-   
+ 
    > [!NOTE]
    > There is a compatibility issue with Angular 20.x.x and the **Angular and ASP.NET Core** template in Visual Studio 2022. To use Angular 20.x.x in Visual Studio 2022, it's recommended that you create an ASP.NET Core project first, add an Angular project to the solution, and then add a project reference to the Angular project from the ASP.NET Core project. You can use this method instead of using the combined template described in this article. For more information about the issue, see [Creating a new Solution with Angular](https://developercommunity.visualstudio.com/t/Creating-a-new-Solution-with-Angular-is/10918866?q=Angular).
    ::: moniker-end
@@ -180,6 +179,10 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
    If you publish to a folder, see [ASP.NET Core directory structure](/aspnet/core/host-and-deploy/directory-structure) for more information on the files added to the *publish* folder.
 
 ## Troubleshooting
+
+### Outdated versions of Node.js or the template
+
+If you experience issues not described elsewhere in this section, try updating Node.js to the current version and update Visual Studio to get the latest version of the template.
 
 ### Proxy error
 
