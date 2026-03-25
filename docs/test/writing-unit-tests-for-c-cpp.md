@@ -189,7 +189,7 @@ After you initialize CodeLens, you can see the test status icons above each unit
 Choose the icon for more information, or to run or debug the unit test:
 
 ::: moniker range="visualstudio"
-:::image type="content" source="media/visualstudio/cpp-test-codelens-run-debug.png" alt-text="Screenshot shows C++ CodeLens icon after you select it for details in Visual Studio.":::
+:::image type="content" source="media/visualstudio/cpp-test-codelens-run-debug.png" alt-text="Screenshot shows C++ CodeLens icon after you select it for details in Visual Studio." lightbox="media/visualstudio/cpp-test-codelens-run-debug.png":::
 ::: moniker-end
 
 ::: moniker range="vs-2022"
