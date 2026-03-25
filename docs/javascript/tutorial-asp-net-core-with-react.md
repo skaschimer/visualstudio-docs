@@ -172,6 +172,10 @@ If you don't see the weather forecast data in the browser, see [Troubleshooting]
 
 ## Troubleshooting
 
+### Outdated versions of Node.js or the template
+
+If you experience issues not described elsewhere in this section, try updating Node.js to the current version and update Visual Studio to get the latest version of the template.
+
 ### Proxy error
 
 You may see the following error:
