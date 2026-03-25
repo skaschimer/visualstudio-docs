@@ -9,7 +9,6 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
-ms.subservice: ui-designers
 ms.custom: awp-ai
 #customer intent: As a developer, I want to use Windows Forms Designer in Visual Studio, so I can arrange controls, set margins and padding, and adjust the layout, size, and display of forms.
 ---
