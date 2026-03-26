@@ -1,7 +1,7 @@
 ---
-title: Edit and Continue in your C++ projects
-description: Edit and Continue is available for C++ projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
-ms.date: "05/31/2018"
+title: Hot Reload in your C++ projects
+description: Hot Reload (previously called Edit and Continue) is available for C++ projects. Learn what edits are supported and how to control when edits are applied.
+ms.date: "03/23/2026"
 ms.topic: how-to
 f1_keywords:
   - "vs.debug.ENC.welcome"
@@ -18,8 +18,9 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: awp-ai
 ---
-# Edit and Continue (C++)
+# Hot Reload (C++)
 
 ::: moniker range=">=vs-2022"
 
@@ -29,7 +30,7 @@ You can use Hot Reload, previously called Edit and Continue, in C++ projects. Fo
 
 The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option adds additional information to .pdb (symbol) files for binaries compiled without the [/Od (Disable (Debug))](/cpp/build/reference/od-disable-debug) option.
 
-The `/Zo` option disables Edit and Continue, as described in [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md).
+The `/Zo` option disables Hot Reload (formerly called Edit and Continue), as described in [How to: Debug Optimized Code](../debugger/how-to-debug-optimized-code.md).
 
 ::: moniker range=">=vs-2022"
 
@@ -83,7 +84,7 @@ You might want to disable the automatic invocation of Hot Reload if you're makin
 
 ## <a name="BKMK_How_to_apply_code_changes_explicitly"></a> Apply code changes explicitly
 
-In C++, Edit and Continue can apply code changes in two ways. Code changes can be applied implicitly, when you choose an execution command, or explicitly, using the **Apply Code Changes** command.
+In C++, Hot Reload can apply code changes in two ways. Code changes can be applied implicitly, when you choose an execution command, or explicitly, using the **Apply Code Changes** command.
 
 When you apply code changes explicitly, your program remains in break mode - no execution occurs.
 
@@ -91,7 +92,7 @@ When you apply code changes explicitly, your program remains in break mode - no 
 
 ## <a name="BKMK_How_to_stop_code_changes"></a> How to stop code changes
 
-While Edit and Continue is in the process of applying code changes, you can stop the operation.
+While Hot Reload is in the process of applying code changes, you can stop the operation.
 
 To stop applying code changes:
 
@@ -103,17 +104,17 @@ To stop applying code changes:
 
 ## <a name="BKMK_How_to_reset_the_point_of_execution"></a> Reset the point of execution
 
-Some code changes can cause the point of execution to move to a new location when Edit and Continue applies the changes. The feature places the point of execution as accurately as possible, but the results might not be correct in all cases.
+Some code changes can cause the point of execution to move to a new location when Hot Reload applies the changes. The feature places the point of execution as accurately as possible, but the results might not be correct in all cases.
 
 In C++, a dialog box informs you when the point of execution changes. You should verify that the location is correct before you continue debugging. If it isn't correct, use the **Set Next Statement** command. For more information, see [Set the next statement to execute](./navigating-through-code-with-the-debugger.md#BKMK_Set_the_next_statement_to_execute).
 
 ## <a name="BKMK_How_to_work_with_stale_code"></a> Work with stale code
 
-In some cases, Edit and Continue can't apply code changes to the executable immediately, but might be able to apply the code changes later if you continue debugging. This scenario happens if you edit a function that calls the current function or if you add more than 64 bytes of new variables to a function on the call stack.
+In some cases, Hot Reload can't apply code changes to the executable immediately, but might be able to apply the code changes later if you continue debugging. This scenario happens if you edit a function that calls the current function or if you add more than 64 bytes of new variables to a function on the call stack.
 
 In such cases, the debugger continues executing the original code until the changes can be applied. The stale code appears as a temporary source file window in a separate source window, with a title such as `enc25.tmp`. The edited source continues to appear in the original source window. If you try to edit the stale code, a warning message appears.
 
 ## Related content
 
 - [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)
-- [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
+- [Configure Hot Reload](../debugger/how-to-enable-and-disable-edit-and-continue.md)

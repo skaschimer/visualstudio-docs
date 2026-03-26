@@ -18,8 +18,21 @@ ms.custom: sfi-image-nochange
 
 In this article, you learn how to quickly create a new project in Visual Studio from a template.
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+## Open the "Create a new project" dialog
+
+There are multiple ways to create a new project in Visual Studio. When you first open Visual Studio, the start window appears, and from there, you can select **Create a new project**.
+
+:::image type="content" source="media/visualstudio/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' option in the start window.":::
+
+If the Visual Studio development environment is already open, you can create a new project by choosing **File** > **New** > **Project** on the menu bar. You can also select the **New File** dropdown arrow on the toolbar and then select **New Project/Solution**, or press **Ctrl**+**Shift**+**N**.
+
+:::image type="content" source="media/visualstudio/new-project-button.png" alt-text="Screenshot of the New Project button in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ## Open the "Create a new project" dialog
 
@@ -55,8 +68,23 @@ Select a template and then select **Next**.
 
 ::: moniker-end
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+## Configure your new project
+
+The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and more.
+
+:::image type="content" source="media/visualstudio/configure-new-project.png" alt-text="Screenshot showing the Configure your new project dialog in Visual Studio and the options to set, including the project name and project location." lightbox="media/visualstudio/configure-new-project.png":::
+
+The **Additional information** dialog includes options to select a Framework version and more.
+
+:::image type="content" source="media/visualstudio/aspnet-core-additional-information-dialog.png" alt-text="Screenshot of the Additional Information dialog in Visual Studio showing the selected .NET Framework version for the new project." lightbox="media/visualstudio/aspnet-core-additional-information-dialog.png":::
+
+Select **Create** to create the new project.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ## Configure your new project
 

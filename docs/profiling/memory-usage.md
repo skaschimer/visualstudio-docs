@@ -51,8 +51,13 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
 4. Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
 
+     ::: moniker range="visualstudio"
 
-     ::: moniker range=">=vs-2022"
+     ![Screenshot of the Diagnostic Tools window with the Memory Usage tool selected in the Select Tools dropdown.](../profiling/media/visualstudio/tools-select-tool-2.png)
+
+     ::: moniker-end
+
+     ::: moniker range="vs-2022"
 
      ![Screenshot of the Diagnostic Tools window with the Memory Usage tool selected in the Select Tools dropdown.](../profiling/media/vs-2022/diag-tools-select-tool-2.png)
 
@@ -62,8 +67,21 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
+     ::: moniker range="visualstudio"
 
-     ::: moniker range=">=vs-2022"
+     ![Screenshot of the Diagnostic Tools Summary tab showing the Memory Usage timeline graph and process memory chart.](../profiling/media/visualstudio/tools-summary-tab-2.png)
+
+     > [!NOTE]
+     > Because collecting memory data can affect the debugging performance of your native or mixed-mode apps, memory snapshots are disabled by default. To enable snapshots in native or mixed-mode apps, start a debugging session (Shortcut key: **F5**). When the **Diagnostic Tools** window appears, choose the **Memory Usage** tab, and then choose **Heap Profiling**.
+     >
+     >  ![Screenshot of the Memory Usage toolbar with the Heap Profiling button highlighted to enable snapshots for native or mixed-mode apps.](../profiling/media/vs-2022/dbgdiag-mem-mixed-toolbar-enable-snapshot.png)
+     >
+     >  Stop (Shortcut key: **Shift**+**F5**) and restart debugging.
+
+     ::: moniker-end
+
+
+     ::: moniker range="vs-2022"
 
      ![Screenshot of the Diagnostic Tools Summary tab showing the Memory Usage timeline graph and process memory chart.](../profiling/media/vs-2022/diag-tools-summary-tab-2.png)
 
@@ -134,9 +152,19 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 [!INCLUDE [managed-types-report](../profiling/includes/managed-types-report.md)]
 
-To display the instances of a selected type in the upper pane, click the **View Instances** icon next to the object type.
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+To display the instances of a selected type in the upper pane, click the **View Details** icon next to the object type.
+
+[![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/visualstudio/managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/visualstudio/managed-types-report-instances.png#lightbox)
+
+The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+To display the instances of a selected type in the upper pane, click the **View Instances** icon next to the object type.
 
 [![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
 
@@ -168,8 +196,13 @@ The **Instances** view displays the instances of the selected object in the snap
 
 - Choose a snapshot in the **Compare To** list of a managed or native report.
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ![Screenshot of the Compare To dropdown list in a Memory Usage report, showing available snapshots for comparison.](../profiling/media/visualstudio/choose-compare.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of the Compare To dropdown list in a Memory Usage report, showing available snapshots for comparison.](../profiling/media/vs-2022/dbgdiag-mem-choose-compare-to.png)
 

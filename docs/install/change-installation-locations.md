@@ -29,12 +29,20 @@ You can reduce the installation footprint of Visual Studio on your system drive 
 
 ## Get started
 
-
-::: moniker range=">=vs-2022"
-
 1. When you install Visual Studio, choose the **Installation locations** tab.
 
+   ::: moniker range="visualstudio"
+   
+   :::image type="content" source="media/visualstudio/vs-installer-installation-locations-tab.png" border="false" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-installation-locations-tab.png":::
+
+   ::: moniker-end
+
+
+   ::: moniker range="vs-2022"
+   
    :::image type="content" source="media/vs-2022/vs-installer-installation-locations-tab.png" border="false" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-installation-locations-tab.png":::
+
+   ::: moniker-end
 
 1. In the **Visual Studio IDE** section, accept the default path. Visual Studio installs the core product, and includes files that are specific to this version of Visual Studio.
 
@@ -61,8 +69,6 @@ You can reduce the installation footprint of Visual Studio on your system drive 
 
    > [!IMPORTANT]
    > If you've installed Visual Studio on your computer before, you won't be able to change the **Shared components, tools, and SDKs** path and it appears greyed out.
-
-::: moniker-end
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

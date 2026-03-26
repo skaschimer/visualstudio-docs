@@ -12,7 +12,13 @@ title: Change (Diff) report
 
 The change report adds columns (marked with **(Diff)**) to the base report that show the difference between the base snapshot value and the comparison snapshot. Here's how a Native Type View diff report might look:
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+[![Screenshot of Native Types Diff View.](../media/visualstudio/native-types-view-diff.png "Native Types Diff View")](../media/visualstudio/native-types-view-diff.png#lightbox)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 [![Screenshot of Native Types Diff View.](../media/vs-2022/dbgdiag-mem-native-types-view-diff.png "Native Types Diff View")](../media/vs-2022/dbgdiag-mem-native-types-view-diff.png#lightbox)
 
