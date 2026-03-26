@@ -80,7 +80,6 @@ Select **Accept all** to accept the proposed code changes across all files where
 
 :::image type="content" source="media/vs-2022/copilot-edits/accept-all.gif" alt-text="Animated screenshot that shows accepting all edits on all files." lightbox="media/vs-2022/copilot-edits/accept-all.gif":::
 
-:::moniker range="vs-2022"
 
 ## Revert edits
 
@@ -100,7 +99,6 @@ A popup dialog confirms the action before reverting file states.
 
 :::image type="content" source="media/vs-2022/copilot-edits/reset-to-previous-iteration.png" alt-text="Screenshot that shows reverting a file to a previous iteration." lightbox="media/vs-2022/copilot-edits/reset-to-previous-iteration.png":::
 
-:::moniker-end
 
 ## Related content
 
