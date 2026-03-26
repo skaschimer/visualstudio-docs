@@ -20,8 +20,7 @@ In this first release, the custom proxy settings apply to **GitHub Copilot exper
 
 ## Prerequisites
 
-> [!IMPORTANT]
-> The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/). Or, view the [Visual Studio 2022 proxy troubleshooting page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022&preserve-view=true) for guidance.
+The proxy configuration experience is not yet available in all Visual Studio 2026 installations. If you don't see this in your installation, install [Visual Studio Insiders](https://visualstudio.microsoft.com/insiders/). Or, view the [Visual Studio 2022 proxy troubleshooting page](/visualstudio/ide/reference/proxy-firewall-troubleshoot?view=vs-2022&preserve-view=true) for guidance.
 
 ## Open the Proxy Configuration page
 
