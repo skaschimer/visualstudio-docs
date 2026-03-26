@@ -12,11 +12,11 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.QuickLaunch
 - IDE navigator
-monikerRange: ">=vs-2022"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: awp-ai
 ---
 # Use Visual Studio search
 
@@ -40,7 +40,28 @@ For example, suppose you searched for "prettify file" in Feature Search. That do
 
 :::image type="content" source="./media/vs-2022/feature-search-ask-copilot-prettify.png" lightbox="./media/vs-2022/feature-search-ask-copilot-prettify.png" alt-text="Screenshot showing the Ask Copilot button in All-In-One Search.":::
 
-In Code Search, if you mistype a search query, Visual Studio can often detect this and suggest a possible correction. If a variation of the text you entered returns much better results, you'll see a message ("Did you mean ... ?") that suggests the alternate query. Just click on this message to accept the suggested query and refresh the results.
+### Did You Mean code search suggestions (preview)
+
+Ever forget the name of a file while coding? The **Did You Mean** feature in Visual Studio, powered by Copilot, helps you find files even when you can't remember their exact names. When you search using All-In-One Search and Copilot detects a better match than the top result—perhaps because of a typo or a fuzzy memory—it suggests what you might have meant.
+
+:::image type="content" source="./media/visualstudio/did-you-mean.png" alt-text="Screenshot of the Did You Mean suggestion.":::
+
+When you type a search term, Copilot analyzes your input and suggests a more relevant term if it finds one that more closely matches your intent. This feature helps whether the search results are empty or when the top result isn't what you intended. Select the suggestion to accept it and refresh the results.
+
+:::image type="content" source="./media/visualstudio/did-you-mean-empty.png" alt-text="Screenshot of the Did You Mean suggestion appearing when search results are empty.":::
+
+:::image type="content" source="./media/visualstudio/did-you-mean-non-empty.png" alt-text="Screenshot of the Did You Mean feature showing an alternative suggestion when the top result doesn't match your intent.":::
+
+**Did You Mean** speeds up your search experience by reducing the time spent correcting typos or trying to remember the correct name—making your search experience easier and more intuitive.
+
+#### Enable or disable Did You Mean
+
+To control this feature:
+
+1. In Visual Studio, go to **Tools** > **Options** > **GitHub** > **Copilot** > **Search**.
+1. Select or clear **Enable 'Did You Mean' Code Search Support in All-In-One Search (preview)**.
+
+### Recently navigated files
 
 When you open Code Search without a query, you'll see a list of your recently navigated files. These include the files you opened through Code Search, but also any other files you opened in the solution. This makes it easy to jump back to a file you were recently working on without having to remember or type the file name.
 

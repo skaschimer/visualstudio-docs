@@ -1,7 +1,7 @@
 ---
 title: Use custom agents in GitHub Copilot
 description: Learn about built-in agents for debugging, profiling, testing, and code modernization, and how to create custom agents for your team workflows.
-ms.date: 03/20/2026
+ms.date: 03/25/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -20,7 +20,7 @@ Visual Studio includes a set of curated built-in agents that integrate deeply wi
 
 ## Prerequisites
 
-+ Visual Studio 2022 [version 17.14](/visualstudio/releases/2022/release-history) or later
++ [Visual Studio 2026](/visualstudio/releases/2026/release-notes) or [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) (with the latest servicing release recommended for the most up-to-date features)
 + A [GitHub Copilot subscription](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
 
 ## Access custom agents
@@ -52,14 +52,14 @@ You can access custom agents by using **@ syntax**: Type `@` followed by the age
 
 ## Built-in agents
 
-Each built-in agent is designed around a specific developer workflow and integrates with Visual Studio's native tooling in ways that a generic assistant can't.
+Each built-in agent focuses on a specific developer workflow. These agents integrate with Visual Studio's native tooling in ways that a generic assistant can't.
 
 :::moniker range="visualstudio"
 | Agent | Description |
 |-------|-------------|
 | **@debugger** | Goes beyond reading error messages. Uses your call stacks, variable state, and diagnostic tools to walk through error diagnosis systematically across your solution. |
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
-| **@test** | Generates unit tests tuned to your project's framework and patterns, not boilerplate that your CI will reject. |
+| **@test** | Generates unit tests tuned to your project's framework and patterns, not boilerplate that your CI rejects. |
 | **@modernize** | (.NET and C++ only) Handles framework and dependency upgrades with awareness of your actual project graph. Flags breaking changes, generates migration code, and follows your existing patterns. |
 ::: moniker-end
 
@@ -115,11 +115,11 @@ For more comprehensive .NET testing support, see [GitHub Copilot testing for .NE
 
 The @modernize agent helps with framework migrations and dependency upgrades for .NET and C++ projects.
 
-For .NET modernization workflows, the agent can support a three-stage process:
+For .NET modernization workflows, the agent supports a three-stage process:
 
-+ **Assessment**: Review package versions, target framework options, project inventory, and API compatibility risks.
-+ **Plan**: Generate a migration plan that aligns with the current assessment and update priorities.
-+ **Task execution**: Work through modernization tasks with a dynamic task file you can edit as the work progresses.
++ **Assessment**: Reviews package versions, target framework options, project inventory, and API compatibility risks.
++ **Plan**: Generates a migration plan that aligns with the current assessment and update priorities.
++ **Task execution**: Works through modernization tasks with a dynamic task file you can edit as the work progresses.
 
 **Example prompts**:
 
@@ -137,13 +137,13 @@ For end-to-end guidance on GitHub Copilot app modernization for .NET, see [GitHu
 > [!NOTE]
 > Custom agents require Visual Studio 2026 version 18.4 or later.
 
-The built-in agents cover common workflows, but your team knows your workflow best. Custom agents let you build your own using the same foundation: workspace awareness, code understanding, your preferred AI model, and your own tools.
+The built-in agents cover common workflows, but your team knows your workflow best. Custom agents let you build your own agents by using the same foundation: workspace awareness, code understanding, your preferred AI model, and your own tools.
 
 Custom agents become especially powerful when combined with [MCP (Model Context Protocol)](mcp-servers.md). You can connect agents to external knowledge sources like internal documentation, design systems, APIs, and databases, so the agent isn't limited to what's in your repository.
 
 ### Create a custom agent
 
-Custom agents are defined as `.agent.md` files in your repository's `.github/agents/` folder:
+Define custom agents as `.agent.md` files in your repository's `.github/agents/` folder:
 
 ```text
 your-repo/
@@ -185,10 +185,10 @@ Flag violations clearly and suggest fixes inline.
 
 | Property | Required | Description |
 |----------|----------|-------------|
-| `name` | No | Display name for the agent in the agent picker. If not specified, the agent name is derived from the filename (for example, `code-reviewer.agent.md` becomes `code-reviewer`). |
+| `name` | No | Display name for the agent in the agent picker. If you don't specify this property, the agent name comes from the filename (for example, `code-reviewer.agent.md` becomes `code-reviewer`). |
 | `description` | Yes | Brief description shown when hovering over the agent |
-| `model` | No | AI model to use. If not specified, uses the model selected in the model picker. |
-| `tools` | No | Array of tool names the agent can use. If not specified, all available tools are enabled. |
+| `model` | No | AI model to use. If you don't specify this property, the model selected in the model picker is used. |
+| `tools` | No | Array of tool names the agent can use. If you don't specify this property, all available tools are enabled. |
 
 ### Specify tools
 
@@ -199,14 +199,14 @@ Tools extend what your custom agent can do. You can specify which tools the agen
 
 ### Connect to external sources with MCP
 
-With [MCP servers](mcp-servers.md), your custom agents can access external knowledge sources:
+By using [MCP servers](mcp-servers.md), your custom agents can access external knowledge sources such as:
 
 + Internal documentation and wikis
 + Design systems and component libraries
 + APIs and databases
 + Style guides and ADR repositories
 
-For example, a code review agent can check PRs against your actual conventions by connecting to your style guide via MCP.
+For example, a code review agent can check PRs against your actual conventions by connecting to your style guide through MCP.
 
 ### Example custom agents
 
@@ -292,9 +292,39 @@ Always check existing code conventions before making changes.
 > [!TIP]
 > Select the **Tools** icon in the Copilot Chat window to see all available tool names in your version of Visual Studio.
 
+### .NET development agents
+
+The .NET team maintains curated custom agents for C# and Windows Forms development in the [awesome-copilot](https://github.com/github/awesome-copilot) repository. To get started:
+
+1. Download [CSharpExpert.agent.md](https://github.com/github/awesome-copilot/blob/main/agents/CSharpExpert.agent.md) and [WinFormsExpert.agent.md](https://github.com/github/awesome-copilot/blob/main/agents/WinFormsExpert.agent.md).
+1. Add the files to your repository's `.github/agents/` folder.
+1. Open Copilot Chat in agent mode and select the agent from the agent picker.
+
+> [!TIP]
+> Select **Tools** > **Options** > **GitHub** > **Copilot**, and then enable **Enable project specific .NET instructions such as Windows Forms development when applicable** to automatically add the appropriate custom agent for your code base.
+
+#### C# Expert
+
+The C# Expert agent applies modern C# conventions to Copilot's code generation:
+
++ **Syntax and performance**: Follows current best practices while matching your repository's existing conventions.
++ **Minimal changes**: Generates only the code needed, using async/await with proper cancellation and exception handling. Avoids unused interfaces, methods, or parameters.
++ **Testing**: Supports behavior-driven unit testing, integration testing, and TDD workflows.
+
+#### WinForms Expert
+
+The WinForms Expert agent targets Windows Forms development on .NET 8 through .NET 10:
+
++ **Designer code protection**: Prevents `.Designer.cs` corruption so the [Windows Forms Designer](../designers/windows-forms-designer-overview.md) keeps working after Copilot edits.
++ **UI design patterns**: MVVM and MVP patterns, including Community Toolkit data binding.
++ **Modern .NET**: Correct `InvokeAsync` overloads, dark mode, high-DPI awareness, and nullable reference types.
++ **Layout**: `TableLayoutPanel` and `FlowLayoutPanel` for responsive, DPI-aware layouts.
++ **CodeDOM serialization**: `[DefaultValue]` attributes and `ShouldSerialize*()` methods for proper designer property handling.
++ **Exception handling**: Async event handler patterns and application-level exception handling.
+
 ### Community configurations
 
-The [awesome-copilot repository](https://github.com/github/awesome-copilot) has community-contributed agent configurations you can use as starting points. When using configurations from this repository, verify tool names work in Visual Studio before deploying to your team.
+The [awesome-copilot repository](https://github.com/github/awesome-copilot) has community-contributed agent configurations you can use as starting points. When you use configurations from this repository, verify tool names work in Visual Studio before deploying to your team.
 
 ### Limitations and notes
 

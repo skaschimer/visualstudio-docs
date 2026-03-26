@@ -9,8 +9,9 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: '>= vs-2022'
+monikerRange: 'vs-2022'
 ms.custom: awp-ai
+
 ---
 # What is GitHub Copilot Edits?
 
@@ -84,7 +85,8 @@ Select **Accept all** to accept the proposed code changes across all files where
 
 :::image type="content" source="media/vs-2022/copilot-edits/accept-all.gif" alt-text="Animated screenshot that shows accepting all edits on all files." lightbox="media/vs-2022/copilot-edits/accept-all.gif":::
 
-### Revert edits
+
+## Revert edits
 
 #### Revert to the original state
 
@@ -101,6 +103,7 @@ At any time, you can select **Reset to Iteration** on a previous iteration to re
 A popup dialog confirms the action before reverting file states.
 
 :::image type="content" source="media/vs-2022/copilot-edits/reset-to-previous-iteration.png" alt-text="Screenshot that shows reverting a file to a previous iteration." lightbox="media/vs-2022/copilot-edits/reset-to-previous-iteration.png":::
+
 
 ## Related content
 

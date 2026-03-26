@@ -9,6 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
+ms.custom: awp-ai
 ---
 # Tutorial: Get started with Windows Forms Designer
 
@@ -344,3 +345,4 @@ This article has demonstrated how to construct the user interface for a simple c
 - [Windows Forms controls](/dotnet/framework/winforms/controls/)
 - [Accessibility for Windows Forms controls](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
 - [Publish by using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [Use .NET custom agents with GitHub Copilot](../ide/copilot-specialized-agents.md#net-development-agents)
