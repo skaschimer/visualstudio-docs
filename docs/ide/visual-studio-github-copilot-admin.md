@@ -61,7 +61,7 @@ With Visual Studio 2026, administrators can configure an allowlist of approved M
 
 ### How the MCP server allowlist works
 
-- Administrators specify which MCP servers are allowed within their organization by using the [GitHub Copilot administration dashboard](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise).
+- Administrators specify which MCP servers are allowed within their organization by using the [GitHub Copilot enterprise policies for MCP](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#defining-policies-for-your-enterprise). In the enterprise or organization settings, navigate to **AI Controls** and select **MCP** in the sidebar to configure MCP server policies.
 - Visual Studio checks the allowlist when a user attempts to connect to an MCP server.
 - If the server is on the allowlist, the connection proceeds normally.
 - If the server isn't on the allowlist, Visual Studio blocks the connection and displays an error message indicating that the server isn't permitted by the organization's policy.
