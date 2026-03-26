@@ -1,7 +1,7 @@
 ---
 title: Use MCP Servers
 description: Learn how to add MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, set up mcp.json, and manage tool permissions.
-ms.date: 12/18/2025
+ms.date: 03/26/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -9,6 +9,7 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: awp-ai
 
 ---
 
@@ -316,6 +317,24 @@ To manage authentication for an MCP server:
 
 1. Provide credentials for the necessary OAuth provider for that server in the browser pop-up dialog.
 
+:::moniker range="visualstudio"
+
+## MCP server allowlist policies
+
+MCP server usage in Visual Studio respects allowlist policies set by organization administrators through GitHub. When an allowlist is configured for your organization, you can only connect to approved MCP servers.
+
+If you try to connect to an MCP server that isn't on the allowlist, Visual Studio displays an error message indicating that the server isn't allowed by your organization's policy. Contact your organization administrator to request access to the server or to verify which servers are approved.
+
+This feature helps organizations:
+
+- Control which MCP servers can process sensitive data
+- Maintain compliance with security policies
+- Centrally manage MCP server access across development teams
+
+For information on configuring MCP server allowlists as an administrator, see [Configure MCP server allowlist](visual-studio-github-copilot-admin.md#configure-mcp-server-allowlist).
+
+:::moniker-end
+
 ## MCP prompts and prompt templates
 
 MCP servers can provide reusable prompt templates that help you interact more effectively with language models. These prompts are tailored to specific tasks and can include customizable arguments.
@@ -371,10 +390,17 @@ When Copilot needs to make a sampling call, you see a confirmation dialog. Revie
 
 The GitHub policy settings on the GitHub Copilot dashboard for administrators govern agent mode and MCP usage in Visual Studio. If the administrator turns off this setting, users under that subscription can't use agent mode or connect to MCP servers in Visual Studio.
 
+:::moniker range="visualstudio"
+
+Additionally, administrators can configure an MCP server allowlist to control exactly which MCP servers are permitted within their organization. For more information, see [Configure MCP server allowlist](visual-studio-github-copilot-admin.md#configure-mcp-server-allowlist).
+
+:::moniker-end
+
 For more information, see [Managing policies and features for GitHub Copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
 
 ## Related content
 
 - [GitHub Copilot agent mode](copilot-agent-mode.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
+- [Admin controls for GitHub Copilot](visual-studio-github-copilot-admin.md)
 - [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage#github-copilot-free)
