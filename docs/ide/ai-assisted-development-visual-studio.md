@@ -77,6 +77,8 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
   :::image type="content" source="media/vs-2022/copilot-chat-visual-studio.gif" alt-text="Animated screenshot that shows the capabilities of the GitHub Copilot Chat extension." lightbox="media/vs-2022/copilot-chat-visual-studio.gif":::
 
   Get started with [Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
+
+- **[Did You Mean search suggestions](visual-studio-search.md#did-you-mean-code-search-suggestions-preview)** uses Copilot to intelligently detect your intent when searching for files in All-In-One Search. If you mistype a query or can't remember an exact file name, Copilot suggests better matches based on what you might have meant. This feature helps you find files faster without having to correct typos or remember exact names.
   
 ### IntelliCode in Visual Studio
 
