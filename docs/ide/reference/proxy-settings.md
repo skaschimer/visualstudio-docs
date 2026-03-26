@@ -28,9 +28,8 @@ In this first release, the custom proxy settings apply to **GitHub Copilot exper
 1. Select **Tools** > **Options** from the menu bar.
 1. Select **Proxy Configuration** to open the proxy configuration page.
 
-<!-- TODO: Screenshot of the Proxy Settings page
-![Screenshot of the Proxy Settings page under Tools > Options.](../../media/proxy-settings.png)
--->
+   ![Screenshot of the Proxy Settings page under Tools > Options.](./media/visualstudio/proxy-settings.png)
+
 
 ## Default behavior
 
