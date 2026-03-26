@@ -2,7 +2,7 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 11/25/2025
+ms.date: 03/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -189,6 +189,34 @@ In file view or diff view, comments render using Markdown formatting.
 
 :::moniker-end
 
+:::moniker range="visualstudio"
+
+### Apply a suggested change from a pull request comment
+
+When a reviewer includes a code suggestion in a pull request comment, you can apply the change directly in the editor without copying and pasting. Select the sparkle icon at the top right of the comment to incorporate the suggestion into your code. You can view the original code, the proposed change, and surrounding context all in one place, so you can evaluate, edit, and test the fix before committing.
+
+![Screenshot showing how to apply a code suggestion from a pull request comment in Visual Studio.](./media/visualstudio/suggest-a-fix-pull-request-apply-suggestion.png)
+
+### Request a suggested change from Copilot
+
+If a pull request comment doesn't include a code suggestion, you can ask GitHub Copilot to generate one. Copilot takes into account the comment text and the surrounding code context to propose a change. You can review, modify, and test the suggested edit before committing, just as you would with a human-authored suggestion.
+
+![Screenshot showing how to request a Copilot code suggestion based on a pull request comment in Visual Studio.](./media/visualstudio/suggest-a-fix-ai-suggestion.png)
+
+> [!NOTE]
+> This feature requires [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) to be installed and requires you to be signed in.
+
+### Enable or disable pull request comment suggestions
+
+To use the apply and Copilot suggestion features, enable both of the following feature flags:
+
+- **Tools** > **Options** > **Preview Features** > **Pull Request Comments**
+- **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration** > **Enable Git preview features**
+
+You can also apply code suggestions from comments during [local code review](git-make-commit.md#apply-suggestions-from-local-code-review). Copilot uses your local review comments to suggest fixes before you commit.
+
+:::moniker-end
+
 ### Use the keyboard
 
 You can navigate across files and individual comments using the icons in the toolbar, or use the following keyboard shortcuts:
@@ -207,5 +235,6 @@ To continue your journey, visit the [Fetch, pull, and sync in Visual Studio](git
 
 ## See also
 
+- [Make a commit in Visual Studio](git-make-commit.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)
 - [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)
