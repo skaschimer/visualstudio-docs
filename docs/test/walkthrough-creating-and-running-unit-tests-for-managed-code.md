@@ -1,7 +1,7 @@
 ---
 title: Create, run, and customize C# unit tests
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
-ms.date: 8/11/2025
+ms.date: 3/27/2026
 ms.topic: how-to
 helpviewer_keywords:
 - unit tests, tutorial
@@ -292,7 +292,10 @@ m_balance -= amount;
 
 In **Test Explorer**, choose **Run All** to rerun the test (or press **Ctrl** + **R**, **V**). The red/green bar turns green to indicate that the test passed.
 
-::: moniker range=">=vs-2022"
+::: moniker range="=visualstudio"
+![Test Explorer in Visual Studio 2019 showing passed test](media/visualstudio/test-explorer-banktests-passed.png)
+::: moniker-end
+::: moniker range="=vs-2022"
 ![Test Explorer in Visual Studio 2019 showing passed test](media/vs-2022/test-explorer-banktests-passed.png)
 ::: moniker-end
 

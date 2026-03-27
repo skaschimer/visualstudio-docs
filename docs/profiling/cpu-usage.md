@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 02/19/2025
+ms.date: 03/13/2026
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
