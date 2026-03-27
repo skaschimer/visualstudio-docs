@@ -21210,8 +21210,6 @@
     {
       "source_path": "docs/ide/reference/toolbox.md",
       "redirect_url": "/visualstudio/ide/toolbox",
-<<<<<<< HEAD
-=======
       "redirect_document_id": false
     },
     {
@@ -21326,7 +21324,6 @@
     {
       "source_path": "docs/ide/reference/options-text-editor-basic-visual-basic.md",
       "redirect_url": "/visualstudio/ide/options-text-editor-basic-visual-basic",
->>>>>>> fec78434b0dfb068ad8c5670f753c56067d08227
       "redirect_document_id": false
     }
   ]
