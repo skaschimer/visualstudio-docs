@@ -8,7 +8,9 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
-ms.custom: sfi-image-nochange
+ms.custom: 
+- sfi-image-nochange
+- awp-ai
 ---
 # About Git in Visual Studio
 
@@ -120,4 +122,4 @@ In Visual Studio 2022 [**version 17.6**](/visualstudio/releases/2022/release-not
 ## Next steps
 
 >[!Tip]
-> To learn about using Git and GitHub in Visual Studio, sign up for the [Git learning series](https://aka.ms/vsgitlearn-1-signup-docs).
+> To learn about using Git and GitHub in Visual Studio, start with [Clone a repository](git-clone-repository.md), [Create a Git repository](git-create-repository.md), and [Make a commit](git-make-commit.md).

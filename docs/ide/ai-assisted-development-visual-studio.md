@@ -1,7 +1,7 @@
 ---
 title: AI-assistance for developers in Visual Studio
 description: Learn about the AI-assisted development tools in Visual Studio, such as GitHub Copilot Completions and Chat, and IntelliCode, and how they can help you write code more efficiently.
-ms.date: 2/4/2026
+ms.date: 03/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
@@ -10,6 +10,7 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: ">=vs-2022"
+ms.custom: awp-ai
 ---
 # AI-assisted development in Visual Studio
 
@@ -76,6 +77,8 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
   :::image type="content" source="media/vs-2022/copilot-chat-visual-studio.gif" alt-text="Animated screenshot that shows the capabilities of the GitHub Copilot Chat extension." lightbox="media/vs-2022/copilot-chat-visual-studio.gif":::
 
   Get started with [Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
+
+- **[Did You Mean search suggestions](visual-studio-search.md#did-you-mean-code-search-suggestions-preview)** uses Copilot to intelligently detect your intent when searching for files in All-In-One Search. If you mistype a query or can't remember an exact file name, Copilot suggests better matches based on what you might have meant. This feature helps you find files faster without having to correct typos or remember exact names.
   
 ### IntelliCode in Visual Studio
 
@@ -102,7 +105,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#get-your-first-code-completions) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
 | Whole-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#get-your-first-code-completions) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
 | Whole function & multi-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
-| Repeated edits detection | No | **Yes** <br/>[Learn more](intellicode-suggestions.md)|
+| Repeated edits detection | **Yes** <br/>[Learn more](copilot-next-edit-suggestions.md) | **Yes** <br/>[Learn more](intellicode-suggestions.md)|
 | Convert Natural language comments to code| **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
 | Solve code problems with Natural language driven dev assistance | **Yes**, with Copilot Chat. <br/>[Learn more](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)| No |
 | Code debugging | **Yes**, with Copilot Chat. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |

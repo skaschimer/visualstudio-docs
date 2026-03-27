@@ -212,7 +212,7 @@ After you install the Visual Studio Installer, you can use it to customize your 
 
    :::image type="content" source="media/visualstudio/vs-installer-workloads.png" alt-text="Screenshot showing the Workloads tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-workloads.png":::
 
-   Review the workload summaries to decide which workload supports the features you need. For example, choose the **ASP.NET and web development** workload to edit ASP.NET Web pages with Web Live Preview or build responsive web apps with Blazor. You might choose from the **Desktop & Mobile** workloads to develop cross-platform apps with C#, or C++ projects that target C++20.
+   Review the workload summaries to decide which workload supports the features you need. For example, choose the **ASP.NET and web development** workload to build responsive web apps with Blazor. You might choose from the **Desktop & Mobile** workloads to develop cross-platform apps with C#, or C++ projects that target C++20.
 
 1. After you choose the workloads that you want, select **Install**.
 

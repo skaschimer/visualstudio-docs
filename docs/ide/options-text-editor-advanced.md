@@ -1,7 +1,7 @@
 ---
 title: Configure advanced Text Editor options
 description: Learn how to configure the Advanced page to customize global settings for the Visual Studio text editor, including completion mode, scrolling, and text rendering.
-ms.date: 02/17/2026
+ms.date: 03/20/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -173,11 +173,11 @@ When this setting is enabled (default), Visual Studio recognizes whether you pre
 
 ### Compress blank lines
 
-Use this setting to force compression of blank lines in the current view. This action can help to reduce empty space in the view. The setting is disabled by default.
+Use this setting to enable syntactic line compression for blank lines in the editor. Blank lines are rendered shorter so you can see more code vertically without changing the font size. This setting is disabled by default.
 
 ### Compress lines that don't have any alphanumeric characters
 
-Use this setting to force compression of any lines in the current view that don't contain alphanumeric characters. This action can help to remove unnecessary content in the view. The setting is disabled by default.
+Use this setting to compress lines that don't contain letters or numbers, such as lines with only symbols. This option helps reduce visual space used by low-information lines while keeping regular code lines at normal height. This setting is disabled by default.
 
 ### Indexing with Find in Files
 
@@ -325,11 +325,13 @@ Use this setting to adjust how many characters you want to scroll in each user-i
 
 ### Fast scroll multiplier
 
-This setting increases the scrolling speed when you use the **Alt** keyboard shortcut with the mouse or keyboard arrow keys. The default multiplication factor is **5**, which scrolls five times faster than normal.
+This setting increases scrolling speed when you hold **Alt** while scrolling with the mouse wheel in the code editor. On a touchpad, hold the **Alt** key while moving two fingers up or down. The default multiplication factor is **5**, which scrolls five times faster than normal.
 
 ### Middle click to scroll
 
-When this setting is enabled, you can use the middle button on the mouse to scroll in the editor window.
+When this setting is enabled, you can press and hold the middle mouse button (scroll wheel) and then move the mouse to scroll quickly through the document in any direction. This feature is useful for navigating large files without relying on traditional scroll bars or repeated wheel scrolling. The setting is disabled by default.
+
+For more information about navigating code, see [Navigate code](navigating-code.md).
 
 ::: moniker-end
 

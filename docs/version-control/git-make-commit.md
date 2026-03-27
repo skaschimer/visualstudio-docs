@@ -2,7 +2,8 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
-ms.date: 11/25/2025
+ms.date: 03/12/2026
+ms.custom: awp-ai
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -108,6 +109,12 @@ The code review feedback shows up as comments, which show brief summary of the p
 
 To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
 
+### Navigate comments in the comment list
+
+The **Git Changes** window also shows a list of all Copilot review comments, organized by file. You can double-click any comment in the list to navigate directly to that comment located inline with the corresponding code in the editor.
+
+![Screenshot showing code review comments for each file in the Git Changes window.](./media/visualstudio/local-code-review-comment-list-cropped.png)
+
 :::moniker-end
 
 :::moniker range="vs-2022"
@@ -123,6 +130,23 @@ The code review feedback shows up as comments, which show brief summary of the p
 ![Screenshot showing GitHub code review comment.](./media/vs-2022/git-code-review-comment.png)
 
 To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+### Apply suggestions from local code review
+
+GitHub Copilot can also suggest code edits based on comments from the local code review experience, helping you resolve feedback and get your changes commit-ready faster. After Copilot reviews your local changes and leaves comments, you can request an actionable code suggestion directly from the comment. The suggested change appears in an inline diff view where you can review the original code, the proposed edit, and surrounding context, then modify and test the fix before committing.
+
+![Screenshot showing how to apply a Copilot code suggestion from local code review in Visual Studio.](./media/visualstudio/suggest-a-fix-apply-suggestion.png)
+
+To use this feature, enable both of the following feature flags:
+
+- **Tools** > **Options** > **Preview Features** > **Pull Request Comments**
+- **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration** > **Enable Git preview features**
+
+You can also apply code suggestions from [pull request comments](git-create-pull-request.md#apply-a-suggested-change-from-a-pull-request-comment) in the editor.
 
 :::moniker-end
 
@@ -200,5 +224,6 @@ GitHub Copilot understands terms like "subject" (the first line of the commit me
 
 ## Related content
 
+- [Create a pull request](git-create-pull-request.md)
 - [Stage lines of code](git-line-staging.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)

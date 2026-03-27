@@ -375,7 +375,7 @@ First, rename the `name` variable:
    > [!TIP]
    > <xref:System.Console.Write%2A?displayProperty=nameWithType> is different from <xref:System.Console.WriteLine%2A?displayProperty=nameWithType>. It doesn't add a line terminator after it prints. The next piece of text that's sent to the output prints on the same line. You can hover over each of these methods in your code to see their descriptions.
 
-1. Next, use refactoring again to make the code a little more concise. Select the variable `now` in the line `DateTime now = DateTime.Now;`. A screwdriver icon appears in the margin on that line.
+1. Next, use refactoring again to make the code a little more concise. Select the variable `now` in the line `DateTime now = DateTime.Now;`. A screwdriver icon appears next to that line of code.
 
 1. Select the screwdriver icon to see available suggestions from Visual Studio. This case shows the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall code behavior.
 
