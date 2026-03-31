@@ -10,6 +10,7 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp-ai
+ai-usage: ai-assisted
 
 ---
 
