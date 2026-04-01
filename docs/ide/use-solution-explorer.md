@@ -346,6 +346,6 @@ You can use the **New Solution Explorer View** to add a new scoped Solution Expl
 ## Related content
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
-- [What is the .NET Project Designer?](reference/project-properties-reference.md)
+- [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Customize window layouts and personalize tabs in Visual Studio](customizing-window-layouts-in-visual-studio.md)
 - [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825)

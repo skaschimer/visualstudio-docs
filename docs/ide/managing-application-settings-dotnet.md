@@ -73,7 +73,7 @@ You can add customized settings files to your project for convenient management 
 
 For example, you can add a *SpecialSettings.settings* file to your project. While your `SpecialSettings` class isn't exposed in the `My` namespace, **View Code** can read the custom settings file that contains `Partial Class SpecialSettings`.
 
-The **Settings Designer** first searches for the *Settings.settings* file that the project system creates. This *Settings.settings* file is the default file that the [Project Designer](reference/project-properties-reference.md) displays in the **Settings** tab. The *Settings.settings* file is located in the *My Project* folder for Visual Basic projects and in the *Properties* folder for Visual C# projects. The **Project Designer** then searches for other settings files in the project's root folder. Therefore, you should put your custom settings file there. If you add a *.settings* file elsewhere in your project, the **Project Designer** can't locate it.
+The **Settings Designer** first searches for the *Settings.settings* file that the project system creates. This *Settings.settings* file is the default file that the [Project Designer](project-designer-dotnet-csharp.md) displays in the **Settings** tab. The *Settings.settings* file is located in the *My Project* folder for Visual Basic projects and in the *Properties* folder for Visual C# projects. The **Project Designer** then searches for other settings files in the project's root folder. Therefore, you should put your custom settings file there. If you add a *.settings* file elsewhere in your project, the **Project Designer** can't locate it.
 
 ## Access or change application settings at runtime in Visual Basic
 

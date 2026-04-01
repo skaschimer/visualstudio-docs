@@ -1,7 +1,7 @@
 ---
 title: Manage project and solution properties
 description: Manage both the project properties and the solution properties in Visual Studio for C#, Visual Basic, F#, C++, and JavaScript projects.
-ms.date: 02/25/2025
+ms.date: 04/01/2026
 ms.topic: concept-article
 author: anandmeg
 ms.author: meghaanand
@@ -34,7 +34,7 @@ Project properties are organized into groups, and each group has its own propert
 
 ### C#, Visual Basic, and F# projects
 
-In C#, Visual Basic, and F# projects, properties are exposed in the [.NET Project Designer](reference/project-properties-reference.md).
+In C#, Visual Basic, and F# projects, properties are exposed in the [.NET Project Designer](project-designer-dotnet-csharp.md).
 
 The following screenshot shows the **Build** property page in the .NET **Project Designer** for a console project in C#:
 
@@ -54,10 +54,39 @@ The following screenshot shows the **Compile** property page in the .NET **Proje
 ::: moniker-end
 
 
-For more information about each of the **Project Designer** properties, see [What is the .NET Project Designer](reference/project-properties-reference.md).
+For more information about each .NET Core / .NET 5+ property, see [.NET Project Designer](project-designer-dotnet-csharp.md).
 
 > [!TIP]
-> Solutions have a few properties, and so do project items; these properties are accessed in the [**Properties window**](reference/properties-window.md), not the [.NET Project Designer](reference/project-properties-reference.md).
+> Solutions have a few properties, and so do project items; these properties are accessed in the [**Properties window**](reference/properties-window.md), not the [.NET Project Designer](project-designer-dotnet-csharp.md).
+
+### .NET Framework Project Designer
+
+::: moniker range=">=vs-2022"
+
+For .NET Framework projects, the Project Designer has a different set of tabs. The following table links to the property reference for each tab.
+
+> [!IMPORTANT]
+> The project properties that you access through the .NET Project Designer differ from the properties in the [Properties window](reference/properties-window.md).
+
+| Property | Language/platform | Description |
+|----------|-------------------|-------------|
+| Application | [C#](/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-csharp), F#, [Visual Basic](/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-visual-basic), [UWP](/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-uwp), WPF | Specify application settings and properties for a project. |
+| Build | [C#](/previous-versions/visualstudio/visual-studio-2017/ide/reference/build-page-project-designer-csharp), F#, WPF | Specify build configuration properties for a project. |
+| Build Events | [C#](/previous-versions/visualstudio/visual-studio-2017/ide/reference/build-events-page-project-designer-csharp), Visual Basic, WPF | Specify build configuration instructions. |
+| [Code Analysis](/previous-versions/visualstudio/visual-studio-2017/ide/reference/code-analysis-project-designer) | C#, F#, Visual Basic, WPF | Configure the code analysis tool. |
+| Compile | [Visual Basic](/previous-versions/visualstudio/visual-studio-2017/ide/reference/compile-page-project-designer-visual-basic) | Specify compilation properties. |
+| My Extensions | Visual Basic | Manage [My Namespace](/dotnet/visual-basic/developing-apps/customizing-extending-my/) extensions. |
+| Package | C#, F#, Visual Basic | Generate a NuGet package on build. |
+| [Publish](/previous-versions/visualstudio/visual-studio-2017/ide/reference/publish-page-project-designer) | Visual Basic, WPF | Configure properties for ClickOnce. |
+| References | [Visual Basic](/previous-versions/visualstudio/visual-studio-2017/ide/reference/references-page-project-designer-visual-basic) | Manage the references used by a project. |
+| Reference Paths | WPF | Manage reference paths for a project. |
+| Resources | C#, F#, Visual Basic, WPF | Access the RESX file from Solution Explorer for a C# project, create a default resources file for a Visual Basic project, or add resources to a WPF project. |
+| [Services](/previous-versions/visualstudio/visual-studio-2017/ide/reference/services-page-project-designer) | Visual Basic, WPF, Windows Forms | Enable client application services. |
+| [Settings](/previous-versions/visualstudio/visual-studio-2017/ide/reference/settings-page-project-designer) | C#, F#, Visual Basic, WPF | Specify a project's application settings. |
+| [Signing](/previous-versions/visualstudio/visual-studio-2017/ide/reference/signing-page-project-designer) | Visual Basic, WPF | Sign application and deployment manifests, and sign the assembly. (For a Visual Basic project, the ClickOnce manifest signing for .NET projects is now under **Build** > **Publish**.) |
+| Security | Visual Basic, [WPF](/previous-versions/visualstudio/visual-studio-2017/ide/reference/security-page-project-designer) | Configure code access security settings for applications that are deployed by using ClickOnce deployment. |
+
+::: moniker-end
 
 ### C++ and JavaScript projects
 

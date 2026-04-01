@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 ---
 # .NET Project Designer
 
-Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework, see [What is the .NET Project Designer?](../ide/reference/project-properties-reference.md).
+Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework properties or for an overview of all project properties, see [Manage project and solution properties](managing-project-and-solution-properties.md).
 
 To access the Project Designer, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. The **Project Designer** appears.
 
