@@ -1,13 +1,14 @@
 ---
 title: Manage project and solution properties
-description: Manage both the project properties and the solution properties in Visual Studio for C#, Visual Basic, F#, C++, and JavaScript projects.
+description: Manage project and solution properties in Visual Studio, including .NET and .NET Framework Project Designer settings, for C#, Visual Basic, F#, C++, and JavaScript projects.
 ms.date: 04/01/2026
 ms.topic: concept-article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-#customer intent: As a developer, I want to understand product and solution properties in Visual Studio to manage different kinds of projects.
+ms.custom: awp-ai
+#customer intent: As a developer, I want to understand project and solution properties in Visual Studio, including the .NET Project Designer, so I can configure settings for different project types.
 ---
 # Manage project and solution properties
 
