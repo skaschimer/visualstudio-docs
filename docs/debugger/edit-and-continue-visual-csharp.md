@@ -1,7 +1,7 @@
 ---
-title: "Edit and Continue (Visual C#)"
-description: Edit and Continue is available for Visual C# projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
-ms.date: "02/22/2022"
+title: "Hot Reload (Visual C#)"
+description: Hot Reload (previously called Edit and Continue) is available for Visual C# projects. Learn what edits are supported, and how to control when edits are applied.
+ms.date: "03/23/2026"
 ms.topic: how-to
 dev_langs:
   - "CSharp"
@@ -16,12 +16,13 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: awp-ai
 ---
-# Edit and Continue (Visual C#)
+# Hot Reload (Visual C#)
 
 ::: moniker range=">=vs-2022"
 
-With Hot Reload, or Edit and Continue for C#, you can make changes to your code in break or run mode while debugging. The changes can be applied without having to stop and restart the debugging session.
+With Hot Reload, previously called Edit and Continue for C#, you can make changes to your code in break or run mode while debugging. The changes can be applied without having to stop and restart the debugging session.
 
 The basic Hot Reload experience works with most types of .NET apps and framework versions. This includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
 
@@ -56,13 +57,13 @@ To enable or disable Hot Reload:
 
 The setting takes effect when you start or restart the debugging session.
 
-To use the classic Edit and Continue experience:
+To use the legacy Edit and Continue workflow (Hot Reload in break mode):
 
 1. While debugging, in break mode, make a change to your source code.
 
 1. From the **Debug** menu, select **Continue**, **Step**, or **Set Next Statement**. Debugging continues with the new, compiled code.
 
-Some types of code changes aren't supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
+Some types of code changes aren't supported by Hot Reload. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 
 ::: moniker-end
 
@@ -70,5 +71,5 @@ Some types of code changes aren't supported by Edit and Continue. For more infor
 ## Related content
 
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
-- [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
+- [Configure Hot Reload](../debugger/how-to-enable-and-disable-edit-and-continue.md)
 - [Write and debug running XAML code with XAML Hot Reload in Visual Studio](../xaml-tools/xaml-hot-reload.md)

@@ -8,7 +8,9 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
-ms.custom: sfi-image-nochange
+ms.custom: 
+- sfi-image-nochange
+- awp-ai
 ---
 # About Git in Visual Studio
 

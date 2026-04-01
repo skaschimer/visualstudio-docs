@@ -27,7 +27,17 @@ In this article, you learn how to create Visual Studio projects from scratch and
 
 You can view your solutions and projects in a tool window called *Solution Explorer*. The following screenshot shows an example of a C# console solution in Solution Explorer. The solution contains two projects: **Calculator** and **CalculatorLibrary**. Each project contains multiple files and folders. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer.":::
+
+:::moniker-end
 
 Although you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project that has the essentials for that project type. You can rename the files or add new or existing code and other resources to the project as needed.
 

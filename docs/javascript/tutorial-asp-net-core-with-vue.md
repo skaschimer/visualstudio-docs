@@ -24,7 +24,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.11, which uses the Vite CLI. Vite determines the version of Vue using project dependencies, such as those configured in *package.json*.
+> This article describes the project creation process using the template in Visual Studio 2022 version 17.11 and later, which uses the Vite CLI. Vite determines the version of Vue using project dependencies, such as those configured in *package.json*.
 
 ## Prerequisites
 
@@ -38,7 +38,13 @@ Make sure to install the following:
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot showing the Create a new project option.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+   :::moniker-end
 
 1. Search for Vue in the search bar at the top and then select **Vue and ASP.NET Core** with either JavaScript or TypeScript as the selected language.
 
@@ -52,7 +58,13 @@ Make sure to install the following:
 
    Solution Explorer shows the following project information:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-with-vue-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
+   :::moniker-end
 
    Compared to the [standalone Vue template](../javascript/tutorial-create-vue-app.md), you see some new and modified files for integration with ASP.NET Core:
 
@@ -64,7 +76,13 @@ Make sure to install the following:
 
 1. In Solution Explorer, right-click the **VueWithASP.Server** and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties.":::
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties. ":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties. ":::
+   :::moniker-end
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
@@ -89,7 +107,13 @@ Press **F5** or select the **Start** button at the top of the window to start th
 
 The Vue app appears and is populated via the API (the localhost port may vary from the screenshot). 
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+:::moniker-end
 
 If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
@@ -146,6 +170,10 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 ## Troubleshooting
 
+### Outdated versions of Node.js or the template
+
+If you experience issues not described elsewhere in this section, try updating Node.js to the current version and update Visual Studio to get the latest version of the template.
+
 ### Proxy error
 
 You may see the following error:
@@ -195,7 +223,13 @@ If you create the project with [Docker support](../containers/overview.md#prereq
 
 1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/view-and-diagnose-containers.md) in Visual Studio. Check the **Environment** or **Ports** tab.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+   :::moniker-end
 
 1. Open the `vite.config.js` file for the Vue project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
 

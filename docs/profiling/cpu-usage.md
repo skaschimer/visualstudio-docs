@@ -1,7 +1,7 @@
 ---
 title: CPU profiling in the Performance Profiler
 description: Learn about the CPU profiler performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 02/19/2025
+ms.date: 03/13/2026
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: mikejo5000
@@ -49,28 +49,40 @@ Usually, the local machine best replicates installed app execution. To collect d
 
 1. Select **Debug** > **Performance Profiler**.
 
-1. Under **Available tools**, select **CPU Usage**, and then select **Start**.
+::: moniker range="visualstudio"
+3. On the **Flexible** tab, select **CPU Usage**. Then select **Start**.
 
-    ::: moniker range=">=vs-2022"
+    ![Screenshot that shows Select CPU Usage.](../profiling/media/visualstudio/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
+::: moniker-end
+
+::: moniker range="vs-2022"
+3. Under **Available tools**, select **CPU Usage**, and then select **Start**.
     ![Screenshot that shows Select CPU Usage.](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
+::: moniker-end
+
+If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
+
+> [!NOTE]
+> For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project). For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
+
+4. After the app starts, the diagnostic session begins and displays CPU utilization data. When you're finished collecting data, select **Stop Collection**.
+
+    ::: moniker range="visualstudio"
+    ![Screenshot that shows the Stop Collection button.](../profiling/media/visualstudio/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
     ::: moniker-end
 
-
-    If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
-
-    > [!NOTE]
-    > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project). For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
-
-1. After the app starts, the diagnostic session begins and displays CPU utilization data. When you're finished collecting data, select **Stop Collection**.
-
-    ::: moniker range=">=vs-2022"
+    ::: moniker range="vs-2022"
     ![Screenshot that shows Stop CPU Usage data collection.](../profiling/media/vs-2022/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
     ::: moniker-end
 
 
     The CPU Usage tool analyzes the data and displays the report. If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
-    ::: moniker range=">=vs-2022"
+    ::: moniker range="visualstudio"
+    ![Screenshot that shows CPU Usage report.](../profiling/media/visualstudio/cpu-use-wt-report.png "CPU Usage report")
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
     ![Screenshot that shows CPU Usage report.](../profiling/media/vs-2022/cpu-use-wt-report.png "CPU Usage report")
     ::: moniker-end
 
@@ -95,7 +107,30 @@ For more information, see [CPU insights](../profiling/cpu-insights.md).
 
 ## Analyze CPU utilization
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+For in-depth analysis of the CPU Usage report, first open one of the detailed report views:
+
+1. Click **Open details** in the summary page of the report, or select one of the top functions to open the **Functions** view.
+
+   ![Screenshot that shows the Open details link.](../profiling/media/vs-2022/cpu-use-open-details.png)
+
+1. From the **Current View** list, you can select one of the detailed report views.
+
+   ![Screenshot that shows the list of detailed reports.](../profiling/media/visualstudio/cpu-use-select-detailed-view.png)
+
+The following table provides a description of the detailed views.
+
+|View|Description|
+|-|-|
+|Caller/callee|Detailed view of CPU time for a specific function, the function(s) that called it, and the function(s) that it calls. The performance data is aggregated for the data collection period. You can select calling functions and called functions to traverse the call path.|
+|Call tree|Hierarchical view of the function call path. Used to identify call paths that are taking the most CPU time (hot path).|
+|Modules|View of the CPU time spent in individual modules, aggregated over the data collection period. Used to identify modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Functions|View of the CPU time spent in individual functions, aggregated over the data collection period. Used to identify functions that might be performance bottlenecks due to a combination of high call counts and/or performance issues.|
+|Flame graph|Hierarchical view of the function call path in a flame graph visualization. Used to identify call paths that are taking the most CPU time (hot path).|
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 For in-depth analysis of the CPU Usage report, first open one of the detailed report views:
 
 1. Click **Open details** in the summary page of the report, or select one of the top functions to open the **Functions** view.
@@ -135,7 +170,11 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 
 #### <a name="BKMK_Call_tree_structure"></a> Call tree structure
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows Call tree structure.](../profiling/media/visualstudio/cpu-use-wt-call-tree-annotated.png "Call tree structure")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot that shows Call tree structure.](../profiling/media/vs-2022/cpu-use-wt-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
 
@@ -151,7 +190,15 @@ For help understanding unexpected data in the call tree, see [Understanding the 
 
 #### <a name="BKMK_External_Code"></a> External code
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Call]** node.
+
+To view the call paths of external code, on the main report summary page (right pane), deselect **Show Just My Code** from the **Settings** dropdown, and then select **Apply**. (The **Settings** dropdown is available on the main report summary page, not the detailed views.)
+
+![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/visualstudio/diagnostics-tools-show-external-code.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Call]** node.
 
 To view the call paths of external code, on the main report summary page (right pane), deselect **Show Just My Code** from the **Settings** dropdown, and then select **Apply**. (The **Settings** dropdown is available on the main report summary page, not the detailed views.)
@@ -159,8 +206,15 @@ To view the call paths of external code, on the main report summary page (right 
 ![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diagnostics-tools-show-external-code.png)
 ::: moniker-end
 
+::: moniker range="visualstudio"
+When you disable **Show Just My Code**, the **Call Tree** view of the **CPU Usage** page expands the external code calls.
 
-::: moniker range=">=vs-2022"
+Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as shown in the following image.
+
+![Screenshot that shows nested external code in the call tree.](../profiling/media/visualstudio/cpu-use-wt-show-external-code.png "Nested external code in the call tree")
+::: moniker-end
+
+::: moniker range="vs-2022"
 When you disable **Show Just My Code**, the **Call Tree** view of the **CPU Usage** page expands the external code calls.
 
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as shown in the following image.
@@ -171,7 +225,11 @@ Many external code call chains are deeply nested, so the width of the chain can 
 
 To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows a search for nested external code.](../profiling/media/visualstudio/cpu-use-wt-search.png "Search for nested external code")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot that shows Search for nested external code.](../profiling/media/vs-2022/cpu-use-wt-search.png "Search for nested external code")
 ::: moniker-end
 
@@ -183,16 +241,39 @@ When the compiler encounters an asynchronous method, it creates a hidden class t
 
 Expand the generated methods to show what's going on:
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows expanded asynchronous node.](media/visualstudio/cpu-use-wt-expanded-call-tree.png "Expanded asynchronous node")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot that shows expanded asynchronous node.](media/vs-2022/cpu-use-wt-expanded-call-tree.png "Expanded asynchronous node")
 ::: moniker-end
 
-
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
 ### Analyze multi-process performance
 
-Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This features allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
+Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This feature allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
+
+You need to collect multi-process data before you can analyze it. To collect the data, select **Collect data from multiple processes** for the CPU Usage tool in the Performance Profiler.
+
+![Screenshot that shows selecting multi-process data.](../profiling/media/visualstudio/cpu-usage-collect-multi-process-data.png)
+
+The timeline graph showing your app's CPU use displays performance data with distinct color coding for each process. The graphs are displayed as stacked area charts.
+
+![Screenshot that shows multi-process data in the timeline.](../profiling/media/visualstudio/cpu-usage-view-multi-process-data.png)
+
+You can filter processes by using a dropdown on the top right side of the CPU timeline graph. When you select or deselect a process, the profiler summary page and detailed reports are updated based on the new selection(s), enabling more precise analysis.
+
+![Screenshot that shows multi-process filter.](../profiling/media/visualstudio/cpu-usage-multi-process-filter.png)
+::: moniker-end
+
+
+::: moniker range="vs-2022"
+
+### Analyze multi-process performance
+
+Starting in Visual Studio 2022 version 17.13, you can analyze multi-process data in the CPU Usage tool. This makes it easier to analyzer performance for multi-process apps such as .NET Aspire. This feature allows you to distinguish and analyze CPU utilization across processes within a single session, which provides clearer insights into resource consumption.
 
 You need to collect multi-process data before you can analyze it. To collect the data, select **Collect data from multiple processes** for the CPU Usage tool in the Performance Profiler.
 
@@ -207,8 +288,30 @@ You can filter processes using a dropdown on the top left of the CPU timeline gr
 ![Screenshot that shows multi-process filter.](../profiling/media/vs-2022/cpu-usage-multi-process-filter.png)
 ::: moniker-end
 
+::: moniker range="visualstudio"
+### Collect call counts (.NET)
 
-::: moniker range=">=vs-2022"
+If you want to view call counts in the Functions view, you can enable the setting before you start the profiler. This setting is supported for .NET project types and requires launching the process under the profiler. The attach scenario is not supported.
+
+1. Select the **Settings** icon for CPU Usage in the Performance Profiler.
+
+   ![Screenshot that shows the settings icon for CPU Usage.](media/visualstudio/cpu-usage-settings-icon.png "Settings icon for CPU Usage.")
+
+1. Enable the **Collect call counts (.NET only)** option.
+
+   ![Screenshot that shows settings for CPU Usage.](media/visualstudio/cpu-usage-enable-call-count.png "Settings for CPU Usage.")
+
+1. Collect CPU usage data.
+
+1. Open the Functions view, and then make sure the **Call count** column is set to visible.
+
+   If you don't see the column, right click a column heading to choose visible columns.
+
+   ![Screenshot that shows call count data.](media/visualstudio/cpu-usage-call-count-column.png "Settings for CPU Usage.")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 ### Collect call counts (.NET)
 
 If you want to view call counts in the Functions view, you can enable the setting before you start the profiler. This setting is supported for .NET project types and requires launching the process under the profiler. The attach scenario is not supported.
