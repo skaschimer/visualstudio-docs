@@ -45,7 +45,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Updates for custom agents and WinForms Expert agent
+- Updates for custom agents and Windows Forms Expert agent
   - [Windows Forms Designer tutorial](../designers/walkthrough-windows-forms-designer.md)
   - [Design Windows Forms Applications](../designers/windows-forms-designer-overview.md)
 
