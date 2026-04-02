@@ -67,7 +67,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Use Visual Studio search to find code & do queries](../ide/visual-studio-search.md) - New feature: Did you mean (Copilot suggestions)
+- [Use Visual Studio search to find code & do queries](../ide/visual-studio-search.md) - add documentation for Copilot search suggestions
 - [Options for Browsing Code in the Editor](../ide/navigating-code.md)
   - Add content for middle-click scroll
   - Add content for fast scrolling
