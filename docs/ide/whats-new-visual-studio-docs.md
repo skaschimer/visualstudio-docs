@@ -21,7 +21,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Complete rebranding of Edit and Continue to Hot Reload
+- Rename Edit and Continue to Hot Reload
   - [Overview of the debugger](../debugger/debugger-feature-tour.md)
   - [Hot Reload (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)
   - [Hot Reload in your C++ projects](../debugger/edit-and-continue-visual-cpp.md)
