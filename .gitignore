@@ -370,7 +370,7 @@ settings.json
 .github/instructions/
 .github/policies/
 .github/skills/
-.github/prompts/
+.github/prompts/*
 .github/workflows/*
 .vscode/settings.json
 .vscode/mcp.json
@@ -385,4 +385,6 @@ requirements.txt
 # Allow Visual Studio product instructions file
 !.github/instructions/visual-studio-product.instructions.md
 !.github/workflows/add-awp-metadata.yml
+
+# Allow Visual Studio prompts
 !.github/prompts/update-whats-new.prompt.md
