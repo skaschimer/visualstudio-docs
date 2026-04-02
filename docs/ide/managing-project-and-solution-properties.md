@@ -85,7 +85,7 @@ For information about C++ project properties, see [Work with project properties 
 ## Solution properties
 
 
-To access properties on the solution, right-click the [solution node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Properties**. What you see in the context menu from the Solution node also depends on your project type, programming language, or platform.
+To access properties on the solution, right-click the [solution node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Properties**. The context menu from the Solution node also depends on your project type, programming language, or platform.
 
 :::image type="content" source="media/vs-2022/solution-node-properties.png" alt-text="Screenshot of the solution node right-click menu.":::
 
