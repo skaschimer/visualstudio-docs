@@ -385,3 +385,4 @@ requirements.txt
 # Allow Visual Studio product instructions file
 !.github/instructions/visual-studio-product.instructions.md
 !.github/workflows/add-awp-metadata.yml
+!.github/prompts/update-whats-new.prompt.md
