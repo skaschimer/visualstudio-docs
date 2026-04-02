@@ -8,7 +8,9 @@ f1_keywords:
 - cs.ProjectPropertiesApplication
 helpviewer_keywords:
 - Project Designer
-ms.custom: "ide-ref"
+ms.custom: 
+- "ide-ref"
+- awp-ai
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs

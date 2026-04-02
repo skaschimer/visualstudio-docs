@@ -30,7 +30,7 @@ Most project properties don't depend on the configuration or the platform, but s
 
 Project properties are organized into groups, and each group has its own property page. The pages might be different for different languages and project types.
 
-### C#, Visual Basic, and F# projects
+### C#, Visual Basic, and F# project properties
 
 In C#, Visual Basic, and F# projects, the [.NET Project Designer](project-designer-dotnet-csharp.md) exposes the properties.
 

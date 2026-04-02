@@ -8,7 +8,9 @@ f1_keywords:
 helpviewer_keywords:
 - Settings page in Project Designer
 - Project Designer, Settings page
-ms.custom: "ide-ref"
+ms.custom: 
+- "ide-ref"
+- awp-ai
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

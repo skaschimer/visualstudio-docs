@@ -11,7 +11,9 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-ms.custom: sfi-ropc-nochange
+ms.custom: 
+- sfi-ropc-nochange
+- awp-ai 
 #customer intent: As a developer, I want to use application settings to store information that isn't included in the application code at runtime.
 ---
 # Manage application settings (.NET)
