@@ -15,9 +15,9 @@ monikerRange: '>= vs-2022'
 
 Projects have properties that govern many aspects of compilation, debugging, testing, and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms.
 
-You access project properties by right-clicking the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and selecting **Properties**, or by typing **properties** into the search box on the menu bar and selecting **Properties Window** from the results.
+You can access project properties by right-clicking the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and selecting **Properties**. You can also type **properties** into the search box on the menu bar and select **Properties Window** from the results.
 
-Most project properties are not dependent on the configuration or the platform, but some are. Learn more about [setting properties based on configurations](how-to-create-and-edit-configurations.md#set-properties-based-on-configurations).
+Most project properties don't depend on the configuration or the platform, but some do. For more information, see [setting properties based on configurations](how-to-create-and-edit-configurations.md#set-properties-based-on-configurations).
 
 :::image type="content" source="media/vs-2022/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
 
@@ -32,7 +32,7 @@ Project properties are organized into groups, and each group has its own propert
 
 ### C#, Visual Basic, and F# projects
 
-In C#, Visual Basic, and F# projects, properties are exposed in the [.NET Project Designer](project-designer-dotnet-csharp.md).
+In C#, Visual Basic, and F# projects, the [.NET Project Designer](project-designer-dotnet-csharp.md) exposes the properties.
 
 The following screenshot shows the **Build** property page in the .NET **Project Designer** for a console project in C#:
 
@@ -47,7 +47,7 @@ The following screenshot shows the **Compile** property page in the .NET **Proje
 For more information about each .NET property, see [.NET Project Designer](project-designer-dotnet-csharp.md).
 
 > [!TIP]
-> Solutions have a few properties, and so do project items; these properties are accessed in the [**Properties window**](reference/properties-window.md), not the [.NET Project Designer](project-designer-dotnet-csharp.md).
+> Solutions and project items each have a few properties. Access these properties in the [**Properties window**](reference/properties-window.md), not the [.NET Project Designer](project-designer-dotnet-csharp.md).
 
 ### .NET Framework Project Designer
 
@@ -76,7 +76,7 @@ For .NET Framework projects, the Project Designer has a different set of tabs. T
 
 ### C++ and JavaScript projects
 
-C++ and JavaScript projects have a different user interface for managing project properties. The following screenshot shows a C++ project property page. JavaScript pages are similar.
+C++ and JavaScript projects use a different user interface for managing project properties. The following screenshot shows a C++ project property page. JavaScript pages are similar.
 
 :::image type="content" source="media/vs-2022/properties-page-cpp-console.png" alt-text="Screenshot of the C++ project properties page.":::
 
