@@ -243,8 +243,6 @@
         href: ide/how-to-add-app-config-file.md
     - name: Project properties
       items:
-      - name: Project Designer reference
-        href: ide/project-properties-reference.md
       - name: .NET project designer
         href: ide/project-designer-dotnet-csharp.md
       - name: Settings in the project designer

@@ -1387,8 +1387,13 @@
     },
     {
       "source_path": "docs/ide/reference/project-properties-reference.md",
-      "redirect_url": "/visualstudio/ide/project-properties-reference",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/project-properties-reference.md",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/ide/reference/properties-window.md",
