@@ -28,11 +28,11 @@ This refactoring safely renames identifiers for code symbols, such as fields, lo
 
    - C#:
 
-       ![Highlighted code - C#](media/rename-highlight-cs.png)
+       ![Highlighted code for Rename - C#](media/rename-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
+       ![Highlighted code for Rename - Visual Basic](media/rename-highlight-vb.png)
 
 1. Next, use your keyboard or mouse as follows:
 
@@ -122,11 +122,11 @@ This refactoring renames a type to match the filename, or renames a filename to 
 
    - C#:
 
-       ![Highlighted code - C#](media/synctype-highlight-cs.png)
+       ![Highlighted code for Sync Type - C#](media/synctype-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Highlighted code - Visual Basic](media/synctype-highlight-vb.png)
+       ![Highlighted code for Sync Type - Visual Basic](media/synctype-highlight-vb.png)
 
 1. Next, do one of the following:
 

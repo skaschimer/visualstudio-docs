@@ -100,7 +100,7 @@ This refactoring creates an interface using existing members from a class, struc
 
    - C#:
 
-       ![Highlighted code - C#](media/extractinterface-highlight-cs.png)
+       ![Highlighted code for Extract Interface - C#](media/extractinterface-highlight-cs.png)
 
    - Visual Basic:
 
@@ -171,7 +171,7 @@ This refactoring removes a temporary variable and replaces it with its value ins
 
    - C#:
 
-       ![Highlighted code - C#](media/inline-highlight-cs.png)
+       ![Highlighted code for Inline Temporary Variable - C#](media/inline-highlight-cs.png)
 
    - Visual Basic:
 

@@ -66,7 +66,7 @@ This refactoring lets you remove, reorder, or add a method's parameters, automat
 
 1. When you are finished adding a parameter, press **OK** to preview the changes.
 
-    ![Change Signature dialog](media/change-signature.png)
+    ![Change Signature dialog showing added parameter](media/change-signature.png)
 
 ## Pull members up
 
