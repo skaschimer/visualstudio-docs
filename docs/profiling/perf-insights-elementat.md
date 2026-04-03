@@ -1,7 +1,7 @@
 ---
 title: Perf insights for Enumerable.ElementAt
 description: Learn how to improve performance for Enumerable.ElementAt.
-ms.date: 01/11/2023
+ms.date: 12/04/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo

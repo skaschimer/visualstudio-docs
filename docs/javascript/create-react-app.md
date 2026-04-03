@@ -1,7 +1,7 @@
 ---
 title: Create a React app in Visual Studio
 description: Create, build, and run a React to-do list web application project from a Visual Studio template.
-ms.date: 9/17/2025
+ms.date: 09/22/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
