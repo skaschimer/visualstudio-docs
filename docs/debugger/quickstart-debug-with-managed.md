@@ -1,7 +1,7 @@
 ---
 title: "Debug managed code"
 description: "Debug C# or Visual Basic using the Visual Studio debugger"
-ms.date: 10/23/2023
+ms.date: 01/05/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
