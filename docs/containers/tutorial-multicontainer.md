@@ -3,7 +3,7 @@ title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
 ms.author: ghogen
-ms.date: 9/10/2025
+ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: tutorial
 ---
@@ -26,8 +26,12 @@ The completed sample that you create in this tutorial can be found on GitHub at 
 ::: moniker-end
 ::: moniker range="visualstudio"
 
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/docs/installation/windows-install)
 - [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
+
+> [!TIP]
+> This tutorial uses Docker Compose, but Visual Studio also supports [Podman Compose](https://podman-desktop.io/docs/compose) as an alternative Compose runtime. The *docker-compose.yml* file format is compatible with both.
+
 ::: moniker-end
 ## Create a Web Application project
 
@@ -351,5 +355,7 @@ Look at the options for deploying your [containers to Azure](/azure/containers).
 ## See also
 
 [Docker Compose](https://docs.docker.com/compose/)
+
+[Podman Compose](https://podman-desktop.io/docs/compose)
 
 [Container Tools](./index.yml)

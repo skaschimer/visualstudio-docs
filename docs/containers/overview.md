@@ -4,7 +4,7 @@ description: Explore tools available for working with Docker or Podman container
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 11/14/2025
+ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.custom: peer-review-program
 ---
@@ -13,7 +13,7 @@ ms.custom: peer-review-program
 
 :::moniker range="visualstudio"
 
-The tools included in Visual Studio for developing with [Docker](https://docs.docker.com/) or [Podman](https://podman.io/) containers greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with [Docker Compose](https://docs.docker.com/compose/).
+The tools included in Visual Studio for developing with [Docker](https://docs.docker.com/) or [Podman](https://podman.io/) containers greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with [Docker Compose](https://docs.docker.com/compose/) or [Podman Compose](https://podman-desktop.io/docs/compose).
 
 :::moniker-end
 
@@ -36,7 +36,7 @@ The tools included in Visual Studio for developing with [Docker](https://docs.do
 
 Container support is available for ASP.NET Core projects, and .NET Core (and .NET 5 and later) console projects. .NET Framework projects are not supported in the current version of Visual Studio.
 
-If you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is **Container Compose support**, which adds appropriate support files for Docker Compose. (Podman Compose is not supported.)
+If you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is **Container Compose support**, which adds appropriate support files for [Docker Compose](https://docs.docker.com/compose/) or [Podman Compose](https://podman-desktop.io/docs/compose).
 
 When you add container support to a .NET 7 or later project, you have two container build types to choose from for adding container support. You can choose to add a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provided by the .NET SDK.
 
@@ -81,7 +81,7 @@ To create a project with Docker support, or add Docker support to an existing pr
 
 ## Podman support in Visual Studio
 
-Visual Studio supports Podman containers, a popular container management tool that provides a daemonless container engine. You can run and manage containers using the Podman CLI directly from Visual Studio. You can use Podman to run your single-container apps in the same way as Docker.
+Visual Studio supports Podman containers, a popular container management tool that provides a daemonless container engine. You can run and manage containers using the Podman CLI directly from Visual Studio. You can use Podman to run your single-container apps in the same way as Docker. Visual Studio also supports [Podman Compose](https://podman-desktop.io/docs/compose) for multi-container orchestration. To install Podman, see [Podman Desktop installation on Windows](https://podman-desktop.io/docs/installation/windows-install).
 
 To use Podman containers, start podman from the CLI, and open your solution in Visual Studio. By default, Container Tools automatically detects whether Podman or Docker is running, and use the currently active container runtime when you start the app. To configure the container runtime manually, go to **Tools > Options > Container Tools > Container Runtime** and select **Podman** or **Docker**. The default setting is **Auto**, which means Visual Studio tries to detect the currently active container runtime. Close the **Tools > Options** window to commit the setting change.
 
@@ -109,15 +109,17 @@ For more information, see [Use the Containers window](view-and-diagnose-containe
 
 ## Docker Compose support
 
-When you want to compose a multi-container solution using Docker Compose, add container orchestrator support to your projects. This lets you run and debug a group of containers (a whole solution or group of projects) at the same time if they're defined in the same *docker-compose.yml* file.
-
 :::moniker range="visualstudio"
 
-To add container orchestrator support using Docker Compose, right-click the application in **Solution Explorer**, and then select **Add** > **Container Compose Support**.
-    
+When you want to compose a multi-container solution using Docker Compose or Podman Compose, add container orchestrator support to your projects. This lets you run and debug a group of containers (a whole solution or group of projects) at the same time if they're defined in the same *docker-compose.yml* file.
+
+To add container orchestrator support, right-click the application in **Solution Explorer**, and then select **Add** > **Container Compose Support**.
+
 :::moniker-end
 
 :::moniker range="<=vs-2022"
+
+When you want to compose a multi-container solution using Docker Compose, add container orchestrator support to your projects. This lets you run and debug a group of containers (a whole solution or group of projects) at the same time if they're defined in the same *docker-compose.yml* file.
 
 To add container orchestrator support using Docker Compose, right-click on the project node in **Solution Explorer**, and choose **Add > Container Orchestrator Support**. Then choose **Docker Compose** to manage the containers.
 
@@ -139,7 +141,7 @@ After you add container orchestrator support to your project, you see a *Dockerf
 
 If *docker-compose.yml* already exists, Visual Studio just adds the required lines of configuration code to it.
 
-Repeat the process with the other projects that you want to control using Docker Compose.
+Repeat the process with the other projects that you want to control using Docker Compose or Podman Compose.
 
 If you work with a large number of services, you can save time and computing resources by selecting which subset of services you want to start in your debugging session. See [Start a subset of Compose services](launch-profiles.md).
 

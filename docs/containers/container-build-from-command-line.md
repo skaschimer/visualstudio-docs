@@ -3,7 +3,7 @@ title: Build a containerized Visual Studio project from the command line
 author: ghogen
 description: Build a container project in Visual Studio using the command line, either with MSBuild.exe or using Docker build, and learn how to enable detailed build logs.
 ms.author: ghogen
-ms.date: 9/10/2025
+ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: how-to
 ---
@@ -116,7 +116,7 @@ MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 
 You see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Customize container images for debugging](container-debug-customization.md).
 
-If you're using a Docker Compose project, use this command to build images:
+If you're using a Docker Compose project (or Podman Compose), use this command to build images:
 
 ```cmd
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj

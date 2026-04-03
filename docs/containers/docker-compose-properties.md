@@ -3,7 +3,7 @@ title: Docker Compose build settings
 author: ghogen
 description: Learn how to edit the Docker Compose build properties to customize how Visual Studio builds and runs a Docker Compose application.
 ms.author: ghogen
-ms.date: 12/19/2024
+ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: reference
 ---
@@ -11,6 +11,13 @@ ms.topic: reference
 # Docker Compose build properties
 
 In addition to the properties that control individual Docker projects, described in [Container Tools build properties](container-msbuild-properties.md), you can also customize how Visual Studio builds your Docker Compose projects by setting the Docker Compose properties that MSBuild uses to build your solution. You can also control how the Visual Studio debugger runs your Docker Compose apps by setting file labels in Docker Compose configuration files.
+
+:::moniker range="visualstudio"
+
+> [!NOTE]
+> These build properties also apply when you use [Podman Compose](https://podman-desktop.io/docs/compose) as the Compose runtime in Visual Studio.
+
+:::moniker-end
 
 ## How to set the MSBuild properties
 
