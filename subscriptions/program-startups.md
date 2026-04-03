@@ -3,14 +3,14 @@ title: Visual Studio subscriptions offered through Microsoft for Startups
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/19/2025
+ms.date: 04/02/2026
 ms.topic: concept-article
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
 
 # Visual Studio subscriptions offered to startups
 
-Qualified startups who join the Microsoft for Startups program can earn five Visual Studio Enterprise [monthly cloud subscriptions](https://visualstudio.microsoft.com/vs/pricing-details/). 
+Qualified startups who join the Microsoft for Startups program can earn five Visual Studio Enterprise [monthly cloud subscriptions](https://visualstudio.microsoft.com/vs/pricing-details/). For eligibility requirements and application details, see [Microsoft for Startups - How to apply](https://learn.microsoft.com/microsoft-for-startups/application).
 
 ## Subscription details 
 

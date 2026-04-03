@@ -49,7 +49,13 @@ You can check your code for available Quick Actions in Visual Studio by scanning
 
 - Move your mouse over your code and notice any Quick Action icons:
 
+   ::: moniker range="visualstudio"
+   :::image type="content" source="../ide/media/visualstudio/lightbulb-hover.png" border="false" lightbox="../ide/media/visualstudio/lightbulb-hover.png" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
+   ::: moniker-end
+
+   ::: moniker range="=vs-2022"
    :::image type="content" source="../ide/media/vs2022-lightbulb-hover.png" border="false" lightbox="../ide/media/vs2022-lightbulb-hover.png" alt-text="Screenshot that shows the basic Quick Action recommendation and light bulb icon in Visual Studio.":::
+   ::: moniker-end
 
 ::: moniker range="visualstudio"
 - Move the insertion cursor (|) into a line of code, and check for Quick Action icons that appear inline with your code.
@@ -70,7 +76,13 @@ When Quick Actions are available, you can select the light bulb ![light bulb ico
 
 - To see the available improvements, select the icon or use **Ctrl** + **.** (period) to open the Quick Actions menu.
 
+   ::: moniker range="=visualstudio"
+   :::image type="content" source="../ide/media/visualstudio/lightbulb-hover-expanded.png" border="false" lightbox="../ide/media/visualstudio/lightbulb-hover-expanded.png" alt-text="Screenshot that shows the Quick Action recommendation details with the light bulb icon in Visual Studio.":::
+   ::: moniker-end
+
+   ::: moniker range="=vs-2022"
    :::image type="content" source="../ide/media/vs2022-lightbulb-hover-expanded.png" border="false" lightbox="../ide/media/vs2022-lightbulb-hover-expanded.png" alt-text="Screenshot that shows the Quick Action recommendation details with the light bulb icon in Visual Studio.":::
+   ::: moniker-end
 
 - To apply the recommended change to your code, select the fix from the menu.
 
@@ -110,7 +122,15 @@ Open the **Tools** > **Options** dialog and expand the **Text Editor** > **All L
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="=visualstudio"
+## Get AI assistance
+
+If you have [GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md), you can get AI assistance while using the Quick Actions light bulb. From the light bulb menu, choose **Fix**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix. The **Fix** option is especially useful for more complex issues where the automatically suggested fixes don't fully apply.
+
+:::image type="content" source="../ide/media/visualstudio/quick-action-lightbulb-github-copilot.png" border="false" lightbox="../ide/media/visualstudio/quick-action-lightbulb-github-copilot.png" alt-text="Screenshot that shows the Quick Action GitHub Copilot option for the light bulb.":::
+::: moniker-end
+
+::: moniker range="=vs-2022"
 ## Get AI assistance
 
 If you have [GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md), you can get AI assistance while using the Quick Actions light bulb. From the light bulb menu, choose **Fix with Copilot**. This opens an inline chat with GitHub Copilot Chat, offering you an available fix. The **Fix with Copilot** option is especially useful for more complex issues where the automatically suggested fixes don't fully apply.
