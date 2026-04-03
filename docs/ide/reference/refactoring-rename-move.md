@@ -3,6 +3,7 @@ title: Rename and move refactorings
 description: Learn how to use Quick Actions and Refactorings to rename code symbols, move types to matching files, sync types and filenames, sync namespaces, and move declarations near references in Visual Studio.
 ms.date: 04/03/2026
 ms.topic: reference
+ms.custom: awp-ai
 f1_keywords:
   - vs.csharp.refactoring.rename
 author: Mikejo5000

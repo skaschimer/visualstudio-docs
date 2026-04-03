@@ -3,6 +3,7 @@ title: Property and field refactorings
 description: Learn how to use Quick Actions and Refactorings to encapsulate fields, convert between auto and full properties, and convert between Get methods and properties in Visual Studio.
 ms.date: 04/03/2026
 ms.topic: reference
+ms.custom: awp-ai
 f1_keywords:
   - vs.csharp.refactoring.encapsulatefield
   - vs.csharp.refactoring.convertmethodtoproperty

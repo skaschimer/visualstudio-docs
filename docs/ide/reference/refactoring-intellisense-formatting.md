@@ -3,6 +3,7 @@ title: IntelliSense and formatting refactorings
 description: Learn how to use IntelliSense completion for DateTime, TimeSpan, regex, and unimported types, and how to wrap, indent, and align code in Visual Studio.
 ms.date: 04/03/2026
 ms.topic: reference
+ms.custom: awp-ai
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

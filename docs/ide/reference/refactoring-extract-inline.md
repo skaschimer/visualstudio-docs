@@ -3,6 +3,7 @@ title: Extract and inline refactorings
 description: Learn how to use Quick Actions and Refactorings to extract methods, local functions, base classes, and interfaces, or inline methods and temporary variables in Visual Studio.
 ms.date: 04/03/2026
 ms.topic: reference
+ms.custom: awp-ai
 f1_keywords:
   - vs.csharp.refactoring.extractmethod
   - vs.csharp.refactoring.extractinterface

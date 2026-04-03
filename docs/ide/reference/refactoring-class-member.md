@@ -3,6 +3,7 @@ title: Class and member refactorings
 description: Learn how to use Quick Actions and Refactorings to change method signatures, pull members up, make classes abstract, make members static, convert local functions, and work with static local functions in Visual Studio.
 ms.date: 04/03/2026
 ms.topic: reference
+ms.custom: awp-ai
 f1_keywords:
   - vs.csharp.refactoring.remove
   - vs.csharp.refactoring.reorder

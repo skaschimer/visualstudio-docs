@@ -3,6 +3,7 @@ title: Expression and pattern refactorings
 description: Learn how to use Quick Actions and Refactorings to apply new(), pattern matching, and lambda expression body or block body refactorings in Visual Studio.
 ms.date: 04/03/2026
 ms.topic: reference
+ms.custom: awp-ai
 author: mikadumont
 ms.author: midumont
 manager: mijacobs

@@ -3,6 +3,7 @@ title: Loop and LINQ refactorings
 description: Learn how to use Quick Actions and Refactorings to convert between for loops and foreach statements, convert foreach to LINQ, convert LINQ to foreach, and simplify LINQ expressions in Visual Studio.
 ms.date: 04/03/2026
 ms.topic: reference
+ms.custom: awp-ai
 author: mikadumont
 ms.author: midumont
 manager: mijacobs
