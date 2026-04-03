@@ -1,7 +1,7 @@
 ---
 title: Access ClickOnce activation data for .NET
 description: "Learn how to access ClickOnce activation data for .NET Core 3.1, .NET 5 and later."
-ms.date: 08/10/2023
+ms.date: 01/05/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "activation data, ClickOnce for .NET 5+"
