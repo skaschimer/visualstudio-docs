@@ -104,6 +104,7 @@ The Container Tools **Single Project** and **Docker Compose** settings are ident
 ![Screenshot of Visual Studio 2022 Container Tools options.](./media/configure-container-tools/vs-2022/tools-options-2.png)
 
 The following table describes **Single Project** and **Docker Compose** settings:
+
 |Setting|Default value|Description|
 |-----|:---------------|-----------|
 |Pull required Docker images on project open|True|Whether to start a background Docker pull operation when loading a container project. Required images are downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
@@ -112,6 +113,7 @@ The following table describes **Single Project** and **Docker Compose** settings
 |Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
 |Run a service in containers to enable Azure Authentication|True|For Visual Studio version 17.6 or later, whether to install and run a token proxy service in the container to enable Azure Authentication. This service lets your apps use Azure services during development. For more information, see the [Configure Azure authentication](#configure-azure-authentication) section.|
 |Run a service in containers to enable Hot Reload|True|For Visual Studio version 17.7 and later, whether to install and run the Hot Reload service. This service only supports running without debugging, **Ctrl**+**F5**.|
+
 :::moniker-end
 :::moniker range="visualstudio"
 
