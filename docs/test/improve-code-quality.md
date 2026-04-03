@@ -1,7 +1,7 @@
 ---
 title: Overview of testing tools
 description: Explore the features of Visual Studio testing tools that can help you and your team develop and sustain high standards of code excellence.
-ms.date: 09/09/2025
+ms.date: 12/11/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - testing tools [Visual Studio]
