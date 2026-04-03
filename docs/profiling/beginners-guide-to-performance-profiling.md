@@ -1,7 +1,7 @@
 ---
 title: "Measure CPU utilization in your apps"
 description: Measure and analyze CPU performance issues in your C#, Visual Basic, C++, or F# application by using the debugger-integrated diagnostics tools in Visual Studio.
-ms.date: 07/25/2024
+ms.date: 02/05/2025
 ms.topic: tutorial
 helpviewer_keywords:
   - "Profiling Tools, quick start"

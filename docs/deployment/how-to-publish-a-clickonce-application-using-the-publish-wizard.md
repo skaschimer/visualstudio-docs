@@ -1,7 +1,7 @@
 ---
 title: Publish ClickOnce Application with Publish Wizard
 description: Learn how to use the Publish Wizard to make your ClickOnce application available to users, including which publishing properties to use.
-ms.date: 04/17/2025
+ms.date: 04/18/2025
 ms.topic: how-to
 dev_langs: 
   - VB
