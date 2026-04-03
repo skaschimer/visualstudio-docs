@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: Create an ASP.NET Core project to serve as an API backend and a Vue project to provide the user interface in Visual Studio.
-ms.date: 11/26/2025
+ms.date: 03/24/2026
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000

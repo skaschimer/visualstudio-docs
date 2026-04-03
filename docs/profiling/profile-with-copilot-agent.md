@@ -1,7 +1,7 @@
 ---
 title: Profile with GitHub Copilot Profiler Agent
 description: Use the Copilot Profiler Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
-ms.date: 02/05/2026
+ms.date: 02/17/2026
 ms.update-cycle: 90-days
 ms.topic: tutorial
 dev_langs:

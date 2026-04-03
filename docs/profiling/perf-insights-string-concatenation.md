@@ -1,7 +1,7 @@
 ---
 title: Perf insights for string concatenations
 description: Learn how to improve performance for string concatenations.
-ms.date: 8/03/2022
+ms.date: 12/04/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
