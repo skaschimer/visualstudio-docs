@@ -21325,6 +21325,246 @@
       "source_path": "docs/ide/reference/options-text-editor-basic-visual-basic.md",
       "redirect_url": "/visualstudio/ide/options-text-editor-basic-visual-basic",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/rename.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#rename-a-code-symbol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/move-type-to-matching-file.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#move-type-to-matching-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/sync-type-and-file.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#sync-type-and-filename",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/sync-namespace-and-folder-name.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#sync-namespace-and-folder-name",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/move-declaration-near-reference.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#move-declaration-near-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-method.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-local-function.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-local-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-base-class.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-base-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-interface.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-interface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/inline-method.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#inline-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/inline-temporary-variable.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#inline-temporary-variable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/change-method-signature.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#change-method-signature",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/pull-members-up.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#pull-members-up",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/make-class-abstract.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#make-class-abstract",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/make-member-static.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#make-member-static",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-local-function-method.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#convert-local-function-to-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/static-local-function-refactor-options.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#static-local-function-refactorings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/encapsulate-field.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-property-field#encapsulate-field",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-between-auto-property-and-full-property.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-property-field#convert-between-auto-property-and-full-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-get-method-to-property.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-property-field#convert-between-get-method-and-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-for-loop-to-foreach.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#convert-a-for-loop-to-a-foreach-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-foreach-linq.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#convert-a-foreach-loop-to-linq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-linq-to-foreach.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#convert-linq-to-foreach-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/simplify-linq-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#simplify-linq-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#convert-if-statement-to-switch-statement-or-switch-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-switch-statement-to-switch-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#convert-switch-statement-to-switch-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/invert-if-statement.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#invert-if-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/invert-conditional-logical.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#invert-conditional-expressions-and-conditional-andor-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/split-or-merge-if-statement.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#split-or-merge-if-statements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/simplify-conditional-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#simplify-conditional-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-anonymous-type-to-class.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-anonymous-type-to-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-anonymous-type-to-tuple.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-anonymous-type-to-tuple",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-between-regular-string-verbatim-string.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-between-regular-string-and-verbatim-string-literals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-typeof-to-nameof.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-typeof-to-nameof",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-var-to-explicit-type.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#use-explicit-type-instead-of-var",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/simplify-string-interpolation.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#simplify-string-interpolation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/use-new.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-expression-pattern#use-new",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/use-pattern-matching.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-expression-pattern#use-pattern-matching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/use-block-body-lambda.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-expression-pattern#use-expression-body-or-block-body-for-lambda-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/add-null-checks-for-parameters.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#add-null-checks-for-all-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/remove-unreachable-code.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#remove-unreachable-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/remove-unused-references.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#remove-unused-references",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/unused-values-parameters.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#unused-value-assignments-variables-and-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/sort-usings.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#sort-usings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/datetime-timespan-completion.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#datetime-and-timespan-completion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/regex-completion-through-intellisense.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#regex-completion-through-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/intellisense-completion-unimported-types-extension-methods.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#intellisense-completion-for-unimported-types-and-extension-methods",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/wrap-indent-align-refactorings.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#wrap-and-align-call-chains",
+      "redirect_document_id": false
     }
   ]
 }

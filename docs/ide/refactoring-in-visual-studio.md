@@ -22,8 +22,8 @@ Refactoring is the process of modifying code in order to make it easier to maint
 Different refactoring operations are available for different programming languages in Visual Studio:
 
 - The pages in this section of the table of contents cover the refactorings available for C# and Visual Basic. Some examples are: 
-  - [Extract a method refactoring](reference/extract-method.md) 
-  - [Move type to a matching file refactoring](reference/move-type-to-matching-file.md)
+  - [Extract and inline refactorings](reference/refactoring-extract-inline.md) 
+  - [Rename and move refactorings](reference/refactoring-rename-move.md)
 
 - For information about refactoring C++ code, see [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp).
 - Refactoring support for F# is provided by the [Visual F# Power Tools](https://marketplace.visualstudio.com/items?itemName=FSharpSoftwareFoundation.VisualFPowerTools), a third-party Visual Studio extension.
