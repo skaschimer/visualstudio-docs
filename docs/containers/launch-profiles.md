@@ -9,6 +9,7 @@ ms.topic: how-to
 ms.date: 04/02/2026
 ms.author: ghogen
 monikerRange: ">=vs-2022"
+ms.custom: awp-ai
 ---
 
 # Launch a subset of Compose services

@@ -6,6 +6,7 @@ ms.author: ghogen
 ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: how-to
+ms.custom: awp-ai
 ---
 
 # Build a container project from the command line

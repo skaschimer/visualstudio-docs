@@ -6,7 +6,7 @@ ms.author: ghogen
 ms.topic: overview
 ms.date: 04/02/2026
 ms.subservice: container-tools
-ms.custom: peer-review-program
+ms.custom: peer-review-program, awp-ai
 ---
 
 # Visual Studio Container Tools
