@@ -1,7 +1,7 @@
 ---
 title: Use the right type of breakpoint
 description: Learn about the different types of breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
-ms.date: 09/03/2025
+ms.date: 03/11/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpt.new

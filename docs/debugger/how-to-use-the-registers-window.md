@@ -1,7 +1,7 @@
 ---
 title: View register values in the debugger
 description: View register values in the Registers window in Visual Studio. During debugging, register values change as code executes in your app.
-ms.date: 11/03/2025
+ms.date: 11/04/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.registers
