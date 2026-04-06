@@ -1,7 +1,7 @@
 ---
 title: Refactor rename
 description: Learn how to use the Refactor Rename feature to rename identifiers for code symbols, such as fields, local variables, methods, namespaces, properties, and types.
-ms.date: 05/04/2020
+ms.date: 07/29/2024
 ms.topic: reference
 ms.custom: "ide-ref"
 author: Mikejo5000

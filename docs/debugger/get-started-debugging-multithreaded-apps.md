@@ -1,7 +1,7 @@
 ---
 title: Learn to debug multithreaded applications
 description: Debug multithreaded applications by using the Parallel Stacks and Parallel Watch windows in the Visual Studio integrated development environment (IDE).
-ms.date: 8/5/2025
+ms.date: 01/05/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
