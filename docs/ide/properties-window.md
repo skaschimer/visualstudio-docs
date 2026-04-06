@@ -1,7 +1,7 @@
 ---
 description: "Use this window to view and change the design-time properties and events of selected objects that are located in editors and designers."
 title: Properties Window
-ms.date: 11/04/2016
+ms.date: 04/01/2026
 ms.topic: reference
 helpviewer_keywords:
 - properties [Visual Studio], Properties Window
