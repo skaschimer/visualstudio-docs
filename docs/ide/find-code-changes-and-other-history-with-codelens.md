@@ -1,7 +1,7 @@
 ---
 title: Find code changes and other history with CodeLens
 description: Explore CodeLens in Visual Studio and learn how to use the tool to explore the history of your code without having to leave the editor.
-ms.date: 12/20/2024
+ms.date: 04/06/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
@@ -9,14 +9,12 @@ author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
-ms.custom: sfi-image-nochange
+ms.custom: "sfi-image-nochange, awp-ai"
 
 #customer intent: As a developer, I want to use CodeLens in Visual Studio so I can explore the history of my code directly in the code editor.
 ---
 
 # Find code changes and other history with CodeLens
-
-::: moniker range=">=vs-2022"
 
 Visual Studio CodeLens helps you stay focused on your work while you find out what happened to your code - all without leaving the Interactive Development Environment (IDE) code editor. You can find references to a piece of code, changes to your code, linked bugs, Azure DevOps work items, code reviews, and unit tests.
 
@@ -25,11 +23,21 @@ Visual Studio CodeLens helps you stay focused on your work while you find out wh
 
 CodeLens can show you both where and how the individual parts of your code are used in your solution:
 
-:::image type="content" source="./media/vs-2022/codelens-overview.png" border="false" alt-text="Screenshot of CodeLens indicators in the Visual Studio code editor." lightbox="./media/codelens-overview.png":::
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-overview.png" border="false" alt-text="Screenshot of CodeLens indicators in the Visual Studio code editor." lightbox="./media/visualstudio/codelens-overview.png":::
+:::moniker-end
+:::moniker range="<=vs-2022"
+:::image type="content" source="./media/vs-2022/codelens-overview.png" border="false" alt-text="Screenshot of CodeLens indicators in the Visual Studio code editor." lightbox="./media/vs-2022/codelens-overview.png":::
+:::moniker-end
 
 View details about user's code changes, and use the right-click **Send email to \<user>** option to contact users without leaving the code editor:
 
-:::image type="content" source="./media/vs-2022/codelens-contact-info.png"  border="false" alt-text="Screenshot that shows how to view details about changes made by your team members in CodeLens for Visual Studio.":::
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-contact-info.png" border="false" alt-text="Screenshot that shows how to view details about changes made by your team members in CodeLens for Visual Studio." lightbox="./media/visualstudio/codelens-contact-info.png":::
+:::moniker-end
+:::moniker range="<=vs-2022"
+:::image type="content" source="./media/vs-2022/codelens-contact-info.png" border="false" alt-text="Screenshot that shows how to view details about changes made by your team members in CodeLens for Visual Studio." lightbox="./media/vs-2022/codelens-contact-info.png":::
+:::moniker-end
 
 To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
@@ -39,7 +47,13 @@ Many of the operations described in the following sections are available by usin
 
 To use the keyboard to select indicators, select and hold the **Alt** key to display the related number keys, then select the number on the keyboard that corresponds to the desired indicator:
 
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-alt-keys.png" alt-text="Screenshot that shows the CodeLens keyboard access numbers in Visual Studio.":::
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 :::image type="content" source="./media/vs-2022/codelens-alt-keys.png" alt-text="Screenshot that shows the CodeLens keyboard access numbers in Visual Studio.":::
+:::moniker-end
 
 > [!NOTE]
 > To select the **reviews** indicator, select **Alt** while using the **left arrow** and **right arrow key** to browse.
@@ -50,14 +64,26 @@ You can find references in C# or Visual Basic code.
 
 1. In the code editor, select the **references** indicator or use the **Alt**+**2** keyboard shortcut:
 
-   :::image type="content" source="./media/vs-2022/codelens-view-references.png"  border="false" alt-text="Screenshot that shows how to select the CodeLens references option in Visual Studio.":::
+   :::moniker range="visualstudio"
+   :::image type="content" source="./media/visualstudio/codelens-view-references.png" border="false" alt-text="Screenshot that shows how to select the CodeLens references option in Visual Studio.":::
+   :::moniker-end
+
+   :::moniker range="<=vs-2022"
+   :::image type="content" source="./media/vs-2022/codelens-view-references.png" border="false" alt-text="Screenshot that shows how to select the CodeLens references option in Visual Studio.":::
+   :::moniker-end
 
    > [!NOTE]
    > If the indicator shows **0 references**, you don't have any references from your C# or Visual Basic code. However, there might be references in other project items such as *.xaml* and *.aspx* files.
 
 1. To view the referencing code, hover over the reference in the list.
 
-   :::image type="content" source="./media/vs-2022/codelens-peek-reference.png"  border="false" alt-text="Screenshot that shows how to see the file with the reference by using CodeLens - Peek reference for Visual Studio.":::
+   :::moniker range="visualstudio"
+   :::image type="content" source="./media/visualstudio/codelens-peek-reference.png" border="false" alt-text="Screenshot that shows how to see the file with the reference by using CodeLens - Peek reference for Visual Studio." lightbox="./media/visualstudio/codelens-peek-reference.png":::
+   :::moniker-end
+
+   :::moniker range="<=vs-2022"
+   :::image type="content" source="./media/vs-2022/codelens-peek-reference.png" border="false" alt-text="Screenshot that shows how to see the file with the reference by using CodeLens - Peek reference for Visual Studio." lightbox="./media/vs-2022/codelens-peek-reference.png":::
+   :::moniker-end
 
 1. To open the file that contains the reference, double-click the reference.
 
@@ -65,7 +91,12 @@ You can find references in C# or Visual Basic code.
 
 To see relationships between the code and its references, you can [create a code map](../modeling/map-dependencies-across-your-solutions.md). In the **Code Map** toolbar, expand the **Show Related** dropdown menu and select **Find All References**:
 
+::: moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-references-map.png" border="false" alt-text="Screenshot that shows how to create a map of all references to specific code by using CodeLens in Visual Studio." lightbox="./media/visualstudio/codelens-references-map.png":::
+::: moniker-end
+::: moniker range="<=vs-2022"
 :::image type="content" source="./media/vs-2022/codelens-references-map.png" border="false" alt-text="Screenshot that shows how to create a map of all references to specific code by using CodeLens in Visual Studio." lightbox="./media/vs-2022/codelens-references-map.png":::
+::: moniker-end
 
 ## Find changes in your code
 
@@ -79,11 +110,21 @@ You need:
 
 For C# (*.cs*) or Visual Basic (*.vb*) code stored with TFVC or Git, CodeLens details are visible at the class and method levels (*code element-level* indicators) within the file:
 
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-element-level-indicators.png" border="false" alt-text="Screenshot that shows code element-level indicators for team contributions in CodeLens for Visual Studio.":::
+:::moniker-end
+:::moniker range="<=vs-2022"
 :::image type="content" source="./media/vs-2022/codelens-element-level-indicators.png" border="false" alt-text="Screenshot that shows code element-level indicators for team contributions in CodeLens for Visual Studio.":::
+:::moniker-end
 
 For file types other than *.cs* or *.vb*, the **Show file level Codelens indicator** option lets you view CodeLens details for the entire file. The *file-level* indicators are displayed at the bottom of the file in the code editor:
 
-:::image type="content" source="./media/vs-2022/codelens-file-level-indicators.png" border="false" alt-text="Screenshot that shows file-level indicators for team contributions in CodeLens for Visual Studio.":::
+:::moniker range="visualstudio"
+:::image type="content" source="./media/vs-2022/codelens-file-level-indicators.png" border="false" alt-text="Screenshot that shows file-level indicators for team contributions in CodeLens for Visual Studio." lightbox="./media/vs-2022/codelens-file-level-indicators.png":::
+:::moniker-end
+:::moniker range="<=vs-2022"
+:::image type="content" source="./media/vs-2022/codelens-file-level-indicators.png" border="false" alt-text="Screenshot that shows file-level indicators for team contributions in CodeLens for Visual Studio." lightbox="./media/vs-2022/codelens-file-level-indicators.png":::
+:::moniker-end
 
 ### Code element-level indicators
 
@@ -91,13 +132,23 @@ Code element-level indicators let you see who changed your code and what changes
 
 You can also view change history when you use TFVC or Azure DevOps Services:
 
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-code-changes.png" border="false" alt-text="Screenshot that shows the change history data for your code in CodeLens for Visual Studio.":::
+:::moniker-end
+:::moniker range="<=vs-2022"
 :::image type="content" source="./media/vs-2022/codelens-code-changes.png" border="false" alt-text="Screenshot that shows the change history data for your code in CodeLens for Visual Studio.":::
+:::moniker-end
 
 The default time period is the last 12 months (one year). 
 
 To see a detailed history of all the changes, including those changes from more than a year ago, select **Show all file changes**, which opens a **History** window. From the **History** window, you can view all your files that are in a Git repository, and select the code element-level changes indicator for more details:
 
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-code-changes-git.png" border="false" alt-text="Screenshot that shows the CodeLens change history for code in a GitHub repository in Visual Studio.":::
+:::moniker-end
+:::moniker range="<=vs-2022"
 :::image type="content" source="./media/vs-2022/codelens-code-changes-git.png" border="false" alt-text="Screenshot that shows the CodeLens change history for code in a GitHub repository in Visual Studio.":::
+:::moniker-end
 
 ### File-level indicators
 
@@ -110,7 +161,12 @@ To get more details about a change, right-click the item. Depending on whether y
 
 The indicators show who changed your code over time, which can help you find patterns in your team's changes and assess their impact:
 
-:::image type="content" source="./media/vs-2022/codelens-element-level-indicators.png" border="false" alt-text="Screenshot that shows code element-level indicators for team contributions as a graph in CodeLens for Visual Studio.":::
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-element-level-indicators.png" border="false" alt-text="Screenshot that shows code element-level indicators for team contributions as a graph in CodeLens for Visual Studio." lightbox="./media/visualstudio/codelens-element-level-indicators.png":::
+:::moniker-end
+:::moniker range="<=vs-2022"
+:::image type="content" source="./media/vs-2022/codelens-element-level-indicators.png" border="false" alt-text="Screenshot that shows code element-level indicators for team contributions as a graph in CodeLens for Visual Studio." lightbox="./media/vs-2022/codelens-element-level-indicators.png":::
+:::moniker-end
 
 Starting in Visual Studio 2022 version 17.12 Preview 2, you can show or hide file-level indicators on the code editor horizontal scrollbar with the **Tools > Options > Text Editor > Advanced** > **Show file level CodeLens indicator** option. This option updates visibility for file types that implement the file-level CodeLens control in the bottom editor scrollbar, such as XAML, HTML, and CSS. The option doesn't affect files that contain inline CodeLens (C# and VB).
 
@@ -118,7 +174,12 @@ Starting in Visual Studio 2022 version 17.12 Preview 2, you can show or hide fil
 
 Your team might have multiple branches, such as a main branch and a child development branch, to reduce the risk of breaking stable code.
 
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/codelens-first-branch-conceptual.png" border="false" alt-text="Diagram that depicts changes from the current branch and a child branch with CodeLens.":::
+:::moniker-end
+:::moniker range="<=vs-2022"
 :::image type="content" source="./media/codelens-first-branch-conceptual.png" border="false" alt-text="Diagram that depicts changes from the current branch and a child branch with CodeLens.":::
+:::moniker-end
 
 You can discover how many contributors changed your code and how many changes were made in the main branch by selecting the **Alt**+**0** keyboard shortcut
 
@@ -126,7 +187,12 @@ You can discover how many contributors changed your code and how many changes we
 
 To find when your code was branched, browse to your code in the child branch. Then, select the **changes** indicator (or select **Alt**+**0**):
 
-:::image type="content" source="./media/vs-2022/codelens-first-branch.png" border="false" alt-text="Screenshot that shows how to discover when your code was branched with CodeLens in Visual Studio.":::
+:::moniker range="visualstudio"
+:::image type="content" source="./media/vs-2022/codelens-first-branch.png" border="false" alt-text="Screenshot that shows how to discover when your code was branched with CodeLens in Visual Studio." lightbox="./media/vs-2022/codelens-first-branch.png":::
+:::moniker-end
+:::moniker range="<=vs-2022"
+:::image type="content" source="./media/vs-2022/codelens-first-branch.png" border="false" alt-text="Screenshot that shows how to discover when your code was branched with CodeLens in Visual Studio." lightbox="./media/vs-2022/codelens-first-branch.png":::
+:::moniker-end
 
 ### Find incoming changes from other branches
 
@@ -224,7 +290,7 @@ When the indicators are turned on, you can also open the CodeLens options from t
 
 **A:** Go to **Tools** > **Options** > **Environment** > **Fonts and Colors**.
 
-:::image type="content" source="./media/vs-2022/codelens-options-fonts-colors-settings.png" border="false" alt-text="Screenshot that shows how to change font and color settings for CodeLens in Visual Studio.":::
+:::image type="content" source="./media/vs-2022/codelens-options-fonts-colors-settings.png" border="false" alt-text="Screenshot that shows how to change font and color settings for CodeLens in Visual Studio." lightbox="./media/vs-2022/codelens-options-fonts-colors-settings.png":::
 
 To use the keyboard:
 
@@ -262,6 +328,4 @@ To use the keyboard:
 
 - [About Git version control in Visual Studio](../version-control/git-with-visual-studio.md)
 - [Features of the code editor](./writing-code-in-the-code-and-text-editor.md)
-
-::: moniker-end
 
