@@ -1,7 +1,7 @@
 ---
 title: "Extend .NET Hot Reload"
 description: "Learn to use the MetadataUpdateHandler attribute to extend .NET Hot Reload to support additional scenarios."
-ms.date: 06/20/2023
+ms.date: 07/07/2023
 ms.topic: how-to
 helpviewer_keywords:
   - "Hot reload, MetadataUpdateHandler"

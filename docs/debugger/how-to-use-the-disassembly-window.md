@@ -1,7 +1,7 @@
 ---
 title: View Disassembly Code in the debugger
 description: Use the Disassembly window in Visual Studio to show assembly code corresponding to the instructions created by the compiler.
-ms.date: 10/31/2025
+ms.date: 11/03/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.disassembly

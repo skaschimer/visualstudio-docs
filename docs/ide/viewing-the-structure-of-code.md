@@ -1,7 +1,7 @@
 ---
 title: Use tools windows to view code structure
 description: Learn how to use the Class View, Call Hierarchy, Object Browser, and Code Definition tool windows to examine classes and their members in Visual Studio.
-ms.date: 09/19/2019
+ms.date: 07/16/2024
 ms.topic: reference
 f1_keywords:
 - vs.documentoutline.window

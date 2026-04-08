@@ -1,7 +1,7 @@
 ---
 title: Create and run unit tests for Universal Windows Platform (UWP) apps
 description: Learn about unit testing UWP apps in Visual Studio, and use test-driven development to create and unit test a C# UWP app.
-ms.date: 01/17/2023
+ms.date: 12/11/2025
 ms.topic: how-to
 helpviewer_keywords:
 - unit tests, creating

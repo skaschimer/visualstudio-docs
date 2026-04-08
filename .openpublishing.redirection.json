@@ -1,6 +1,14 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/proxy-settings.md",
+      "redirect_url": "/visualstudio/ide/reference/proxy-firewall-troubleshoot",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+      ]
+    },
+    {
       "source_path": "docs/ide/reference/extensions-and-updates-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/configure-extension-update-options",
       "redirect_document_id": true
@@ -1387,8 +1395,13 @@
     },
     {
       "source_path": "docs/ide/reference/project-properties-reference.md",
-      "redirect_url": "/visualstudio/ide/project-properties-reference",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/project-properties-reference.md",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/ide/reference/properties-window.md",
