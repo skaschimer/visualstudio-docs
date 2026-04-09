@@ -29,7 +29,7 @@ If you don't already have a GitHub account, here's how to create one.
 
     :::image type="content" source="media/vs-2022/welcome-github-create-password-enter-username.png" alt-text="Screenshot of the Create a Password and Enter a Username dialog.":::
 
-1. **Verify your account** by solving a puzzle. Select the **Start Puzzle** button to do so, and then follow the prompts.
+1. **Verify your account** by solving a puzzle. Select the **Visual puzzle** or **Audio puzzle** to do so, and then follow the prompts.
 
 1. After you verify your account, select the **Create account** button.
 
@@ -37,15 +37,7 @@ If you don't already have a GitHub account, here's how to create one.
 
     :::image type="content" source="media/vs-2022/welcome-github-enter-launch-code.png" alt-text="Screenshot of the Enter Your Launch Code dialog.":::
 
-1. GitHub asks you some questions to help tailor your experience. Choose the answers that apply to you in the following dialogs:
-
-   - **How many team members will be working with you?**
-   - **What specific features are you interested in using?**
-
-1. On the **Where teams collaborate and ship** screen, you can choose whether you want to use the Free account or the Team account. To choose the **Free** account, select the **Skip personalization** button.
-
-    > [!TIP]
-    > You can always upgrade your account later. See the [**Types of GitHub accounts**](https://docs.github.com/get-started/learning-about-github/types-of-github-accounts) page to learn more.
+1. GitHub asks you to sign in. 
 
     GitHub opens a personalized page in your browser.
 
