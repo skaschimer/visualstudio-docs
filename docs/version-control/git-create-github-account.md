@@ -19,15 +19,11 @@ If you don't already have a GitHub account, here's how to create one.
 
 1. Open [https://github.com](https://github.com) in a web browser, and then select **Sign up**.
 
-    :::image type="content" source="media/vs-2022/welcome-sign-up-github-account.png" alt-text="Screenshot of the Sign Up for GitHub page.":::
+    :::image type="content" source="media/visualstudio/welcome-sign-up-github-account.png" alt-text="Screenshot of the Sign Up for GitHub page.":::
 
-1. **Enter your email** address.
+1. Fill out the online form, and then select **Create account**.
 
-    :::image type="content" source="media/vs-2022/welcome-github-enter-email.png" alt-text="Screenshot of the Enter Your Email dialog.":::
-
-1. **Create a password** for your new GitHub account, and **Enter a username**, too. Next, choose whether you want to receive updates and announcements via email, and then select **Continue**.
-
-    :::image type="content" source="media/vs-2022/welcome-github-create-password-enter-username.png" alt-text="Screenshot of the Create a Password and Enter a Username dialog.":::
+    :::image type="content" source="media/visualstudio/web-form.png" alt-text="Screenshot of the online form.":::
 
 1. **Verify your account** by solving a puzzle. Select the **Visual puzzle** or **Audio puzzle** to do so, and then follow the prompts.
 
