@@ -29,15 +29,13 @@ If you don't already have a GitHub account, here's how to create one.
 
 1. After you verify your account, select the **Create account** button.
 
-1. Next, GitHub sends a launch code to your email address. Type that launch code in the **Enter code** dialog, and then press **Enter**.
+1. Next, GitHub sends a launch code to your email address. Type that launch code in the **Enter code** boxes, and then select **Continue**.
 
-    :::image type="content" source="media/vs-2022/welcome-github-enter-launch-code.png" alt-text="Screenshot of the Enter Your Launch Code dialog.":::
+    :::image type="content" source="media/visualstudio/welcome-github-enter-launch-code.png" alt-text="Screenshot of the Enter code boxes.":::
 
-1. GitHub asks you to sign in. 
+1. After you sign in, GitHub opens a personalized page in your browser.
 
-    GitHub opens a personalized page in your browser.
-
-    :::image type="content" source="media/vs-2022/welcome-github-new-user-page.png" alt-text="Your new user page.":::
+    :::image type="content" source="media/visualstudio/welcome-github-new-user-page.png" alt-text="Your new user page.":::
 
 Congratulations! You've successfully created your GitHub account.
 
