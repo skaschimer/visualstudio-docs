@@ -48,8 +48,6 @@ The object [`VisualStudioExtensibility`](/dotnet/api/microsoft.visualstudio.exte
 
 ## Extension parts
 
-For features where an extension contributes components to Visual Studio such as commands, editor listeners, extensions will utilize attributed classes. Build process will generate the correct metadata to ensure these components can be discovered by Visual Studio.
-
 For features where an extension contributes components to Visual Studio such as commands, editor listeners, tool windows, etc., extensions utilize classes marked with the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute. The build process generates the correct metadata to ensure these components can be discovered by Visual Studio.
 
 Currently the SDK supports a limited set of components to be contributed:
