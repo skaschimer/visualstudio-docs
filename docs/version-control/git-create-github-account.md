@@ -25,7 +25,7 @@ If you don't already have a GitHub account, here's how to create one.
 
     :::image type="content" source="media/visualstudio/web-form.png" alt-text="Screenshot of the online form.":::
 
-1. **Verify your account** by solving a puzzle. Select the **Visual puzzle** or **Audio puzzle** to do so, and then follow the prompts.
+1. **Verify your account** by solving a puzzle. Select **Visual puzzle** or **Audio puzzle** to do so, and then follow the prompts.
 
 1. After you verify your account, select the **Create account** button.
 
