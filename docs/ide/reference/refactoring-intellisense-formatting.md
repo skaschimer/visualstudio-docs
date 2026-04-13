@@ -26,7 +26,7 @@ This feature uses the IntelliSense menu to help write DateTime and TimeSpan stri
 1. Press **Ctrl**+**Space** to trigger the **IntelliSense** menu.
 1. Select the character you would like to add.
 
-   ![Screenshot of DateTime Completion IntelliSense](media/datetime-completion.png)
+   ![Screenshot of DateTime Completion IntelliSense.](media/datetime-completion.png)
 
 ## Regex completion through IntelliSense
 
@@ -38,7 +38,7 @@ This feature uses the IntelliSense menu to help write regular expressions. Intel
 1. Press **Ctrl**+**Space** to trigger the **IntelliSense** menu.
 1. Select the character you would like to add to your regex string.
 
-   ![Screenshot of Regex Completion IntelliSense](../media/regex-completion-intellisense.png)
+   ![Screenshot of Regex Completion IntelliSense.](../media/regex-completion-intellisense.png)
 
 ## IntelliSense completion for unimported types and extension methods
 
@@ -69,7 +69,7 @@ IntelliSense gives completion suggestions for types and extension methods that a
 
    The `using` directive is automatically added to your file.
 
-   ![Screenshot of IntelliSense completion for unimported types](media/intellisense-completion-unimported-types.png)
+   ![Screenshot of IntelliSense completion for unimported types.](media/intellisense-completion-unimported-types.png)
 
 ## Wrap and align call chains
 
@@ -92,7 +92,7 @@ This refactoring wraps, indents, and aligns parameters or arguments in method de
 1. Place your cursor in a parameter list.
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-   ![Screenshot of Wrap, Indent, and Align parameters](media/wrap-parameters.png)
+   ![Screenshot of Wrap, Indent, and Align parameters.](media/wrap-parameters.png)
 
 1. Select **Wrap every parameter** to accept the refactoring.
 

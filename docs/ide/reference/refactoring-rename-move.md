@@ -28,11 +28,11 @@ This refactoring safely renames identifiers for code symbols, such as fields, lo
 
    - C#:
 
-       ![Screenshot of Highlighted code for Rename - C#](media/rename-highlight-cs.png)
+       ![Screenshot of Highlighted code for Rename - C#.](media/rename-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Screenshot of Highlighted code for Rename - Visual Basic](media/rename-highlight-vb.png)
+       ![Screenshot of Highlighted code for Rename - Visual Basic.](media/rename-highlight-vb.png)
 
 1. Next, use your keyboard or mouse as follows:
 
@@ -46,11 +46,11 @@ This refactoring safely renames identifiers for code symbols, such as fields, lo
 
    - C#:
 
-      ![Screenshot of Rename animation - C#](media/rename-animated-cs.gif)
+      ![Screenshot of Rename animation - C#.](media/rename-animated-cs.gif)
 
    - Visual Basic:
 
-      ![Screenshot of Rename - VB](media/rename-rename-vb.png)
+      ![Screenshot of Rename - VB.](media/rename-rename-vb.png)
 
    ::: moniker range=">= vs-2022"
    > [!TIP]
@@ -63,15 +63,15 @@ This refactoring safely renames identifiers for code symbols, such as fields, lo
 
 - Starting in Visual Studio 2019 version 16.3, when you rename a type that matches the name of the file it's in, a checkbox appears that enables you to rename the file at the same time. This option appears when you rename a class, interface, or enumeration. This option isn't supported for partial types with multiple definitions.
 
-   ![Screenshot of Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
+   ![Screenshot of Rename animation with file - C#.](media/rename-with-file-animated-cs.gif)
 
 - If you use a name that already exists which would cause a conflict, the **Rename** box warns you.
 
-   ![Screenshot of Rename Conflict](media/rename-conflict-cs.png)
+   ![Screenshot of Rename Conflict.](media/rename-conflict-cs.png)
 
 - Another way to rename a symbol is to change its name in the editor. Then, with the cursor in the symbol name, press **Ctrl**+**.** or just expand the light bulb icon menu that appears and choose **Rename \<old name> to \<new name>**.
 
-   ![Screenshot of Rename in the editor](media/rename-with-editor-cs.png)
+   ![Screenshot of Rename in the editor.](media/rename-with-editor-cs.png)
 
 ## Move type to matching file
 
@@ -103,11 +103,11 @@ This refactoring moves a type to a separate file with the same name, improving c
 
    - C#:
 
-      ![Screenshot of Inline result - C#](media/movetype-result-cs.png)
+      ![Screenshot of Inline result - C#.](media/movetype-result-cs.png)
 
    - Visual Basic:
 
-      ![Screenshot of Inline result - Visual Basic](media/movetype-result-vb.png)
+      ![Screenshot of Inline result - Visual Basic.](media/movetype-result-vb.png)
 
 ## Sync type and filename
 
@@ -122,11 +122,11 @@ This refactoring renames a type to match the filename, or renames a filename to 
 
    - C#:
 
-       ![Screenshot of Highlighted code for Sync Type - C#](media/synctype-highlight-cs.png)
+       ![Screenshot of Highlighted code for Sync Type - C#.](media/synctype-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Screenshot of Highlighted code for Sync Type - Visual Basic](media/synctype-highlight-vb.png)
+       ![Screenshot of Highlighted code for Sync Type - Visual Basic.](media/synctype-highlight-vb.png)
 
 1. Next, do one of the following:
 
@@ -141,11 +141,11 @@ This refactoring renames a type to match the filename, or renames a filename to 
 
    - C#: In the example below, the file **MyClass.cs** was renamed to **MyNewClass.cs** to match the type name.
 
-       ![Screenshot of Inline result C#](media/synctype-result-cs.png)
+       ![Screenshot of Inline result C#.](media/synctype-result-cs.png)
 
    - Visual Basic: In the example below, the file **Employee.vb** was renamed to **Person.vb** to match the type name.
 
-       ![Screenshot of Inline result Visual Basic](media/synctype-result-vb.png)
+       ![Screenshot of Inline result Visual Basic.](media/synctype-result-vb.png)
 
 ## Sync namespace and folder name
 
@@ -157,7 +157,7 @@ This refactoring updates the namespace to match the folder structure when you mo
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 1. Select **Change namespace to \<folder name>**.
 
-   ![Screenshot of Sync Namespace And Folder Name](media/sync-namespace-and-folder-name.png)
+   ![Screenshot of Sync Namespace And Folder Name.](media/sync-namespace-and-folder-name.png)
 
 ## Move declaration near reference
 

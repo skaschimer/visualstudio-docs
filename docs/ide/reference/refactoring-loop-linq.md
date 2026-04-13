@@ -29,7 +29,7 @@ This refactoring converts a [for](/dotnet/csharp/language-reference/keywords/for
 
 1. Press **Ctrl**+**.** or click the screwdriver ![Screwdriver icon](../media/screwdriver-icon.png) icon in the margin of the code file.
 
-   ![Screenshot of Convert to foreach menu](media/convert-to-foreach.png)
+   ![Screenshot of Convert to foreach menu.](media/convert-to-foreach.png)
 
 1. Select **Convert to 'foreach'**. Or, select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
 
@@ -43,7 +43,7 @@ This refactoring converts a [foreach](/dotnet/csharp/language-reference/keywords
 
 1. Press **Ctrl**+**.** or click the screwdriver ![Screwdriver icon](../media/screwdriver-icon.png) icon in the margin of the code file.
 
-   ![Screenshot of Convert to for menu](media/convert-to-for.png)
+   ![Screenshot of Convert to for menu.](media/convert-to-for.png)
 
 1. Select **Convert to 'for'**. Or, select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
 
@@ -63,17 +63,17 @@ This refactoring converts a *foreach* loop that uses an IEnumerable to a LINQ qu
 
 1. Place your cursor in the `foreach` keyword.
 
-    ![Screenshot of Foreach using IEnumerable sample](media/convert-foreach-to-LINQ.png)
+    ![Screenshot of Foreach using IEnumerable sample.](media/convert-foreach-to-LINQ.png)
 
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-   ![Screenshot of Convert to LINQ menu sample](media/convert-foreach-to-LINQ-codefix.png)
+   ![Screenshot of Convert to LINQ menu sample.](media/convert-foreach-to-LINQ-codefix.png)
 
 1. Select **Convert to LINQ** or **Convert to Linq (call form)**.
 
-   ![Screenshot of LINQ query result sample](media/convert-foreach-to-LINQ-result.png)
+   ![Screenshot of LINQ query result sample.](media/convert-foreach-to-LINQ-result.png)
 
-   ![Screenshot of LINQ call form result sample](media/convert-foreach-to-LINQ-callform-result.png)
+   ![Screenshot of LINQ call form result sample.](media/convert-foreach-to-LINQ-callform-result.png)
 
 ### Sample code
 
@@ -116,7 +116,7 @@ This refactoring converts [LINQ query syntax](/dotnet/csharp/programming-guide/c
 
 1. Press **Ctrl**+**.** or click the screwdriver ![screwdriver icon](../media/screwdriver-icon.png) icon in the margin of the code file.
 
-   ![Screenshot of Convert LINQ to foreach quick actions menu](media/convert-linq-to-foreach.png)
+   ![Screenshot of Convert LINQ to foreach quick actions menu.](media/convert-linq-to-foreach.png)
 
 1. Select **Convert to 'foreach'**. Or, select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
 
@@ -135,7 +135,7 @@ Removing the unnecessary call to the Enumerable for the `.Where()` method improv
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 1. Select **Simplify LINQ expression**.
 
-   ![Screenshot of Simplify LINQ expression](media/simplify-linq-expression.png)
+   ![Screenshot of Simplify LINQ expression.](media/simplify-linq-expression.png)
 
 ## Related content
 

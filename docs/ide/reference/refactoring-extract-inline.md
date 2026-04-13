@@ -86,7 +86,7 @@ This refactoring extracts members from a selected class to a new base class, use
 
 1. Select **Pull member(s) up to new base class**.
 
-    ![Screenshot of Extract base class dialog](media/extract-base-class.png)
+    ![Screenshot of Extract base class dialog.](media/extract-base-class.png)
 
 The new **Extract Base Class** dialog will open where you can specify the name for the base class and location of where it should be placed. You can select the members that you want to transfer to the new base class and choose to make the members abstract by selecting the checkbox in the Make abstract column.
 
@@ -100,11 +100,11 @@ This refactoring creates an interface using existing members from a class, struc
 
    - C#:
 
-       ![Screenshot of Highlighted code for Extract Interface - C#](media/extractinterface-highlight-cs.png)
+       ![Screenshot of Highlighted code for Extract Interface - C#.](media/extractinterface-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Screenshot of Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
+       ![Screenshot of Highlighted code - Visual Basic.](media/extractinterface-highlight-vb.png)
 
 1. Next, do one of the following actions:
 
@@ -117,7 +117,7 @@ This refactoring creates an interface using existing members from a class, struc
 
 1. In the **Extract Interface** dialog box that pops up, enter the information asked:
 
-   ![Screenshot of Extract Interface](media/extractinterface-dialog-same-file.png)
+   ![Screenshot of Extract Interface.](media/extractinterface-dialog-same-file.png)
 
    | Field | Description |
    | - | - |
@@ -131,15 +131,15 @@ This refactoring creates an interface using existing members from a class, struc
 
    - C#:
 
-      ![Screenshot of Resulting Class - C#](media/extractinterface-class-cs.png)
+      ![Screenshot of Resulting Class - C#.](media/extractinterface-class-cs.png)
 
-      ![Screenshot of Resulting Interface - C#](media/extractinterface-interface-cs.png)
+      ![Screenshot of Resulting Interface - C#.](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
-      ![Screenshot of Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
+      ![Screenshot of Resulting Class - Visual Basic.](media/extractinterface-class-vb.png)
 
-      ![Screenshot of Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
+      ![Screenshot of Resulting Interface - Visual Basic.](media/extractinterface-interface-vb.png)
 
 ## Inline method
 
@@ -171,11 +171,11 @@ This refactoring removes a temporary variable and replaces it with its value ins
 
    - C#:
 
-       ![Screenshot of Highlighted code for Inline Temporary Variable - C#](media/inline-highlight-cs.png)
+       ![Screenshot of Highlighted code for Inline Temporary Variable - C#.](media/inline-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Screenshot of Highlighted code- Visual Basic](media/inline-highlight-vb.png)
+       ![Screenshot of Highlighted code- Visual Basic.](media/inline-highlight-vb.png)
 
 1. Next, do one of the following:
 
@@ -190,11 +190,11 @@ This refactoring removes a temporary variable and replaces it with its value ins
 
    - C#:
 
-      ![Screenshot of Inline result - C#](media/inline-result-cs.png)
+      ![Screenshot of Inline result - C#.](media/inline-result-cs.png)
 
    - Visual Basic:
 
-      ![Screenshot of Inline result - Visual Basic](media/inline-result-vb.png)
+      ![Screenshot of Inline result - Visual Basic.](media/inline-result-vb.png)
 
 ## Related content
 
