@@ -45,6 +45,27 @@ Copilot understands call stacks, frames, variable names, and values. As a result
 
 In addition, Copilot provides more precise help for some targeted scenarios, such as those described in the following table.
 
+:::moniker range="visualstudio"
+|Feature or scenario|Link|
+|-|-|
+|Debugger Agent|See [Agentic bug resolution with the Debugger Agent](#agentic-bug-resolution-with-the-debugger-agent) in this article. End-to-end agentic workflow that reproduces bugs, instruments your app, and validates fixes using live runtime data.|
+|Call stack analysis|See [Analyze call stack with Copilot](how-to-use-the-call-stack-window.md#analyze-call-stack-with-copilot). Get one-click analysis of what your thread is doing, including async flow explanations.|
+|Exceptions|See [Debug an exception with Copilot](#debug-an-exception-with-copilot) in this article. Help with exceptions includes help with deadlock detection errors.|
+|Variables|See [Get AI assistance](../debugger/autos-and-locals-windows.md#get-ai-assistance).|
+|LINQ query analysis|Hover over LINQ queries while debugging in the code editor to see return value. Select the **Analyze with Copilot** button for AI assistance. See [View return values of LINQ queries](../debugger/autos-and-locals-windows.md#view-return-values-of-linq-queries).|
+|Data tips|See [Get AI assistance with Data tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md#get-ai-assistance).|
+|Conditional breakpoints and tracepoints|See [Get suggestions with conditional breakpoints and tracepoints](#get-suggestions-with-conditional-breakpoints-and-tracepoints) in this article.|
+|Quick Actions (light bulb)|See [Get AI assistance with Quick Actions](../ide/quick-actions.md#get-ai-assistance).|
+|IEnumerable tabular visualizer|See [Get AI assistance](../debugger/view-data-in-tabular-visualizer.md#get-ai-assistance).|
+|Inline return values|See [View return values of method calls](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).|
+|Inline values|See [View inline values](../debugger/autos-and-locals-windows.md#view-inline-values).|
+|Multithreaded debugging|See [Get AI assistance with Threads view](../debugger/using-the-parallel-stacks-window.md#get-ai-assistance).|
+|Unit testing|See [Get AI assistance to debug tests](../test/debug-unit-tests-with-test-explorer.md#get-ai-assistance-to-debug-tests)|
+|Inspect exceptions with repo context|See [Get AI assistance with repo context](../debugger/exception-helper.md#get-ai-assistance-with-repo-context)|
+|Troubleshooting breakpoints|See [Get AI assistance](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints#get-ai-assistance).|
+::: moniker-end
+
+:::moniker range="vs-2022"
 |Feature or scenario|Link|
 |-|-|
 |Call stack analysis|See [Analyze call stack with Copilot](how-to-use-the-call-stack-window.md#analyze-call-stack-with-copilot). Get one-click analysis of what your thread is doing, including async flow explanations.|
@@ -60,8 +81,8 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 |Multithreaded debugging|See [Get AI assistance with Threads view](../debugger/using-the-parallel-stacks-window.md#get-ai-assistance).|
 |Unit testing|See [Get AI assistance to debug tests](../test/debug-unit-tests-with-test-explorer.md#get-ai-assistance-to-debug-tests)|
 |Inspect exceptions with repo context|See [Get AI assistance with repo context](../debugger/exception-helper.md#get-ai-assistance-with-repo-context)|
-|Debugger Agent|See [Agentic bug resolution with the Debugger Agent](#agentic-bug-resolution-with-the-debugger-agent) in this article. End-to-end agentic workflow that reproduces bugs, instruments your app, and validates fixes using live runtime data.|
 |Troubleshooting breakpoints|See [Get AI assistance](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints#get-ai-assistance).|
+::: moniker-end
 
 In most of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you're asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat. Copilot also provides suggestions for the use of conditional breakpoints and tracepoints.
 
