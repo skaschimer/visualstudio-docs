@@ -25,11 +25,11 @@ This refactoring converts an anonymous type to a named class, useful when your c
 1. Place your cursor in an anonymous type.
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-   ![Convert Anonymous Type to Class](media/convert-anon-to-class.png)
+   ![Screenshot of Convert Anonymous Type to Class](media/convert-anon-to-class.png)
 
 1. Press **Enter** to accept the refactoring.
 
-   ![Convert Anonymous Type to Class accepted](media/convert-anon-to-class-complete.png)
+   ![Screenshot of Convert Anonymous Type to Class accepted](media/convert-anon-to-class-complete.png)
 
 ## Convert anonymous type to tuple
 
@@ -40,11 +40,11 @@ This refactoring converts an anonymous type to a tuple for more lightweight synt
 1. Place your cursor in an anonymous type.
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-   ![Convert Anonymous Type to Tuple](media/convert-anon-to-tuple.png)
+   ![Screenshot of Convert Anonymous Type to Tuple](media/convert-anon-to-tuple.png)
 
 1. Press **Enter** to accept the refactoring.
 
-   ![Convert Anonymous Type to Tuple accepted](media/convert-anon-to-tuple-complete.png)
+   ![Screenshot of Convert Anonymous Type to Tuple accepted](media/convert-anon-to-tuple-complete.png)
 
 ## Convert between regular string and verbatim string literals
 
@@ -60,11 +60,11 @@ This refactoring converts between regular string and verbatim string literals. C
 
     Select **Convert to regular string**.
 
-    ![Convert to regular string](media/convert-to-regular-string.png)
+    ![Screenshot of Convert to regular string](media/convert-to-regular-string.png)
 
     Select **Convert to verbatim string**.
 
-    ![Convert to verbatim string](media/convert-to-verbatim-string.png)
+    ![Screenshot of Convert to verbatim string](media/convert-to-verbatim-string.png)
 
 ## Convert typeof to nameof
 
@@ -96,7 +96,7 @@ This refactoring replaces [var](/dotnet/csharp/language-reference/keywords/var) 
 
 1. Press **Ctrl**+**.** or click the screwdriver ![screwdriver icon](../media/screwdriver-icon.png) icon in the margin of the code file.
 
-   ![Use explicit type quick actions menu](media/use-explicit-type.png)
+   ![Screenshot of Use explicit type quick actions menu](media/use-explicit-type.png)
 
 1. Select **Use explicit type**. Or, select **Preview changes** to open the [Preview Changes](../../ide/preview-changes.md) dialog, and then select **Apply**.
 
@@ -112,7 +112,7 @@ This refactoring simplifies a [string interpolation](/dotnet/csharp/tutorials/st
 
 1. Select **Simplify interpolation**.
 
-    ![Simplify string interpolation](media/simplify-string-interpolation.png)
+    ![Screenshot of Simplify string interpolation](media/simplify-string-interpolation.png)
 
 ## Related content
 

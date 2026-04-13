@@ -29,11 +29,11 @@ This refactoring turns a fragment of code into its own method, reducing duplicat
 
    - C#:
 
-       ![Screenshot showing C# code for the Program class. In the Main function of that class, a line of code highlighted.](media/extractmethod-highlight-cs.png)
+       ![Screenshot of C# code for the Program class. In the Main function of that class, a line of code is highlighted.](media/extractmethod-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Screenshot showing Visual Basic code for the Main Sub. In that Sub, a line of code is highlighted.](media/extractmethod-highlight-vb.png)
+       ![Screenshot of Visual Basic code for the Main Sub. In that Sub, a line of code is highlighted.](media/extractmethod-highlight-vb.png)
 
 1. Next, do one of the following:
 
@@ -52,11 +52,11 @@ This refactoring turns a fragment of code into its own method, reducing duplicat
 
    - C#:
 
-      ![Screenshot showing C# code for the Program class. A method name is highlighted and the Rename popup window is open.](media/extractmethod-rename-cs.png)
+      ![Screenshot of C# code for the Program class. A method name is highlighted and the Rename popup window is open.](media/extractmethod-rename-cs.png)
 
    - Visual Basic:
 
-      ![Screenshot showing Visual Basic code for the Main Sub. A method name is highlighted and the Rename popup window is open.](media/extractmethod-rename-vb.png)
+      ![Screenshot of Visual Basic code for the Main Sub. A method name is highlighted and the Rename popup window is open.](media/extractmethod-rename-vb.png)
 
 1. When you're happy with the change, choose the **Apply** button or press **Enter** and the changes will be committed.
 
@@ -86,7 +86,7 @@ This refactoring extracts members from a selected class to a new base class, use
 
 1. Select **Pull member(s) up to new base class**.
 
-    ![Extract base class dialog](media/extract-base-class.png)
+    ![Screenshot of Extract base class dialog](media/extract-base-class.png)
 
 The new **Extract Base Class** dialog will open where you can specify the name for the base class and location of where it should be placed. You can select the members that you want to transfer to the new base class and choose to make the members abstract by selecting the checkbox in the Make abstract column.
 
@@ -100,11 +100,11 @@ This refactoring creates an interface using existing members from a class, struc
 
    - C#:
 
-       ![Highlighted code for Extract Interface - C#](media/extractinterface-highlight-cs.png)
+       ![Screenshot of Highlighted code for Extract Interface - C#](media/extractinterface-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
+       ![Screenshot of Highlighted code - Visual Basic](media/extractinterface-highlight-vb.png)
 
 1. Next, do one of the following actions:
 
@@ -117,7 +117,7 @@ This refactoring creates an interface using existing members from a class, struc
 
 1. In the **Extract Interface** dialog box that pops up, enter the information asked:
 
-   ![Extract Interface](media/extractinterface-dialog-same-file.png)
+   ![Screenshot of Extract Interface](media/extractinterface-dialog-same-file.png)
 
    | Field | Description |
    | - | - |
@@ -131,15 +131,15 @@ This refactoring creates an interface using existing members from a class, struc
 
    - C#:
 
-      ![Resulting Class - C#](media/extractinterface-class-cs.png)
+      ![Screenshot of Resulting Class - C#](media/extractinterface-class-cs.png)
 
-      ![Resulting Interface - C#](media/extractinterface-interface-cs.png)
+      ![Screenshot of Resulting Interface - C#](media/extractinterface-interface-cs.png)
 
    - Visual Basic:
 
-      ![Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
+      ![Screenshot of Resulting Class - Visual Basic](media/extractinterface-class-vb.png)
 
-      ![Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
+      ![Screenshot of Resulting Interface - Visual Basic](media/extractinterface-interface-vb.png)
 
 ## Inline method
 
@@ -171,11 +171,11 @@ This refactoring removes a temporary variable and replaces it with its value ins
 
    - C#:
 
-       ![Highlighted code for Inline Temporary Variable - C#](media/inline-highlight-cs.png)
+       ![Screenshot of Highlighted code for Inline Temporary Variable - C#](media/inline-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Highlighted code- Visual Basic](media/inline-highlight-vb.png)
+       ![Screenshot of Highlighted code- Visual Basic](media/inline-highlight-vb.png)
 
 1. Next, do one of the following:
 
@@ -190,11 +190,11 @@ This refactoring removes a temporary variable and replaces it with its value ins
 
    - C#:
 
-      ![Inline result - C#](media/inline-result-cs.png)
+      ![Screenshot of Inline result - C#](media/inline-result-cs.png)
 
    - Visual Basic:
 
-      ![Inline result - Visual Basic](media/inline-result-vb.png)
+      ![Screenshot of Inline result - Visual Basic](media/inline-result-vb.png)
 
 ## Related content
 

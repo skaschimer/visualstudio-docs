@@ -29,11 +29,11 @@ This refactoring turns a field into a property, and updates all usages of that f
 
    - C#:
 
-       ![Highlighted code - C#](media/encapsulate-highlight-cs.png)
+       ![Screenshot of Highlighted code - C#](media/encapsulate-highlight-cs.png)
 
    - Visual Basic:
 
-       ![Highlighted code - Visual Basic](media/encapsulate-highlight-vb.png)
+       ![Screenshot of Highlighted code - Visual Basic](media/encapsulate-highlight-vb.png)
 
 1. Next, do one of the following:
 
@@ -56,11 +56,11 @@ This refactoring turns a field into a property, and updates all usages of that f
 
    - C#:
 
-      ![Encapsulate Property result - C#](media/encapsulate-result-cs.png)
+      ![Screenshot of Encapsulate Property result - C#](media/encapsulate-result-cs.png)
 
    - Visual Basic:
 
-      ![Encapsulate Property result - Visual Basic](media/encapsulate-result-vb.png)
+      ![Screenshot of Encapsulate Property result - Visual Basic](media/encapsulate-result-vb.png)
 
 ## Convert between auto property and full property
 
@@ -74,11 +74,11 @@ This refactoring converts between an auto-implemented property and a full proper
 
     Select **Convert to full property**.
 
-    ![Convert auto property to full property](media/convert-auto-property-to-full-property.png)
+    ![Screenshot of Convert auto property to full property](media/convert-auto-property-to-full-property.png)
 
     Select **Use auto property**.
 
-    ![Convert full property to auto property](media/convert-full-property-to-auto-property.png)
+    ![Screenshot of Convert full property to auto property](media/convert-full-property-to-auto-property.png)
 
 ## Convert between Get method and property
 

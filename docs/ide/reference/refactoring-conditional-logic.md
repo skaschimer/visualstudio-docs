@@ -28,11 +28,11 @@ This refactoring converts an `if` statement to a [switch statement](/dotnet/csha
 
     - Select **Convert to 'switch' statement**.
 
-      ![Convert if statement to switch statement](media/convert-if-to-switch-statement.png)
+      ![Screenshot of Convert if statement to switch statement](media/convert-if-to-switch-statement.png)
 
     - Select **Convert to 'switch' expression**.
 
-      ![Convert if statement to switch expression](media/convert-if-to-switch-expression.png)
+      ![Screenshot of Convert if statement to switch expression](media/convert-if-to-switch-expression.png)
 
 ## Convert switch statement to switch expression
 
@@ -44,7 +44,7 @@ This refactoring converts a [switch statement](/dotnet/csharp/language-reference
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 1. Select **Convert switch statement to expression**.
 
-   ![Convert switch statement to switch expression](media/convert-switch-statement-to-switch-expression.png)
+   ![Screenshot of Convert switch statement to switch expression](media/convert-switch-statement-to-switch-expression.png)
 
 ## Invert if statement
 
@@ -54,15 +54,15 @@ This refactoring inverts an `if` or `if else` statement without changing the mea
 
 1. Place your cursor in an `if` or `if else` statement.
 
-    ![Invert if else](media/invert-if.png)
+    ![Screenshot of Invert if else](media/invert-if.png)
 
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-    ![Invert if else code fix](media/invert-if-codefix.png)
+    ![Screenshot of Invert if else code fix](media/invert-if-codefix.png)
 
 1. Select **Invert if**.
 
-    ![Invert if else result](media/invert-if-codefix-result.png)
+    ![Screenshot of Invert if else result](media/invert-if-codefix-result.png)
 
 ## Invert conditional expressions and conditional AND/OR operators
 
@@ -89,22 +89,22 @@ This refactoring splits an `if` statement that uses `&&` or `||` operators into 
 1. Place your cursor in the `if` statement by the `&&` or `||` operator.
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-    ![Split If Statement](../media/split-if-statement.png)
+    ![Screenshot of Split If Statement](../media/split-if-statement.png)
 
 1. Select **Split into nested if statements**.
 
-    ![Split If Statement Complete](../media/split-if-statement-complete.png)
+    ![Screenshot of Split If Statement Complete](../media/split-if-statement-complete.png)
 
 ### Merge an if statement
 
 1. Place your cursor in the inner `if` keyword.
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-    ![Merge If Statement](../media/merge-if-statement.png)
+    ![Screenshot of Merge If Statement](../media/merge-if-statement.png)
 
 1. Select **Merge with outer if statement**.
 
-    ![Merge If Statement Complete](../media/merge-if-statement-complete.png)
+    ![Screenshot of Merge If Statement Complete](../media/merge-if-statement-complete.png)
 
 ## Simplify conditional expression
 
@@ -116,7 +116,7 @@ This refactoring simplifies a [conditional expression](/dotnet/csharp/language-r
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 1. Select **Simplify conditional expression**.
 
-    ![Simplify conditional expression](media/simplify-conditional-expression.png)
+    ![Screenshot of Simplify conditional expression](media/simplify-conditional-expression.png)
 
 ## Related content
 

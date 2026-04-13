@@ -26,11 +26,11 @@ This refactoring creates and adds `if` statements that check nullity of all the 
 
 1. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 
-   ![Quick actions and refactorings](media/add-null-checks-for-all-parameters.png)
+   ![Screenshot of Quick actions and refactorings](media/add-null-checks-for-all-parameters.png)
 
 1. Select the option to **Add null checks for all parameters**.
 
-   ![Add null checks for all](media/add-null-checks-for-all.png)
+   ![Screenshot of Add null checks for all](media/add-null-checks-for-all.png)
 
 ## Remove unreachable code
 
@@ -40,7 +40,7 @@ This refactoring removes code that will never be executed because there's no pat
 
 1. Place your cursor anywhere in the faded out code that is unreachable:
 
-![Faded unreachable code](media/unreachablecode-faded-cs.png)
+![Screenshot of Faded unreachable code](media/unreachablecode-faded-cs.png)
 
 1. Next, do one of the following:
 
@@ -103,10 +103,10 @@ For [SDK style projects](../../msbuild/how-to-use-project-sdk.md) only, this ref
 
 This feature fades out unused parameters and generates a warning for unused expression values. The compiler also performs a flow analysis to find any unused value assignments. Unused value assignments fade out and a light bulb appears with a [Quick Action](../quick-actions.md) to remove the redundant assignment. Unused variables with unknown values show a [Quick Action](../quick-actions.md) suggestion to use [discards](/dotnet/csharp/discards) instead.
 
-  ![Unused parameter](media/unused-parameter.png)
-  ![Unused value](media/unused-value.png)
-  ![Unused value assignment](media/unused-value-assignment.png)
-  ![Unused value discard](media/unused-value-discard.png)
+  ![Screenshot of Unused parameter](media/unused-parameter.png)
+  ![Screenshot of Unused value](media/unused-value.png)
+  ![Screenshot of Unused value assignment](media/unused-value-assignment.png)
+  ![Screenshot of Unused value discard](media/unused-value-discard.png)
 
 ## Sort usings
 
@@ -117,11 +117,11 @@ This refactoring sorts `using` directives at the top of your file alphabetically
 1. Select **Edit** from the menu bar.
 1. Select **Intellisense** > **Sort Usings**.
 
-   ![Sort usings](media/sort-usings.png)
+   ![Screenshot of Sort usings](media/sort-usings.png)
 
 1. You can also configure different settings for `using` directives in **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**.
 
-   ![Sort usings configuration options](media/sort-usings-configuration-options.png)
+   ![Screenshot of Sort usings configuration options](media/sort-usings-configuration-options.png)
 
 ## Related content
 
