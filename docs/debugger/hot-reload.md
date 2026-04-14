@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: Explore the Hot Reload feature, also known as Edit and Continue, and make changes to your code while running applications.
-ms.date: 03/23/2026
+ms.date: 04/13/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Hot reload"
@@ -178,7 +178,15 @@ If you select the **Always rebuild when changes can't be applied** option in the
 
 ## Troubleshooting
 
-It's highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
+If Hot Reload isn't working as expected, check the following:
+
+* Verify that you're running a supported app and scenario. Some project types, mixed-mode debugging, optimized code, and **Attach to Process** scenarios don't support Hot Reload. For more information, see [Unsupported scenarios](supported-code-changes-csharp.md#unsupported-scenarios).
+* Make sure the app is using a `Debug` configuration and that Hot Reload is enabled in **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
+* Set **Logging Verbosity** to **Detailed** or **Diagnostic** to get more information in the **Hot Reload** output.
+* Open the [Output window](../ide/output-window.md), and in **Show output from**, select **Hot Reload** to review diagnostic messages.
+* If a line appears read-only while debugging, it might be an active statement on the call stack, or the edit might require a restart.
+
+For a list of common diagnostics, see [Hot Reload and Edit and Continue error messages](edit-and-continue-errors.md). If the problem persists and the output doesn't show a clear cause, use [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) to send feedback to the Visual Studio team.
 
 ::: zone pivot="programming-language-dotnet"
 If you're using response compression on .NET Core, see the information on [response compression](/dotnet/core/tools/dotnet-watch#response-compression).

@@ -1,7 +1,7 @@
 ---
 title: Configure Hot Reload
 description: Learn how to enable, disable, and configure Hot Reload (previously called Edit and Continue) in Visual Studio options at design time.
-ms.date: 03/23/2026
+ms.date: 04/13/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -95,7 +95,7 @@ For C++, you can set extra options by opening **Tools** > **Options** > **Debugg
 
 ::: moniker range=">=vs-2022"
 
-For .NET Hot Reload, you also can control whether Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSetting.json* file and setting `hotReloadEnabled` to `false`.
+For .NET Hot Reload, you also can control whether Hot Reload is available at the project level by modifying your .NET 6+ project's *launchSettings.json* file and setting `hotReloadEnabled` to `false`.
 
 Example:
 
@@ -131,11 +131,13 @@ This is a process-based restart. For example, if you're debugging several projec
 
 ## Configure Hot Reload for Razor
 
-By cohosting the Razor compiler inside the Roslyn process, editing a _.razor_ file during Hot Reload is faster and more efficient. Cohosting also improves the overall reliability when using Hot Reload.
+By cohosting the Razor compiler inside the Roslyn process, editing a *.razor* file during Hot Reload is faster and more efficient. Cohosting also improves the overall reliability when using Hot Reload.
 
 To enable cohosting, select **Tools** > **Options**, and then search for `cohost`. Select or deselect the setting **Use Roslyn Cohost server for Razor (requires restart)**. If you enable this option, restart Visual Studio. Cohosting is enabled by default.
 
 ::: moniker-end
+
+For troubleshooting information, see [Write and debug running code with Hot Reload in Visual Studio](hot-reload.md#troubleshooting).
 
 ## Stop code changes
 
