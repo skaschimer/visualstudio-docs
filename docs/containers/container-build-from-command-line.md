@@ -117,7 +117,7 @@ MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 
 You see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Customize container images for debugging](container-debug-customization.md).
 
-If you're using a Docker Compose project (or Podman Compose), use this command to build images:
+If you're using a Docker Compose project (using either Docker Compose or Podman Compose as the runtime), use this command to build images:
 
 ```cmd
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj
