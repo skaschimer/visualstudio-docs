@@ -288,6 +288,9 @@ To use the Debugger Agent:
 1. Select **Debugger** from the mode dropdown in the lower-left corner of the chat window.
 1. Provide a GitHub or Azure DevOps issue link, or describe the bug in natural language.
 
+<!-- TODO: Update screenshot when 18.5 releases -->
+:::image type="content" source="media/visualstudio/agent-picker.png" alt-text="Screenshot showing the agent picker with custom agents in Visual Studio.":::
+
 The Debugger Agent works through the following steps:
 
 - **Context injection** - Connects the issue or bug description to your local source code.
@@ -297,7 +300,7 @@ The Debugger Agent works through the following steps:
 - **Targeted correction** - Suggests a precise fix at the exact failure point rather than broad refactoring.
 - **Final human validation** - You rerun the scenario and confirm the fix in the live environment alongside the agent.
 
-For more information on the @debugger agent and other built-in agents, see [Use built-in and custom agents with GitHub Copilot](../ide/copilot-specialized-agents.md).
+When in Agent mode in chat, you can also switch to the Debugger agent by using @debugger in the chat input. For more information on the Debugger Agent and other built-in agents, see [Use built-in and custom agents with GitHub Copilot](../ide/copilot-specialized-agents.md).
 
 :::moniker-end
 
