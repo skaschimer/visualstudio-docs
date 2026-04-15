@@ -5,7 +5,7 @@ title: Native Types report
  author: mikejo5000
  ms.service: ""
  ms.topic: include
- ms.date: 02/06/2024
+ ms.date: 03/04/2026
  ms.author: mikejo
  ms.custom: include file
 ---
