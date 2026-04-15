@@ -8,7 +8,7 @@ ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - VB
-ms.date: 01/24/2025
+ms.date: 03/03/2026
 ms.custom: vs-acquisition
 #customer intent: As a developer, I want to create a simple Visual Basic program to understand how Visual Studio handles Forms.
 ---
