@@ -1,7 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
 description: 'Use Windows Forms Designer to build applications and arrange controls, set margins and padding, adjust layout, size, and display, and set property values.'
-ms.date: 8/5/2025
+ms.date: 02/20/2026
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started

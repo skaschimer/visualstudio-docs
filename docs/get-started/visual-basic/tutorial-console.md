@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Create simple Visual Basic console apps"
 description: Create a Visual Basic console application in Visual Studio that asks the user for input and displays the value along with the current time.
-ms.date: 12/06/2024
+ms.date: 02/27/2026
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: vb
