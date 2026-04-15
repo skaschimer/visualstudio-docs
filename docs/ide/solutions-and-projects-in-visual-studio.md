@@ -1,7 +1,7 @@
 ---
 title: What Are Visual Studio Solutions and Projects?
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view and manage projects in Solution Explorer.
-ms.date: 11/17/2025
+ms.date: 02/26/2026
 ms.topic: concept-article
 f1_keywords:
 - vs.openproject

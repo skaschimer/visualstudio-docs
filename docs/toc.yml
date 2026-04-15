@@ -406,102 +406,26 @@
         - name: Overview
           displayName: refactoring
           href: ide/refactoring-in-visual-studio.md
-        - name: Add null checks for all parameters
-          href: ide\reference\add-null-checks-for-parameters.md
-        - name: Change method signature
-          href: ide/reference/change-method-signature.md
-        - name: Convert anonymous type to class
-          href: ide/reference/convert-anonymous-type-to-class.md
-        - name: Convert anonymous type to tuple
-          href: ide/reference/convert-anonymous-type-to-tuple.md
-        - name: Convert between auto property and full property
-          href: ide/reference/convert-between-auto-property-and-full-property.md
-        - name: Convert between for loop and foreach statement
-          href: ide/reference/convert-for-loop-to-foreach.md
-        - name: Convert between Get method and property
-          href: ide/reference/convert-get-method-to-property.md
-        - name: Convert between regular string and verbatim string literals
-          href: ide/reference/convert-between-regular-string-verbatim-string.md
-        - name: Convert local function to method
-          href: ide/reference/convert-local-function-method.md
-        - name: Convert foreach loop to LINQ
-          href: ide/reference/convert-foreach-linq.md
-        - name: Convert if statement to switch statement or switch expression
-          href: ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md
-        - name: Convert LINQ query to foreach statement
-          href: ide/reference/convert-linq-to-foreach.md
-        - name: Convert typeof to nameof
-          href: ide/reference/convert-typeof-to-nameof.md
-        - name: Convert switch statement to switch expression
-          href: ide/reference/convert-switch-statement-to-switch-expression.md
-        - name: DateTime and TimeSpan completion
-          href: ide/reference/datetime-timespan-completion.md
-        - name: Encapsulate field
-          href: ide/reference/encapsulate-field.md
-        - name: Extract base class
-          href: ide/reference/extract-base-class.md
-        - name: Extract interface
-          href: ide/reference/extract-interface.md
-        - name: Extract method
-          href: ide/reference/extract-method.md
-        - name: Extract local function
-          href: ide/reference/extract-local-function.md
-        - name: Inline method
-          href: ide/reference/inline-method.md
-        - name: Inline temporary variable
-          href: ide/reference/inline-temporary-variable.md
-        - name: IntelliSense completion unimported types and extension methods
-          href: ide/reference/intellisense-completion-unimported-types-extension-methods.md
-        - name: Invert conditional expressions and logical operations
-          href: ide/reference/invert-conditional-logical.md
-        - name: Invert if statement
-          href: ide/reference/invert-if-statement.md
-        - name: Make class abstract
-          href: ide/reference/make-class-abstract.md
-        - name: Make member static
-          href: ide/reference/make-member-static.md
-        - name: Move declaration near reference
-          href: ide/reference/move-declaration-near-reference.md
-        - name: Move type to matching file
-          href: ide/reference/move-type-to-matching-file.md
-        - name: Pull member up
-          href: ide/reference/pull-members-up.md
-        - name: Regex completion through IntelliSense
-          href: ide/reference/regex-completion-through-intellisense.md
-        - name: Remove unreachable code
-          href: ide/reference/remove-unreachable-code.md
-        - name: Remove unused references
-          href: ide/reference/remove-unused-references.md
-        - name: Rename
-          href: ide/reference/rename.md
-        - name: Simplify conditional expression
-          href: ide/reference/simplify-conditional-expression.md
-        - name: Simplify LINQ expression
-          href: ide/reference/simplify-linq-expression.md
-        - name: Simplify string interpolation
-          href: ide/reference/simplify-string-interpolation.md
-        - name: Sort usings
-          href: ide/reference/sort-usings.md
-        - name: Split or merge if statements
-          href: ide/reference/split-or-merge-if-statement.md
-        - name: Static local function refactor options
-          href: ide/reference/static-local-function-refactor-options.md
-        - name: Sync namespace and folder name
-          href: ide/reference/sync-namespace-and-folder-name.md
-        - name: Synchronize type and filename
-          href: ide/reference/sync-type-and-file.md
-        - name: Use explicit type
-          href: ide/reference/convert-var-to-explicit-type.md
-        - name: Use lambda expression or block body
-          href: ide/reference/use-block-body-lambda.md
-        - name: Use new()
-          href: ide/reference/use-new.md
-        - name: Use pattern matching
-          href: ide/reference/use-pattern-matching.md
-        - name: Unused value assignments, variables, and parameters
-          href: ide/reference/unused-values-parameters.md
-        - name: Wrap, indent, and align refactorings
-          href: ide/reference/wrap-indent-align-refactorings.md
+        - name: Rename and move refactorings
+          href: ide/reference/refactoring-rename-move.md
+        - name: Extract and inline refactorings
+          href: ide/reference/refactoring-extract-inline.md
+        - name: Class and member refactorings
+          href: ide/reference/refactoring-class-member.md
+        - name: Property and field refactorings
+          href: ide/reference/refactoring-property-field.md
+        - name: Loop and LINQ conversions
+          href: ide/reference/refactoring-loop-linq.md
+        - name: Conditional and logic refactorings
+          href: ide/reference/refactoring-conditional-logic.md
+        - name: Type, string, and syntax conversions
+          href: ide/reference/refactoring-type-string-syntax.md
+        - name: Expression and pattern refactorings
+          href: ide/reference/refactoring-expression-pattern.md
+        - name: Code cleanup refactorings
+          href: ide/reference/refactoring-code-cleanup.md
+        - name: IntelliSense and formatting refactorings
+          href: ide/reference/refactoring-intellisense-formatting.md
       - name: Preview changes
         href: ide/preview-changes.md
       - name: 'Walkthrough: Generate code from usage'

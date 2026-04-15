@@ -26,6 +26,48 @@ When building a solution that contains multiple projects, it can be necessary to
 >
 > There are cases where a project requires another project to build first for some other reason than a project-to-project reference. For example, a project might require a build task that's built in another project. In that case, the steps described in this article provide a way to expressing that dependency.
 
+:::moniker range="visualstudio"
+
+## To assign dependencies to projects
+
+1. In **Solution Explorer**, right-click the solution node and then select **Project Build Dependencies**.
+
+    The **Project Build Dependencies** dialog opens.
+
+    ![Screenshot of the Project Build Dependencies dialog.](media/visualstudio/project-dependencies.png)
+
+3. On the **Dependencies** tab, select a project from the **Projects** menu.
+
+4. In the **Depends on** field, select the check box of any other project that must build before this project does.
+
+   Your solution must consist of more than one project before you can create project dependencies.
+
+## To remove dependencies from projects
+
+1. In **Solution Explorer**, right-click the solution node and then select **Project Build Dependencies**.
+
+     The **Project Build Dependencies** dialog opens.
+
+3. On the **Dependencies** tab, select a project from the **Projects** menu.
+
+4. In the **Depends on** field, clear the check boxes beside any other projects that are no longer dependencies of this project.
+
+## To view the build order
+
+In the **Project Build Dependencies** dialog, you can switch to the **Build Order** tab to the view the build order for the solution.
+
+To view the build order in a solution at any time, right-click the solution node and select **Project Build Dependencies**. Select the **Build Order** tab.
+
+You can use the **Build Order** tab to view the order that projects will be built, but you can't directly change the order from this tab.
+
+The order you see listed is the desired logical build order, but in practice, Visual Studio further optimizes the build process by building multiple projects in parallel. However, as long as you've specified the project dependencies, any dependent projects will not start building until after their dependencies have completed.
+
+![Screenshot of the Build Order tab.](media/visualstudio/project-build-order.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ## To assign dependencies to projects
 
 1. In **Solution Explorer**, select a project.
@@ -65,6 +107,8 @@ You can use the **Build order** tab to view the order that projects will be buil
 The order you see listed is the desired logical build order, but in practice, Visual Studio further optimizes the build process by building multiple projects in parallel. However, as long as you've specified the project dependencies, any dependent projects will not start building until after their dependencies have completed.
 
 ![Screenshot of the Build order tab.](media/vs-2022/project-build-order.png)
+
+:::moniker-end
 
 ## Related content
 
