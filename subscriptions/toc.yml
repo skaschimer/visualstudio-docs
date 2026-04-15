@@ -62,10 +62,10 @@
   href: use-visual-studio-without-key.md
 - name: Azure benefits
   items:
-  - name: Azure DevTest offer
-    href: /azure/devtest/offer/
   - name: Azure Dev/Test offer eligibility
     href: vs-azure-eligibility.md
+  - name: Azure DevTest offer
+    href: /azure/devtest/offer/
   - name: Maintain Azure credit access
     href: azure-access.md  
   - name: Azure DevOps
