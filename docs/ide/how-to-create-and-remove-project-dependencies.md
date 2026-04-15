@@ -1,7 +1,7 @@
 ---
 title: 'Create and remove project dependencies'
 description: Create and remove your project's dependency on code from other projects in Visual Studio, and view the build order for the solution.
-ms.date: 05/16/2021
+ms.date: 04/15/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ProjectDependenciesDlg
