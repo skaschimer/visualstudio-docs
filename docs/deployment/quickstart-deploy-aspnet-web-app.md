@@ -1,7 +1,7 @@
 ---
 title: Publish an ASP.NET web app
 description: Use the Publish tool in Visual Studio to deploy ASP.NET and ASP.NET Core apps to local web servers like IIS or remote cloud environments like Azure App Service.
-ms.date: 6/27/2025
+ms.date: 02/23/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, web app"

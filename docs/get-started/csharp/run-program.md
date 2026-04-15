@@ -2,7 +2,7 @@
 title: "How to run a program (C#)"
 description: Start programming with C# in Visual Studio and run programs from a project or code file, work with assemblies, references, NuGet packages, and .NET. 
 ms.custom: vs-acquisition
-ms.date: 12/10/2024
+ms.date: 02/19/2026
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp

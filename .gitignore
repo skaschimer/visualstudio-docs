@@ -378,10 +378,10 @@ settings.json
 .env
 .env.example
 requirements.txt
-
-# Allow Visual Studio-specific tracked files
-!.github/agents/visualstudio-standards-check.agent.md
+.github/hooks/doc-kit-hooks.json
+.github/hooks/scripts/add-dockit-tag.sh
 
 # Allow Visual Studio product instructions file
 !.github/instructions/visual-studio-product.instructions.md
 !.github/workflows/add-awp-metadata.yml
+

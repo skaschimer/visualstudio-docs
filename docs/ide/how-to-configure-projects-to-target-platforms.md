@@ -1,7 +1,7 @@
 ---
 title: 'Configure projects to target platforms'
 description: Set up your applications to target different platforms, including the ARM64 platform in Visual Studio with the Configuration Manager.
-ms.date: 5/2/2025
+ms.date: 02/23/2026
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:

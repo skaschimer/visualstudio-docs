@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot Edits in Visual Studio
 description: Use GitHub Copilot Edits to iterate quickly on code changes across multiple files in Visual Studio version 17.13 and later.
-ms.date: 03/17/2026
+ms.date: 03/26/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
