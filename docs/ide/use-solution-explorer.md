@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
-ms.date: 02/04/2026
+ms.date: 03/17/2026
 ms.topic: concept-article
 ms.custom: awp-ai
 helpviewer_keywords:

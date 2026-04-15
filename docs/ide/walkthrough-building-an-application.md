@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: Build an application'
 description: Become more familiar with several options that you can configure when you build applications with Visual Studio, such as hiding compiler warnings.
-ms.date: 11/18/2025
+ms.date: 02/25/2026
 ms.subservice: compile-build
 ms.topic: tutorial
 author: ghogen

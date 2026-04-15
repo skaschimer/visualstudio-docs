@@ -1,7 +1,7 @@
 ---
 title: Customize and Save Layouts of Windows and Tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
-ms.date: 11/11/2025
+ms.date: 03/19/2026
 ms.topic: how-to
 f1_keywords:
 - vs.windows
