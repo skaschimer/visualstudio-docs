@@ -2,7 +2,7 @@
 title: Create a GitHub account to use with Visual Studio
 titleSuffix: ""
 description: Create a GitHub account to use with Visual Studio so that you can manage your code and collaborate on projects with your team.
-ms.date: 3/14/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -35,7 +35,7 @@ If you don't already have a GitHub account, here's how to create one.
 
 1. After you sign in, GitHub opens a personalized page in your browser.
 
-    :::image type="content" source="media/visualstudio/welcome-github-new-user-page.png" alt-text="Your new user page.":::
+    :::image type="content" source="media/visualstudio/welcome-github-new-user-page.png" alt-text="Screenshot that shows the personalized page.":::
 
 Congratulations! You've successfully created your GitHub account.
 
