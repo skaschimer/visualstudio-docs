@@ -45,6 +45,27 @@ Copilot understands call stacks, frames, variable names, and values. As a result
 
 In addition, Copilot provides more precise help for some targeted scenarios, such as those described in the following table.
 
+:::moniker range="visualstudio"
+|Feature or scenario|Link|
+|-|-|
+|Debugger Agent|See [Agentic bug resolution with the Debugger Agent](#agentic-bug-resolution-with-the-debugger-agent) in this article. End-to-end agentic workflow that reproduces bugs, instruments your app, and validates fixes using live runtime data.|
+|Call stack analysis|See [Analyze call stack with Copilot](how-to-use-the-call-stack-window.md#analyze-call-stack-with-copilot). Get one-click analysis of what your thread is doing, including async flow explanations.|
+|Exceptions|See [Debug an exception with Copilot](#debug-an-exception-with-copilot) in this article. Help with exceptions includes help with deadlock detection errors.|
+|Variables|See [Get AI assistance](../debugger/autos-and-locals-windows.md#get-ai-assistance).|
+|LINQ query analysis|Hover over LINQ queries while debugging in the code editor to see return value. Select the **Analyze with Copilot** button for AI assistance. See [View return values of LINQ queries](../debugger/autos-and-locals-windows.md#view-return-values-of-linq-queries).|
+|Data tips|See [Get AI assistance with Data tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md#get-ai-assistance).|
+|Conditional breakpoints and tracepoints|See [Get suggestions with conditional breakpoints and tracepoints](#get-suggestions-with-conditional-breakpoints-and-tracepoints) in this article.|
+|Quick Actions (light bulb)|See [Get AI assistance with Quick Actions](../ide/quick-actions.md#get-ai-assistance).|
+|IEnumerable tabular visualizer|See [Get AI assistance](../debugger/view-data-in-tabular-visualizer.md#get-ai-assistance).|
+|Inline return values|See [View return values of method calls](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).|
+|Inline values|See [View inline values](../debugger/autos-and-locals-windows.md#view-inline-values).|
+|Multithreaded debugging|See [Get AI assistance with Threads view](../debugger/using-the-parallel-stacks-window.md#get-ai-assistance).|
+|Unit testing|See [Get AI assistance to debug tests](../test/debug-unit-tests-with-test-explorer.md#get-ai-assistance-to-debug-tests)|
+|Inspect exceptions with repo context|See [Get AI assistance with repo context](../debugger/exception-helper.md#get-ai-assistance-with-repo-context)|
+|Troubleshooting breakpoints|See [Get AI assistance](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints#get-ai-assistance).|
+::: moniker-end
+
+:::moniker range="vs-2022"
 |Feature or scenario|Link|
 |-|-|
 |Call stack analysis|See [Analyze call stack with Copilot](how-to-use-the-call-stack-window.md#analyze-call-stack-with-copilot). Get one-click analysis of what your thread is doing, including async flow explanations.|
@@ -61,6 +82,7 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 |Unit testing|See [Get AI assistance to debug tests](../test/debug-unit-tests-with-test-explorer.md#get-ai-assistance-to-debug-tests)|
 |Inspect exceptions with repo context|See [Get AI assistance with repo context](../debugger/exception-helper.md#get-ai-assistance-with-repo-context)|
 |Troubleshooting breakpoints|See [Get AI assistance](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints#get-ai-assistance).|
+::: moniker-end
 
 In most of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you're asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat. Copilot also provides suggestions for the use of conditional breakpoints and tracepoints.
 
@@ -249,6 +271,36 @@ The following simple example shows how to get AI assistance when you encounter a
 1. Restart the debugger.
 
    This time, no exception occurs. It has been fixed!
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## Agentic bug resolution with the Debugger Agent
+
+The Debugger Agent provides an end-to-end agentic workflow that validates bugs against real runtime behavior instead of relying on static analysis. The experience walks you through a complete agentic loop: understanding and reproducing the issue, instrumenting the application, isolating the root cause, and validating the fix through live execution.
+
+You can start from an issue in GitHub or Azure DevOps, or describe the bug in natural language. The Debugger Agent maps the problem to your local source code and guides you through resolution. You can interact with the agent during the debugging process to provide more input, discuss your theory, or refine the fix in real time.
+
+To use the Debugger Agent:
+
+1. Open the Copilot Chat window (**View > GitHub Copilot Chat**).
+1. Select **Debugger** from the mode dropdown in the lower-left corner of the chat window.
+1. Provide a GitHub or Azure DevOps issue link, or describe the bug in natural language.
+
+<!-- TODO: Update screenshot when 18.5 releases -->
+:::image type="content" source="media/visualstudio/agent-picker.png" alt-text="Screenshot showing the agent picker with custom agents in Visual Studio.":::
+
+The Debugger Agent works through the following steps:
+
+- **Context injection** - Connects the issue or bug description to your local source code.
+- **Autonomous reproducer** - Analyzes the bug and, if reproduction steps are missing, creates a minimal scenario to trigger the failure.
+- **Hypothesis and instrumentation** - Generates failure hypotheses and instruments your app with tracepoints and conditional breakpoints to capture runtime state.
+- **Runtime validation** - Runs the debug session and analyzes live telemetry to isolate the root cause.
+- **Targeted correction** - Suggests a precise fix at the exact failure point rather than broad refactoring.
+- **Final human validation** - You rerun the scenario and confirm the fix in the live environment alongside the agent.
+
+When in Agent mode in chat, you can also switch to the Debugger agent by using @debugger in the chat input. For more information on the Debugger Agent and other built-in agents, see [Use built-in and custom agents with GitHub Copilot](../ide/copilot-specialized-agents.md).
 
 :::moniker-end
 
