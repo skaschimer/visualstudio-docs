@@ -66,7 +66,7 @@ The **Assets** window contains all the available controls and is similar to the 
 ![Screenshot that shows the Assets window in Blend for Visual Studio.](media/visualstudio/blend-assets-window.png)
 
 - Enter text in the **Search Assets** box to filter the list of assets.
-- Switch between Grid mode and List mode view view of assets by using the buttons at the top right.
+- Switch between Grid mode and List mode view of assets by using the buttons at the top right.
 
 ## Objects and Timeline window
 
