@@ -1,7 +1,7 @@
 ---
 title: Inspect and break exceptions when debugging
 description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
-ms.date: 01/06/2026
+ms.date: 04/13/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -95,6 +95,8 @@ When you encounter an exception:
 - Copilot leverages repository knowledge to highlight similar past issues and their resolutions, helping you to learn from existing fixes.
 - Complex exceptions are analyzed with full context, connecting runtime behavior to historical patterns, so you can understand unexpected or incorrect values quickly.
 - By surfacing relevant fixes and insights automatically, Copilot saves time and reduces the trial-and-error often required to debug challenging issues.
+
+For complex bugs that require end-to-end diagnosis beyond a single exception, you can use the Debugger Agent. The Debugger Agent provides an agentic workflow that reproduces, instruments, and validates fixes using live runtime data. For more information, see [Agentic bug resolution with the Debugger Agent](../debugger/debug-with-copilot.md#agentic-bug-resolution-with-the-debugger-agent).
 
 ::: moniker-end
 

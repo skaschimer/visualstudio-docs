@@ -73,7 +73,7 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 
 ### Use the @debugger agent
 
-The @debugger agent helps you diagnose errors systematically by analyzing your debugging context.
+The @debugger agent helps you diagnose errors systematically by analyzing your debugging context. It also supports an end-to-end agentic workflow that reproduces bugs, instruments your app with tracepoints and conditional breakpoints, and validates fixes using live runtime data. For more information, see [Agentic bug resolution with the Debugger Agent](../debugger/debug-with-copilot.md#agentic-bug-resolution-with-the-debugger-agent).
 
 **Example prompts**:
 
