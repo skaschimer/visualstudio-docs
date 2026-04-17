@@ -256,7 +256,9 @@ Expand the **Exception Settings** node to see more options on how to handle this
 ::: moniker range="visualstudio"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md). While debugging, you can also look for the **Analyze with Copilot** ![Screenshot of Analyze with Copilot button.](../debugger/media/visualstudio/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in Copilot chat. 
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md). While debugging, you can also look for the **Analyze with Copilot** ![Screenshot of Analyze with Copilot button.](../debugger/media/visualstudio/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in Copilot chat.
+
+For a more comprehensive agentic workflow, use the **Debugger Agent** to walk through end-to-end bug resolution, from reproducing an issue to validating the fix with live runtime data. For more information, see [Agentic bug resolution with the Debugger Agent](../debugger/debug-with-copilot.md#agentic-bug-resolution-with-the-debugger-agent).
 ::: moniker-end
 
 ::: moniker range="vs-2022"
