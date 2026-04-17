@@ -1,5 +1,5 @@
 ---
-title: Options for Browsing Code in the Editor
+title: Navigate Code in the Editor
 description: Explore the options for using the Visual Studio editor for browsing your code, including the Navigation bar and Navigate Backward and Forward commands.
 ms.date: 04/17/2026
 ms.topic: how-to
