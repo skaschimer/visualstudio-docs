@@ -74,7 +74,7 @@ Use this window to organize the objects on your artboard and, if you want, to an
 
 ![Screenshot that shows the Object and Timeline window in animation mode.](media/visualstudio/storyboard-timeline.png)
 
-Use the storyboard-related buttons ![Screenshot that shows the storyboard buttons in Blend for Visual Studio.](media/storyboard-buttons.png) to create, delete, close, or select a storyboard. Use the Timeline composition area on the right to view the timeline and move keyframes.
+Use the storyboard-related buttons ![Screenshot that shows the storyboard buttons in Blend for Visual Studio.](media/visualstudio/storyboard-buttons.png) to create, delete, close, or select a storyboard. Use the Timeline composition area on the right to view the timeline and move keyframes.
 
 Hover over each button in the window to learn more about the available functionality.
 
