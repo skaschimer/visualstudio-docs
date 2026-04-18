@@ -3,7 +3,7 @@ title: Get Started with Your New Subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 12/19/2025
+ms.date: 04/17/2026
 ms.topic: how-to
 description: Learn how to get started with your new Visual Studio subscription.
 ---
@@ -12,7 +12,7 @@ description: Learn how to get started with your new Visual Studio subscription.
 
 Congratulations on your new Visual Studio subscription. You now have access to a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovate on any platform.
 
-If this subscription is your first, you might not be sure how to get started. This article introduces you to the [Visual Studio subscription portal](https://my.visualstudio.com) and some of the most popular benefits included in your subscription.
+If this subscription is your first, you might not be sure how to get started. This article helps new subscribers get oriented by introducing you to the [Visual Studio subscription portal](https://my.visualstudio.com) and some of the most popular benefits included in your subscription.
 
 ## How to sign in to the portal
 
@@ -41,7 +41,9 @@ The benefits included in your subscription depend on which subscription you have
 
 ### Visual Studio
 
-Visual Studio is a comprehensive IDE for .NET and C++ developers on Windows. Its tools and features can elevate and enhance every stage of software development. [Learn how to install Visual Studio](vs-ide-benefit.md).
+As part of your Visual Studio subscription, you receive licensed access to the Visual Studio IDE, based on your subscription level. Your subscription determines which edition you can install and use, with access tied to the account associated with your subscription.
+
+Visual Studio is a comprehensive integrated development environment (IDE) for .NET and C++ developers on Windows, providing tools to build, debug, and deploy applications. [Learn how to install Visual Studio](vs-ide-benefit.md).
 
 ### Individual Azure credits
 
