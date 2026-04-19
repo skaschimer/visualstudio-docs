@@ -22,7 +22,7 @@ A debugger is a very specialized developer tool that attaches to your running ap
 
 ## Debug mode vs. running your app
 
-When you run your app in Visual Studio for the first time, you may start it by pressing the green arrow button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the toolbar (or **F5**). By default, the **Debug** value appears in the drop-down to the left. If you are new to Visual Studio, this can leave the impression that debugging your app has something to do with running your app--which it does--but these are fundamentally two very different tasks.
+When you run your app in Visual Studio for the first time, you may start it by pressing the green arrow button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the toolbar (or **F5**). By default, the **Debug** value appears in the drop-down to the left. If you are new to Visual Studio, this can leave the impression that debugging your app has something to do with running your app—which it does—but these are fundamentally two very different tasks.
 
 ![Select a Debug build](../debugger/media/what-is-debugging-debug-build.png)
 
