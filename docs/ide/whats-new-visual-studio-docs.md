@@ -246,7 +246,7 @@ The following people contributed to the Visual Studio docs during this period. T
 **Updated articles**
 
 - [Run a C# program or app in Visual Studio](../get-started/csharp/run-program.md) - Review and update screenshots
-- [C# development with Visual Studio](../get-started/csharp/index.yml) - C# Get started landing page - DocKit freshness review
+- [C# development with Visual Studio](../get-started/csharp/index.yml) - Review and update
 - Review and update for .NET 10
   - [Tutorial: Learn to debug Visual Basic code using Visual Studio](../get-started/visual-basic/tutorial-debugger.md)
   - [Tutorial: Add code to the picture viewer Windows Forms App (.NET Framework)](../get-started/csharp/tutorial-windows-forms-picture-viewer-code.md)
