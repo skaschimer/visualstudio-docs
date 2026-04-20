@@ -24,7 +24,7 @@ Here are the steps to report a problem.
 
 1. Selecting **Report a Problem** will open [Developer Community](https://developercommunity.microsoft.com/VisualStudio) in your default browser. When prompted, select **Allow** in the browser pop‑up to enable Visual Studio and Developer Community to share sign‑in information.
 
-   ![Screenshot of the browser pop-up prompting you to allow Developer Community to access other apps and services.](media/visualstudio/DevCom-sign-in-pop-up.png)
+   ![Screenshot of the browser pop-up prompting you to allow Developer Community to access other apps and services.](media/visualstudio/devcom-sign-in-pop-up.png)
 
    Once permission is granted, you'll automatically sign-in to Developer Community using the same account info as Visual Studio.
 
