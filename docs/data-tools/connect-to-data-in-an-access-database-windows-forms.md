@@ -37,8 +37,6 @@ To use these procedures, you need:
 - A Windows Forms or Windows Presentation Foundation (WPF) project
 - Either an Access database (`.accdb` file), or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
 
-:::moniker range=">=vs-2022"
-
 ## Create a dataset for an .accdb file
 
 Connect to databases created with Microsoft 365, Access 2016, Access 2013, Access 2010, or Access 2007 by using the following procedure.
@@ -47,7 +45,13 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 2. To open the **Data Sources** window, press **Ctrl**+**Q**, enter "data" in the search box, and choose **Data Sources** window. Or on the **View** menu, select **Other Windows** > **Data Sources**. Or on the keyboard, press **Shift**+**Alt**+**D**.
 
+   :::moniker range="visualstudio"
+   ![Screenshot of Data Sources in the search box.](../data-tools/media/visualstudio/view-data-sources.png)
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    ![Screenshot of Data Sources in search box](../data-tools/media/vs-2022/view-data-sources.png)
+   :::moniker-end
 
 3. In the **Data Sources** window, click **Add New Data Source**.
 
@@ -92,20 +96,30 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 12. Expand the **Tables** node on the **Choose your Database Objects** page.
 
+    :::moniker range="visualstudio"
+    ![Screenshot of the Choose Your Database Objects page.](media/visualstudio/choose-your-database-objects.png)
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     ![Screenshot of Choose your Database Objects page](media/vs-2022/choose-your-database-objects.png)
+    :::moniker-end
 
 13. Select the tables or views you want to include in your dataset, and then select **Finish**.
 
     The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
 
+
+    :::moniker range="visualstudio"
+    ![Screenshot of the Data Sources Window, populated with database objects.](media/visualstudio/data-sources-window-populated.png)
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     ![Screenshot of Data Sources Window, populated with database objects](media/vs-2022/data-sources-window-populated.png)
+    :::moniker-end
 
 14. On 64-bit machines with the 64-bit Access database engine, you need to ensure that the application runs as a 64-bit application. Open the project properties (press **Alt**+**Enter** or right-click on the project node, and select **Properties**). In the **Build** tab for C#, or the **Compile** tab for Visual Basic, clear the **Prefer 32-bit** checkbox.
 
 The connection string is stored in *app.config*, and in the *Settings.settings* file under **Properties** in Solution Explorer.
-
-:::moniker-end
-
 
 ## Create a dataset for an .mdb file
 
