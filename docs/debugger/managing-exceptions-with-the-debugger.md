@@ -178,7 +178,7 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
    ::: moniker range="visualstudio"
 
-   ![Screenshot of the **Continue When Unhandled in User Code** setting.](../debugger/media/visualstudio/continue-when-unhandled-in-user-code-setting.png "Continue When Unhandled in User Code Setting")
+   ![Screenshot of the Continue When Unhandled in User Code setting.](../debugger/media/visualstudio/continue-when-unhandled-in-user-code-setting.png "Continue When Unhandled in User Code Setting")
 
    ::: moniker-end
    
@@ -210,7 +210,7 @@ To add an exception:
 
    ::: moniker range="visualstudio"
 
-   ![Screenshot of the **Add an exception to the selected category** button.](../debugger/media/visualstudio/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
+   ![Screenshot of the Add an exception to the selected category button.](../debugger/media/visualstudio/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
 
    ::: moniker-end
 
