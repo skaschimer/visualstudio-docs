@@ -61,7 +61,7 @@ In the **Exception Settings** window (**Debug > Windows > Exception Settings**),
 
 ::: moniker range="visualstudio"
 
-![Screenshot of the Exception Settings dialog.](../debugger/media/visualstudio/exception-settings-check-access.png "Exception Settings dialog")
+:::image type="content" source="../debugger/media/visualstudio/exception-settings-check-access.png" alt-text="Screenshot of the Exception Settings dialog." lightbox="../debugger/media/visualstudio/exception-settings-check-access.png":::
 
 ::: moniker-end
 
@@ -144,7 +144,7 @@ To restore the exception settings to the defaults, choose the **Restore the list
 
 ::: moniker range="visualstudio"
 
-![Screenshot of the Restore defaults button in Exception Settings.](../debugger/media/visualstudio/restore-default-exceptions.png "Restoring default exceptions")
+:::image type="content" source="../debugger/media/visualstudio/restore-default-exceptions.png" alt-text="Screenshot of the Restore defaults button in Exception Settings." lightbox="../debugger/media/visualstudio/restore-default-exceptions.png":::
 
 ::: moniker-end
 
@@ -162,7 +162,7 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
    ::: moniker range="visualstudio"
    
-   ![Screenshot of the Additional Actions column.](../debugger/media/visualstudio/additional-actions-column.png "Additional Actions column")
+   :::image type="content" source="../debugger/media/visualstudio/additional-actions-column.png" alt-text="Screenshot of the Additional Actions column." lightbox="../debugger/media/visualstudio/additional-actions-column.png":::
 
    ::: moniker-end
    
@@ -178,7 +178,7 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
    ::: moniker range="visualstudio"
 
-   ![Screenshot of the Continue When Unhandled in User Code setting.](../debugger/media/visualstudio/continue-when-unhandled-in-user-code-setting.png "Continue When Unhandled in User Code Setting")
+   :::image type="content" source="../debugger/media/visualstudio/continue-when-unhandled-in-user-code-setting.png" alt-text="Screenshot of the Continue When Unhandled in User Code setting." lightbox="../debugger/media/visualstudio/continue-when-unhandled-in-user-code-setting.png":::
 
    ::: moniker-end
    
@@ -191,7 +191,7 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](/aspnet/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
 
 ::: moniker range="visualstudio"
-![Screenshot that shows a System.FormatException.](../debugger/media/visualstudio/exception-unhandled-by-user.png "System.FormatException")
+:::image type="content" source="../debugger/media/visualstudio/exception-unhandled-by-user.png" alt-text="Screenshot that shows a System.FormatException." lightbox="../debugger/media/visualstudio/exception-unhandled-by-user.png":::
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -210,7 +210,7 @@ To add an exception:
 
    ::: moniker range="visualstudio"
 
-   ![Screenshot of the Add an exception to the selected category button.](../debugger/media/visualstudio/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
+   ![Screenshot of the Add an exception to the selected category button.](../debugger/media/visualstudio/add-exception-to-selected-category-button.png "Add an exception to the selected category button")
 
    ::: moniker-end
 
