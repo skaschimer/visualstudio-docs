@@ -1,7 +1,7 @@
 ---
 title: Use Agent Mode
 description: Use the GitHub Copilot agent to iterate on code in Visual Studio by making code edits, running commands, and reading error/build context.
-ms.date: 2/24/2026
+ms.date: 04/02/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -146,6 +146,27 @@ To view and manage the tools that are available in agent mode, select the **Tool
 Based on the outcome of a tool, Copilot might invoke other tools to accomplish the overall request. For example, if a code edit results in syntax errors in the file, Copilot might explore another approach and suggest different code changes.
 
 Additional tools that you add by running MCP servers aren't automatically enabled. Their checkboxes are cleared by default, and you must select them to activate the tools.
+
+:::moniker range="visualstudio"
+
+### find_symbol tool
+
+The **find_symbol** tool brings language-aware symbol navigation directly to agent mode. When enabled, Copilot automatically uses **find_symbol** to:
+
+- Find all references to symbols across your project
+- Access metadata like type information, declarations, and scope
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/find-symbol.png" alt-text="Screenshot that shows the find_symbol tool selected in the Copilot Chat pane." lightbox="media/visualstudio/copilot-agent-mode/find-symbol.png":::
+
+Once you enable the tool, Copilot uses it automatically when answering your questions or suggesting code changes.
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/find-symbol-example.png" alt-text="Screenshot that shows Copilot using the find_symbol tool to analyze and modify code across multiple files." lightbox="media/visualstudio/copilot-agent-mode/find-symbol-example.png":::
+
+Supported languages include C++, C#, Razor, and TypeScript, plus any other language for which you have a supported Language Server Protocol (LSP) extension installed.
+
+For best results, write clear prompts and use AI models that support tool-calling. For more information about model capabilities, see [AI model comparison (GitHub Docs)](https://docs.github.com/copilot/reference/ai-models/model-comparison).
+
+:::moniker-end
 
 ## Manage tool approvals
 
