@@ -59,7 +59,13 @@ The debugger can break execution at the point where an exception is thrown, so y
 In the **Exception Settings** window (**Debug > Windows > Exception Settings**), expand the node for a category of exceptions, such as **Common Language Runtime Exceptions**. Then select the check box for a specific exception within that category, such as **System.AccessViolationException**. You can also select an entire category of exceptions.
 
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+![Screenshot of the Exception Settings dialog.](../debugger/media/visualstudio/exception-settings-check-access.png "Exception Settings dialog")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot of Exception Settings check box.](../debugger/media/vs-2022/exception-settings-check-access.png "Exception-Settings-Check-Access")
 
@@ -136,8 +142,13 @@ If you select an exception in the **Exception Settings** window, debugger execut
 
 To restore the exception settings to the defaults, choose the **Restore the list to the default settings** button:
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+![Screenshot of the Restore defaults button in Exception Settings.](../debugger/media/visualstudio/restore-default-exceptions.png "Restoring default exceptions")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot of Restore Defaults in Exception Settings.](../debugger/media/vs-2022/restore-default-exceptions.png "Restore-Default-Exceptions")
 
@@ -149,8 +160,13 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
 1. In the **Exception Settings** window, open the shortcut menu by right-clicking a column label, and then select **Show Columns > Additional Actions**. (If you've turned off **Just My Code**, you won't see this command.) A third column named **Additional Actions** appears.
 
+   ::: moniker range="visualstudio"
    
-   ::: moniker range=">=vs-2022"
+   ![Screenshot of the Additional Actions column.](../debugger/media/visualstudio/additional-actions-column.png "Additional Actions column")
+
+   ::: moniker-end
+   
+   ::: moniker range="vs-2022"
    
    ![Screenshot of Additional Actions column.](../debugger/media/vs-2022/additional-actions-column.png "Additional-Actions-Column")
 
@@ -160,8 +176,13 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
 2. To change this setting for a particular exception, select the exception, right-click to show the shortcut menu, and select **Continue When Unhandled in User Code**. You may also change the setting for an entire category of exceptions, such as the entire Common Language Runtime exceptions).
 
+   ::: moniker range="visualstudio"
+
+   ![Screenshot of the **Continue When Unhandled in User Code** setting.](../debugger/media/visualstudio/continue-when-unhandled-in-user-code-setting.png "Continue When Unhandled in User Code Setting")
+
+   ::: moniker-end
    
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="vs-2022"
 
    ![Screenshot of **Continue when unhandled in user code** setting.](../debugger/media/vs-2022/continue-when-unhandled-in-user-code-setting.png "Continue-When-Unhandled-In-User-Code-Setting")
 
@@ -169,7 +190,13 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
 For example, ASP.NET web applications handle exceptions by converting them to an HTTP 500 status code ([Exception handling in ASP.NET Web API](/aspnet/web-api/overview/error-handling/exception-handling)), which may not help you determine the source of the exception. In the example below, the user code makes a call to `String.Format()` that throws a <xref:System.FormatException>. Execution breaks as follows:
 
+::: moniker range="visualstudio"
+![Screenshot that shows a System.FormatException.](../debugger/media/visualstudio/exception-unhandled-by-user.png "System.FormatException")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Breaks on user&#45;unhandled exception](../debugger/media/exceptionunhandledbyuser.png "ExceptionUnhandledByUser")
+::: moniker-end
 
 ## Add and delete exceptions
 
@@ -181,8 +208,13 @@ To add an exception:
 
 2. Choose the **Add an exception to the selected category** button (the plus sign).
 
+   ::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+   ![Screenshot of the **Add an exception to the selected category** button.](../debugger/media/visualstudio/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of **Add an exception to the selected category** button.](../debugger/media/vs-2022/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
 
@@ -191,7 +223,13 @@ To add an exception:
 3. Type the name of the exception (for example, **System.UriTemplateMatchException**).
 
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+
+   ![Screenshot that shows the exception name.](../debugger/media/visualstudio/type-the-exception-name.png "Exception name")
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot of **Type exception name**.](../debugger/media/vs-2022/type-the-exception-name.png "Type-The-Exception-Name")
 
@@ -219,8 +257,13 @@ public class GenericException<T> : Exception
 
 You can add the exception to **Exception Settings** using the previous procedure:
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+![Screenshot that shows how to add a generic exception.](../debugger/media/visualstudio/add-generic-exception.png "Adding a generic exception")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot of **Add generic exception**.](../debugger/media/vs-2022/add-generic-exception.png "Add-Generic-Exception")
 
@@ -237,11 +280,23 @@ To add conditional exceptions:
 
 1. Choose the **Edit conditions** button in the Exception Settings window, or right-click the exception and choose **Edit Conditions**.
 
+   ::: moniker range="visualstudio"
+   ![Screenshot of exception conditions.](../debugger/media/visualstudio/debug-conditional-exception.png "Edit Conditions")
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot of exception conditions.](../debugger/media/dbg-conditional-exception.png "Dbg-Conditional-Exception")
+   ::: moniker-end
 
 2. To add extra required conditions to the exception, select **Add Condition** for each new condition. Additional condition lines appear.
 
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows extra conditions for an exception.](../debugger/media/visualstudio/extra-conditions-for-exception.png "Extra conditions for an exception")
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot of extra conditions for an exception.](../debugger/media/extraconditionsforanexception.png "Extra-Conditions-For-An-Exception")
+   ::: moniker-end
 
 3. For each condition line, type the name of the module, and change the comparison operator list to **Equals** or **Not Equals**. You may specify wildcards (**\\\***) in the name to specify more than one module.
 
