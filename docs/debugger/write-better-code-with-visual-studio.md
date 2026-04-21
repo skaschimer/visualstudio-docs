@@ -249,7 +249,7 @@ The green squiggle goes away.
 
 ## Fix an exception
 
-When you have fixed all the red squiggles and resolved--or at least investigated--all the green squiggles, you're ready to start the debugger and run the app.
+When you have fixed all the red squiggles and resolved—or at least investigated—all the green squiggles, you're ready to start the debugger and run the app.
 
 Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug toolbar.
 
