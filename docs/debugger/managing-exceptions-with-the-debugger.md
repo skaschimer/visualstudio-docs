@@ -259,7 +259,7 @@ You can add the exception to **Exception Settings** using the previous procedure
 
 ::: moniker range="visualstudio"
 
-![Screenshot that shows how to add a generic exception.](../debugger/media/visualstudio/add-generic-exception.png "Adding a generic exception")
+:::image type="content" source="../debugger/media/visualstudio/add-generic-exception.png" alt-text="Screenshot that shows how to add a generic exception." lightbox="../debugger/media/visualstudio/add-generic-exception.png":::
 
 ::: moniker-end
 
