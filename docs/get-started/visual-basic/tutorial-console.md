@@ -5,8 +5,8 @@ ms.date: 02/27/2026
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: vb
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 dev_langs:
   - vb
