@@ -3,8 +3,8 @@ title: Automatically apply product keys
 description: Apply your product key programmatically during or after installation as part of a script to automate deployment of Visual Studio.
 ms.date: 11/04/2025
 ms.topic: how-to
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

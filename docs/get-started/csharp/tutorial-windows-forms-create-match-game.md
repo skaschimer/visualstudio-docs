@@ -1,8 +1,8 @@
 ---
 title: "Tutorial: Create a matching game"
 description: Complete the first steps to creating a game where a player matches icons. Create a project in Visual Studio by using C# or Visual Basic Windows Forms.
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial

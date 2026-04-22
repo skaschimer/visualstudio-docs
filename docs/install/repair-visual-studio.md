@@ -5,8 +5,8 @@ description: Repair or update your Visual Studio installation with the Visual St
 ms.date: 12/17/2025
 ms.custom: vs-acquisition
 ms.topic: how-to
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

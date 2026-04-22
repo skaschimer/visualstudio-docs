@@ -9,8 +9,8 @@ helpviewer_keywords:
 - virtual machine
 - installation
 - visual studio
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

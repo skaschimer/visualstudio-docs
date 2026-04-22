@@ -11,8 +11,8 @@ helpviewer_keywords:
 ms.custom: 
 - "ide-ref"
 - awp-ai
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

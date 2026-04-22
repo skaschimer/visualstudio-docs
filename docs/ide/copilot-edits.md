@@ -4,8 +4,8 @@ description: Use GitHub Copilot Edits to iterate quickly on code changes across 
 ms.date: 03/26/2026
 ms.update-cycle: 180-days
 ms.topic: overview
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

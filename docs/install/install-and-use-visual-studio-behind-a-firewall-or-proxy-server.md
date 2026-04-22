@@ -8,8 +8,8 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 ms.subservice: installation
 #customer intent: As a developer using Visual Studio behind my organization's firewall or proxy server, I want to know which domains to add to my allowlist.

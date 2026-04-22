@@ -11,8 +11,8 @@ helpviewer_keywords:
 - TextMate bundle
 - TextMate language grammar
 - language support
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

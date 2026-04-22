@@ -1,8 +1,8 @@
 ---
 ms.date: 02/26/2026
 ms.subservice: general-ide
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.topic: include
 ms.custom:
