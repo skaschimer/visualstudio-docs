@@ -10,8 +10,8 @@ helpviewer_keywords:
 - change visual studio
 - changing Visual Studio
 - customize Visual Studio
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

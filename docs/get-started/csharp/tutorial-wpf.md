@@ -6,8 +6,8 @@ ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
   - "CSharp"
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.custom:
   - vs-acquisition

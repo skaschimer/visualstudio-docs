@@ -6,8 +6,8 @@ ms.update-cycle: 180-days
 ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: tutorial
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.collection: ce-skilling-ai-copilot
 dev_langs:

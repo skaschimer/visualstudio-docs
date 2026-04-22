@@ -3,8 +3,8 @@ title: Visual Studio on Arm Processor-Powered Devices
 description: Review recommendations for using Visual Studio on devices with Arm-based processors, including supported workloads and remote targeting.
 ms.date: 08/25/2025
 ms.topic: concept-article
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 ms.subservice: installation
 

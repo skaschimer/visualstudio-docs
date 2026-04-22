@@ -4,8 +4,8 @@ description: Use GitHub Copilot next edit suggestions (NES) to predict where you
 ms.date: 2/4/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

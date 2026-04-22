@@ -6,8 +6,8 @@ ms.topic: concept-article
 ms.custom: awp-ai
 helpviewer_keywords:
 - solution explorer [Visual Studio]
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---
