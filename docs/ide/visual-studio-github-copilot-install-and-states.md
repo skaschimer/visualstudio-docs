@@ -196,7 +196,7 @@ You can hide the GitHub Copilot badge in the Visual Studio IDE by selecting **To
 
 :::moniker-end
 
-:::moniker range="vs-2019"
+:::moniker range="<=vs-2022"
 
 You can hide the GitHub Copilot badge in the Visual Studio IDE.
 
