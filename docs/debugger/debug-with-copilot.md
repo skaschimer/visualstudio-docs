@@ -57,6 +57,7 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 |Conditional breakpoints and tracepoints|See [Get suggestions with conditional breakpoints and tracepoints](#get-suggestions-with-conditional-breakpoints-and-tracepoints) in this article.|
 |Quick Actions (light bulb)|See [Get AI assistance with Quick Actions](../ide/quick-actions.md#get-ai-assistance).|
 |IEnumerable tabular visualizer|See [Get AI assistance](../debugger/view-data-in-tabular-visualizer.md#get-ai-assistance).|
+|Auto-detect and format in Text Visualizer|See [Auto-detect and format](../debugger/view-strings-visualizer.md#auto-detect-and-format). Copilot automatically identifies encoded or compressed strings and decodes them in a single click.|
 |Inline return values|See [View return values of method calls](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).|
 |Inline values|See [View inline values](../debugger/autos-and-locals-windows.md#view-inline-values).|
 |Multithreaded debugging|See [Get AI assistance with Threads view](../debugger/using-the-parallel-stacks-window.md#get-ai-assistance).|
