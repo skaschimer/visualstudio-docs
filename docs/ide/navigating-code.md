@@ -1,7 +1,7 @@
 ---
-title: Options for Browsing Code in the Editor
+title: Navigate Code in the Editor
 description: Explore the options for using the Visual Studio editor for browsing your code, including the Navigation bar and Navigate Backward and Forward commands.
-ms.date: 04/04/2025
+ms.date: 04/17/2026
 ms.topic: how-to
 helpviewer_keywords:
 - code editor, navigation
@@ -30,13 +30,24 @@ Visual Studio provides numerous ways to navigate code in the editor. This articl
 
 You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** (**Ctrl**+**Shift**+**-**) buttons on the toolbar to move the insertion point to previous locations or to return to a more recent location from a previous location. These commands retain the last 20 locations of the insertion point.
 
+:::moniker range="visualstudio"
+:::image type="content" source="../ide/media/visualstudio/navigation-buttons.png" alt-text="Screenshot that shows the forward and back navigation buttons." lightbox="../ide/media/visualstudio/navigation-buttons.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="../ide/media/vs2017_nav_buttons.png" alt-text="Screenshot that shows the forward and back navigation buttons." lightbox="../ide/media/vs2017_nav_buttons.png":::
+:::moniker-end
 
 ## Navigation bar
 
 You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can select a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ codebase. In a partial class, members that are defined outside the current code file might be disabled (grayed out).
 
-:::image type="content" source="../ide/media/vside_navigation_bar.png" alt-text="Screenshot that shows the code navigation bar." lightbox="../ide/media/vside_navigation_bar.png":::
+:::moniker range="visualstudio"
+:::image type="content" source="../ide/media/visualstudio/navigation-bar.png" alt-text="Screenshot that shows the code navigation bar." lightbox="../ide/media/visualstudio/navigation-bar.png":::
+:::moniker-end
+:::moniker range="vs-2022"
+:::image type="content" source="../ide/media/visualstudio/navigation-bar.png" alt-text="Screenshot that shows the code navigation bar." lightbox="../ide/media/visualstudio/navigation-bar.png":::
+:::moniker-end
 
 You can use the navigation drop-down boxes in the following ways:
 
@@ -149,7 +160,13 @@ In Visual Basic code files, you can use the Next Method and Previous Method comm
 
 The Structure Visualizer in the code editor shows *structure guide lines*, which are vertical dashed lines that indicate matching curly braces in your codebase. These lines make it easier to see where logical blocks begin and end.
 
+:::moniker range="visualstudio"
+:::image type="content" source="../ide/media/visualstudio/structure-visualizer.png" alt-text="Screenshot that shows the Structure Visualizer guide lines." lightbox="../ide/media/visualstudio/structure-visualizer.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="../ide/media/vside_structure_visualizer.png" alt-text="Screenshot that shows the Structure Visualizer guide lines." lightbox="../ide/media/vside_structure_visualizer.png":::
+:::moniker-end
 
 To disable structure guide lines, go to **Tools** > **Options** > **Text Editor** > **General** and clear the **Show structure guide lines** checkbox.
 

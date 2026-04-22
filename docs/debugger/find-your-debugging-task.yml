@@ -2,7 +2,7 @@
 metadata:
   title: "FAQ - Debugger feature finder"
   description: Review frequently asked questions to help you identify the Visual Studio debugger feature to help you debug your application.
-  ms.date: "11/22/2024"
+  ms.date: "04/13/2026"
   ms.topic: faq
   f1_keywords:
   - "vs.debug.uiref"
@@ -206,3 +206,16 @@ sections:
           - **How do I fix an exception?**
 
             See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
+
+      - question: |
+          AI-assisted debugging
+        answer: |
+          - **How can I get AI assistance while debugging?**
+
+            If you have Copilot, look for the **Analyze with Copilot** or **Ask Copilot** button in debugger windows like the Exception Helper, data tips, and variables windows. Copilot already knows your debugging context.
+            See [Debug with Copilot](debug-with-copilot.md).
+
+          - **How do I use the Debugger Agent for end-to-end bug resolution?**
+
+            The Debugger Agent provides an agentic workflow that reproduces bugs, instruments your app, and validates fixes using live runtime data. Select **Debugger** from the mode dropdown in the Copilot Chat window and provide an issue link or describe the bug.
+            See [Agentic bug resolution with the Debugger Agent](debug-with-copilot.md#agentic-bug-resolution-with-the-debugger-agent).

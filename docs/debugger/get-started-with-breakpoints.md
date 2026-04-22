@@ -1,7 +1,7 @@
 ---
 title: Get started with breakpoints
 description: Learn about breakpoints, one of the most important debugging techniques.
-ms.date: 11/22/2024
+ms.date: 10/28/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin

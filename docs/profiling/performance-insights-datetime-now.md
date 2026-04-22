@@ -1,7 +1,7 @@
 ---
 title: Perf insights for DateTime.Now
 description: Learn how to improve performance for DateTime.get_Now.
-ms.date: 06/19/2023
+ms.date: 12/04/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo

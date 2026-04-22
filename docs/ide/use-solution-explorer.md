@@ -1,9 +1,9 @@
 ---
 title: Learn about Solution Explorer
 description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
-ms.date: 02/04/2026
+ms.date: 03/17/2026
 ms.topic: concept-article
-ms.custom: awp
+ms.custom: awp-ai
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: anandmeg
@@ -346,6 +346,6 @@ You can use the **New Solution Explorer View** to add a new scoped Solution Expl
 ## Related content
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
-- [What is the .NET Project Designer?](reference/project-properties-reference.md)
+- [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Customize window layouts and personalize tabs in Visual Studio](customizing-window-layouts-in-visual-studio.md)
 - [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825)
