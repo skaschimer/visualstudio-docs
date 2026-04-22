@@ -3,8 +3,8 @@ title: 'Manage chat context with references'
 description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 11/2/2025
 ms.topic: how-to 
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

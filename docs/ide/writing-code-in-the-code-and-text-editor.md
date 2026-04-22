@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - code, editing [Visual Studio]
 - code editor [Visual Studio]
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

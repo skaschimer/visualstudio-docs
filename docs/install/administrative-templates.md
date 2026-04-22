@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Visual Studio administrative templates
 - Visual Studio admx
 - Visual Studio administrator
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

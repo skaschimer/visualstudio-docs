@@ -4,8 +4,8 @@ description: Get code suggestions and completions from GitHub Copilot in Visual 
 ms.date: 2/9/2026
 ms.update-cycle: 180-days
 ms.topic: overview
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
@@ -35,7 +35,10 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 - [Visual Studio 2026](/visualstudio/releases/2026/release-notes) or [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) (with the latest servicing release recommended for the most up-to-date features)
 - [Sign in to Visual Studio by using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
   
-  If you don't yet have a Copilot subscription, you can use [Copilot for free](copilot-free-plan.md) by signing up for the Copilot Free plan and get a monthly limit of inline suggestions and chat interactions.
+> [!NOTE]
+> As of April 20, 2026, all GitHub Copilot Pro trials, including existing trials, have been paused. New signups and enrollments for paid individual tiers — including Student, Pro, and Pro+ — are temporarily closed. If you were already on a Copilot trial, you can switch to [Copilot Free](copilot-free-plan.md) or upgrade to a Copilot Pro or Pro+ subscription. For the latest information and support, see https://docs.github.com/en/copilot/get-started/plans.
+
+If you don't yet have a Copilot subscription, you can use [Copilot for free](copilot-free-plan.md) by signing up for the Copilot Free plan and get a monthly limit of inline suggestions and chat interactions.
 
 ## Get your first code completions
 

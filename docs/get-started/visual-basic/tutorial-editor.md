@@ -5,8 +5,8 @@ ms.custom: vs-acquisition
 ms.date: 02/19/2026
 ms.subservice: general-ide
 ms.topic: tutorial
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 dev_langs:
 - VB

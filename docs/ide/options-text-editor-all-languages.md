@@ -37,8 +37,8 @@ helpviewer_keywords:
 - line numbers
 - virtual space
 ms.custom: "ide-ref"
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 

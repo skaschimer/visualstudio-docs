@@ -4,8 +4,8 @@ description: Learn how to install and manage Copilot in Visual Studio. Use the C
 ms.date: 11/20/2025
 ms.update-cycle: 180-days
 ms.topic: install-set-up-deploy
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
@@ -38,6 +38,9 @@ In this article, you learn how to manage your GitHub Copilot installation and st
 > In versions 17.9 or earlier, you'll use the **Manage Extensions** dialog to manage updates to the GitHub Copilot extension.
 
 ## Manage your Copilot state 
+
+> [!NOTE]
+> As of April 20, 2026, all GitHub Copilot Pro trials, including existing trials, have been paused. New signups and enrollments for paid individual tiers — including Student, Pro, and Pro+ — are temporarily closed. If you were already on a Copilot trial, you can switch to [Copilot Free](copilot-free-plan.md) or upgrade to a Copilot Pro or Pro+ subscription. For the latest information and support, see https://docs.github.com/en/copilot/get-started/plans.
 
 With Visual Studio 2022 version 17.10 or later, there's a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. The availability of some options depends on your Copilot state.
 
@@ -193,7 +196,7 @@ You can hide the GitHub Copilot badge in the Visual Studio IDE by selecting **To
 
 :::moniker-end
 
-:::moniker range="vs-2019"
+:::moniker range="<=vs-2022"
 
 You can hide the GitHub Copilot badge in the Visual Studio IDE.
 

@@ -6,8 +6,8 @@ ms.date: 12/15/2025
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 dev_langs:
   - CSharp
