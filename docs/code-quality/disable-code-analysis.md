@@ -9,12 +9,10 @@ ms.topic: how-to
 helpviewer_keywords:
   - code analysis, disable
   - disable code analysis
-ms.date: 03/25/2024
+ms.date: 04/21/2026
 ---
 
 # Disable source code analysis for .NET
-
-::: moniker range=">=vs-2022"
 
 Visual Studio allows you to control whether source code analyzers run at build time and design time. There are limitations to what you can disable, and the procedure for turning off code analysis differs depending on a few factors:
 
@@ -28,6 +26,8 @@ Visual Studio allows you to control whether source code analyzers run at build t
 
 ## .NET Core, .NET Standard, and .NET 5+ projects
 
+
+
 Visual Studio 2022 version 17.0.4 and later provides two checkboxes in the **Code Analysis** properties page to control whether analyzers run at build time and design time. To disable code analysis in your project, follow these steps:
 
 1. Right-click the project node in **Solution Explorer** and, then select **Properties**.
@@ -36,7 +36,13 @@ Visual Studio 2022 version 17.0.4 and later provides two checkboxes in the **Cod
 
    The **Code Analysis** properties page opens.
 
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows the Code Analysis properties page.](media/visualstudio/run-on-build-run-live-analysis-1.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot that shows the Code Analysis properties page.](media/run-on-build-run-live-analysis-1.png)
+   ::: moniker-end
 
 1. To disable source analysis at build time, under **Run on build**, clear **Always run code analysis on build**.
 
@@ -44,6 +50,8 @@ Visual Studio 2022 version 17.0.4 and later provides two checkboxes in the **Cod
 
 > [!NOTE]
 > Starting in Visual Studio 2022 version 17.0.4, if you prefer the on-demand code analysis execution workflow, you can disable analyzer execution during live analysis. Or, you can build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [Run code analysis manually for .NET](how-to-run-code-analysis-manually-for-managed-code.md).
+
+
 
 ## .NET Framework projects
 
@@ -62,9 +70,6 @@ For example:
 <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
 <RunAnalyzers>false</RunAnalyzers>
 ```
-
-::: moniker-end
-
 
 ## Related content
 
