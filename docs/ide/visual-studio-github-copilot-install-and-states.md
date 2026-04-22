@@ -39,6 +39,9 @@ In this article, you learn how to manage your GitHub Copilot installation and st
 
 ## Manage your Copilot state 
 
+> [!NOTE]
+> As of April 20, 2026, all GitHub Copilot Pro trials, including existing trials, have been paused. New signups and enrollments for paid individual tiers — including Student, Pro, and Pro+ — are temporarily closed. If you were already on a Copilot trial, you can switch to [Copilot Free](copilot-free-plan.md) or upgrade to a Copilot Pro or Pro+ subscription. For the latest information and support, see https://docs.github.com/en/copilot/get-started/plans.
+
 With Visual Studio 2022 version 17.10 or later, there's a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. The availability of some options depends on your Copilot state.
 
 > [!NOTE]
