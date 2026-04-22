@@ -100,7 +100,7 @@ sections:
            
              See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
 
-          - **How can I to attach to the same application repeatedly?** 
+          - **How can I attach to the same application repeatedly?** 
             
              You can use **Reattach to Process** (**Shift+Alt+P**) to easily allow you to start debugging your application in one click without needing to go through the Attach to Process dialog every time.
              See [Reattach to a process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach)
