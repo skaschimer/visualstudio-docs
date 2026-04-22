@@ -21,8 +21,8 @@ helpviewer_keywords:
 - defaults, colors
 - printers, customizing
 ms.custom: "ide-ref"
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

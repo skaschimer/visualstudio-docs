@@ -6,8 +6,8 @@ ms.date: 09/12/2024
 ms.topic: how-to
 f1_keywords:
 - VS.BookmarkWindow
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

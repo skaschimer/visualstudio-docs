@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Code Editor, displaying URLs
 - editors, displaying URLs
 ms.custom: "ide-ref"
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - icons [Visual Studio], application
 - application properties [Visual Studio], icons
 - application icons [Visual Studio]
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 

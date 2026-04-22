@@ -6,8 +6,8 @@ titleSuffix: ''
 ms.date: 8/30/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot

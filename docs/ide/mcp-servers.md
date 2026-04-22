@@ -4,8 +4,8 @@ description: Learn how to add MCP servers in Visual Studio to extend GitHub Copi
 ms.date: 03/26/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

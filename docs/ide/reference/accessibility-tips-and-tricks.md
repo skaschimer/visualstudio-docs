@@ -5,8 +5,8 @@ ms.date: 02/13/2025
 ms.topic: concept-article
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 ms.subservice: general-ide
 ---
 # Accessibility tips and tricks for Visual Studio

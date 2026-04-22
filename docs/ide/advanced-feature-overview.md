@@ -3,8 +3,8 @@ title: Explore advanced features for developers
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.date: 03/17/2026
 ms.topic: overview
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ms.custom:

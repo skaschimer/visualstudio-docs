@@ -7,8 +7,8 @@ helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
 - framework targeting [Visual Studio]
 - .NET Framework targeting [Visual Studio]
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ms.custom: awp-ai

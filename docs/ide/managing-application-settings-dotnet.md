@@ -7,8 +7,8 @@ f1_keywords:
 - msvse_settingsdesigner.err.nameblank
 helpviewer_keywords:
 - application settings [Visual Studio]
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ms.custom: 

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Web applications, accessibility"
   - "accessibility, Web applications"
 ms.custom: "ide-ref"
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 ms.subservice: general-ide
 ---
 # Resources for designing accessible applications
