@@ -103,8 +103,10 @@ When you reach usage limits for Copilot Free, wait for the limits to reset at th
 ## Frequently asked questions
 
 #### Who can access Copilot Free?
+> [!NOTE]
+> As of April 20, 2026, all GitHub Copilot Pro trials, including existing trials, have been paused. New signups and enrollments for paid individual tiers — including Student, Pro, and Pro+ — are temporarily closed. If you were already on a Copilot trial, you can switch to [Copilot Free](copilot-free-plan.md) or upgrade to a Copilot Pro or Pro+ subscription. For the latest information and support, see https://docs.github.com/en/copilot/get-started/plans.
 
-Copilot Free isn't available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription or trial, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
+Copilot Free isn't available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
 For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
 #### Can I turn off completions to save them for later?
