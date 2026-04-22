@@ -9,8 +9,8 @@ helpviewer_keywords:
 - side-by-side installations [Visual Studio]
 - Help [Visual Studio], installing
 - install multiple versions of Visual Studio
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 #customer intent: As a developer, I want to learn how to install different versions of Visual Studio on the same system to support different projects.
 ---

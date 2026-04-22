@@ -1,6 +1,6 @@
 ---
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 ms.date: 03/16/2020
 ms.subservice: installation

@@ -6,8 +6,8 @@ ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - 'deploy layout'
 - 'install layout'
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

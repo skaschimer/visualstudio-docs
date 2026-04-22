@@ -7,8 +7,8 @@ f1_keywords:
 - offline installation [Visual Studio]
 - offline install [Visual Studio]
 - layout [Visual Studio]
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 ms.subservice: installation
 ---
