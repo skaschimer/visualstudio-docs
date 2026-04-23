@@ -12,7 +12,7 @@ description: Learn how to assign and manage Visual Studio Subscriptions in the M
 
 ## Overview
 
-Visual Studio Subscriptions help developers build, test, and deliver applications using Microsoft developer tools and services. For eligible partners, **Visual Studio Enterprise IDE** access is provided as part of the **Microsoft AI Cloud Partner Program (MAICPP)** and is managed through [Partner Center](https://partner.microsoft.com/dashboard/home).
+Visual Studio Subscriptions provide access to Microsoft developer tools and services for building, testing, and delivering applications. For eligible partners, **Visual Studio Enterprise IDE** access is provided as part of the **Microsoft AI Cloud Partner Program (MAICPP)** and is managed through [Partner Center](https://partner.microsoft.com/dashboard/home).
 
 This article explains how Visual Studio Subscriptions work for partners, what changed with **Benefits Refresh 2026**, and how to assign and manage Visual Studio access.
 
@@ -35,7 +35,7 @@ Users sign in to Visual Studio using their work account and access the IDE based
 
 Beginning **February 13, 2026**, Microsoft updates Partner Program developer benefits as part of **Benefits Refresh 2026**. These updates apply only to **Partner Program benefits** and don’t affect paid Visual Studio Subscriptions.
 
-The updated benefits take effect in the following scenarions:
+The updated benefits take effect in the following scenarios:
 
 + Your organization renews its Partner Program membership at its anniversary date, or
 + Your organization enrolls in or purchases a new membership offer on or after February 13, 2026.
