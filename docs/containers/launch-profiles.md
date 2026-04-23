@@ -6,14 +6,22 @@ manager: mijacobs
 ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 9/10/2025
+ms.date: 04/02/2026
 ms.author: ghogen
 monikerRange: ">=vs-2022"
+ms.custom: awp-ai
 ---
 
 # Launch a subset of Compose services
 
 If you have an application that consists of multiple services and uses Docker Compose, you can configure which services run and debug by creating or editing an existing launch profile in Docker Compose launch settings. Launch profiles allow you to dynamically run only the services that matter to your current scenario. You can create and select from launch profiles in order to customize your debugging experience and set specific launch actions such as `Browser Launch URL`. You also have the option of either choosing each service individually or by choosing a Docker Compose profile, which also looks at your Compose file to determine the group of services to run.
+
+:::moniker range="visualstudio"
+
+> [!NOTE]
+> Visual Studio also supports [Podman Compose](https://podman-desktop.io/docs/compose) as an alternative Compose runtime. The launch profile features described here work with both Docker Compose and Podman Compose.
+
+:::moniker-end
 
 For information about Docker Compose profiles, see [Using profiles with Compose](https://docs.docker.com/compose/profiles/).
 
