@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot usage and models'
 description: Learn how to manage your GitHub Copilot usage and models directly within Visual Studio.
-ms.date: 03/17/2026
+ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: RoseHJM
@@ -23,12 +23,23 @@ GitHub Copilot includes built-in tools to help you track usage, manage your plan
 
 To track your Copilot usage:
 
+:::moniker range="visualstudio"
+1. Select the down arrow next to the Copilot button in the top-right corner of Visual Studio.
+1. Select **Copilot Usage** from the menu to view the dialog.
+
+   :::image type="content" source="media/visualstudio/copilot-consumptions-panel.png" alt-text="Screenshot that shows Copilot Consumptions panel." lightbox="media/visualstudio/copilot-consumptions-panel.png":::
+
+   Here, you can view your usage and the number of remaining requests. You can also select **Manage plan** to manage your Copilot plan on *GitHub*.
+:::moniker-end
+
+:::moniker range="vs-2022"
 1. Select the **Copilot badge** in the top-right corner of Visual Studio.
 1. Select **Copilot Consumptions** from the menu to view the dialog.
 
    :::image type="content" source="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png" alt-text="Screenshot that shows Copilot Consumptions panel." lightbox="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png":::
 
    Here, you can view your usage and the number of remaining requests. You can also select **Get more requests** to manage your Copilot plan on *GitHub*.
+:::moniker-end
 
 > [!NOTE]
 > GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
