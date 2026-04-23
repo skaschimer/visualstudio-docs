@@ -13,6 +13,7 @@ f1_keywords:
  - VS.ToolsOptionsPages.Container_Tools.Settings
 
 #customer intent: As a developer, I want to learn how to configure Visual Studio Container Tools so I can get the best performance and resource usage for my container projects.
+ms.custom: awp-ai
 ---
 
 # Configure Visual Studio Container Tools

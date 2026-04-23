@@ -6,6 +6,7 @@ ms.author: ghogen
 ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: tutorial
+ms.custom: awp-ai
 ---
 
 # Tutorial: Create a multi-container app with Docker Compose

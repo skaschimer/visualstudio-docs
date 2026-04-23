@@ -6,6 +6,7 @@ ms.author: ghogen
 ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: reference
+ms.custom: awp-ai
 ---
 
 # Docker Compose build properties
