@@ -33,14 +33,20 @@ To track your Copilot usage:
 > [!NOTE]
 > GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
 
+
+
 ## Understand model selection
+
+> [!NOTE]  
+> Some individual plans have tighter chat and premium model limits, and high-volume users may reach caps sooner.  
+> If you hit a limit, wait for reset, switch models, or use **Auto** mode. Spreading requests out over time may help avoid interruptions. See [About usage limits](https://docs.github.com/en/copilot/concepts/usage-limits).
 
 Copilot supports multiple AI models, and each model may consume requests at different rates based on assigned [multipliers](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#model-multipliers).
 
 To view or change your current model:
 
-1.	Open the **Copilot Chat** window.
-1.	Use the **model picker** dropdown above the input field to select a model.
+1. Open the **Copilot Chat** window.
+1. Use the **model picker** dropdown above the input field to select a model.
 
 When your [premium request quota](https://docs.github.com/copilot/about-github-copilot/plans-for-github-copilot#comparing-copilot-plans) is exhausted, Copilot automatically falls back to a base model so you can continue working without interruption.
 
