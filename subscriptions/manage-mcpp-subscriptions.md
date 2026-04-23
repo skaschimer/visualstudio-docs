@@ -121,4 +121,4 @@ No. Assignments carry forward when your organization renews within the same Part
 ### See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Explore your Visual Studio and GitHub benefits](/mpn-benefits-visual-studio)
++ [Explore your Visual Studio and GitHub benefits](https://learn.microsoft.com/partner-center/benefits/mpn-benefits-visual-studio)
