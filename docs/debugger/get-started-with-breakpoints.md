@@ -1,7 +1,7 @@
 ---
 title: Get started with breakpoints
 description: Learn about breakpoints, one of the most important debugging techniques.
-ms.date: 10/28/2025
+ms.date: 04/22/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -64,7 +64,13 @@ To debug, press **F5** or select **Debug** > **Start Debugging**.
 
 When you debug, execution pauses at the breakpoint, before the code on that line is executed. The breakpoint symbol shows a yellow arrow.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+At the breakpoint in the following example, the value of `testInt` is still 3. So, the value hasn't changed since the variable was initialized (set to a value of 3) because the statement in yellow hasn't yet executed.
+
+![Screenshot that shows debugging stopped at a breakpoint.](../debugger/media/visualstudio/breakpoint-execution.png "Breakpoint execution")
+::: moniker-end
+
+::: moniker range="vs-2022"
 At the breakpoint in the following example, the value of `testInt` is still 3. So, the value hasn't changed since the variable was initialized (set to a value of 3) because the statement in yellow hasn't yet executed.
 
 ![Breakpoint execution stopped](../debugger/media/vs-2022/breakpoint-execution.png "Breakpoint execution")
@@ -73,7 +79,13 @@ At the breakpoint in the following example, the value of `testInt` is still 3. S
 
 When the debugger stops at the breakpoint, you can look at the current state of the app, including [variable values](../debugger/debugger-feature-tour.md#inspect-variables-with-data-tips) and the [call stack](../debugger/how-to-use-the-call-stack-window.md).
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+For example, in the following illustration, you can see the value of `testInt` in a data tip and in the **Locals** window.
+
+![Screenshot that shows a breakpoint.](../debugger/media/visualstudio/basic-breakpoint-viewing-app-state.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 For example, in the following illustration, you can see the value of `testInt` in a data tip and in the **Locals** window.
 
 ![Screenshot of viewing app state](../debugger/media/vs-2022/basic-breakpoint-viewing-app-state.png)
@@ -99,7 +111,11 @@ In the **Breakpoints** window, you can search, sort, filter, enable/disable, or 
 
 To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoints**, or press **Ctrl**+**Alt**+**B**.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the Breakpoints window.](../debugger/media/visualstudio/breakpoints-window.png "Breakpoints window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Breakpoints window](../debugger/media/vs-2022/breakpoints-window.png "Breakpoints window")
 ::: moniker-end
 
@@ -113,7 +129,20 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
 1. To add a label to a breakpoint, right-click the breakpoint in the source code or the **Breakpoints** window, and then select **Edit labels**. Add a new label or choose an existing one, and then select **OK**.
 2. Sort the breakpoint list in the **Breakpoints** window by selecting the **Labels**, **Conditions**, or other column headers. You can select the columns to display by selecting **Show Columns** in the toolbar.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+### Breakpoint groups
+
+For complex debugging scenarios, you might want to create breakpoint groups to organize your breakpoints. This allows you to quickly enable and disable logical groupings of breakpoints, based upon the current scenario that you're trying to debug.
+
+You can create breakpoints in the **Breakpoints** window by selecting **New > Breakpoint Group**, and providing a name for the group. To add a breakpoint to a group, right-click the breakpoint and choose **Add to Breakpoint Group** > **\<group name\>**. Or, drag-and-drop your breakpoints into the desired group.
+
+![Screenshot of breakpoint groups.](../debugger/media/visualstudio/breakpoints-window-breakpoint-groups.png)
+
+To set a default breakpoint group, right-click a group and select **Set as default Breakpoint Group**. When you set a default breakpoint group, newly created breakpoints are automatically added to the group.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 ### Breakpoint groups
 
 For complex debugging scenarios, you might want to create breakpoint groups to organize your breakpoints. This allows you to quickly enable and disable logical groupings of breakpoints, based upon the current scenario that you're trying to debug.

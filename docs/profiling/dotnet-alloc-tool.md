@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage for .NET objects
 description: View how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
-ms.date: 04/14/2025
+ms.date: 04/22/2026
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
@@ -26,28 +26,36 @@ For a tutorial that shows how to improve performance using the .NET Object Alloc
    The deployment target typically matches the project name, indicating a local deployment.
    ::: moniker-end
 
+::: moniker range="visualstudio"
+2. Select **Debug** > **Performance Profiler** to open the Performance Profiler in Visual Studio.
 
-1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
+3. On the **Standalone** tab, select the **.NET Object Allocation Tracking** checkbox.
 
-1. Select the **.NET Object Allocation Tracking** check box.
+   
+   :::image type="content" source="../profiling/media/visualstudio/dotnet-allocation-tool-selected.png" alt-text="Screenshot that shows the .NET Object Allocation Tracking checkbox selected." lightbox="../profiling/media/visualstudio/dotnet-allocation-tool-selected.png":::
+::: moniker-end
 
-   ::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
+2. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
+
+3. Select the **.NET Object Allocation Tracking** check box.
+
+   
    ![Screenshot of the Dotnet Object Allocation Tracking tool selected.](../profiling/media/vs-2022/dotnet-alloc-tool-selected.png "The Dotnet Object Allocation Tracking tool selected")
-   ::: moniker-end
+::: moniker-end
 
-
-1. Select the **Start** button to run the tool.
+4. Select the **Start** button to run the tool.
 
    If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
 
-1. After the tool starts running, go through the scenario you want to profile in your app. Then select **Stop collection** or close your app to see your data.
+5. After the tool starts running, go through the scenario you want to profile in your app. Then select **Stop collection** or close your app to see your data.
 
    ::: moniker range=">=vs-2022"
    ![Screenshot of window showing Stop collection.](../profiling/media/vs-2022/stop-collection-dark-theme.png "A window showing Stop collection")
    ::: moniker-end
 
 
-1. Select the **Allocation** tab. Memory allocation data similar to the following appears.
+6. Select the **Allocation** tab. Memory allocation data similar to the following appears.
 
    ::: moniker range=">=vs-2022"
    ![Screenshot of the Allocation tab.](../profiling/media/vs-2022/allocation-view.png "The Allocation tab")
@@ -58,7 +66,11 @@ You can now analyze the memory allocation of the objects.
 
 During collection, the tracking tool can slow down the profiled app. If performance of the tracking tool or the app is slow, and if you don't need to track every object, you can adjust the sampling rate. To do so, select the gear symbol next to the tracking tool in the profiler summary page.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+:::image type="content" source="../profiling/media/visualstudio/dotnet-allocation-settings.png" alt-text="Screenshot that shows the settings button for .NET Object Allocation Tracking." lightbox="../profiling/media/visualstudio/dotnet-allocation-settings.png":::
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of settings for the Dotnet Allocation tool.](../profiling/media/vs-2022/dotnet-alloc-settings.png "Settings for the Dotnet Allocation tool")
 ::: moniker-end
 
@@ -96,12 +108,21 @@ You can also zoom into or out of the graph.
 If any insights show up in the **Insights** view, use the provided link to get more information about the issue identified. 
 ::: moniker-end
 
-::: moniker range=">=visualstudio"
+::: moniker range="visualstudio"
 ### Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at the top insights. Copilot provides information and insights related to a set of specific performance insights. With Copilot, you can also ask questions about objects using the most memory, which can help you produce more efficient or cost-effective code.
 
-The **Ask Copilot** button [Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) appears even if no specific performance insights are identified. Select **Ask Copilot** to learn from Copilot and start asking questions. 
+The **Copilot** button ![Screenshot of Copilot button.](../profiling/media/visualstudio/copilot.png) appears even if no specific performance insights are identified. Select the **Copilot** button to learn from Copilot and start asking questions. 
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+### Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at the top insights. Copilot provides information and insights related to a set of specific performance insights. With Copilot, you can also ask questions about objects using the most memory, which can help you produce more efficient or cost-effective code.
+
+The **Ask Copilot** button ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) appears even if no specific performance insights are identified. Select **Ask Copilot** to learn from Copilot and start asking questions. 
 
 ::: moniker-end
 
