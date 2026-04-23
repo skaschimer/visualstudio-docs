@@ -10,7 +10,7 @@ helpviewer_keywords:
 - code analysis, managed code
 - analyzers
 - Roslyn analyzers
-ms.date: 04/30/2025
+ms.date: 04/21/2026
 ---
 
 # Customize Roslyn analyzer rules
@@ -41,7 +41,13 @@ If an analyzer finds any analyzer rule violations, it reports them in the **Erro
 
 The following screenshot shows rule violations reported in the **Error List** window. The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule:
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window." lightbox="media/visualstudio/code-analysis-error-list.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window." lightbox="media/code-analysis-error-list.png":::
+:::moniker-end
 
 The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three gray dots):
 
@@ -140,7 +146,13 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
    - **Configure severity for all \<style> analyzers.** Set the severity for all rules in the specific [rule category](/dotnet/fundamentals/code-analysis/categories).
    - **Configure severity for all analyzers.** Set the severity for all categories of analyzer rules.
 
-      ::: moniker range=">=vs-2022"
+      ::: moniker range="visualstudio"
+      In the following example, select **Suppress or configure issues** > **Configure \<rule ID> severity**.
+
+      ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio.](media/visualstudio/configure-rule-severity.png)
+      ::: moniker-end
+
+      ::: moniker range="vs-2022"
       In the following example, select **Suppress or configure issues** > **Configure \<rule ID> severity**.
 
       ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2022.](media/vs-2022/configure-rule-severity.png)
@@ -149,7 +161,11 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
 
 1. Choose one of the severity options.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/configure-rule-severity-suggestion.png" alt-text="Screenshot that shows rule severity selected from the menu in Visual Studio." lightbox="media/visualstudio/configure-rule-severity-suggestion.png":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot that shows rule severity selected from the menu in Visual Studio 2022.](media/vs-2022/configure-rule-severity-suggestion.png)
    ::: moniker-end
 
@@ -188,7 +204,13 @@ You can do much of the customization of analyzer diagnostics from Solution Explo
    - `i` in a dotted circle indicates a severity of **Silent**
    - Downward-pointing arrow in a solid circle indicates a severity of **None**
 
+   :::moniker range="visualstudio"
+   ![Screenshot that shows severity icons for analyzer diagnostics in Solution Explorer.](media/visualstudio/diagnostics-icons-solution-explorer.png)
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    ![Screenshot that shows severity icons for analyzer diagnostics in Solution Explorer.](media/diagnostics-icons-solution-explorer.png)
+   :::moniker-end
 
 1. To view the properties of a diagnostic, including its description and default severity, right-click the diagnostic, and then select **Properties**. Or, select the diagnostic, and then press **Alt**+**Enter**.
 
@@ -217,7 +239,13 @@ To use the rule set editor, follow these steps. If your project already uses a s
 
    The rule set file opens in the rule set editor with a clickable **infobar** at the top.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/convert-ruleset-to-editorconfig-file-ruleset-editor.png" alt-text="Screenshot that shows a rule set file open in the rule set editor." lightbox="media/visualstudio/convert-ruleset-to-editorconfig-file-ruleset-editor.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    ![Screenshot that shows a rule set file open in the rule set editor.](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
+   :::moniker-end
 
 1. Select the **infobar** link to migrate the rule set editor file.
 
@@ -320,7 +348,13 @@ msbuild myproject.csproj /target:rebuild /verbosity:minimal
 
 The following screenshot shows the command-line build output from building a project that contains an analyzer rule violation:
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/command-line-build-analyzers.png" alt-text="Screenshot that shows MSBuild output with a rule violation in a Developer Command Prompt." lightbox="media/visualstudio/command-line-build-analyzers.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Screenshot that shows MSBuild output with a rule violation in a Developer Command Prompt.](media/command-line-build-analyzers.png)
+:::moniker-end
 
 ## Dependent projects
 

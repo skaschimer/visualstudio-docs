@@ -1,7 +1,7 @@
 ---
 title: Copilot Completions
 description: Get code suggestions and completions from GitHub Copilot in Visual Studio.
-ms.date: 2/9/2026
+ms.date: 04/20/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: RoseHJM
@@ -115,6 +115,8 @@ If you prefer using the keyboard, you can still accept a completion word by word
 
 ### Keyboard shortcuts
 
+The following table lists the default keyboard shortcuts for Copilot inline suggestions. You can [customize these shortcuts](#customize-copilot-keyboard-shortcuts) to match your preferences.
+
 - Manually trigger a completion: <kbd>Alt</kbd>+<kbd>.</kbd> or <kbd>Alt</kbd>+<kbd>,</kbd>
 - Cycle through available completions: <kbd>Alt</kbd>+<kbd>.</kbd> (next) and <kbd>Alt</kbd>+<kbd>,</kbd> (previous)
 - Partially accept a completion word by word: <kbd>Ctrl</kbd>+<kbd>Right arrow</kbd>
@@ -133,6 +135,28 @@ Customize your inline suggestions experience with these settings:
 - **Change the accept suggestion keyboard shortcut** - By default, <kbd>Tab</kbd> key accepts suggestions. You can change it to the <kbd>Right Arrow</kbd> key instead.
 
 For additional settings and options, see the **Inline Suggestions** settings page.
+
+### Customize Copilot keyboard shortcuts
+
+You can customize the keyboard shortcuts for accepting Copilot inline suggestions, including the shortcuts for accepting a full suggestion, the next word, or the next line.
+
+To set up your preferred shortcuts:
+
+1. Go to **Tools** > **Options** > **Environment** > **Keyboard**.
+1. Search for the command you want to customize:
+   - `Edit.AcceptSuggestion` — accepts the full inline suggestion
+   - `Edit.AcceptNextWordinSuggestion` — accepts the next word in the suggestion
+   - `Edit.AcceptNextLineinSuggestion` — accepts the next line in the suggestion
+1. Remove the existing keybinding.
+1. Assign a new shortcut under the **Inline Suggestion Active** scope.
+
+   :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/change-copilot-shortcut.png" alt-text="Screenshot showing the Keyboard settings dialog with the Edit.AcceptSuggestion command selected and a custom shortcut assigned under the Inline Suggestion Active scope.":::
+
+For example, in the following image, the default accept shortcut is changed from <kbd>Tab</kbd> to <kbd>Ctrl</kbd>+<kbd>Tab</kbd>. The updated shortcut is reflected in the hint bar in the editor.
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/changed-shortcut-in-editor.png" alt-text="Screenshot showing the updated keyboard shortcut reflected in the Copilot hint bar in the editor.":::
+
+For more information on customizing keyboard shortcuts in Visual Studio, see [Identify and customize keyboard shortcuts](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
 
 ### Customize appearance
 

@@ -13,7 +13,7 @@ dev_langs:
 - CSharp
 - VB
 - CPP
-ms.date: 03/28/2024
+ms.date: 04/21/2026
 ---
 
 # Suppress code analysis violations
@@ -37,10 +37,26 @@ Or, you can use the [SuppressMessageAttribute attribute](#in-source-suppression-
 
 To suppress violations using the code editor, follow these steps:
 
+
+
 1. Place the cursor in the line of code with the violation and press **Ctrl**+**Period (.)** or **Alt+Enter** to open the **Quick Actions** menu.
 
 1. Select **Suppress or configure issues** > **Suppress \<rule number>**, and then choose either **in Source** or **in Source (attribute)**.
 
+::: moniker range="visualstudio"
+   
+   - If you choose **in Source**, you see a preview of the preprocessor directive added to your code.
+
+     :::image type="content" source="media/visualstudio/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows in Source selection from the Quick Actions Suppress menu." lightbox="media/visualstudio/suppress-diagnostic-from-editor.png":::
+
+   - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
+
+      :::image type="content" source="media/visualstudio/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/visualstudio/suppress-diagnostic-from-editor-attribute.png":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+   
    - If you choose **in Source**, you see a preview of the preprocessor directive added to your code.
 
      :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows in Source selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor.png":::
@@ -48,6 +64,8 @@ To suppress violations using the code editor, follow these steps:
    - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
 
       :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor-attribute.png":::
+
+::: moniker-end
 
 
 ## Suppress violations using a global suppression file
