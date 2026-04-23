@@ -4,10 +4,10 @@ description: Use the Visual Studio Containers window to view, debug, and interac
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 10/24/2025
+ms.date: 04/02/2026
 ms.subservice: container-tools
 monikerRange: ">=vs-2022"
-ms.custom: sfi-image-nochange
+ms.custom: sfi-image-nochange, awp-ai
 
 #customer intent: As a Visual Studio developer, I want to learn how to use the Containers window so I can quickly and easily view and interact with my container projects.
 
@@ -32,8 +32,6 @@ You can use the Visual Studio **Containers** window to see what's going on insid
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
 - [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). For Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
-- For the Docker Compose node:
-  - Docker v2, which installs with Docker Desktop and is on by default.
 
 :::moniker-end
 
@@ -60,7 +58,7 @@ The **Containers** window opens automatically when you start a containerized .NE
 
 The left side of the window shows the list of containers on your local machine. The containers associated with your current solution are under **Solution Containers**. On the right is a pane with tabs for **Environment**, **Labels**, **Ports**, **Volumes**, **Files**, **Logs**, and **Details**.
 
-If you're using Docker Compose, you see a tree of nodes, with a parent node for your solution and child nodes for each project enrolled in Docker Compose.
+If you're using Docker Compose or Podman Compose, you see a tree of nodes, with a parent node for your solution and child nodes for each project enrolled in Docker Compose.
 
 ![Screenshot showing Docker Compose nodes in the Containers window.](./media/view-and-diagnose-containers/vs-2022/containers-logs-interleaved.png)
 
