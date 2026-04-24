@@ -11,7 +11,7 @@ helpviewer_keywords:
 - registry, Add New Project dialog box
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Registering Project and Item Templates

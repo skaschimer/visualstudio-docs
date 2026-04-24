@@ -8,7 +8,7 @@ helpviewer_keywords:
 - specialized deployment
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Handle specialized deployment

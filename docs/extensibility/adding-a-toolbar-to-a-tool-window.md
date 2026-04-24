@@ -8,7 +8,7 @@ helpviewer_keywords:
 - toolbars [Visual Studio], adding to tool windows
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Add a toolbar to a tool window

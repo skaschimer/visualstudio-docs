@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "dialog boxes, Word"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically use built-in dialog boxes in Word

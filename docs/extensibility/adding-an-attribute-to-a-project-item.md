@@ -7,7 +7,7 @@ helpviewer_keywords:
 - attributes [Visual Studio], adding to a project item
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Add an attribute to a project item

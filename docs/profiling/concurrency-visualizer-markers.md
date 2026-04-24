@@ -10,7 +10,7 @@ f1_keywords:
   - "vs.cv.markers.span"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer markers

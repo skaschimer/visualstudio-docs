@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "code changes"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Supported Code Changes (C++)

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Outlook calendars [Office development in Visual Studio], creating appointments"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically create appointments

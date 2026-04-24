@@ -12,7 +12,7 @@ helpviewer_keywords:
 - MSBuild, .targets files
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MSBuild `.targets` files

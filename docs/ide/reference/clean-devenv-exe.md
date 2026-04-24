@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Devenv, /Clean switch
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # /Clean (devenv.exe)

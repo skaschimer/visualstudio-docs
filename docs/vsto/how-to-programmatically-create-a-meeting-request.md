@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "calendars [Office development in Visual Studio], meeting requests"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically create a meeting request

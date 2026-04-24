@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "inclusion lists [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Configure inclusion list security

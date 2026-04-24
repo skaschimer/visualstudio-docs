@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages

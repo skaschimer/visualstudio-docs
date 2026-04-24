@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
-ms.manager: wiwagn
+
 ms.subservice: xml-tools
 ---
 # Print diagrams from the Graph View and the Content Model View

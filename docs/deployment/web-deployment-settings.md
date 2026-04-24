@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment settings, web app"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
 #customer intent: As a web developer, I want to understand and control the deployment settings for my web app.

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "MetadataUpdateHandler for .NET Hot Reload"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---

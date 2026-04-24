@@ -5,7 +5,7 @@ ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 dev_langs:
   - CSharp

@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
 ---

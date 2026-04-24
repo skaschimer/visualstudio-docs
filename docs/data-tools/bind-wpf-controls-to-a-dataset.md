@@ -12,7 +12,7 @@ helpviewer_keywords:
 - WPF Designer, data binding
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

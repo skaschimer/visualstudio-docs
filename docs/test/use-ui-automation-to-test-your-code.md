@@ -15,7 +15,7 @@ helpviewer_keywords:
 - coded UI test
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 ---
 # Use Coded UI tests to test your code

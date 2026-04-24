@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "NoSplash Devenv switch"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 # /NoSplash (devenv.exe)
 

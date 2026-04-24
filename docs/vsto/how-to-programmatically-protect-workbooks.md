@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "workbooks, protecting"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically protect workbooks

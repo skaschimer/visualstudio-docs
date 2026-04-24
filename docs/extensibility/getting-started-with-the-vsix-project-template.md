@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Visual Studio SDK, VSIX project template
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Get started with the VSIX Project template

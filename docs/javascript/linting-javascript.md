@@ -11,7 +11,7 @@ f1_keywords:
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript

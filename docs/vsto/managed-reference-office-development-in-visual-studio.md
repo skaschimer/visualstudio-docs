@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, reference"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Managed reference (Office development in Visual Studio)

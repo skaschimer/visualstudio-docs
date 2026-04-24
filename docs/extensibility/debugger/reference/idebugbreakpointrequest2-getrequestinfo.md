@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugBreakpointRequest2::GetRequestInfo
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

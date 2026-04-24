@@ -5,7 +5,7 @@ ms.date: 11/04/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debug only user code with Just My Code

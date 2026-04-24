@@ -10,7 +10,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug

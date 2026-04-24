@@ -27,7 +27,7 @@ helpviewer_keywords:
   - Call Stack window, viewing disassembly code for functions on the call stack
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # View the call stack and use the Call Stack window in the debugger

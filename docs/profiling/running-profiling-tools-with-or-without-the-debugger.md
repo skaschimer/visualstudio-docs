@@ -5,7 +5,7 @@ ms.date: "08/29/2025"
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Run profiling tools on release or debug builds (C#, Visual Basic, C++, F#)

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - VSCT files, creating
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Create a .vsct file

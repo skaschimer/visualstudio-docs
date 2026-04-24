@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], servers
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Servers (Visual Studio SDK)

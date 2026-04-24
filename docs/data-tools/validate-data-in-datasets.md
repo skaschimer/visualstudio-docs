@@ -18,7 +18,7 @@ helpviewer_keywords:
 - updating datasets, validating data
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

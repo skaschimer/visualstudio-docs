@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, template code
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Text Template Control Blocks

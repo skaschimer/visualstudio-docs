@@ -5,7 +5,7 @@ ms.date: 10/13/2020
 ms.topic: release-notes
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 
 # Visual Studio 2015 documentation

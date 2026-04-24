@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSectionContrib::get_code16bit method"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

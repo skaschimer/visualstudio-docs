@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugInterceptExceptionCompleteEvent2
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugInterceptExceptionCompleteEvent2

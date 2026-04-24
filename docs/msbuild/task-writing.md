@@ -9,7 +9,7 @@ helpviewer_keywords:
 - MSBuild, creating tasks
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 
 #customer intent: As a builder, I want to understand how MSBuild tasks are created and invoked, so I can write my own tasks to run during MSBuild.

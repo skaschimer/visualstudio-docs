@@ -7,7 +7,7 @@ helpviewer_keywords:
 - FIELD_KIND_EX enumeration
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

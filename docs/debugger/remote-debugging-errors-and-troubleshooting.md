@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "remote debugging, errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Remote Debugging Errors and Troubleshooting

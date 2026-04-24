@@ -7,7 +7,7 @@ helpviewer_keywords:
 - automation [Visual Studio SDK], automation model
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Using the Automation Model

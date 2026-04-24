@@ -9,7 +9,7 @@ helpviewer_keywords:
 - interfaces, source control packages
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Related Services and Interfaces (Source Control VSPackage)

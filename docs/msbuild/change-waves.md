@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuildDisableFeaturesFromVersion environment variable
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Change waves

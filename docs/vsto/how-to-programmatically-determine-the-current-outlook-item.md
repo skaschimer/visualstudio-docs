@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Outlook [Office development in Visual Studio], current item"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically determine the current Outlook item

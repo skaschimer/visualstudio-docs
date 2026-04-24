@@ -8,7 +8,7 @@ helpviewer_keywords:
 - configuration options, about configuration options
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Configuration options overview

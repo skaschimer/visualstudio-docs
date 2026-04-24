@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, installing tools"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Configure a computer to develop Office solutions

@@ -5,7 +5,7 @@ ms.date: 05/13/2020
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Interaction Patterns for Visual Studio

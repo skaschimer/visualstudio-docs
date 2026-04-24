@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "solution filters [MSBuild]"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 monikerRange: ">= vs-2022"
 ---

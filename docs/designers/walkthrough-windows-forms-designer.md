@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Windows Forms Designer, get started
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: ui-designers
 ms.custom: awp-ai
 ---

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Customize and extend a domain-specific language

@@ -5,7 +5,7 @@ ms.date: 07/10/2024
 ms.topic: how-to
 author: jasonchlus
 ms.author: jasonchlus
-ms.manager: wiwagn
+
 ms.subservice: help-viewer
 ---
 # Find articles in the Help Viewer

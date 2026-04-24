@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, localizing"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: sharepoint-development
 ---
 # Localize SharePoint solutions

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugCanStopEvent2::GetCodeContext
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: "profiling-seo"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

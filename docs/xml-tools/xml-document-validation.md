@@ -5,7 +5,7 @@ ms.date: 09/16/2021
 ms.topic: concept-article
 author: dzsquared
 ms.author: drskwier
-ms.manager: wiwagn
+
 ms.subservice: xml-tools
 ---
 # XML document validation

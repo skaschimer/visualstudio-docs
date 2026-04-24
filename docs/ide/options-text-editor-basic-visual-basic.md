@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: akhera99
 ms.author: midumont
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Configure Visual Basic text editor options

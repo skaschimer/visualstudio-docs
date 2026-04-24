@@ -5,7 +5,7 @@ ms.date: 02/23/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Use git fetch, pull, push and sync for version control in Visual Studio

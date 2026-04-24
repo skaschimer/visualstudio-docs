@@ -13,7 +13,7 @@ helpviewer_keywords:
 - outlining code
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 #customer intent: As a developer, I want to learn how to collapse and expand code in Visual Studio to make it easier to write and maintain code.
 ---

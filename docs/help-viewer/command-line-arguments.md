@@ -5,7 +5,7 @@ ms.date: 11/01/2017
 ms.topic: reference
 author: jasonchlus
 ms.author: jasonchlus
-ms.manager: wiwagn
+
 ms.subservice: help-viewer
 ---
 # Command-line arguments for the Help Content Manager

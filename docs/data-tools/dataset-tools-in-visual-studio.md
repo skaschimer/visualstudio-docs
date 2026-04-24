@@ -44,7 +44,7 @@ helpviewer_keywords:
 - data adapters, populating datasets
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

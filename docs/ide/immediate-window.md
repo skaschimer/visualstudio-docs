@@ -13,7 +13,7 @@ helpviewer_keywords:
 - first-chance exception notifications
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Use the Immediate window

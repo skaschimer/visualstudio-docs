@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumNamedStreams::get_Count method"
 author: "grantri"
 ms.author: "grantri"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

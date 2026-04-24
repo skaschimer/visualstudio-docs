@@ -5,7 +5,7 @@ ms.date: "10/01/2025"
 ms.topic: concept-article
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Remote Debugger Port Assignments

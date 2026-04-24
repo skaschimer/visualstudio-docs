@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: concept-article
 author: dzsquared
 ms.author: drskwier
-ms.manager: wiwagn
+
 ms.subservice: xml-tools
 ---
 # XML editor IntelliSense features

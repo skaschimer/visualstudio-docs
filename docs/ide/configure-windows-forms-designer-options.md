@@ -13,7 +13,7 @@ helpviewer_keywords:
 - layout mode
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ms.custom: awp-ai
 ms.ai-usage: ai-assisted

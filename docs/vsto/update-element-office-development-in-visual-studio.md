@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <update> element"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # &lt;update&gt; element (Office development in Visual Studio)

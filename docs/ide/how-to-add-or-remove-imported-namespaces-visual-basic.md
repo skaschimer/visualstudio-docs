@@ -11,7 +11,7 @@ helpviewer_keywords:
 - references [Visual Studio], imported namespaces
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Add or remove imported namespaces (Visual Basic)

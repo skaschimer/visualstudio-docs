@@ -7,7 +7,7 @@ helpviewer_keywords:
 - item templates [Visual Studio], creating
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to create and use item templates in Visual Studio, so I can easily reuse project items in other projects.

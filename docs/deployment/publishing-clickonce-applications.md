@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], publishing ClickOnce applications"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Publish ClickOnce applications

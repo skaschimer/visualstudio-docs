@@ -11,7 +11,7 @@ helpviewer_keywords:
 - MSBuild, tasks specific to C++
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MSBuild tasks specific to C++

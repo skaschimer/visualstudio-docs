@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Concurrency, diagnostic::marker_series::write_flag method
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # marker_series::write_flag method

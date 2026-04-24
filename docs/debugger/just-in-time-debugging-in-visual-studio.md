@@ -8,7 +8,7 @@ helpviewer_keywords:
   - Just-In-Time debugging
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 
 #customer intent: As a developer, I want to disable the Just-In-Time Debugger dialog in Visual Studio, so I can manually handle errors in my code as app execution continues.

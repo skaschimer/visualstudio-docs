@@ -5,7 +5,7 @@ ms.date: 04/26/2017
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Animations for Visual Studio

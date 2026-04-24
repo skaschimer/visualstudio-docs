@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDebugGenericParamField::ConstraintCount
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -5,7 +5,7 @@ ms.date: 08/21/2024
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Manifest from Resources

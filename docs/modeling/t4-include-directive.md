@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # T4 Include Directive

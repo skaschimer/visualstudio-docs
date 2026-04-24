@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, changing values programmatically
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Change the value of a local

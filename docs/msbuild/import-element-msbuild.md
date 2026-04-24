@@ -14,7 +14,7 @@ helpviewer_keywords:
 - <Import> element [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Import element (MSBuild)

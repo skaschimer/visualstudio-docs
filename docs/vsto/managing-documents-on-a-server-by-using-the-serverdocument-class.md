@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ServerDocument class, managing documents on server"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Manage documents on a server by using the ServerDocument class

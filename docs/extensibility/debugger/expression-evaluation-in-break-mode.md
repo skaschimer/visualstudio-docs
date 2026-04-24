@@ -9,7 +9,7 @@ helpviewer_keywords:
 - expression evaluation, break mode
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Expression evaluation in break mode

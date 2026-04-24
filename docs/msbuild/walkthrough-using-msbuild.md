@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, tutorial
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ms.custom: peer-review-program
 ---

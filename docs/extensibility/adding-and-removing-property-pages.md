@@ -9,7 +9,7 @@ helpviewer_keywords:
 - property pages, removing
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 dev_langs:
 - CSharp

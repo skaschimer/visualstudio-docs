@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, Domain-Specific Language Explorer
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Customizing the Model Explorer

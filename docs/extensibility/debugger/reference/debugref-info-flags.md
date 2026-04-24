@@ -9,7 +9,7 @@ helpviewer_keywords:
 - DEBUGREF_INFO_FLAGS enumeration
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

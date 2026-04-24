@@ -10,7 +10,7 @@ helpviewer_keywords:
 - project templates [Visual Studio]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # What are project and item templates?

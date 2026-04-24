@@ -30,7 +30,7 @@ helpviewer_keywords:
 - Object Browser, icons in Class View
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # View the structure of code by using different tool windows

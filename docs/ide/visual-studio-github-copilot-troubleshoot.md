@@ -6,7 +6,7 @@ ms.update-cycle: 180-days
 ms.topic: troubleshooting-problem-resolution
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: wiwagn
+
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
 ms.custom: ai-learning-hub

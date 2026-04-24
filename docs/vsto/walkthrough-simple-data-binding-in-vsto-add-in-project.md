@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], simple binding data"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Walkthrough: Simple data binding in VSTO Add-in Project

@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "ClickOnce applications, security issues"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments

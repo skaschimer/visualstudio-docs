@@ -8,7 +8,7 @@ f1_keywords:
 - Blend.Start.Dev12
 author: maddymontaquila
 ms.author: maleger
-ms.manager: wiwagn
+
 ms.subservice: xaml-tools
 ---
 

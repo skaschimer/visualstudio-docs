@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Windows Forms, walkthroughs
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 
 #customer intent: I want to know how to pass dataset data between forms in a Windows Forms (.NET Framework) application so that I understand one way to pass data between forms.

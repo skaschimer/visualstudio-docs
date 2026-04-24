@@ -8,7 +8,7 @@ helpviewer_keywords:
 - installation [Visual Studio SDK], file management
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Component management

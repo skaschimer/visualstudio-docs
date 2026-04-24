@@ -7,7 +7,7 @@ helpviewer_keywords:
 - CodeModel object
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Providing Automation for Code

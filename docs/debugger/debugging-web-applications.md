@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "ASP.NET Web pages, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debugging Web Applications

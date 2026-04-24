@@ -8,7 +8,7 @@ ms.custom: vs-acquisition
 ms.topic: tutorial
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.collection: ce-skilling-ai-copilot
 dev_langs:
 - CSharp

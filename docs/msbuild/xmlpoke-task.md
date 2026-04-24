@@ -12,7 +12,7 @@ helpviewer_keywords:
 - MSBuild, XmlPoke task
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # XmlPoke task

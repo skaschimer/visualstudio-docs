@@ -9,7 +9,7 @@ helpviewer_keywords:
 - return values
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Error handling and return values

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control packages, user interface
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Custom user interface (source control VSPackage)

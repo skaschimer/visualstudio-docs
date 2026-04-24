@@ -5,7 +5,7 @@ ms.date: "11/01/2018"
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # GPU usage

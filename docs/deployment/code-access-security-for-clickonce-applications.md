@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "security, ClickOnce"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Code access security for ClickOnce applications

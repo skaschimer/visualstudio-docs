@@ -10,7 +10,7 @@ helpviewer_keywords:
 - .vstemplate files
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ---
 # Visual Studio template schema reference
 

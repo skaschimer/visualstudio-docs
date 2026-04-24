@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], sending events
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Send events

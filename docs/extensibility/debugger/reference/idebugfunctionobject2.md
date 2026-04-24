@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugFunctionObject2 interface
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugFunctionObject2

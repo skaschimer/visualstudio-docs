@@ -6,7 +6,7 @@ ms.subservice: general-ide
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ---
 # BuildProjectOnload element (Visual Studio templates)
 

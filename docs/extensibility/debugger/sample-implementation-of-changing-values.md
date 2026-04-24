@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Sample implementation of changing values

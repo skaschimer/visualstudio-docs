@@ -11,7 +11,7 @@ helpviewer_keywords:
 - IntelliSense [Visual Studio]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # IntelliSense in Visual Studio

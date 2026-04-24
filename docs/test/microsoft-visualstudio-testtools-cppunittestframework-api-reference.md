@@ -4,7 +4,7 @@ description: This article describes the CppUnitTestFramework members, which you 
 ms.date: 09/27/2019
 ms.topic: reference
 ms.author: twhitney
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 author: tylermsft
 ---

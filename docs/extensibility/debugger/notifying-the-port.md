@@ -7,7 +7,7 @@ helpviewer_keywords:
 - ports, notification
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Notify the port

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "MSBuild, logging"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Create forwarding loggers

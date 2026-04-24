@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "base classes, user-defined types"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

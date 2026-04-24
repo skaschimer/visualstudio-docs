@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugFunctionPosition2 interface
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugFunctionPosition2

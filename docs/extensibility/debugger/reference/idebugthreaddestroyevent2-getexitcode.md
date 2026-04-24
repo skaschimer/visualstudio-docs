@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugThreadDestroyEvent2::GetExitCode
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

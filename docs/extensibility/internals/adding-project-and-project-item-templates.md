@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project items [Visual Studio], adding
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Add project and project item templates

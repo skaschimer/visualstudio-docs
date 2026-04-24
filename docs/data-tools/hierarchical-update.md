@@ -18,7 +18,7 @@ helpviewer_keywords:
 - related tables, saving
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

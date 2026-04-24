@@ -5,7 +5,7 @@ ms.date: "11/08/2016"
 ms.topic: how-to
 author: "BertanAygun"
 ms.author: "bertaygu"
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Measuring extension impact in startup

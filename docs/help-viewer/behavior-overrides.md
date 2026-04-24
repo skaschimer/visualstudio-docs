@@ -5,7 +5,7 @@ ms.date: 05/17/2022
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: help-viewer
 ---
 # Override Help Viewer defaults

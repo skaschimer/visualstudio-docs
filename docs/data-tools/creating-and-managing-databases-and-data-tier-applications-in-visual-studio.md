@@ -7,7 +7,7 @@ helpviewer_keywords:
 - databases, managing change
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 #customer intent: As a developer, I want to explore database projects and data-tier applications (DACs) in Visual Studio, so I can create and updated databases and DACs.
 ---

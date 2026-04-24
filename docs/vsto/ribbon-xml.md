@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "customizing the Ribbon, displaying"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Ribbon XML

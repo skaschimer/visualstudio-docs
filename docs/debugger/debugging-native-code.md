@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "native code, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debugging Native Code

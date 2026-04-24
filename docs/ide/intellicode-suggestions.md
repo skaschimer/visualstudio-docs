@@ -7,7 +7,7 @@ ms.topic: concept-article
 description: IntelliCode suggestions
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 # AI assistance while you edit code
 

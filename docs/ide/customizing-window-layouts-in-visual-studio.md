@@ -21,7 +21,7 @@ helpviewer_keywords:
 - custom layouts
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a Visual Studio user, I want to learn how to customize tabs and windows in Visual Studio to create layouts that work best for my development workflows.

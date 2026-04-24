@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "remote debugging, notification error"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Error: Unable to Automatically Step Into the Server

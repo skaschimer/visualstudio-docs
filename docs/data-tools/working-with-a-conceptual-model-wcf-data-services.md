@@ -9,7 +9,7 @@ helpviewer_keywords:
 - data [Visual Studio], querying an EDM
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

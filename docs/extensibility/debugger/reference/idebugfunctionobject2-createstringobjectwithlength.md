@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDebugFunctionObject2::CreateStringObjectWithLength
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

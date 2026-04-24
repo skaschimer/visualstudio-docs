@@ -5,7 +5,7 @@ ms.date: 08/19/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Troubleshoot profiling errors and fix issues

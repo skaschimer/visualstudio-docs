@@ -12,7 +12,7 @@ helpviewer_keywords:
 - code snippets, imports
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 dev_langs:
 - CSharp

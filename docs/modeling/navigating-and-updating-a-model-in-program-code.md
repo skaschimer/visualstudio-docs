@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Navigate and Update a Model in Program Code

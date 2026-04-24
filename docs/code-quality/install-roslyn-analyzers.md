@@ -3,7 +3,7 @@ title: Install external analyzers
 description: Learn how to install external analyzers in Visual Studio. Install analyzers with NuGet analyzer packages and as a VSIX extension.
 author: mikadumont
 ms.author: midumont
-ms.manager: wiwagn
+
 ms.subservice: code-analysis
 ms.topic: install-set-up-deploy
 helpviewer_keywords:

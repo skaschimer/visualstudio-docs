@@ -7,7 +7,7 @@ helpviewer_keywords:
 - tests and requirements
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Develop tests from a model

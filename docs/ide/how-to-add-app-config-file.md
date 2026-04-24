@@ -9,7 +9,7 @@ helpviewer_keywords:
 - app.config files, adding to C# projects
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 #customer intent:  As a developer, I want to know how to add an application configuration file to my projects so that I can customize how the common language runtime locates and loads assembly files.
 ---

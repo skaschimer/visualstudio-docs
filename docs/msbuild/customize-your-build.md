@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Directory.Build.targets
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ai-usage: ai-assisted
 ms.custom: awp-ai

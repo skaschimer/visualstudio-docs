@@ -8,7 +8,7 @@ f1_keywords:
 - VS.BookmarkWindow
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Bookmark code in Visual Studio

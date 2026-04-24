@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "_DEBUG macro"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Enabling Debug Features in C++ projects (/D_DEBUG)

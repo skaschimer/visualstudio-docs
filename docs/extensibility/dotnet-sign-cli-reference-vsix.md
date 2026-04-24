@@ -14,7 +14,7 @@ helpviewer_keywords:
 - dotnet
 author: javierdlg
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ms.date: 04/11/2024
 ---

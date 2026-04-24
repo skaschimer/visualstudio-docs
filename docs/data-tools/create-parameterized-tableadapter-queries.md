@@ -15,7 +15,7 @@ helpviewer_keywords:
 - queries [Visual Studio], TableAdapters
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

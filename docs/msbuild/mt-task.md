@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MT task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MT task

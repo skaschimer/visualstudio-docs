@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "what's new [Visual Studio]"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ms.topic: whats-new
 ---

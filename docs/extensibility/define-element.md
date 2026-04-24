@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Define element (VSCT XML schema)
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Define element

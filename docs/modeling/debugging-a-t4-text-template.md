@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, debugging
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Debugging a T4 Text Template

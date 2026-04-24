@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project systems, environment-defined commands
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # IDE-Defined Commands for Extending Project Systems

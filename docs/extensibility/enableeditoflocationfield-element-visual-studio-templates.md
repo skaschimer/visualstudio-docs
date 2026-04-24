@@ -9,7 +9,7 @@ helpviewer_keywords:
 - EnableEditOfLocationField (Visual Studio project templates)
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ---
 # EnableEditOfLocationField element (Visual Studio templates)
 

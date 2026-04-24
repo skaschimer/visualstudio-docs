@@ -7,7 +7,7 @@ dev_langs:
 - CPP
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

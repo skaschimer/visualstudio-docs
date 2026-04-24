@@ -12,7 +12,7 @@ helpviewer_keywords:
 - <Item> Element [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Item element (MSBuild)

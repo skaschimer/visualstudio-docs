@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "<assembly> element [ClickOnce deployment manifest]"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # &lt;assembly&gt; element (ClickOnce deployment)

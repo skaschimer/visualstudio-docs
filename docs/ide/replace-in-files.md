@@ -12,7 +12,7 @@ helpviewer_keywords:
 - replace in files
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 # customer intent: As a developer, I want to learn about the Replace in Files feature so that I can search code and make changes. 

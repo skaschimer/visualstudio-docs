@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, GetFrameworkSdkPath task
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # GetFrameworkSdkPath task

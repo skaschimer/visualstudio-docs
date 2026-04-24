@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugArrayObject method
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugArrayObject

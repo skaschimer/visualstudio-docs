@@ -5,7 +5,7 @@ ms.date: 03/29/2019
 ms.topic: whats-new
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # What's New in the Visual Studio 2019 SDK

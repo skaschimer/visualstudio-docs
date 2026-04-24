@@ -9,7 +9,7 @@ helpviewer_keywords:
 - AD_PROCESS_ID union
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

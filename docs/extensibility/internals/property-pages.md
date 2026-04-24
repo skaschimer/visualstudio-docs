@@ -9,7 +9,7 @@ helpviewer_keywords:
 - property pages, changing configuration options
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Property Pages

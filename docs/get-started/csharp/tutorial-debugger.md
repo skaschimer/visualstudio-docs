@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "debugger"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.update-cycle: 90-days
 
 #customer intent: As a developer, I want to understand the basics of debugging using Visual Studio.

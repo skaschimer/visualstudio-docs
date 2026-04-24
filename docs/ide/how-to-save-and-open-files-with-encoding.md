@@ -12,7 +12,7 @@ helpviewer_keywords:
 - file encoding, bidirectional languages
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to save and open files with specific encoding in Visual Studio, so I can ensure my files open correctly.

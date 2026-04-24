@@ -9,7 +9,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], file persistence
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Opening and Saving Project Items

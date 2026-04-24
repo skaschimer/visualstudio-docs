@@ -13,7 +13,7 @@ helpviewer_keywords:
   - tutorials, multithreaded debugging
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Get started debugging multithreaded applications (C#, Visual Basic, C++)

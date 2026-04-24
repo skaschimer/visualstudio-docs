@@ -9,7 +9,7 @@ helpviewer_keywords:
 - application icons [Visual Studio]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to specify an icon for my application so that users see the icon in the taskbar and File Explorer.

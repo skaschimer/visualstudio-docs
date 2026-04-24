@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Debugging SDK, getting started
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Get started with debugger extensibility

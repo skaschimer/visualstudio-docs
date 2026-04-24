@@ -5,7 +5,7 @@ ms.date: 11/3/2025
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: wiwagn
+
 ms.subservice: installation
 ---
 # Command-line parameter examples for Visual Studio installation

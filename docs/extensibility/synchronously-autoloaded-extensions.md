@@ -5,7 +5,7 @@ ms.date: 12/11/2019
 ms.topic: concept-article
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Synchronously autoloaded extensions

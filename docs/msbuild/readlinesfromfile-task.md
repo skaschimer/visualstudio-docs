@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ReadLinesFromFile task [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # ReadLinesFromFile task

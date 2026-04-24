@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "IManagedAddin interface"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # IManagedAddin interface

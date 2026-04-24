@@ -8,7 +8,7 @@ helpviewer_keywords:
 - walkthroughs [Domain-Specific Language Tools]
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Add a command to the shortcut menu

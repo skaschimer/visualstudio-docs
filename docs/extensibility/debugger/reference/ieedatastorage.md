@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEEDataStorage interface
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IEEDataStorage

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, overriding event handlers
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Domain property value change handlers

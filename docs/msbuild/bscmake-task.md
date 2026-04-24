@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BscMake task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # BscMake task

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "data, adding to documents"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Populate documents with data from a database

@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Debug.SetCurrentThread command"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Set Current Thread Command

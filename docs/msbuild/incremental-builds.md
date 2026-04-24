@@ -3,7 +3,7 @@ title: Incremental builds in MSBuild
 description: Explore the incremental build feature in MSBuild, which produces builds that are optimized so up-to-date output files aren't executed.
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ms.topic: concept-article
 ms.date: 04/17/2026

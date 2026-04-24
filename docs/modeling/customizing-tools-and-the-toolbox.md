@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Domain-Specific Language, toolbox
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Customizing Tools and the Toolbox

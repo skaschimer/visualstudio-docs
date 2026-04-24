@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "database, profiling"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Analyze database performance using the Database tool

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSPackages, side-by-side compatibility
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Supporting Multiple Versions of Visual Studio

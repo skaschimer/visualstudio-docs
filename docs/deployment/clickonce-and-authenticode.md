@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, security"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # ClickOnce and Authenticode

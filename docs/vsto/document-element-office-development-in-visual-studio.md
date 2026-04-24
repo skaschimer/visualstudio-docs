@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "<document> element"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # &lt;document&gt; element (Office development in Visual Studio)

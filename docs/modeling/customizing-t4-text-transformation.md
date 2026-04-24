@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, custom hosts
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Customize T4 Text Transformation

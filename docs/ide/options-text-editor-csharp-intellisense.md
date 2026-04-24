@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a C# developer, I want to configure IntelliSense options so that I can customize code completion behavior to match my coding preferences.

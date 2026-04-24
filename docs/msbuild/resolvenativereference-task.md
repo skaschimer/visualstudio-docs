@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ResolveNativeReference task [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # ResolveNativeReference task

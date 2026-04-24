@@ -9,7 +9,7 @@ helpviewer_keywords:
 - BP_LOCATION_DATA_STRING structure
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

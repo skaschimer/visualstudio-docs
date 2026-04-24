@@ -5,7 +5,7 @@ ms.date: 3/16/2019
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Create an extension with a VSPackage

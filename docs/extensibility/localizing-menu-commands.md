@@ -12,7 +12,7 @@ helpviewer_keywords:
 - localize vsct
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Localize menu commands

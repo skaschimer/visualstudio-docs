@@ -11,7 +11,7 @@ helpviewer_keywords:
 - metrics [Debugging SDK]
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # SDK Helpers for Debugging

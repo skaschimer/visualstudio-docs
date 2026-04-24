@@ -5,7 +5,7 @@ ms.date: 04/21/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp

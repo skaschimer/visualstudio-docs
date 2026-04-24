@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, MSBuild properties"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: sharepoint-development
 ---
 # MsBuild properties supported by SharePoint

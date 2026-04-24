@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "WPF MSBuild task reference [WPF MSBuild]"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # WPF MSBuild task reference

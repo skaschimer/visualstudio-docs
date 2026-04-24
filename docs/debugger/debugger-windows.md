@@ -5,7 +5,7 @@ ms.date: "07/14/2023"
 ms.topic: concept-article
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Inspect data using debugger windows in Visual Studio

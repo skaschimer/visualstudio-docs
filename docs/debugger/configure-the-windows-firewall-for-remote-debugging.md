@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.debug.firewallconfiguration"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

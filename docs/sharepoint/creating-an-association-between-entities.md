@@ -19,7 +19,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], associate external content types"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: sharepoint-development
 ---
 # Associations between entities

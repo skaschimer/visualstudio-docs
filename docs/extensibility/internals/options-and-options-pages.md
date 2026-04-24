@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], attributes
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Options and Options Pages

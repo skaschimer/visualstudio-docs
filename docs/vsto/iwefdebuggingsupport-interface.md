@@ -10,7 +10,7 @@ f1_keywords:
   - IWefDebuggingSupport
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # IWefDebuggingSupport interface

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <CreateInPlace> element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ---
 # CreateInPlace element (Visual Studio templates)
 

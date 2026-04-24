@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "text searches, worksheets"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically search for Text in worksheet ranges

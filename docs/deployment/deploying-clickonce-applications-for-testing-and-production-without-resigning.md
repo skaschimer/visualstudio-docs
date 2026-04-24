@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Deploy ClickOnce applications for testing and production servers without resigning

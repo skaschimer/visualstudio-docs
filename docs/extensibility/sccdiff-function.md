@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccDiff function
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # SccDiff function

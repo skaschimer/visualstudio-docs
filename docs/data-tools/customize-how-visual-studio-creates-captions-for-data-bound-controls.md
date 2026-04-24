@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Data Sources Window, label captions
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

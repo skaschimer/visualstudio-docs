@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Hidden element [Visual Studio project template]
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ---
 # Hidden element (Visual Studio templates)
 

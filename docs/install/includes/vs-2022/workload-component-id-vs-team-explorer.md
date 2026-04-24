@@ -5,7 +5,7 @@ description: "Use Visual Studio workload and component IDs to provide integrated
 keywords:
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: wiwagn
+
 ms.date: 05/13/2025
 
 ms.subservice: installation

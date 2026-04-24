@@ -8,7 +8,7 @@ helpviewer_keywords:
 - watch expressions
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Evaluate a watch expression

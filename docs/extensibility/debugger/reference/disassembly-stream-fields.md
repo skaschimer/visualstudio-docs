@@ -9,7 +9,7 @@ helpviewer_keywords:
 - DISASSEMBLY_STREAM_FIELDS enumeration
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ms.custom: sfi-ropc-nochange
 dev_langs:

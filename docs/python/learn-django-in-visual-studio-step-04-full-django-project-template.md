@@ -6,7 +6,7 @@ ms.date: 04/18/2024
 ms.topic: tutorial
 author: Devdiv-VR
 ms.author: vedhar
-ms.manager: wiwagn
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Django applications in Visual Studio so I can use features of the full Django Web Project template, including access to static JavaScript libraries.

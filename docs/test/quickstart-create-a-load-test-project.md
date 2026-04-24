@@ -7,7 +7,7 @@ helpviewer_keywords:
 - load testing, quickstart
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 ---
 # Create a load test project

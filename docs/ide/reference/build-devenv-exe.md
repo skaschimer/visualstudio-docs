@@ -11,7 +11,7 @@ helpviewer_keywords:
 - command-line builds
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # /Build (devenv.exe)

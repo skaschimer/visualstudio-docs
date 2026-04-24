@@ -5,7 +5,7 @@ ms.date: 02/26/2026
 ms.topic: reference
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ai-usage: ai-assisted
 ms.custom: awp-ai

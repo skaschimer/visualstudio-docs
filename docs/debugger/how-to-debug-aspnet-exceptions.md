@@ -14,7 +14,7 @@ helpviewer_keywords:
   - exceptions, ASP.NET
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debug ASP.NET Exceptions

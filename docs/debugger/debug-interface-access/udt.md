@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "structs [C++]"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # UDT

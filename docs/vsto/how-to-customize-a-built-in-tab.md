@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "built-in tabs [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Customize a built-in tab

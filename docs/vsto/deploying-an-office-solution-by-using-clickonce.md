@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "ClickOnce deployment [Office development in Visual Studio], deploying solutions"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Deploy an Office solution by using ClickOnce

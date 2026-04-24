@@ -19,7 +19,7 @@ helpviewer_keywords:
   - threading [Visual Studio], names
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Tips for debugging threads

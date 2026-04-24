@@ -4,7 +4,7 @@ description: Learn how to develop a tested method in C# using Microsoft Test Fra
 ms.date: 12/11/2025
 ms.topic: how-to
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 author: mikejo5000
 ---

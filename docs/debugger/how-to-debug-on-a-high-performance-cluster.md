@@ -13,7 +13,7 @@ helpviewer_keywords:
   - high-performance debugging
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debug On a High-Performance Cluster (C#, Visual Basic, C++)

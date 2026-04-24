@@ -9,7 +9,7 @@ helpviewer_keywords:
 - commands [Visual Studio], adding icons
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Add icons to menu commands

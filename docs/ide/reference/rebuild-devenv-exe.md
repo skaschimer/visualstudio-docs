@@ -11,7 +11,7 @@ helpviewer_keywords:
 - applications [Visual Studio], rebuilding
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # /Rebuild (devenv.exe)

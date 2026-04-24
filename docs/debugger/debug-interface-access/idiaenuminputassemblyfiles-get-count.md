@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumInputAssemblyFiles::get_Count method"
 author: "grantri"
 ms.author: "grantri"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

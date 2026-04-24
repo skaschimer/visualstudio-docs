@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugEngine3::LoadSymbols
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

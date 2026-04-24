@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # MSI and VSIX Deployment of a DSL

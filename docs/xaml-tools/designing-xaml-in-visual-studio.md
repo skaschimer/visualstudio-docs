@@ -6,7 +6,7 @@ ms.date: 11/26/2025
 ms.topic: concept-article
 author: maddymontaquila
 ms.author: maleger
-ms.manager: wiwagn
+
 ms.subservice: xaml-tools
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio

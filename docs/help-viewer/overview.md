@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "toolbar [Help Viewer]"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: help-viewer
 ---
 # What is the Microsoft Help Viewer? 

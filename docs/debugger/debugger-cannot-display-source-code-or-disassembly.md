@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "disassembly code, errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debugger Cannot Display Source Code or Disassembly

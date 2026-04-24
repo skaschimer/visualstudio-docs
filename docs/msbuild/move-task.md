@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Move task [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Move task

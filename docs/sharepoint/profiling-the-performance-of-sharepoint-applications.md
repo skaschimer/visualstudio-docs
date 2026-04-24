@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: sharepoint-development
 ---
 # Profile the performance of SharePoint applications

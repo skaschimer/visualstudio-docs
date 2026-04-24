@@ -5,7 +5,7 @@ ms.date: 02/02/2024
 ms.topic: overview
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Install the Visual Studio SDK

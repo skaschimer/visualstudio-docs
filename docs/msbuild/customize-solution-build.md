@@ -8,7 +8,7 @@ helpviewer_keywords:
 - transforms [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 
 #customer intent: As a builder, I want to know how to customize MSBuild solution builds, so I can extend solution builds with files and settings that affect different subsets of files.

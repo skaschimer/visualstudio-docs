@@ -6,7 +6,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Access Visual Studio or other hosts from a text template

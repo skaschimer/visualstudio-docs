@@ -7,7 +7,7 @@ helpviewer_keywords:
 - profile settings, creating categories
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Create a settings category

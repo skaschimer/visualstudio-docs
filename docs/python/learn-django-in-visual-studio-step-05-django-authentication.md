@@ -6,7 +6,7 @@ ms.date: 04/18/2024
 ms.topic: tutorial
 author: Devdiv-VR
 ms.author: vedhar
-ms.manager: wiwagn
+
 ms.subservice: python
 ms.custom: sfi-image-nochange
 

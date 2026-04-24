@@ -12,7 +12,7 @@ helpviewer_keywords:
 - CombinePath task [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # CombinePath task

@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 author: "tylermsft"
 ms.author: "twhitney"
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Visual Studio C++ Project system extensibility and build tools integration

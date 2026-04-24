@@ -8,7 +8,7 @@ helpviewer_keywords:
 - extension schema
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # VSIX extension schema 2.0 reference

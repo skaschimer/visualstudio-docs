@@ -8,7 +8,7 @@ helpviewer_keywords:
 - file name extensions
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # About file name extensions

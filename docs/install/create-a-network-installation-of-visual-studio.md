@@ -8,7 +8,7 @@ helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: wiwagn
+
 ms.subservice: installation
 ---
 # Create and maintain a network installation of Visual Studio

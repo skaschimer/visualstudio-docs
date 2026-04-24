@@ -11,7 +11,7 @@ dev_langs:
 - C++
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Diagnose MSBuild task failures

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugger [Debugging SDK], launching
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Launch the debugger

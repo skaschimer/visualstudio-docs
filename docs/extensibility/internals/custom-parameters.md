@@ -8,7 +8,7 @@ helpviewer_keywords:
 - custom parameters
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Custom parameters

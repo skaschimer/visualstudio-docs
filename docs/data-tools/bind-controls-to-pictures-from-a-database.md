@@ -14,7 +14,7 @@ helpviewer_keywords:
 - images [Visual Basic], dragging from Data Sources window
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

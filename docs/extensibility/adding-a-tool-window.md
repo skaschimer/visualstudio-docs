@@ -8,7 +8,7 @@ helpviewer_keywords:
 - tool windows
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Add a tool window

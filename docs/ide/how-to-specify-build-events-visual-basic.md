@@ -15,7 +15,7 @@ f1_keywords:
 - vb.ProjectPropertiesBuildEventsBuilder
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 # Specify build events (Visual Basic)
 

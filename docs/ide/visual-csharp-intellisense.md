@@ -3,7 +3,7 @@ title: Use C# IntelliSense for quick access while coding
 description: Explore IntelliSense features that you can use while coding your C# project for quick access to variables, commands, functions, language keywords, and more. Learn about completion lists and automatic code generation.  
 author: mikadumont
 ms.author: midumont
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ms.topic: how-to
 helpviewer_keywords:

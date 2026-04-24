@@ -9,7 +9,7 @@ helpviewer_keywords:
 - essentials, Source Control Integration
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Source Control Integration Essentials

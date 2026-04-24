@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <appAddin> element"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # &lt;appAddin&gt; element (Office development in Visual Studio)

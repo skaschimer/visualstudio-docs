@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "troubleshooting Web applications"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debugging Web Applications: Errors and Troubleshooting

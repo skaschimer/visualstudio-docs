@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "symbols [DIA SDK], type hierarchies"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Lexical Hierarchy of Symbol Types

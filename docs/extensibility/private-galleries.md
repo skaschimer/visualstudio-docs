@@ -8,7 +8,7 @@ helpviewer_keywords:
 - private galleries, VSIX
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Private galleries

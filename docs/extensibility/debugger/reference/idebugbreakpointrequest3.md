@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugBreakpointRequest3
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugBreakpointRequest3

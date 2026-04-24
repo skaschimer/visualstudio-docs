@@ -8,7 +8,7 @@ helpviewer_keywords:
 - msi files, VSPackages
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Author a Windows Installer package

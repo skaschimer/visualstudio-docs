@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], opening standard editors
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Open standard editors

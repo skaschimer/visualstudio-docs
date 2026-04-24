@@ -12,7 +12,7 @@ helpviewer_keywords:
 - CreateCSharpManifestResourceName task [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # CreateCSharpManifestResourceName task

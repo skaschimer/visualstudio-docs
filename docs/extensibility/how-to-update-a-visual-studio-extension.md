@@ -9,7 +9,7 @@ helpviewer_keywords:
 - new package version
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Update a Visual Studio extension

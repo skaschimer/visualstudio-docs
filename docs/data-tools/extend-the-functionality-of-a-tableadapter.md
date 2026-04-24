@@ -12,7 +12,7 @@ helpviewer_keywords:
 - TableAdapters, adding functionality
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

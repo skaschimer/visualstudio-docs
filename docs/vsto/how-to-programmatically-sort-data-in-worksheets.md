@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "sorting data, in worksheets"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically sort data in worksheets

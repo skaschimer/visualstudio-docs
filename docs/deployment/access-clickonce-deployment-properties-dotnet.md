@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment properties, ClickOnce for .NET 5+"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ---

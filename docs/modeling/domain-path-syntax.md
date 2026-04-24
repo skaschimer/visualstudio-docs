@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, domain path
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Domain Path Syntax

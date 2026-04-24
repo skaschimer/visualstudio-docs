@@ -5,7 +5,7 @@ ms.date: 11/20/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Troubleshoot COM references
