@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "casting, object to specific type"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Late binding in Office solutions

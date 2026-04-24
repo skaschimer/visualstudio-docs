@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IntelliSense [Visual Studio], Visual Basic
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # IntelliSense for Visual Basic code files

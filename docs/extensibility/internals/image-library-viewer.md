@@ -5,7 +5,7 @@ ms.date: 08/21/2024
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Image Library Viewer

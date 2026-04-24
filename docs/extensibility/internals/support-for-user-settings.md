@@ -9,7 +9,7 @@ helpviewer_keywords:
 - persistence, registering settings
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Support for User Settings

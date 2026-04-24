@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Visual Studio themes, upgrading
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 monikerRange: visualstudio
 ---

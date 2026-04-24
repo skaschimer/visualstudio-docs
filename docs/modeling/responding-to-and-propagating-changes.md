@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, events
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Respond to and propagate changes

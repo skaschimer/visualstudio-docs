@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Visual Studio, executables from
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Shell Command

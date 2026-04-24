@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Display URLs as Links in the Editor

@@ -26,7 +26,7 @@ helpviewer_keywords:
   - "debugger"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)

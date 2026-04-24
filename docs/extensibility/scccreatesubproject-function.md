@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccCreateSubProject function
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # SccCreateSubProject function

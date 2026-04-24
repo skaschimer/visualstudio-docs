@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], custom XML parts"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Add custom XML parts to document-level customizations

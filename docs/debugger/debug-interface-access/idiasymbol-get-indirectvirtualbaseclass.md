@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_indirectVirtualBaseClass method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

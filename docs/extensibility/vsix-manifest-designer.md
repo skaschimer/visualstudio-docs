@@ -11,7 +11,7 @@ helpviewer_keywords:
 - manifest designer
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # VSIX Manifest Designer

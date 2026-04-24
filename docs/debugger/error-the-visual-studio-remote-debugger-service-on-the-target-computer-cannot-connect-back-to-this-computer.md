@@ -13,7 +13,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer

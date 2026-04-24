@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # ClickOnce deployment and security

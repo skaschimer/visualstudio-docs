@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "async applications, debugging [C#]"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---

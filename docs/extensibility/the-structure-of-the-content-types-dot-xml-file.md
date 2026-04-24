@@ -10,7 +10,7 @@ helpviewer_keywords:
 - vsix
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # The Structure of the [Content_types].xml File

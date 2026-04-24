@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugDocumentText2::GetText
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

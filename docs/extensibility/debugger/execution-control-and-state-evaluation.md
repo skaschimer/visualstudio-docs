@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, control of execution
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Execution control and state evaluation

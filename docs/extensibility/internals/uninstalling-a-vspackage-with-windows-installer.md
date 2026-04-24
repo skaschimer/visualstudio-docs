@@ -9,7 +9,7 @@ helpviewer_keywords:
 - uninstalling VSPackages
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Uninstalling a VSPackage With Windows Installer

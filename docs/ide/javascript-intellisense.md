@@ -27,7 +27,7 @@ helpviewer_keywords:
 - XML documentation comments [JavaScript]
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # JavaScript IntelliSense
 

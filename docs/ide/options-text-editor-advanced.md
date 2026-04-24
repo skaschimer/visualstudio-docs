@@ -14,7 +14,7 @@ ms.custom: "awp, ide-ref"
 ai-usage: ai-assisted
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 monikerRange: '>=vs-2022'
 #customer intent: As a Visual Studio user, I want to configure advanced Text Editor options so that I can customize editor behavior, performance, and display settings to match my preferences.

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "xaml hot reload"
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: xaml-tools
 monikerRange: ">=vs-2022"
 ---

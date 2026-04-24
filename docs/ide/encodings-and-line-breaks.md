@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Visual Studio, line break characters
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to understand how Visual Studio interprets line breaks and separators so I can ensure my desired encoding and line breaks are maintained.

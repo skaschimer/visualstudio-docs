@@ -10,7 +10,7 @@ helpviewer_keywords:
 - views [Visual Studio SDK], reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # VSTextView object

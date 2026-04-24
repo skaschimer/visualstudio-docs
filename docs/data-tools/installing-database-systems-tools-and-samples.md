@@ -9,7 +9,7 @@ helpviewer_keywords:
 - databases for Visual Studio
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

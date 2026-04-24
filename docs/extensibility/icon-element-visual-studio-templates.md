@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Icon element [Visual Studio project templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # Icon element (Visual Studio templates)
 

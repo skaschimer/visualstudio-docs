@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Evaluate Statement command

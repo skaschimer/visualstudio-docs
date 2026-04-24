@@ -10,7 +10,7 @@ helpviewer_keywords:
 - CustomParameters element [Visual Studio project templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # CustomParameters element (Visual Studio templates)
 

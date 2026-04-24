@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Debugging SDK, roadmap
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Roadmap for extending the debugger

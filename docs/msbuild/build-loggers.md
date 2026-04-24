@@ -9,7 +9,7 @@ helpviewer_keywords:
 - logging [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Create a build logger

@@ -39,7 +39,7 @@ helpviewer_keywords:
   - "VST.Designer.ExcelVST.Designer.Word"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Office projects in the Visual Studio environment

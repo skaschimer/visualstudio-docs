@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "workbooks, running calculations"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Programmatically run Excel calculations

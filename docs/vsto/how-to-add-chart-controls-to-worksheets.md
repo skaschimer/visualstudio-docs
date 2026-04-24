@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Add Chart controls to worksheets

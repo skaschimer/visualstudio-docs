@@ -3,7 +3,7 @@ title: Customize Roslyn analyzer rules
 description: Learn how to customize Roslyn analyzer rules by adjusting analyzer severities, suppressing violations, and designating files as generated code.
 author: mikadumont
 ms.author: midumont
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: code-analysis
 ms.topic: how-to
 helpviewer_keywords:

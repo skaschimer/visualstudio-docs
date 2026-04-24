@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, Include
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Include element

@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Properties of Domain Properties

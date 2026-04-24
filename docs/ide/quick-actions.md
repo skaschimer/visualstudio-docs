@@ -8,7 +8,7 @@ ms.custom: awp-ai
 ai-usage: ai-assisted
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 dev_langs:
 - CSharp

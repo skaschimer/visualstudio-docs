@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ResolveNonMSBuildProjectOutput task [MSBuild]"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # ResolveNonMSBuildProjectOutput task

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - msbuild.exe
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # MSBuild command-line reference

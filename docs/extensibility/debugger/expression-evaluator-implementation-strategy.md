@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debug engines, implementation strategies
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Expression evaluator implementation strategy

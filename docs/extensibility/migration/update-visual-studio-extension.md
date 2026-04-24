@@ -5,7 +5,7 @@ ms.date: 11/5/2025
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 monikerRange: ">=vs-2022"
 

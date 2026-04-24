@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], custom - single and multi-tab views
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Single and Multi-tab Views

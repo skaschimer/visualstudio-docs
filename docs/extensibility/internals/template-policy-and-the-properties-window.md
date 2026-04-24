@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Properties window, template policy
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Template Policy and the Properties Window

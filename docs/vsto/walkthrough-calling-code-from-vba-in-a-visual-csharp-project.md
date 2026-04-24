@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], calling code"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Walkthrough: Call code from VBA in a Visual C# project

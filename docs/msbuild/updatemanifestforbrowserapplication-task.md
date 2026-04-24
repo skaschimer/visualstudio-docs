@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "UpdateManifestForBrowserApplication task [WPF MSBuild], parameters"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # UpdateManifestForBrowserApplication task

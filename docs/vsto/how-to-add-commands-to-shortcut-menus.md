@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, context menus"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Add commands to shortcut menus

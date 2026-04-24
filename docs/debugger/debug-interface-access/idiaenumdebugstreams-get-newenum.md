@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams::get__NewEnum method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - services, consuming
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Get a service

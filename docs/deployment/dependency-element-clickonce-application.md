@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "<dependency> element [ClickOnce application manifest]"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # &lt;dependency&gt; element (ClickOnce application)

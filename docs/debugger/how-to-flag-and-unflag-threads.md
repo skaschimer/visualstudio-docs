@@ -12,7 +12,7 @@ helpviewer_keywords:
   - treads, switching [debugging]
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Flag and Unflag Threads (C#, Visual Basic, C++)

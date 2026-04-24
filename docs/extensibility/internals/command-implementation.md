@@ -7,7 +7,7 @@ helpviewer_keywords:
 - commands, implementation
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Command implementation

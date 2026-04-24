@@ -10,7 +10,7 @@ helpviewer_keywords:
 - /Deploy Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # /Deploy (devenv.exe)

@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.debug.error.process_exit_during_func_eval"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Error: The target process exited with code &#39;code&#39; while evaluating the function &#39;function&#39;

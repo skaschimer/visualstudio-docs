@@ -5,7 +5,7 @@ description: "Use Visual Studio workload and component IDs to build classic Wind
 keywords:
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 ms.date: 08/10/2021
 
 ms.subservice: installation

@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Visual Studio installer
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: installation
 
 #customer intent: As a developer, I want to install Visual Studio with the features I will need so that I can control the installation footprint. 

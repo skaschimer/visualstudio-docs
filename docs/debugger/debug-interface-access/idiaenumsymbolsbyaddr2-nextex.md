@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr2::NextEx method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

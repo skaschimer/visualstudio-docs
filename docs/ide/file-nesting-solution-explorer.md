@@ -8,7 +8,7 @@ helpviewer_keywords:
  - "Solution Explorer, file nesting"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # File nesting in Solution Explorer

@@ -7,7 +7,7 @@ helpviewer_keywords:
   - unit tests, process architecture
   - unit tests, 64-bit process
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: test-tools
 author: mikejo5000
 ---

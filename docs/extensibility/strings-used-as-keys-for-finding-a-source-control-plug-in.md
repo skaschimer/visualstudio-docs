@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, strings used for finding
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in

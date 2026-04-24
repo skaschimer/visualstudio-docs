@@ -15,7 +15,7 @@ helpviewer_keywords:
   - ClickOnce deployment, re-signing setup.exe
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Sign setup files with SignTool.exe (ClickOnce)

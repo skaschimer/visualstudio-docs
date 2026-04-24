@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Diff Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # /Diff (devenv.exe)

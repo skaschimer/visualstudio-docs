@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.subservice: compile-build
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # Set multiple startup projects
 

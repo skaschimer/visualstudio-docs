@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create an SDK using JavaScript

@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to know how to toggle line numbers in my code so that I can use the numbers as a reference.

@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: get-started
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Get Started with Domain-Specific Languages

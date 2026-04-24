@@ -18,7 +18,7 @@ helpviewer_keywords:
 - dependency graphs, assigning categories and properties
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Customize code maps by editing the DGML files

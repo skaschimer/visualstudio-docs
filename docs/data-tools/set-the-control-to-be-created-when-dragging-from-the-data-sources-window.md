@@ -10,7 +10,7 @@ helpviewer_keywords:
 - data [Visual Studio], Data Sources window
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

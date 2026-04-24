@@ -9,7 +9,7 @@ helpviewer_keywords:
 - .NET Framework targeting [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ms.custom: awp-ai
 ---

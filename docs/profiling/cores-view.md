@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Cores View

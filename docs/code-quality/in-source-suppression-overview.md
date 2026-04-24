@@ -3,7 +3,7 @@ title: Suppress code analysis violations
 description: Learn how to suppress code analysis violations in Visual Studio from the code editor and Error List window. Understand how to create a global suppression file and use the SuppressMessageAttribute attribute for in-source suppression.
 author: mikadumont
 ms.author: midumont
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: code-analysis
 ms.topic: how-to
 helpviewer_keywords:

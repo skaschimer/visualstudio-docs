@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], new -
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Extend the editor and language services

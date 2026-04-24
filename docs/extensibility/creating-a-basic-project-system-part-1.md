@@ -9,7 +9,7 @@ helpviewer_keywords:
 - tutorial
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Create a basic project system, part 1

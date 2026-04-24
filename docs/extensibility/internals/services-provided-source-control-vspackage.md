@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control packages, services
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Services Provided (Source Control VSPackage)

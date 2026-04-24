@@ -9,7 +9,7 @@ f1_keywords:
   - vs.csharp.refactoring.extractinterface
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 dev_langs:
   - CSharp

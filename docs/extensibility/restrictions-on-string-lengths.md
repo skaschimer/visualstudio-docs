@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, restrictions on string lengths
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Restrictions on string lengths

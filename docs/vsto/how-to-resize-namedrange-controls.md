@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ranges, resizing in Excel"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Resize NamedRange controls

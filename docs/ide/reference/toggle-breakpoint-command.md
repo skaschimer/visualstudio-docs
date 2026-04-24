@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Toggle Breakpoint command
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Toggle Breakpoint Command

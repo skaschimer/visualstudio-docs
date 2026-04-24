@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ProjectCollection element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # ProjectCollection element (Visual Studio templates)
 

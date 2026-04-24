@@ -11,7 +11,7 @@ helpviewer_keywords:
 - MSBuild, file schema
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # MSBuild project file schema reference

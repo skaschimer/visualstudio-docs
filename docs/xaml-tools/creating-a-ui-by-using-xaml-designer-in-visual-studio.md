@@ -11,7 +11,7 @@ f1_keywords:
 ms.devlang: csharp
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: xaml-tools
 ---
 # Create a UI by using XAML Designer

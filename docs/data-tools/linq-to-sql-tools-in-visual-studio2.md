@@ -5,7 +5,7 @@ ms.date: 12/03/2024
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

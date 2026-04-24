@@ -11,7 +11,7 @@ helpviewer_keywords:
 - relationships, datasets
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

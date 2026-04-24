@@ -11,7 +11,7 @@ helpviewer_keywords:
 - data [Visual Studio], creating table adapters
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 #customer intent: As a developer, I want to create an ADO.NET TableAdapter in my .NET Framework app, so I can enable communication between my app and a database.
 ---

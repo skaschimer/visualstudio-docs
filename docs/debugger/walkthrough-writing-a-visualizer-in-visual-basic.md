@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "walkthroughs [Visual Studio], visualizers"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic

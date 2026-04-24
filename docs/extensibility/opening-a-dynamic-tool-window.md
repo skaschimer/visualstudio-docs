@@ -7,7 +7,7 @@ helpviewer_keywords:
 - tool windows, dynamic
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Open a dynamic tool window

@@ -5,7 +5,7 @@ ms.date: 03/12/2026
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange

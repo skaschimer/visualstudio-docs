@@ -7,7 +7,7 @@ helpviewer_keywords:
 - msbuild, msbuild properties
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Compare properties and items

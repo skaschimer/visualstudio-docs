@@ -10,7 +10,7 @@ helpviewer_keywords:
 - updating templates [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to learn how to edit project and item templates in Visual Studio, so I can easily keep my templates up to date.

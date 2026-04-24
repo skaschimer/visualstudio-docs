@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debug engines, attaching to programs
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Attach directly to a program

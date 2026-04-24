@@ -5,7 +5,7 @@ ms.date: 05/16/2018
 ms.topic: how-to
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Code maps for C++ projects

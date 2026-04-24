@@ -17,7 +17,7 @@ helpviewer_keywords:
 - Find in Files tab, Find and Replace window
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Find in Files

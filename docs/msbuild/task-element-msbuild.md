@@ -12,7 +12,7 @@ helpviewer_keywords:
 - <Task> element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Task element of Target (MSBuild)

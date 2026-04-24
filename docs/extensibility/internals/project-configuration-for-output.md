@@ -7,7 +7,7 @@ helpviewer_keywords:
 - project configurations, output
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Project Configuration for Output

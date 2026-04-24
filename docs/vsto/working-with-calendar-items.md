@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "e-mail [Office development in Visual Studio], calendars"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Work with calendar items

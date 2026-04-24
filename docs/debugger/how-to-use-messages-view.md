@@ -11,7 +11,7 @@ helpviewer_keywords:
   - logs, starting message log display
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

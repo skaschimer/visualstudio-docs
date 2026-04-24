@@ -7,7 +7,7 @@ helpviewer_keywords:
 - dependency diagrams
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Validate your system during development

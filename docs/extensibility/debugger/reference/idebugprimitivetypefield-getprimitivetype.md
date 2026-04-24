@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDebugPrimitiveTypeField::GetPrimitiveType
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

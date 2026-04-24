@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], adding new types
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Project Types

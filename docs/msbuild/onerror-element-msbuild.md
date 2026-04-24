@@ -14,7 +14,7 @@ helpviewer_keywords:
 - <OnError Element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # OnError element (MSBuild)

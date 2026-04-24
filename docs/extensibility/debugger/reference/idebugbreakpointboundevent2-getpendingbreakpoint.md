@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

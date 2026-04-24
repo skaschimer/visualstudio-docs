@@ -7,7 +7,7 @@ f1_keywords:
   - "vs.graphics"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Visual Studio Graphics Diagnostics

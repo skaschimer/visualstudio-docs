@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Walkthrough: Create your first document-level customization for Excel

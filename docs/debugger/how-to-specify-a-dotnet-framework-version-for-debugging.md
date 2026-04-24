@@ -13,7 +13,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], specifying .NET Framework version
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Specify an older .NET Framework version for debugging (C#, Visual Basic, F#)

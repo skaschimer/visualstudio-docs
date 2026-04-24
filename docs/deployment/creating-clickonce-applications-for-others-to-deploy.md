@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "ClickOnce applications, previous .NET Framework"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Create ClickOnce applications for others to deploy

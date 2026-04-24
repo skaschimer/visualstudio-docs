@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords:
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # IManagedAddin::Load

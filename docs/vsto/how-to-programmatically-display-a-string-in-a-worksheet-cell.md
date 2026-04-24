@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "worksheets, displaying text in cells"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Programmatically display a string in a worksheet cell

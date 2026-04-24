@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debug engines
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Debug engine

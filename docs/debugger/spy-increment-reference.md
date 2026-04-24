@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Spy++ reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

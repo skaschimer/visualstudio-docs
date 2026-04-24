@@ -8,7 +8,7 @@ helpviewer_keywords:
 - UML diagrams, saving
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Share models and exporting diagrams

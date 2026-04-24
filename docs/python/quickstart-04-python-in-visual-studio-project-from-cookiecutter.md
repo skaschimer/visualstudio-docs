@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: quickstart
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Python projects in Visual Studio with boilerplate code from Cookiecutter templates.

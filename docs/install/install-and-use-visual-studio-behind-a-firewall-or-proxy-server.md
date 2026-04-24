@@ -10,7 +10,7 @@ helpviewer_keywords:
 - list of domains, locations, URLs
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: installation
 #customer intent: As a developer using Visual Studio behind my organization's firewall or proxy server, I want to know which domains to add to my allowlist.
 ---

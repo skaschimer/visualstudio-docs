@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project models, services
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Project Model Core Components

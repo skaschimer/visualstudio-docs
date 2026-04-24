@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugTypeFieldBuilder interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IDebugTypeFieldBuilder

@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "build verbosity"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ai-usage: ai-assisted
 ms.custom: awp-ai
 ---

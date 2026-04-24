@@ -5,7 +5,7 @@ ms.date: 11/26/2025
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 #customer intent: As a Visual Studio user, I want to enable and configure XAML Designer options so that I can work more efficiently with XAML documents.
 ---

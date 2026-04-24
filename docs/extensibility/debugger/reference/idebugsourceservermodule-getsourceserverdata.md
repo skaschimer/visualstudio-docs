@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugSourceServerModule::GetSourceServerData
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

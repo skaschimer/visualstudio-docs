@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control packages, about source control packages
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Determine whether to implement a source control VSPackage

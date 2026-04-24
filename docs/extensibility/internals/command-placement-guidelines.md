@@ -9,7 +9,7 @@ helpviewer_keywords:
 - command sets
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Command placement guidelines

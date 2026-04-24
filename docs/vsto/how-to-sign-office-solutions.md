@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "signing manifests [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Sign Office solutions

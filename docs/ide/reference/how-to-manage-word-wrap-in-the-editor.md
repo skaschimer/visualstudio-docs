@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 #customer intent: As a developer, I want to turn word wrap on or off to improve usability of Visual Studio in writing code in different situations.
 ---

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, reserved XML characters
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Use reserved XML characters in project files

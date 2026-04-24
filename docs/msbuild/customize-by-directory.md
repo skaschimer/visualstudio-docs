@@ -11,7 +11,7 @@ helpviewer_keywords:
 - customize build [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ai-usage: ai-assisted
 ms.custom: awp-ai
 ms.subservice: msbuild

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - invisible
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # RDT_ReadLock Usage

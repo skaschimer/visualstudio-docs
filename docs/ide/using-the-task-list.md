@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Visual Studio, task list
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to use the Task List tool in Visual Studio, so I can track tokens in code comments and set up code shortcuts.

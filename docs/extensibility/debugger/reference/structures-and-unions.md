@@ -7,7 +7,7 @@ helpviewer_keywords:
 - structures [Visual Studio SDK]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Structures and Unions

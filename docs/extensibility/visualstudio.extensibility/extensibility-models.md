@@ -3,7 +3,7 @@ title: Choose the right Visual Studio extensibility model for you
 description: Learn about the different frameworks you can use extend Visual Studio, including VSSDK, the Community Toolkit, and VisualStudio.Extensibility, and learn about the pros and cons of each method.
 author: TinaSchrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.date: 10/16/2024
 ms.topic: product-comparison
 ms.subservice: extensibility-integration

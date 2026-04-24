@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], project factories
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Create project instances by using project factories

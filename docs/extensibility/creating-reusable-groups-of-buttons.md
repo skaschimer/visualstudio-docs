@@ -9,7 +9,7 @@ helpviewer_keywords:
 - buttons, creating reusable groups
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Create reusable groups of buttons

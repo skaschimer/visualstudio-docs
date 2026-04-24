@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ListObject control, validating data"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Validate data when a new row is added to a ListObject control

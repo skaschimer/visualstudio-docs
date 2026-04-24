@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, web app"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ms.custom: sfi-image-nochange
 ---

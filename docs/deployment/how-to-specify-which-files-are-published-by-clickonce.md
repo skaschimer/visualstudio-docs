@@ -14,7 +14,7 @@ helpviewer_keywords:
   - files, publishing via ClickOnce
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Specify which files are published by ClickOnce

@@ -9,7 +9,7 @@ f1_keywords:
 ms.custom: "ide-ref"
 author: mikadumont
 ms.author: midumont
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Configure C# text editor advanced options

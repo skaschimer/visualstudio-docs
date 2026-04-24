@@ -9,7 +9,7 @@ helpviewer_keywords:
 - external tools [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Manage external tools

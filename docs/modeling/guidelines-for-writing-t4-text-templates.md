@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: best-practice
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Guidelines for Writing T4 Text Templates

@@ -12,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Security Warning: Debugger Must Execute Untrusted Command

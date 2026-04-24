@@ -10,7 +10,7 @@ helpviewer_keywords:
 - persistence, determining which editor opens a file
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Determine which editor opens a file in a project

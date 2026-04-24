@@ -7,7 +7,7 @@ helpviewer_keywords:
 - project files, persisting data in
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Persisting Data in the MSBuild Project File

@@ -6,7 +6,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: xaml-tools
 ---
 # Direct Selection tool modifier keys in Blend for Visual Studio

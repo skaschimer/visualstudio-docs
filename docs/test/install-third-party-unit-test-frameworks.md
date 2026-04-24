@@ -4,7 +4,7 @@ description: Visual Studio Test Explorer can run tests from any unit test framew
 ms.date: 04/17/2025
 ms.topic: how-to
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: test-tools
 author: mikejo5000
 #customer intent: As a developer, I want to install unit test frameworks from other parties so I can run unit tests from any unit test framework in Visual Studio.

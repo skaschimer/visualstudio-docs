@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "shapes [Office development in Visual Studio], adding Visio shapes"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Programmatically add shapes to a Visio document

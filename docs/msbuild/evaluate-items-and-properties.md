@@ -13,7 +13,7 @@ helpviewer_keywords:
 - evaluation [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Evaluate items and properties and display results of targets

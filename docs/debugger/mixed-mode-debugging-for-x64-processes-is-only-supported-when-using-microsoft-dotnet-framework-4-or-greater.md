@@ -12,7 +12,7 @@ dev_langs:
   - "C++"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater

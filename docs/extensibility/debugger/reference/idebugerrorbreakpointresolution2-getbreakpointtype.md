@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugErrorBreakpointResolution2::GetBreakpointType
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

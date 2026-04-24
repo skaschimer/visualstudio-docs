@@ -12,7 +12,7 @@ helpviewer_keywords:
 - user controls [Visual Basic], creating
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

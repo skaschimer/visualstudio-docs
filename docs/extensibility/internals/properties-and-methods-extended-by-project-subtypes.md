@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project subtypes, extended properties
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Properties and Methods Extended by Project Subtypes

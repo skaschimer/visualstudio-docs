@@ -8,7 +8,7 @@ ms.subservice: intellicode
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # IntelliCode: AI-assisted code development in Visual Studio
 

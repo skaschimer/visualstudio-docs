@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "page layouts[SharePoint development in Visual Studio], designing"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: sharepoint-development
 ---
 # Create pages for SharePoint

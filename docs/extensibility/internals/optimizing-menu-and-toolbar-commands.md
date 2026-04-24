@@ -11,7 +11,7 @@ helpviewer_keywords:
 - toolbars [Visual Studio], commands
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Optimizing Menu and Toolbar Commands

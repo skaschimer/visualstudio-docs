@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], mapping XML schemas"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Map schemas to Word documents inside Visual Studio

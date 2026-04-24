@@ -5,7 +5,7 @@ ms.date: 11/14/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Profiles

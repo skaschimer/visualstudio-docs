@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [Visual Basic], Stop statements vs. breakpoints"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Stop statements in Visual Basic

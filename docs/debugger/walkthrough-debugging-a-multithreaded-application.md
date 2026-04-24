@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], threads"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 
 #customer intent: As a developer, I want to use the Threads window in the Visual Studio debugger, so I can examine and control threads in my C#, Visual Basic, or C++ code.

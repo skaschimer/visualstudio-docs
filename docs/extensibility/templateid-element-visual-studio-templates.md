@@ -11,7 +11,7 @@ helpviewer_keywords:
 - TemplateID element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # TemplateID Element (Visual Studio Templates)
 

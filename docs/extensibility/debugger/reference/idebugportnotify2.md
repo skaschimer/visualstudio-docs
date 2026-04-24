@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugPortNotify2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IDebugPortNotify2

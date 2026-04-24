@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Choose Element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Choose element (MSBuild)

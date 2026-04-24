@@ -20,7 +20,7 @@ helpviewer_keywords:
 - dependency graphs, browsing
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Browse and rearrange code maps

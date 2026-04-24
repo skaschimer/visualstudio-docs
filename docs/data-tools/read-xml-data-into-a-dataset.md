@@ -17,7 +17,7 @@ helpviewer_keywords:
 - datasets [Visual Basic], reading XML data
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

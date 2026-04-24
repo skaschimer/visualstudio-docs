@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "moving localization comments and attributes to a separate file [WPF MSBuild]"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # MergeLocalizationDirectives task

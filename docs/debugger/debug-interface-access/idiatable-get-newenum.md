@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaTable::get__NewEnum method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IDiaTable::get__NewEnum

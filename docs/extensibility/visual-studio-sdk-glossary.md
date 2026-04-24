@@ -7,7 +7,7 @@ helpviewer_keywords:
 - glossary [Visual Studio SDK]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Visual Studio SDK glossary

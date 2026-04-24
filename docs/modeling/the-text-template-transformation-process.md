@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, transformation process
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # The Text Template Transformation Process

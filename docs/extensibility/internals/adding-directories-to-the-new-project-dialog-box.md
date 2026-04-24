@@ -7,7 +7,7 @@ helpviewer_keywords:
 - New Project dialog box, extending
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Add directories to the New Project dialog box

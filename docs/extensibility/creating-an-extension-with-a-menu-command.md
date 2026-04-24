@@ -10,7 +10,7 @@ helpviewer_keywords:
 - visual studio package
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Create an extension with a menu command

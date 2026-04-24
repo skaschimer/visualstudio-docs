@@ -6,7 +6,7 @@ ms.subservice: general-ide
 ms.topic: how-to
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.custom:
   - vs-acquisition
   - sfi-image-nochange

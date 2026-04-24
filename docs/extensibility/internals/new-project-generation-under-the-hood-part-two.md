@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio], new project generation
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # New Project Generation: Under the Hood, Part Two

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], text boxes"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Walkthrough: Display text in a text box in a worksheet using a button

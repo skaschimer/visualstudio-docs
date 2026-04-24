@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugDynamicField interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IDebugDynamicField

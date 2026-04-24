@@ -13,7 +13,7 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

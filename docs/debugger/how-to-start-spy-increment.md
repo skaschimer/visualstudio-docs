@@ -7,7 +7,7 @@ helpviewer_keywords:
   - Spy++, starting
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 #customer intent: As a developer, I want to use the Spy++ tool in Visual Studio so I can debug my solution.
 ---

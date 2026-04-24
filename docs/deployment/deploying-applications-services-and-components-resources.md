@@ -13,7 +13,7 @@ dev_langs:
   - "C++"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Deploy your app to a folder, IIS, Azure, or another destination

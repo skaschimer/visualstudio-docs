@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], migrating to .NET Framework 4"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Update Excel and Word projects that You migrate to the .NET Framework 4.5

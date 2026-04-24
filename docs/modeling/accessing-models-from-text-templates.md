@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, accessing models
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Access models from text templates

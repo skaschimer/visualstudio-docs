@@ -3,7 +3,7 @@ title: Build multiple projects in parallel with MSBuild
 description: Explore the MSBuild settings that you can use to build multiple projects faster by running them in parallel in Visual Studio.
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ms.topic: concept-article
 ms.date: 04/17/2026

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - application settings [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ms.custom: 
 - sfi-ropc-nochange

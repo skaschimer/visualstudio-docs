@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Debugging SDK, reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Reference (Visual Studio Debugging APIs)

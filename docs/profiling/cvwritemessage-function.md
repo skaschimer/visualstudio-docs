@@ -23,7 +23,7 @@ helpviewer_keywords:
   - CvWriteMessageExA method
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # CvWriteMessage function

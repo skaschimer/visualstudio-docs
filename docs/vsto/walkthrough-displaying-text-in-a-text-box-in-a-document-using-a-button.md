@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "text boxes, displaying text in documents"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Walkthrough: Display text in a text box in a document using a button

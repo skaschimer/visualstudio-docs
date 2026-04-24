@@ -13,7 +13,7 @@ helpviewer_keywords:
 - guid
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # GUIDs and IDs of Visual Studio toolbars

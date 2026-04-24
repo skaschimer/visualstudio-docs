@@ -11,7 +11,7 @@ helpviewer_keywords:
 - References element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # References element (Visual Studio templates)
 

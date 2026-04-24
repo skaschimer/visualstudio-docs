@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: include
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: python
 
 ms.workload:

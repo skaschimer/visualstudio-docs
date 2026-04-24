@@ -9,7 +9,7 @@ helpviewer_keywords:
 - template locations [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to locate and organize project and item templates in Visual Studio, so I can easily access them to create code for new projects and items.

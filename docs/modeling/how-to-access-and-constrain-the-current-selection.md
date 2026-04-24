@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, accessing the current selection"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Access and Constrain the Current Selection

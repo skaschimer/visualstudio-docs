@@ -11,7 +11,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a Visual Studio user, I want to configure Projects and Solutions options so that I can customize how Visual Studio handles projects, solutions, and files.

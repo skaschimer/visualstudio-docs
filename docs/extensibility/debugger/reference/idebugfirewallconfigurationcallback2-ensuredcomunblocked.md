@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

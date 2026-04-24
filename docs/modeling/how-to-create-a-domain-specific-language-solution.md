@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, creating solutions
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Create a Domain-Specific Language Solution

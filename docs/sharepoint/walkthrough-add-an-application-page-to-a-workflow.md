@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "application page [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Add an application page to a workflow

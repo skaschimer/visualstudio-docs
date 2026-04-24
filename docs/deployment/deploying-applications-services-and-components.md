@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "components [.NET Framework], deploying"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ms.custom: peer-review-program
 ---

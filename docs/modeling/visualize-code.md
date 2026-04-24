@@ -9,7 +9,7 @@ helpviewer_keywords:
 - code, exploring
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Visualize code

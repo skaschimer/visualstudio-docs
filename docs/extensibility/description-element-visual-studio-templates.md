@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Description element [Visual Studio project templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # Description element (Visual Studio templates)
 

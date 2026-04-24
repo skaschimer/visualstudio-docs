@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], control of execution
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Program control

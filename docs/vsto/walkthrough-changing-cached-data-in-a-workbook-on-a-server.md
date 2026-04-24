@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], server-side data access"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Walkthrough: Change cached data in a workbook on a server

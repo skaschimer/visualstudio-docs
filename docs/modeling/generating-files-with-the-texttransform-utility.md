@@ -8,7 +8,7 @@ helpviewer_keywords:
 - TextTransform.exe
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Generate files with the TextTransform utility

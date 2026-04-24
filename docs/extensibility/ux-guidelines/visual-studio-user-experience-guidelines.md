@@ -5,7 +5,7 @@ ms.date: 10/05/2018
 ms.topic: overview
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Visual Studio User Experience Guidelines

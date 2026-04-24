@@ -11,7 +11,7 @@ helpviewer_keywords:
 - use the D drive
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: installation
 #customer intent: As a developer, I want to control the installation footprint of Visual Studio on my system drive to optimize any resource issues.
 ---

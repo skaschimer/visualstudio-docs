@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "workbooks, ranges"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Work with ranges

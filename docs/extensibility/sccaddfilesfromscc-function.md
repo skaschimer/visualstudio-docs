@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccAddFilesFromSCC function
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # SccAddFilesFromSCC function

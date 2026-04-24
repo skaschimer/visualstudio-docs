@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, models
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Understanding Models, Classes and Relationships

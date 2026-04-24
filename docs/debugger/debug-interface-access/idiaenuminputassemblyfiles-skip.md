@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumInputAssemblyFiles::Skip method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

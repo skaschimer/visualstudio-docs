@@ -9,7 +9,7 @@ helpviewer_keywords:
 - CustomDataSignature Element (Visual Studio Templates)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # CustomDataSignature element (Visual Studio templates)
 

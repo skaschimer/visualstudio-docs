@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "console applications, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Debugging Preparation: Console Projects (C#, C++, Visual Basic, F#)

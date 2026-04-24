@@ -5,7 +5,7 @@ ms.date: 11/17/2025
 ms.topic: best-practice
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Visual Studio performance tips and tricks

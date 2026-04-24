@@ -6,7 +6,7 @@ ms.date: 03/18/2019
 ms.topic: ui-reference
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: python
 ---
 # Python Environments window tabs reference in Python Tools for Visual Studio

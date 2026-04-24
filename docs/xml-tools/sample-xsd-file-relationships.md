@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: sample
 author: dzsquared
 ms.author: drskwier
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: xml-tools
 ---
 # Sample XSD file: Relationships
