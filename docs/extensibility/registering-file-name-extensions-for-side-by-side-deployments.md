@@ -7,7 +7,7 @@ helpviewer_keywords:
 - file extensions, registering for side-by-side
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Register file name extensions for side-by-side deployments

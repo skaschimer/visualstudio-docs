@@ -7,7 +7,7 @@ helpviewer_keywords:
   - .NET analyzers
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: code-analysis
 ---
 

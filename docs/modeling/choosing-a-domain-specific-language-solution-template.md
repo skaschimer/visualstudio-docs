@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, solution templates
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Choosing a Domain-Specific Language Solution Template

@@ -7,7 +7,7 @@ ms.topic: how-to
 description: IntelliCode Visual Studio Code Completions
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ---
 
 # Intellicode whole-line autocompletions

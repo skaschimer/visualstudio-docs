@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], modules
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Modules

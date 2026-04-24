@@ -2,7 +2,7 @@
 title: Manage Visual Studio Subscriptions in the Microsoft AI Cloud Partner Program
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager: shve
 ms.date: 04/23/2026
 ms.topic: how-to
 description: Learn how to assign and manage Visual Studio Subscriptions in the Microsoft AI Cloud Partner Program, including renewal behavior and reassignment requirements.

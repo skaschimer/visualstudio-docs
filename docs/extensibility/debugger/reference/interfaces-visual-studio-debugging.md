@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], interfaces
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Interfaces (Visual Studio Debugging)

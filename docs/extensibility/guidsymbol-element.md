@@ -8,7 +8,7 @@ helpviewer_keywords:
 - GuidSymbol element (VSCT XML schema)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # GuidSymbol element

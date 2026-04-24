@@ -6,7 +6,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays

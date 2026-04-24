@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.topic: release-notes
 author: jbevain
 ms.author: jbevain
-manager: crdun
+ms.manager:  crdun
 ---
 # Change log (Visual Studio Tools for Unity, Windows)
 

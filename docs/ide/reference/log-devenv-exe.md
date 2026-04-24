@@ -9,7 +9,7 @@ helpviewer_keywords:
 - /Log Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # /Log (devenv.exe)

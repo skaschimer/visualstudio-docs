@@ -8,7 +8,7 @@ f1_keywords:
   - vs.csharp.refactoring.rename
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 dev_langs:
   - CSharp

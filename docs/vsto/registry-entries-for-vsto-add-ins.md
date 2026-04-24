@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "registry entries [Office development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Registry entries for VSTO Add-ins

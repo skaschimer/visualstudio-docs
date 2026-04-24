@@ -15,7 +15,7 @@ dev_langs:
   - "CSharp"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office system project

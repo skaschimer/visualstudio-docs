@@ -8,7 +8,7 @@ helpviewer_keywords:
 - registration, regpkg utility
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # RegPkg Utility

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - CvWriteFlagExVW method
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # CvWriteFlag function

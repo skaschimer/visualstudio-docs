@@ -7,7 +7,7 @@ ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: mijacobs
+ms.manager: wiwagn
 ms.collection: ce-skilling-ai-copilot
 ms.subservice: general-ide
 ---

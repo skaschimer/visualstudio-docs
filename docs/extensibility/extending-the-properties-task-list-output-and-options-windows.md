@@ -12,7 +12,7 @@ helpviewer_keywords:
 - tool windows
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Extend the Properties, Task List, Output, and Options windows

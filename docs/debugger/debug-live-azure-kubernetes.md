@@ -7,7 +7,7 @@ helpviewer_keywords:
   - debugger
 author: poppastring
 ms.author: madownie
-manager: andster
+ms.manager:  andster
 monikerRange: '>= vs-2022'
 ---
 # Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger

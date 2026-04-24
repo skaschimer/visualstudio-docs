@@ -1,7 +1,7 @@
 ---
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 ms.date: 12/1/2022
 
 ms.subservice: installation

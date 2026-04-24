@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, tasks
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Create an MSBuild inline task with RoslynCodeTaskFactory

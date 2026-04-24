@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], configuration details
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Source Control Configuration Details

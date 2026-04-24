@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control packages, features
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Source Control VSPackage Features

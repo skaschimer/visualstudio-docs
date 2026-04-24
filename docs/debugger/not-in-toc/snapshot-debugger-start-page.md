@@ -6,7 +6,7 @@ robots: "noindex, nofollow"
 ms.topic: "reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Getting Started With The Snapshot Debugger

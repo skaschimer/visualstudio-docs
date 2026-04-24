@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "<product> element [bootstrapper]"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # &lt;Product&gt; element (bootstrapper)

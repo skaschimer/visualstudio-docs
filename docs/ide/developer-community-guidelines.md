@@ -5,7 +5,7 @@ ms.date: 6/30/2020
 ms.topic: concept-article
 author: madskristensen
 ms.author: madsk
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Developer Community guidelines

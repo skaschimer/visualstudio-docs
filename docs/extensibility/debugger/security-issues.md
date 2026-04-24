@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], security
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Security issues

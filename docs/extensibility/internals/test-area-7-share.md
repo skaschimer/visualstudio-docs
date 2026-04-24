@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, sharing items
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Test Area 7: Share

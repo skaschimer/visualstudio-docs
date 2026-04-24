@@ -14,7 +14,7 @@ helpviewer_keywords:
 - mapping relationships in code
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Use code maps to debug your applications

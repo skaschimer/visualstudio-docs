@@ -5,7 +5,7 @@ ms.date: 03/13/2026
 ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Make code work in Visual Studio

@@ -9,7 +9,7 @@ ms.date: 02/13/2026
 ms.topic: tutorial
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to learn how to use code in an event handler in a Windows Forms application.

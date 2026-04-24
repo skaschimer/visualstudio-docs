@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Visual Studio SDK, command-line switches
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Devenv command-line switches for VSPackage development

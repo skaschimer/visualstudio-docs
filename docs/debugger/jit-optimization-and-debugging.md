@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "optimized code, debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # JIT Optimization and Debugging

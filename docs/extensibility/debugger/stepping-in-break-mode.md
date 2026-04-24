@@ -9,7 +9,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], stepping in break mode
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Stepping in break mode

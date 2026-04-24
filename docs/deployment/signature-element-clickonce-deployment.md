@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "<Signature> element [ClickOnce deployment manifest]"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # &lt;Signature&gt; element (ClickOnce deployment)

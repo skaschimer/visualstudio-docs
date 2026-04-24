@@ -9,7 +9,7 @@ helpviewer_keywords:
 - projects and solutions, develop code without
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Develop code in Visual Studio without projects or solutions

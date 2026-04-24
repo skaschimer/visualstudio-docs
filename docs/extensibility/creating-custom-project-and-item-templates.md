@@ -5,7 +5,7 @@ ms.date: 2/2/2024
 ms.topic: overview
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Create custom project and item templates

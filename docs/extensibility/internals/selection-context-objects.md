@@ -8,7 +8,7 @@ helpviewer_keywords:
 - selection, context objects
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Selection Context Objects

@@ -25,7 +25,7 @@ helpviewer_keywords:
   - "failures, finding locations"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

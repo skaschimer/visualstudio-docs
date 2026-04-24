@@ -2,7 +2,7 @@
 title: Personal emails for Visual Studio subscriptions in VLSC
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 02/09/2026
 ms.topic: troubleshooting-general
 description:  Visual Studio Subscriptions – Why do I see personal accounts for my subscribers?

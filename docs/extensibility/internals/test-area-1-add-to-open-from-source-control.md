@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, adding and opening solutions
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Test Area 1: Add To/Open From Source Control

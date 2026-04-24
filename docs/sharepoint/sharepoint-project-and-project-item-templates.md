@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, templates"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: sharepoint-development
 ---
 # SharePoint project and project item templates

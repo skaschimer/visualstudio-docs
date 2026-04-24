@@ -2,7 +2,7 @@
 title: Cloud Academy benefit in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 01/06/2026
 ms.topic: how-to
 description: Activate and explore the Cloud Academy (a QA Company) training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.

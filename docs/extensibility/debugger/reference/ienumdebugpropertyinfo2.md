@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugPropertyInfo2
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IEnumDebugPropertyInfo2

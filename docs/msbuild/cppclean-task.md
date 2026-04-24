@@ -12,7 +12,7 @@ helpviewer_keywords:
 - CPPClean task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # CPPClean Task

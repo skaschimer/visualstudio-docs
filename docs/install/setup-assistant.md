@@ -10,7 +10,7 @@ helpviewer_keywords:
 - setup assistant
 author: jasonchlus
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 ---
 
 # Prepare to build with Setup Assistant

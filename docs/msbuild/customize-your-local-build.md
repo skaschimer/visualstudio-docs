@@ -8,7 +8,7 @@ helpviewer_keywords:
 - transforms [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 
 #customer intent: As a builder, I want to customize local builds, so that I can reproduce bugs or test configurations without affecting shared source code files.

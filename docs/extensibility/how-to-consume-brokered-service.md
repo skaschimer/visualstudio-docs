@@ -8,7 +8,7 @@ helpviewer_keywords:
 - brokered services, consuming
 author: aarnott
 ms.author: andarno
-manager: ansonh
+ms.manager:  ansonh
 ms.subservice: extensibility-integration
 ---
 # Consume a brokered service

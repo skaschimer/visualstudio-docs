@@ -9,7 +9,7 @@ helpviewer_keywords:
 - packages, compiling with MSBuild
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Using MSBuild

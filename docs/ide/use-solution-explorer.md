@@ -8,7 +8,7 @@ helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Learn about Solution Explorer

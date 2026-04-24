@@ -9,7 +9,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], what's new
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # What's New in Source Control for the Visual Studio 2015 SDK

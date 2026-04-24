@@ -5,7 +5,7 @@ ms.date: 06/22/2022
 ms.topic: how-to
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 

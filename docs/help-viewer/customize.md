@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Viewer Options [Help Viewer]"
 author: jasonchlus
 ms.author: jasonchlus
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: help-viewer
 ---
 # Customize the help viewer

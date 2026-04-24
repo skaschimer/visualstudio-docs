@@ -9,7 +9,7 @@ helpviewer_keywords:
   - minidumps for Visual Studio issues"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 dev_langs:
  - CSharp

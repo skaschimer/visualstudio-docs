@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol11::get_discriminatedUnionTag method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol11::get_discriminatedUnionTag

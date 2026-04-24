@@ -9,7 +9,7 @@ helpviewer_keywords:
 - errors [Visual Studio SDK]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Error codes

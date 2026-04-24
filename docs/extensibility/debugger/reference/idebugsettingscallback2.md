@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugSettingsCallback2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IDebugSettingsCallback2

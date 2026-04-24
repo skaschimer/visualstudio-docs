@@ -5,7 +5,7 @@ ms.date: "04/29/2025"
 ms.topic: concept-article
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-two
 ---

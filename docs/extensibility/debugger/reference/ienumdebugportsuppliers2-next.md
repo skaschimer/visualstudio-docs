@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugPortSuppliers2::Next
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -10,7 +10,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
-manager: mluparu
+ms.manager:  mluparu
 ms.subservice: general-ide
 ---
 

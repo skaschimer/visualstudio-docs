@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, utility methods
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Text Template Utility Methods

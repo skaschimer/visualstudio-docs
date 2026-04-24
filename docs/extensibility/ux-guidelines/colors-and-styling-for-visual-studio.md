@@ -5,7 +5,7 @@ ms.date: 07/31/2017
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ms.custom: sfi-ropc-nochange
 ---

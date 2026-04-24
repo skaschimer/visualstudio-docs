@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VSPackages, user preferences
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Extend user settings and options

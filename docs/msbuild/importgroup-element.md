@@ -12,7 +12,7 @@ helpviewer_keywords:
 - ImportGroup element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # ImportGroup element

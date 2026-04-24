@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, content types"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a site column, content type, and list for SharePoint

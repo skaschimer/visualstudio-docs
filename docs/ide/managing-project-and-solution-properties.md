@@ -5,7 +5,7 @@ ms.date: 04/20/2026
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ms.custom: awp-ai
 monikerRange: '>= vs-2022'

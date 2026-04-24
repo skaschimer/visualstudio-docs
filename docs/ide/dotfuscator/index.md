@@ -22,7 +22,7 @@ helpviewer_keywords:
 description: Protect your .NET applications with the free copy of Dotfuscator Community in Visual Studio, find your installed version or upgrade, and update related references.
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ms.custom: awp-ai
 monikerRange: "vs-2022"

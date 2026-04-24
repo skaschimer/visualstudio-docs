@@ -7,7 +7,7 @@ ms.subservice: general-ide
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # RequiredPlatformVersion element (Visual Studio templates)
 

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], displaying with e-mail messages"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Walkthrough: Display custom task panes with email messages in Outlook

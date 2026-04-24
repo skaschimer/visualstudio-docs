@@ -7,7 +7,7 @@ helpviewer_keywords:
 - dialog boxes, managing in Visual Studio
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Create and manage modal dialog boxes

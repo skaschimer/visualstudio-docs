@@ -10,7 +10,7 @@ helpviewer_keywords:
 - files, opening with Miscellaneous Files project
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Miscellaneous Files Project

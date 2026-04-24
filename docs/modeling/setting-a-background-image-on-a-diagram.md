@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Setting a Background Image on a Diagram

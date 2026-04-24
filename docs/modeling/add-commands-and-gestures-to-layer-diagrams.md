@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "dependency diagrams, adding custom gestures"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Add commands and gestures to dependency diagrams

@@ -12,7 +12,7 @@ helpviewer_keywords:
 - tool task base class [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # TaskExtension base class

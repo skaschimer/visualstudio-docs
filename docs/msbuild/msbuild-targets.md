@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, targets
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # MSBuild targets

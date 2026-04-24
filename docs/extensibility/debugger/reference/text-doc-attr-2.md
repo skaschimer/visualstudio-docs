@@ -9,7 +9,7 @@ helpviewer_keywords:
 - TEXT_DOC_ATTR_2 enumeration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

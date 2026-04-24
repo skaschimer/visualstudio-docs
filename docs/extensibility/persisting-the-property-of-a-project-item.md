@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project items, adding properties
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Persist the property of a project item

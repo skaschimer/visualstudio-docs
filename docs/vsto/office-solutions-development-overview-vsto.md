@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Office development in Visual Studio, about developing solutions"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Office solutions development overview (VSTO)

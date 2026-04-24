@@ -14,7 +14,7 @@ helpviewer_keywords:
 - dependency graphs
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Map dependencies with code maps

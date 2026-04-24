@@ -3,7 +3,7 @@ title: .NET Companatibilty for VisualStudio.Extensibility Extensions
 description: .NET runtime requirements for VisualStudio.Extensibility extensions
 author: murphymcquet-msft
 ms.author: murphymcquet
-manager: tinali
+ms.manager:  tinali
 ms.date: 02/04/2025
 ms.topic: concept-article
 ms.subservice: extensibility-integration

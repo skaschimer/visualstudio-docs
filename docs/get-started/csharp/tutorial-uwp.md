@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.devlang: csharp
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 dev_langs:
   - CSharp
 #customer intent: As a developer, I want to create a simple but complete application with XAML and C# in Visual Studio to understand the parts of such a project.

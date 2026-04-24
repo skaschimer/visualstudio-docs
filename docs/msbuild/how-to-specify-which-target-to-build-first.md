@@ -3,7 +3,7 @@ title: Specify which MSBuild target to build first
 description: Learn how to specify the initial targets or the default targets to build first in MSBuild project files.
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ms.topic: how-to
 ms.date: 02/28/2025

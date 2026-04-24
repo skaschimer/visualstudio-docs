@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugCoreServer3 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IDebugCoreServer3

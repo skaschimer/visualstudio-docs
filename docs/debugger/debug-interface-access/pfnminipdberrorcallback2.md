@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "PFNMINIPDBERRORCALLBACK2 typedef"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

@@ -6,7 +6,7 @@ ms.topic: how-to
 f1_keywords:
 - vs.UnitTest.CreateIntelliTest
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: test-tools
 author: mikejo5000
 ---

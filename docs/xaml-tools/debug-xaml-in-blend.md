@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: xaml-tools
 ---
 # Debug XAML in Blend

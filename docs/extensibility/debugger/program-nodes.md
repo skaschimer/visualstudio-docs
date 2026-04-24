@@ -10,7 +10,7 @@ helpviewer_keywords:
 - program nodes, superseding
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Program nodes

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Office projects [Office development in Visual Studio], PowerPoint"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # PowerPoint solutions

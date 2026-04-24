@@ -5,7 +5,7 @@ ms.date: "09/29/2020"
 ms.topic: concept-article
 author: "davidcongruili"
 ms.author: "davidli1"
-manager: mluparu
+ms.manager:  mluparu
 ---
 # DirectX Support in Visual Studio
 

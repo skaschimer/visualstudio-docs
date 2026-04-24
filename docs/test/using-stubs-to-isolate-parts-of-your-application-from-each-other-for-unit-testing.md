@@ -4,7 +4,7 @@ description: Learn about a stub, which is a small piece of code that takes the p
 ms.date: 10/25/2023
 ms.topic: how-to
 ms.author: mikejo
-manager: aajohn
+ms.manager:  aajohn
 ms.subservice: test-tools
 author: mikejo5000
 dev_langs: 

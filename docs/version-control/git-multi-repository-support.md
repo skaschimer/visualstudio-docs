@@ -6,7 +6,7 @@ ms.date: 01/14/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: mijacobs
+ms.manager: wiwagn
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

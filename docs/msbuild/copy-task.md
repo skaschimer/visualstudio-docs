@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Copy task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Copy task

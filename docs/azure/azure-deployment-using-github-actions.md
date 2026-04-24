@@ -8,7 +8,7 @@ helpviewer_keywords:
   - GitHub Actions, publish
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange

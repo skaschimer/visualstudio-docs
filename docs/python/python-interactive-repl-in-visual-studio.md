@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to write and debug code in the Python Interactive Window (REPL) when creating Python applications in Visual Studio.

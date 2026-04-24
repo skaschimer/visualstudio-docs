@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Visual Studio template manifest schema reference

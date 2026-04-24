@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, functions
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Source Control Plug-in API Functions

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - models, versions of Visual Studio
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Read models and diagrams in other Visual Studio editions

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProcess3::GetENCAvailableState
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

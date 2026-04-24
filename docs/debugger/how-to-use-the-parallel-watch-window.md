@@ -14,7 +14,7 @@ helpviewer_keywords:
   - debugger, parallel watch window
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Set a Watch on Variables in Parallel Threads in Visual Studio (C#, Visual Basic, C++)

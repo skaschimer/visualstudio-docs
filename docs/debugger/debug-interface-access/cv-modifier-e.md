@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "CV_modifier_e enumeration"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 

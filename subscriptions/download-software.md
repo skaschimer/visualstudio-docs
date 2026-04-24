@@ -2,7 +2,7 @@
 title: Download software titles in subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 11/17/2025
 ms.topic: concept-article
 description: Find and download Microsoft software titles in Visual Studio subscriptions and locate the software you need to get the most out of your subscription. 

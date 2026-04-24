@@ -36,7 +36,7 @@ helpviewer_keywords:
   - "BuildingBlockGalleryContentControl class"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Content controls

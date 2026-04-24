@@ -8,7 +8,7 @@ helpviewer_keywords:
 - stories
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Model user requirements

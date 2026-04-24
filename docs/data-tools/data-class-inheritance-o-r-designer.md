@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

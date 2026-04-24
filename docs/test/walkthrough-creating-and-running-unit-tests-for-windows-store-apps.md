@@ -9,7 +9,7 @@ helpviewer_keywords:
 - unit tests, UWP apps
 - unit tests, running
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: test-tools
 author: mikejo5000
 ---

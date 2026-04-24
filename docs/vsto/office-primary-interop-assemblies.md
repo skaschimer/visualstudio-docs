@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Office primary interop assemblies"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Office primary interop assemblies

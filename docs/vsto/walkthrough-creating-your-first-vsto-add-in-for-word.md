@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], creating your first project"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Walkthrough: Create your first VSTO Add-in for Word

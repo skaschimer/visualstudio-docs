@@ -9,7 +9,7 @@ helpviewer_keywords:
 - stack frames
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Stack frames

@@ -2,7 +2,7 @@
 title: How to access Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/16/2024
 ms.topic: how-to
 description: Learn how to know if you have a subscription assigned, and how to access it. 

@@ -2,7 +2,7 @@
 title:  Use the Maximum Usage Feature in Visual Studio Subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 11/03/2025
 ms.topic: how-to
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal.

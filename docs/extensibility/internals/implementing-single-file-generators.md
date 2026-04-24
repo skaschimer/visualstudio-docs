@@ -9,7 +9,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], managed custom tools
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Implementing Single-File Generators

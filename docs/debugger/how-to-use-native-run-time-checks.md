@@ -34,7 +34,7 @@ helpviewer_keywords:
   - arrays [Visual Studio], debugging
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Use Native Run-Time Checks

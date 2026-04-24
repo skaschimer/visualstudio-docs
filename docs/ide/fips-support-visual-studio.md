@@ -6,7 +6,7 @@ ms.date: 10/01/2021
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Visual Studio support for the FIPS 140-2 approved mode of operation

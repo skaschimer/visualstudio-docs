@@ -11,7 +11,7 @@ helpviewer_keywords:
 - managing extensions visual studio
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to learn about managing extensions so that I can effectively extend the functionality of Visual Studio. 

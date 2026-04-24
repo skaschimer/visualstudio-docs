@@ -8,7 +8,7 @@ helpviewer_keywords:
 - logging [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Obtain build logs with MSBuild

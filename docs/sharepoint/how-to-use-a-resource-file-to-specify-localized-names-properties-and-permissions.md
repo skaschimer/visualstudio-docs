@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], resource strings"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: sharepoint-development
 ---
 # Use a Resource File in a SharePoint project

@@ -5,7 +5,7 @@ ms.date: "02/24/2017"
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
   - C++

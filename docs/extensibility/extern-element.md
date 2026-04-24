@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Extern element (VSCT XML schema)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Extern element

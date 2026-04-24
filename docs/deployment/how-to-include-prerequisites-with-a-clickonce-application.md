@@ -5,7 +5,7 @@ ms.date: 7/29/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Include prerequisites with a ClickOnce application

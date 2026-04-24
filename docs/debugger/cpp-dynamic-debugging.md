@@ -14,7 +14,7 @@ helpviewer_keywords:
   - optimized code, debugging
 author: tylerMSFT
 ms.author: twhitney
-manager: coxford
+ms.manager:  coxford
 ms.subservice: debug-diagnostics
 ---
 # C++ Dynamic Debugging (Preview)

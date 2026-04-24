@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, No Disk Activity to Show (Threads View)"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # No disk activity to show (Threads View)

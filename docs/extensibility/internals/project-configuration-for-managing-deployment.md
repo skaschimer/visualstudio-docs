@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], configuration for managing deployment
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Project Configuration for Managing Deployment

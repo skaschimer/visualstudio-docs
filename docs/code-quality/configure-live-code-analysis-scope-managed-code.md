@@ -3,7 +3,7 @@ title: Configure live code analysis scope for .NET
 description: Learn about background live code analysis in Visual Studio. See how to set the analysis scope to the active document, all open documents, or all files and projects.
 author: mikadumont
 ms.author: midumont
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: code-analysis
 ms.topic: how-to
 helpviewer_keywords:

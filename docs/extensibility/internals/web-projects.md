@@ -7,7 +7,7 @@ helpviewer_keywords:
 - web projects
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Web Projects

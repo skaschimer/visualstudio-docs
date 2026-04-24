@@ -7,7 +7,7 @@ helpviewer_keywords:
   - execution, controlling in debugger
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Move the execution pointer to change the execution flow in the debugger

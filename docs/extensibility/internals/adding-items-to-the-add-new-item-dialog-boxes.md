@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Add New Item dialog box, adding items
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Add items to the Add New Item dialog box

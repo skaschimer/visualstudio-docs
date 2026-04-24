@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "worksheets, protecting"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Programmatically protect worksheets

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "custom installer [ClickOnce]"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Walkthrough: Create a custom installer for a ClickOnce application

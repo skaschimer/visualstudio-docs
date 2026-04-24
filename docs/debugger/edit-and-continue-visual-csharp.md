@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugging [C#], Edit and Continue"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai
 ---

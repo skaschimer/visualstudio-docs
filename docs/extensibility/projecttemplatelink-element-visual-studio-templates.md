@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ProjectTemplateLink element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # ProjectTemplateLink element (Visual Studio templates)
 

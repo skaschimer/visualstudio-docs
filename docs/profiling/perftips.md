@@ -5,7 +5,7 @@ ms.date: 03/13/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai
 ai-usage: ai-assisted

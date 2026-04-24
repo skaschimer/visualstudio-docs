@@ -30,7 +30,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.XML.ScrollBars
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Customize the scroll bar

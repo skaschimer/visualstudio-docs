@@ -5,7 +5,7 @@ ms.date: 06/08/2021
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"
 

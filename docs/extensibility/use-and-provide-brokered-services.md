@@ -10,7 +10,7 @@ helpviewer_keywords:
 - brokered services
 author: aarnott
 ms.author: andarno
-manager: ansonh
+ms.manager:  ansonh
 ms.subservice: extensibility-integration
 ---
 # Using and providing brokered services

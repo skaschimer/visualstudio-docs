@@ -5,7 +5,7 @@ ms.date: 08/31/2021
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Create a software development kit

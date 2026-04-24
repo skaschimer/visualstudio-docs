@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSessionEx::isFastLinkPDB method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "DIA SDK, reference"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "breakpoints, DebugBreak function"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # DebugBreak and __debugbreak

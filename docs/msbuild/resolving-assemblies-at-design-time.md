@@ -7,7 +7,7 @@ helpviewer_keywords:
 - msbuild
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # Resolve assemblies at design time

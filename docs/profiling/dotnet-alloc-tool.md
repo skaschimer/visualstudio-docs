@@ -7,7 +7,7 @@ helpviewer_keywords:
   - memory allocation, memory usage
 author: Mikejo5000
 ms.author: mikejo
-manager: AndSter
+ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---
 # Analyze memory usage by using the .NET Object Allocation tool

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - data access, ClickOnce applications
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Include a data file in a ClickOnce application

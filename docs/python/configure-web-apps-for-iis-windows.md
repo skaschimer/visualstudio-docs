@@ -5,7 +5,7 @@ ms.date: 07/28/2025
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: python
 
 #customer intent: As a developer, I want to use web.config file settings so that I can configure Python web apps in Visual Studio to run with IIS from a Windows virtual machine.

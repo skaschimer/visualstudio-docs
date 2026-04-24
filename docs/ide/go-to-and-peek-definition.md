@@ -11,7 +11,7 @@ helpviewer_keywords:
 - member definition [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to use the Go To and Peek features in Visual Studio, so I can easily view type and member source definitions for my code.

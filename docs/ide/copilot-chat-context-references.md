@@ -5,7 +5,7 @@ ms.date: 11/2/2025
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.update-cycle: 180-days

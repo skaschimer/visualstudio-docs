@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, decorators
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Properties of Decorators

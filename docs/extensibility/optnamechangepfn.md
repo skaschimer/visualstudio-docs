@@ -9,7 +9,7 @@ helpviewer_keywords:
 - OPTNAMECHANGEPFN callback function
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # OPTNAMECHANGEPFN

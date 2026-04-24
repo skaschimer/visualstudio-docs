@@ -10,7 +10,7 @@ f1_keywords:
   - vs.csharp.refactoring.make.local.function.static
 author: mikadumont
 ms.author: midumont
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 dev_langs:
   - CSharp

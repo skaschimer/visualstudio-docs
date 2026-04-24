@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "deploying applications, ClickOnce"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: deployment
 ---
 # Choose a ClickOnce deployment strategy

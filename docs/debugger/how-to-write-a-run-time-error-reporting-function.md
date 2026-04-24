@@ -14,7 +14,7 @@ helpviewer_keywords:
   - reporting function
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Write a Run-Time Error Reporting Function (C++)

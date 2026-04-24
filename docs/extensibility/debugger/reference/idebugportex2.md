@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugPortEx2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # IDebugPortEx2

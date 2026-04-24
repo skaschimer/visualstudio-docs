@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProgram2::GetEngineInfo
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

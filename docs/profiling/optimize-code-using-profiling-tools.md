@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "profiling tools, optimize code"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'

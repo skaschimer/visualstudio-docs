@@ -8,7 +8,7 @@ helpviewer_keywords:
 - call stacks, evaluation
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Call stack evaluation

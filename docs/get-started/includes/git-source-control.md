@@ -3,7 +3,7 @@ ms.date: 12/04/2024
 ms.subservice: general-ide
 ms.author: ghogen
 author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.topic: include
 ms.custom:
   - vs-get-started

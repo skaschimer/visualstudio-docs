@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Overview of Domain-Specific Language Tools

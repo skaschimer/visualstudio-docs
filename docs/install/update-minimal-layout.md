@@ -5,7 +5,7 @@ ms.date: 11/04/2025
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 
 ms.subservice: installation
 ---

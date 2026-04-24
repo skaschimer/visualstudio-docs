@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Statements.While.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # While Activity Designer

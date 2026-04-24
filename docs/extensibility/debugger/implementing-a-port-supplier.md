@@ -8,7 +8,7 @@ helpviewer_keywords:
 - port suppliers, implementing
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Implement a port supplier

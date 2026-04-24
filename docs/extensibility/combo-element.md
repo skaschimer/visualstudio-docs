@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, Combos
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Combo element

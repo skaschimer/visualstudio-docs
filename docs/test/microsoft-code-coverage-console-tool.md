@@ -4,7 +4,7 @@ description: Use the Microsoft.CodeCoverage.Console tool to collect code coverag
 ms.date: 09/09/2025
 ms.topic: concept-article
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: test-tools
 author: mikejo5000
 monikerRange: '>= vs-2022'

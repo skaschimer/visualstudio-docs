@@ -6,7 +6,7 @@ ms.date: 11/19/2025
 ms.topic: quickstart
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: javascript-typescript
 ---
 # Overview of the Visual Studio IDE for JavaScript

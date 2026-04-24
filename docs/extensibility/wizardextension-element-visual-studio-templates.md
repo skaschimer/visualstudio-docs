@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <WizardExtension> element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # WizardExtension Element (Visual Studio Templates)
 

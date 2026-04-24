@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Web sites, Visual Studio SDK support
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Support for the Visual Studio SDK

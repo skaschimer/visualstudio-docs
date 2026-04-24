@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumSourceLink2::Next2 method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 

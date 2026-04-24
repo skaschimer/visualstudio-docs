@@ -12,7 +12,7 @@ helpviewer_keywords:
 - customize Visual Studio
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+ms.manager: wiwagn
 
 ms.subservice: installation
 

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - DefaultName element [Visual Studio project templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ---
 # DefaultName element (Visual Studio templates)
 

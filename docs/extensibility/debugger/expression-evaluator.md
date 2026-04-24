@@ -9,7 +9,7 @@ helpviewer_keywords:
 - expression evaluation
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Expression evaluator

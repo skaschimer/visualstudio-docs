@@ -10,7 +10,7 @@ helpviewer_keywords:
 - New File command
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # New File Command

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], events
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---
 # Event descriptions

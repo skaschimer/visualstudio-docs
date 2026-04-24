@@ -10,7 +10,7 @@ helpviewer_keywords:
 - View.LogCommandWindowOutput command
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Log Command window output command

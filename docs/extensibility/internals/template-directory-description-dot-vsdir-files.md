@@ -9,7 +9,7 @@ helpviewer_keywords:
 - template directory description files
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Template Directory Description (.Vsdir) Files

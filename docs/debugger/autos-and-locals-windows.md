@@ -12,7 +12,7 @@ helpviewer_keywords:
   - debugging [Visual Studio], variable windows
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot
 ms.custom: sfi-image-nochange

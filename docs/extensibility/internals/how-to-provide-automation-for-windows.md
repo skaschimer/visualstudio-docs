@@ -8,7 +8,7 @@ helpviewer_keywords:
 - tool windows, automation
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Provide automation for windows

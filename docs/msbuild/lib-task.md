@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "LIB task (MSBuild (C++))"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # LIB task

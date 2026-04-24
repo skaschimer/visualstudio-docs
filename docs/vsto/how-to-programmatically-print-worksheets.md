@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "print preview, worksheets"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: office-development
 ---
 # Programmatically print worksheets

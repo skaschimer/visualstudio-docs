@@ -2,7 +2,7 @@
 title: Microsoft 365 apps for enterprise in subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 07/23/2025
 ms.topic: how-to
 description: Activate and access Microsoft 365 apps for enterprise in Visual Studio subscriptions, and find answers to frequently asked questions.

@@ -13,7 +13,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to set options for Python code and projects in Visual Studio, so I can configure the development environment to meet my programming needs.

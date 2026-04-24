@@ -8,7 +8,7 @@ helpviewer_keywords:
 - compatibility warnings, turning off
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: extensibility-integration
 ---
 # Turn off compatibility warnings for source control plug-ins

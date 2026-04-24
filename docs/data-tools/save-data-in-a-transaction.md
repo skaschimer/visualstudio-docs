@@ -14,7 +14,7 @@ helpviewer_keywords:
 - saving data
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: data-tools
 ---
 

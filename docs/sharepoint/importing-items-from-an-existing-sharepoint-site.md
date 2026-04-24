@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: sharepoint-development
 ms.custom: awp-ai
 ---

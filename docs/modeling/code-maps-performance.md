@@ -5,7 +5,7 @@ ms.date: 05/16/2018
 ms.topic: best-practice
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Improve performance for code maps

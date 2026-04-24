@@ -9,7 +9,7 @@ helpviewer_keywords:
 - MSBuild Escape Characters
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: msbuild
 ---
 # MSBuild special characters

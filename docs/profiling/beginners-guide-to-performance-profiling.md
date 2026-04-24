@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Diagnostics Tools"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ms.update-cycle: 90-days
 ---

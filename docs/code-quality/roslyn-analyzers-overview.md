@@ -3,7 +3,7 @@ title: Code analysis using .NET compiler platform (Roslyn) analyzers
 description: Become familiar with source code analysis in Visual Studio. Learn about code fixes and the different types of analyzers and severity levels.
 author: mikadumont
 ms.author: midumont
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: code-analysis
 ms.topic: concept-article
 helpviewer_keywords:

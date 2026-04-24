@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, custom directive hosts
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: modeling
 ---
 # Process Text Templates by using a Custom Host

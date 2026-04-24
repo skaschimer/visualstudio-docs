@@ -8,7 +8,7 @@ helpviewer_keywords:
 - application design, securability
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: general-ide
 ---
 # Secure applications

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "safe controls [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: sharepoint-development
 ---
 # Mark controls as safe controls
