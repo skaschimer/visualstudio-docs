@@ -2,7 +2,7 @@
 title: Install Visual Studio Versions Side-by-Side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
 ms.custom: vs-acquisition
-ms.date: 08/25/2025
+ms.date: 04/24/2026
 ms.subservice: installation
 ms.topic: concept-article
 helpviewer_keywords:
@@ -92,6 +92,41 @@ To install by using the installer that's already on the client machine:
 ```
 
 You can't start the installer programmatically from the same directory that the installer resides in.
+
+## Change which Visual Studio version launches by default
+
+When you have multiple versions of Visual Studio installed side-by-side, Windows commands like **Win+R** > `devenv` use the **App Paths** registry key to determine which version of `devenv.exe` to launch. By default, this key points to the most recently installed version, which might not be the version you prefer.
+
+You can change the default version by updating the App Paths registry entry, or by using alternative launch methods.
+
+### Update the App Paths registry entry
+
+> [!WARNING]
+> Incorrectly editing the registry can cause serious problems. Before making changes, [back up the registry](https://support.microsoft.com/help/322756).
+
+1. Open **Registry Editor** (press **Win+R**, type `regedit`, and then press **Enter**).
+1. Navigate to the following key:
+
+   ```
+   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\devenv.exe
+   ```
+
+1. The **(Default)** value shows the full path to the `devenv.exe` that Windows launches. Change this value to point to the version of Visual Studio you want to use as the default. For example:
+
+   - **Visual Studio 2022**: `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe`
+   - **Visual Studio 2019**: `C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe`
+
+   Replace *Enterprise* with *Professional* or *Community* to match your installed edition.
+
+1. Close the Registry Editor. The change takes effect immediately for new **Win+R** commands.
+
+### Alternative ways to launch a specific version
+
+Instead of modifying the registry, you can use any of these approaches to launch the version you want:
+
+- **Start menu search**: Type **Visual Studio** in the Windows search box. Windows shows all installed versions, so you can select the one you want.
+- **Pin to taskbar**: Right-click the Visual Studio version you want in the Start menu and select **Pin to taskbar** for quick access.
+- **Developer Command Prompt**: Each Visual Studio version installs its own Developer Command Prompt, which automatically configures the correct paths and tools for that version.
 
 ## .NET Framework versions and side-by-side installations
 
