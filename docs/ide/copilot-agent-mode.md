@@ -125,6 +125,7 @@ Agent mode can use the following tools for responding to a request:
 
 - Built-in tools
 - [Model Context Protocol (MCP) tools](mcp-servers.md)
+- [Agent skills](copilot-agent-skills.md) that provide task-specific instructions
 
 > [!TIP]
 > Visual Studio also includes built-in agents like @debug, @profiler, @test, and @vs that integrate with specific IDE features. You can also create custom agents for your team workflows. For more information, see [Use custom agents in GitHub Copilot](copilot-specialized-agents.md).
@@ -397,5 +398,6 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 ## Related content
 
 - [Use custom agents in GitHub Copilot](copilot-specialized-agents.md)
+- [Use agent skills](copilot-agent-skills.md)
 - [GitHub Copilot Edits](copilot-edits.md)
 - [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
