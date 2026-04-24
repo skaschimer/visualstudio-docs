@@ -1,7 +1,7 @@
 ---
 title: Create an Angular project in Visual Studio
 description: Create, build, and run a simple Angular front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 04/24/2025
+ms.date: 04/24/2026
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
