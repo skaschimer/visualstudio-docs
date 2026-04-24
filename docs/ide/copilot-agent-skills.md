@@ -29,8 +29,7 @@ Skills complement [custom agents](copilot-specialized-agents.md) and [custom ins
 
 When you use [agent mode](copilot-agent-mode.md), Copilot automatically discovers skills from your repository and user profile. The agent decides when a skill is relevant to your request and activates it. When a skill is activated, it appears in the chat to let you know it's being applied.
 
-<!-- TODO: Replace placeholder with actual screenshot -->
-<!-- :::image type="content" source="media/visualstudio/copilot-agent-skills/agent-skills.png" alt-text="Screenshot that shows a skill being used by the Copilot agent in chat." lightbox="media/visualstudio/copilot-agent-skills/agent-skills.png"::: -->
+:::image type="content" source="media/visualstudio/agent-skills.png" alt-text="Screenshot that shows a skill being used by the Copilot agent in chat." lightbox="media/visualstudio/agent-skills.png":::
 
 ## Skill locations
 
@@ -51,11 +50,14 @@ You can create a skill from the skills panel in Visual Studio, or manually in yo
 
 1. Select the **Tools** icon in the bottom-right corner of Copilot Chat to open the skills panel.
 2. Select the **+** button in the top-right corner of the panel.
-3. Choose a destination (global or solution-level skill) and pick a name.
-4. Visual Studio generates a skill template for you to fill in. You can use Copilot agent mode to help you complete the template.
 
-<!-- TODO: Replace placeholder with actual screenshot -->
-<!-- :::image type="content" source="media/visualstudio/copilot-agent-skills/create-skill.png" alt-text="Screenshot that shows creating a new skill from the skills panel." lightbox="media/visualstudio/copilot-agent-skills/create-skill.png"::: -->
+   :::image type="content" source="media/visualstudio/skills-create.png" alt-text="Screenshot that shows creating a new skill from the skills panel." lightbox="media/visualstudio/skills-create.png":::
+
+1. Choose a destination (global or solution-level skill) and pick a name.
+
+   :::image type="content" source="media/visualstudio/skills-create-new.png" alt-text="Screenshot that shows naming a new skill." lightbox="media/visualstudio/skills-create-new.png":::
+
+1. Visual Studio generates a skill template for you to fill in. You can use Copilot agent mode to help you complete the template.
 
 ### Create a skill manually
 
@@ -121,8 +123,7 @@ When creating GitHub issues:
 
 Select the **Tools** icon in the bottom-right corner of Copilot Chat to open the skills panel, a dedicated view of every discovered skill.
 
-<!-- TODO: Replace placeholder with actual screenshot -->
-<!-- :::image type="content" source="media/visualstudio/copilot-agent-skills/skills-panel.png" alt-text="Screenshot that shows the skills panel where you can edit and open skills." lightbox="media/visualstudio/copilot-agent-skills/skills-panel.png"::: -->
+:::image type="content" source="media/visualstudio/skills-panel.png" alt-text="Screenshot that shows the skills panel where you can edit and open skills." lightbox="media/visualstudio/skills-panel.png":::
 
 From the panel, you can:
 
