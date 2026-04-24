@@ -46,6 +46,7 @@ Workspace skills are shared with your team through source control. Personal skil
 
 You can create a skill from the skills panel in Visual Studio, or manually in your file system.
 
+<!-- This goes out in 18.6 in May
 ### Create a skill from the skills panel
 
 1. Select the **Tools** icon in the bottom-right corner of Copilot Chat to open the skills panel.
@@ -58,6 +59,7 @@ You can create a skill from the skills panel in Visual Studio, or manually in yo
    :::image type="content" source="media/visualstudio/skills-create-new.png" alt-text="Screenshot that shows naming a new skill." lightbox="media/visualstudio/skills-create-new.png":::
 
 1. Visual Studio generates a skill template for you to fill in. You can use Copilot agent mode to help you complete the template.
+-->
 
 ### Create a skill manually
 
