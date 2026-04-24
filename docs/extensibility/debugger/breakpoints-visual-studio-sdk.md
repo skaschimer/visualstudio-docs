@@ -7,7 +7,7 @@ helpviewer_keywords:
 - breakpoints
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Breakpoints (Visual Studio SDK)

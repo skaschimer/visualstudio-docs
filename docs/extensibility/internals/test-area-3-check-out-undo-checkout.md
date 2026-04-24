@@ -10,7 +10,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], undo checkout
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Test Area 3: Check Out/Undo Checkout

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - layer models
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Extend dependency diagrams

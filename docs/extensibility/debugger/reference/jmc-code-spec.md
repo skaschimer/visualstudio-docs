@@ -9,7 +9,7 @@ helpviewer_keywords:
 - JMC_CODE_SPEC structure
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

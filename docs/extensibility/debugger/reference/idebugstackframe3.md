@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugStackFrame3 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugStackFrame3

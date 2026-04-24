@@ -2,7 +2,7 @@
 title: Microsoft Windows Virtual Desktop in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/11/2024
 ms.topic: concept-article
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 

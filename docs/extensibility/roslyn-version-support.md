@@ -7,7 +7,7 @@ helpviewer_keywords:
 - roslyn package versions
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # .NET compiler platform package version reference

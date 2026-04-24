@@ -5,7 +5,7 @@ ms.date: 03/25/2026
 ms.topic: overview
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 dev_langs:
  - Python

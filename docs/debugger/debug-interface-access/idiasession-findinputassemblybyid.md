@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSession::findInputAssemblyById method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 

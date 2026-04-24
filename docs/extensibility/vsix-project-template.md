@@ -8,7 +8,7 @@ helpviewer_keywords:
 - publish extension
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # VSIX project template

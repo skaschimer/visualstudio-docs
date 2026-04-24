@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "performance profiling"
 author: evgenyt
 ms.author: maleger
-manager: mijacobs
+
 ms.subservice: xaml-tools
 monikerRange: ">=vs-2022"
 ---

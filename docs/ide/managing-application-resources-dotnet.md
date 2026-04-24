@@ -15,7 +15,7 @@ helpviewer_keywords:
 - application resources [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Manage application resources

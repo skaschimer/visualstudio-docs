@@ -9,7 +9,7 @@ ms.date: 04/20/2023
 ms.topic: tutorial
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Tutorial: Customize a math quiz WinForms app

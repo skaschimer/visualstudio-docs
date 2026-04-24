@@ -9,7 +9,7 @@ helpviewer_keywords:
 - upgrade Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # /Upgrade (devenv.exe)

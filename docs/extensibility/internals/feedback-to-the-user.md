@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IDE, user feedback
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Feedback to the user

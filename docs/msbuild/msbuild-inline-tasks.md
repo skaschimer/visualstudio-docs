@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, tasks
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # MSBuild inline tasks

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Workflow Designer [WFD], overview
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Develop apps with the Workflow Designer

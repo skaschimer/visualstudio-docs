@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, image shape"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Properties of Image Shapes

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - errors [Debugging SDK]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Breakpoint errors

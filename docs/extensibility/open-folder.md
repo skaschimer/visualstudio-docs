@@ -5,7 +5,7 @@ ms.date: "02/21/2018"
 ms.topic: overview
 author: "vukelich"
 ms.author: "svukel"
-manager: "viveis"
+ms.manager:  "viveis"
 ---
 # Open Folder extensibility
 

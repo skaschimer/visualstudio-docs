@@ -5,7 +5,7 @@ ms.date: 03/04/2026
 ms.topic: tutorial
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ms.update-cycle: 90-days
 ms.custom: awp-ai

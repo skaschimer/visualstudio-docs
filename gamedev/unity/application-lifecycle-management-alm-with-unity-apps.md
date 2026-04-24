@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.topic: concept-article
 author: "conceptdev"
 ms.author: "crdun"
-manager: crdun
+ms.manager:  crdun
 ---
 # DevOps with Unity apps
 

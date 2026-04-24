@@ -2,7 +2,7 @@
 title: Partners managing Visual Studio subscriptions for customers
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 11/21/2025
 ms.topic: how-to
 description:  Learn how partners manage Visual Studio subscriptions for their customers.

@@ -2,7 +2,7 @@
 title: Contact a subscription admin in Subscriber Portal
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/16/2024
 ms.topic: how-to
 description: Contact your Visual Studio subscription admins in the Subscriber Portal for assistance with questions or issues. 

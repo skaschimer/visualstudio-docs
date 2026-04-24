@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
-manager: coxford
+ms.manager:  coxford
 monikerRange: '>=vs-2022'
 ---
 # Options, Text Editor, C/C++, Advanced

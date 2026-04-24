@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Folder element [Visual Studio project templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # Folder element (Visual Studio project templates)
 

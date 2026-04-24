@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project configurations, building
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Project Configuration for Building

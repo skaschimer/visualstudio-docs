@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, message enumeration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Message enumerator

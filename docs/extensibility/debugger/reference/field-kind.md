@@ -9,7 +9,7 @@ helpviewer_keywords:
 - FIELD_KIND enumeration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Open Project command
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Open project command

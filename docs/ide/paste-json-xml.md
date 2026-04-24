@@ -6,7 +6,7 @@ ms.topic: reference
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Paste JSON or XML as classes

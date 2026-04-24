@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProcessCreateEvent2
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugProcessCreateEvent2

@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "console applications, ClickOnce applications"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: deployment
 ---
 # Localize ClickOnce applications

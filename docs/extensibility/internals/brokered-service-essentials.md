@@ -8,7 +8,7 @@ helpviewer_keywords:
 - brokered services, essentials
 author: aarnott
 ms.author: andarno
-manager: ansonh
+ms.manager:  ansonh
 ms.subservice: extensibility-integration
 ---
 # Brokered service essentials

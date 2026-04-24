@@ -8,7 +8,7 @@ helpviewer_keywords:
 - transforms [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 #customer intent: As a developer, I want to understand how MSBuild applies transforms for project builds and target mapping, so I can use transforms in my projects.
 ---

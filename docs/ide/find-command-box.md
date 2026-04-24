@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Find/Command box
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Go to Find Combo box

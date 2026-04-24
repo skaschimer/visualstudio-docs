@@ -10,7 +10,7 @@ helpviewer_keywords:
 - file status code enumerator
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # File status code enumerator

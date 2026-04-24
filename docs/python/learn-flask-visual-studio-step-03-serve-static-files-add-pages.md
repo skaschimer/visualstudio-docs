@@ -6,7 +6,7 @@ ms.date: 04/18/2024
 ms.topic: tutorial
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Flask applications in Visual Studio so I can serve static files from my app and use template inheritance.

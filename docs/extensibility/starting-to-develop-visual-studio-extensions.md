@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Visual Studio, integration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Start developing extensions in Visual Studio

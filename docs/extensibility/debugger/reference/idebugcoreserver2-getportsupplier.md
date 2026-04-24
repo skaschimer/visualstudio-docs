@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugCoreServer2::GetPortSupplier
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

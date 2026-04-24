@@ -5,7 +5,7 @@ ms.date: 1/9/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ai-usage: ai-assisted
 ---

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - launch.vs.json file [Visual Studio]
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 
 #customer intent: As a developer, I want to define build and debug tasks with JSON files in Visual Studio so I can quickly run and debug unrecognized codebases.

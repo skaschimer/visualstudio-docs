@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control packages, glyphs
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Glyph control (source control VSPackage)

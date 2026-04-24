@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol8::get_associatedSymbolRva method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol8::get_associatedSymbolRva

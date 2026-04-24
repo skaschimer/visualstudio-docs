@@ -2,7 +2,7 @@
 title: Subscriptions offered in Cloud Partner Program
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 02/28/2025
 ms.topic: limits-and-quotas
 description: Explore available subscriptions, what rules apply, and how many subscriptions are offered in the Microsoft Cloud Partner Program.

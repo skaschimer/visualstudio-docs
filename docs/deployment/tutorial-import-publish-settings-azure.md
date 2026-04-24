@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, publish settings"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: deployment
 ms.custom: sfi-image-nochange
 ---

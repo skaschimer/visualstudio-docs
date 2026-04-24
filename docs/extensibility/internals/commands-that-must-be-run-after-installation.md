@@ -7,7 +7,7 @@ helpviewer_keywords:
 - post-install commands
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Commands that must be run after installation

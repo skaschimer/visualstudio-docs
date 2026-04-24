@@ -10,7 +10,7 @@ helpviewer_keywords:
 - RequiredFrameworkVersion (Visual Studio Templates)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # RequiredFrameworkVersion element (Visual Studio templates)
 

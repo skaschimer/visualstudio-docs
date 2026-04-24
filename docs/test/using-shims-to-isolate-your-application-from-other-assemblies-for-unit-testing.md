@@ -4,7 +4,7 @@ description: Learn how to use shim types to divert calls to specific methods to 
 ms.date: 05/23/2023
 ms.topic: how-to
 ms.author: mikejo
-manager: aajohn
+ms.manager:  aajohn
 ms.subservice: test-tools
 author: mikejo5000
 dev_langs: 

@@ -6,7 +6,7 @@ dev_langs:
   - "VB"
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 02/13/2026

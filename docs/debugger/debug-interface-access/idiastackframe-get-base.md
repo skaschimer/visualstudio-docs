@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaStackFrame::get_base method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

@@ -7,7 +7,7 @@ f1_keywords:
   - "System.Activities.Statements.Confirm.UI"
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Confirm Activity Designer

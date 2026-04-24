@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+
 ms.subservice: sharepoint-development
 ---
 # Add and remove items to SharePoint features

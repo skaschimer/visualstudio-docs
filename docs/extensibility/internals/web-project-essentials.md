@@ -7,7 +7,7 @@ helpviewer_keywords:
 - web projects, essentials
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Web Project Essentials

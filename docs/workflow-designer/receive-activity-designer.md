@@ -7,7 +7,7 @@ f1_keywords:
   - "System.ServiceModel.Activities.Receive.UI"
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Receive Activity Designer

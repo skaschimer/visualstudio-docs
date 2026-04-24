@@ -13,7 +13,7 @@ helpviewer_keywords:
 - language support
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Add Visual Studio editor support for other languages

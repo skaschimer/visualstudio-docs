@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Create an extension with an editor item template

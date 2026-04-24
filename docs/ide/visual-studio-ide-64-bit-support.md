@@ -9,7 +9,7 @@ helpviewer_keywords:
 - 64-bit programming [C++]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Visual Studio IDE 64-Bit support

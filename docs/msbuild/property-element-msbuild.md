@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Property Element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Property element (MSBuild)

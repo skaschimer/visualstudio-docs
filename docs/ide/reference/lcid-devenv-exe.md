@@ -15,7 +15,7 @@ helpviewer_keywords:
 - /LCID Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # /LCID (devenv.exe)

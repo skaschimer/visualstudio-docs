@@ -14,7 +14,7 @@ helpviewer_keywords:
   - data tips tool
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 
 #customer intent: As a developer, I want to use data tips in the Visual Studio Code editor, so I can view and change variable values when I debug my code.

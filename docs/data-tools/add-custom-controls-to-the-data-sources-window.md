@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Data Sources Window, selecting controls
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

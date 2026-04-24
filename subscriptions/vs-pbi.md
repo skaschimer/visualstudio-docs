@@ -2,7 +2,7 @@
 title: Activate Power BI Pro benefit in subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 07/23/2025
 ms.topic: how-to
 description: Activate and explore the Power BI Pro benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.

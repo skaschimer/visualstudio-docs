@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: concept-article
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Generating Code from a Domain-Specific Language

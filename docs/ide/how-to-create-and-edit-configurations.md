@@ -16,7 +16,7 @@ helpviewer_keywords:
 - project build configurations, editing
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ---
 # Create and edit configurations
 

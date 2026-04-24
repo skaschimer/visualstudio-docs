@@ -6,7 +6,7 @@ ms.update-cycle: 180-days
 ms.topic: get-started
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: mijacobs
+
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 

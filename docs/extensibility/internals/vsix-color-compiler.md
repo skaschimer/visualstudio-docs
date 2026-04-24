@@ -5,7 +5,7 @@ ms.date: 11/03/2025
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # VSIX Color Compiler

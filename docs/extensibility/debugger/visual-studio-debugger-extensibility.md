@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Debugging SDK
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Visual Studio debugger extensibility

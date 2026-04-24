@@ -5,7 +5,7 @@ ms.date: 11/26/2025
 ms.topic: how-to
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Set breakpoints in workflows

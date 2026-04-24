@@ -7,7 +7,7 @@ helpviewer_keywords:
 - RegPkg
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Troubleshooting RegPkg Package Registration

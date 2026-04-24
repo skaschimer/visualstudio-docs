@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "debugger, parallel tasks window"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Using the Tasks Window (C#, Visual Basic)

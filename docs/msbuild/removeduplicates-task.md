@@ -14,7 +14,7 @@ helpviewer_keywords:
 - RemoveDuplicates task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # RemoveDuplicates task

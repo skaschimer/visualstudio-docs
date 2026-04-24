@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugErrorBreakpoints2::Next
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

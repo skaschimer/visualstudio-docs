@@ -9,7 +9,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], plug-ins
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Best practices for implementing a source control plug-in

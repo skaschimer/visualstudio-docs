@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, DSL Explorer"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Working with the Domain-Specific Language Explorer

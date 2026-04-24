@@ -13,7 +13,7 @@ helpviewer_keywords:
 - generating code
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Code Generation and T4 Text Templates

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugErrorBreakpoint2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugErrorBreakpoint2

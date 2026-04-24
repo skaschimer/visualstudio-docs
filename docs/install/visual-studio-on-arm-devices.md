@@ -5,7 +5,7 @@ ms.date: 08/25/2025
 ms.topic: concept-article
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+
 ms.subservice: installation
 
 #customer intent: As a developer, I want to learn about Visual Studio support for Arm so that I can determine the best path for getting started with building and debugging Arm64 apps by using Visual Studio.  

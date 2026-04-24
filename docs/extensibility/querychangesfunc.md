@@ -10,7 +10,7 @@ helpviewer_keywords:
 - QUERYCHANGESDATA structure
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # QUERYCHANGESFUNC

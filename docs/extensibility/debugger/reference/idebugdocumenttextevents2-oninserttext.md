@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugDocumentTextEvents2::onInsertText
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

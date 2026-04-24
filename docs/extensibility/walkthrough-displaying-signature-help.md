@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], new - signature help/parameter info
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Walkthrough: Display Signature Help

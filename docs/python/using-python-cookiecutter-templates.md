@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 ms.custom: sfi-image-nochange
 

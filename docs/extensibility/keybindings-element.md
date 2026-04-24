@@ -10,7 +10,7 @@ helpviewer_keywords:
 - KeyBindings element (VSCT XML schema)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # KeyBindings element

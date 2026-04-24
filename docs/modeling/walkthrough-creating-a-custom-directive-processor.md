@@ -8,7 +8,7 @@ helpviewer_keywords:
 - walkthroughs [text templates], directive processor
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 dev_langs:
 - CSharp

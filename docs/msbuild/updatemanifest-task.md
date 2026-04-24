@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "UpdateManifest task [MSBuild]"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # UpdateManifest task

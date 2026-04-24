@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], core interfaces
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Core Interfaces

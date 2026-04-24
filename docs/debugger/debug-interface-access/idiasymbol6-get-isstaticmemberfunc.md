@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol6::get_isStaticMemberFunc method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol6::get_isStaticMemberFunc

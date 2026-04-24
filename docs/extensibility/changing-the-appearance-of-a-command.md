@@ -9,7 +9,7 @@ helpviewer_keywords:
 - menus, changing command appearance
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Change the appearance of a command

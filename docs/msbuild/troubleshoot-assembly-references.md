@@ -5,7 +5,7 @@ ms.date: 10/2/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ms.custom: sfi-image-nochange
 ---

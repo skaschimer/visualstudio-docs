@@ -7,7 +7,7 @@ ms.custom: vs-acquisition
 ms.topic: how-to
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+
 dev_langs:
 - VB
 

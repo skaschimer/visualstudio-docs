@@ -8,7 +8,7 @@ helpviewer_keywords:
 - creating a workflow project
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Workflow project templates

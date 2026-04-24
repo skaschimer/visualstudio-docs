@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccAddFromScc function
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # SccAddFromScc function

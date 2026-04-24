@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, definition file
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # The DslDefinition.dsl File

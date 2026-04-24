@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_dataExport method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 

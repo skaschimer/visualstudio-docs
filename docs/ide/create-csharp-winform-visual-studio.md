@@ -7,7 +7,7 @@ ms.topic: tutorial
 ms.devlang: csharp
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 dev_langs:
   - CSharp

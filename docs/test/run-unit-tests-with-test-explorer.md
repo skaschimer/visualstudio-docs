@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Test.General
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: test-tools
 ---
 # Run unit tests by using Test Explorer

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 author: tinaschrepfer
 ms.author: tinali
-manager: Meng
+ms.manager:  Meng
 ---
 # Walkthrough: Create an Extension Pack
 

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], Machine Debug Manager
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Process debug manager

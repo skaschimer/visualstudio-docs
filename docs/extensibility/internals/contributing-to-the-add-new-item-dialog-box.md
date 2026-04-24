@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Add New Item dialog box, contributing to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Contribute to the Add New Item dialog box

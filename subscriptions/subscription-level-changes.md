@@ -2,7 +2,7 @@
 title: Effects of Changing Subscription Levels
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 02/03/2026
 ms.topic: concept-article
 description: Learn about the effects of upgrading or downgrading your Visual Studio subscription level.

@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, namespace"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Change the namespace of a domain-specific language

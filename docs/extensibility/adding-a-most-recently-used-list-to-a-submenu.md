@@ -9,7 +9,7 @@ helpviewer_keywords:
 - most recently used
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Add a most recently used list to a submenu

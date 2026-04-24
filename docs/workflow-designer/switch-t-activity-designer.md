@@ -8,7 +8,7 @@ f1_keywords:
 - System.Activities.Statements.Switch`1.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Switch\<T> Activity Designer

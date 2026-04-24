@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaLoadCallback2::RestrictReferencePathAccess method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

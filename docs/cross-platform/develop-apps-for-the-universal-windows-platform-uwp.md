@@ -6,7 +6,7 @@ ms.subservice: general-ide
 ms.topic: get-started
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ---
 
 # Develop apps for the Universal Windows Platform (UWP)

@@ -2,7 +2,7 @@
 title: Use your subscription
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 04/21/2026
 ms.topic: how-to
 description: Learn how to use your Visual Studio subscription in the subscription portal. You can switch subscriptions, update your profile, renew or transfer subscriptions, and manage your preferences.

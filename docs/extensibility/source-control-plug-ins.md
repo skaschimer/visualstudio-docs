@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Source Control Plug-ins

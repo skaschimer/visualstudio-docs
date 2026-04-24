@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, multiple processor systems
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 #customer intent: As a developer, I want to learn how MSBuild exploits systems with multiple processors or cores, so I can create separate build processes for each of my processors.
 ---

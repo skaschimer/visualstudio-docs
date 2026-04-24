@@ -7,7 +7,7 @@ ms.custom: vs-acquisition
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+
 
 ms.subservice: installation
 #customer intent: As a developer who uses Visual Studio, I want to be able to repair Visual Studio because I need the IDE for my development tasks.

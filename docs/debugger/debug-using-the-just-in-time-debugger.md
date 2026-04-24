@@ -11,7 +11,7 @@ helpviewer_keywords:
   - Just-In-Time debugging
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Debug using the Just-In-Time Debugger in Visual Studio

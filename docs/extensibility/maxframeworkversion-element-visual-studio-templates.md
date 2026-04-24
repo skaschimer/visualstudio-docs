@@ -9,7 +9,7 @@ helpviewer_keywords:
 - MaxFrameworkVersion Element (Visual Studio Templates)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # MaxFrameworkVersion element (Visual Studio templates)
 

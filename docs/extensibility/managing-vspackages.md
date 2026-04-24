@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VSPackages, loading
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Manage VSPackages

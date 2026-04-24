@@ -6,7 +6,7 @@ ms.topic: overview
 helpviewer_keywords:
 - IntelliTest, Visual Studio IntelliTest developer testing tool
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: test-tools
 author: mikejo5000
 ---

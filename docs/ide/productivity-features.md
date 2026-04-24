@@ -6,7 +6,7 @@ ms.topic: best-practice
 ms.custom: peer-review-program
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 zone_pivot_groups: programming-languages-set-three
 ---

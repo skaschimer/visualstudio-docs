@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Visual Studio, brokered services
 author: aarnott
 ms.author: andarno
-manager: ansonh
+ms.manager:  ansonh
 ms.subservice: extensibility-integration
 ---
 # Discovering available brokered services

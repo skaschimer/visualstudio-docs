@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "tracepoints, about tracepoints"
 author: MikeJo5000
 ms.author: mikejo
-manager: AndSter
+ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---
 # Log info to the Output window using tracepoints in Visual Studio

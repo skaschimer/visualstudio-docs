@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol10::get_sourceLink method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol10::get_sourceLink

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debug engines, registering
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Register a custom debug engine

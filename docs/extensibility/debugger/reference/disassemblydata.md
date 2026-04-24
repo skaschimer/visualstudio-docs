@@ -9,7 +9,7 @@ helpviewer_keywords:
 - DisassemblyData structure
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ms.custom: sfi-ropc-nochange
 dev_langs:

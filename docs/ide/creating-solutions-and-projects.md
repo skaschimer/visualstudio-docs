@@ -10,7 +10,7 @@ helpviewer_keywords:
 - projects [Visual Studio], creating
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange
 

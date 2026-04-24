@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDebugSymbolProviderDirect::GetCurrentModulesState
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

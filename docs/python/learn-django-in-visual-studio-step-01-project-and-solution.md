@@ -6,7 +6,7 @@ ms.date: 11/21/2025
 ms.topic: tutorial
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Django projects and applications in Visual Studio so I can support my Django development needs.

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IntellisenseHostFlags enumeration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # IntelliSenseHostFlags

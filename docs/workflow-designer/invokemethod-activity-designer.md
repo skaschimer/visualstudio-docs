@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Statements.InvokeMethod.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # InvokeMethod Activity Designer

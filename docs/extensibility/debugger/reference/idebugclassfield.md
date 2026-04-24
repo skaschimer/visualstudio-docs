@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugClassField interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugClassField

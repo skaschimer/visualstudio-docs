@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], program registration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Register the program

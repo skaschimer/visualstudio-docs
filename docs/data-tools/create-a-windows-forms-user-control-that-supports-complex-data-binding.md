@@ -12,7 +12,7 @@ helpviewer_keywords:
 - user controls [Visual Studio], complex data binding
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

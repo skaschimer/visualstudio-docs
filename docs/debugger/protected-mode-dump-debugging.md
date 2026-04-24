@@ -5,7 +5,7 @@ ms.date: "09/04/2025"
 ms.topic: concept-article
 author: "auott"
 ms.author: "auott"
-manager: barryta
+ms.manager:  barryta
 ms.subservice: debug-diagnostics
 monikerRange: '>= visualstudio'
 ---

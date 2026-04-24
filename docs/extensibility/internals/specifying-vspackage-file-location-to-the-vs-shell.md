@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSPackages, managed package file location
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Specifying VSPackage File Location to the VS Shell

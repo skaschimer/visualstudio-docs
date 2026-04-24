@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], custom - syntax coloring
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Syntax Coloring in Custom Editors

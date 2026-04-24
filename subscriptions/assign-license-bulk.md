@@ -2,7 +2,7 @@
 title: Assign subscriptions to multiple users
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 04/02/2026
 ms.topic: how-to
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.

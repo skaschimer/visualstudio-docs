@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, generating templates from templates
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Generate Templates from Templates By Using Escape Sequences

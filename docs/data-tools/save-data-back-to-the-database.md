@@ -17,7 +17,7 @@ helpviewer_keywords:
 - TableAdapters
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

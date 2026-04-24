@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Visual Studio templates, customizing
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 
 # customer intent: As a developer, I want to customize project templates, item templates, and wizards to meet my current needs.

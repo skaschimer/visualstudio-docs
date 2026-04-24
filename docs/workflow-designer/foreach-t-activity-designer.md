@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Statements.ForEach`1.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # ForEach&lt;T&gt; Activity Designer

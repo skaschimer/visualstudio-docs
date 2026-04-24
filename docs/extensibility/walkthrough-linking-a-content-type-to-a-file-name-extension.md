@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], new - link content type to file name extension
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Walkthrough: Link a content type to a file name extension

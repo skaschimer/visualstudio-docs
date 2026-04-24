@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, best practices
 author: jankrivanek
 ms.author: jankrivanek
-manager: tkapin
+ms.manager:  tkapin
 ms.subservice: msbuild
 ---
 # Secure MSBuild usage best practices

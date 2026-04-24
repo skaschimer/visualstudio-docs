@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.topic: concept-article
 author: therealjohn
 ms.author: johmil
-manager: crdun
+ms.manager:  crdun
 ---
 # Program Visual Studio Tools for Unity
 In this section, you'll find examples for using the Visual Studio Tools for Unity API.

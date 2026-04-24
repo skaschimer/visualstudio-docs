@@ -6,7 +6,7 @@ ms.date: 11/21/2025
 ms.topic: tutorial
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Flask applications and projects in Visual Studio so I can support my Flask development needs.

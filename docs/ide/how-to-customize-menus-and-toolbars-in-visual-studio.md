@@ -24,7 +24,7 @@ helpviewer_keywords:
 - toolbars [Visual Studio], customizing in the IDE
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Customize menus and toolbars in Visual Studio

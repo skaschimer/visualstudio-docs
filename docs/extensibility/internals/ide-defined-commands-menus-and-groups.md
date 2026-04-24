@@ -9,7 +9,7 @@ helpviewer_keywords:
 - command groups, environment-defined
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # IDE-Defined Commands, Menus, and Groups
