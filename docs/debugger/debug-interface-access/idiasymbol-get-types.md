@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol::get_types method"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol::get_types

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - custom tools, exposing types to visual designers
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Expose types to visual designers

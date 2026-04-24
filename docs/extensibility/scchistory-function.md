@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccHistory function
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # SccHistory Function

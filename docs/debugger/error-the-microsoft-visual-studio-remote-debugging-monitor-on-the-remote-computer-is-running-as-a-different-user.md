@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "msvsmon.exe"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user

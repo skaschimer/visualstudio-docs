@@ -10,7 +10,7 @@ helpviewer_keywords:
 - multitargeting [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MSBuild Toolset (ToolsVersion)

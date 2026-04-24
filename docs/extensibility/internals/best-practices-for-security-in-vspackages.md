@@ -9,7 +9,7 @@ helpviewer_keywords:
 - best practices, security
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Best practices for security in VSPackages

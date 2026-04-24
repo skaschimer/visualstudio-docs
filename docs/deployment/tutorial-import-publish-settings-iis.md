@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, publish settings"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Get publish settings from IIS and import into Visual Studio

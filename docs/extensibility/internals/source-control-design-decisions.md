@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control [Visual Studio SDK], design decisions
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Source Control Design Decisions

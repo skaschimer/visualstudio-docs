@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugEvent2::GetAttributes
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

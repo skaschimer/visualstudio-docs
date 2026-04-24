@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.topic: concept-article
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Historical debugging (C#, Visual Basic, C++)

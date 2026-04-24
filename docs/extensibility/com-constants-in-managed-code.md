@@ -7,7 +7,7 @@ helpviewer_keywords:
 - managed VSPackages, COM constants and macros
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # COM constants in managed code

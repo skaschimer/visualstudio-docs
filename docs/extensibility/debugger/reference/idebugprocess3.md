@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProcess3 interface
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugProcess3

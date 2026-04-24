@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugSymbolProvider::GetTypeByName method
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

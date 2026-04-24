@@ -8,7 +8,7 @@ helpviewer_keywords:
 - command-table file compilation (VSCT files)
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # VSCT Compiler Command-Line Flags

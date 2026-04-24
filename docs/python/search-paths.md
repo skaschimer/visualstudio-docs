@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-ms.manager: wiwagn
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to use Python folders in my search path for environments and projects in Visual Studio so that I can avoid using system-wide variables.

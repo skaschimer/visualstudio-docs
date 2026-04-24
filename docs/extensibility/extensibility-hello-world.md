@@ -5,7 +5,7 @@ ms.date: 02/02/2024
 ms.topic: tutorial
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Tutorial - Create your first extension: Hello World

@@ -8,7 +8,7 @@ f1_keywords:
 monikerRange: ">=vs-2022"
 author: maddymontaquila
 ms.author: maleger
-ms.manager: wiwagn
+
 ms.subservice: xaml-tools
 ---
 # XAML code editor

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaLineNumber::get_columnNumberEnd method"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

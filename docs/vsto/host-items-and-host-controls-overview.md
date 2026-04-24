@@ -34,7 +34,7 @@ helpviewer_keywords:
   - "host controls [Office development in Visual Studio], deleting"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Host items and host controls overview

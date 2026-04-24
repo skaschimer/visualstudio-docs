@@ -5,7 +5,7 @@ ms.date: 12/16/2016
 ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 f1_keywords:
 - vs.codefix.previewchanges

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - dependency diagrams, adding custom validation
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Add custom architecture validation to dependency diagrams

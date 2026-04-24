@@ -9,7 +9,7 @@ helpviewer_keywords:
 - DEBUG_ADDRESS_UNION union
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

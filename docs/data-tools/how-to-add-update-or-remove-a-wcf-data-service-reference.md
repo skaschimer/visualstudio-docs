@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ADO.NET Data Service reference
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

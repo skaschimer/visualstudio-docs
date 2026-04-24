@@ -8,7 +8,7 @@ helpviewer_keywords:
 - tool windows, standard
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Extend and customize tool windows

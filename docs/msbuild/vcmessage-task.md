@@ -12,7 +12,7 @@ helpviewer_keywords:
 - MSBuild (C++), VCMessage task
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # VCMessage task

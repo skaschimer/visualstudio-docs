@@ -7,7 +7,7 @@ helpviewer_keywords:
 - we site projects, templates
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Web Site Support Templates

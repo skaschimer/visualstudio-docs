@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "global functions [C++], as public symbols"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # PublicSymbol

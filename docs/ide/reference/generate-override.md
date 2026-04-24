@@ -6,7 +6,7 @@ ms.topic: reference
 ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Generate an override in Visual Studio

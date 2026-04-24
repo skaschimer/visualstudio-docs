@@ -7,7 +7,7 @@ helpviewer_keywords:
 - verbs, registering
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Register verbs for file name extensions

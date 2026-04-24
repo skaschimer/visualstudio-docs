@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccInitialize function
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # SccInitialize Function

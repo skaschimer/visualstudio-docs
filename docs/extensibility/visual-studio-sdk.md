@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Visual Studio, SDK
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Visual Studio SDK

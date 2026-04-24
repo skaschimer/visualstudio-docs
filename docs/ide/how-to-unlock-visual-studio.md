@@ -5,7 +5,7 @@ ms.date: 03/02/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a Visual Studio user, I want to learn about extending a trial version, using an online subscription or product key to unlock Visual Studio, or updating a stale or expired license. 

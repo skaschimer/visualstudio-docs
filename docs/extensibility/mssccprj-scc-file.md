@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSSCCPRJ.SCC file
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # MSSCCPRJ.SCC file

@@ -6,7 +6,7 @@ ms.date: 4/1/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Push from Visual Studio to a remote branch

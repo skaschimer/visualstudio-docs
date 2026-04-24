@@ -5,7 +5,7 @@ ms.date: 03/05/2019
 ms.topic: how-to
 author: dzsquared
 ms.author: drskwier
-ms.manager: wiwagn
+
 ms.subservice: xml-tools
 ---
 # Execute an XSLT transformation from the XML editor

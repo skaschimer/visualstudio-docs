@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Profile a SharePoint application

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce], fileAssociation element"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # &lt;fileAssociation&gt; element (ClickOnce application)

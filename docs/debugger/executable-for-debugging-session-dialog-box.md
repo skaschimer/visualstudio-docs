@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "Executable for Debugging Session dialog box"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Executable for Debugging Session Dialog Box

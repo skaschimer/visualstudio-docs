@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, local variables
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Sample implementation of locals

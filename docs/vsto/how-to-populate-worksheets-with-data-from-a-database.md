@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to worksheets"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Populate worksheets with data from a database

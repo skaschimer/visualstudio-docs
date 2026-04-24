@@ -10,7 +10,7 @@ helpviewer_keywords:
 - n-tier applications, about n-tier applications
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

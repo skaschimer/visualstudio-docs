@@ -14,7 +14,7 @@ helpviewer_keywords:
 - data [Windows Forms], displaying
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ms.custom: sfi-image-nochange
 ---

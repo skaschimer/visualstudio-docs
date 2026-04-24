@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Add Existing Item command
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Add Existing Item Command

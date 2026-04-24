@@ -8,7 +8,7 @@ helpviewer_keywords:
 - tool windows, registering
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Register a tool window

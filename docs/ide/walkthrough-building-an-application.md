@@ -6,7 +6,7 @@ ms.subservice: compile-build
 ms.topic: tutorial
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 # Tutorial: Build an application
 

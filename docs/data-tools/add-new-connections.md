@@ -5,7 +5,7 @@ description: Connect to a database or data service with ADO.NET in Visual Studio
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ms.custom: sfi-image-nochange
 ---

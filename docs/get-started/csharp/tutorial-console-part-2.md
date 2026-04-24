@@ -8,7 +8,7 @@ ms.topic: tutorial
 ms.devlang: csharp
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 monikerRange: ">=vs-2022"
 dev_langs:
   - CSharp

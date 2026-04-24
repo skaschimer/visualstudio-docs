@@ -8,7 +8,7 @@ dev_langs:
   - "CSharp"
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.custom:
   - vs-acquisition
   - sfi-image-nochange

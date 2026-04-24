@@ -7,7 +7,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], opening items
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Project Context

@@ -15,7 +15,7 @@ helpviewer_keywords:
 - application modeling
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Analyze and model your architecture

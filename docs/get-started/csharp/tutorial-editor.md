@@ -7,7 +7,7 @@ ms.subservice: general-ide
 ms.topic: tutorial
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 dev_langs:
 - CSharp
 ---

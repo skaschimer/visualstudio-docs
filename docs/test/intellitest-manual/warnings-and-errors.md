@@ -6,7 +6,7 @@ ms.topic: reference
 helpviewer_keywords:
 - IntelliTest, Warnings and errors
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 author: mikejo5000
 ---

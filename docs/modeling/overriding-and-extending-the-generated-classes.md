@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, providing overridable classes
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Override and extend the generated classes

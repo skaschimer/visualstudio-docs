@@ -9,7 +9,7 @@ ms.date: 02/13/2026
 ms.topic: tutorial
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a developer working with Windows Forms applications, I need to know how to use timers in my apps.

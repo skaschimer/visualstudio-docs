@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "calling code from VBA"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Call code in VSTO Add-ins from other Office solutions

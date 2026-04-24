@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, directory status enumeration
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Directory status code enumerator

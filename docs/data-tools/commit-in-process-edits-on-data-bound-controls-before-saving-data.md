@@ -15,7 +15,7 @@ helpviewer_keywords:
 - EndEdit method
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

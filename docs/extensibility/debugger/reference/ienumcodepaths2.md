@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumCodePaths2 interface
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IEnumCodePaths2

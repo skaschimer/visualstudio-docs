@@ -8,7 +8,7 @@ helpviewer_keywords:
 - menu items, visibility contexts
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Command availability

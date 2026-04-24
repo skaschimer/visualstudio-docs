@@ -5,7 +5,7 @@ ms.date: 10/28/2021
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Visual Studio Customer Experience Improvement Program

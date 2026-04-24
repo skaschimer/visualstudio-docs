@@ -13,7 +13,7 @@ helpviewer_keywords:
 - bitmaps [Visual Studio], Image Library
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: ui-designers
 ---
 # The Visual Studio image library

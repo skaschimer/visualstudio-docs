@@ -8,7 +8,7 @@ helpviewer_keywords:
 - breakpoints, methods
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Breakpoint-related methods

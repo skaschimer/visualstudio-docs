@@ -7,7 +7,7 @@ ms.service: visual-studio-windows
 ms.subservice: javascript-typescript
 ms.author: "mikejo"
 author: "mikejo5000"
-ms.manager: wiwagn
+
 ---
 # JavaScript in Visual Studio
 

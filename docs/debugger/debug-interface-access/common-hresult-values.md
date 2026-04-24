@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "DIA SDK, HRESULT, constants"
 author: "grantri"
 ms.author: "grantri"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 

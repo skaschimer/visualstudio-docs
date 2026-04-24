@@ -9,7 +9,7 @@ helpviewer_keywords:
 - integration roadmap, Visual Studio SDK
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Inside the Visual Studio SDK

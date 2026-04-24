@@ -15,7 +15,7 @@ f1_keywords:
 - cs.ProjectPropertiesBuildEventsBuilder
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 # Specify build events (C#)
 

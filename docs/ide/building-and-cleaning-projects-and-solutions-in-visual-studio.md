@@ -20,7 +20,7 @@ helpviewer_keywords:
 - builds [Visual Studio], preparing
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 # Build and clean projects and solutions in Visual Studio
 

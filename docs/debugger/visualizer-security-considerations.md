@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "security [Visual Studio], visualizers"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Visualizer Security Considerations

@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "worksheets, using radio buttons"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons

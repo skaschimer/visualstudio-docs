@@ -12,7 +12,7 @@ helpviewer_keywords:
   - deployment update, alternative locations
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Specify an alternate location for deployment updates

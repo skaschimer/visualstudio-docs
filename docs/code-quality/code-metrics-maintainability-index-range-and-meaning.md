@@ -5,7 +5,7 @@ description: Explore the maintainability index range metric for code metrics in 
 ms.topic: concept-article
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: code-analysis
 ---
 

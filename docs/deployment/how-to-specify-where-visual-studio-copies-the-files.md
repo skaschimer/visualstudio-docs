@@ -37,7 +37,7 @@ helpviewer_keywords:
   - deploying applications [ClickOnce], installation on CD or DVD
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 

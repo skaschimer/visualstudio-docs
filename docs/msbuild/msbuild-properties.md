@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, properties
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MSBuild properties

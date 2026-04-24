@@ -10,7 +10,7 @@ helpviewer_keywords:
 - running document table (RDT), architecture
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Persistence and the Running Document Table

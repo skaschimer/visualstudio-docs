@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language, swimlane
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Properties of Swimlanes

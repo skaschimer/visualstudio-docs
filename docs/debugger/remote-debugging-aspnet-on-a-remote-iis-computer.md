@@ -5,7 +5,7 @@ ms.date: 04/23/2024
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio

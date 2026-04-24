@@ -11,7 +11,7 @@ helpviewer_keywords:
 - datasets [Visual Basic], creating
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

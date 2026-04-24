@@ -6,7 +6,7 @@ ms.date: 12/01/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Sign in or switch Visual Studio user accounts 

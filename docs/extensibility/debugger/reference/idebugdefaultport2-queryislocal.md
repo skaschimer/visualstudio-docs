@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugDefaultPort2::QueryIsLocal
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugDefaultPort2::QueryIsLocal

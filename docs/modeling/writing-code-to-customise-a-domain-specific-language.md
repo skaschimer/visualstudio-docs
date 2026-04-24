@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming"
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 

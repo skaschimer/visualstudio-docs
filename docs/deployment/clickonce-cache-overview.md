@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, cache"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # ClickOnce cache overview

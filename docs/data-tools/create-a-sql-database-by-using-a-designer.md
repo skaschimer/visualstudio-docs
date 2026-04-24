@@ -9,7 +9,7 @@ helpviewer_keywords:
 - table designer
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

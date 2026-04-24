@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: maddymontaquila
 ms.author: maleger
-ms.manager: wiwagn
+
 ms.subservice: xaml-tools
 ---
 # Artboard modifier keys in Blend

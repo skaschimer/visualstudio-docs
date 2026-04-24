@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "SignFile task [MSBuild]"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # SignFile task

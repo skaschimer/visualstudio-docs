@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text, case
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Change text case in the editor

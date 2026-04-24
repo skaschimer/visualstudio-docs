@@ -10,7 +10,7 @@ helpviewer_keywords:
 - MSBuild, building a project with resources
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Build a project that has resources

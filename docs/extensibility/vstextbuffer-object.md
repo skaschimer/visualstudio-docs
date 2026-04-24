@@ -10,7 +10,7 @@ helpviewer_keywords:
 - views [Visual Studio SDK], VSTextBuffer object
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # VSTextBuffer object

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, workflow initiation forms"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: sharepoint-development
 ---
 # Walkthrough: Create a workflow with association and initiation forms

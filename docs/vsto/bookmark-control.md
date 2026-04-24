@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Bookmark control"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Bookmark control

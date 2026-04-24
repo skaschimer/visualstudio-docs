@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], startup events
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Send startup events after a launch

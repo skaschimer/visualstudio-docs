@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Typedef symbol [DIA SDK]"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Typedef (Debug Interface Access SDK)

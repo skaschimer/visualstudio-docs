@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "MSBuild, GetFileHash task"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # GetFileHash task

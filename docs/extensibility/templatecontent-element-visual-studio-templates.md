@@ -10,7 +10,7 @@ helpviewer_keywords:
 - TemplateContent element [Visual Studio project templates]
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ---
 # TemplateContent Element (Visual Studio Templates)
 

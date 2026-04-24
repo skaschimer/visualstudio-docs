@@ -15,7 +15,7 @@ helpviewer_keywords:
 - GenerateApplicationManifest task [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # GenerateApplicationManifest task

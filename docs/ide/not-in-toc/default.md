@@ -108,7 +108,7 @@ f1_keywords:
 - VS_E_CANTOPENFILE
 - VB_E_TERRCLASSNOTREG
 - vs.webclient.help.general
-ms.manager: wiwagn
+
 author: mikejo5000
 ms.author: mikejo
 ---

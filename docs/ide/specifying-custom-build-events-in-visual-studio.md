@@ -8,7 +8,7 @@ helpviewer_keywords:
 - build events, customizing
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 
 #customer intent: As a developer, I want to specify build commands in Visual Studio so I can automatically run operations before my build starts or after it completes.
 ---

@@ -7,7 +7,7 @@ f1_keywords:
 - vs.UnitTest.Migrate
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 ---
 # Upgrade from MSTestV1 to MSTestV2

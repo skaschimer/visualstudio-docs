@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.custom: "awp, ide-ref"
 author: GitHubber17
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 monikerRange: 'visualstudio'
 ---

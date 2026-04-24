@@ -7,7 +7,7 @@ ms.topic: concept-article
 description: IntelliCode privacy
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 # IntelliCode privacy
 

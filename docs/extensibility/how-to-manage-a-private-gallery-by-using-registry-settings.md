@@ -8,7 +8,7 @@ helpviewer_keywords:
 - managing VSIX private galleries
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Manage a private gallery by using registry settings

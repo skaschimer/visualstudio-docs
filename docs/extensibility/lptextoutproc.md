@@ -13,7 +13,7 @@ helpviewer_keywords:
 - SccMsgDataOnAfterGetFile structure
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # LPTEXTOUTPROC

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDE, GUIDs
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # IDE GUIDs

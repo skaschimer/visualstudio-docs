@@ -8,7 +8,7 @@ helpviewer_keywords:
 - lookup tables, creating
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

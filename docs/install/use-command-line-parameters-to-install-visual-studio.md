@@ -10,7 +10,7 @@ f1_keywords:
 - command prompt
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: wiwagn
+
 
 ms.subservice: installation
 ---

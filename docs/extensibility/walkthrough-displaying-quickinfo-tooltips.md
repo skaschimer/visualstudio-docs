@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], new - QuickInfo
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 dev_langs:
 - csharp

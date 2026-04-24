@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, replaceable parameters"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: sharepoint-development
 ---
 # Replaceable parameters

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugProgram3::ExecuteOnThread
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - web services, connecting
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

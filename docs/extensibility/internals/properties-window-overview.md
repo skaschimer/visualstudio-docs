@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Properties window
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Properties Window Overview

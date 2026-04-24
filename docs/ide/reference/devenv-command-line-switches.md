@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Devenv
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Devenv command-line switches

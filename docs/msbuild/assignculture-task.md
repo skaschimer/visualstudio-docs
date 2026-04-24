@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "AssignCulture task [MSBuild]"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # AssignCulture task

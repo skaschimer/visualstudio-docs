@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, CommandFlag
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Command flag element

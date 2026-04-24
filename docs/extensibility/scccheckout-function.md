@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccCheckout function
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # SccCheckout function

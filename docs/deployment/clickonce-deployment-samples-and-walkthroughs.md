@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Visual Studio, walkthroughs"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # ClickOnce deployment samples and walkthroughs

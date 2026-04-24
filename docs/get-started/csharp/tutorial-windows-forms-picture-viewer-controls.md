@@ -3,7 +3,7 @@ title: "Tutorial: Add controls to the picture viewer Windows Forms app"
 description: Add a picture box, a checkbox, and buttons to a picture viewer application in the Visual Studio integrated development environment.
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 02/13/2026

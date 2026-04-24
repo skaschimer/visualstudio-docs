@@ -9,7 +9,7 @@ helpviewer_keywords:
 - color themes, Visual Studio
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 moniker range: '>=vs-2022'
 ---

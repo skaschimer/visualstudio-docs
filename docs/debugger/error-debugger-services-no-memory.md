@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "debugger"
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ---
 # Debugger Services Running Out of Memory
 

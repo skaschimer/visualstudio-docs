@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "managed code, code analysis"
 author: mikadumont
 ms.author: midumont
-ms.manager: wiwagn
+
 ms.subservice: code-analysis
 ---
 

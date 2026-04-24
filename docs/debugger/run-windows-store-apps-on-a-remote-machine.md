@@ -10,7 +10,7 @@ dev_langs:
   - C++
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debug UWP apps on remote machines from Visual Studio

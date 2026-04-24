@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project types, checklist for creating
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Checklist: Create new project types

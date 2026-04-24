@@ -8,7 +8,7 @@ f1_keywords:
 - vs.graphics.imageeditor
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: ui-designers
 ---
 # What is the Image Editor in Visual Studio?

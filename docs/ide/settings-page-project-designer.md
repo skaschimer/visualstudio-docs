@@ -13,7 +13,7 @@ ms.custom:
 - awp-ai
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Settings page, Project Designer

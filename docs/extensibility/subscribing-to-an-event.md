@@ -8,7 +8,7 @@ helpviewer_keywords:
 - running document table (RDT), subscribing to events
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Subscribing to an Event

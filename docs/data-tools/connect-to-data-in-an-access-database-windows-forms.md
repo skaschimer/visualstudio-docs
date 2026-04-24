@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Access databases, connecting
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ms.custom: sfi-image-nochange
 ---

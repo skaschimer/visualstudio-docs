@@ -7,7 +7,7 @@ helpviewer_keywords:
 - VSPackages, installation directory
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Choose the installation directory for a VSPackage

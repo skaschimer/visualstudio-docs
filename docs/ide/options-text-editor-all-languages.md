@@ -39,7 +39,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 
 #customer intent: As a Visual Studio user, I want to configure Text Editor options for all languages so that I can customize code editing behavior consistently across all programming languages.

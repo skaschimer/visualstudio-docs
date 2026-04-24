@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], application updates"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # How ClickOnce performs application updates

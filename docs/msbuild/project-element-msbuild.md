@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Project element [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Project element (MSBuild)

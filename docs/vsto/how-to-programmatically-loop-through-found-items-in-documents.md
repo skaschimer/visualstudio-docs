@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "text [Office development in Visual Studio], searching in documents"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically loop through found items in documents

@@ -13,7 +13,7 @@ dev_langs:
   - "SQL"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Error: Unable to access the SQL Server debugging interface

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - guid
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # GUIDs and IDs of Visual Studio commands

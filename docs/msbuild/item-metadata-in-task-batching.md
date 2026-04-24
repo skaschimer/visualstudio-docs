@@ -10,7 +10,7 @@ helpviewer_keywords:
 - MSBuild, task batching
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Item metadata in task batching

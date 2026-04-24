@@ -14,7 +14,7 @@ helpviewer_keywords:
   - debugger, GPU threads window
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Use the GPU Threads Window (C++)

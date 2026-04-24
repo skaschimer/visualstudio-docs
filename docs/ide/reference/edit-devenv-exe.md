@@ -9,7 +9,7 @@ helpviewer_keywords:
 - /Edit Devenv switch
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # /Edit (devenv.exe)

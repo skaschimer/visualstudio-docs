@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: concept-article
 author: Devdiv-VR
 ms.author: vedhar
-ms.manager: wiwagn
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to use Django web project templates in Visual Studio so I can quickly create Django web applications with Python.

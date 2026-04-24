@@ -18,7 +18,7 @@ helpviewer_keywords:
 - constraints, architectural
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Dependency diagrams: reference

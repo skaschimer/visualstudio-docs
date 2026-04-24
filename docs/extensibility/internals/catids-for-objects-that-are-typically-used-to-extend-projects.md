@@ -9,7 +9,7 @@ helpviewer_keywords:
 - CATIDs for VSPackages
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # CATIDs for objects that are typically used to extend projects

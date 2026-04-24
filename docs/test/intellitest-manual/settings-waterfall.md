@@ -6,7 +6,7 @@ ms.topic: concept-article
 helpviewer_keywords:
 - IntelliTest, Settings waterfall
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 author: mikejo5000
 ---

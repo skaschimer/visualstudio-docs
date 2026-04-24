@@ -5,7 +5,7 @@ ms.date: 06/01/2018
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Configure Visual Studio as a WIP-exempt app

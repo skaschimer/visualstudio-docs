@@ -6,7 +6,7 @@ ms.date: 04/18/2024
 ms.topic: tutorial
 author: Devdiv-VR
 ms.author: vedhar
-ms.manager: wiwagn
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to create Django web applications in Visual Studio so I can develop apps with multiple views and render views with templates.

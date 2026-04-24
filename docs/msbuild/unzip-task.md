@@ -18,7 +18,7 @@ helpviewer_keywords:
 caps.latest.revision: 16
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Unzip task

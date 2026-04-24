@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: concept-article
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: ui-designers
 ---
 # Work with 3D models

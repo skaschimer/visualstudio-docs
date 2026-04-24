@@ -12,7 +12,7 @@ helpviewer_keywords:
 - item metadata (MSBuild)
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Common MSBuild item metadata

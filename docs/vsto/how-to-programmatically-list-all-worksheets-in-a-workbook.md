@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "worksheets, listing"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically list all worksheets in a workbook

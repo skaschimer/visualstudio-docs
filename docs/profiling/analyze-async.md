@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "asynchronous, async, profiling"
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Analyze performance of .NET asynchronous code

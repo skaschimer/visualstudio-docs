@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Code Editor, windows management
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Manage editor windows

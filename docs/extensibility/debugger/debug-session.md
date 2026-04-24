@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], sessions
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debug session

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - wizards, files
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Wizard (.Vsz) File

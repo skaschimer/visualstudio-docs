@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "Help Viewer, downloading content"
 author: jasonchlus
 ms.author: jasonchlus
-ms.manager: wiwagn
+
 ms.subservice: help-viewer
 ---
 # Install and manage local content

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Debug.Quickwatch command
 author: Mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Quick Watch Command

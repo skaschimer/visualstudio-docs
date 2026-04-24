@@ -9,7 +9,7 @@ helpviewer_keywords:
   - prerequisites, creating localized bootstrapper packages
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Create a localized bootstrapper package

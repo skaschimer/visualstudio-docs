@@ -8,7 +8,7 @@ helpviewer_keywords:
 - editorconfig, supporting in a language service
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Supporting EditorConfig for your language service

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - saving data
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 
 #customer intent: As a developer, I want to develop .NET Framework applications in Visual Studio, so I can insert new records into a database with TableAdapters or command objects.

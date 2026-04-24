@@ -9,7 +9,7 @@ helpviewer_keywords:
 - text templates, functions that generate text
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Writing a T4 Text Template

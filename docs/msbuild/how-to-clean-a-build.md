@@ -3,7 +3,7 @@ title: Clean a build with MSBuild
 description: Use MSBuild to clean a build, delete all of the intermediate and output files, and leave only the project and component files.
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ms.topic: how-to
 ms.date: 02/27/2025

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - Windows Service applications, debugging
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debug the OnStart Method

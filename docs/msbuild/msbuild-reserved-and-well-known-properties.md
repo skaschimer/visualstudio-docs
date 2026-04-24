@@ -11,7 +11,7 @@ helpviewer_keywords:
 - MSBuild, reserved properties
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MSBuild reserved and well-known properties

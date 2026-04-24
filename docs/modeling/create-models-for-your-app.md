@@ -19,7 +19,7 @@ helpviewer_keywords:
 - software, modeling
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Create models for your app

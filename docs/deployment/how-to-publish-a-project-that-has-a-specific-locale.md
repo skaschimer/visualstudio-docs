@@ -17,7 +17,7 @@ helpviewer_keywords:
   - macros, publishing with
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Publish a project that has a specific locale

@@ -6,7 +6,7 @@ ms.topic: reference
 helpviewer_keywords:
 - IntelliTest, Static helper classes
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: test-tools
 author: mikejo5000
 ---

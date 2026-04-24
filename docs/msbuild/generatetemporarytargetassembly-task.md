@@ -14,7 +14,7 @@ helpviewer_keywords:
 - creating an assembly [WPF MSBuild], XAML page refers to a locally declared type
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # GenerateTemporaryTargetAssembly task

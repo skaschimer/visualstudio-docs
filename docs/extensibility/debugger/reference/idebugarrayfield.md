@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugArrayField interface
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugArrayField

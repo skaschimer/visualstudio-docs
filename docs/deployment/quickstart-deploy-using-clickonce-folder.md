@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "deployment, local folder, ClickOnce"
 author: john-hart
 ms.author: JohnHart
-ms.manager: wiwagn
+
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange

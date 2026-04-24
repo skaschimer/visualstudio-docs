@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, WriteLinesToFile task
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # WriteLinesToFile task

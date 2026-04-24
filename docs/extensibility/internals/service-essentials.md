@@ -7,7 +7,7 @@ helpviewer_keywords:
 - services, essentials
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Service Essentials

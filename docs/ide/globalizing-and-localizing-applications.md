@@ -12,7 +12,7 @@ helpviewer_keywords:
 - international applications [Visual Studio]
 author: BillWagner
 ms.author: wiwagn
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Develop globalized and localized apps

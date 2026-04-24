@@ -8,7 +8,7 @@ helpviewer_keywords:
   - debugger
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ms.custom: sfi-image-nochange
 ---

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "ResourcesGenerator task [WPF MSBuild], parameters"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # ResourcesGenerator task

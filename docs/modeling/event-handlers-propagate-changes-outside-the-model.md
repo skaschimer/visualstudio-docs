@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Domain-Specific Language, events
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Event Handlers Propagate Changes Outside the Model

@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Word [Office development in Visual Studio], closing documents"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Programmatically close documents

@@ -15,7 +15,7 @@ helpviewer_keywords:
 - concurrency control, walkthroughs
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

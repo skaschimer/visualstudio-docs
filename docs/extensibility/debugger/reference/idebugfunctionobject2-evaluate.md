@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugFunctionObject2::Evaluate
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

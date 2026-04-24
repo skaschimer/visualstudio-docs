@@ -6,7 +6,7 @@ ms.update-cycle: 180-days
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'

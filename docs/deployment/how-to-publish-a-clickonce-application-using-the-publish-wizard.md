@@ -14,7 +14,7 @@ helpviewer_keywords:
   - publishing, ClickOnce
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 #customer intent: As a developer, I want to use the Publish Wizard in Visual Studio so I can make my ClickOnce application available to users.
 ---

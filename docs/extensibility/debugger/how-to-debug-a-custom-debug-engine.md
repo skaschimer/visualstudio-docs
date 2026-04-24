@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], custom debug engines
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Debug a custom debug engine

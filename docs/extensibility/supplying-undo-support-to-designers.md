@@ -7,7 +7,7 @@ helpviewer_keywords:
 - designers [Visual Studio SDK], undo support
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Supply undo support to designers

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: code-analysis
 ---
 

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccRemove function
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # SccRemove Function

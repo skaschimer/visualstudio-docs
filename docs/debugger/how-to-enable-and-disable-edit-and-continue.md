@@ -23,7 +23,7 @@ helpviewer_keywords:
   - Go command
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai
 ---

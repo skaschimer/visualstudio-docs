@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], entering break mode
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Enter break mode

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], custom
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Create custom editors and designers

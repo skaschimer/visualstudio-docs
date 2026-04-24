@@ -7,7 +7,7 @@ ms.topic: tutorial
 ms.devlang: vb
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 dev_langs:
   - vb
 ms.custom:

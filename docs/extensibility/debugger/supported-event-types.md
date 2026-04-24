@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], supported events
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Supported event types

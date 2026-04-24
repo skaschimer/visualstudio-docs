@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "debugger, Web application errors"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled

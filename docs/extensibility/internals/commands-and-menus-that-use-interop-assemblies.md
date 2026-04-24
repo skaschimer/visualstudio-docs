@@ -10,7 +10,7 @@ helpviewer_keywords:
 - command handling with interop assemblies
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Commands and menus that use Interop assemblies

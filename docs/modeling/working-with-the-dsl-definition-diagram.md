@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, Bring Tree Here
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Working with the DSL Definition Diagram

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], ports
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Ports

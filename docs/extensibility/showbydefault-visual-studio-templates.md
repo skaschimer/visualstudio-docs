@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ShowByDefault element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ---
 # ShowByDefault element (Visual Studio Templates)
 

@@ -2,7 +2,7 @@
 title: Create an Azure Cloud Services (extended support) project
 description: Learn now to create an Azure Cloud Services (extended support) project with Visual Studio
 author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/19/2019

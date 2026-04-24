@@ -6,7 +6,7 @@ ms.date: 01/05/2026
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"
 

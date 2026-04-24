@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VsCodeWindow object
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # VSCodeWindow object

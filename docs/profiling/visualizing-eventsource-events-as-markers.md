@@ -5,7 +5,7 @@ ms.date: "11/04/2016"
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Visualize EventSource events as markers

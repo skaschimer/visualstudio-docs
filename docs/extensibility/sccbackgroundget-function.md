@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccBackgroundGet function
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # SccBackgroundGet function

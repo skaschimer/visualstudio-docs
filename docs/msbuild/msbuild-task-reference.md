@@ -11,7 +11,7 @@ helpviewer_keywords:
 - MSBuild, tasks
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MSBuild task reference

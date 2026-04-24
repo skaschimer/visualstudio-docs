@@ -8,7 +8,7 @@ helpviewer_keywords:
 - tool windows, displaying project properties
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Get project properties

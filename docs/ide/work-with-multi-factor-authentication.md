@@ -6,7 +6,7 @@ ms.topic: how-to
 description: Use Visual Studio with accounts that require multifactor authentication (MFA) to protect your apps and data with conditional access policies.
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange
 ---

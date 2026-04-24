@@ -8,7 +8,7 @@ helpviewer_keywords:
 - ContinueOnError attribute [MSBuild]
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Ignore errors in tasks

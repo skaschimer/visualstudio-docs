@@ -11,7 +11,7 @@ helpviewer_keywords:
 - solution user options (.suo) file
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Solution User Options (.suo) File

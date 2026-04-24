@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language, element merge directives
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Customizing Element Creation and Movement

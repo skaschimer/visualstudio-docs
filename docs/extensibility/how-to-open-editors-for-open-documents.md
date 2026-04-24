@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], opening for open documents
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Open editors for open documents

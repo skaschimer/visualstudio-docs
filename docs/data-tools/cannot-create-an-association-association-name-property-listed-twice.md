@@ -6,7 +6,7 @@ ms.topic: error-reference
 ms.subservice: data-tools
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ---
 
 # Cannot create an association &lt;association name&gt; - property listed twice

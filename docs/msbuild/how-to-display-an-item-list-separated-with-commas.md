@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, formatting item collections
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Display an item list separated with commas

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], user interface errors"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Show Add-in user interface errors

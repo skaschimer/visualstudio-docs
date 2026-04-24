@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Domain-Specific Language, validation
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Validation in a Domain-Specific Language

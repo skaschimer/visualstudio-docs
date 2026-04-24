@@ -10,7 +10,7 @@ helpviewer_keywords:
 - data sources
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 
 #customer intent: As a developer, I want to add .NET Framework data sources with ADO.NET in Visual Studio, so I can connect data stores to my application.

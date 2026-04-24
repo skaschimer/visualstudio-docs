@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debug engines, detaching from programs
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Attaching and detaching to a program

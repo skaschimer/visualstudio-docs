@@ -15,7 +15,7 @@ helpviewer_keywords:
   - dependencies, custom bootstrapper packages
 author: mikejo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.subservice: deployment
 ---
 # Create a package manifest

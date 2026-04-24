@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], getting started"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Get started programming VSTO Add-ins

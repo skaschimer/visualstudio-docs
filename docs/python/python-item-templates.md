@@ -5,7 +5,7 @@ ms.date: 12/06/2018
 ms.topic: reference
 author: Devdiv-VR
 ms.author: vedhar
-ms.manager: wiwagn
+
 ms.subservice: python
 ---
 # Python item templates

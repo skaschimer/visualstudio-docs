@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "add-ins [Office development in Visual Studio], enabling"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Re-enable a VSTO Add-in that has been disabled

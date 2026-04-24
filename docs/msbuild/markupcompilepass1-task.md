@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "MarkupCompilePass1 task [WPF MSBuild], converting XAML to binary format"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # MarkupCompilePass1 task

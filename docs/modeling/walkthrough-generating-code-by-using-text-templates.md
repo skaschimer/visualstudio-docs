@@ -8,7 +8,7 @@ helpviewer_keywords:
 - walkthroughs [text templates]
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Walkthrough: Generate Code by using Text Templates

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, installing
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Install a source control plug-in

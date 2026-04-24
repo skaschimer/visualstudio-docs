@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Concurrency Visualizer"
 author: "mikejo5000"
 ms.author: "mikejo"
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Concurrency Visualizer

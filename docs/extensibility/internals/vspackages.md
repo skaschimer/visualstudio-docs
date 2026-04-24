@@ -7,7 +7,7 @@ helpviewer_keywords:
 - VSPackages
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # VSPackages

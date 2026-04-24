@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control packages
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Create a source control VSPackage

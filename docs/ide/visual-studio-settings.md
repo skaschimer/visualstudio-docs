@@ -8,7 +8,7 @@ helpviewer_keywords:
 monikerRange: "visualstudio"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ms.custom: peer-review-program, awp-ai
 ai-usage: ai-assisted

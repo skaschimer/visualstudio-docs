@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild (C++), XSD task
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # XSD task

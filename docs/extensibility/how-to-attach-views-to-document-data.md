@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], custom - attach views to document data
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Attach views to document data

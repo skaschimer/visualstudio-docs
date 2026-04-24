@@ -8,7 +8,7 @@ helpviewer_keywords:
 - find all references
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 # customer intent: As a developer, I want to use the Find All References command to find code elements. 
 ---

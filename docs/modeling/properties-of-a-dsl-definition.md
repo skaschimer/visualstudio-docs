@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Properties of a DSL Definition

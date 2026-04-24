@@ -7,7 +7,7 @@ helpviewer_keywords:
 - UML, using models
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Use models in your development process

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - project models, automation
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Project Modeling

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, custom directive processors
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Create Custom T4 Text Template Directive Processors

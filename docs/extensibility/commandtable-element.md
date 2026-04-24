@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, CommandTable
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # CommandTable element

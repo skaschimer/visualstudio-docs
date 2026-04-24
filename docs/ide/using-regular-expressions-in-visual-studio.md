@@ -14,7 +14,7 @@ helpviewer_keywords:
 - regular expressions
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Use regular expressions in Visual Studio

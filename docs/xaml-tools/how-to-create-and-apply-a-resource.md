@@ -8,7 +8,7 @@ f1_keywords:
 - VS.XamlDesigner.EditResource
 author: maddymontaquila
 ms.author: maleger
-ms.manager: wiwagn
+
 ms.subservice: xaml-tools
 ---
 # Create and apply a resource

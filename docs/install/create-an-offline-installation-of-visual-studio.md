@@ -9,7 +9,7 @@ f1_keywords:
 - layout [Visual Studio]
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: wiwagn
+
 ms.subservice: installation
 ---
 # Create an offline installation package of Visual Studio for local installation

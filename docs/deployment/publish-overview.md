@@ -13,7 +13,7 @@ helpviewer_keywords:
   - ".NET applications, publishing"
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 monikerRange: '>= vs-2022'
 ms.subservice: deployment
 ms.custom: sfi-image-nochange

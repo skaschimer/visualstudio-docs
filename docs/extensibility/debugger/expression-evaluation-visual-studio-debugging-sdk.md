@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Expression evaluation (Visual Studio Debugging SDK)

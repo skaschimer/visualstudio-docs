@@ -16,7 +16,7 @@ helpviewer_keywords:
 - dataset filtering, using data views
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: data-tools
 ---
 

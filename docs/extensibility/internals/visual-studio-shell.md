@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Visual Studio, shell
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Visual Studio Shell

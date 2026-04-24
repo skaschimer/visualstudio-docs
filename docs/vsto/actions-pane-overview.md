@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "user controls [Office development in Visual Studio], actions panes"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # Actions pane overview

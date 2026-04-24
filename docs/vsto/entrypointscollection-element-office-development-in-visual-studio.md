@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "entryPointsCollection element"
 author: John-Hart
 ms.author: johnhart
-ms.manager: wiwagn
+
 ms.subservice: office-development
 ---
 # &lt;entryPointsCollection&gt; element (Office development in Visual Studio)

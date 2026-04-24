@@ -9,7 +9,7 @@ helpviewer_keywords:
 - item templates, creating multi-file item templates
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Create multi-file item templates

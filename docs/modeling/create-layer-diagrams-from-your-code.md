@@ -10,7 +10,7 @@ helpviewer_keywords:
 - constraints, architectural
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+
 ms.subservice: modeling
 ---
 # Create dependency diagrams from your code

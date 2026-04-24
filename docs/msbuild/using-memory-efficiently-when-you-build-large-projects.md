@@ -9,7 +9,7 @@ helpviewer_keywords:
 - caching (MSBuild)
 author: ghogen
 ms.author: ghogen
-ms.manager: wiwagn
+
 ms.subservice: msbuild
 ---
 # Use memory efficiently when you build large projects

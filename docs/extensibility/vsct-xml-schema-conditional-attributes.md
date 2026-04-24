@@ -8,7 +8,7 @@ helpviewer_keywords:
 - conditional attributes (VSCT XML schema)
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # VSCT XML schema conditional attributes

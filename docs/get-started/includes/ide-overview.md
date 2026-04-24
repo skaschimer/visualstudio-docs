@@ -3,7 +3,7 @@ ms.date: 02/26/2026
 ms.subservice: general-ide
 author: MikeJo5000
 ms.author: mikejo
-ms.manager: wiwagn
+
 ms.topic: include
 ms.custom:
   - vs-get-started

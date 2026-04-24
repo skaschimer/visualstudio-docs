@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], enumerations
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 ---
 # Enumerations (Visual Studio Debugging)

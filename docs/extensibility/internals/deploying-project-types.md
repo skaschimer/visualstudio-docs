@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], aggregator
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Deploy project types

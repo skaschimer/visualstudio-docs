@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, Strings
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Strings Element

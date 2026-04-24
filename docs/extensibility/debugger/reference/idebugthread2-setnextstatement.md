@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugThread2::SetNextStatement
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

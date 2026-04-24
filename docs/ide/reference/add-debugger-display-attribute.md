@@ -5,7 +5,7 @@ ms.date: 04/26/2022
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
-ms.manager: wiwagn
+
 ms.subservice: general-ide
 ---
 # Add DebuggerDisplay Attribute

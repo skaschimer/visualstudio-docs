@@ -15,7 +15,7 @@ helpviewer_keywords:
 - libraries, symbol-browsing tools
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Supporting Symbol-Browsing Tools

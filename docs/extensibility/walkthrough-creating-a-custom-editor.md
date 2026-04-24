@@ -7,7 +7,7 @@ helpviewer_keywords:
 - editors [Visual Studio SDK], custom - create
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+
 ms.subservice: extensibility-integration
 ---
 # Walkthrough: Create a custom editor
