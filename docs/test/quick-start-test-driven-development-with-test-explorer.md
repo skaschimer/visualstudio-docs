@@ -1,7 +1,7 @@
 ---
 title: Test-driven development
 description: Learn how to develop a tested method in C# using Microsoft Test Framework, which you can easily adapt for other languages or test frameworks, such as NUnit.
-ms.date: 12/11/2025
+ms.date: 04/22/2026
 ms.topic: how-to
 ms.author: mikejo
 
@@ -24,7 +24,11 @@ This article demonstrates how to develop a tested method in C# using Microsoft T
 
    Name the test project **MathTests**.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   :::image type="content" source="../test/media/visualstudio/test-driven-development-ide.png" alt-text="Screenshot that shows the new code and test projects." lightbox="../test/media/visualstudio/test-driven-development-ide.png":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![New code and test projects](../test/media/vs-2022/test-driven-development-ide.png)
    ::: moniker-end
 
@@ -84,7 +88,11 @@ This article demonstrates how to develop a tested method in C# using Microsoft T
 
    The details of the test appear in the **Test Detail Summary** pane.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/test-driven-development-test-detail-summary.png" alt-text="Screenshot of the Test Detail Summary in Test Explorer." lightbox="media/visualstudio/test-driven-development-test-detail-summary.png":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Test Detail Summary in Test Explorer](media/vs-2022/test-driven-development-test-detail-summary.png)
    ::: moniker-end
 
@@ -108,7 +116,11 @@ At this point, you've created a test and a stub that you can modify so that the 
 
    The solution builds, and the test runs and passes.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   :::image type="content" source="../test/media/visualstudio/test-driven-development-passed-test.png" alt-text="Screenshot of the Test Explorer showing a passing test." lightbox="../test/media/visualstudio/test-driven-development-passed-test.png":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Test Explorer showing a passing test](../test/media/vs-2022/test-driven-development-passed-test.png)
    ::: moniker-end
 
@@ -236,7 +248,11 @@ Refactor the code, but do not change the tests.
 
 2. Choose **Run All**, and verify that all the tests still pass.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   :::image type="content" source="../test/media/visualstudio/test-driven-development-three-passed-tests.png" alt-text="Screenshot of Test Explorer showing three passed tests." lightbox="../test/media/visualstudio/test-driven-development-three-passed-tests.png":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Test Explorer showing 3 passed tests](../test/media/vs-2022/test-driven-development-three-passed-tests.png)
    ::: moniker-end
 
