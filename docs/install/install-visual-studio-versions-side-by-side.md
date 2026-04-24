@@ -101,8 +101,8 @@ You can change the default version by updating the App Paths registry entry, or 
 
 ### Update the App Paths registry entry
 
-> [!WARNING]
-> Incorrectly editing the registry can cause serious problems. Before making changes, [back up the registry](https://support.microsoft.com/help/322756).
+> [!NOTE]
+> This registry key only affects how **Win+R** and similar shell commands resolve `devenv`. Changing it does not affect your Visual Studio installations, the Visual Studio Installer, or Start menu shortcuts.
 
 1. Open **Registry Editor** (press **Win+R**, type `regedit`, and then press **Enter**).
 1. Navigate to the following key:
