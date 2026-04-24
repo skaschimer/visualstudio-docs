@@ -18,7 +18,6 @@ manager: mijacobs
 
 You can install Visual Studio on a computer that has an earlier or later [major version](/visualstudio/productinfo/release-rhythm#determining-your-product-edition-version-and-channel) of Visual Studio already installed. This article describes how to install multiple versions of Visual Studio. 
 
-
 ::: moniker range=">=vs-2022"
 
 Before you install versions side-by-side, review the following conditions:
@@ -34,7 +33,6 @@ Before you install versions side-by-side, review the following conditions:
 - Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the software publisher.
 
 ## Install different editions of the same major Visual Studio version side-by-side
-
 
 ::: moniker range="vs-2022"
 
@@ -101,9 +99,6 @@ You can change the default version by updating the App Paths registry entry, or 
 
 ### Update the App Paths registry entry
 
-> [!NOTE]
-> This registry key only affects how **Win+R** and similar shell commands resolve `devenv`. Changing it does not affect your Visual Studio installations, the Visual Studio Installer, or Start menu shortcuts.
-
 1. Open **Registry Editor** (press **Win+R**, type `regedit`, and then press **Enter**).
 1. Navigate to the following key:
 
@@ -119,14 +114,6 @@ You can change the default version by updating the App Paths registry entry, or 
    Replace *Enterprise* with *Professional* or *Community* to match your installed edition.
 
 1. Close the Registry Editor. The change takes effect immediately for new **Win+R** commands.
-
-### Alternative ways to launch a specific version
-
-Instead of modifying the registry, you can use any of these approaches to launch the version you want:
-
-- **Start menu search**: Type **Visual Studio** in the Windows search box. Windows shows all installed versions, so you can select the one you want.
-- **Pin to taskbar**: Right-click the Visual Studio version you want in the Start menu and select **Pin to taskbar** for quick access.
-- **Developer Command Prompt**: Each Visual Studio version installs its own Developer Command Prompt, which automatically configures the correct paths and tools for that version.
 
 ## .NET Framework versions and side-by-side installations
 
