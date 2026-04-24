@@ -5,7 +5,7 @@ ms.date: 03/17/2026
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.custom:
   - vs-acquisition

@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to explore options for managing my Python package dependencies so that I can ensure my Python application works as expected.

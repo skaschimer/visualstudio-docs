@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "execution, controlling in debugger"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ms.custom: sfi-image-nochange
 ---

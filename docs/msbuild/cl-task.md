@@ -15,7 +15,7 @@ helpviewer_keywords:
 - CL task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # CL task

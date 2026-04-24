@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluators
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Implement an expression evaluator

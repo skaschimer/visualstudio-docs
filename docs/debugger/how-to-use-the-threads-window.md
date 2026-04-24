@@ -15,7 +15,7 @@ helpviewer_keywords:
   - debugging, deadlock
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---

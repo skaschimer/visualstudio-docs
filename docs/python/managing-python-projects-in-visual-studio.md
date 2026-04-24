@@ -5,7 +5,7 @@ ms.date: 04/18/2024
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to manage Python projects in Visual Studio so I can configure dependencies between files and relationships in my application.

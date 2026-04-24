@@ -6,7 +6,7 @@ ms.date: 07/11/2022
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+
 ms.subservice: xaml-tools
 ---
 # Draw shapes and paths

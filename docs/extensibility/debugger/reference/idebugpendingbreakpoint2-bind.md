@@ -10,7 +10,7 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::Bind method
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

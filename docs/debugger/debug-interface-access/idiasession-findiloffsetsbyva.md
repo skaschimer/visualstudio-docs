@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSession::findILOffsetsByVA method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 

@@ -17,7 +17,7 @@ helpviewer_keywords:
 - class designer
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ai-usage: ai-assisted
 ms.custom: "awp-ai"

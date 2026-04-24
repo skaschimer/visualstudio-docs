@@ -11,7 +11,7 @@ helpviewer_keywords:
 - MSBuild, common project items
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Common MSBuild project items

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsbyAddr2 interface"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

@@ -15,7 +15,7 @@ helpviewer_keywords:
 - projects [Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 #customer intent: As a developer, I want to learn about Visual Studio projects and solutions so that I can effectively manage my solutions.
 ---

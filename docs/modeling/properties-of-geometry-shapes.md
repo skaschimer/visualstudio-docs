@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, geometry shape"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Properties of Geometry Shapes

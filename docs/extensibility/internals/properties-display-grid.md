@@ -7,7 +7,7 @@ helpviewer_keywords:
 - properties [Visual Studio SDK], grid
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Properties display grid

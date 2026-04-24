@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProperty2::GetDerivedMostProperty
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

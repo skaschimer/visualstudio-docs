@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <WizardData> element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # WizardData Element (Visual Studio Templates)
 

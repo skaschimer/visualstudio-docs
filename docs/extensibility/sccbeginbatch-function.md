@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccBeginBatch function
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # SccBeginBatch function

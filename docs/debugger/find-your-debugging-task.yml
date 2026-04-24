@@ -10,7 +10,7 @@ metadata:
     - "debugging [Visual Studio], find your feature"
   author: "mikejo5000"
   ms.author: "mikejo"
-  manager: mijacobs
+  manager: wiwagn
   ms.workload:
     - "multiple"
   ms.subservice: debug-diagnostics

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - configuration options
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Managing Configuration Options

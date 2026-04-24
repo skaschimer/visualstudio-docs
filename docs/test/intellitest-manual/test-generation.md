@@ -6,7 +6,7 @@ ms.topic: how-to
 helpviewer_keywords:
 - IntelliTest, Test generation
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: test-tools
 author: mikejo5000
 ---

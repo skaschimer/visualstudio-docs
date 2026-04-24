@@ -5,7 +5,7 @@ ms.date: 10/13/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 # Customer intent: Configure a .NET project to run a target exactly once whether or not you're building for multiple frameworks for only one, for example to increment a version number.
 ---

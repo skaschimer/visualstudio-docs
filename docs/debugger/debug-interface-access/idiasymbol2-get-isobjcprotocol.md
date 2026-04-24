@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol2::get_isObjCProtocol method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol2::get_isObjCProtocol

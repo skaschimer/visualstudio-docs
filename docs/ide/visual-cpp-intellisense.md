@@ -5,7 +5,7 @@ ms.date: 01/06/2026
 ms.topic: overview
 author: tylermsft
 ms.author: twhitney
-manager: coxford
+ms.manager:  coxford
 ---
 # Visual C++ IntelliSense features
 

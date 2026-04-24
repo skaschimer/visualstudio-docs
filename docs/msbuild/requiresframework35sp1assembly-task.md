@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "MSBuild, RequiresFramework35SP1Assembly task"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # RequiresFramework35SP1Assembly task

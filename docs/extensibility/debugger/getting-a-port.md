@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], ports
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Get a port

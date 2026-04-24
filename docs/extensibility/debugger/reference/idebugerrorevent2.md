@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugErrorEvent2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugErrorEvent2

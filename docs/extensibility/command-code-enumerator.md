@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, command code enumeration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Command code enumerator

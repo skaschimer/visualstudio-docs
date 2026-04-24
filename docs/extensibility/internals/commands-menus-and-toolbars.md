@@ -9,7 +9,7 @@ helpviewer_keywords:
 - toolbars [Visual Studio], commands
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Commands, menus, and toolbars

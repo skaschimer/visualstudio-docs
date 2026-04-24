@@ -2,7 +2,7 @@
 title: Assign Visual Studio subscriptions to users
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 01/28/2025
 ms.topic: how-to

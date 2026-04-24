@@ -5,7 +5,7 @@ ms.date: 10/24/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

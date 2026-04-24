@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSession::getFuncMDTokenMapSize method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 

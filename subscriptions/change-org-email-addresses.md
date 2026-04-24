@@ -2,7 +2,7 @@
 title: Organization name change impacts on Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.assetid: bda8772c-cc0b-4949-8419-1084331cc54b
 ms.date: 09/16/2024
 ms.topic: how-to

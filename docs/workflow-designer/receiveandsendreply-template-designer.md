@@ -8,7 +8,7 @@ f1_keywords:
   - "System.ServiceModel.Activities.SendReply.UI"
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # ReceiveAndSendReply Template Designer

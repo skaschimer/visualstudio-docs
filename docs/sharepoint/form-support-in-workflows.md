@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+
 ms.subservice: sharepoint-development
 ---
 # Form support in workflows

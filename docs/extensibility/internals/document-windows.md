@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Visual Studio SDK, document windows
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Document windows

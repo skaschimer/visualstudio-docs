@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr2::symbolByVAEx method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

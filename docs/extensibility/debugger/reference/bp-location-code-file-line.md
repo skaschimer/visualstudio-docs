@@ -9,7 +9,7 @@ helpviewer_keywords:
 - BP_LOCATION_CODE_FILE_LINE structure
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

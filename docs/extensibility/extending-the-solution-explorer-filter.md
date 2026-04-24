@@ -8,7 +8,7 @@ helpviewer_keywords:
 - extensibility [Visual Studio], projects and solutions
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Extend the Solution Explorer filter

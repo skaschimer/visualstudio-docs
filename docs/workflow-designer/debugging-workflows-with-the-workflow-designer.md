@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Workflow Designer [WFD], debugging workflows
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Debug workflows with the Workflow Designer

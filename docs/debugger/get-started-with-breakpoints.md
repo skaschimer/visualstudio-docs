@@ -18,7 +18,7 @@ helpviewer_keywords:
   - breakpoints, about breakpoints
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Get started with breakpoints in the Visual Studio debugger

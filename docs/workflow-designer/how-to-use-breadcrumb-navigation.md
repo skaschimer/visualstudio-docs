@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Use Breadcrumb Navigation

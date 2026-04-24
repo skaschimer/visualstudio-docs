@@ -12,7 +12,7 @@ helpviewer_keywords:
 - LocationFieldMRUPrefix element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # LocationFieldMRUPrefix element (Visual Studio Templates)
 

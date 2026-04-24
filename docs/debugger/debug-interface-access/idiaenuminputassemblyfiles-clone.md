@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumInputAssemblyFiles::Clone method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

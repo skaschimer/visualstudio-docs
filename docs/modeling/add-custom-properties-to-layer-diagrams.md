@@ -7,7 +7,7 @@ helpviewer_keywords:
 - dependency diagrams, adding custom properties
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Add custom properties to dependency diagrams

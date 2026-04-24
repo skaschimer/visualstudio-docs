@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "searching, Word options"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+
 ms.subservice: office-development
 ---
 # Programmatically set search options in Word

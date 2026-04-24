@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, tutorial
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Create a project file from scratch

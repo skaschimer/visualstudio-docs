@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumNamedStreams::Next method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

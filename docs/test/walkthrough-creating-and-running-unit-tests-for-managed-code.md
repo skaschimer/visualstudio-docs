@@ -10,7 +10,7 @@ helpviewer_keywords:
 - unit tests, running
 - unit tests, authoring
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: test-tools
 author: mikejo5000
 ms.update-cycle: 90-days

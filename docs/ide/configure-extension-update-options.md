@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.ExtensionManager
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.custom: awp-ai
 ai-usage: ai-assisted

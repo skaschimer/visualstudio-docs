@@ -8,7 +8,7 @@ helpviewer_keywords:
 - programs, launching
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Launch a program

@@ -5,7 +5,7 @@ description: "Use Visual Studio workload and component IDs to distribute automat
 keywords:
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+
 ms.date: 08/10/2021
 
 ms.subservice: installation

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - DoNotLoadProjects Devenv switch
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # /DoNotLoadProjects (devenv.exe)

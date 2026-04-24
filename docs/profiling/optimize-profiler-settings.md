@@ -7,7 +7,7 @@ helpviewer_keywords:
   - Profiler, improve performance
 author: MikeJo5000
 ms.author: mikejo 
-manager: AndSter
+ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---
 # Optimizing Profiler settings

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugExpressionEvaluator2

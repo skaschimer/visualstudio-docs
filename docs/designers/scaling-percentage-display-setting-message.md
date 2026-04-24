@@ -5,7 +5,7 @@ ms.date: 11/06/2025
 ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: ui-designers
 monikerRange: "<=visualstudio"
 ---

@@ -8,7 +8,7 @@ f1_keywords:
 - VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # System.Activities tab, Choose Toolbox Items dialog box

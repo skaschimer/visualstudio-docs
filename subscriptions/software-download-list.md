@@ -2,7 +2,7 @@
 title: Available software downloads
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 11/19/2025
 ms.topic: how-to
 description: Find software downloads that are available with your Visual Studio subscription, including searching by software title by subscription type.

@@ -17,7 +17,7 @@ helpviewer_keywords:
   - security settings, ClickOnce deployment
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: deployment
 ---
 # Enable and configure ClickOnce security settings in Visual Studio

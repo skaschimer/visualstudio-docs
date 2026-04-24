@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, enumerators
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Enumerators

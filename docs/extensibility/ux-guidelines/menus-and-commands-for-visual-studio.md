@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Menus and Commands for Visual Studio

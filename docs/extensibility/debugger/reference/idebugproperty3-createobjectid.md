@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProperty3::CreateObjectID
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

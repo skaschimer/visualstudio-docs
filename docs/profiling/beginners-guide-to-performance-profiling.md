@@ -1,7 +1,7 @@
 ---
 title: "Measure CPU utilization in your apps"
 description: Measure and analyze CPU performance issues in your C#, Visual Basic, C++, or F# application by using the debugger-integrated diagnostics tools in Visual Studio.
-ms.date: 02/05/2025
+ms.date: 04/23/2026
 ms.topic: tutorial
 helpviewer_keywords:
   - "Profiling Tools, quick start"
@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "Diagnostics Tools"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ms.update-cycle: 90-days
 ---
@@ -42,7 +42,11 @@ In this tutorial, you will:
 
 4. You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.
 
-    ::: moniker range=">=vs-2022"
+    ::: moniker range="visualstudio"
+    ![Screenshot that shows the Select Tools menu.](../profiling/media/visualstudio/diagnostic-tools-select-tool.png "Select Tools menu")
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
     ![Screenshot that shows Diagnostics Tools.](../profiling/media/vs-2022/diag-tools-select-tool.png "DiagToolsSelectTool")
     ::: moniker-end
 
@@ -52,7 +56,12 @@ In this tutorial, you will:
 5. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
    When the app finishes loading, the Summary view of the Diagnostics Tools appears. If you need to open the window, click **Debug** > **Windows** > **Show Diagnostic Tools**.
-   ::: moniker range=">=vs-2022"
+
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows Diagnostics Tools Summary tab.](../profiling/media/visualstudio/diagnostic-tools-summary-tab.png "Diagnostic Tools Summary tab")
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot that shows Diagnostics Tools Summary Tab.](../profiling/media/vs-2022/diag-tools-summary-tab.png "DiagToolsSummaryTab")
    ::: moniker-end
 
@@ -63,12 +72,17 @@ In this tutorial, you will:
 
 7. While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
 
-   ::: moniker range=">=vs-2022"
-   ![Screenshot that shows Diagnostics Tools enable CPU profiling.](../profiling/media/vs-2022/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows the CPU Usage tab.](../profiling/media/visualstudio/diagnostic-tools-enable-cpu-profiling.png "CPU Usage tab")
+
+     When you select **Start Recording**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
    ::: moniker-end
 
-
+   ::: moniker range="vs-2022"
+   ![Screenshot that shows Diagnostics Tools enable CPU profiling.](../profiling/media/vs-2022/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
+  
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
+   ::: moniker-end
 
 8. Hit F5 to run the app to your second breakpoint.
 
@@ -76,14 +90,22 @@ In this tutorial, you will:
 
    The profiler begins preparing thread data. Wait for it to finish.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows Diagnostics Tools preparing data.](../profiling/media/visualstudio/diagnostic-tools-preparing-data.png "Diagnostic Tools preparing data")
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot that shows Diagnostics Tools preparing threads.](../profiling/media/vs-2022/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
    ::: moniker-end
 
 
    The CPU Usage tool displays the report in the **CPU Usage** tab.
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows the Diagnostics Tools CPU Usage tab.](../profiling/media/visualstudio/diagnostic-tools-cpu-usage-tab.png "Diagnostic Tools CPU Usage tab")
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot that shows Diagnostics Tools CPU Usage Tab.](../profiling/media/vs-2022/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
    ::: moniker-end
 
@@ -104,19 +126,76 @@ In this tutorial, you will:
 
 We recommend that you begin analyzing your data by examining the list of functions under CPU Usage, identifying the functions that are doing the most work, and then taking a closer look at each one.
 
+:::moniker range="visualstudio"
+1. In the **Top Functions** list, examine the functions that are doing the most work.
+   
+   ![Screenshot that shows the Top Functions List.](../profiling/media/visualstudio/diagnostic-tools-cpu-usage-function-list.png "Top Functions list")
+
+2. In the **Top Functions** list, select one of your app functions that's doing a lot of work.
+
+   When you select a function, the **Functions** view opens in the left pane. Select **Caller/Callee** view from the drop-down menu.
+
+    > [!TIP]
+    > Functions in the left pane are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
+
+   :::image type="content" source="../profiling/media/visualstudio/diagnostic-tools-caller-callee.png" alt-text="Screenshot that shows the Diagnostics Tools Caller/Callee view." lightbox="../profiling/media/visualstudio/diagnostic-tools-caller-callee.png":::
+
+   In this view, the selected function shows up in the heading and in the **Current Function** box (DoWork, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
+
+   This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete. **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions.
+
+    > [!TIP]
+    > High values in **Function Body** may indicate a performance bottleneck within the function itself.
+
+3. To see a higher-level view showing the order in which the functions are called, select **Call Tree** from the drop-down list at the top of the pane.
+
+    Each numbered area in the figure relates to a step in the procedure.
+
+    ![Screenshot that shows the Diagnostics Tools Call Tree.](../profiling/media/visualstudio/diagnostic-tools-call-tree.png "Diagnostic Tools Call Tree")
+
+    |Image|Description|
+    |-|-|
+    |![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call tree, representing the application.|
+    |![Step 2](../profiling/media/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#view-external-code) option is disabled, the second-level node is an **[External Call]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|
+    |![Step 3](../profiling/media/ProcGuid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
+    |![Step 4](../profiling/media/ProcGuid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Call]** node.|
+
+    Here is more information on the column values:
+
+    - **Total CPU** indicates how much work was done by the function and any functions called by it. High total CPU values point to the functions that are most expensive overall.
+
+    - **Self CPU** indicates how much work was done by the code in the function body, excluding the work done by functions that were called by it. High **Self CPU** values may indicate a performance bottleneck within the function itself.
+
+    - **Modules** The name of the module containing the function, or the number of modules containing the functions in an [External Call] node.
+
+    To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**. The hot path can help focus your investigation on the area that would have the most impact. 
+
+
+    ![Screenshot that shows the hot path in the call tree.](../profiling/media/visualstudio/diagnostic-tools-hot-path.png "Hot path in the call tree")
+
+    > [!NOTE]
+    > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
+
+4. To see a different view of the data, select **Flame Graph** from the drop-down list at the top of the pane.
+
+   The flame graph provides a different visualization of the call tree that may help you to analyze the data. For more information, see [Identify hot paths with a flame graph](../profiling/flame-graph.md).
+
+5. To see views of the data aggregated by function or by module, select **Functions** or **Modules** from the drop-down list at the top of the pane.
+
+   These views help to identify functions or modules that might be performance bottlenecks due to a combination of high call counts and/or performance issues.
+
+    ![Screenshot that shows Diagnostics Tools Functions view.](../profiling/media/visualstudio/diagnostic-tools-functions-view.png)
+::: moniker-end
+
+:::moniker range="vs-2022"
 1. In the function list, examine the functions that are doing the most work.
-
-   ::: moniker range=">=vs-2022"
+   
    ![Screenshot that shows Diagnostics Tools CPU Usage Function List.](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
-   ::: moniker-end
-
 
     > [!TIP]
     > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
 
 2. In the function list, double-click one of your app functions that is doing a lot of work.
-
-   ::: moniker range=">=vs-2022"
 
    When you double-click a function, the **Functions** view opens in the left pane. Select **Caller/Callee** view from the drop-down menu.
 
@@ -125,8 +204,6 @@ We recommend that you begin analyzing your data by examining the list of functio
    In this view, the selected function shows up in the heading and in the **Current Function** box (DoWork, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
    This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete. **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions.
-   ::: moniker-end
-
 
     > [!TIP]
     > High values in **Function Body** may indicate a performance bottleneck within the function itself.
@@ -160,7 +237,6 @@ We recommend that you begin analyzing your data by examining the list of functio
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
 
-::: moniker range=">=vs-2022"
 4. To see a different view of the data, select **Flame Graph** from the drop-down list at the top of the pane.
 
    The flame graph provides a different visualization of the call tree that may help you to analyze the data. For more information, see [Identify hot paths with a flame graph](../profiling/flame-graph.md).
@@ -174,9 +250,19 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 ## View external code
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
-External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Call]** node.
+External code is functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Call]** node.
+
+If you want to view the call paths of external code, deselect **Show Just My Code** from the **Settings** list in the main **Diagnostic Tools** window and then select **Apply**.
+
+![Screenshot that shows the Show Just My Code option.](../profiling/media/visualstudio/diagnostics-tools-show-external-code.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+External code is functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Call]** node.
 
 If you want to view the call paths of external code, deselect **Show Just My Code** from the **Settings** list and then choose **Apply**.
 

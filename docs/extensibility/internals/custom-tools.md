@@ -9,7 +9,7 @@ helpviewer_keywords:
 - custom tools
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Custom tools

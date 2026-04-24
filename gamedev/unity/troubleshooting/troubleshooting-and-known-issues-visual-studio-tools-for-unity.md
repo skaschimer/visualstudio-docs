@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.topic: troubleshooting
 author: therealjohn
 ms.author: johmil
-manager: crdun
+ms.manager:  crdun
 ---
 # Troubleshooting and known issues (Visual Studio Tools for Unity)
 

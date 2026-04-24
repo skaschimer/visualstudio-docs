@@ -2,7 +2,7 @@
 title: Sign in with work or school account
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/12/2025
 ms.topic: how-to
 description: Sign into your Visual Studio subscriptions with your work or school account or use your Microsoft Account (MSA), and get answers to frequently asked questions.

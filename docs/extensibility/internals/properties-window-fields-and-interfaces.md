@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Properties window, fields and interfaces
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Properties Window Fields and Interfaces

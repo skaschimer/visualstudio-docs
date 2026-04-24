@@ -10,7 +10,7 @@ helpviewer_keywords:
 - data [Visual Studio], Dataset Designer
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

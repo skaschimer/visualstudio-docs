@@ -5,7 +5,7 @@ ms.date: 11/01/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange
 ---

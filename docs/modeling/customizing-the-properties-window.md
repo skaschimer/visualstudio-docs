@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, Properties window
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Customize the Properties window

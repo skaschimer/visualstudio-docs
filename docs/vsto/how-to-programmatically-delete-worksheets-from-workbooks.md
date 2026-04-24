@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "worksheets, deleting"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+
 ms.subservice: office-development
 ---
 # Programmatically delete worksheets from workbooks

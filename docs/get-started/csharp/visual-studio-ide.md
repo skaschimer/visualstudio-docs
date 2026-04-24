@@ -7,7 +7,7 @@ ms.custom: vs-acquisition
 ms.topic: overview
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+
 dev_langs:
 - CSharp
 

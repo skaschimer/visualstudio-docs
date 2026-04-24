@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Help Viewer, accessibility features"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: help-viewer
 ---
 # Accessibility features of the Help Viewer

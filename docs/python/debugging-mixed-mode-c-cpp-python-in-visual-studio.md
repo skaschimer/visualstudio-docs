@@ -5,7 +5,7 @@ ms.date: 11/21/2025
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 #customer intent: As a developer, I want to debug C++ and Python code at the same time in Visual Studio so that I can step between the environments, view shared values, and evaluate expressions.

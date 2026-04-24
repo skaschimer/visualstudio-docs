@@ -13,7 +13,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.ProductUpdates
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+
 recommendations: false
 ---
 # Update Visual Studio

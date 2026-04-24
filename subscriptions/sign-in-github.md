@@ -2,7 +2,7 @@
 title: Sign into subscription with your GitHub account
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/17/2024
 ms.topic: concept-article
 description: Sign into your Visual Studio subscriptions with your GitHub account for verification and find answers to frequently asked questions.

@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Unload method"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+
 ms.subservice: office-development
 ---
 # IManagedAddin::Unload

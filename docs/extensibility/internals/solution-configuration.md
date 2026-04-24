@@ -7,7 +7,7 @@ helpviewer_keywords:
 - solution configurations
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Solution Configuration

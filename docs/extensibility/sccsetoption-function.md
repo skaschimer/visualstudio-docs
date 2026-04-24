@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccSetOption function
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # SccSetOption Function

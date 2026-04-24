@@ -31,7 +31,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 

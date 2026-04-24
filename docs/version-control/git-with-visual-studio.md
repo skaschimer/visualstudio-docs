@@ -6,7 +6,7 @@ ms.date: 11/25/2025
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
-ms.manager: mijacobs
+
 ms.subservice: general-ide
 ms.custom: 
 - sfi-image-nochange

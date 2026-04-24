@@ -6,7 +6,7 @@ ms.date: 1/9/2026
 ms.author: ghogen
 monikerRange: ">=vs-2022"
 author: ghogen
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
 ---

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - text templates, security
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Security of Text Templates

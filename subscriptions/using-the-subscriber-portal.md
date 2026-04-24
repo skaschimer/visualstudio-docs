@@ -2,7 +2,7 @@
 title: Subscription Portal
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 02/09/2026
 ms.topic: overview
 description: Explore the benefits available with your Visual Studio subscriptions from the subscription portal, including tools, services, and partner offers.

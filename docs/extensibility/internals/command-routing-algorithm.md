@@ -8,7 +8,7 @@ helpviewer_keywords:
 - command routing
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Command routing algorithm

@@ -16,7 +16,7 @@ helpviewer_keywords:
 - Devenv, /UseEnv
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # /UseEnv (devenv.exe)

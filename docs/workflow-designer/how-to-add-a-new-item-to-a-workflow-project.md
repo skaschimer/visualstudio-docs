@@ -5,7 +5,7 @@ ms.date: 06/25/2018
 ms.topic: how-to
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Add a new item to a workflow project

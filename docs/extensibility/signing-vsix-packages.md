@@ -11,7 +11,7 @@ helpviewer_keywords:
 - packages
 author: javierdlg
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 

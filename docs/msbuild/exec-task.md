@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, Exec task
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Exec task

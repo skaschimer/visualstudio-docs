@@ -7,7 +7,7 @@ helpviewer_keywords:
 - UML, modeling architecture
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Model your app&#39;s architecture

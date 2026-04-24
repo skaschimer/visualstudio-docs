@@ -9,7 +9,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], components
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Debugger components

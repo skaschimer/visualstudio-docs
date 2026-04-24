@@ -7,7 +7,7 @@ f1_keywords:
   - "WFDShellFeatures.UI"
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Workflow Designer Shell Features

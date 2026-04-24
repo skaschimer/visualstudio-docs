@@ -9,7 +9,7 @@ ms.topic: tutorial
 ms.devlang: csharp
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+
 dev_langs:
   - CSharp
 

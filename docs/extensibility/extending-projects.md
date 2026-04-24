@@ -8,7 +8,7 @@ helpviewer_keywords:
 - projects [Visual Studio]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Extend projects

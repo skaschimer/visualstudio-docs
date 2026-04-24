@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDiaSymbol12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

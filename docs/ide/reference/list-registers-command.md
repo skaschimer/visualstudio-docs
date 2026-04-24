@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ListRegisters command
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # List Registers Command

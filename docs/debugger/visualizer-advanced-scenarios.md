@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "visualizers"
 author: "mpeyrotc"
 ms.author: "mapeyrot"
-manager: caslan
+ms.manager:  caslan
 ---
 # Advanced visualizer scenarios
 

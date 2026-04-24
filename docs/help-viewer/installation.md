@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "Help Viewer, installing"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: help-viewer
 ---
 # Microsoft Help Viewer installation

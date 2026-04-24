@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], API reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # API Reference (Visual Studio Debugging)

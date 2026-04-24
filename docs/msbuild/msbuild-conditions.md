@@ -14,7 +14,7 @@ helpviewer_keywords:
 - HasTrailingSlash, MSBuild condition function
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # MSBuild conditions

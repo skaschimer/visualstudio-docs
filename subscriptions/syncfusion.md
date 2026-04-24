@@ -2,7 +2,7 @@
 title: Syncfusion benefits in Visual Studio Subscriptions and Dev Essentials
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 04/13/2026
 ms.topic: how-to
 description: Learn about available Syncfusion benefits with Visual Studio Enterprise Subscriptions, Visual Studio Professional Subscriptions, and Dev Essentials and how to activate them.

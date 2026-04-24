@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: GitHubber17
 ms.author: twhitney
-manager: coxford
+ms.manager:  coxford
 monikerRange: 'visualstudio'
 ---
 # Configure C/C++ code analysis and error list options

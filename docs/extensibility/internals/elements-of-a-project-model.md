@@ -9,7 +9,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], elements
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Elements of a project model

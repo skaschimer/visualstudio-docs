@@ -6,7 +6,7 @@ ms.date: 03/06/2018
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+
 ms.subservice: xaml-tools
 ---
 # Display data in Blend for Visual Studio

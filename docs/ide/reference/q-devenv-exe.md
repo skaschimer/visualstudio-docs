@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Devenv, command-line help
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # /? (devenv.exe)

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Parent element (VSCT XML schema)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Parent element

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - persistence, saving standard documents
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Saving a Standard Document

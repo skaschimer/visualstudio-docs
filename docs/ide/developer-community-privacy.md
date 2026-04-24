@@ -8,7 +8,7 @@ helpviewer_keywords:
 - privacy, developer community
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Developer Community data privacy

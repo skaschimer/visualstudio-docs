@@ -5,7 +5,7 @@ ms.date: 11/21/2025
 ms.topic: quickstart
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to clone and work with code from existing Python repositories by using Git commands to create Python projects in Visual Studio.

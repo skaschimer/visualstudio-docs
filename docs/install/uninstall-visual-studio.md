@@ -10,7 +10,7 @@ f1_keywords:
 - uninstall Visual Studio
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+
 
 ms.subservice: installation
 #customer intent: As a developer, I want to uninstall a version of Visual Studio because I no longer need that version or as part of troubleshooting.

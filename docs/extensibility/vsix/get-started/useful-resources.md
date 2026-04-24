@@ -5,7 +5,7 @@ ms.date: 12/01/2021
 ms.topic: glossary
 author: madskristensen
 ms.author: madsk
-manager: pchapman
+ms.manager:  pchapman
 
 ms.subservice: extensibility-integration
 ---

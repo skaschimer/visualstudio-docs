@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain class"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Properties of Domain Classes

@@ -5,7 +5,7 @@ ms.date: 11/21/2025
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 #customer intent: As a developer, I want to use debugging symbols for Python interpreters in Visual Studio so that I can run mixed-mode Python and C++ debugging

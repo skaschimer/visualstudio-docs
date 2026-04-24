@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugErrorBreakpoint2::GetPendingBreakpoint
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -7,7 +7,7 @@ f1_keywords:
 - WFDKeyboardShortcuts.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Keyboard Shortcuts in the Workflow Designer

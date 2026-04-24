@@ -2,7 +2,7 @@
 title: Link New Monthly Subscriptions to Subscriptions Admin Portal
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 03/20/2025
 ms.topic: how-to
 description:  Learn how to link newly purchased monthly Visual Studio subscriptions to the Subscriptions Admin portal.

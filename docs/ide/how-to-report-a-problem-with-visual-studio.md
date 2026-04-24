@@ -5,7 +5,7 @@ ms.date: 11/17/2025
 ms.topic: how-to
 author: jasonchlus
 ms.author: jasonchlus
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Report a problem with the Visual Studio product or installer

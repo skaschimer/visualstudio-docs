@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, code generation
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Tutorial: Generate a REST API client

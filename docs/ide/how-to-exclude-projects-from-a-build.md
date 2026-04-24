@@ -6,7 +6,7 @@ ms.subservice: compile-build
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ---
 # Exclude projects from a build
 

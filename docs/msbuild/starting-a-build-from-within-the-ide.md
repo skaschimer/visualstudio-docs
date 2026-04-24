@@ -7,7 +7,7 @@ helpviewer_keywords:
 - build
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Start a build from within the IDE

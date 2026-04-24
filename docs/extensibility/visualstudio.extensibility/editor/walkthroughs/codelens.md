@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
 ---

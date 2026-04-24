@@ -6,7 +6,7 @@ ms.topic: how-to
 helpviewer_keywords:
 - IntelliTest, Dynamic symbolic execution
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: test-tools
 author: mikejo5000
 ---

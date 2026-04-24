@@ -8,7 +8,7 @@ helpviewer_keywords:
 - extensibility
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Automation model overview

@@ -2,7 +2,7 @@
 title: Get Started with Your New Subscription
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 04/17/2026
 ms.topic: how-to
 description: Learn how to get started with your new Visual Studio subscription.

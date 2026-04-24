@@ -2,7 +2,7 @@
 title: Entra ID Authentication With Connected Services
 description: Connect Microsoft Entra ID (formerly Azure Active Directory) to your application with Connected Services in Visual Studio on Windows.
 author: ghogen
-manager: mijacobs
+
 ms.subservice: azure-development
 ms.custom: devx-track-csharp
 ms.topic: how-to

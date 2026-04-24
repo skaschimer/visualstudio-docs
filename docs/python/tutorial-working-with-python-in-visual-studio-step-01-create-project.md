@@ -7,7 +7,7 @@ ms.author: vedhar
 ms.subservice: python
 ms.topic: tutorial
 ms.date: 11/11/2025
-manager: mijacobs
+
 ms.custom: vs-acquisition
 
 # CustomerIntent: As a developer, I want to create Python applications and projects in Visual Studio so I can support my Python development needs.

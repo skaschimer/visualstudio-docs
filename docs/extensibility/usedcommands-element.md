@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, UsedCommands
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # UsedCommands Element

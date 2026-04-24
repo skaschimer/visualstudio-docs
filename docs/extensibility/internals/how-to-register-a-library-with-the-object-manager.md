@@ -11,7 +11,7 @@ helpviewer_keywords:
 - libraries, symbol-browsing tools
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Register a library with the object manager

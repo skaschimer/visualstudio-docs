@@ -2,7 +2,7 @@
 title: C# Dev Kit for Visual Studio Code
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 07/23/2025
 ms.topic: how-to
 

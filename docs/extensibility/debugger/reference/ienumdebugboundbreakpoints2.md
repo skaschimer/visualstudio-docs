@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IEnumDebugBoundBreakpoints2
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IEnumDebugBoundBreakpoints2

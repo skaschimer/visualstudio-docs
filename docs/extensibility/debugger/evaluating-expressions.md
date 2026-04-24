@@ -9,7 +9,7 @@ helpviewer_keywords:
 - expression evaluation
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Evaluate expressions

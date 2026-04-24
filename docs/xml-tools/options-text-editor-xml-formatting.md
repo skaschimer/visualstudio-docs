@@ -10,7 +10,7 @@ f1_keywords:
 ms.custom: "ide-ref"
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Configure formatting in the XML editor

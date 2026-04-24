@@ -7,7 +7,7 @@ helpviewer_keywords:
 - web site projects, registration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Web Site Support Attributes

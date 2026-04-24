@@ -6,7 +6,7 @@ ms.reviewer: "Jamie.Young"
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Visual language dictionary

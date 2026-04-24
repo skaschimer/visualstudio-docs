@@ -6,7 +6,7 @@ ms.author: vedhar
 ms.subservice: python
 ms.topic: how-to
 ms.date: 01/07/2026
-manager: mijacobs
+
 
 # CustomerIntent: As a developer, I want to reformat Python code in Visual Studio so I can adjust settings like code spacing and line wrapping.
 ---

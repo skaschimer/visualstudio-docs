@@ -12,7 +12,7 @@ helpviewer_keywords:
 - CreateVisualBasicManifestResourceName task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # CreateVisualBasicManifestResourceName task

@@ -5,7 +5,7 @@ ms.date: 10/28/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)

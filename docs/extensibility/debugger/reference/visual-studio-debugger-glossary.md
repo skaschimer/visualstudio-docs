@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], glossary
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Visual Studio Debugger Glossary
