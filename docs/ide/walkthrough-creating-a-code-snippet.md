@@ -1,7 +1,7 @@
 ---
 title: Create a Code Snippet in Visual Studio
 description: Learn how to create a code snippet, use replacement parameters and project references, and import a snippet to Visual Studio.
-ms.date: 08/05/2025
+ms.date: 04/22/2026
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
@@ -28,13 +28,25 @@ You can create your own code snippets and add them to the code snippets that Vis
 
 1. Open Visual Studio, and select **Continue without code** on the **Start** screen.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the Start window with the Continue without code option selected.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="reference/media/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the Start window with the Continue without code option selected.":::
+   :::moniker-end
 
 1. From the menu bar, select **File** > **New File**, or enter **Ctrl**+**N**.
 
 1. In the **New File** dialog box, select **XML File**, and then select **Open**.
 
+    :::moniker range="visualstudio"
+    :::image type="content" source="media/visualstudio/open-new-xml-file.png" alt-text="Screenshot of the New File dialog with the XML File option selected.":::
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     :::image type="content" source="reference/media/open-new-xml-file.png" alt-text="Screenshot of the New File dialog box with the XML File option selected.":::
+    :::moniker-end
 
 1. Paste the following basic snippet template into the code editor.
 
@@ -92,7 +104,12 @@ You can create your own code snippets and add them to the code snippets that Vis
 
    The snippet is copied to one of the following locations, depending on the code language:
 
-   ::: moniker range=">= vs-2022"
+   ::: moniker range="visualstudio"
+   - *%USERPROFILE%\Documents\Visual Studio 18\Code Snippets\Visual C#\My Code Snippets*
+   - *%USERPROFILE%\Documents\Visual Studio 18\Code Snippets\Visual Basic\My Code Snippets*
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
    ::: moniker-end
@@ -112,7 +129,12 @@ The description field provides more information about your code snippet when vie
 
 1. To edit your snippet, open the snippet file from one of the following locations, depending on the code language:
 
-   ::: moniker range=">= vs-2022"
+   ::: moniker range="visualstudio"
+   - *%USERPROFILE%\Documents\Visual Studio 18\Code Snippets\Visual C#\My Code Snippets/SquareRoot.snippet*
+   - *%USERPROFILE%\Documents\Visual Studio 18\Code Snippets\Visual Basic\My Code Snippets/SquareRoot.snippet*
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets/SquareRoot.snippet*
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets/SquareRoot.snippet*
    ::: moniker-end
@@ -136,7 +158,13 @@ The description field provides more information about your code snippet when vie
 
 1. Open the Visual Studio **Code Snippets Manager** and select your code snippet. In the right pane, notice that the **Description**, **Author**, and **Shortcut** fields are now populated.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/code-snippet-description-author.png" alt-text="Screenshot showing a code snippet description in Code Snippet Manager.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/code-snippet-description-author.png" alt-text="Screenshot showing a code snippet description in Code Snippet Manager.":::
+   :::moniker-end
 
 1. To test the shortcut, open the project you used previously, type *sqrt* in the editor and press **Tab** once for Visual Basic or twice for C#. The snippet code is inserted.
 
