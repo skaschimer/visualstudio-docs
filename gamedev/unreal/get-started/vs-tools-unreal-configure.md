@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
-manager: Coxford
+ms.manager:  Coxford
 ---
 
 # Configure Visual Studio Tools for Unreal Engine

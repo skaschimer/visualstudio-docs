@@ -8,7 +8,7 @@ helpviewer_keywords:
 - private galleries, VSIX
 author: anva
 ms.author: anva
-manager: tinali
+ms.manager:  tinali
 ms.subservice: extensibility-integration
 ---
 # Create the ATOM feed (VsixFeed) for Visual Studio Private Galleries using VsixUtil

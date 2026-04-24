@@ -13,7 +13,7 @@ helpviewer_keywords:
   - debugging [Visual Studio]
 author: poppastring
 ms.author: madownie
-manager: andster
+ms.manager:  andster
 monikerRange: '>= vs-2022'
 ---
 # Debug a managed memory dump with .NET Diagnostic Analyzers

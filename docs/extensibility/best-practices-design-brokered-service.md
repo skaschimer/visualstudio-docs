@@ -8,7 +8,7 @@ helpviewer_keywords:
 - brokered services, providing
 author: aarnott
 ms.author: andarno
-manager: ansonh
+ms.manager:  ansonh
 ms.subservice: extensibility-integration
 ---
 # Best practices for designing a brokered service

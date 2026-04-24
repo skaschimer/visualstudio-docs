@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol3 interface"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol3

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol3::get_inlineeId method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol3::get_inlineeId

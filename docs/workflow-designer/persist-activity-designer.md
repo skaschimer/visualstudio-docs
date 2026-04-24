@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Statements.Persist.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Persist Activity Designer

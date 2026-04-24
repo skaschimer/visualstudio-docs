@@ -2,7 +2,7 @@
 title: Manage subscriptions from Cloud Partner Program
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/16/2024
 ms.topic: how-to
 description: Discover how Microsoft Cloud Partner Program partners assign Visual Studio subscriptions to their end users (subscribers).

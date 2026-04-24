@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.topic: overview
 author: therealjohn
 ms.author: johmil
-manager: crdun
+ms.manager:  crdun
 zone_pivot_groups: platform
 ---
 # Visual Studio Tools for Unity

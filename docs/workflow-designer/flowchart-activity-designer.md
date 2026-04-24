@@ -9,7 +9,7 @@ f1_keywords:
 - System.Activities.Core.Presentation.FlowStart.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Flowchart Activity Designer

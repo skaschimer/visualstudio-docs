@@ -5,7 +5,7 @@ ms.date: 01/07/2026
 ms.topic: how-to
 author: vritant24
 ms.author: vrbhardw
-manager: manishj
+ms.manager:  manishj
 ms.subservice: test-tools
 ---
 # Test Execution with Hot Reload

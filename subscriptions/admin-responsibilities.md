@@ -2,7 +2,7 @@
 title: Admin responsibilities and roles in subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/13/2024
 ms.topic: overview
 description: Review task responsibilities and roles for Visual Studio subscription admins, such as ensuring subscriptions are managed in accordance with license terms.

@@ -2,7 +2,7 @@
 title: What Happens When a Subscription Expires?
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 12/10/2025
 ms.topic: concept-article
 description: Understand what happens when a Visual Studio subscription expires, including changes to available downloads, product keys, Azure credits, and other benefits.

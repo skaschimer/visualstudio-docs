@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "dotnet, counters, profiling"
 author: MikeJo5000
 ms.author: mikejo
-manager: AndSter
+ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---
 # Visualize dotnet counters from the Visual Studio profiler

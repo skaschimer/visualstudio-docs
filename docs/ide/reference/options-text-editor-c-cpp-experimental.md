@@ -10,7 +10,7 @@ f1_keywords:
 ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
-manager: coxford
+ms.manager:  coxford
 ---
 # Options, Text Editor, C/C++, Experimental
 

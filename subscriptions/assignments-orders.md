@@ -2,7 +2,7 @@
 title: Track assignments and process orders in Visual Studio subscriptions | Visual Studio Marketplace
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/16/2024
 ms.topic: concept-article
 description:  Learn about admins' responsibility to track user assignments and process orders.

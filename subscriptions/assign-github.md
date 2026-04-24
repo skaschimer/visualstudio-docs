@@ -2,7 +2,7 @@
 title: Set Up Subscriptions with GitHub Enterprise
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 01/28/2025
 ms.topic: how-to
 description: Manage an organization's Visual Studio subscriptions by using GitHub Enterprise. Assign subscriptions to organization members and move subscribers.

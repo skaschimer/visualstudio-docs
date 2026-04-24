@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSymbol7::get_isSignRet method"
 author: "grantri"
 ms.author: "grantri"
-manager: twhitney
+ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol7::get_isSignRet

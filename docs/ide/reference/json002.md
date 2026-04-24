@@ -12,7 +12,7 @@ dev_langs:
 ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
-manager: jmartens
+ms.manager:  jmartens
 ms.subservice: general-ide
 ---
 # Probable JSON string detected (JSON002)
