@@ -9,7 +9,7 @@ helpviewer_keywords:
 - VSPackages, registration manifests
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Generate registry information for an installer

@@ -2,7 +2,7 @@
 title: Troubleshooting suggestions for signing in to Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 02/09/2026
 ms.topic: troubleshooting-general
 description: Review potential sign-in troubleshooting steps for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.

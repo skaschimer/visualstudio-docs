@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debug engines, implementation strategies
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Choose a debug engine implementation strategy

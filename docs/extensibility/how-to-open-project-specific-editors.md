@@ -9,7 +9,7 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], opening folders
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Open project-specific editors

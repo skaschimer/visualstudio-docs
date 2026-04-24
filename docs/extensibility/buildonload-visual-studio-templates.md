@@ -12,7 +12,7 @@ helpviewer_keywords:
 - BuildOnLoad element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # BuildOnLoad attribute and element
 

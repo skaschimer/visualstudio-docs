@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaDataSource::loadDataFromCodeViewInfo method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

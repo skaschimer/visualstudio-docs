@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugCoreServer2::GetMachineUtilities_V7
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

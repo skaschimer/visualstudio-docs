@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <ProjectSubType> element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # ProjectSubType element (Visual Studio templates)
 

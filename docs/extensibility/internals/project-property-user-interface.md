@@ -9,7 +9,7 @@ helpviewer_keywords:
 - project properties UI
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Project Property User Interface

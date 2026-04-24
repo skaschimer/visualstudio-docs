@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Domain-Specific Language, generated code
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Understanding the DSL Code

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - packages
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Anatomy of a VSIX package

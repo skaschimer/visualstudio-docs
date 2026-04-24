@@ -9,7 +9,7 @@ helpviewer_keywords:
 - VSPackages, upgrade support
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Upgrading Projects

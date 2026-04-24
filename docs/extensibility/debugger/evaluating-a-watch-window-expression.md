@@ -9,7 +9,7 @@ helpviewer_keywords:
 - expression evaluation, Watch window expressions
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Evaluate a watch window expression

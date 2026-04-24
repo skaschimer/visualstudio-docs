@@ -6,7 +6,7 @@ ms.date: 2/11/2025
 ms.author: bertaygu
 monikerRange: ">=vs-2022"
 author: BertanAygun
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
 ---

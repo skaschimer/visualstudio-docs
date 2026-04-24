@@ -5,7 +5,7 @@ ms.date: "01/26/2018"
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Diagnose UI delays caused by extensions

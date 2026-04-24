@@ -13,7 +13,7 @@ helpviewer_keywords:
 - project files, referencing
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 
 #customer intent: As a builder, I want to reference reserved properties like the project file name in builds so I don't have to create the properties.

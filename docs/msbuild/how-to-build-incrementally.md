@@ -9,7 +9,7 @@ helpviewer_keywords:
 - MSBuild, building incrementally
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 #customer intent: As a developer, I want to run incremental builds with MSBuild, so I can build only new targets or out-of-date targets.
 ---

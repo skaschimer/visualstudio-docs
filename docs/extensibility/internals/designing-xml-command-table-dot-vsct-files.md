@@ -7,7 +7,7 @@ helpviewer_keywords:
 - VSCT files, designing
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Design XML command table (.vsct) files

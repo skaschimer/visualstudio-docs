@@ -7,7 +7,7 @@ f1_keywords:
   - "MessageContent.UI"
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Content Definition Dialog Box

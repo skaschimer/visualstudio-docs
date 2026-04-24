@@ -12,7 +12,7 @@ helpviewer_keywords:
 - ParameterGroup element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # ParameterGroup element

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], port suppliers
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Required port supplier interfaces

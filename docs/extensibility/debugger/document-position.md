@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], contexts
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Document position

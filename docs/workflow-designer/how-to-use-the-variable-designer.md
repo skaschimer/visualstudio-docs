@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Presentation.View.DesignTimeVariable.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Use the Variable Designer

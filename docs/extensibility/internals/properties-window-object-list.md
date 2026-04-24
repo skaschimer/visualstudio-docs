@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Properties window, object list
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Properties Window Object List

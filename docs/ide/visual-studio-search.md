@@ -14,7 +14,7 @@ helpviewer_keywords:
 - IDE navigator
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.custom: awp-ai
 ---

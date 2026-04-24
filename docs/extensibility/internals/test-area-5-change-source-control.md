@@ -8,7 +8,7 @@ helpviewer_keywords:
 - source control plug-ins, changing source control
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Test Area 5: Change Source Control

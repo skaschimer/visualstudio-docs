@@ -5,7 +5,7 @@ ms.date: 11/13/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # View and edit code by using Peek Definition (Alt+F12)

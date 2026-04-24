@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: deployment
 ---
 # ClickOnce reference

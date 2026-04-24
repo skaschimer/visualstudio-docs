@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, custom attributes"
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 

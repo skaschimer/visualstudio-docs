@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Message task [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Message task

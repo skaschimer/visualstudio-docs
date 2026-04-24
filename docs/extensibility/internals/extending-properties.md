@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Properties window, providing support
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Extend properties

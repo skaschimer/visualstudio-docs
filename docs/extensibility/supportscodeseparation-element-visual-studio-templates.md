@@ -12,7 +12,7 @@ helpviewer_keywords:
 - <SupportsCodeSeparation> element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # SupportsCodeSeparation Element (Visual Studio Templates)
 

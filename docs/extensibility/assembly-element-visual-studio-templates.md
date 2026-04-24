@@ -12,7 +12,7 @@ helpviewer_keywords:
 - <Assembly> element [Visual Studio templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # Assembly element (Visual Studio templates)
 

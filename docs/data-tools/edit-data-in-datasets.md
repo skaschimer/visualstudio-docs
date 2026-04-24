@@ -11,7 +11,7 @@ helpviewer_keywords:
 - data [Visual Studio], editing in datasets
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 #customer intent: As a developer, I want to know how to edit data in .NET Framework datasets so that I have more understanding of .NET Framework dataset technologies.
 

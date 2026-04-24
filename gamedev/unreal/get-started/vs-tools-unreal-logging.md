@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.subservice: unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
-manager: Coxford
+ms.manager:  Coxford
 #customer intent: As a C++ game developer using Unreal Engine and Visual Studio, I want to view Unreal Engine logging in Visual Studio so that I can see the logs without switching between the Unreal Editor and Visual Studio.
 ---
 

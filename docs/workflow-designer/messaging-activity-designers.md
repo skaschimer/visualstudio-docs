@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: reference
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # Messaging activity designers

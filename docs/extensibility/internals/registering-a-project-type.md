@@ -9,7 +9,7 @@ helpviewer_keywords:
 - registration, new project types
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Registering a Project Type

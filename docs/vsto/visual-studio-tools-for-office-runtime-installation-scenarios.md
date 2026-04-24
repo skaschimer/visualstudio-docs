@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "Visual Studio Tools for Office runtime, installation scenarios"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+
 ms.subservice: office-development
 ---
 # Visual Studio Tools for Office runtime installation scenarios

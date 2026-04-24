@@ -6,7 +6,7 @@ ms.date: 10/16/2024
 ms.author: murphymcquet
 monikerRange: ">=vs-2022"
 author: murphymcquet
-manager: tinali
+ms.manager:  tinali
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
 ---

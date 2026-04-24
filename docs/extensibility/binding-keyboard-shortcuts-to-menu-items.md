@@ -11,7 +11,7 @@ helpviewer_keywords:
 - menu items
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Bind keyboard shortcuts to menu items

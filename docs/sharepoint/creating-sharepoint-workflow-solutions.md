@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 author: John-Hart
 ms.author: johnhart
-manager: mijacobs
+
 ms.subservice: sharepoint-development
 ---
 # Create SharePoint workflow solutions

@@ -2,7 +2,7 @@
 title: Use connected identities in subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 11/19/2025
 ms.topic: how-to
 robots: "noindex, nofollow"

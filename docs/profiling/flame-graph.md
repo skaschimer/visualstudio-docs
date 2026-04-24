@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.custom: "profiling-seo"
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 ---

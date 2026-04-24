@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugCanStopEvent2::GetReason
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

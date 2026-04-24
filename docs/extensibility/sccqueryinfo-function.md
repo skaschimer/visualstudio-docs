@@ -9,7 +9,7 @@ helpviewer_keywords:
 - SccQueryInfo function
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # SccQueryInfo Function

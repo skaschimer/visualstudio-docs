@@ -8,7 +8,7 @@ helpviewer_keywords:
 - breakpoints, hitting
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Hit a breakpoint

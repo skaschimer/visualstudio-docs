@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.author: maprospe
 monikerRange: ">=vs-2022"
 author: matteo-prosperi
-manager: tinaschrepfer
+ms.manager:  tinaschrepfer
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
 ---

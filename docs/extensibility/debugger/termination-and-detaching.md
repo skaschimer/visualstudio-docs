@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debug engines, detaching from programs
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Termination and detaching

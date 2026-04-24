@@ -9,7 +9,7 @@ dev_langs:
 ms.custom: "ide-ref"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 

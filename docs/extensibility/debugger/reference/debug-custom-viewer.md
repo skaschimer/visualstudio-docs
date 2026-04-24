@@ -9,7 +9,7 @@ helpviewer_keywords:
 - DEBUG_CUSTOM_VIEWER structure
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

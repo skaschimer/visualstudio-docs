@@ -8,7 +8,7 @@ helpviewer_keywords:
 - transforms [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Customize a build to handle generated files

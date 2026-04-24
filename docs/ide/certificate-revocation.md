@@ -4,7 +4,7 @@ description: Learn how to enable certificate revocation check to keep Visual Stu
 ms.date: 11/13/2025
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.topic: how-to
 monikerRange: ">=visualstudio"

@@ -21,7 +21,7 @@ helpviewer_keywords:
 - views, outlining
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Manage editor modes

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Output Element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Output element (MSBuild)

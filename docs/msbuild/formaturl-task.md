@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "FormatUrl task [MSBuild]"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # FormatUrl task

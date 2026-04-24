@@ -9,7 +9,7 @@ helpviewer_keywords:
 - custom build steps, types of builds
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ai-usage: ai-assisted
 ms.custom: awp-ai
 ---

@@ -2,7 +2,7 @@
 title: Access and authenticate the Visual Studio IDE without a product key
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 11/04/2025
 ms.topic: how-to
 description: Learn how to install and use Visual Studio if you don't have access to downloads.

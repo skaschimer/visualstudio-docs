@@ -6,7 +6,7 @@ ms.date: 07/30/2025
 ms.topic: tutorial
 author: Devdiv-VR
 ms.author: vedhar
-manager: mijacobs
+
 ms.subservice: python
 
 # CustomerIntent: As a developer, I want to work with Git in Visual Studio so I can manage my Python files with source control.

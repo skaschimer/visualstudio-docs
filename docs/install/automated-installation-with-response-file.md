@@ -10,7 +10,7 @@ helpviewer_keywords:
 - command-line
 author: RoseHJM
 ms.author: rosemalcolm
-manager: mijacobs
+
 
 ms.subservice: installation
 ---

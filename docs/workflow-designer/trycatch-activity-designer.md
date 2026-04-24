@@ -8,7 +8,7 @@ f1_keywords:
 - System.Activities.Statements.Catch`1.UI
 author: sayedihashimi
 ms.author: sayedha
-manager: timheuer
+ms.manager:  timheuer
 ms.subservice: workflow-designer
 ---
 # TryCatch Activity Designer

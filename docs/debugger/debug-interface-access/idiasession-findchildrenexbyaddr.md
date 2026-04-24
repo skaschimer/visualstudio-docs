@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaSession::findChildrenExByAddr method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

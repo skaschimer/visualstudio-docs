@@ -12,7 +12,7 @@ helpviewer_keywords:
 - text templates, template directive
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # T4 Text Template Directives

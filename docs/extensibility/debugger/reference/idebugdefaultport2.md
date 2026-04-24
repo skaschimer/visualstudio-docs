@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugDefaultPort2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugDefaultPort2

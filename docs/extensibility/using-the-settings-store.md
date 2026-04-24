@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Settings Store, using
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Using the Settings Store

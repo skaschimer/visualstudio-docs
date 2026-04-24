@@ -9,7 +9,7 @@ helpviewer_keywords:
 - BP_UNBOUND_REASON enumeration
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

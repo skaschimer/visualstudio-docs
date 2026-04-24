@@ -6,7 +6,7 @@ ms.topic: reference
 ms.custom: awp-ai
 author: mikadumont
 ms.author: midumont
-manager: mijacobs
+
 ms.subservice: general-ide
 dev_langs:
   - CSharp

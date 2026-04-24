@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProgramEngines2::SetEngine
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, Delete task
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Delete task

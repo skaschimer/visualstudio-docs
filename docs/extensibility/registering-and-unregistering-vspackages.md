@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSPackages, registering
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Register and unregister VSPackages

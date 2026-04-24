@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Icon element (VSCT XML schema)
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Icon element

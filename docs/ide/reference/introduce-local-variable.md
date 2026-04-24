@@ -6,7 +6,7 @@ ms.topic: reference
 ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Introduce a local variable in Visual Studio

@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, ResolveKeySource task
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # ResolveKeySource task

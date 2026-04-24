@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MSBuild, CreateItem task
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # CreateItem task

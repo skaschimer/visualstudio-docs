@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugDocumentPositionOffset2 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugDocumentPositionOffset2

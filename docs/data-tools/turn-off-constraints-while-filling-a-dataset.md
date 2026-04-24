@@ -17,7 +17,7 @@ helpviewer_keywords:
 - constraints [Visual Basic], suspending during dataset update
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

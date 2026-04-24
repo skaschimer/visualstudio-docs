@@ -11,7 +11,7 @@ helpviewer_keywords:
 - graph documents, analyzing
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Find potential problems using code map analyzers

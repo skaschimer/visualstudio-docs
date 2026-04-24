@@ -13,7 +13,7 @@ helpviewer_keywords:
 - <Parameter> element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Parameter element

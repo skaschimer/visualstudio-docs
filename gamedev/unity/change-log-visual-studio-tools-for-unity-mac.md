@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.topic: release-notes
 author: therealjohn
 ms.author: johmil
-manager: crdun
+ms.manager:  crdun
 ---
 # Change Log (Visual Studio Tools for Unity, Mac)
 

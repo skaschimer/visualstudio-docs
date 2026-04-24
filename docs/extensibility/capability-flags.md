@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control plug-ins, capability flags
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Capability flags

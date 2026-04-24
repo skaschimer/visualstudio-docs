@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ProjectExtensions element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # ProjectExtensions element (MSBuild)

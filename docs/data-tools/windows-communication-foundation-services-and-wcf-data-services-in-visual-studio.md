@@ -32,7 +32,7 @@ helpviewer_keywords:
 - service method, called asynchronously[Visual Studio]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 #customer intent: As a developer, I want to explore WCF Services and WCF Data Services in Visual Studio, so I can create distributed applications.
 ---

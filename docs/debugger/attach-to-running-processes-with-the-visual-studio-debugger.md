@@ -23,7 +23,7 @@ helpviewer_keywords:
   - "debugger, processes"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-one
 ms.custom: sfi-image-nochange

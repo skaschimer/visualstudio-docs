@@ -9,7 +9,7 @@ f1_keywords:
 - feedback
 author: jasonchlus
 ms.author: jasonchlus
-manager: dominicn
+ms.manager:  dominicn
 
 ms.subservice: installation
 ---

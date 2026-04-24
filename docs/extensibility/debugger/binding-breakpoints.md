@@ -7,7 +7,7 @@ helpviewer_keywords:
 - breakpoints, binding
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Bind breakpoints

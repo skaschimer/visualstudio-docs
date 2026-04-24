@@ -11,7 +11,7 @@ helpviewer_keywords:
 - Configure Service Reference dialog box
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

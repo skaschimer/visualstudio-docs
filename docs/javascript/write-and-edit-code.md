@@ -12,7 +12,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript

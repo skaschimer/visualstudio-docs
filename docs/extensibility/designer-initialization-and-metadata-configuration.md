@@ -8,7 +8,7 @@ helpviewer_keywords:
 - designers [Visual Studio SDK], configuring metadata
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Designer initialization and metadata configuration

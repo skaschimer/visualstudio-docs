@@ -6,7 +6,7 @@ ms.date: 02/13/2026
 ms.topic: tutorial
 author: MikeJo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 # customer intent: As a developer, I want to learn how a Windows form project works in Visual Studio so that I can create such projects in the future.
 ---

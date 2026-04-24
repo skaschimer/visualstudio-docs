@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, Symbols
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Symbols Element

@@ -13,7 +13,7 @@ helpviewer_keywords:
 - saving data
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: data-tools
 ---
 

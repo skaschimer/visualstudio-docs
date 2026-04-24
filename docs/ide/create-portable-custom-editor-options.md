@@ -4,7 +4,7 @@ description: Add an EditorConfig file to your project or codebase to enforce con
 ms.date: 02/19/2026
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.topic: how-to
 helpviewer_keywords:

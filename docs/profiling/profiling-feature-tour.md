@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "diagnostic tools"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-two
 ---

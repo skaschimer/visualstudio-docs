@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProgram2::WriteDump
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

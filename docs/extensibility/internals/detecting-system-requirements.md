@@ -8,7 +8,7 @@ helpviewer_keywords:
 - launch conditions
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Detect system requirements

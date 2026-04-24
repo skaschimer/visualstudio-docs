@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, interfaces
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Key expression evaluator interfaces

@@ -2,7 +2,7 @@
 title: Managing large teams and contractors in Visual Studio subscriptions | Visual Studio Marketplace
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 11/3/2025
 ms.topic: concept-article
 description:  Learn about admins' responsibility to manage subscriptions for large teams and external contractors.

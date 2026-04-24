@@ -7,7 +7,7 @@ helpviewer_keywords:
 - project subtypes, design
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Project Subtypes Design

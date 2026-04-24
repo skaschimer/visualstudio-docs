@@ -7,7 +7,7 @@ helpviewer_keywords:
 - verbs, setting default
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Manage side-by-side file associations

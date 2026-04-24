@@ -5,7 +5,7 @@ ms.date: 1/9/2026
 ms.topic: install-set-up-deploy
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: help-viewer
 ---
 # Deploy and manage local Help installations for network environments 

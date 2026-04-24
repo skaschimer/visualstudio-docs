@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Domain-Specific Language Tools, user interface
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface

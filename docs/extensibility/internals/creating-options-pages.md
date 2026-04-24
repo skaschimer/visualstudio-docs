@@ -8,7 +8,7 @@ helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating using managed package framework
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Create options pages

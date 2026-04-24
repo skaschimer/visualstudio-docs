@@ -12,7 +12,7 @@ helpviewer_keywords:
 - MSBuild, FindInList task
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # FindInList task

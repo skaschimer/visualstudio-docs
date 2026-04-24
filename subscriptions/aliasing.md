@@ -2,7 +2,7 @@
 title: Signing in to Visual Studio Subscriptions portal might fail when using aliases
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/16/2024
 ms.topic: how-to
 description: Sign-in might fail if aliases or friendly names are used.

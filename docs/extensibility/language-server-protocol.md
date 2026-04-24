@@ -5,7 +5,7 @@ ms.date: 11/14/2017
 ms.topic: concept-article
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Language Server Protocol

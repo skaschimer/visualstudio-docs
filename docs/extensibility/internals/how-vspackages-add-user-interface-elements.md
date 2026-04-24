@@ -9,7 +9,7 @@ helpviewer_keywords:
 - VSPackages, contributing UI elements
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # How VSPackages add user interface elements

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], event sources
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Event sources (Visual Studio SDK)

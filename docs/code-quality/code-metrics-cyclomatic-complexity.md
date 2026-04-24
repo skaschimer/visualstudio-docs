@@ -5,7 +5,7 @@ description: Explore the cyclomatic complexity metric for code metrics in Visual
 ms.topic: concept-article
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: code-analysis
 ---
 

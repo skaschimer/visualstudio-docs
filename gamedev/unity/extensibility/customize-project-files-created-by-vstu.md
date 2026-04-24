@@ -7,7 +7,7 @@ ms.service: visual-studio
 ms.topic: how-to
 author: "conceptdev"
 ms.author: "crdun"
-manager: crdun
+ms.manager:  crdun
 ---
 # Customize project files created by VSTU
 Unity provides callbacks during project file generation. Implement `OnGeneratedSlnSolution` and `OnGeneratedCSProject` methods using an [`AssetPostprocessor`](https://docs.unity3d.com/ScriptReference/AssetPostprocessor.html) to modify the project or solution file whenever it's regenerated.

@@ -10,9 +10,9 @@ helpviewer_keywords:
 - localization [Visual Studio]
 - world-ready applications
 - international applications [Visual Studio]
-author: j-martens
-ms.author: jmartens
-manager: mijacobs
+author: BillWagner
+ms.author: wiwagn
+
 ms.subservice: general-ide
 ---
 # Develop globalized and localized apps

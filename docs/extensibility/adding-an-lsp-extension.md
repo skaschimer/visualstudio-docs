@@ -5,7 +5,7 @@ ms.date: 07/05/2021
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Add a Language Server Protocol extension

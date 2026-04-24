@@ -5,7 +5,7 @@ ms.date: 11/26/2025
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+
 ms.subservice: xaml-tools
 monikerRange: ">=vs-2022"
 ---

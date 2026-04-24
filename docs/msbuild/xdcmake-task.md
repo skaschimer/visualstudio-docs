@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "MSBuild (C++), XDCMake task"
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # XDCMake task

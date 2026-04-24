@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSPackages, troubleshooting
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Use the activity log

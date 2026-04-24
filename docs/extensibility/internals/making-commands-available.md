@@ -10,7 +10,7 @@ helpviewer_keywords:
 - menu commands, best practices
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Making commands available

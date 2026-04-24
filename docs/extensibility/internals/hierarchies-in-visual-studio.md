@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDE, hierarchies
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Hierarchies in Visual Studio

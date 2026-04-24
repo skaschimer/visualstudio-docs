@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control packages, architecture
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Source Control VSPackage Architecture

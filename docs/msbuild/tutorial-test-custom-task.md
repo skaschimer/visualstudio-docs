@@ -7,7 +7,7 @@ helpviewer_keywords:
 - MSBuild, test custom task
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Tutorial: Test a custom task

@@ -11,7 +11,7 @@ helpviewer_keywords:
 - ReplaceInFiles command
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Replace In Files Command

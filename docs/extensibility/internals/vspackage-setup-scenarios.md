@@ -7,7 +7,7 @@ helpviewer_keywords:
 - VSPackages, deployment considerations
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # VSPackage Setup Scenarios

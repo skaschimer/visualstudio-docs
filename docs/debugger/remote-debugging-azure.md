@@ -5,7 +5,7 @@ ms.date: 04/23/2024
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio

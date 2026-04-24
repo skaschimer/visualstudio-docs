@@ -7,7 +7,7 @@ helpviewer_keywords:
 - tool windows, adding search
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Add search to a tool window

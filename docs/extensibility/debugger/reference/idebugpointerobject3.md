@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugPointerObject3 interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugPointerObject3

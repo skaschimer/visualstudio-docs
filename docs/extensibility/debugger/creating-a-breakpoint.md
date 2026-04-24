@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], creating breakpoints
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Create a breakpoint

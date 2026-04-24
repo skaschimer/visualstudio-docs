@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: GitHubber17
 ms.author: twhitney
-manager: coxfordf
+ms.manager:  coxfordf
 monikerRange: 'visualstudio'
 ---
 # Configure Languages > C/C++ > IntelliSense options

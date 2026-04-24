@@ -8,7 +8,7 @@ helpviewer_keywords:
 - MSBuild, best practices
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # MSBuild best practices

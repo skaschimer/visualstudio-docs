@@ -6,7 +6,7 @@ ms.subservice: general-ide
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # AppliesTo element (Visual Studio templates)
 

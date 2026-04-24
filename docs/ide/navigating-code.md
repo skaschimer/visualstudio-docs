@@ -16,7 +16,7 @@ helpviewer_keywords:
 - go to
 author: ghogen
 ms.author: ghogen
-manager: j-martens
+ms.manager:  j-martens
 ms.custom: "awp, awp-ai"
 ai-usage: ai-assisted
 

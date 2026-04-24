@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaEnumDebugStreams interface"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - Arabic, creating applications
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Support for bidirectional languages in Visual Studio

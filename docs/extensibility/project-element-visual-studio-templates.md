@@ -11,7 +11,7 @@ helpviewer_keywords:
 - <Project> element [Visual Studio Templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # Project element (Visual Studio templates)
 

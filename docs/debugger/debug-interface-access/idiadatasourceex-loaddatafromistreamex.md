@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "IDiaDataSourceEx::loadDataFromIStreamEx method"
 author: "grantri"
 ms.author: "grantri"
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 

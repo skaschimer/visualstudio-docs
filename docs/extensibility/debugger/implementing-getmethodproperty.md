@@ -8,7 +8,7 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator2 property
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Implement GetMethodProperty

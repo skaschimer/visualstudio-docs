@@ -8,7 +8,7 @@ helpviewer_keywords:
 - expression evaluation, displaying locals
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Display locals

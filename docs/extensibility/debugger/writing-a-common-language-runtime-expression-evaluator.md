@@ -9,7 +9,7 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluators tutorial
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Writing a common language runtime expression evaluator

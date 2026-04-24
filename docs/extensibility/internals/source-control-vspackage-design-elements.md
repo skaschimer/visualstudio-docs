@@ -7,7 +7,7 @@ helpviewer_keywords:
 - source control packages, design elements
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Source Control VSPackage Design Elements

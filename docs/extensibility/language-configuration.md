@@ -5,7 +5,7 @@ ms.date: 11/06/2025
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Customizing editor behavior by using Language Configuration

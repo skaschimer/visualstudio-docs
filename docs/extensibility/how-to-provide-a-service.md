@@ -7,7 +7,7 @@ helpviewer_keywords:
 - services, providing
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Provide a service

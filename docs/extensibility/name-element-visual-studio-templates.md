@@ -10,7 +10,7 @@ helpviewer_keywords:
 - Name element [Visual Studio project templates]
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ---
 # Name element (Visual Studio templates)
 

@@ -5,7 +5,7 @@ ms.date: 05/20/2022
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Synchronize Visual Studio settings across multiple computers

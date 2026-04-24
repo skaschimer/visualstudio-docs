@@ -9,7 +9,7 @@ helpviewer_keywords:
 - expression evaluation, getting local values
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Get local values

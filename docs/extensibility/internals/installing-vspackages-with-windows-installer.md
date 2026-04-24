@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSPackages, deploying
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Installing VSPackages With Windows Installer

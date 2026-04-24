@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "profiling tools, .NET Counters"
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'

@@ -10,7 +10,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, CommandPlacements
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # CommandPlacements element

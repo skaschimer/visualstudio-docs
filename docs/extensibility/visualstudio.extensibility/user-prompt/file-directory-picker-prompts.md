@@ -6,7 +6,7 @@ ms.date: 5/10/2024
 ms.author: kellyfam
 monikerRange: ">=vs-2022"
 author: kellyfam
-manager: jekelly
+ms.manager:  jekelly
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
 ---

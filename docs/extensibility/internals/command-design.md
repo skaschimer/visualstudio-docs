@@ -8,7 +8,7 @@ helpviewer_keywords:
 - commands, implementation
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Command design

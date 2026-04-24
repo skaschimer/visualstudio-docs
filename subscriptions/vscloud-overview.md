@@ -2,7 +2,7 @@
 title: Purchase Visual Studio cloud subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 01/09/2026
 ms.topic: overview
 description: Purchase (rent) Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.

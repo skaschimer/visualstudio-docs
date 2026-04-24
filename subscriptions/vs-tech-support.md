@@ -2,7 +2,7 @@
 title: Use Technical Support for subscriptions
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 09/29/2025
 ms.topic: how-to
 description: Use the technical support benefit included with your Visual Studio subscription, locate supported products and resources, and learn how to submit incidents.

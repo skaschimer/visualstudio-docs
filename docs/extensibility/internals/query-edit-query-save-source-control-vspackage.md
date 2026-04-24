@@ -9,7 +9,7 @@ helpviewer_keywords:
 - source control packages, Query Edit Query Save events
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Query Edit Query Save (Source Control VSPackage)

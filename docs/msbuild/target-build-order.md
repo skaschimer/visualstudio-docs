@@ -7,7 +7,7 @@ helpviewer_keywords:
 - msbuild, build order
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 

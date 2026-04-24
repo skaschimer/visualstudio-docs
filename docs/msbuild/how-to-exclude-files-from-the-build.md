@@ -9,7 +9,7 @@ helpviewer_keywords:
 - wildcards, MSBuild
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # Exclude files from the build

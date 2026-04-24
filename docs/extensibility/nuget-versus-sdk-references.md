@@ -5,7 +5,7 @@ ms.date: 08/02/2019
 ms.topic: concept-article
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # NuGet versus SDK as a project reference

@@ -6,7 +6,7 @@ ms.update-cycle: 180-days
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: test-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp-ai

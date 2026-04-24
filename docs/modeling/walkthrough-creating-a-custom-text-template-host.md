@@ -8,7 +8,7 @@ helpviewer_keywords:
 - text templates, custom host walkthrough
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 dev_langs:
 - CSharp

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - IDebugGenericParamField interface
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # IDebugGenericParamField

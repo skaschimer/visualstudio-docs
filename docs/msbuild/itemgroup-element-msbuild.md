@@ -14,7 +14,7 @@ helpviewer_keywords:
 - <ItemGroup> element [MSBuild]
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: msbuild
 ---
 # ItemGroup element (MSBuild)

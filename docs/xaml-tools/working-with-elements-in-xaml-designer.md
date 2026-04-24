@@ -5,7 +5,7 @@ ms.date: 05/14/2018
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
-manager: mijacobs
+
 ms.subservice: xaml-tools
 ---
 # Work with elements in XAML Designer

@@ -7,7 +7,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
 author: Mikejo5000
 ms.author: mikejo
-manager: mijacobs
+
 ms.subservice: general-ide
 ms.custom: "sfi-image-nochange, awp-ai"
 

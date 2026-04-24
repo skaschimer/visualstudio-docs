@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "installer projects, .NET"
 author: MSLukeWest
 ms.author: lukewest
-manager: MSLukeWest
+ms.manager:  MSLukeWest
 monikerRange: '>= vs-2022'
 ---
 # Visual Studio Installer Projects Extension and .NET

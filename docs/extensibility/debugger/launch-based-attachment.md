@@ -8,7 +8,7 @@ helpviewer_keywords:
 - debug engines, attaching to programs
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Launch-based attachment

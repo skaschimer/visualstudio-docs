@@ -5,7 +5,7 @@ ms.date: 11/04/2016
 ms.topic: how-to
 author: jekelly
 ms.author: jekelly
-manager: mijacobs
+
 ms.subservice: modeling
 ---
 # Embed a Diagram in a Windows Form

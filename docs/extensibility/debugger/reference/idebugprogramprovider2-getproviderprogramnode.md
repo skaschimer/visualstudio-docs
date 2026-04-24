@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProgramProvider2::GetProviderProgramNode
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

@@ -7,7 +7,7 @@ helpviewer_keywords:
 - expression evaluation, context
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: debug-diagnostics
 ---
 # Expression evaluation context

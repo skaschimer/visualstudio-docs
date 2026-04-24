@@ -5,7 +5,7 @@ ms.date: 04/02/2018
 ms.topic: get-started
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Get started with Roslyn analyzers

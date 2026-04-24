@@ -8,7 +8,7 @@ helpviewer_keywords:
 - VSCT XML schema elements, CommandName
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # CommandName element

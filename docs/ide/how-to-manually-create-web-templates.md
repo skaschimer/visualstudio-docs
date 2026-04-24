@@ -10,7 +10,7 @@ helpviewer_keywords:
 - project templates [Visual Studio], Web
 author: ghogen
 ms.author: ghogen
-manager: mijacobs
+
 ms.subservice: general-ide
 ---
 # Manually create web templates

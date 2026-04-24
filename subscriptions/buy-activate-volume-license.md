@@ -2,7 +2,7 @@
 title: Subscriptions available through Volume Licensing
 author: joseb-rdc
 ms.author: amast
-manager: shve
+ms.manager:  shve
 ms.date: 12/13/2024
 ms.topic: how-to
 description: Purchase Visual Studio subscriptions via Volume Licensing and activate them in the Visual Studio subscriptions portal.

@@ -8,7 +8,7 @@ helpviewer_keywords:
 - tool windows
 author: tinaschrepfer
 ms.author: tinali
-manager: mijacobs
+
 ms.subservice: extensibility-integration
 ---
 # Create a multi-instance tool window
