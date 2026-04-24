@@ -44,7 +44,11 @@ Workspace skills are shared with your team through source control. Personal skil
 
 ## Create a skill
 
+<!-- This goes out in 18.6 in May and replaces the subsequent sentence.
 You can create a skill from the skills panel in Visual Studio, or manually in your file system.
+-->
+
+You can create a skill manually in your file system.
 
 <!-- This goes out in 18.6 in May
 ### Create a skill from the skills panel
