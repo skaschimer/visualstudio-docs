@@ -1,7 +1,7 @@
 ---
 title: Create an Angular project in Visual Studio
 description: Create, build, and run a simple Angular front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 12/4/2024
+ms.date: 04/24/2026
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -30,7 +30,13 @@ Make sure to install the following software:
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot showing the Create a new project window.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+   :::moniker-end
 
 1. Search for Angular in the search bar at the top and then select **Angular App**.
 

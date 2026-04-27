@@ -31,7 +31,7 @@ Partner Program Visual Studio Subscriptions:
 
 Users sign in to Visual Studio using their work account and access the IDE based on their organization’s Partner Program entitlements.
 
-## Benefit Refresh 2026: What Changed for Visual Studio Subscriptions
+## Benefit Refresh 2026: What changed for Visual Studio Subscriptions
 
 Beginning **February 13, 2026**, Microsoft updates Partner Program developer benefits as part of **Benefits Refresh 2026**. These updates apply only to **Partner Program benefits** and don’t affect paid Visual Studio Subscriptions.
 
@@ -40,7 +40,7 @@ The updated benefits take effect in the following scenarios:
 + Your organization renews its Partner Program membership at its anniversary date, or
 + Your organization enrolls in or purchases a new membership offer on or after February 13, 2026.
 
-## What Changed
+## What changed
 
 For Visual Studio Subscriptions provided through the Partner Program:
 
@@ -50,7 +50,7 @@ For Visual Studio Subscriptions provided through the Partner Program:
   + Azure credits are delivered **at the organization level** through Partner Program benefit packages and are **no longer bundled** with individual Visual Studio IDE licenses.
 + Legacy MSDN-style software downloads and transferable product keys are no longer included with Partner Program Visual Studio benefits.
 
-## What Stays the Same
+## What stays the same
 
 The following Visual Studio–related benefits continue to be available for eligible partners:
 
@@ -73,13 +73,13 @@ To assign access:
    + If the user isn't listed, add them in **Account settings**.
 1. Repeat for each Visual Studio Subscription you want to assign.
 
-### Manage Assigned Users
+### Manage assigned users
 
 + Use **View and remove assigned users** to see who has access.
 + Select **Remove** to revoke access.
 + To reassign a subscription to another user, select **Reassign user**. This option is available after **90 days** from when the license is removed from a user.
 
-## Renewal and Reassignment Behavior
+## Renewal and reassignment behavior
 
 When your organization renews its Partner Program membership:
 
@@ -93,7 +93,7 @@ Partners are responsible for tracking Visual Studio Subscription assignments and
 
 [Learn more about assigning Visual Studio Subscriptions](https://learn.microsoft.com/partner-center/benefits/mpn-benefits-visual-studio#how-to-activate-maicpp-visual-studio-benefits) through the Partner Center.
 
-### Common Questions
+### Common questions
 
 **Are Azure credits included with Visual Studio Subscriptions for partners?**
 
