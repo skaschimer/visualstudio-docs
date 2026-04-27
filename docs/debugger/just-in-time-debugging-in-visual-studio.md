@@ -1,7 +1,7 @@
 ---
 title: Disable the Just-In-Time (JIT) Debugger
 description: Disable the Just-In-Time Debugger dialog in Visual Studio after errors occur in your application to enable app execution to continue.
-ms.date: 12/16/2024
+ms.date: 04/24/2026
 ms.topic: how-to
 helpviewer_keywords:
   - debugging [Visual Studio], Just-In-Time
@@ -52,9 +52,9 @@ Follow these steps to disable script debugging for a Web app:
    > [!NOTE]
    > Depending on your version of Windows and your browser, you might need to select more than one option.
    
-   The following example shows two relevant options selected:
+   The following example shows one relevant option selected:
 
-   :::image type="content" source="../debugger/media/just-in-time-internet-options.png" border="false" alt-text="Screenshot that shows how to select 'Disable script debugging' options for Internet Properties in Windows Control Panel.":::
+   :::image type="content" source="../debugger/media/visualstudio/just-in-time-internet-options.png" border="false" alt-text="Screenshot that shows how to select 'Disable script debugging' options in Windows Control Panel.":::
 
 ### Disable server-side debugging for Web app
 
