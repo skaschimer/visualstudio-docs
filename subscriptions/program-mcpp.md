@@ -1,84 +1,120 @@
 ---
-title: Subscriptions offered in Cloud Partner Program
+title: Visual Studio Enterprise Subscriptions in the Microsoft AI Cloud Partner Program
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 02/28/2025
-ms.topic: limits-and-quotas
-description: Explore available subscriptions, what rules apply, and how many subscriptions are offered in the Microsoft Cloud Partner Program.
+ms.date: 04/24/2026
+ms.topic: concept-article
+description: Learn about Visual Studio Enterprise Subscriptions in the Microsoft AI Cloud Partner Program, including eligibility, internal-use restrictions, and licensing requirements.
 ---
-# Visual Studio subscriptions offered to partners in the Microsoft Cloud Partner Program
+# Visual Studio Enterprise Subscriptions for partners in the Microsoft AI Cloud Partner Program
 
-Partners who earn a competency or who purchase the Action Pack in the Microsoft Cloud Partner Program, formerly known as the Microsoft Partner Network (MPN) are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user and are only valid when assigned to a specific named user who works for the partner company.
+Partners in the **Microsoft AI Cloud Partner Program (MAICPP)** might be eligible for **Visual Studio Enterprise Subscriptions**, including access to the **Visual Studio Enterprise IDE**, as part of their partner benefits.
 
-## Solutions partners and partners with legacy competency offers
+These subscriptions are provided to support **internal development and testing scenarios only** and are governed by MAICPP program rules.
 
-When a partner earns a competency--either at the silver or gold level--they earn a core number of Visual Studio Enterprise subscriptions. This core benefit changes if the partner earns at least one gold competency. The Visual Studio Enterprise subscription is a custom offering that is roughly equivalent to the [Visual Studio Enterprise Standard subscription](https://visualstudio.microsoft.com/vs/pricing/), but with certain benefits removed. Many of these benefits are available separately to partners as general Microsoft Cloud Partner benefits rather than as part of the Visual Studio Enterprise subscriptions.
+This article explains eligibility, permitted use, and important limitations that partners and support teams should review before using Visual Studio Enterprise through MAICPP.
 
-### Core Visual Studio benefit for earning at least one competency of any kind
+## Eligibility and availability
 
-* Competencies at the silver level, you earn five Visual Studio Enterprise subscriptions
-* With one competency at gold level, you earn 10 Visual Studio Entperise subscriptions
+Visual Studio Enterprise Subscriptions are provided as part of the **developer tools and product license benefits** available through the Microsoft AI Cloud Partner Program. Availability depends on the partner’s **current program status and redeemed benefits**, as shown in **Partner Center**.
 
-### Other Visual Studio benefit for select competencies
+Visual Studio Enterprise Subscriptions:
 
-* Competencies at the silver level, you earn five Visual Studio Enterprise subscriptions
-* With one competency at gold level, you earn 25 Visual Studio Enterprise subscriptions
-  + Application Development
-  + Cloud customer Relationship Management
-  + Cloud Platform
-  + Cloud Productivity
-  + DevOps
++ Aren’t guaranteed entitlements
++ Might change as MAICPP benefits evolve
++ Must be actively redeemed and assigned
 
-Regardless of how many competencies a partner earns, the number of Visual Studio subscriptions is limited as follows:
+Partners should refer to [Partner Center](https://partner.microsoft.com/dashboard/home) as the authoritative source for their current Visual Studio Enterprise Subscription availability.
 
-### Limits for Visual Studio subscriptions earned through competencies
+## Visual Studio Enterprise Subscriptions
 
-* Maximum benefit for partners with only silver competencies, 25 Visual Studio Enterprise subscriptins per country/region; 75 worldwide
-* Maximum benefit for partners with at least one gold competency, 50 Visual Studio Enterprise subscriptions per country/region; 150 worldwide
+### Visual Studio Enterprise IDE (partner offering)
 
-## Subscriptions for partners purchasing the Action Pack
+Visual Studio Enterprise Subscriptions offered through MAICPP are **partner-specific editions** of Visual Studio Enterprise Subscriptions. These subscriptions provide access to the **Visual Studio Enterprise IDE** for eligible partner employees.
 
-Partners with a competency are eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
+While comparable to commercial Visual Studio Enterprise Subscriptions, some benefits in commercial offerings might not be included.
 
-With the Action Pack, the partner earns **three Visual Studio Professional subscriptions for the Microsoft Cloud Partner Program**. Visual Studio Professional for the Microsoft Cloud Partner Program is a custom offering without a commercially available equivalent in the market. Here's what's included:
+### Legacy Visual Studio Professional scenarios
 
-* Visual Studio Professional--latest version only
-* Windows Enterprise--latest version only, to use for development and testing only
-* Windows Server--latest version only, to use for development and testing only
+Some partners might still have access to **Visual Studio Professional Subscriptions** as part of **legacy benefits** from offers that are **no longer available for new purchase**.
 
-Visual Studio Professional for the Microsoft Cloud Partner Program subscribers can also download and use software for their development, including the SQL Server Developer Edition.
+These legacy subscriptions:
 
-The Visual Studio Professional for the Microsoft Cloud Partner Program subscription doesn't include:
-* Azure DevOps Services benefits
-* Azure DevTest individual credits
-* Technical support 
-* Training 
-* Other subscriber benefits included with some other Visual Studio subscriptions
++ Remain valid only through their original end date
++ Can’t be renewed
++ Depend on retained benefits as shown in Partner Center
+
+Visual Studio Professional Subscriptions aren’t considered a current or ongoing MAICPP offering.
 
 ## Internal use-only restriction
 
-Microsoft Cloud Partner Program rules stipulate that all software offered as a program benefit can only be used internally. This rule applies to the software offered for the individual Visual Studio subscribers' use, and the overall program software license benefits.
+Visual Studio Enterprise Subscriptions provided through the Microsoft AI Cloud Partner Program are **for internal use only**.
 
-This internal use-only restriction essentially means that partners can't use the software as part of work that they do for parties outside their own organization. Building an app for use by partner employees only is fine, but building an app that is part of a client project isn't allowed.
+Partners **might** use the Visual Studio Enterprise IDE to:
 
-## Sign-in required with Visual Studio
++ Build, test, and maintain applications for their **own internal business use**
 
-With Visual Studio subscriptions offered via the Microsoft Cloud Partner Program, the licensed user must sign in to Visual Studio using the same identity/login that was used to activate the Visual Studio subscription. Product keys aren't offered to unlock the product; signing in is the only option for running Visual Studio. The Visual Studio subscriber can operate offline for up to 30 days before Visual Studio stops working. When a user is online, Visual Studio silently refreshes the user's license status periodically to ensure the subscription is still valid.
+Partners **might not** use the Visual Studio Enterprise IDE to:
 
-## Resources
++ Deliver services to customers
++ Develop, test, or maintain applications as part of **customer or client projects**
++ Use the software in revenue generating customer engagements
 
-* Download the [Terms of participation in the Microsoft Cloud Partner Program](https://aka.ms/partner-benefits-use-guide)
-* [Assign Visual Studio subscriptions to Microsoft Cloud Partner Program member employees](manage-mcpp-subscriptions.md)
-* For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://aka.ms/vssubscriberhelp).
+This restriction is a **Microsoft AI Cloud Partner Program requirement** and applies **regardless of how the Visual Studio Enterprise IDE is licensed or accessed**.
 
-## See also
+## Licensing and sign-in requirements
 
-* [Visual Studio documentation](/visualstudio/)
-* [Azure DevOps Services documentation](/azure/devops/)
-* [Azure documentation](/azure/)
-* [Microsoft 365 documentation](/microsoft-365/)
+Visual Studio Enterprise Subscriptions offered through MAICPP:
 
-## Next steps
++ Are licensed per **named user**
++ Must be assigned to individual partner employees
++ Are activated through **sign-in**, not product keys
 
-Learn how to [manage Visual Studio subscriptions](manage-mcpp-subscriptions.md) offered through the Microsoft Partner Network.
+Users must sign in to the **Visual Studio Enterprise IDE** using the same account that was used to activate the subscription.
+
+The IDE periodically validates subscription status while online.
+
+If validation fails or the benefit expires, access to the Visual Studio Enterprise IDE might be restricted.
+
+## Managing Visual Studio Enterprise Subscriptions
+
+Visual Studio Enterprise Subscriptions provided through the Microsoft AI Cloud Partner Program are **assigned to users in Partner Center**.
+
+Partner Center is the authoritative system for:
+
++ Redeeming MAICPP benefits
++ Assigning Visual Studio Enterprise Subscriptions to eligible employees
++ Managing access based on partner eligibility
+
+Partners should use **Partner Center** to assign or remove access to Visual Studio Enterprise. Changes made outside of Partner Center don’t affect MAICPP provided subscriptions.
+
+The **Visual Studio Subscriptions administration portal** might be visible to some partners, but it **isn’t used to assign or manage Visual Studio Enterprise Subscriptions provided through MAICPP**.
+
+## Common questions
+
+**Does sign-in licensing change how I’m allowed to use Visual Studio Enterprise?**
+
+No. Sign-in licensing affects **how access is validated**, not **how the software might be used**. Internal-use restrictions still apply.
+
+**Can I use Visual Studio Enterprise for customer work if I don’t download anything?**
+
+No. Even without downloads or product keys, Visual Studio Enterprise Subscriptions provided through MAICPP might not be used for customer or client projects.
+
+**Where can I see what I’m entitled to?**
+
+**Partner Center** is the system of record for Visual Studio Enterprise Subscription availability and eligibility.
+
+### Resources
+
++ [Microsoft AI Cloud Partner Program benefits and usage guidance](https://learn.microsoft.com/partner-center/membership/mpn-overview)
++ [Managing partner benefits in Partner Center](https://learn.microsoft.com/partner-center/benefits/manage-your-partner-network-benefits)
++ [Assigning Visual Studio Enterprise Subscriptions to partner employees](https://learn.microsoft.com/partner-center/benefits/mpn-benefits-visual-studio)
++ [Visual Studio Subscriptions support resources](https://visualstudio.microsoft.com/subscriptions/support/)
+
+### See also
+
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps Services documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
