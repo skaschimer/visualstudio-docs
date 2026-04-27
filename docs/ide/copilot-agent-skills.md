@@ -1,7 +1,7 @@
 ---
-title: Use agent skills with GitHub Copilot
-description: Learn how to define reusable agent skills that teach Copilot agents how to perform specific tasks in Visual Studio.
-ms.date: 04/23/2026
+title: Use Agent Skills with GitHub Copilot
+description: Learn how to define reusable Agent Skills that teach Copilot agents how to perform specific tasks in Visual Studio.
+ms.date: 04/27/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -14,7 +14,7 @@ ms.update-cycle: 180-days
 monikerRange: '>= visualstudio'
 ---
 
-# Use agent skills with GitHub Copilot
+# Use Agent Skills with GitHub Copilot
 
 Agent skills are reusable sets of instructions that teach Copilot agents how to perform specific tasks, like running a build pipeline, generating boilerplate, or following your team's coding standards. By defining skills once, you save time and ensure consistent behavior across your workflow.
 
@@ -25,7 +25,7 @@ Skills complement [custom agents](copilot-specialized-agents.md) and [custom ins
 + [Visual Studio 2026 version 18.5](/visualstudio/releases/2026/release-notes) or later
 + A [GitHub Copilot subscription](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
 
-## How agent skills work
+## How Agent Skills work
 
 When you use [agent mode](copilot-agent-mode.md), Copilot automatically discovers skills from your repository and user profile. The agent decides when a skill is relevant to your request and activates it. When a skill is activated, it appears in the chat to let you know it's being applied.
 
@@ -126,8 +126,8 @@ When creating GitHub issues:
 - Include step-by-step instructions, examples, and common edge cases.
 
 ## Manage skills from the skills panel
-
-Select the **Tools** icon in the bottom-right corner of Copilot Chat to open the skills panel, a dedicated view of every discovered skill.
+<!-- Skills panel is in GA in 18.6 -->
+Select the **Tools** icon in the bottom-right corner of Copilot Chat to open the skills panel, a dedicated view of every discovered skill. The Skills panel is available only in the Visual Studio 2026 Insiders.
 
 :::image type="content" source="media/visualstudio/skills-panel.png" alt-text="Screenshot that shows the skills panel where you can edit and open skills." lightbox="media/visualstudio/skills-panel.png":::
 
@@ -139,6 +139,7 @@ From the panel, you can:
 
 The panel also surfaces diagnostics for any skill configuration errors, so you can quickly spot and fix issues.
 
+<!-- Remove for now. Simona would like to see a dedicated article for this subject 
 ## Skills vs. custom instructions
 
 You might already use [custom instructions](copilot-chat-context.md#use-custom-instructions) (`.github/copilot-instructions.md`) to guide Copilot's behavior. Custom instructions are great for broad, always-on guidance, such as "use tabs, not spaces" or "prefer async/await over callbacks." They're automatically applied to every interaction with Copilot.
@@ -154,6 +155,7 @@ Agent skills are different. Skills are task-specific and dynamically loaded. The
 Use custom instructions for rules that should always apply. Use skills for specialized workflows that only matter in certain contexts.
 
 You can also extend your agent's capabilities through [MCP tools](mcp-servers.md), which let the agent interact with external services and APIs. Skills and MCP tools complement each other — a skill can describe how to handle a task while an MCP tool provides the capability to execute it.
+-->
 
 ## Community skills
 

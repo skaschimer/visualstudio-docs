@@ -398,6 +398,6 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 ## Related content
 
 - [Use custom agents in GitHub Copilot](copilot-specialized-agents.md)
-- [Use agent skills](copilot-agent-skills.md)
+- [Use Agent Skills](copilot-agent-skills.md)
 - [GitHub Copilot Edits](copilot-edits.md)
 - [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
