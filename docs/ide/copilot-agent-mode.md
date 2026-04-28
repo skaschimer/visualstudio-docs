@@ -333,35 +333,7 @@ You can selectively disable the planning tool set directly in the Tools list in 
 ### Give feedback
 
 We’re actively improving Planning in agent mode. Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
-:::moniker range="visualstudio"
 
-## Delegate tasks to the cloud agent (Preview)
-
-The GitHub Copilot cloud agent lets you offload tasks to Copilot running in the cloud. Unlike agent mode, which runs locally in the IDE, the cloud agent works asynchronously on GitHub's infrastructure and creates a pull request for you to review when it's finished.
-
-Use the cloud agent for tasks like UI cleanups, refactors, documentation updates, and multi-file edits that you want to hand off while you stay focused on other work.
-
-> [!NOTE]
-> The cloud agent requires your solution to be connected to a GitHub repository.
-
-### Enable the cloud agent
-
-1. Select **Tools** > **Options**.
-1. In the sidebar, select **GitHub**.
-1. Select the **Enable Copilot Cloud agent (preview)** checkbox.
-1. Restart Visual Studio.
-
-### Delegate a task
-
-1. Open Copilot Chat and enter a prompt describing the task.
-1. Select the **Delegate this task to the GitHub Copilot cloud agent** button, next to the **Send** button.
-1. Select **Confirm** when prompted.
-
-Copilot starts a new session and responds with a link to the pull request it creates. It works on the task and pushes changes to the pull request, then adds you as a reviewer when it's finished.
-
-For more information about the cloud agent, including how to track sessions and configure settings, see [GitHub Copilot cloud agent (GitHub Docs)](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent).
-
-:::moniker-end
 ## Frequently asked questions
 
 ### What visibility does agent mode have into my files?
