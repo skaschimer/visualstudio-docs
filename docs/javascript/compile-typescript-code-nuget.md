@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using NuGet
 description: Add TypeScript support to your Visual Studio projects by using the NuGet package for portability across different platforms and environments.
-ms.date: 5/15/2025
+ms.date: 4/27/2026
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -51,19 +51,25 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
    Use the following example, which shows a simple *tsconfig.json* file.
 
    ```json
-   {
-     "compilerOptions": {
-       "noImplicitAny": false,
-       "noEmitOnError": true,
-       "removeComments": false,
-       "sourceMap": true,
-       "target": "es5",
-       "outDir": "wwwroot/js"
-     },
-     "include": [
-       "scripts/**/*"
-     ]
-   }
+    {
+      "compileOnSave": true,
+      "compilerOptions": {
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "target": "ES6",
+        "rootDir": "./scripts",
+        "outDir": "wwwroot/js"
+      },
+      "include": [
+        "scripts/**/*"
+      ],
+      "exclude": [
+        "node_modules",
+        "wwwroot"
+      ]
+    }
    ```
 
    In this example:
@@ -91,16 +97,6 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
    If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s) along with the generated *js.map file(s).
 
    Source map files are required for debugging.
-
-1. If you want to compile every time you save the project, use the *compileOnSave* option in *tsconfig.json*.
-
-   ```json
-   {
-      "compileOnSave":  true,
-      "compilerOptions": {
-      }
-   }
-   ```
 
 For an example of using gulp with the Task Runner to build your app, see [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html).
 

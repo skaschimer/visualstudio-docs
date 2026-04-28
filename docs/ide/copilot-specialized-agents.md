@@ -140,6 +140,8 @@ The built-in agents cover common workflows, but your team knows your workflow be
 
 Custom agents become especially powerful when combined with [MCP (Model Context Protocol)](mcp-servers.md). You can connect agents to external knowledge sources like internal documentation, design systems, APIs, and databases, so the agent isn't limited to what's in your repository.
 
+You can also define reusable [Agent Skills](copilot-agent-skills.md) that any agent can discover and use automatically. While agents define a persona and tool set, skills provide focused, task-specific instructions.
+
 ### Create a custom agent
 
 Define custom agents as `.agent.md` files in your repository's `.github/agents/` folder:
@@ -335,6 +337,7 @@ Share your custom agent configurations in the [awesome-copilot repository](https
 ## Related content
 
 + [Get started with GitHub Copilot agent mode](copilot-agent-mode.md)
++ [Use Agent Skills](copilot-agent-skills.md)
 + [Use MCP servers](mcp-servers.md)
 + [Customize chat responses and set context](copilot-chat-context.md)
 + [GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md)
