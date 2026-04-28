@@ -102,10 +102,10 @@ description: Creates and manages GitHub issues following team conventions. Use w
 
 When creating GitHub issues:
 
-1. Use the standard title format: [Component] Brief description
-2. Add appropriate labels based on issue type
-3. Include reproduction steps for bug reports
-4. Link related issues and PRs
+- Use the standard title format: [Component] Brief description
+- Add appropriate labels based on issue type
+- Include reproduction steps for bug reports
+- Link related issues and PRs
 ```
 
 #### Frontmatter properties
